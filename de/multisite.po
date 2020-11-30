@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
 "Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2020-11-20 16:52+0000\n"
+"PO-Revision-Date: 2020-11-30 17:30+0000\n"
 "Last-Translator: Weblate Admin <marketing@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: ../cmk/gui/cee/plugins/views/sla.py:250
 #, python-format
@@ -331,10 +332,9 @@ msgstr "% RAM"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:46
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:48
-#, fuzzy, python-format
-#| msgid "% of maximum connections"
+#, python-format
 msgid "% of maximum active connections"
-msgstr "% der maximalen Verbindungen"
+msgstr "% der maximal aktiven Verbindungen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_connections.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_connections.py:33
@@ -609,10 +609,9 @@ msgid "%s Properties"
 msgstr "%s Eigenschaften"
 
 #: ../cmk/gui/plugins/metrics/network.py:1465
-#, fuzzy, python-format
-#| msgid "GET Requests"
+#, python-format
 msgid "%s Requests"
-msgstr "GET-Anfragen"
+msgstr "%s-Anfragen"
 
 #: ../cmk/gui/wato/pages/diagnostics.py:398
 #, python-format
@@ -4097,7 +4096,7 @@ msgstr "Counter hinzufügen"
 msgid "Add Counter Object"
 msgstr "Leistungsindikatorobjekt hinzufügen"
 
-#: ../cmk/gui/dashboard.py:1524
+#: ../cmk/gui/dashboard.py:1521
 msgid "Add Dashlet"
 msgstr "Dashlet hinzufügen"
 
@@ -14589,7 +14588,7 @@ msgid "Context switches"
 msgstr "Kontextswitche"
 
 #: ../cmk/gui/views.py:1189 ../cmk/gui/visuals.py:641
-#: ../cmk/gui/dashboard.py:1502 ../cmk/gui/cee/reporting.py:1294
+#: ../cmk/gui/dashboard.py:1499 ../cmk/gui/cee/reporting.py:1294
 #: ../cmk/gui/cee/reporting.py:1526
 msgid "Continue"
 msgstr "Fortsetzen"
@@ -14693,7 +14692,7 @@ msgstr "Sende Hinweis an das Dashlet"
 msgid "Copy Rules From Master"
 msgstr "Kopiere Regeln vom Master"
 
-#: ../cmk/gui/dashboard.py:902 ../cmk/gui/dashboard.py:1416
+#: ../cmk/gui/dashboard.py:902 ../cmk/gui/dashboard.py:1413
 #, fuzzy
 msgid "Copy existing view"
 msgstr "Vorhandene Ansicht"
@@ -17796,7 +17795,7 @@ msgstr "Gefährlich"
 msgid "Dashboard"
 msgstr "Übersichten"
 
-#: ../cmk/gui/dashboard.py:1348
+#: ../cmk/gui/dashboard.py:1345
 msgid "Dashboard Properties"
 msgstr "Übersicht-Eigenschaften"
 
@@ -20450,7 +20449,7 @@ msgstr "Alle zusätzlichen IPv4-Adresse anpingen"
 msgid "Display average"
 msgstr "Durchschnitt anzeigen"
 
-#: ../cmk/gui/dashboard.py:1354
+#: ../cmk/gui/dashboard.py:1351
 msgid "Display dashboard title"
 msgstr "Titel der Übersicht anzeigen"
 
@@ -22433,7 +22432,7 @@ msgstr "Benutzergraph editieren"
 msgid "Edit Dashboards"
 msgstr "Übersichten bearbeiten"
 
-#: ../cmk/gui/dashboard.py:1559
+#: ../cmk/gui/dashboard.py:1556
 msgid "Edit Dashlet"
 msgstr "Dashlet bearbeiten"
 
@@ -23045,7 +23044,7 @@ msgstr "Report an %s gemailt."
 msgid "Emails containing %s per Second"
 msgstr "Emails, die %s pro Sekunde enthalten"
 
-#: ../cmk/gui/dashboard.py:1391
+#: ../cmk/gui/dashboard.py:1388
 #, fuzzy
 msgid "Embed existing view"
 msgstr "Vorhandene Ansicht"
@@ -50591,7 +50590,7 @@ msgstr "Normale Änderung"
 #: ../cmk/gui/plugins/dashboard/single_metric.py:33
 #: ../cmk/gui/plugins/dashboard/event_bar_chart_dashlet.py:51
 #: ../cmk/gui/backup.py:1801 ../cmk/gui/dashboard.py:842
-#: ../cmk/gui/dashboard.py:1591 ../cmk/gui/forms.py:65 ../cmk/gui/forms.py:68
+#: ../cmk/gui/dashboard.py:1588 ../cmk/gui/forms.py:65 ../cmk/gui/forms.py:68
 #: ../cmk/gui/key_mgmt.py:266 ../cmk/gui/key_mgmt.py:388
 #: ../cmk/gui/key_mgmt.py:484 ../cmk/gui/wato/pages/users.py:337
 #: ../cmk/gui/wato/pages/folders.py:370 ../cmk/gui/wato/pages/services.py:1141
@@ -52908,7 +52907,7 @@ msgstr "Anfragen pro Sekunde"
 msgid "Require a comment"
 msgstr "Kommentare entfernen"
 
-#: ../cmk/gui/dashboard.py:1363
+#: ../cmk/gui/dashboard.py:1360
 #, fuzzy
 #| msgid "Required switch contact state"
 msgid "Required context filters"
@@ -53088,10 +53087,8 @@ msgid "Restore"
 msgstr "Wiederherstellen"
 
 #: ../cmk/gui/backup.py:570
-#, fuzzy
-#| msgid "Restore from this backup target"
 msgid "Restore from backup"
-msgstr "Von diesem Sicherungsziel wiederherstellen"
+msgstr "Vom Sicherungsziel wiederherstellen"
 
 #: ../cmk/gui/wato/pages/backup.py:288
 #, python-format
@@ -54441,7 +54438,7 @@ msgid "Saturday"
 msgstr "Samstag"
 
 #: ../cmk/gui/plugins/wato/bi_config.py:293
-#: ../cmk/gui/plugins/wato/bi_config.py:975 ../cmk/gui/dashboard.py:1668
+#: ../cmk/gui/plugins/wato/bi_config.py:975 ../cmk/gui/dashboard.py:1665
 #: ../cmk/gui/page_menu.py:423 ../cmk/gui/wato/pages/ldap.py:246
 #: ../cmk/gui/wato/pages/hosts.py:67
 msgid "Save"
@@ -55237,7 +55234,7 @@ msgstr "Wählen Sie den Typ des Berichtelements"
 msgid "Select the type of fixed page element"
 msgstr "Wählen Sie den Typ des Seitenelements"
 
-#: ../cmk/gui/dashboard.py:1487
+#: ../cmk/gui/dashboard.py:1484
 #, fuzzy
 msgid "Select view"
 msgstr "Ansicht auswählen"
@@ -57332,7 +57329,7 @@ msgstr "Zeige reservierten Platz für <tt>root</tt>-User"
 msgid "Show stale hosts and services"
 msgstr "Alle veralteten Hosts und Services zeigen"
 
-#: ../cmk/gui/dashboard.py:1365
+#: ../cmk/gui/dashboard.py:1362
 msgid ""
 "Show the dialog that can be used to update the dashboard context on initial "
 "dashboard rendering and enforce the user to provide the context filters that "
@@ -57360,7 +57357,7 @@ msgstr "Zeige oben den Zeitbereich des Graphs"
 msgid "Show the graph vertical axis"
 msgstr "Zeige die vertikale Achse"
 
-#: ../cmk/gui/dashboard.py:1355
+#: ../cmk/gui/dashboard.py:1352
 msgid "Show the header of the dashboard with the configured title."
 msgstr "Den konfigurierten Titel der Übersicht auf der Seite anzeigen"
 
@@ -63944,17 +63941,17 @@ msgstr "Die Kunden-ID %s existiert nicht."
 msgid "The dashlet can not be found on the dashboard."
 msgstr "Das Element konnte auf der Übersicht nicht gefunden werden."
 
-#: ../cmk/gui/dashboard.py:1145 ../cmk/gui/dashboard.py:1564
-#: ../cmk/gui/dashboard.py:1712 ../cmk/gui/dashboard.py:1744
-#: ../cmk/gui/dashboard.py:1781
+#: ../cmk/gui/dashboard.py:1145 ../cmk/gui/dashboard.py:1561
+#: ../cmk/gui/dashboard.py:1709 ../cmk/gui/dashboard.py:1741
+#: ../cmk/gui/dashboard.py:1778
 msgid "The dashlet does not exist."
 msgstr "Das Dashlet existiert nicht."
 
-#: ../cmk/gui/dashboard.py:1649
+#: ../cmk/gui/dashboard.py:1646
 msgid "The dashlet has been added to the dashboard."
 msgstr "Das Element wurde der Übersicht hinzugefügt."
 
-#: ../cmk/gui/dashboard.py:1647
+#: ../cmk/gui/dashboard.py:1644
 msgid "The dashlet has been saved."
 msgstr "Das Element wurde gespeichert."
 
@@ -64395,7 +64392,7 @@ msgstr "Die Funktion %s ist nicht als snapshot-Funktion verfügbar."
 msgid "The given base object \"%s\" does not exist in LDAP (%s))"
 msgstr "Objekt <tt>%s</tt> ist im LDAP nicht vorhanden (%s)"
 
-#: ../cmk/gui/dashboard.py:1431
+#: ../cmk/gui/dashboard.py:1428
 msgid "The given datasource is not supported"
 msgstr "Die angegebene Datenquelle wird nicht unterstützt."
 
@@ -64702,7 +64699,7 @@ msgstr "Die ID für des Sensors."
 msgid "The identifier of the thermal sensor."
 msgstr "Indikator für den Wärme-Fühler."
 
-#: ../cmk/gui/visuals.py:841 ../cmk/gui/dashboard.py:1551
+#: ../cmk/gui/visuals.py:841 ../cmk/gui/dashboard.py:1548
 #, python-format
 msgid "The info %s does not exist."
 msgstr "Die Informationsquelle %s existiert nicht."
@@ -65277,8 +65274,8 @@ msgstr ""
 msgid "The name of the cluster resource as shown in the service description."
 msgstr "Der Name des Clusters so wie er im Servicenamen angezeigt werden soll."
 
-#: ../cmk/gui/dashboard.py:1195 ../cmk/gui/dashboard.py:1512
-#: ../cmk/gui/dashboard.py:1700 ../cmk/gui/dashboard.py:1732
+#: ../cmk/gui/dashboard.py:1195 ../cmk/gui/dashboard.py:1509
+#: ../cmk/gui/dashboard.py:1697 ../cmk/gui/dashboard.py:1729
 msgid "The name of the dashboard is missing."
 msgstr "Der Name der Übersicht fehlt."
 
@@ -65983,14 +65980,14 @@ msgid "The requested connection does not exist."
 msgstr "Diese Verbindung existiert nicht"
 
 #: ../cmk/gui/dashboard.py:444 ../cmk/gui/dashboard.py:1140
-#: ../cmk/gui/dashboard.py:1202 ../cmk/gui/dashboard.py:1519
-#: ../cmk/gui/dashboard.py:1707 ../cmk/gui/dashboard.py:1739
-#: ../cmk/gui/dashboard.py:1776
+#: ../cmk/gui/dashboard.py:1202 ../cmk/gui/dashboard.py:1516
+#: ../cmk/gui/dashboard.py:1704 ../cmk/gui/dashboard.py:1736
+#: ../cmk/gui/dashboard.py:1773
 msgid "The requested dashboard does not exist."
 msgstr "Die angefragte Übersicht existiert nicht."
 
 #: ../cmk/gui/figures.py:52 ../cmk/gui/dashboard.py:1216
-#: ../cmk/gui/dashboard.py:1529
+#: ../cmk/gui/dashboard.py:1526
 msgid "The requested dashlet type does not exist."
 msgstr "Die angeforderte Art von Element existiert nicht."
 
@@ -77219,7 +77216,7 @@ msgstr "Änderungen speichern"
 msgid "View layout"
 msgstr "Grundlayout"
 
-#: ../cmk/gui/plugins/dashboard/view.py:138 ../cmk/gui/dashboard.py:1454
+#: ../cmk/gui/plugins/dashboard/view.py:138 ../cmk/gui/dashboard.py:1451
 #, fuzzy
 msgid "View name"
 msgstr "Name der Ansicht"
@@ -81234,9 +81231,9 @@ msgstr "Sie dürfen diese %s nicht löschen."
 msgid "You are not allowed to edit %s."
 msgstr "Sie dürfen %s nicht bearbeiten."
 
-#: ../cmk/gui/dashboard.py:476 ../cmk/gui/dashboard.py:1508
-#: ../cmk/gui/dashboard.py:1696 ../cmk/gui/dashboard.py:1728
-#: ../cmk/gui/dashboard.py:1768
+#: ../cmk/gui/dashboard.py:476 ../cmk/gui/dashboard.py:1505
+#: ../cmk/gui/dashboard.py:1693 ../cmk/gui/dashboard.py:1725
+#: ../cmk/gui/dashboard.py:1765
 msgid "You are not allowed to edit dashboards."
 msgstr "Sie dürfen Übersichten nicht bearbeiten."
 
