@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
+"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2020-12-12 07:00+0000\n"
+"PO-Revision-Date: 2020-12-14 20:35+0000\n"
 "Last-Translator: Louis Wevers <louis@wevers.tv>\n"
 "Language-Team: Dutch <https://translate.checkmk.com/projects/checkmk/"
 "software/nl/>\n"
@@ -177,14 +177,14 @@ msgstr " of int"
 #: ../cmk/gui/plugins/views/commands.py:125
 #, python-format
 msgid " spread over %d minutes "
-msgstr ""
+msgstr " verspreid over %d minuten "
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1312
 #: ../cmk/gui/watolib/users.py:326 ../cmk/gui/wato/mkeventd.py:771
 #: ../cmk/gui/wato/mkeventd.py:800 ../cmk/gui/wato/mkeventd.py:845
 #: ../cmk/gui/wato/pages/notifications.py:189
 msgid " to:"
-msgstr ""
+msgstr " naar:"
 
 #: ../cmk/gui/watolib/rulespecs.py:1078
 #, python-format
@@ -196,7 +196,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:69
 #, python-format
 msgid "\"%s\" is not a valid python encoding."
-msgstr ""
+msgstr "\"%s\" is geen geldige python code."
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:302
 #, python-format
@@ -206,35 +206,39 @@ msgid ""
 "instanced for every matching group. Thus enforce delimiters outside the "
 "group."
 msgstr ""
+"\"%s\" is niet toegestaan binnen de reguliere expressie groep %s. Bindende "
+"karakters in groepen verdwijnen na discovery, omdat processen geïnstancieerd "
+"worden voor elke matchende groep. Daarom worden scheidingstekens buiten de "
+"groep afgedwongen."
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:516
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:530
 msgid "# Containers"
-msgstr ""
+msgstr "# Containers"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:519
 msgid "# Containers paused"
-msgstr ""
+msgstr "# Gepauzeerde containers"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:517
 msgid "# Containers running"
-msgstr ""
+msgstr "# Draaiende containers"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:518
 msgid "# Containers stopped"
-msgstr ""
+msgstr "# Gestopte containers"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:440
 msgid "# Hosts"
-msgstr ""
+msgstr "# Hosts"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:520
 msgid "# Images"
-msgstr ""
+msgstr "# Afbeeldingen"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:441
 msgid "# Services"
-msgstr ""
+msgstr "# Services"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jvm_tp.py:42
 #: ../cmk/gui/plugins/wato/check_parameters/jvm_tp.py:43
@@ -263,11 +267,11 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/db2_sortoverflow.py:37
 #: ../cmk/gui/plugins/metrics/unit.py:67 ../cmk/gui/plugins/metrics/unit.py:69
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:918
 msgid "% / min"
-msgstr ""
+msgstr "% / min"
 
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_volumes.py:153
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_volumes.py:158
@@ -276,17 +280,17 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_luns.py:81
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_luns.py:86
 msgid "% / range"
-msgstr ""
+msgstr "% / bereik"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:936
 #: ../cmk/gui/plugins/wato/utils/__init__.py:939
 msgid "% above predicted value"
-msgstr ""
+msgstr "% boven voorspelde waarde"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:979
 #: ../cmk/gui/plugins/wato/utils/__init__.py:982
 msgid "% below predicted value"
-msgstr ""
+msgstr "% onder voorspelde waarde"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db2_tablespaces.py:35
 #: ../cmk/gui/plugins/wato/check_parameters/db2_tablespaces.py:36
@@ -296,18 +300,18 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/db2_tablespaces.py:96
 #, python-format
 msgid "% free"
-msgstr ""
+msgstr "% vrij"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db2_mem.py:23
 #: ../cmk/gui/plugins/wato/check_parameters/db2_mem.py:24
 msgid "% memory left"
-msgstr ""
+msgstr "% geheugen vrij"
 
 #: ../cmk/gui/plugins/wato/check_parameters/general_flash_usage.py:26
 #: ../cmk/gui/plugins/wato/check_parameters/general_flash_usage.py:27
 #, python-format
 msgid "% of Flash"
-msgstr ""
+msgstr "% van Flash"
 
 #: ../cmk/gui/plugins/wato/check_parameters/netscaler_mem.py:25
 #: ../cmk/gui/plugins/wato/check_parameters/netscaler_mem.py:29
@@ -323,13 +327,13 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_mem.py:43
 #, python-format
 msgid "% of RAM"
-msgstr ""
+msgstr "% van RAM"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:46
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:48
 #, python-format
 msgid "% of maximum active connections"
-msgstr ""
+msgstr "% van maximum active connecties"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_connections.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_connections.py:33
@@ -337,13 +341,13 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:103
 #, python-format
 msgid "% of maximum connections"
-msgstr ""
+msgstr "% van maximum connecties"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:63
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:65
 #, python-format
 msgid "% of maximum idle connections"
-msgstr ""
+msgstr "% van maximum vrije connecties"
 
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_qos.py:48
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_qos.py:51
@@ -351,12 +355,12 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_qos.py:94
 #, python-format
 msgid "% of port speed"
-msgstr ""
+msgstr "% van poort snelheid"
 
 #: ../cmk/gui/plugins/wato/check_parameters/clr_memory.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/clr_memory.py:40
 msgid "% time"
-msgstr ""
+msgstr "% tijd"
 
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_volumes.py:82
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_volumes.py:86
@@ -366,7 +370,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:240
 #, python-format
 msgid "% usage"
-msgstr ""
+msgstr "% gebruikt"
 
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:34
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:35
@@ -374,27 +378,27 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:54
 #, python-format
 msgid "% used"
-msgstr ""
+msgstr "% gebruikt"
 
 #: ../cmk/gui/plugins/wato/check_parameters/memory_arbor.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/memory_arbor.py:72
 #, python-format
 msgid "%% of %s"
-msgstr ""
+msgstr "%% van %s"
 
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:234
 #, python-format
 msgid "%.1f mm"
-msgstr ""
+msgstr "%.1f mm"
 
 #: ../cmk/gui/cee/plugins/reporting/sla.py:104
 #, python-format
 msgid "%.2f%% OK"
-msgstr ""
+msgstr "%.2f%% OK"
 
 #: ../cmk/gui/plugins/metrics/unit.py:225
 msgid "%/m"
-msgstr ""
+msgstr "%/m"
 
 #: ../cmk/utils/render.py:42
 msgid "%H:%M:%S"
