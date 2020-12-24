@@ -10141,14 +10141,6 @@ msgstr ""
 "diese implizit bekannt ist. Wenn Sie jedoch mehrere Hosts in einem "
 "gemeinsamen Check überwachen möchten, können Sie hier IP-Adressen angeben."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:51
-msgid ""
-"By default, the Python 3 executable is started using the command "
-"<tt>python3</tt>, wheras Python 2.x is is started using the command "
-"<tt>python</tt>. If this behavior doesn't match your requirements, you can "
-"choose or specify an alternative executable path."
-msgstr ""
-
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
 #, fuzzy
 #| msgid ""
@@ -17291,12 +17283,6 @@ msgstr "Benutzer-Alarmtabelle diese Benutzers"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:137
 #: ../cmk/gui/plugins/wato/datasource_programs.py:530
 msgid "Custom path prefix"
-msgstr "Benutzerdefiniertes Pfadpräfix"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:59
-#, fuzzy
-#| msgid "Custom path prefix"
-msgid "Custom python path"
 msgstr "Benutzerdefiniertes Pfadpräfix"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3398
@@ -27285,24 +27271,6 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:60
 msgid "From Start"
 msgstr "Von Anfang an"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:57
-#, fuzzy
-#| msgid "Use from environment"
-msgid "From environment: python"
-msgstr "Verwendung aus der Umgebung"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:56
-#, fuzzy
-#| msgid "Use from environment"
-msgid "From environment: python2"
-msgstr "Verwendung aus der Umgebung"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:55
-#, fuzzy
-#| msgid "Use from environment"
-msgid "From environment: python3"
-msgstr "Verwendung aus der Umgebung"
 
 #: ../cmk/gui/cee/reporting.py:264
 msgid "From left of the page"
@@ -48068,10 +48036,6 @@ msgstr "Pfad zu <tt>MegaCLI.exe</tt>"
 msgid "Path to a CA certificate"
 msgstr "CA-Zertifikat hinzufügen"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:61
-msgid "Path to python executable"
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:39
 msgid "Path to sapgenpse"
 msgstr "Pfad zu sapgenpse"
@@ -51068,42 +51032,12 @@ msgstr "Geben Sie hier den Namen der Datenbank an, z.B. SATURN\\ARCSERVE_DB"
 msgid "Put this element on"
 msgstr "Dieses Element auf folgende Seiten setzen:"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:45
-msgid "Python 2.5/2.6"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:44
-msgid "Python 2.7"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:43
-#, fuzzy
-#| msgid "Python Version"
-msgid "Python 3"
-msgstr "Python-Version"
-
 #: ../cmk/gui/crash_reporting.py:422
 msgid "Python Module Paths"
 msgstr "Python-Modul-Pfad"
 
 #: ../cmk/gui/crash_reporting.py:418
 msgid "Python Version"
-msgstr "Python-Version"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:24
-msgid "Python agent plugin options (UNIX)"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:49
-#, fuzzy
-#| msgid "Executable:"
-msgid "Python executable"
-msgstr "Programm:"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:35
-#, fuzzy
-#| msgid "Python Version"
-msgid "Python version"
 msgstr "Python-Version"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:625
@@ -57067,17 +57001,6 @@ msgstr "Diese Instanz ist deaktiviert"
 #: ../cmk/utils/werks.py:49
 msgid "Setup, site management"
 msgstr "Installation, Instanzverwaltung"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:25
-msgid ""
-"Several agent plugins are implemented using Python. They require a python "
-"installation on the target hosts. In this rule, you can choose which python "
-"version is available on your hosts. This helps the bakery to decide which "
-"plugin file to include in the baked agents. Optionally, you can choose a "
-"command for the execution.<br>If this rule is not set, the agent bakery will "
-"deploy Python 3 plugins, that get executed with command <tt>python3</tt> on "
-"the hosts."
-msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:466
 msgid ""
@@ -66073,12 +65996,6 @@ msgstr ""
 "Der angegebene Pfad existiert nicht oder ist kein Verzeichnis. Sie müssen "
 "ein bereits existierendes Verzeichnis wählen."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:63
-msgid ""
-"The path specified here will be prepended with <tt>#!</t> and act as shebang "
-"for the target python plugin file."
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:124
 msgid ""
 "The path to the value within the MBean, for example NonHeapMemoryUsage/used"
@@ -69199,16 +69116,6 @@ msgstr ""
 "Ansicht neuerlich geöffnet wird dann werden neuen Auswahlen verwendet. "
 "Vorhandene Auswahlen bleiben nur für die maximale Lebensdauer am Server "
 "erhalten."
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:37
-msgid ""
-"This option determines the script file version and the execution command on "
-"the target host. For <b>Python 3</b> and <b>Python 2.7</b>, the same script "
-"will be deployed. Between Python 2.5/2.6 and Python 2.7, there are some "
-"breaking syntax changes in the python language. Hence, for the choice "
-"<b>Python 2.5/2.6</b>, a legacy script will be deployed. Older versions are "
-"not supported.<br>"
-msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:297
 msgid ""
@@ -86691,6 +86598,41 @@ msgstr ""
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Custom path prefix"
+#~ msgid "Custom python path"
+#~ msgstr "Benutzerdefiniertes Pfadpräfix"
+
+#, fuzzy
+#~| msgid "Use from environment"
+#~ msgid "From environment: python"
+#~ msgstr "Verwendung aus der Umgebung"
+
+#, fuzzy
+#~| msgid "Use from environment"
+#~ msgid "From environment: python2"
+#~ msgstr "Verwendung aus der Umgebung"
+
+#, fuzzy
+#~| msgid "Use from environment"
+#~ msgid "From environment: python3"
+#~ msgstr "Verwendung aus der Umgebung"
+
+#, fuzzy
+#~| msgid "Python Version"
+#~ msgid "Python 3"
+#~ msgstr "Python-Version"
+
+#, fuzzy
+#~| msgid "Executable:"
+#~ msgid "Python executable"
+#~ msgstr "Programm:"
+
+#, fuzzy
+#~| msgid "Python Version"
+#~ msgid "Python version"
+#~ msgstr "Python-Version"
 
 #, fuzzy
 #~| msgid "Check state of BI Aggregations"

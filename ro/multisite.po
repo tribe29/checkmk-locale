@@ -9303,14 +9303,6 @@ msgid ""
 "or multiple hosts."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:51
-msgid ""
-"By default, the Python 3 executable is started using the command "
-"<tt>python3</tt>, wheras Python 2.x is is started using the command "
-"<tt>python</tt>. If this behavior doesn't match your requirements, you can "
-"choose or specify an alternative executable path."
-msgstr ""
-
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
 msgid ""
 "By default, the filesystem checks (<tt>df</tt>, <tt>hr_fs</tt> and others) "
@@ -16048,11 +16040,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:530
 #, fuzzy
 msgid "Custom path prefix"
-msgstr "Atribute personalizate"
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:59
-#, fuzzy
-msgid "Custom python path"
 msgstr "Atribute personalizate"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3398
@@ -25535,18 +25522,6 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:60
 msgid "From Start"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:57
-msgid "From environment: python"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:56
-msgid "From environment: python2"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:55
-msgid "From environment: python3"
 msgstr ""
 
 #: ../cmk/gui/cee/reporting.py:264
@@ -44963,10 +44938,6 @@ msgstr ""
 msgid "Path to a CA certificate"
 msgstr "Adaugă notificare"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:61
-msgid "Path to python executable"
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:39
 msgid "Path to sapgenpse"
 msgstr ""
@@ -47777,18 +47748,6 @@ msgstr ""
 msgid "Put this element on"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:45
-msgid "Python 2.5/2.6"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:44
-msgid "Python 2.7"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:43
-msgid "Python 3"
-msgstr ""
-
 #: ../cmk/gui/crash_reporting.py:422
 msgid "Python Module Paths"
 msgstr ""
@@ -47796,19 +47755,6 @@ msgstr ""
 #: ../cmk/gui/crash_reporting.py:418
 msgid "Python Version"
 msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:24
-msgid "Python agent plugin options (UNIX)"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:49
-msgid "Python executable"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:35
-#, fuzzy
-msgid "Python version"
-msgstr "Conexiuni Active"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:625
 msgid "QOS class"
@@ -53635,17 +53581,6 @@ msgstr "Notificari"
 
 #: ../cmk/utils/werks.py:49
 msgid "Setup, site management"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:25
-msgid ""
-"Several agent plugins are implemented using Python. They require a python "
-"installation on the target hosts. In this rule, you can choose which python "
-"version is available on your hosts. This helps the bakery to decide which "
-"plugin file to include in the baked agents. Optionally, you can choose a "
-"command for the execution.<br>If this rule is not set, the agent bakery will "
-"deploy Python 3 plugins, that get executed with command <tt>python3</tt> on "
-"the hosts."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:466
@@ -61576,12 +61511,6 @@ msgid ""
 "already existing directory."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:63
-msgid ""
-"The path specified here will be prepended with <tt>#!</t> and act as shebang "
-"for the target python plugin file."
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:124
 msgid ""
 "The path to the value within the MBean, for example NonHeapMemoryUsage/used"
@@ -64065,16 +63994,6 @@ msgid ""
 "persisted for the currently open view. When a view is re-opened a new "
 "selection is used. The old one remains on the server until the livetime is "
 "exceeded."
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_scripts.py:37
-msgid ""
-"This option determines the script file version and the execution command on "
-"the target host. For <b>Python 3</b> and <b>Python 2.7</b>, the same script "
-"will be deployed. Between Python 2.5/2.6 and Python 2.7, there are some "
-"breaking syntax changes in the python language. Hence, for the choice "
-"<b>Python 2.5/2.6</b>, a legacy script will be deployed. Older versions are "
-"not supported.<br>"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:297
@@ -79601,6 +79520,14 @@ msgstr ""
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Custom python path"
+#~ msgstr "Atribute personalizate"
+
+#, fuzzy
+#~ msgid "Python version"
+#~ msgstr "Conexiuni Active"
 
 #, fuzzy
 #~ msgid "Check state of BI aggregations"
