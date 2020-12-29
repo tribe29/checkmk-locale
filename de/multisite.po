@@ -185,15 +185,6 @@ msgstr "über %d Minuten verteilt"
 msgid " to:"
 msgstr " An:"
 
-#: ../cmk/gui/watolib/rulespecs.py:1079
-#, python-format
-msgid ""
-"!!! Error: Received class in RulespecRegistry:register_manual_check_rulespec "
-"%r"
-msgstr ""
-"!!! Fehler: Empfangene Klasse in RulespecRegistry:"
-"register_manual_check_rulespec %r"
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:69
 #, python-format
 msgid "\"%s\" is not a valid python encoding."
@@ -14071,7 +14062,7 @@ msgstr ""
 msgid "Configured feature mismatch"
 msgstr "Diskrepanz konfigurierter Features"
 
-#: ../cmk/gui/watolib/rulespecs.py:1199
+#: ../cmk/gui/watolib/rulespecs.py:1198
 msgid "Configured timeperiod parameters"
 msgstr "Konfigurierte Parameter der Zeitperiode"
 
@@ -18443,7 +18434,7 @@ msgstr "Voreingestellter Linien Stil"
 msgid "Default parameters for detected services"
 msgstr "Standardparameter für erkannte Services"
 
-#: ../cmk/gui/watolib/rulespecs.py:1188
+#: ../cmk/gui/watolib/rulespecs.py:1187
 msgid "Default parameters when no timeperiod matches"
 msgstr "Default-Parameter wenn keine Zeitperiod zutrifft"
 
@@ -20139,7 +20130,7 @@ msgstr "Installierte Pakete"
 msgid "Disable this test"
 msgstr "Diesen Test deaktiveren"
 
-#: ../cmk/gui/watolib/rulespecs.py:1149
+#: ../cmk/gui/watolib/rulespecs.py:1148
 #, fuzzy
 msgid "Disable timespecific parameters"
 msgstr "%s zeitspezifische Parameter"
@@ -23432,7 +23423,7 @@ msgstr ""
 msgid "Enable this package"
 msgstr "Installierte Pakete"
 
-#: ../cmk/gui/watolib/rulespecs.py:1155
+#: ../cmk/gui/watolib/rulespecs.py:1154
 #, fuzzy
 msgid "Enable timespecific parameters"
 msgstr "%s zeitspezifische Parameter"
@@ -23966,6 +23957,17 @@ msgstr "Fehler in Ansicht: %s"
 #, python-format
 msgid "Error while rendering element type '%s'"
 msgstr "Fehler bei der Darstellung von Elementtyp '%s'"
+
+#: ../cmk/gui/watolib/rulespecs.py:1079
+#, fuzzy, python-format
+#| msgid ""
+#| "!!! Error: Received class in RulespecRegistry:"
+#| "register_manual_check_rulespec %r"
+msgid ""
+"Error: Received class in RulespecRegistry:register_manual_check_rulespec %r"
+msgstr ""
+"!!! Fehler: Empfangene Klasse in RulespecRegistry:"
+"register_manual_check_rulespec %r"
 
 #: ../cmk/gui/watolib/snapshots.py:341
 msgid ""
@@ -35019,6 +35021,12 @@ msgstr "Ungültiges Zeitformat '%s'. Gültiges Format: <tt>24:00</tt>."
 msgid "Invalid time resolution key \"%s\" given"
 msgstr "Ungültiger Graph-Spezifikations-Typ \"%s\" angegeben"
 
+#: ../cmk/gui/valuespec.py:3984
+#, fuzzy, python-format
+#| msgid "Invalid ident: %s"
+msgid "Invalid time unit %s"
+msgstr "Ungültiger Schlüssel: %s"
+
 #: ../cmk/gui/wato/pages/timeperiods.py:659
 msgid ""
 "Invalid timeperiod name. Only the characters a-z, A-Z, 0-9, _ and - are "
@@ -39900,7 +39908,7 @@ msgid "Match only Event Console alerts"
 msgstr "Nur Alarme der Event Console zulassen"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1320
-#: ../cmk/gui/watolib/rulespecs.py:1193 ../cmk/gui/wato/mkeventd.py:840
+#: ../cmk/gui/watolib/rulespecs.py:1192 ../cmk/gui/wato/mkeventd.py:840
 msgid "Match only during timeperiod"
 msgstr "Nur während Zeitperiode"
 
@@ -39998,7 +40006,7 @@ msgid "Match the internal identifier"
 msgstr "Interne ID matchen"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1322
-#: ../cmk/gui/watolib/rulespecs.py:1194
+#: ../cmk/gui/watolib/rulespecs.py:1193
 msgid ""
 "Match this rule only during times where the selected timeperiod from the "
 "monitoring system is active."
