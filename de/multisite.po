@@ -4,10 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
+"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-01-13 07:00+0000\n"
-"Last-Translator: Marcel Arentz <marcel.arentz@tribe29.com>\n"
+"PO-Revision-Date: 2021-01-13 10:15+0000\n"
+"Last-Translator: Elias Voelker <elias.voelker@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
 "Language: de\n"
@@ -2069,10 +2069,10 @@ msgstr ""
 "dann werden nur die ersten passenden Unterausdrücke für die "
 "Servicebeschreibungen verwendet. Die übereinstimmenden Teilzeichenketten, "
 "die den übrigen Gruppen entsprechen, werden dennoch in den regulären "
-"Ausdruck kopiert. </p><p>Als Alternative zu <tt>%s</tt> können Sie auch <tt>"
-"%1</tt>, <tt>%2</tt>, etc. verwenden.  Diese werden durch die erste, zweite, "
-"zweite, .... passende Gruppe ersetzt. Dies ermöglicht es Ihnen, die Dinge "
-"neu zu ordnen."
+"Ausdruck kopiert. </p><p>Als Alternative zu <tt>%s</tt> können Sie auch "
+"<tt>%1</tt>, <tt>%2</tt>, etc. verwenden.  Diese werden durch die erste, "
+"zweite, ... passende Gruppe ersetzt. Dies ermöglicht es Ihnen, die Dinge neu "
+"zu ordnen."
 
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:78
 msgid ""
@@ -2659,7 +2659,7 @@ msgid ""
 "whole agent. If no timeout is configured here, the default is 60 seconds."
 msgstr ""
 "Ein Timeout für Plugins und lokale Checks verhindert, dass diese Checks den "
-"kompletten Agenten blockieren. Wenn kein Timeout konfiguriert ist, ist der "
+"kompletten Agenten blockieren. Ist kein Timeout konfiguriert, ist der "
 "Standardwert 60 Sekunden."
 
 #: ../cmk/gui/plugins/wato/bi_config.py:322
@@ -4959,6 +4959,15 @@ msgid ""
 "Maximum returns the average of the maximum values obtained from the RRD "
 "files."
 msgstr ""
+"Nachdem der Monitoring Kern eine konsolidierte Zeitreihe zurückgibt, werden "
+"alle Datenwerte in einem einzigen Wert zusammengefasst um sie in der Tabelle "
+"anzuzeigen. Außerdem sind standardmäßige statistische Funktionen, wie "
+"Durchschnitt, Maximum und Minimum, verfügbar. Zusätzlich kann noch der "
+"Perzentilwert berechnet werden. Es ist wichtig zu verstehen, dass die "
+"statistische Analyse mit Hilfe der zusammengefassten Zeitreihe erfolgt. "
+"Deswegen wird der Durchschnitt der maximalen Werte der RRD Dateien "
+"angezeigt, wenn man hier Durchschnitt und im RRD Konsolidierungsfeld Maximum "
+"wählt."
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:610
 msgid ""
@@ -4971,6 +4980,15 @@ msgid ""
 "reports. Finally, since a trend is a rate select the time range for display "
 "day, week or bank (30 day) month."
 msgstr ""
+"Nachdem der Monitoring Kern die konsolidierte Zeitreihe mit Tagesauflösung "
+"zurückgibt, wird der Trend berechnet. Es stehen zwei Verfahren zur Verfügung:"
+" Das Erste wendet eine lineare Regression auf die Daten an.  Das Zweite "
+"benutzt die Forecast engine um einen Forecast Graphen für den Trend der "
+"Daten zu berechnen. Dieses Verfahren ist relativ rechenintensiv und dauert "
+"deswegen auch länger. Es sollte nicht für Ansichten verwendet werden die "
+"unmittelbare Visualisierung benötigen, sondern eher in geplanten Reports. Da "
+"der Trend eine Rate ist, muss ein Zeitbereich dafür festgelegt werden (Tag, "
+"Woche, Monat)."
 
 #: ../cmk/gui/wato/mkeventd.py:3707
 msgid "After this number of days old logfile of event history will be deleted."
@@ -5009,7 +5027,7 @@ msgstr "Die Angabe des Altersfilters muss das Format <operator><int> haben."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:392
 msgid "Age in weeks of log data to fetch"
-msgstr ""
+msgstr "Alter der abgerufenen Logdaten (in Wochen)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fortinet_signatures.py:41
 msgid "Age of Anti-Virus signature"
@@ -5068,10 +5086,8 @@ msgid "Age of oldest notification is over maximum age"
 msgstr "Der älteste Alarm hat das maximale Alter überschritten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/vm_snapshots.py:33
-#, fuzzy
-#| msgid "Age of the last snapshot"
 msgid "Age of the latest snapshot"
-msgstr "Alter des letzten Sicherungspunktes"
+msgstr "Alter des neuesten Sicherungspunktes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/vm_snapshots.py:25
 msgid "Age of the oldest snapshot"
@@ -5084,16 +5100,14 @@ msgid "Agent"
 msgstr "Agent"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:554
-#, fuzzy, python-format
-#| msgid "Agent baking currently running in <a href=\"%s\">background job</a>."
+#, python-format
 msgid "Agent %s currently running in <a href=\"%s\">background job</a>."
-msgstr "Agentenbacken, läuft derzeit im <a href=\"%s\">Hintergrund</a>."
+msgstr "Agent %s, läuft derzeit im <a href=\"%s\">Hintergrund</a>."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:564
-#, fuzzy, python-format
-#| msgid "Agent baking successful"
+#, python-format
 msgid "Agent %s successful"
-msgstr "Agentenbacken erfolgreich"
+msgstr "Agent %s erfolgreich"
 
 #: ../cmk/gui/wato/pages/rulesets.py:498
 msgid "Agent Bakery"
@@ -5150,10 +5164,8 @@ msgid "Agent Version"
 msgstr "Agentenversion"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1336
-#, fuzzy
-#| msgid "Agent baking successful"
 msgid "Agent access rules"
-msgstr "Agentenbacken erfolgreich"
+msgstr "Zugriffsregeln des Agents"
 
 #: ../cmk/utils/werks.py:52
 msgid "Agent bakery"
@@ -5165,10 +5177,8 @@ msgid "Agent baking"
 msgstr "Agentenbäckerei"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:866
-#, fuzzy
-#| msgid "Agent baking finished."
 msgid "Agent baking and signing"
-msgstr "Agentenbacken beendet."
+msgstr "Agentenbacken und signieren."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:883
 msgid "Agent baking finished."
@@ -5176,13 +5186,11 @@ msgstr "Agentenbacken beendet."
 
 #: ../cmk/utils/packaging.py:125
 msgid "Agent based plugins (Checks, Inventory)"
-msgstr ""
+msgstr "Agenten-basierte Plugins (Checks, Inventory)"
 
 #: ../cmk/gui/cee/plugins/views/icons/agent_bakery.py:21
-#, fuzzy
-#| msgid "Agent deployment status"
 msgid "Agent deployment"
-msgstr "Status der Agentenupdates"
+msgstr "Bereitstellung des Agenten"
 
 #: ../cmk/gui/cee/agent_bakery.py:721
 msgid ""
@@ -5207,10 +5215,8 @@ msgstr "Agentenausgabe"
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1255
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4874
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:409
-#, fuzzy
-#| msgid "Agent files"
 msgid "Agent rules"
-msgstr "Agentendateien"
+msgstr "Agentenregeln"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_sections.py:26
 msgid "Agent sections to be executed"
@@ -5223,15 +5229,12 @@ msgid "Agent signature keys"
 msgstr "Agenten-Signaturschlüssel"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1602
-#, fuzzy
-#| msgid "Agent baking"
 msgid "Agent signing"
-msgstr "Agentenbäckerei"
+msgstr "Agent signieren"
 
 #: ../cmk/gui/plugins/wato/check_parameters/agent_update.py:33
-#, fuzzy
 msgid "Agent update"
-msgstr "Agentenupdates"
+msgstr "Agentenupdate"
 
 #: ../cmk/gui/cee/plugins/views/agent_bakery.py:79
 msgid "Agent update status"
@@ -5242,10 +5245,8 @@ msgid "Agent updater (Linux, Windows)"
 msgstr "Agent-Updater (Linux, Windows)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1052
-#, fuzzy
-#| msgid "Agent updates"
 msgid "Agent updater ruleset"
-msgstr "Agentenupdates"
+msgstr "Regelkette des Agentenupdater"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:208
 msgid ""
@@ -5288,26 +5289,20 @@ msgid "Aggregate"
 msgstr "Aggregat"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:784
-#, fuzzy
-#| msgid "Aggregated assumed state"
 msgid "Aggregate PGA auto target"
-msgstr "Aggregierter Status (geschätzt)"
+msgstr "Aggregiertes, automatisches PGA-Ziel"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:785
-#, fuzzy
-#| msgid "Aggregated state (number)"
 msgid "Aggregate PGA target parameter"
-msgstr "Aggregationsstatus (Nummer)"
+msgstr "Aggregierter PGA-Ziel Parameter"
 
 #: ../cmk/gui/plugins/views/bi.py:335
 msgid "Aggregated assumed state"
 msgstr "Aggregierter Status (geschätzt)"
 
 #: ../cmk/gui/plugins/wato/bi_config.py:1187
-#, fuzzy
-#| msgid "Aggregated result"
 msgid "Aggregated nodes"
-msgstr "Aggregierter Status"
+msgstr "Aggregierte Knoten"
 
 #: ../cmk/gui/plugins/views/bi.py:315
 msgid "Aggregated real state (never assumed)"
@@ -5358,10 +5353,8 @@ msgid "Aggregation assignment"
 msgstr "Aggregationszuordnung"
 
 #: ../cmk/gui/plugins/views/icons/builtin.py:1059
-#, fuzzy
-#| msgid "Aggregations"
 msgid "Aggregation checks"
-msgstr "Aggregationen"
+msgstr "Aggregierte Checks"
 
 #: ../cmk/gui/cee/plugins/metrics/historic.py:177
 #, fuzzy
@@ -5379,10 +5372,8 @@ msgid "Aggregation group tree"
 msgstr "Aggregationsgruppenbaum"
 
 #: ../cmk/gui/plugins/wato/bi_config.py:1568
-#, fuzzy
-#| msgid "Aggregation group"
 msgid "Aggregation groups"
-msgstr "Aggregationsgruppe"
+msgstr "Aggregationsgruppen"
 
 #: ../cmk/gui/plugins/views/bi.py:375 ../cmk/gui/plugins/views/sorters.py:573
 msgid "Aggregation name"
@@ -5448,7 +5439,7 @@ msgstr "Schwellwerte für Luftströmung"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3148
 msgid "Alarms"
-msgstr ""
+msgstr "Alarme"
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:604
 msgid "Alert"
@@ -5584,16 +5575,12 @@ msgid "Alert on too high power consumption"
 msgstr "Alarmiere bei zu hohem Energieverbrauch"
 
 #: ../cmk/gui/plugins/dashboard/event_bar_chart_dashlet.py:229
-#, fuzzy
-#| msgid "Delete time range"
 msgid "Alert timeline"
-msgstr "Datums- & Zeitbereich löschen"
+msgstr "Zeitachse der Warnungen"
 
 #: ../cmk/gui/cee/ntop/pages.py:465
-#, fuzzy
-#| msgid "Alert"
 msgid "Alerted"
-msgstr "Alarm"
+msgstr "Alarmiert"
 
 #: ../cmk/gui/plugins/wato/check_parameters/licenses.py:47
 msgid "Alerting depending on the number of used licenses is disabled"
@@ -5645,15 +5632,12 @@ msgid "All Aggregations"
 msgstr "Alle Aggregationen"
 
 #: ../cmk/gui/cee/ntop/pages.py:1233
-#, fuzzy
-#| msgid "All Reports"
 msgid "All Alerted"
-msgstr "Alle Berichte"
+msgstr "Alle Alarmierten"
 
 #: ../cmk/gui/plugins/views/builtin.py:2622
-#, fuzzy
 msgid "All CRIT services of a given site."
-msgstr "Alle Services einer bestimmten Instanz."
+msgstr "Alle kritischen Services einer bestimmten Instanz."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_eventlog.py:33
 msgid "All Eventlogs"
@@ -5664,15 +5648,12 @@ msgid "All Hosts"
 msgstr "Alle Hosts"
 
 #: ../cmk/gui/plugins/views/builtin.py:2538
-#, fuzzy
 msgid "All OK services of a given site."
-msgstr "Alle Services einer bestimmten Instanz."
+msgstr "Alle Services, mit Status OK, einer bestimmten Instanz."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:5008
-#, fuzzy
-#| msgid "All SNMP Checks"
 msgid "All SNMP sections"
-msgstr "Alle SNMP Checks"
+msgstr "Alle SNMP Sektionen"
 
 #: ../cmk/gui/plugins/views/builtin.py:1831
 msgid "All Services with a certain description"
@@ -5683,14 +5664,12 @@ msgid "All Services with this description:"
 msgstr "Alle Services mit dieser Beschreibung:"
 
 #: ../cmk/gui/plugins/views/builtin.py:2664
-#, fuzzy
 msgid "All UNKNOWN services of a given site."
-msgstr "Alle Services einer bestimmten Instanz."
+msgstr "Alle unbekannten Services einer bestimmten Instanz."
 
 #: ../cmk/gui/plugins/views/builtin.py:2580
-#, fuzzy
 msgid "All WARN services of a given site."
-msgstr "Alle Services einer bestimmten Instanz."
+msgstr "Alle Services, mit Status WARN, einer bestimmten Instanz."
 
 #: ../cmk/gui/cee/ntop/pages.py:92
 msgid ""
@@ -5883,7 +5862,8 @@ msgid ""
 "free to move the host to another folder after creation."
 msgstr ""
 "Alle Hosts, die durch diese Verbindung angelegt werden, werden in diesem "
-"Ordner erzeugt. Sie können die Hosts anschließend nach Belieben verschieben."
+"Ordner erzeugt. Sie können die Hosts anschließend nach Belieben in einen "
+"anderen Ordner verschieben."
 
 #: ../cmk/gui/plugins/views/builtin.py:1942
 msgid "All hosts of site"
@@ -6454,7 +6434,7 @@ msgid ""
 "Amount of time that the application of redo data on the standby database "
 "lags behind the primary database"
 msgstr ""
-"Zeit, die die Anwendung von Redo-Daten auf die Standby-Datenbank nach der "
+"Zeit, welche die Anwendung von Redo-Daten auf die Standby-Datenbank nach der "
 "Primären Datenbank braucht"
 
 #: ../cmk/gui/plugins/wato/check_parameters/aws.py:134
@@ -9728,7 +9708,7 @@ msgid ""
 "the data to the VM itself."
 msgstr ""
 "Standardmäßig werden Daten, die sich auf eine VM beziehen, an den "
-"Gruppenhost gesendet, der der Ressourcegruppe der VM entspricht, wie bei "
+"Gruppenhost gesendet, welcher der Ressourcegruppe der VM entspricht, wie bei "
 "jeder anderen Ressource. Wenn die VM in Ihrem Monitoring als separater Host "
 "vorhanden ist, können Sie wählen, ob Sie die Daten an die VM selbst senden "
 "möchten."
@@ -32631,12 +32611,12 @@ msgstr ""
 "schieben Sie sie einfach in den Unterordner <tt>plugins</tt> des "
 "Installationsverzeichnisses Ihres Agenten. <i>Lokale Checks</i> "
 "funktionieren genauso, werden aber in <tt>local</tt> installiert. Plugins, "
-"die mit der über ein Agentenpaket ausgerollt werden, werden vom MSI "
-"Installer in das selbe Verzeichnis installiert. Dieser Regelsatz schränkt "
-"die Dateiendungen ein, die der Agent ausführen wird. Dies vermeidet "
-"beispielsweise die Ausführung eines Notepads, wenn eine Datei mit der Endung "
-"<tt>.txt</tt> gefunden wird. <b>Anmerkung:</b> Wenn Sie einige der "
-"Standardendungen entfernen, werden nicht alle ausgelieferten Agentenplugins "
+"die über ein Agentenpaket ausgerollt wurden, werden vom MSI Installer in das "
+"selbe Verzeichnis installiert. Dieser Regelsatz schränkt die Dateiendungen "
+"ein, die der Agent ausführen wird. Dies vermeidet beispielsweise die "
+"Ausführung eines Notepads, wenn eine Datei mit der Endung <tt>.txt</tt> "
+"gefunden wird. <b>Anmerkung:</b> Wenn Sie einige der Standardendungen "
+"entfernen, werden nicht alle ausgelieferten Agentenplugins "
 "funktionieren!<br><br> Geben Sie die Endungen in Kleinbuchstaben und ohne "
 "führenden Punkt an."
 
@@ -35048,7 +35028,7 @@ msgstr ""
 "werden zwei Dateien angelegt: <tt>%s</t> und <tt>%s</tt>. Wenn Sie die "
 "zweite Datei ausführen, dann bekommen Sie Laufzeit-Statistiken über die "
 "zuletzt verarbeitete Seite. Wenn das Profiling pro Anfrage aktiviert ist, "
-"dann werden nur Profile für Anfragen erzeugt, die die HTTP-Variable "
+"dann werden nur Profile für Anfragen erzeugt, welche die HTTP-Variable "
 "<tt>_profile</tt> nutzen."
 
 #: ../cmk/gui/wato/pages/groups.py:141 ../cmk/gui/wato/pages/timeperiods.py:136
@@ -43818,7 +43798,7 @@ msgid ""
 msgstr ""
 "Normalerweise kann ein Nutzer sich von beliebig vielen Endgeräten "
 "gleichzeitig einloggen. Wenn Sie Ihre Nutzer zwingen wollen sich nur von "
-"einem Endgerät (Gerat und Browser) zur Zeit einloggen zu können, können Sie "
+"einem Endgerät (Gerät und Browser) zur Zeit einloggen zu können, können Sie "
 "diese Option aktivieren. Wenn ein Nutzer sich ausloggt oder für die hier "
 "konfigurierte Zeit inaktiv ist, wird seine Loginsitzung automatisch ungültig "
 "und der Nutzer muss sich erneut einloggen bzw. kann sich von einem anderen "
@@ -46649,7 +46629,6 @@ msgstr ""
 "beginnen"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:452
-#, fuzzy
 msgid ""
 "Our system will recognize breaks in the trend and set them automatically,\n"
 "but as a user your are required to select how flexible the trend is when it\n"
@@ -46678,7 +46657,8 @@ msgstr ""
 "Trendveränderungen über die analysierte Historie nutzen, um zukünftige\n"
 "Kursänderungen zu simulieren. Um Veränderungen aus der Vergangenheit\n"
 "nachzuahmen, werden zukünftige Veränderungen zufällig so gesampelt, so dass\n"
-"ihre durchschnittliche Häufigkeit mit der der Vergangenheit übereinstimmt.\n"
+"ihre durchschnittliche Häufigkeit mit der Häufigkeit der Vergangenheit "
+"übereinstimmt.\n"
 "\n"
 "Die Annahme, dass sich der Trend in der Zukunft mit der gleichen Frequenz\n"
 "wie in der Vergangenheit ändert, ist sehr stark. Als Indikator für die\n"
@@ -49196,12 +49176,12 @@ msgstr ""
 "Bitte wählen Sie hier die Aggregationsstufen. Die RRD fasst Metriken "
 "automatisch zusammen, sobald diese älter werden, um einen Kompromiss "
 "zwischen Genauigkeit und Speicherplatzbedarf zu schaffen. Per Default werden "
-"Daten 2880 Minuten lang mit einer Genauigkeit von einer Minute gespeichert "
-"(48 Stunden). Danach wird auf einen Wert pro 5 Minuten aggregiert (10 Tage), "
+"Daten 2880 Minuten lang mit einer Genauigkeit von einer Minute gespeichert ("
+"48 Stunden). Danach wird auf einen Wert pro 5 Minuten aggregiert (10 Tage), "
 "dann einen Wert pro 30 Minuten (90 Tage) und zum Schluss ein Wert pro 6 "
 "Stunden (4 Jahre). Beim Zusammenfassen wird aus z.B. 5 Werten ein neuer "
-"berechnet. Hier muss sich RRD entscheiden, ob das das Minimum, Maximum oder "
-"der Durchschnitt verwendet wird. Per Standardeinstellung werden alle drei "
+"berechnet. Hier muss sich RRD entscheiden, ob das Minimum, Maximum oder der "
+"Durchschnitt verwendet wird. Per Standardeinstellung werden alle drei "
 "Zusammenfassungen gleichzeitig gemacht."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3531
@@ -52127,7 +52107,7 @@ msgid ""
 "placed in the home directory of the user. Example: 'myDirectory' "
 msgstr ""
 "Der entfernte Pfad, wo die Datei abgelegt werden soll. Wenn dieses Feld leer "
-"gelassen wird, wird die Datei in das Heimatverzeichnis des Benutzers gelegt. "
+"bleibt, wird die Datei in das Heimatverzeichnis des Benutzers gelegt. "
 "Beispiel: 'meinEntfernterPfad' "
 
 #: ../cmk/gui/plugins/wato/check_parameters/tcp_connections.py:70
@@ -66930,7 +66910,7 @@ msgid ""
 "The view '%s' using the datasource '%s' can not be rendered because the "
 "datasource does not exist."
 msgstr ""
-"Die Ansicht '%s', die die Datenquelle '%s' nutzt, kann nicht dargestellt "
+"Die Ansicht '%s', welche die Datenquelle '%s' nutzt, kann nicht dargestellt "
 "werden, da die Datenquelle nicht existiert."
 
 #: ../cmk/gui/views.py:411
@@ -69888,8 +69868,8 @@ msgid ""
 "here are applicable to all checks."
 msgstr ""
 "Dieser Regelsatz konfiguriert Schwellwerte für die CPU-Auslastung (nicht "
-"Last!) für Linux/UNNIX, Windows und für VMWare ESX Hostsysteme, sowie für "
-"Geräte, die die Host Resources MIB implementieren. Die prozentuale "
+"Last!) für Linux/UNIX, Windows und für VMWare ESX Hostsysteme, sowie für "
+"Geräte, welche die Host Resources MIB implementieren. Die prozentuale "
 "Auslastung wird relativ zur Gesamtanzahl der CPUs berechnet. Beachten Sie, "
 "dass nicht alle Parameter die Sie hier konfigurieren können auf alle Checks "
 "angewendbar sind."
@@ -70790,13 +70770,14 @@ msgid ""
 "reachable. When using the Livestatus Proxy Daemon the GUI connects to the "
 "local proxy, in this situation a lower value, like 2 seconds is recommended."
 msgstr ""
-"Hiermit wird die Zeit eingestellt, die die GUI darauf wartet, dass eine "
-"Verbindung zur Instanz hergestellt wird, bevor die Instanz als unerreichbar "
-"angesehen wird. Es wird dringend empfohlen, hier einen möglichst niedrigen "
-"Wert einzustellen, da diese Einstellung direkt die GUI-Reaktionszeit "
-"beeinflusst, wenn die Destionierung nicht erreichbar ist. Bei Verwendung des "
-"Livestatus Proxy-Daemons verbindet sich die GUI mit dem lokalen Proxy, in "
-"dieser Situation wird ein niedrigerer Wert, wie z.B. 2 Sekunden empfohlen."
+"Hiermit wird die Zeit eingestellt, wie lange die GUI darauf wartet, dass "
+"eine Verbindung zur Instanz hergestellt wird, bevor die Instanz als "
+"unerreichbar angesehen wird. Es wird dringend empfohlen, hier einen "
+"möglichst niedrigen Wert einzustellen, da diese Einstellung direkt die GUI-"
+"Reaktionszeit beeinflusst, wenn die Destionierung nicht erreichbar ist. Bei "
+"Verwendung des Livestatus Proxy-Daemons verbindet sich die GUI mit dem "
+"lokalen Proxy, in dieser Situation wird ein niedrigerer Wert, wie z.B. 2 "
+"Sekunden empfohlen."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:860
 msgid ""
@@ -80240,13 +80221,13 @@ msgid ""
 msgstr ""
 "Wenn Sie erwarten, dass diese Regel auf Meldungen zutrifft, die von Hosts "
 "geschickt werden, die <i>nicht</i> im Monitoring der lokalen Instanz als "
-"Hosts vorhanden sind, können Sie hier Kontaktgruppen konfigurieren, die die "
-"Sichtbarkeit der erzeugten Ereignisse und die Empfänger eventuell erzeugter "
-"Alarme bestimmt.<br><br><i>Hinweise:</i><br>1. Wenn Sie diese Option "
-"aktivieren und kein Gruppe wählen, dann sehen Nutzer mit eingeschränkten "
-"Rechten die erzeugten Ereignisse nicht.<br>2. Wenn ein Host im Monitoring "
-"gefunden wird <b>und</b> in der Regel Kontaktgruppen konfiguriert sind, dann "
-"haben die Kontaktgruppen des Hosts vorrang. "
+"Hosts vorhanden sind, können Sie hier Kontaktgruppen konfigurieren, welche "
+"die Sichtbarkeit der erzeugten Ereignisse und die Empfänger eventuell "
+"erzeugter Alarme bestimmt.<br><br><i>Hinweise:</i><br>1. Wenn Sie diese "
+"Option aktivieren und kein Gruppe wählen, dann sehen Nutzer mit "
+"eingeschränkten Rechten die erzeugten Ereignisse nicht.<br>2. Wenn ein Host "
+"im Monitoring gefunden wird <b>und</b> in der Regel Kontaktgruppen "
+"konfiguriert sind, dann haben die Kontaktgruppen des Hosts vorrang. "
 
 #: ../cmk/gui/wato/pages/roles.py:391
 msgid ""
@@ -81726,7 +81707,7 @@ msgid ""
 "match."
 msgstr ""
 "Sie können die Regel auf bestimmte Services auf den spezifizierten Hosts "
-"einschränken. Dazu tragen Sie hier <b>Elemente</b>, auf die die Regel "
+"einschränken. Dazu tragen Sie hier <b>Elemente</b>, auf welche die Regel "
 "begrenzt werden soll. <b>Wichtig:</b> Die Übereinstimmung wird vom "
 "Wortanfang aus gesucht. Auch reguläre Ausdrücke sind möglich. Ein <tt>$</tt> "
 "am Ende führt zu einer genauen Auswertung."
