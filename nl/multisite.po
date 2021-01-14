@@ -50,6 +50,26 @@ msgstr " (kopiëren)"
 msgid " (day %d)"
 msgstr " (dag %d)"
 
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:744
+#, fuzzy
+#| msgid "%s per Second"
+msgid " (in errors per second)"
+msgstr "%s per Seconde"
+
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:954
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:967
+msgid " (in packets per second)"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:743
+msgid " (in relation to all packets (successful + error))"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:953
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:966
+msgid " (in relation to all successful packets)"
+msgstr ""
+
 #: ../cmk/gui/wato/pages/users.py:470
 msgid " (invalid)"
 msgstr " (ongeldig)"
@@ -814,6 +834,21 @@ msgstr "%s: Download uitvoer van de agent"
 #: ../cmk/gui/plugins/wato/ac_tests.py:265
 #, python-format
 msgid "%s: Not using SSL. Consider enabling it in the connection settings."
+msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:1110
+#, python-format
+msgid "%s: Top Application Traffic: Last Day View"
+msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:1099
+#, python-format
+msgid "%s: Top Application Traffic: Last Hour View"
+msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:1097 ../cmk/gui/cee/ntop/pages.py:1108
+#, python-format
+msgid "%s: Top Local Talkers"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:261
@@ -2765,6 +2800,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_tablespaces.py:74
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_tablespaces.py:92
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_tablespaces.py:110
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:562
 msgid "Absolute levels"
 msgstr ""
 
@@ -2847,11 +2883,6 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/oracle_sessions.py:39
 msgid "Absolute levels of active sessions"
-msgstr ""
-
-#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:562
-#, python-brace-format
-msgid "Absolute levels{abs_detail}"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:53
@@ -3901,11 +3932,11 @@ msgstr ""
 msgid "Add notification"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1441
+#: ../cmk/gui/wato/pages/notifications.py:1443
 msgid "Add notification rule"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1500
+#: ../cmk/gui/wato/pages/notifications.py:1502
 #, python-format
 msgid "Add notification rule for user %s"
 msgstr ""
@@ -5695,7 +5726,7 @@ msgid ""
 "actions"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1237
+#: ../cmk/gui/wato/pages/notifications.py:1239
 msgid "Also bulk outside of timeperiod"
 msgstr ""
 
@@ -5765,7 +5796,7 @@ msgstr ""
 msgid "Always assume host to be up"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1280
+#: ../cmk/gui/wato/pages/notifications.py:1282
 msgid "Always bulk"
 msgstr ""
 
@@ -8284,7 +8315,7 @@ msgstr ""
 msgid "Bulk discovery successful"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1292
+#: ../cmk/gui/wato/pages/notifications.py:1294
 msgid "Bulk during timeperiod"
 msgstr ""
 
@@ -8314,7 +8345,7 @@ msgid "Bulk renaming of hosts"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/notifications.py:1173
-#: ../cmk/gui/wato/pages/notifications.py:1222
+#: ../cmk/gui/wato/pages/notifications.py:1224
 msgid "Bulk up to"
 msgstr ""
 
@@ -8756,7 +8787,7 @@ msgid ""
 "exclude patterns will be excluded from the group and monitored individually."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1295
+#: ../cmk/gui/wato/pages/notifications.py:1297
 msgid ""
 "By enabling this option notifications will be bulked only if the specified "
 "timeperiod is active. When the timeperiod ends a bulk containing all "
@@ -8765,7 +8796,7 @@ msgid ""
 "of timeperiod\" can be used."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1238
+#: ../cmk/gui/wato/pages/notifications.py:1240
 msgid ""
 "By enabling this option notifications will be bulked outside of the defined "
 "timeperiod as well."
@@ -9345,7 +9376,7 @@ msgid "Call legs"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1736
-#: ../cmk/gui/wato/pages/notifications.py:1334
+#: ../cmk/gui/wato/pages/notifications.py:1336
 msgid "Call with the following parameters:"
 msgstr ""
 
@@ -9397,7 +9428,7 @@ msgstr ""
 msgid "Cancel notifications for this plugin type"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1346
+#: ../cmk/gui/wato/pages/notifications.py:1348
 msgid "Cancel previous notifications"
 msgstr ""
 
@@ -9904,12 +9935,12 @@ msgstr ""
 msgid "Changed host selection of agent updates"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1447
+#: ../cmk/gui/wato/pages/notifications.py:1449
 #, python-format
 msgid "Changed notification rule %d"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1474
+#: ../cmk/gui/wato/pages/notifications.py:1476
 #, python-format
 msgid "Changed notification rule %d of user %s"
 msgstr ""
@@ -11573,7 +11604,7 @@ msgstr ""
 #: ../cmk/gui/watolib/activate_changes.py:809
 #: ../cmk/gui/wato/pages/rulesets.py:1237
 #: ../cmk/gui/wato/pages/activate_changes.py:562
-#: ../cmk/gui/wato/pages/pattern_editor.py:260
+#: ../cmk/gui/wato/pages/pattern_editor.py:262
 msgid "Comment"
 msgstr ""
 
@@ -11842,7 +11873,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/rulesets.py:1606
 #: ../cmk/gui/wato/pages/predefined_conditions.py:137
 #: ../cmk/gui/wato/pages/notifications.py:305
-#: ../cmk/gui/wato/pages/notifications.py:1253
+#: ../cmk/gui/wato/pages/notifications.py:1255
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1224
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:266 ../cmk/gui/cee/sla.py:1853
 msgid "Conditions"
@@ -13325,7 +13356,7 @@ msgstr ""
 msgid "Create new host"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1539
+#: ../cmk/gui/wato/pages/notifications.py:1541
 msgid "Create new notification rule"
 msgstr ""
 
@@ -13509,11 +13540,11 @@ msgstr ""
 msgid "Created new host tag group '%s'"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1446
+#: ../cmk/gui/wato/pages/notifications.py:1448
 msgid "Created new notification rule"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1473
+#: ../cmk/gui/wato/pages/notifications.py:1475
 #, python-format
 msgid "Created new notification rule for user %s"
 msgstr ""
@@ -15347,7 +15378,7 @@ msgstr ""
 msgid "Customize login screen"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1205
+#: ../cmk/gui/wato/pages/notifications.py:1207
 msgid ""
 "Customize the subject for bulk notifications and overwrite default subject "
 "<tt>Check_MK: $COUNT_NOTIFICATIONS$ notifications for HOST</tt> resp. "
@@ -20042,13 +20073,13 @@ msgstr ""
 msgid "Edit model"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1442
-#: ../cmk/gui/wato/pages/notifications.py:1540
+#: ../cmk/gui/wato/pages/notifications.py:1444
+#: ../cmk/gui/wato/pages/notifications.py:1542
 #, python-format
 msgid "Edit notification rule %d"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1501
+#: ../cmk/gui/wato/pages/notifications.py:1503
 #, python-format
 msgid "Edit notification rule %d of user %s"
 msgstr ""
@@ -20220,7 +20251,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/bi_config.py:824 ../cmk/gui/wato/mkeventd.py:1868
 #: ../cmk/gui/wato/pages/rulesets.py:921
-#: ../cmk/gui/wato/pages/pattern_editor.py:273
+#: ../cmk/gui/wato/pages/pattern_editor.py:275
 msgid "Edit this rule"
 msgstr ""
 
@@ -20795,7 +20826,7 @@ msgstr ""
 msgid "Enabling"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1283
+#: ../cmk/gui/wato/pages/notifications.py:1285
 msgid ""
 "Enabling the bulk notifications will collect several subsequent "
 "notifications for the same contact into one single notification, which lists "
@@ -26006,7 +26037,7 @@ msgid ""
 "here at latest after one configured update interval."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:147
+#: ../cmk/gui/wato/pages/pattern_editor.py:149
 msgid "Here you need to insert the original file or pathname"
 msgstr ""
 
@@ -26770,7 +26801,7 @@ msgstr ""
 msgid "Host limit"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:114
+#: ../cmk/gui/wato/pages/pattern_editor.py:116
 msgid "Host log files"
 msgstr ""
 
@@ -27047,7 +27078,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/bulk_import.py:460
 #: ../cmk/gui/wato/pages/folders.py:804
 #: ../cmk/gui/wato/pages/host_diagnose.py:290
-#: ../cmk/gui/wato/pages/pattern_editor.py:144
+#: ../cmk/gui/wato/pages/pattern_editor.py:146
 #: ../cmk/gui/wato/pages/search.py:99 ../cmk/gui/wato/pages/hosts.py:360
 #: ../cmk/gui/wato/pages/hosts.py:542
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:62
@@ -28668,12 +28699,14 @@ msgstr ""
 msgid ""
 "If you enter the names of host/service-custom macros here then for each "
 "different combination of values of those macros a separate bulk will be "
-"created. This can be used in combination with the grouping by folder, host "
-"etc. Omit any leading underscore. <b>Note</b>: If you are using Nagios as a "
-"core you need to make sure that the values of the required macros are "
-"present in the notification context. This is done in <tt>check_mk_templates."
-"cfg</tt>. If you macro is <tt>_FOO</tt> then you need to add the variables "
-"<tt>NOTIFY_HOST_FOO</tt> and <tt>NOTIFY_SERVICE_FOO</tt>."
+"created. Service macros match first, if no service macro is found, the host "
+"macros are searched. This can be used in combination with the grouping by "
+"folder, host etc. Omit any leading underscore. <b>Note</b>: If you are using "
+"Nagios as a core you need to make sure that the values of the required "
+"macros are present in the notification context. This is done in "
+"<tt>check_mk_templates.cfg</tt>. If you macro is <tt>_FOO</tt> then you need "
+"to add the variables <tt>NOTIFY_HOST_FOO</tt> and <tt>NOTIFY_SERVICE_FOO</"
+"tt>."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:969
@@ -30889,7 +30922,7 @@ msgstr ""
 msgid "Issuer"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1356
+#: ../cmk/gui/wato/pages/notifications.py:1358
 msgid ""
 "It does not make sense to add a bulk configuration for cancelling rules."
 msgstr ""
@@ -31864,7 +31897,7 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1368
+#: ../cmk/gui/wato/pages/notifications.py:1370
 msgid ""
 "Legacy ASCII Emails do not support bulking. You can either disable "
 "notification bulking or choose another notification plugin which allows "
@@ -33638,7 +33671,7 @@ msgid "Logentry class"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:156
-#: ../cmk/gui/wato/pages/pattern_editor.py:146 ../cmk/gui/logwatch.py:264
+#: ../cmk/gui/wato/pages/pattern_editor.py:148 ../cmk/gui/logwatch.py:264
 #: ../cmk/gui/logwatch.py:272
 msgid "Logfile"
 msgstr ""
@@ -33659,26 +33692,26 @@ msgstr ""
 msgid "Logfile levels"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:84
+#: ../cmk/gui/wato/pages/pattern_editor.py:86
 msgid "Logfile pattern analyzer"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:46
-#: ../cmk/gui/wato/pages/pattern_editor.py:170
+#: ../cmk/gui/wato/pages/pattern_editor.py:172
 msgid "Logfile patterns"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:88
+#: ../cmk/gui/wato/pages/pattern_editor.py:90
 #, python-format
 msgid "Logfile patterns of Host %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:86
+#: ../cmk/gui/wato/pages/pattern_editor.py:88
 #, python-format
 msgid "Logfile patterns of logfile %s on all hosts"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:89
+#: ../cmk/gui/wato/pages/pattern_editor.py:91
 #, python-format
 msgid "Logfile patterns of logfile %s on host %s"
 msgstr ""
@@ -34985,7 +35018,7 @@ msgid "Master switch"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/mkeventd.py:317
-#: ../cmk/gui/wato/pages/pattern_editor.py:252
+#: ../cmk/gui/wato/pages/pattern_editor.py:254
 msgid "Match"
 msgstr ""
 
@@ -35200,7 +35233,7 @@ msgstr ""
 msgid "Match type"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:261
+#: ../cmk/gui/wato/pages/pattern_editor.py:263
 msgid "Matched line"
 msgstr ""
 
@@ -36899,7 +36932,7 @@ msgstr ""
 
 #: ../cmk/gui/crash_reporting.py:261
 #: ../cmk/gui/plugins/views/availability.py:377
-#: ../cmk/gui/wato/pages/pattern_editor.py:99
+#: ../cmk/gui/wato/pages/pattern_editor.py:101
 #: ../cmk/gui/wato/pages/check_catalog.py:468 ../cmk/gui/logwatch.py:217
 #: ../cmk/gui/logwatch.py:381
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1035
@@ -39222,8 +39255,8 @@ msgid "Notification"
 msgstr ""
 
 #: ../cmk/gui/watolib/users.py:242 ../cmk/gui/wato/pages/users.py:1075
-#: ../cmk/gui/wato/pages/notifications.py:1249
-#: ../cmk/gui/wato/pages/notifications.py:1271
+#: ../cmk/gui/wato/pages/notifications.py:1251
+#: ../cmk/gui/wato/pages/notifications.py:1273
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:223
 msgid "Notification Method"
 msgstr ""
@@ -39381,7 +39414,7 @@ msgstr ""
 msgid "Notifications are disabled, but is configured to be periodic"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1223
+#: ../cmk/gui/wato/pages/notifications.py:1225
 msgid "Notifications are kept back for bulking at most for this time."
 msgstr ""
 
@@ -40672,7 +40705,7 @@ msgstr ""
 msgid "On selected users"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:134
+#: ../cmk/gui/wato/pages/pattern_editor.py:136
 msgid ""
 "On this page you can test the defined logfile patterns against a custom "
 "text, for example a line from a logfile. Using this dialog it is possible to "
@@ -40790,7 +40823,7 @@ msgid ""
 "is being used."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1231
+#: ../cmk/gui/wato/pages/notifications.py:1233
 msgid "Only bulk notifications during the following timeperiod"
 msgstr ""
 
@@ -42483,7 +42516,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2456
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:184
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:185
-#: ../cmk/gui/wato/pages/pattern_editor.py:259
+#: ../cmk/gui/wato/pages/pattern_editor.py:261
 msgid "Pattern"
 msgstr ""
 
@@ -42853,6 +42886,7 @@ msgid "Percentile within the timerange"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/memory_linux.py:47
+#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:551
 msgid "Percentual levels"
 msgstr ""
 
@@ -42919,11 +42953,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/memory_linux.py:33
 #, python-format
 msgid "Percentual levels%s"
-msgstr ""
-
-#: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:551
-#, python-brace-format
-msgid "Percentual levels{percent_detail}"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/perfometer.py:206
@@ -46201,7 +46230,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/folders.py:138
 #: ../cmk/gui/wato/pages/activate_changes.py:87
 #: ../cmk/gui/wato/pages/diagnostics.py:115
-#: ../cmk/gui/wato/pages/pattern_editor.py:96
+#: ../cmk/gui/wato/pages/pattern_editor.py:98
 #: ../cmk/gui/wato/pages/audit_log.py:98
 #: ../cmk/gui/wato/pages/check_catalog.py:465
 #: ../cmk/gui/wato/pages/analyze_configuration.py:83
@@ -47538,8 +47567,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/bi_config.py:1245
 #: ../cmk/gui/plugins/wato/bi_config.py:1250 ../cmk/gui/wato/mkeventd.py:979
 #: ../cmk/gui/wato/mkeventd.py:1006 ../cmk/gui/wato/pages/rulesets.py:1698
-#: ../cmk/gui/wato/pages/notifications.py:1247
-#: ../cmk/gui/wato/pages/notifications.py:1265
+#: ../cmk/gui/wato/pages/notifications.py:1249
+#: ../cmk/gui/wato/pages/notifications.py:1267
 msgid "Rule Properties"
 msgstr ""
 
@@ -52970,7 +52999,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:1919 ../cmk/gui/wato/mkeventd.py:1937
 #: ../cmk/gui/wato/pages/ldap.py:344 ../cmk/gui/wato/pages/users.py:406
 #: ../cmk/gui/wato/pages/activate_changes.py:461
-#: ../cmk/gui/wato/pages/pattern_editor.py:258
+#: ../cmk/gui/wato/pages/pattern_editor.py:260
 #: ../cmk/gui/wato/pages/services.py:646
 #: ../cmk/gui/wato/pages/notifications.py:702
 #: ../cmk/gui/wato/pages/notifications.py:704
@@ -54235,7 +54264,7 @@ msgstr ""
 msgid "Subject"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1203
+#: ../cmk/gui/wato/pages/notifications.py:1205
 msgid "Subject for bulk notifications"
 msgstr ""
 
@@ -55520,7 +55549,7 @@ msgid "Text to cancel event(s)"
 msgstr ""
 
 #: ../cmk/gui/wato/mkeventd.py:753 ../cmk/gui/wato/mkeventd.py:1964
-#: ../cmk/gui/wato/pages/pattern_editor.py:149
+#: ../cmk/gui/wato/pages/pattern_editor.py:151
 msgid "Text to match"
 msgstr ""
 
@@ -57148,7 +57177,7 @@ msgstr ""
 msgid "The given ldap filter \"%s\" is invalid (%s)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1336
+#: ../cmk/gui/wato/pages/notifications.py:1338
 msgid ""
 "The given parameters are available in scripts as NOTIFY_PARAMETER_1, "
 "NOTIFY_PARAMETER_2, etc."
@@ -57991,7 +58020,7 @@ msgstr ""
 msgid "The notification is being processed"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1364
+#: ../cmk/gui/wato/pages/notifications.py:1366
 #, python-format
 msgid "The notification script %s does not allow bulking."
 msgstr ""
@@ -58512,7 +58541,7 @@ msgid ""
 "specified in \"Disk flush interval of updated metrics\"."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:249
+#: ../cmk/gui/wato/pages/pattern_editor.py:251
 msgid "The rule conditions do not match."
 msgstr ""
 
@@ -59131,7 +59160,7 @@ msgstr ""
 msgid "The user you are trying to edit does not exist."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1455
+#: ../cmk/gui/wato/pages/notifications.py:1457
 msgid "The user you are trying to edit notification rules for does not exist."
 msgstr ""
 
@@ -60238,7 +60267,7 @@ msgstr ""
 msgid "This group does not exist."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:77
+#: ../cmk/gui/wato/pages/pattern_editor.py:79
 msgid "This host does not exist."
 msgstr ""
 
@@ -60442,15 +60471,15 @@ msgstr ""
 msgid "This logfile contains no unacknowledged messages."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:244
+#: ../cmk/gui/wato/pages/pattern_editor.py:246
 msgid "This logfile pattern does not match the given string."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:241
+#: ../cmk/gui/wato/pages/pattern_editor.py:243
 msgid "This logfile pattern matches but another matched first."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:233
+#: ../cmk/gui/wato/pages/pattern_editor.py:235
 msgid ""
 "This logfile pattern matches first and will be used for defining the state "
 "of the given line."
@@ -62735,7 +62764,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:908
 #: ../cmk/gui/wato/pages/notifications.py:779
-#: ../cmk/gui/wato/pages/notifications.py:1221
+#: ../cmk/gui/wato/pages/notifications.py:1223
 msgid "Time horizon"
 msgstr ""
 
@@ -64079,7 +64108,7 @@ msgstr ""
 msgid "Trusted certificate authorities for SSL"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:143
+#: ../cmk/gui/wato/pages/pattern_editor.py:145
 msgid "Try Pattern Match"
 msgstr ""
 
@@ -64087,7 +64116,7 @@ msgstr ""
 msgid "Try bringing up TCP connection for"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1127 ../cmk/gui/wato/pages/pattern_editor.py:156
+#: ../cmk/gui/wato/mkeventd.py:1127 ../cmk/gui/wato/pages/pattern_editor.py:158
 msgid "Try out"
 msgstr ""
 
@@ -71393,7 +71422,7 @@ msgid ""
 "You can have these tags automatically added if certain primary tags are set."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:151
+#: ../cmk/gui/wato/pages/pattern_editor.py:153
 msgid ""
 "You can insert some text (e.g. a line of the logfile) to test the patterns "
 "defined for this logfile. All patterns for this logfile are listed below. "
@@ -72345,7 +72374,7 @@ msgstr ""
 msgid "You need to specify a backup job."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:80
+#: ../cmk/gui/wato/pages/pattern_editor.py:82
 msgid "You need to specify a host name to test file matching."
 msgstr ""
 
@@ -74728,7 +74757,7 @@ msgstr ""
 msgid "pretty-print configuration files"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/notifications.py:1345
+#: ../cmk/gui/wato/pages/notifications.py:1347
 msgid "previous notifications of this type are cancelled"
 msgstr ""
 
@@ -75618,21 +75647,6 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/download_agents.py:125
 msgid "z/OS"
-msgstr ""
-
-#: ../cmk/gui/cee/ntop/pages.py:1110
-#, python-brace-format
-msgid "{self.iface}: Top Application Traffic: Last Day View"
-msgstr ""
-
-#: ../cmk/gui/cee/ntop/pages.py:1099
-#, python-brace-format
-msgid "{self.iface}: Top Application Traffic: Last Hour View"
-msgstr ""
-
-#: ../cmk/gui/cee/ntop/pages.py:1097 ../cmk/gui/cee/ntop/pages.py:1108
-#, python-brace-format
-msgid "{self.iface}: Top Local Talkers"
 msgstr ""
 
 #: ../cmk/gui/werks.py:113
