@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
+"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
 "PO-Revision-Date: 2021-01-15 15:30+0000\n"
 "Last-Translator: Wontek <wontek.hong@tribe29.com>\n"
@@ -4036,7 +4036,7 @@ msgstr "Aggregation hinzufügen"
 msgid "Add alert handler rule"
 msgstr "Ereignisbehandlungsregel  hinzufügen"
 
-#: ../cmk/gui/wato/pages/services.py:1365
+#: ../cmk/gui/wato/pages/services.py:1364
 msgid "Add all detected but not yet monitored services to the monitoring."
 msgstr ""
 "Alle erkannten, aber noch nich überwachten Services dem Monitoring "
@@ -4221,7 +4221,7 @@ msgstr "Metrik-Name hinzufügen"
 msgid "Add micro seconds to timestamps in Logfiles"
 msgstr "Zeitstempel in Logdateien mit Mikrosekunden"
 
-#: ../cmk/gui/wato/pages/services.py:1307
+#: ../cmk/gui/wato/pages/services.py:1351
 msgid "Add missing, remove vanished"
 msgstr "Fehlende hinzufügen, verschwundene entfernen"
 
@@ -7596,7 +7596,7 @@ msgstr "Seite automatisch aktualisieren"
 msgid "Automatic page reload in %d seconds."
 msgstr "Seite automatisch aktualisieren"
 
-#: ../cmk/gui/watolib/services.py:569
+#: ../cmk/gui/watolib/services.py:571
 msgid "Automatic refresh"
 msgstr "Automatische Aktualisierung"
 
@@ -8509,11 +8509,11 @@ msgstr "Backen erfolgreich"
 msgid "Baking successful with warnings, see details"
 msgstr "Backen erfolgreich mit Warnungen, siehe Details"
 
-#: ../cmk/gui/plugins/views/layouts.py:377
+#: ../cmk/gui/plugins/views/layouts.py:381
 msgid "Balanced boxes"
 msgstr "Aufgeteilte Kästen"
 
-#: ../cmk/gui/plugins/views/layouts.py:396
+#: ../cmk/gui/plugins/views/layouts.py:400
 msgid "Balanced graph boxes"
 msgstr "Balancierte Kästen"
 
@@ -10639,7 +10639,7 @@ msgstr ""
 msgid "Cannot display graph"
 msgstr "Kann Graph nicht anzeigen"
 
-#: ../cmk/gui/plugins/views/layouts.py:911
+#: ../cmk/gui/plugins/views/layouts.py:913
 msgid ""
 "Cannot display this view in matrix layout. You need at least one group "
 "column!"
@@ -10647,7 +10647,7 @@ msgstr ""
 "Diese Ansicht ist nicht in Matrix-Layout anzeigbar. Sie brauchen mindestens "
 "eine Gruppenspalte!"
 
-#: ../cmk/gui/plugins/views/layouts.py:907
+#: ../cmk/gui/plugins/views/layouts.py:909
 msgid ""
 "Cannot display this view in matrix layout. You need at least two columns!"
 msgstr ""
@@ -18086,13 +18086,13 @@ msgstr "Dezibel-Millivolt"
 msgid "Decibel-milliwatts"
 msgstr "Dezibel Milliwatt"
 
-#: ../cmk/gui/wato/pages/services.py:1375
+#: ../cmk/gui/wato/pages/services.py:1374
 #, fuzzy
 #| msgid "Disabled services"
 msgid "Declare disabled services as undecided"
 msgstr "Deaktivierte Services"
 
-#: ../cmk/gui/wato/pages/services.py:1369
+#: ../cmk/gui/wato/pages/services.py:1368
 #, fuzzy
 #| msgid "Description for service incidents"
 msgid "Declare monitored services as undecided"
@@ -19856,7 +19856,7 @@ msgstr "Deaktivieren im Status-GUI"
 msgid "Disable locking"
 msgstr "Schalte Sperren aus"
 
-#: ../cmk/gui/wato/pages/services.py:1371
+#: ../cmk/gui/wato/pages/services.py:1370
 #, fuzzy
 #| msgid "Disabled services"
 msgid "Disable monitored services"
@@ -19912,13 +19912,13 @@ msgstr "Diesen Test deaktiveren"
 msgid "Disable timespecific parameters"
 msgstr "%s zeitspezifische Parameter"
 
-#: ../cmk/gui/wato/pages/services.py:1367
+#: ../cmk/gui/wato/pages/services.py:1366
 #, fuzzy
 #| msgid "Disabled services"
 msgid "Disable undecided services"
 msgstr "Deaktivierte Services"
 
-#: ../cmk/gui/wato/pages/services.py:1379
+#: ../cmk/gui/wato/pages/services.py:1378
 #, fuzzy
 #| msgid "Disabled services"
 msgid "Disable vanished services"
@@ -20063,6 +20063,12 @@ msgstr "Erkannte Host-Labels"
 #: ../cmk/gui/wato/pages/services.py:488
 msgid "Discovered no service yet."
 msgstr "Es wurde noch kein Service entdeckt."
+
+#: ../cmk/gui/wato/pages/services.py:1105
+#, fuzzy
+#| msgid "Bulk Discovery"
+msgid "Discovery"
+msgstr "Massenerkennung"
 
 #: ../cmk/gui/plugins/visuals/infos.py:287
 msgid "Discovery Output"
@@ -27167,11 +27173,11 @@ msgstr "Vollständiger Name"
 msgid "Full name or alias of the user"
 msgstr "Vollständiger Name oder Alias des Benutzers"
 
-#: ../cmk/gui/watolib/services.py:565
+#: ../cmk/gui/watolib/services.py:567
 msgid "Full scan"
 msgstr "Vollständiger Scan"
 
-#: ../cmk/gui/wato/pages/services.py:1318
+#: ../cmk/gui/wato/pages/services.py:1307
 #, fuzzy
 #| msgid "All services"
 msgid "Full service scan"
@@ -36031,7 +36037,7 @@ msgstr "Letztes Back-Ergebnis"
 msgid "Last day of last month"
 msgstr "Gleicher Tag im Monat"
 
-#: ../cmk/gui/watolib/services.py:652
+#: ../cmk/gui/watolib/services.py:654
 #, fuzzy
 msgid "Last exception"
 msgstr "Ausnahme"
@@ -36070,7 +36076,7 @@ msgstr "Letzter Monat"
 msgid "Last progress info"
 msgstr "Letzte Info zum Fortschritt"
 
-#: ../cmk/gui/watolib/services.py:650
+#: ../cmk/gui/watolib/services.py:652
 #, fuzzy
 #| msgid "Last progress info"
 msgid "Last progress update"
@@ -39878,7 +39884,7 @@ msgstr "Suchmuster"
 msgid "Matching is inverted in this rule"
 msgstr "Das Matchen in dieser Regel ist invertiert"
 
-#: ../cmk/gui/plugins/views/layouts.py:725
+#: ../cmk/gui/plugins/views/layouts.py:727
 msgid "Matrix"
 msgstr "Matrix"
 
@@ -41619,7 +41625,7 @@ msgstr "Überwache die Lanes, wenn ein Port mehrere hat"
 msgid "Monitor costs and usage"
 msgstr "Überwachung von Kosten und Nutzung"
 
-#: ../cmk/gui/wato/pages/services.py:1373
+#: ../cmk/gui/wato/pages/services.py:1372
 #, fuzzy
 #| msgid "Monitored services"
 msgid "Monitor disabled services"
@@ -41677,7 +41683,7 @@ msgstr ""
 msgid "Monitor the performance of the Event Console"
 msgstr "Leistung der Event Console monitoren"
 
-#: ../cmk/gui/wato/pages/services.py:1364
+#: ../cmk/gui/wato/pages/services.py:1363
 #, fuzzy
 #| msgid "Monitored services"
 msgid "Monitor undecided services"
@@ -45875,12 +45881,6 @@ msgstr "ausgewählte Services"
 msgid "On selected rules"
 msgstr "Regel %s gelöscht"
 
-#: ../cmk/gui/wato/pages/services.py:1109
-#, fuzzy
-#| msgid "selected services"
-msgid "On selected services"
-msgstr "ausgewählte Services"
-
 #: ../cmk/gui/wato/pages/activate_changes.py:80
 #, fuzzy
 #| msgid "selected services"
@@ -47542,7 +47542,7 @@ msgstr "Seiten"
 msgid "Pages per second"
 msgstr "Seiten pro Sekunde"
 
-#: ../cmk/gui/plugins/views/utils.py:2014
+#: ../cmk/gui/plugins/views/utils.py:2011
 #, python-format
 msgid "Painter %r returned invalid result: %r"
 msgstr "Painter %r lieferte ein ungültiges Ergebnis: %r"
@@ -51862,7 +51862,7 @@ msgstr "Alle Services und Hostlabel auffrischen (tabula rasa)"
 msgid "Refresh interval"
 msgstr "Durchschnittsintervall"
 
-#: ../cmk/gui/watolib/services.py:445
+#: ../cmk/gui/watolib/services.py:447
 #, python-format
 msgid "Refreshed check configuration of host '%s'"
 msgstr "Die Check-Konfiguration des Hosts'%s' wurde aktualisiert."
@@ -52301,7 +52301,7 @@ msgstr "Entferne Quittierung"
 msgid "Remove all"
 msgstr "Entferne alles"
 
-#: ../cmk/gui/wato/pages/services.py:1329
+#: ../cmk/gui/wato/pages/services.py:1318
 #, fuzzy
 #| msgid "Remove all downtimes"
 msgid "Remove all and find new"
@@ -52384,7 +52384,7 @@ msgstr "Snapin entfernen"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3619
 #: ../cmk/gui/watolib/bulk_discovery.py:83
-#: ../cmk/gui/wato/pages/services.py:1377
+#: ../cmk/gui/wato/pages/services.py:1376
 msgid "Remove vanished services"
 msgstr "Verschwundene Services entfernen"
 
@@ -55770,8 +55770,7 @@ msgstr "Servicecheck Typ"
 msgid "Service checks"
 msgstr "Servicechecks"
 
-#: ../cmk/gui/views.py:2722 ../cmk/gui/wato/pages/services.py:1105
-#: ../cmk/gui/wato/pages/hosts.py:375
+#: ../cmk/gui/views.py:2722 ../cmk/gui/wato/pages/hosts.py:375
 #, fuzzy
 #| msgid "Site Configuration"
 msgid "Service configuration"
@@ -55836,7 +55835,7 @@ msgstr "Service-Beschreibungen"
 
 #: ../cmk/gui/plugins/views/datasources.py:437
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2573
-#: ../cmk/gui/watolib/services.py:543 ../cmk/gui/watolib/services.py:551
+#: ../cmk/gui/watolib/services.py:545 ../cmk/gui/watolib/services.py:553
 #: ../cmk/gui/wato/pages/services.py:305 ../cmk/gui/cee/plugins/wato/dcd.py:699
 msgid "Service discovery"
 msgstr "Serviceerkennung"
@@ -56158,6 +56157,7 @@ msgstr "Servicelevel"
 #: ../cmk/gui/watolib/search.py:347 ../cmk/gui/watolib/search.py:348
 #: ../cmk/gui/watolib/search.py:361 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/wato/pages/rulesets.py:755 ../cmk/gui/wato/pages/rulesets.py:1792
+#: ../cmk/gui/wato/pages/services.py:1109
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/cme/plugins/views/managed.py:209
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:388
@@ -60737,7 +60737,7 @@ msgstr "Erzeugung von Ereignissen anhalten"
 msgid "Stop creating new events, create overflow event"
 msgstr "Erstellen neuer Ereignisse verhindern, ein Überlauf-Ereigniss erzeugen"
 
-#: ../cmk/gui/wato/pages/services.py:1339
+#: ../cmk/gui/wato/pages/services.py:1328
 msgid "Stop job"
 msgstr "Job stoppen"
 
@@ -61837,7 +61837,7 @@ msgstr "TX Signalstärke"
 msgid "TX Signal Power Lane %d"
 msgstr "TX Signalstärke Lane %d"
 
-#: ../cmk/gui/plugins/views/layouts.py:544
+#: ../cmk/gui/plugins/views/layouts.py:548
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:74
 msgid "Table"
 msgstr "Tabelle"
@@ -71761,7 +71761,7 @@ msgstr "Schwellwerte für den Durchsatz"
 msgid "Thursday"
 msgstr "Donnerstag"
 
-#: ../cmk/gui/plugins/views/layouts.py:415
+#: ../cmk/gui/plugins/views/layouts.py:419
 msgid "Tiles"
 msgstr "Kacheln"
 
@@ -74518,7 +74518,7 @@ msgstr "Updatestatus"
 msgid "Update delay for PNP meta information"
 msgstr "Verzögerte Aktualisierung von PNP-Metadaten"
 
-#: ../cmk/gui/wato/pages/services.py:1402
+#: ../cmk/gui/wato/pages/services.py:1401
 msgid "Update host labels"
 msgstr "Host-Labels aktualisieren"
 
@@ -86459,6 +86459,11 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr ""
+
+#, fuzzy
+#~| msgid "selected services"
+#~ msgid "On selected services"
+#~ msgstr "ausgewählte Services"
 
 #~ msgid "Host Name"
 #~ msgstr "Hostname"

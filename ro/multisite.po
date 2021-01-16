@@ -3830,7 +3830,7 @@ msgstr "Agregare noua"
 msgid "Add alert handler rule"
 msgstr "Adaugă o regulă de rol"
 
-#: ../cmk/gui/wato/pages/services.py:1365
+#: ../cmk/gui/wato/pages/services.py:1364
 msgid "Add all detected but not yet monitored services to the monitoring."
 msgstr ""
 
@@ -4050,7 +4050,7 @@ msgstr "Adaugă nume de senzor"
 msgid "Add micro seconds to timestamps in Logfiles"
 msgstr "Adaugă microsecunde la amprenta de timp în LogFiles"
 
-#: ../cmk/gui/wato/pages/services.py:1307
+#: ../cmk/gui/wato/pages/services.py:1351
 #, fuzzy
 msgid "Add missing, remove vanished"
 msgstr "nemonitorizat"
@@ -7363,7 +7363,7 @@ msgstr ""
 msgid "Automatic page reload in %d seconds."
 msgstr ""
 
-#: ../cmk/gui/watolib/services.py:569
+#: ../cmk/gui/watolib/services.py:571
 msgid "Automatic refresh"
 msgstr ""
 
@@ -8252,11 +8252,11 @@ msgstr ""
 msgid "Baking successful with warnings, see details"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:377
+#: ../cmk/gui/plugins/views/layouts.py:381
 msgid "Balanced boxes"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:396
+#: ../cmk/gui/plugins/views/layouts.py:400
 msgid "Balanced graph boxes"
 msgstr ""
 
@@ -10087,13 +10087,13 @@ msgstr ""
 msgid "Cannot display graph"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:911
+#: ../cmk/gui/plugins/views/layouts.py:913
 msgid ""
 "Cannot display this view in matrix layout. You need at least one group "
 "column!"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:907
+#: ../cmk/gui/plugins/views/layouts.py:909
 msgid ""
 "Cannot display this view in matrix layout. You need at least two columns!"
 msgstr ""
@@ -17099,11 +17099,11 @@ msgstr ""
 msgid "Decibel-milliwatts"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1375
+#: ../cmk/gui/wato/pages/services.py:1374
 msgid "Declare disabled services as undecided"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1369
+#: ../cmk/gui/wato/pages/services.py:1368
 #, fuzzy
 msgid "Declare monitored services as undecided"
 msgstr "nemonitorizat"
@@ -18770,7 +18770,7 @@ msgstr ""
 msgid "Disable locking"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1371
+#: ../cmk/gui/wato/pages/services.py:1370
 #, fuzzy
 msgid "Disable monitored services"
 msgstr "nemonitorizat"
@@ -18829,12 +18829,12 @@ msgstr "Dezactiveaza Notificarile"
 msgid "Disable timespecific parameters"
 msgstr "Dezactiveaza Notificarile"
 
-#: ../cmk/gui/wato/pages/services.py:1367
+#: ../cmk/gui/wato/pages/services.py:1366
 #, fuzzy
 msgid "Disable undecided services"
 msgstr "Vizibilitatea Elementelor/Serviciilor"
 
-#: ../cmk/gui/wato/pages/services.py:1379
+#: ../cmk/gui/wato/pages/services.py:1378
 #, fuzzy
 msgid "Disable vanished services"
 msgstr "Vizibilitatea Elementelor/Serviciilor"
@@ -18975,6 +18975,11 @@ msgstr "Nici o schimbare"
 #: ../cmk/gui/wato/pages/services.py:488
 msgid "Discovered no service yet."
 msgstr ""
+
+#: ../cmk/gui/wato/pages/services.py:1105
+#, fuzzy
+msgid "Discovery"
+msgstr "Inventariere in masa"
 
 #: ../cmk/gui/plugins/visuals/infos.py:287
 #, fuzzy
@@ -25669,11 +25674,11 @@ msgstr ""
 msgid "Full name or alias of the user"
 msgstr ""
 
-#: ../cmk/gui/watolib/services.py:565
+#: ../cmk/gui/watolib/services.py:567
 msgid "Full scan"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1318
+#: ../cmk/gui/wato/pages/services.py:1307
 #, fuzzy
 msgid "Full service scan"
 msgstr "servicii"
@@ -33469,7 +33474,7 @@ msgstr ""
 msgid "Last day of last month"
 msgstr " pe siteul de monitorizare: "
 
-#: ../cmk/gui/watolib/services.py:652
+#: ../cmk/gui/watolib/services.py:654
 #, fuzzy
 #| msgid "Add Exception"
 msgid "Last exception"
@@ -33507,7 +33512,7 @@ msgstr ""
 msgid "Last progress info"
 msgstr ""
 
-#: ../cmk/gui/watolib/services.py:650
+#: ../cmk/gui/watolib/services.py:652
 #, fuzzy
 msgid "Last progress update"
 msgstr " Se potriveste grupurilor: %s"
@@ -37223,7 +37228,7 @@ msgstr ""
 msgid "Matching is inverted in this rule"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:725
+#: ../cmk/gui/plugins/views/layouts.py:727
 msgid "Matrix"
 msgstr "Matrice"
 
@@ -38967,7 +38972,7 @@ msgstr ""
 msgid "Monitor costs and usage"
 msgstr " pe siteul de monitorizare: "
 
-#: ../cmk/gui/wato/pages/services.py:1373
+#: ../cmk/gui/wato/pages/services.py:1372
 #, fuzzy
 msgid "Monitor disabled services"
 msgstr "Afectat de serviciu"
@@ -39024,7 +39029,7 @@ msgstr ""
 msgid "Monitor the performance of the Event Console"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1364
+#: ../cmk/gui/wato/pages/services.py:1363
 #, fuzzy
 msgid "Monitor undecided services"
 msgstr "Afectat de serviciu"
@@ -43106,11 +43111,6 @@ msgstr "Reguli neaplicate"
 msgid "On selected rules"
 msgstr "Reguli neaplicate"
 
-#: ../cmk/gui/wato/pages/services.py:1109
-#, fuzzy
-msgid "On selected services"
-msgstr "Afectat de serviciu"
-
 #: ../cmk/gui/wato/pages/activate_changes.py:80
 #, fuzzy
 #| msgid "Ineffective rules"
@@ -44681,7 +44681,7 @@ msgstr ""
 msgid "Pages per second"
 msgstr " secunde "
 
-#: ../cmk/gui/plugins/views/utils.py:2014
+#: ../cmk/gui/plugins/views/utils.py:2011
 #, python-format
 msgid "Painter %r returned invalid result: %r"
 msgstr ""
@@ -48817,7 +48817,7 @@ msgstr ""
 msgid "Refresh interval"
 msgstr ""
 
-#: ../cmk/gui/watolib/services.py:445
+#: ../cmk/gui/watolib/services.py:447
 #, python-format
 msgid "Refreshed check configuration of host '%s'"
 msgstr ""
@@ -49227,7 +49227,7 @@ msgstr "Autorul Confirmației"
 msgid "Remove all"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1329
+#: ../cmk/gui/wato/pages/services.py:1318
 #, fuzzy
 msgid "Remove all and find new"
 msgstr "Întreruperi adhoc"
@@ -49315,7 +49315,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3619
 #: ../cmk/gui/watolib/bulk_discovery.py:83
-#: ../cmk/gui/wato/pages/services.py:1377
+#: ../cmk/gui/wato/pages/services.py:1376
 msgid "Remove vanished services"
 msgstr ""
 
@@ -52650,8 +52650,7 @@ msgstr ""
 msgid "Service checks"
 msgstr ""
 
-#: ../cmk/gui/views.py:2722 ../cmk/gui/wato/pages/services.py:1105
-#: ../cmk/gui/wato/pages/hosts.py:375
+#: ../cmk/gui/views.py:2722 ../cmk/gui/wato/pages/hosts.py:375
 #, fuzzy
 msgid "Service configuration"
 msgstr "foloseste configuratia locala"
@@ -52717,7 +52716,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/datasources.py:437
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2573
-#: ../cmk/gui/watolib/services.py:543 ../cmk/gui/watolib/services.py:551
+#: ../cmk/gui/watolib/services.py:545 ../cmk/gui/watolib/services.py:553
 #: ../cmk/gui/wato/pages/services.py:305 ../cmk/gui/cee/plugins/wato/dcd.py:699
 msgid "Service discovery"
 msgstr ""
@@ -53048,6 +53047,7 @@ msgstr ""
 #: ../cmk/gui/watolib/search.py:347 ../cmk/gui/watolib/search.py:348
 #: ../cmk/gui/watolib/search.py:361 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/wato/pages/rulesets.py:755 ../cmk/gui/wato/pages/rulesets.py:1792
+#: ../cmk/gui/wato/pages/services.py:1109
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/cme/plugins/views/managed.py:209
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:388
@@ -57255,7 +57255,7 @@ msgstr ""
 msgid "Stop creating new events, create overflow event"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1339
+#: ../cmk/gui/wato/pages/services.py:1328
 #, fuzzy
 msgid "Stop job"
 msgstr "de sus in jos"
@@ -58347,7 +58347,7 @@ msgstr ""
 msgid "TX Signal Power Lane %d"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:544
+#: ../cmk/gui/plugins/views/layouts.py:548
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:74
 msgid "Table"
 msgstr "Tabel"
@@ -66106,7 +66106,7 @@ msgstr ""
 msgid "Thursday"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/layouts.py:415
+#: ../cmk/gui/plugins/views/layouts.py:419
 msgid "Tiles"
 msgstr ""
 
@@ -68779,7 +68779,7 @@ msgstr "Stare adiministrativă"
 msgid "Update delay for PNP meta information"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1402
+#: ../cmk/gui/wato/pages/services.py:1401
 #, fuzzy
 msgid "Update host labels"
 msgstr "Verificări active"
@@ -79593,6 +79593,10 @@ msgstr ""
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr ""
+
+#, fuzzy
+#~ msgid "On selected services"
+#~ msgstr "Afectat de serviciu"
 
 #~ msgid "Host Name"
 #~ msgstr "Numele Elementului"
