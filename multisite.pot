@@ -3699,7 +3699,7 @@ msgstr ""
 msgid "Add element"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5104
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5129
 msgid "Add exception"
 msgstr ""
 
@@ -4718,10 +4718,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4791
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:409
 msgid "Agent rules"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_sections.py:26
-msgid "Agent sections to be executed"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1486
@@ -8038,7 +8034,7 @@ msgstr ""
 msgid "Bold"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:19
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:23
 msgid "Bonding interfaces"
 msgstr ""
 
@@ -8523,7 +8519,7 @@ msgid ""
 "random monitoring data will be created."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5004
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5029
 msgid ""
 "By default Check_MK does not use a specific context during SNMPv3 queries, "
 "but some devices are offering their information in different SNMPv3 contexts. "
@@ -8576,6 +8572,10 @@ msgstr ""
 msgid ""
 "By default all multiple graphs in emails are displayed floating nearby. You "
 "can enable this option to show the graphs among each other."
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:29
+msgid "By default all of the sections will be executed."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/support.py:45
@@ -8926,7 +8926,7 @@ msgid "CPG member name"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:34
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:21
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:25
 msgid "CPU"
 msgstr ""
 
@@ -10051,7 +10051,7 @@ msgstr ""
 msgid "Check LDAP service access"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5146
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5171
 msgid "Check MK status of piggybacked host within this period"
 msgstr ""
 
@@ -10846,7 +10846,7 @@ msgid ""
 "check the response to an address query."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:20
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:24
 msgid "Chrony timesynchronisation"
 msgstr ""
 
@@ -15648,7 +15648,7 @@ msgstr ""
 msgid "DR:BD roles and diskstates"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:23
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:27
 msgid "DRBD"
 msgstr ""
 
@@ -17636,7 +17636,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:91
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:102
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:163
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4959
 #: ../cmk/gui/backup.py:719 ../cmk/gui/wato/mkeventd.py:324
 #: ../cmk/gui/wato/mkeventd.py:3425
 msgid "Disable"
@@ -17781,10 +17780,6 @@ msgstr ""
 msgid "Disabled active checks"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:26
-msgid "Disabled agent sections"
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1095
 msgid "Disabled agent updates"
 msgstr ""
@@ -17814,6 +17809,10 @@ msgstr ""
 msgid "Disabled legacy services (defined in main.mk)"
 msgstr ""
 
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4965
+msgid "Disabled or enabled sections (SNMP)"
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/multipath_count.py:58
 msgid "Disabled paths"
 msgstr ""
@@ -17824,6 +17823,19 @@ msgstr ""
 
 #: ../cmk/gui/cee/reporting.py:1627
 msgid "Disabled schedule entries are not being executed."
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4982
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:77
+msgid "Disabled sections"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:72
+msgid "Disabled sections (Linux agent)"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:26
+msgid "Disabled sections (Windows agent)"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3450
@@ -18031,7 +18043,7 @@ msgstr ""
 msgid "Disks"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:22
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:26
 msgid "Diskstat"
 msgstr ""
 
@@ -20509,7 +20521,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1444
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1450
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1456
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4959
 msgid "Enable"
 msgstr ""
 
@@ -20765,6 +20776,14 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/read_only.py:107
 msgid "Enabled permanently"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4990
+msgid "Enabled sections"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_sections.py:26
+msgid "Enabled sections (Windows agent)"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/read_only.py:108
@@ -21679,7 +21698,7 @@ msgstr ""
 msgid "Exceptions (from weekdays)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5103
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5128
 msgid "Exceptions for piggybacked hosts (VMs, ...)"
 msgstr ""
 
@@ -21751,20 +21770,12 @@ msgid ""
 "space"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:72
-msgid "Exclude specific agent sections"
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:180
 msgid "Exclude the following SIDs (if found)"
 msgstr ""
 
 #: ../cmk/gui/availability.py:505
 msgid "Exclude times out of notification period"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:77
-msgid "Excluded agent sections (Linux)"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:138
@@ -23023,7 +23034,7 @@ msgstr ""
 msgid "Filehandler"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:24
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:28
 msgid "Fileinfo"
 msgstr ""
 
@@ -23110,7 +23121,7 @@ msgstr ""
 msgid "Filesystems (volumes, drives)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:25
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:29
 msgid "Filesystems usage"
 msgstr ""
 
@@ -25067,7 +25078,7 @@ msgstr ""
 msgid "HTTP Timings"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:29
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:33
 msgid "HTTP accelerator statistics"
 msgstr ""
 
@@ -25187,7 +25198,7 @@ msgstr ""
 msgid "Handling of too long texts (affects only table)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:26
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:30
 msgid "Haproxy"
 msgstr ""
 
@@ -25379,7 +25390,7 @@ msgstr ""
 msgid "Heartbeat Ressource Status"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:27
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:31
 msgid "Heartbeat clusters"
 msgstr ""
 
@@ -25927,7 +25938,7 @@ msgid ""
 "times configured for the matching weekday."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5094
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5119
 msgid ""
 "Here you can specify explicit piggybacked host names or regex patterns to "
 "match specific piggybacked host names."
@@ -26726,7 +26737,7 @@ msgstr ""
 msgid "Host is stale"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:28
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:32
 msgid "Host label"
 msgstr ""
 
@@ -27368,19 +27379,6 @@ msgstr ""
 msgid ""
 "However, since Microsoft limits API calls to %s per hour (%s per minute), you "
 "can restrict the monitoring to individual resource groups and resources."
-msgstr ""
-
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4966
-msgid ""
-"However, some check plugins process multiple sections and their behavior may "
-"change if one of them is excluded. In such cases, you may want to disable "
-"individual sections, instead of the check plugin itself. Furthermore, SNMP "
-"sections can supersede other SNMP sections in order to prevent duplicate "
-"services. By excluding a section which supersedes another one, the superseded "
-"section might become available. One such use case is the enforcing of 32-bit "
-"network interface counters (section <tt>if</tt>, superseded by <tt>if64</tt>) "
-"in case the 64-bit counters reported by the device are useless due to broken "
-"firmware."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/viprinet_router.py:28
@@ -28031,7 +28029,7 @@ msgid ""
 "all hosts will keep their individual settings."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5150
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5175
 msgid ""
 "If a source host does not send data for its piggybacked hosts at all or for "
 "single piggybacked hosts then a period can be set in order to treat outdated "
@@ -29514,10 +29512,6 @@ msgstr ""
 msgid "Include full path"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4949
-msgid "Include or exclude SNMP sections"
-msgstr ""
-
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:222
 msgid "Include per-process arguments (security risk!)"
 msgstr ""
@@ -30772,11 +30766,11 @@ msgstr ""
 msgid "Involuntary context switches"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:31
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:35
 msgid "Ipmisensors"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:30
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:34
 msgid "Ipmitool"
 msgstr ""
 
@@ -31224,7 +31218,7 @@ msgstr ""
 msgid "Kaspersky Anti-Virus Time Settings"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5121
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5146
 msgid ""
 "Keep hosts while piggyback source sends piggyback data only for other hosts "
 "for"
@@ -31265,7 +31259,7 @@ msgid "Kerberos"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:408
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:32
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:36
 msgid "Kernel"
 msgstr ""
 
@@ -32581,7 +32575,7 @@ msgstr ""
 msgid "Levels over an extended time period on total CPU utilization"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:33
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:37
 msgid "Libelle Business Shadow"
 msgstr ""
 
@@ -32936,7 +32930,7 @@ msgstr ""
 msgid "Linux distributions"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:34
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:38
 msgid "Linux interfaces"
 msgstr ""
 
@@ -34477,7 +34471,7 @@ msgstr ""
 msgid "Mailman mailing lists queues (Linux)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:35
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:39
 msgid "Mailqueue"
 msgstr ""
 
@@ -35471,7 +35465,7 @@ msgstr ""
 msgid "Maximum bulk size"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5049
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5074
 #: ../cmk/gui/cee/plugins/wato/dcd.py:795
 msgid "Maximum cache age must be greater than period."
 msgstr ""
@@ -35878,7 +35872,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:643
 #: ../cmk/gui/plugins/wato/datasource_programs.py:767
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:43
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:36
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:40
 msgid "Memory"
 msgstr ""
 
@@ -36856,7 +36850,7 @@ msgstr ""
 msgid "Monitored hosts"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:37
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:41
 msgid "Monitored jobs"
 msgstr ""
 
@@ -37037,7 +37031,7 @@ msgstr ""
 msgid "Motion Detectors"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:39
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:43
 msgid "Mount options"
 msgstr ""
 
@@ -37198,7 +37192,7 @@ msgstr ""
 msgid "Multiline string matching"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:38
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:42
 msgid "Multipathing"
 msgstr ""
 
@@ -37354,7 +37348,7 @@ msgstr ""
 msgid "NTP discovery"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:41
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:45
 msgid "NTP or timesyncd time synchronisation"
 msgstr ""
 
@@ -40187,7 +40181,7 @@ msgstr ""
 msgid "Nutanix Prism Alerts"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:42
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:46
 msgid "Nvidia"
 msgstr ""
 
@@ -40298,7 +40292,7 @@ msgstr ""
 msgid "OMD Site"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:43
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:47
 msgid "OMD monitoring cores"
 msgstr ""
 
@@ -41018,7 +41012,7 @@ msgstr ""
 msgid "OpenVMS processes"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:44
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:48
 msgid "OpenVPN clients"
 msgstr ""
 
@@ -43006,7 +43000,7 @@ msgstr ""
 msgid "Period"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5141
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5166
 msgid "Period for outdated piggybacked host data"
 msgstr ""
 
@@ -43286,7 +43280,7 @@ msgstr ""
 msgid "Piggybacked docker containers"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5086
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5111
 msgid "Piggybacked host name expressions"
 msgstr ""
 
@@ -44679,7 +44673,7 @@ msgstr ""
 msgid "Processing first site %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5073
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5098
 msgid "Processing of Piggybacked Host Data"
 msgstr ""
 
@@ -44932,7 +44926,7 @@ msgstr ""
 msgid "Proxmox VE memory percentage used"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:45
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:49
 msgid "Proxmox cluster"
 msgstr ""
 
@@ -45473,27 +45467,27 @@ msgstr ""
 msgid "Radial layout"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:51
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:55
 msgid "Raid controllers from Areca"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:50
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:54
 msgid "Raid status of 3WARE disk controller"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:49
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:53
 msgid "Raid status of LSI MegaRAID controller"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:48
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:52
 msgid "Raid status of LSI controllers"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:47
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:51
 msgid "Raid status of Linux Raid"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:46
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:50
 msgid "Raid status of Linux software"
 msgstr ""
 
@@ -47779,7 +47773,7 @@ msgstr ""
 msgid "Running nodes by nodes type"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:52
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:56
 msgid "Running processes"
 msgstr ""
 
@@ -48106,7 +48100,7 @@ msgstr ""
 msgid "SNMP Community for the SNMP trap"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5019
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5044
 msgid "SNMP Context IDs"
 msgstr ""
 
@@ -48171,10 +48165,6 @@ msgstr ""
 msgid "SNMP rules"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4956
-msgid "SNMP section name"
-msgstr ""
-
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4190
 msgid "SNMP settings"
 msgstr ""
@@ -48225,7 +48215,7 @@ msgstr ""
 msgid "SNMPv3"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5003
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5028
 msgid "SNMPv3 contexts to use in requests"
 msgstr ""
 
@@ -48892,7 +48882,7 @@ msgstr ""
 msgid "Section"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5011
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5036
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/winperf.py:25
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:106
 msgid "Section name"
@@ -48902,8 +48892,8 @@ msgstr ""
 msgid "Section of files to monitor"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4989
-msgid "Section(s) specified more than once:"
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5012
+msgid "Section(s) cannot be disabled and enabled at the same time:"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:209
@@ -49099,6 +49089,10 @@ msgstr ""
 #: ../cmk/gui/valuespec.py:3311
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1234
 msgid "Selected"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:30
+msgid "Selected sections will not be executed by the agent."
 msgstr ""
 
 #: ../cmk/gui/watolib/bulk_discovery.py:90 ../cmk/gui/page_menu.py:376
@@ -50241,7 +50235,7 @@ msgid ""
 "the real time)."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5129
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5154
 msgid "Set maximum age"
 msgstr ""
 
@@ -50253,7 +50247,7 @@ msgstr ""
 msgid "Set optional timeout for connections to ServiceNow"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5138
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5163
 msgid "Set period how long outdated piggyback data is treated as valid"
 msgstr ""
 
@@ -51623,6 +51617,13 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:2841
 #, python-format
 msgid "Skipped %s: %s"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:31
+msgid ""
+"Skipping sections reduces CPU load on the monitored host and the amount of "
+"transferred data. However, it may result in the absence of the associated "
+"Checkmk service or services."
 msgstr ""
 
 #: ../cmk/gui/wato/pages/ldap.py:437
@@ -53782,7 +53783,7 @@ msgstr ""
 msgid "Status of Host"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:53
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:57
 msgid "Status of OMD sites and Checkmk Notification spooler"
 msgstr ""
 
@@ -54772,7 +54773,7 @@ msgstr ""
 msgid "Systemd Timesyncd time synchronisation"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:54
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:58
 msgid "Systemd services"
 msgstr ""
 
@@ -54788,7 +54789,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:50
 #: ../cmk/gui/plugins/wato/active_checks.py:2154
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:54
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:55
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:59
 msgid "TCP"
 msgstr ""
 
@@ -55591,23 +55592,6 @@ msgid ""
 "processes, kernel routines (system), disk wait (sometimes also called IO "
 "wait) or nothing (idle). The levels are always applied on the average "
 "utilization since the last check - which is usually one minute."
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:27
-msgid ""
-"The Check_MK Agent for Windows has a number of builtin modules that provide "
-"functionality for various types of checks. Usually all those sections are "
-"being executed, but here you can select which sections should be skipped."
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_sections.py:27
-msgid ""
-"The Check_MK Agent for Windows has a number of builtin modules that provide "
-"functionality for various types of checks. Usually all those sections are "
-"being executed, but here you can select which sections you want the agent to "
-"compute. Disabling some of the sections will make the agent faster but will "
-"result in less different checks. The most CPU performance is needed by the "
-"Eventlog monitoring and the performance counters."
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1091
@@ -57720,6 +57704,12 @@ msgstr ""
 msgid "The monitoring state that this event will trigger."
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:34
+msgid ""
+"The most CPU performance is needed by the Eventlog monitoring and the "
+"performance counters."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/skype_proxy.py:25
 msgid "The name of the Data Proxy"
 msgstr ""
@@ -59345,7 +59335,7 @@ msgstr ""
 msgid "There was no change to activate"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:56
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:60
 msgid "Thermal information"
 msgstr ""
 
@@ -60487,18 +60477,42 @@ msgid ""
 "to be packaged into another package or to be deleted manually."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4963
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4967
 msgid ""
-"This option allows to omit individual sections from being fetched at all. "
-"Disabled sections will not be fetched. As a result, associated Checkmk "
-"services may be entirely missing."
+"This option allows to omit individual sections from being fetched at all. As "
+"a result, associated Checkmk services may be entirely missing. However, some "
+"check plugins process multiple sections and their behavior may change if one "
+"of them is excluded. In such cases, you may want to disable individual "
+"sections, instead of the check plugin itself. Furthermore, SNMP sections can "
+"supersede other SNMP sections in order to prevent duplicate services. By "
+"excluding a section which supersedes another one, the superseded section "
+"might become available. One such use case is the enforcing of 32-bit network "
+"interface counters (section <tt>if</tt>, superseded by <tt>if64</tt>) in case "
+"the 64-bit counters reported by the device are useless due to broken firmware."
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_sections.py:27
+msgid ""
+"This option allows to select specific sections of the Checkmk agent. By "
+"default all of the sections will be executed. Sections that are not selected "
+"here will be skipped. Skipping sections reduces CPU load on the monitored "
+"host and the amount of transferred data. However, it may result in the "
+"absence of the associated Checkmk service or services. The most CPU "
+"performance is needed by the Eventlog monitoring and the performance "
+"counters. "
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:28
+msgid "This option allows to skip specific sections of the Checkmk agent."
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:79
 msgid ""
-"This option allows to omit specific sections from the Checkmk agent. Checked "
-"options will be excluded in the agent. Omission of a section will result in "
-"the absence of the associated Checkmk service or services."
+"This option allows to skip specific sections of the Checkmk agent. By default "
+"all of the sections will be executed. Selected sections will not be executed "
+"by the agent. Skipping sections reduces CPU load on the monitored host and "
+"the amount of transferred data. However, it may result in the absence of the "
+"associated Checkmk service or services."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/bi_config.py:1209
@@ -64293,7 +64307,7 @@ msgstr ""
 msgid "UPS Capacity"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:57
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:61
 msgid "UPTIME"
 msgstr ""
 
@@ -66198,13 +66212,13 @@ msgstr ""
 msgid "Use manually created ORACLE password wallet"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5067
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5092
 #: ../cmk/gui/cee/plugins/wato/dcd.py:787
 #, python-format
 msgid "Use maximum age from <a href=\"%s\">global settings</a>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5069
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5094
 #, python-format
 msgid "Use maximum age from <a href=\"%s\">global settings</a> or above"
 msgstr ""
@@ -67474,7 +67488,7 @@ msgstr ""
 msgid "Veritas Volume Manger (Linux, HP-UX)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:58
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:62
 msgid "Veritas cluster server"
 msgstr ""
 
@@ -67715,7 +67729,7 @@ msgstr ""
 msgid "Virtual size"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:59
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:63
 msgid "VirtualBox Guests"
 msgstr ""
 
@@ -67827,7 +67841,7 @@ msgstr ""
 msgid "Voluntary context switches"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:60
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:64
 msgid "Vswitch bonding"
 msgstr ""
 
@@ -69296,7 +69310,7 @@ msgid ""
 "following permission: '<b>%s</b>'."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5108
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5133
 msgid ""
 "We assume that a source host is sending piggyback data every check interval "
 "by default. If this is not the case for some source hosts then the "
@@ -72409,7 +72423,7 @@ msgstr ""
 msgid "Your user has no roles. Please assign at least one role."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:61
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:65
 msgid "ZFS filesystem usage"
 msgstr ""
 
@@ -72433,7 +72447,7 @@ msgstr ""
 msgid "Zorp firewall"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:62
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:66
 msgid "Zpool status"
 msgstr ""
 
