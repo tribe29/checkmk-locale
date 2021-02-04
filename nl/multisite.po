@@ -525,7 +525,7 @@ msgid_plural "%d sites are not connected"
 msgstr[0] "%d site heeft geen verbinding"
 msgstr[1] "%d sites hebben geen verbinding"
 
-#: ../cmk/gui/wato/pages/sites.py:722
+#: ../cmk/gui/wato/pages/sites.py:735
 #, python-format
 msgid "%d specific settings"
 msgstr "%d specifieke instellingen"
@@ -607,7 +607,7 @@ msgstr "%s Afgerond."
 msgid "%s Locks"
 msgstr "%s Locks"
 
-#: ../cmk/gui/cee/ntop/pages.py:457
+#: ../cmk/gui/cee/ntop/pages.py:447
 #, python-format
 msgid "%s Pkts / %s%s"
 msgstr "%s Pkts / %s%s"
@@ -827,17 +827,17 @@ msgstr ""
 "%s: Maakt geen gebruik van SSL. Overweeg het aan te zetten in de connectie "
 "instellingen."
 
-#: ../cmk/gui/cee/ntop/pages.py:1132
+#: ../cmk/gui/cee/ntop/pages.py:1122
 #, python-format
 msgid "%s: Top Application Traffic: Last Day View"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1121
+#: ../cmk/gui/cee/ntop/pages.py:1111
 #, python-format
 msgid "%s: Top Application Traffic: Last Hour View"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1119 ../cmk/gui/cee/ntop/pages.py:1130
+#: ../cmk/gui/cee/ntop/pages.py:1109 ../cmk/gui/cee/ntop/pages.py:1120
 #, python-format
 msgid "%s: Top Local Talkers"
 msgstr ""
@@ -1982,12 +1982,12 @@ msgstr ""
 msgid "A BI pack with this ID already exists."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2979
+#: ../cmk/gui/plugins/views/builtin.py:2918
 msgid ""
 "A Matrix of Performance data values from all hosts in a certain host group"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3043
+#: ../cmk/gui/plugins/views/builtin.py:2955
 msgid "A Matrix of performance data values, grouped by hosts and services"
 msgstr ""
 
@@ -2028,7 +2028,7 @@ msgid ""
 "A compact dashboard which lists your unhandled host and service problems."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1480
+#: ../cmk/gui/plugins/views/builtin.py:1495
 msgid ""
 "A complete list of all host problems with a search form for selecting "
 "handled and unhandled"
@@ -2080,7 +2080,7 @@ msgstr ""
 msgid "A folder with that name already exists."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1627
+#: ../cmk/gui/plugins/views/builtin.py:1642
 msgid "A form for searching hosts using flexible filters"
 msgstr ""
 
@@ -2251,13 +2251,13 @@ msgstr ""
 msgid "A service or host in this aggregation is in downtime."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1442
+#: ../cmk/gui/plugins/views/builtin.py:1457
 msgid ""
 "A short overview over all host groups, without an explicity listing of the "
 "actual hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1949
+#: ../cmk/gui/plugins/views/builtin.py:1906
 msgid ""
 "A short overview over all service groups, without explicity listing of the "
 "actual hosts and services"
@@ -2269,7 +2269,7 @@ msgid ""
 "other content in the main frame"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3359
+#: ../cmk/gui/plugins/views/builtin.py:3271
 msgid "A single host related aggregation"
 msgstr ""
 
@@ -2707,7 +2707,7 @@ msgstr ""
 msgid "AWS/WAFV2 Web ACL Requests"
 msgstr ""
 
-#: ../cmk/gui/page_menu.py:455 ../cmk/gui/wato/pages/sites.py:659
+#: ../cmk/gui/page_menu.py:455 ../cmk/gui/wato/pages/sites.py:672
 #: ../cmk/gui/pagetypes.py:1472
 msgid "Abort"
 msgstr ""
@@ -3118,7 +3118,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/analyze_configuration.py:161
 #: ../cmk/gui/wato/pages/services.py:1102
 #: ../cmk/gui/wato/pages/notifications.py:248
-#: ../cmk/gui/wato/pages/sites.py:695 ../cmk/gui/wato/pages/sites.py:1265
+#: ../cmk/gui/wato/pages/sites.py:708 ../cmk/gui/wato/pages/sites.py:1278
 #: ../cmk/gui/wato/pages/groups.py:159 ../cmk/gui/wato/pages/roles.py:202
 #: ../cmk/gui/wato/pages/custom_attributes.py:489
 #: ../cmk/gui/wato/pages/timeperiods.py:303
@@ -3327,7 +3327,7 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/storage.py:498
 #: ../cmk/gui/plugins/metrics/docker.py:66
 #: ../cmk/gui/cee/plugins/reporting/utils.py:301
-#: ../cmk/gui/cee/ntop/pages.py:480 ../cmk/gui/cee/ntop/pages.py:505
+#: ../cmk/gui/cee/ntop/pages.py:470 ../cmk/gui/cee/ntop/pages.py:495
 msgid "Active"
 msgstr ""
 
@@ -3404,7 +3404,7 @@ msgstr ""
 msgid "Active VPN Web Sessions"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:395 ../cmk/gui/cee/ntop/pages.py:398
+#: ../cmk/gui/cee/ntop/pages.py:385 ../cmk/gui/cee/ntop/pages.py:388
 msgid "Active alerted flows"
 msgstr ""
 
@@ -3496,7 +3496,7 @@ msgstr ""
 msgid "Activity log updates"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1120 ../cmk/gui/cee/ntop/pages.py:1131
+#: ../cmk/gui/cee/ntop/pages.py:1110 ../cmk/gui/cee/ntop/pages.py:1121
 msgid "Actual Traffic"
 msgstr ""
 
@@ -3674,7 +3674,7 @@ msgid "Add condition"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/ldap.py:86 ../cmk/gui/wato/pages/ldap.py:89
-#: ../cmk/gui/wato/pages/sites.py:510
+#: ../cmk/gui/wato/pages/sites.py:523
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:217
 msgid "Add connection"
 msgstr ""
@@ -4139,7 +4139,7 @@ msgstr ""
 msgid "Add to monitoring configuration"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1271
+#: ../cmk/gui/wato/pages/sites.py:1284
 msgid "Add to trusted CAs"
 msgstr ""
 
@@ -4191,7 +4191,7 @@ msgstr ""
 msgid "Added %d random hosts."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1214 ../cmk/gui/wato/pages/sites.py:1220
+#: ../cmk/gui/wato/pages/sites.py:1227 ../cmk/gui/wato/pages/sites.py:1233
 #, python-format
 msgid "Added CA with fingerprint %s to trusted certificate authorities"
 msgstr ""
@@ -4222,7 +4222,7 @@ msgstr ""
 msgid "Added: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:524
+#: ../cmk/gui/cee/ntop/pages.py:514
 msgid "Additional Host Names"
 msgstr ""
 
@@ -4380,11 +4380,11 @@ msgstr ""
 msgid "Administrator"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:648
+#: ../cmk/gui/wato/pages/sites.py:661
 msgid "Administrator name"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:651
+#: ../cmk/gui/wato/pages/sites.py:664
 msgid "Administrator password"
 msgstr ""
 
@@ -4874,7 +4874,7 @@ msgstr ""
 msgid "Aggregation function"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/bi.py:355 ../cmk/gui/plugins/views/builtin.py:3201
+#: ../cmk/gui/plugins/views/bi.py:355 ../cmk/gui/plugins/views/builtin.py:3113
 #: ../cmk/gui/plugins/views/sorters.py:574
 #: ../cmk/gui/plugins/visuals/infos.py:271
 msgid "Aggregation group"
@@ -4926,11 +4926,11 @@ msgstr ""
 msgid "Aggregations"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3439
+#: ../cmk/gui/plugins/views/builtin.py:3351
 msgid "Aggregations Affected by Host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3497
+#: ../cmk/gui/plugins/views/builtin.py:3409
 msgid "Aggregations Affected by Service"
 msgstr ""
 
@@ -4976,7 +4976,7 @@ msgstr ""
 msgid "Alert Handlers"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2845
+#: ../cmk/gui/plugins/views/builtin.py:2784
 #: ../cmk/gui/plugins/views/datasources.py:400
 msgid "Alert Statistics"
 msgstr ""
@@ -5017,7 +5017,7 @@ msgstr ""
 msgid "Alert handler execution, successful"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4260
+#: ../cmk/gui/plugins/views/builtin.py:4172
 msgid "Alert handler executions"
 msgstr ""
 
@@ -5089,7 +5089,7 @@ msgstr ""
 msgid "Alert timeline"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:481
+#: ../cmk/gui/cee/ntop/pages.py:471
 msgid "Alerted"
 msgstr ""
 
@@ -5115,7 +5115,7 @@ msgstr ""
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:2198
 #: ../cmk/gui/availability.py:1347 ../cmk/gui/wato/mkeventd.py:4192
 #: ../cmk/gui/wato/pages/bulk_import.py:459 ../cmk/gui/wato/pages/users.py:420
-#: ../cmk/gui/wato/pages/sites.py:305 ../cmk/gui/wato/pages/sites.py:730
+#: ../cmk/gui/wato/pages/sites.py:305 ../cmk/gui/wato/pages/sites.py:743
 #: ../cmk/gui/wato/pages/groups.py:172 ../cmk/gui/wato/pages/groups.py:267
 #: ../cmk/gui/wato/pages/roles.py:218 ../cmk/gui/wato/pages/roles.py:362
 #: ../cmk/gui/wato/pages/timeperiods.py:310
@@ -5134,19 +5134,19 @@ msgstr ""
 msgid "Alien Alarm (long)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1415
+#: ../cmk/gui/cee/ntop/pages.py:1405
 msgid "All"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3141
+#: ../cmk/gui/plugins/views/builtin.py:3053
 msgid "All Aggregations"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1255
+#: ../cmk/gui/cee/ntop/pages.py:1245
 msgid "All Alerted"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2623
+#: ../cmk/gui/plugins/views/builtin.py:2562
 msgid "All CRIT services of a given site."
 msgstr ""
 
@@ -5158,7 +5158,7 @@ msgstr ""
 msgid "All Hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2539
+#: ../cmk/gui/plugins/views/builtin.py:2478
 msgid "All OK services of a given site."
 msgstr ""
 
@@ -5166,45 +5166,45 @@ msgstr ""
 msgid "All SNMP sections"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1831
+#: ../cmk/gui/plugins/views/builtin.py:1788
 msgid "All Services with a certain description"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1857
+#: ../cmk/gui/plugins/views/builtin.py:1814
 msgid "All Services with this description:"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2665
+#: ../cmk/gui/plugins/views/builtin.py:2604
 msgid "All UNKNOWN services of a given site."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2581
+#: ../cmk/gui/plugins/views/builtin.py:2520
 msgid "All WARN services of a given site."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:101
+#: ../cmk/gui/cee/ntop/pages.py:96
 msgid ""
 "All absolute data shown on this page refer to the timeframe since this host "
 "was booted-up."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3448
+#: ../cmk/gui/plugins/views/builtin.py:3360
 msgid "All aggregations affected by a certain service"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3506
+#: ../cmk/gui/plugins/views/builtin.py:3418
 msgid "All aggregations that have a non-OK state (honoring state assumptions)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3390
+#: ../cmk/gui/plugins/views/builtin.py:3302
 msgid "All aggregations the given host is part of"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4207
+#: ../cmk/gui/plugins/views/builtin.py:4119
 msgid "All alert handler executions."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1304
+#: ../cmk/gui/cee/ntop/pages.py:1294
 msgid "All applications"
 msgstr ""
 
@@ -5212,7 +5212,7 @@ msgstr ""
 msgid "All but first page"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1343
+#: ../cmk/gui/cee/ntop/pages.py:1333
 msgid "All categories"
 msgstr ""
 
@@ -5232,7 +5232,7 @@ msgstr ""
 msgid "All contacts of the notified object"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1240
+#: ../cmk/gui/plugins/views/builtin.py:1255
 msgid "All crit services of a certain hostgroup"
 msgstr ""
 
@@ -5244,7 +5244,7 @@ msgstr ""
 msgid "All customers with host and service statistics"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1269
+#: ../cmk/gui/cee/ntop/pages.py:1259
 msgid "All directions"
 msgstr ""
 
@@ -5261,61 +5261,61 @@ msgstr ""
 msgid "All even pages"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1247
+#: ../cmk/gui/cee/ntop/pages.py:1237
 msgid "All flows"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2093
+#: ../cmk/gui/plugins/views/builtin.py:2032
 msgid "All graphs for a certain host."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2433
+#: ../cmk/gui/plugins/views/builtin.py:2372
 msgid ""
 "All historic events concerning the state of a certain host (including "
 "services)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2291
+#: ../cmk/gui/plugins/views/builtin.py:2230
 msgid ""
 "All historic events concerning the state of a certain host (without services)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2362
+#: ../cmk/gui/plugins/views/builtin.py:2301
 msgid "All historic events concerning the state of a certain service"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2238
+#: ../cmk/gui/plugins/views/builtin.py:2177
 msgid "All historic events of hosts or services (alerts, downtimes, etc.)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2327
+#: ../cmk/gui/plugins/views/builtin.py:2266
 msgid "All historic scheduled downtimes of a certain host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2398
+#: ../cmk/gui/plugins/views/builtin.py:2337
 msgid "All historic scheduled downtimes of a certain service"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:444
+#: ../cmk/gui/plugins/views/builtin.py:459
 msgid "All historic scheduled downtimes of hosts and services"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:302
+#: ../cmk/gui/plugins/views/builtin.py:317
 msgid "All host- and service comments"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:396
+#: ../cmk/gui/plugins/views/builtin.py:411
 msgid "All host- and service-downtimes"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:481
+#: ../cmk/gui/plugins/views/builtin.py:496
 msgid "All host- and service-downtimes (including ids)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:72
+#: ../cmk/gui/plugins/views/builtin.py:87
 #: ../cmk/gui/plugins/views/datasources.py:27
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:183
-#: ../cmk/gui/cee/ntop/pages.py:1220
+#: ../cmk/gui/cee/ntop/pages.py:1210
 msgid "All hosts"
 msgstr ""
 
@@ -5344,7 +5344,7 @@ msgid ""
 "free to move the host to another folder after creation."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1942
+#: ../cmk/gui/plugins/views/builtin.py:1899
 msgid "All hosts of site"
 msgstr ""
 
@@ -5364,21 +5364,21 @@ msgstr ""
 msgid "All must be online"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3897
+#: ../cmk/gui/plugins/views/builtin.py:3809
 msgid ""
 "All notification events concerning the state of a certain host (including "
 "services)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4091
+#: ../cmk/gui/plugins/views/builtin.py:4003
 msgid "All notification events concerning the state of a certain service."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3955
+#: ../cmk/gui/plugins/views/builtin.py:3867
 msgid "All notification events of hosts or services."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4142
+#: ../cmk/gui/plugins/views/builtin.py:4054
 msgid "All notification events sent to"
 msgstr ""
 
@@ -5390,7 +5390,7 @@ msgstr ""
 msgid "All odd pages"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1106
+#: ../cmk/gui/plugins/views/builtin.py:1121
 msgid "All ok services of a certain hostgroup"
 msgstr ""
 
@@ -5411,11 +5411,11 @@ msgstr ""
 msgid "All parents are down"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1374
+#: ../cmk/gui/plugins/views/builtin.py:1389
 msgid "All pending services of a certain hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2707
+#: ../cmk/gui/plugins/views/builtin.py:2646
 msgid "All pending services of a given site."
 msgstr ""
 
@@ -5423,7 +5423,7 @@ msgstr ""
 msgid "All ports"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:825
+#: ../cmk/gui/plugins/views/builtin.py:840
 msgid ""
 "All problem services of a given host. The host and site must be set via HTTP "
 "variables."
@@ -5433,11 +5433,11 @@ msgstr ""
 msgid "All problematic logfiles"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1982
+#: ../cmk/gui/plugins/views/builtin.py:1939
 msgid "All problems of services not currently in a downtime."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1325
+#: ../cmk/gui/cee/ntop/pages.py:1315
 msgid "All protocols"
 msgstr ""
 
@@ -5463,73 +5463,73 @@ msgstr ""
 msgid "All resource groups that belong to this node run on this node (local)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:252
+#: ../cmk/gui/plugins/views/builtin.py:267
 #: ../cmk/gui/plugins/views/datasources.py:90
 msgid "All services"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:193
+#: ../cmk/gui/plugins/views/builtin.py:208
 msgid "All services grouped by hosts."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1040
+#: ../cmk/gui/plugins/views/builtin.py:1055
 msgid "All services of a certain hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:795
+#: ../cmk/gui/plugins/views/builtin.py:810
 msgid "All services of a given host that are PENDING"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:737
+#: ../cmk/gui/plugins/views/builtin.py:752
 msgid "All services of a given host that are in state CRIT"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:679
+#: ../cmk/gui/plugins/views/builtin.py:694
 msgid "All services of a given host that are in state OK"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:766
+#: ../cmk/gui/plugins/views/builtin.py:781
 msgid "All services of a given host that are in state UNKNOWN"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:708
+#: ../cmk/gui/plugins/views/builtin.py:723
 msgid "All services of a given host that are in state WARN"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:593
+#: ../cmk/gui/plugins/views/builtin.py:608
 msgid ""
 "All services of a given host. The host and site must be set via HTML "
 "variables."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:622
+#: ../cmk/gui/plugins/views/builtin.py:637
 msgid ""
 "All services of a given host. The host and site must be set via HTTP "
 "variables."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2749
+#: ../cmk/gui/plugins/views/builtin.py:2688
 msgid "All services of a given site."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:650
+#: ../cmk/gui/plugins/views/builtin.py:665
 msgid "All services of hosts which match a name"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:265
+#: ../cmk/gui/plugins/views/builtin.py:280
 msgid ""
 "All services ordered by their service check durations, grouped by their "
 "sites.\n"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3571
+#: ../cmk/gui/plugins/views/builtin.py:3483
 msgid ""
 "All single-host aggregations that are in non-OK state (honoring state "
 "assumptions)"
 msgstr ""
 
 #: ../cmk/gui/sidebar.py:972 ../cmk/gui/plugins/sidebar/utils.py:316
-#: ../cmk/gui/wato/pages/users.py:1140
+#: ../cmk/gui/wato/pages/users.py:1138
 #: ../cmk/gui/wato/pages/activate_changes.py:354
 msgid "All sites"
 msgstr ""
@@ -5553,7 +5553,7 @@ msgid ""
 "monitoring."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1307
+#: ../cmk/gui/plugins/views/builtin.py:1322
 msgid "All unknown services of a certain hostgroup"
 msgstr ""
 
@@ -5566,7 +5566,7 @@ msgstr ""
 msgid "All users with an email address"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1173
+#: ../cmk/gui/plugins/views/builtin.py:1188
 msgid "All warn services of a certain hostgroup"
 msgstr ""
 
@@ -5709,7 +5709,7 @@ msgstr ""
 msgid "Allows to edit %s created by other users."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1676
+#: ../cmk/gui/plugins/views/builtin.py:1671
 msgid ""
 "Almost all available filters, used for searching services and maybe doing "
 "actions"
@@ -6164,8 +6164,8 @@ msgstr ""
 msgid "Appliances, other dedicated hardware"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/mkeventd.py:534 ../cmk/gui/cee/ntop/pages.py:910
-#: ../cmk/gui/cee/ntop/pages.py:1316
+#: ../cmk/gui/plugins/views/mkeventd.py:534 ../cmk/gui/cee/ntop/pages.py:900
+#: ../cmk/gui/cee/ntop/pages.py:1306
 msgid "Application"
 msgstr ""
 
@@ -6405,7 +6405,7 @@ msgstr ""
 msgid "Artificial slowdown of logfile parsing (for testing!)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:469
+#: ../cmk/gui/cee/ntop/pages.py:459
 msgid "As client"
 msgstr ""
 
@@ -6413,7 +6413,7 @@ msgstr ""
 msgid "As configured in the users settings. Do not add a leading underscore."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:470
+#: ../cmk/gui/cee/ntop/pages.py:460
 msgid "As server"
 msgstr ""
 
@@ -6803,7 +6803,7 @@ msgstr ""
 msgid "Authorizations per DB security group"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/users.py:1134
+#: ../cmk/gui/wato/pages/users.py:1132
 msgid "Authorized sites"
 msgstr ""
 
@@ -8116,7 +8116,7 @@ msgstr ""
 msgid "Boxes (omit root)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:605 ../cmk/gui/cee/ntop/pages.py:911
+#: ../cmk/gui/cee/ntop/pages.py:595 ../cmk/gui/cee/ntop/pages.py:901
 msgid "Breakdown"
 msgstr ""
 
@@ -8809,7 +8809,7 @@ msgid ""
 "selected customer."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:384
+#: ../cmk/gui/wato/pages/sites.py:397
 #, python-format
 msgid ""
 "By specifying a status host for each non-local connection you prevent "
@@ -9229,7 +9229,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:1932 ../cmk/gui/cme/plugins/views/managed.py:269
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:147
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_eventlog.py:43
-#: ../cmk/gui/cee/ntop/pages.py:373 ../cmk/gui/cee/ntop/pages.py:396
+#: ../cmk/gui/cee/ntop/pages.py:363 ../cmk/gui/cee/ntop/pages.py:386
 #: ../cmk/utils/defines.py:38
 msgid "CRIT"
 msgstr ""
@@ -9246,15 +9246,15 @@ msgstr ""
 msgid "CRIT Pattern"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1301
+#: ../cmk/gui/plugins/views/builtin.py:1316
 msgid "CRIT Services of Hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2659
+#: ../cmk/gui/plugins/views/builtin.py:2598
 msgid "CRIT Services of Site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:760
+#: ../cmk/gui/plugins/views/builtin.py:775
 msgid "CRIT Services of host"
 msgstr ""
 
@@ -9453,7 +9453,7 @@ msgstr ""
 msgid "Cannot connect to event daemon via %s: %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:619
+#: ../cmk/gui/wato/pages/sites.py:632
 #, python-format
 msgid "Cannot connect to remote site: %s"
 msgstr ""
@@ -9765,7 +9765,7 @@ msgid "Categories"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/icons.py:79 ../cmk/gui/wato/pages/icons.py:160
-#: ../cmk/gui/cee/ntop/pages.py:930 ../cmk/gui/cee/ntop/pages.py:1345
+#: ../cmk/gui/cee/ntop/pages.py:920 ../cmk/gui/cee/ntop/pages.py:1335
 msgid "Category"
 msgstr ""
 
@@ -9802,11 +9802,11 @@ msgstr ""
 msgid "Certificate Checking"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1262
+#: ../cmk/gui/wato/pages/sites.py:1275
 msgid "Certificate chain"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1241
+#: ../cmk/gui/wato/pages/sites.py:1254
 msgid "Certificate details"
 msgstr ""
 
@@ -9993,7 +9993,7 @@ msgstr ""
 msgid "Changed properties of rule #%d in ruleset \"%s\" in folder \"%s\""
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1023
+#: ../cmk/gui/wato/pages/sites.py:1036
 #, python-format
 msgid "Changed site specific configuration variable %s to %s."
 msgstr ""
@@ -11102,7 +11102,7 @@ msgstr ""
 msgid "Clickable URLs"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:662 ../cmk/gui/cee/ntop/pages.py:709
+#: ../cmk/gui/cee/ntop/pages.py:652 ../cmk/gui/cee/ntop/pages.py:699
 msgid "Client"
 msgstr ""
 
@@ -11212,7 +11212,7 @@ msgstr ""
 msgid "Clone this %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:700
+#: ../cmk/gui/wato/pages/sites.py:713
 msgid "Clone this connection in order to create a new one"
 msgstr ""
 
@@ -11671,18 +11671,18 @@ msgstr ""
 msgid "Comment: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:333
+#: ../cmk/gui/plugins/views/builtin.py:348
 #: ../cmk/gui/plugins/views/painters.py:1414
 #: ../cmk/gui/plugins/views/painters.py:2980
 #: ../cmk/gui/plugins/visuals/infos.py:157
 msgid "Comments"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:362
+#: ../cmk/gui/plugins/views/builtin.py:377
 msgid "Comments of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:390
+#: ../cmk/gui/plugins/views/builtin.py:405
 msgid "Comments of service"
 msgstr ""
 
@@ -11903,7 +11903,7 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:278 ../cmk/gui/wato/pages/sites.py:752
+#: ../cmk/gui/wato/pages/sites.py:278 ../cmk/gui/wato/pages/sites.py:765
 msgid "Configuration connection"
 msgstr ""
 
@@ -12122,7 +12122,7 @@ msgid ""
 "sensitive matches, <tt>!</tt> for negation and <tt>~</tt> for regex matches."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/users.py:1179
+#: ../cmk/gui/wato/pages/users.py:1177
 msgid ""
 "Configure the language to be used by the user in the user interface here."
 msgstr ""
@@ -12211,11 +12211,11 @@ msgstr ""
 msgid "Confirm failed notifications"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:653
+#: ../cmk/gui/wato/pages/sites.py:666
 msgid "Confirm overwrite"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:656
+#: ../cmk/gui/wato/pages/sites.py:669
 msgid "Confirm overwrite of the remote site configuration"
 msgstr ""
 
@@ -12271,7 +12271,7 @@ msgid "Connect directly, without Livestatus Proxy"
 msgstr ""
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1522
-#: ../cmk/gui/wato/pages/sites.py:328
+#: ../cmk/gui/wato/pages/sites.py:341
 msgid "Connect timeout"
 msgstr ""
 
@@ -12431,8 +12431,8 @@ msgstr ""
 
 #: ../cmk/gui/plugins/metrics/network.py:280
 #: ../cmk/gui/plugins/metrics/network.py:1665 ../cmk/gui/wato/pages/ldap.py:83
-#: ../cmk/gui/wato/pages/sites.py:504 ../cmk/gui/wato/pages/sites.py:507
-#: ../cmk/gui/wato/pages/sites.py:675 ../cmk/gui/wato/pages/sites.py:1392
+#: ../cmk/gui/wato/pages/sites.py:517 ../cmk/gui/wato/pages/sites.py:520
+#: ../cmk/gui/wato/pages/sites.py:688 ../cmk/gui/wato/pages/sites.py:1405
 #: ../cmk/gui/cee/plugins/wato/dcd.py:281
 msgid "Connections"
 msgstr ""
@@ -13173,7 +13173,7 @@ msgid "Crash report: %s"
 msgstr ""
 
 #: ../cmk/gui/crash_reporting.py:222 ../cmk/gui/crash_reporting.py:239
-#: ../cmk/gui/plugins/views/builtin.py:4452
+#: ../cmk/gui/plugins/views/builtin.py:4364
 #: ../cmk/gui/plugins/views/crash_reporting.py:56
 #: ../cmk/gui/plugins/visuals/infos.py:353
 msgid "Crash reports"
@@ -15637,7 +15637,7 @@ msgstr ""
 msgid "DNS Hostname or IP-address of database server"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:525
+#: ../cmk/gui/cee/ntop/pages.py:515
 msgid "DNS Resolution"
 msgstr ""
 
@@ -16502,7 +16502,7 @@ msgstr ""
 #: ../cmk/gui/plugins/dashboard/notify_users.py:73
 #: ../cmk/gui/plugins/views/crash_reporting.py:313
 #: ../cmk/gui/plugins/wato/check_parameters/inotify.py:41
-#: ../cmk/gui/wato/pages/users.py:347 ../cmk/gui/wato/pages/sites.py:712
+#: ../cmk/gui/wato/pages/users.py:347 ../cmk/gui/wato/pages/sites.py:725
 #: ../cmk/gui/wato/pages/groups.py:169
 #: ../cmk/gui/wato/pages/custom_attributes.py:498
 #: ../cmk/gui/wato/pages/hosts.py:455 ../cmk/gui/wato/pages/timeperiods.py:330
@@ -17597,7 +17597,7 @@ msgstr ""
 msgid "Difference on total number of issues upper level"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:137
+#: ../cmk/gui/plugins/views/builtin.py:152
 msgid "Differences to currently monitored services on a host."
 msgstr ""
 
@@ -17651,7 +17651,7 @@ msgstr ""
 msgid "Direct local delivery without spooling"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:451
+#: ../cmk/gui/wato/pages/sites.py:464
 msgid "Direct login to Web GUI allowed"
 msgstr ""
 
@@ -17661,7 +17661,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:889
 #: ../cmk/gui/plugins/wato/check_parameters/fcp.py:47
-#: ../cmk/gui/cee/ntop/pages.py:1264
+#: ../cmk/gui/cee/ntop/pages.py:1254
 msgid "Direction"
 msgstr ""
 
@@ -17763,7 +17763,7 @@ msgstr ""
 msgid "Disable automatic user synchronization (use master site users)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:436
+#: ../cmk/gui/wato/pages/sites.py:449
 msgid "Disable configuration via WATO on this site"
 msgstr ""
 
@@ -17781,7 +17781,7 @@ msgstr ""
 msgid "Disable host notifications"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:393
+#: ../cmk/gui/wato/pages/sites.py:406
 msgid "Disable in status GUI"
 msgstr ""
 
@@ -17817,7 +17817,7 @@ msgstr ""
 msgid "Disable proxy handling"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:435
+#: ../cmk/gui/wato/pages/sites.py:448
 msgid "Disable remote configuration"
 msgstr ""
 
@@ -18157,11 +18157,11 @@ msgstr ""
 msgid "Display GUI notifications sent to users."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:68
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:64
 msgid "Display Ntop engaged, past and flow alerts"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:117
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:113
 msgid "Display Ntop flow information"
 msgstr ""
 
@@ -18346,7 +18346,7 @@ msgstr ""
 msgid "Displays Gauge"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:164
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:160
 msgid "Displays Top Talkers"
 msgstr ""
 
@@ -18387,11 +18387,11 @@ msgstr ""
 msgid "Displays a static text to the user."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3086
+#: ../cmk/gui/plugins/views/builtin.py:2998
 msgid "Displays all BI aggregations."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3151
+#: ../cmk/gui/plugins/views/builtin.py:3063
 msgid "Displays all aggregations of a certain group."
 msgstr ""
 
@@ -18403,7 +18403,7 @@ msgstr ""
 msgid "Displays either sites and states or hosts and states of a site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2471
+#: ../cmk/gui/plugins/views/builtin.py:2410
 msgid "Displays entries from the logfile of the monitoring core."
 msgstr ""
 
@@ -18456,7 +18456,7 @@ msgstr ""
 msgid "Distinguished name for binding"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:497
+#: ../cmk/gui/wato/pages/sites.py:510
 msgid "Distributed Monitoring"
 msgstr ""
 
@@ -19087,7 +19087,7 @@ msgstr ""
 msgid "Do you really want to delete the auxiliary tag '%s'?"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:710
+#: ../cmk/gui/wato/pages/sites.py:723
 #, python-format
 msgid "Do you really want to delete the connection to the site %s?"
 msgstr ""
@@ -19212,7 +19212,7 @@ msgstr ""
 msgid "Do you really want to delete your logo?"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:773
+#: ../cmk/gui/wato/pages/sites.py:786
 #, python-format
 msgid "Do you really want to log out of '%s'?"
 msgstr ""
@@ -19268,7 +19268,7 @@ msgstr ""
 msgid "Docker Disk Usage Count"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4388
+#: ../cmk/gui/plugins/views/builtin.py:4300
 #: ../cmk/gui/plugins/views/inventory.py:1099
 #: ../cmk/gui/plugins/views/inventory.py:1100
 msgid "Docker containers"
@@ -19296,7 +19296,7 @@ msgstr ""
 msgid "Docker node disk usage"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4364
+#: ../cmk/gui/plugins/views/builtin.py:4276
 msgid "Docker nodes"
 msgstr ""
 
@@ -19584,7 +19584,7 @@ msgstr ""
 msgid "Downtime for host/service"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:474
+#: ../cmk/gui/plugins/views/builtin.py:489
 msgid "Downtime history"
 msgstr ""
 
@@ -19620,16 +19620,16 @@ msgstr ""
 msgid "Downtime will not start anymore after"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:522
+#: ../cmk/gui/plugins/views/builtin.py:537
 #: ../cmk/gui/plugins/visuals/infos.py:178
 msgid "Downtimes"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:553
+#: ../cmk/gui/plugins/views/builtin.py:568
 msgid "Downtimes of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:585
+#: ../cmk/gui/plugins/views/builtin.py:600
 msgid "Downtimes of service"
 msgstr ""
 
@@ -19703,8 +19703,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1297
 #: ../cmk/gui/cee/plugins/reporting/availability.py:125
 #: ../cmk/gui/cee/plugins/wato/dcd.py:427
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1744 ../cmk/gui/cee/ntop/pages.py:910
-#: ../cmk/gui/cee/ntop/pages.py:930 ../cmk/gui/cee/sla.py:1937
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1744 ../cmk/gui/cee/ntop/pages.py:900
+#: ../cmk/gui/cee/ntop/pages.py:920 ../cmk/gui/cee/sla.py:1937
 #: ../cmk/gui/cee/sla.py:1955
 msgid "Duration"
 msgstr ""
@@ -20086,7 +20086,7 @@ msgstr ""
 msgid "Edit bookmark list"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1414
+#: ../cmk/gui/wato/pages/sites.py:1427
 msgid "Edit connection"
 msgstr ""
 
@@ -20214,7 +20214,7 @@ msgstr ""
 msgid "Edit site connection %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:991
+#: ../cmk/gui/wato/pages/sites.py:1004
 #, python-format
 msgid "Edit site specific global settings of %s"
 msgstr ""
@@ -20782,7 +20782,7 @@ msgstr ""
 msgid "Enable regular service discovery checks (deprecated)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:411
+#: ../cmk/gui/wato/pages/sites.py:424
 msgid "Enable replication"
 msgstr ""
 
@@ -20860,7 +20860,7 @@ msgid "Enable/disable processing of perfdata for services"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:29
-#: ../cmk/gui/wato/pages/sites.py:757 ../cmk/gui/wato/pages/read_only.py:98
+#: ../cmk/gui/wato/pages/sites.py:770 ../cmk/gui/wato/pages/read_only.py:98
 msgid "Enabled"
 msgstr ""
 
@@ -21000,7 +21000,7 @@ msgstr ""
 msgid "Encrypted"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1231
+#: ../cmk/gui/wato/pages/sites.py:1244
 msgid ""
 "Encrypted connections to this site are made without certificate verification."
 msgstr ""
@@ -21102,7 +21102,7 @@ msgstr ""
 msgid "Enforced services"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:372 ../cmk/gui/cee/ntop/pages.py:375
+#: ../cmk/gui/cee/ntop/pages.py:362 ../cmk/gui/cee/ntop/pages.py:365
 msgid "Engaged Alerts"
 msgstr ""
 
@@ -21661,11 +21661,11 @@ msgstr ""
 msgid "Events of Monitored Host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2320
+#: ../cmk/gui/plugins/views/builtin.py:2259
 msgid "Events of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2464
+#: ../cmk/gui/plugins/views/builtin.py:2403
 #: ../cmk/gui/plugins/views/mobile.py:540
 msgid "Events of host & services"
 msgstr ""
@@ -21674,7 +21674,7 @@ msgstr ""
 msgid "Events of recent 4 hours"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2391
+#: ../cmk/gui/plugins/views/builtin.py:2330
 #: ../cmk/gui/plugins/views/mobile.py:568
 msgid "Events of service"
 msgstr ""
@@ -22528,7 +22528,7 @@ msgstr ""
 msgid "Failed index operations"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4017
+#: ../cmk/gui/plugins/views/builtin.py:3929
 msgid "Failed notification events of hosts and services."
 msgstr ""
 
@@ -22536,7 +22536,7 @@ msgstr ""
 msgid "Failed notification horizon"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4083
+#: ../cmk/gui/plugins/views/builtin.py:3995
 msgid "Failed notifications"
 msgstr ""
 
@@ -22632,16 +22632,16 @@ msgstr ""
 msgid "Failed to extract %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1185 ../cmk/gui/wato/pages/sites.py:1238
+#: ../cmk/gui/wato/pages/sites.py:1198 ../cmk/gui/wato/pages/sites.py:1251
 #, python-format
 msgid "Failed to fetch peer certificate (%s)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1296
+#: ../cmk/gui/wato/pages/sites.py:1309
 msgid "Failed to fetch the certificate chain"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1194
+#: ../cmk/gui/wato/pages/sites.py:1207
 msgid "Failed to find matching certificate in chain"
 msgstr ""
 
@@ -22994,11 +22994,11 @@ msgstr ""
 msgid "Fetching '%s'..."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:747
+#: ../cmk/gui/wato/pages/sites.py:760
 msgid "Fetching livestatus status"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:784
+#: ../cmk/gui/wato/pages/sites.py:797
 msgid "Fetching replication status"
 msgstr ""
 
@@ -23330,7 +23330,7 @@ msgstr ""
 msgid "Filter rules"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2441 ../cmk/gui/wato/pages/sites.py:1002
+#: ../cmk/gui/wato/mkeventd.py:2441 ../cmk/gui/wato/pages/sites.py:1015
 #: ../cmk/gui/wato/pages/global_settings.py:411
 msgid "Filter settings"
 msgstr ""
@@ -23376,11 +23376,11 @@ msgstr ""
 msgid "Finetune Windows process monitoring"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1275
+#: ../cmk/gui/wato/pages/sites.py:1288
 msgid "Fingerprint"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1251
+#: ../cmk/gui/wato/pages/sites.py:1264
 msgid "Fingerprint (SHA256)"
 msgstr ""
 
@@ -23448,7 +23448,7 @@ msgstr ""
 msgid "First"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:409
+#: ../cmk/gui/cee/ntop/pages.py:399
 msgid "First Seen"
 msgstr ""
 
@@ -23583,8 +23583,8 @@ msgstr ""
 msgid "Flow-controlled Connections"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:113
-#: ../cmk/gui/cee/ntop/pages.py:484
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:109
+#: ../cmk/gui/cee/ntop/pages.py:474
 msgid "Flows"
 msgstr ""
 
@@ -23657,7 +23657,7 @@ msgstr ""
 msgid "Folder: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/wato.py:413
+#: ../cmk/gui/plugins/sidebar/wato.py:415
 msgid "Folders"
 msgstr ""
 
@@ -23834,7 +23834,7 @@ msgstr ""
 msgid "For specific SIDs"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:639
+#: ../cmk/gui/wato/pages/sites.py:652
 #, python-format
 msgid ""
 "For the initial login into the remote site %s we need once your "
@@ -24404,7 +24404,7 @@ msgstr ""
 msgid "GC runs rate"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2737
+#: ../cmk/gui/htmllib.py:2738
 msgid "GET/POST variables of this page"
 msgstr ""
 
@@ -24643,12 +24643,12 @@ msgstr ""
 msgid "Global services to monitor"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1108
+#: ../cmk/gui/wato/pages/sites.py:1121
 msgid "Global setting"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:120
-#: ../cmk/gui/watolib/search.py:417 ../cmk/gui/wato/pages/sites.py:1406
+#: ../cmk/gui/watolib/search.py:417 ../cmk/gui/wato/pages/sites.py:1419
 #: ../cmk/gui/wato/pages/global_settings.py:387
 #: ../cmk/gui/wato/pages/global_settings.py:561
 msgid "Global settings"
@@ -24838,7 +24838,7 @@ msgstr ""
 msgid "Graphs are shown among each other"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1863
+#: ../cmk/gui/plugins/views/builtin.py:1820
 msgid "Graphs for all Services with a certain description"
 msgstr ""
 
@@ -24850,7 +24850,7 @@ msgstr ""
 msgid "Graphs for individual cores"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1884
+#: ../cmk/gui/plugins/views/builtin.py:1841
 msgid "Graphs of services with description:"
 msgstr ""
 
@@ -25599,7 +25599,7 @@ msgid ""
 "first node the health-levels are checked."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1049
+#: ../cmk/gui/wato/pages/sites.py:1062
 msgid ""
 "Here you can configure global settings, that should just be applied on that "
 "site. <b>Note</b>: this only makes sense if the site is part of a "
@@ -26303,11 +26303,11 @@ msgstr ""
 msgid "Historic Event Console Events"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2354
+#: ../cmk/gui/plugins/views/builtin.py:2293
 msgid "Historic downtimes of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2425
+#: ../cmk/gui/plugins/views/builtin.py:2364
 msgid "Historic downtimes of service"
 msgstr ""
 
@@ -26436,7 +26436,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/notifications.py:715 ../cmk/gui/notifications.py:150
 #: ../cmk/gui/cee/plugins/reporting/availability.py:48
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_mysql.py:47
-#: ../cmk/gui/cee/ntop/pages.py:153
+#: ../cmk/gui/cee/ntop/pages.py:143
 msgid "Host"
 msgstr ""
 
@@ -26459,16 +26459,16 @@ msgid ""
 "folder=&mode=changelog\">activate changes page</a> for further information."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:726 ../cmk/gui/cee/ntop/pages.py:747
+#: ../cmk/gui/cee/ntop/pages.py:716 ../cmk/gui/cee/ntop/pages.py:737
 #, python-format
 msgid "Host %s not known in ntopng"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2282
+#: ../cmk/gui/plugins/views/builtin.py:2221
 msgid "Host & service events"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4009
+#: ../cmk/gui/plugins/views/builtin.py:3921
 msgid "Host & service history"
 msgstr ""
 
@@ -26508,7 +26508,7 @@ msgstr ""
 msgid "Host Graphs with Timerange Previews"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:878
+#: ../cmk/gui/plugins/views/builtin.py:893
 #: ../cmk/gui/plugins/visuals/infos.py:78
 msgid "Host Group"
 msgstr ""
@@ -26517,19 +26517,19 @@ msgstr ""
 msgid "Host Group Name"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:956
+#: ../cmk/gui/plugins/views/builtin.py:971
 msgid "Host Group of Down Hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1034
+#: ../cmk/gui/plugins/views/builtin.py:1049
 msgid "Host Group of Pending"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:995
+#: ../cmk/gui/plugins/views/builtin.py:1010
 msgid "Host Group of Unreachable Hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:917
+#: ../cmk/gui/plugins/views/builtin.py:932
 msgid "Host Group of Up Hosts"
 msgstr ""
 
@@ -26776,7 +26776,7 @@ msgstr ""
 msgid "Host graphs"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1470
+#: ../cmk/gui/plugins/views/builtin.py:1485
 #: ../cmk/gui/plugins/wato/builtin_modules.py:437
 #: ../cmk/gui/wato/pages/groups.py:296 ../cmk/gui/wato/pages/groups.py:332
 msgid "Host groups"
@@ -26956,11 +26956,11 @@ msgstr ""
 msgid "Host problem acknowledged"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1510
+#: ../cmk/gui/plugins/views/builtin.py:1525
 msgid "Host problems"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2897
+#: ../cmk/gui/plugins/views/builtin.py:2836
 msgid "Host problems for NagStaMon"
 msgstr ""
 
@@ -26974,7 +26974,7 @@ msgstr ""
 msgid "Host properties of: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3285
+#: ../cmk/gui/plugins/views/builtin.py:3197
 msgid "Host related aggregations"
 msgstr ""
 
@@ -26990,7 +26990,7 @@ msgstr ""
 msgid "Host running Event Console"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1663
+#: ../cmk/gui/plugins/views/builtin.py:1658
 msgid "Host search"
 msgstr ""
 
@@ -27090,7 +27090,7 @@ msgid "Host/Service state"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:475 ../cmk/gui/watolib/sites.py:114
-#: ../cmk/gui/wato/pages/sites.py:403
+#: ../cmk/gui/wato/pages/sites.py:416
 msgid "Host:"
 msgstr ""
 
@@ -27167,7 +27167,7 @@ msgstr ""
 msgid "Hostname / IP address of Graphite server"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3349
+#: ../cmk/gui/plugins/views/builtin.py:3261
 msgid "Hostname aggregations"
 msgstr ""
 
@@ -27236,7 +27236,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/builtin_modules.py:48
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:202
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:206
-#: ../cmk/gui/plugins/sidebar/wato.py:345
+#: ../cmk/gui/plugins/sidebar/wato.py:349
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:76
 #: ../cmk/gui/plugins/metrics/network.py:1753 ../cmk/gui/watolib/search.py:401
 #: ../cmk/gui/watolib/hosts_and_folders.py:3060 ../cmk/gui/mobile.py:149
@@ -27250,7 +27250,7 @@ msgstr ""
 #: ../cmk/gui/cme/plugins/views/managed.py:329
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:666
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:672
-#: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1215
+#: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1205
 msgid "Hosts"
 msgstr ""
 
@@ -27357,7 +27357,7 @@ msgstr ""
 msgid "Hosts that have an up-to-date agent"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2206
+#: ../cmk/gui/plugins/views/builtin.py:2145
 msgid "Hosts that have not been checked for too long."
 msgstr ""
 
@@ -27725,7 +27725,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:1605 ../cmk/gui/wato/mkeventd.py:1907
 #: ../cmk/gui/wato/pages/ldap.py:182 ../cmk/gui/wato/pages/users.py:356
 #: ../cmk/gui/wato/pages/tags.py:339 ../cmk/gui/wato/pages/tags.py:386
-#: ../cmk/gui/wato/pages/sites.py:729
+#: ../cmk/gui/wato/pages/sites.py:742
 #: ../cmk/gui/cme/plugins/wato/managed.py:203
 #: ../cmk/gui/cme/plugins/wato/managed.py:326
 #: ../cmk/gui/cme/plugins/wato/managed.py:335
@@ -27849,7 +27849,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:555
 #: ../cmk/gui/plugins/views/painters.py:2436 ../cmk/gui/wato/mkeventd.py:4191
-#: ../cmk/gui/wato/pages/host_diagnose.py:154 ../cmk/gui/cee/ntop/pages.py:345
+#: ../cmk/gui/wato/pages/host_diagnose.py:154 ../cmk/gui/cee/ntop/pages.py:335
 msgid "IP address"
 msgstr ""
 
@@ -28054,7 +28054,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/painters.py:256
 #: ../cmk/gui/plugins/views/painters.py:283
 #: ../cmk/gui/plugins/views/mkeventd.py:754
-#: ../cmk/gui/plugins/views/mkeventd.py:778 ../cmk/gui/cee/ntop/pages.py:910
+#: ../cmk/gui/plugins/views/mkeventd.py:778 ../cmk/gui/cee/ntop/pages.py:900
 msgid "Icons"
 msgstr ""
 
@@ -28642,7 +28642,7 @@ msgid ""
 "total number of failures and the number of failures in this given timeframe."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:396
+#: ../cmk/gui/wato/pages/sites.py:409
 msgid ""
 "If you disable a connection, then no data of this site will be shown in the "
 "status GUI. The replication is not affected by this, however."
@@ -28717,7 +28717,7 @@ msgid ""
 "problem is acknowledged."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:345
+#: ../cmk/gui/wato/pages/sites.py:358
 msgid ""
 "If you enable persistent connections then Multisite will try to keep open "
 "the connection to the remote sites. This brings a great speed up in high-"
@@ -28733,7 +28733,7 @@ msgid ""
 "a global base."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:474
+#: ../cmk/gui/wato/pages/sites.py:487
 msgid ""
 "If you enable the replication of MKPs then during each <i>Activate Changes</"
 "i> MKPs that are installed on your central site and all other files below "
@@ -29058,7 +29058,7 @@ msgstr ""
 msgid "Ignore"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:445
+#: ../cmk/gui/wato/pages/sites.py:458
 msgid "Ignore SSL certificate errors"
 msgstr ""
 
@@ -29070,7 +29070,7 @@ msgstr ""
 msgid "Ignore TCP Reset Packets"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:444
+#: ../cmk/gui/wato/pages/sites.py:457
 msgid "Ignore TLS errors"
 msgstr ""
 
@@ -30328,7 +30328,7 @@ msgstr ""
 msgid "Internal error"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:629
+#: ../cmk/gui/wato/pages/sites.py:642
 #, python-format
 msgid ""
 "Internal error: %s\n"
@@ -30721,7 +30721,7 @@ msgstr ""
 msgid "Invalid rule <tt>%s</tt>"
 msgstr ""
 
-#: ../cmk/gui/sidebar.py:975 ../cmk/gui/wato/pages/sites.py:1091
+#: ../cmk/gui/sidebar.py:975 ../cmk/gui/wato/pages/sites.py:1104
 msgid "Invalid site"
 msgstr ""
 
@@ -30933,7 +30933,7 @@ msgstr ""
 msgid "Iptables filter configuration"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1274
+#: ../cmk/gui/wato/pages/sites.py:1287
 msgid "Is CA"
 msgstr ""
 
@@ -30998,11 +30998,11 @@ msgstr ""
 msgid "Issue type ID"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1247 ../cmk/gui/wato/pages/sites.py:1273
+#: ../cmk/gui/wato/pages/sites.py:1260 ../cmk/gui/wato/pages/sites.py:1286
 msgid "Issued by"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1246 ../cmk/gui/wato/pages/sites.py:1272
+#: ../cmk/gui/wato/pages/sites.py:1259 ../cmk/gui/wato/pages/sites.py:1285
 msgid "Issued to"
 msgstr ""
 
@@ -31015,7 +31015,7 @@ msgid ""
 "It does not make sense to add a bulk configuration for cancelling rules."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:438
+#: ../cmk/gui/wato/pages/sites.py:451
 msgid ""
 "It is a good idea to disable access to WATO completely on the remote site. "
 "Otherwise a user who does not now about the replication could make local "
@@ -31720,7 +31720,7 @@ msgstr ""
 msgid "Lanes"
 msgstr ""
 
-#: ../cmk/gui/crash_reporting.py:594 ../cmk/gui/wato/pages/users.py:1177
+#: ../cmk/gui/crash_reporting.py:594 ../cmk/gui/wato/pages/users.py:1175
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:103
 msgid "Language"
 msgstr ""
@@ -31825,7 +31825,7 @@ msgstr ""
 msgid "Last Scan Result"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:409
+#: ../cmk/gui/cee/ntop/pages.py:399
 msgid "Last Seen"
 msgstr ""
 
@@ -33038,15 +33038,15 @@ msgstr ""
 msgid "Link to view"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1920
+#: ../cmk/gui/plugins/views/builtin.py:1877
 msgid "Link view showing all hosts of one site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:340
+#: ../cmk/gui/plugins/views/builtin.py:355
 msgid "Linkable view showing all comments of a specific host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:368
+#: ../cmk/gui/plugins/views/builtin.py:383
 msgid "Linkable view showing all comments of a specific service"
 msgstr ""
 
@@ -33126,7 +33126,7 @@ msgid ""
 "one answer must be separated by comma."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4451
+#: ../cmk/gui/plugins/views/builtin.py:4363
 msgid "List crash reports of all sites"
 msgstr ""
 
@@ -33138,7 +33138,7 @@ msgstr ""
 msgid "List grouped interfaces separately"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3682
+#: ../cmk/gui/plugins/views/builtin.py:3594
 msgid ""
 "List of all aggregations, containing the name of aggregations and state "
 "information"
@@ -33180,47 +33180,47 @@ msgstr ""
 msgid "Listen for passive checks via NSCA"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3210
+#: ../cmk/gui/plugins/views/builtin.py:3122
 msgid "Lists all aggregations which only rely on information of one host."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:559
+#: ../cmk/gui/plugins/views/builtin.py:574
 msgid "Lists all downtimes for services."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:527
+#: ../cmk/gui/plugins/views/builtin.py:542
 msgid "Lists all host downtimes."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1592
+#: ../cmk/gui/plugins/views/builtin.py:1607
 msgid "Lists all services in state PENDING."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:933
+#: ../cmk/gui/plugins/views/builtin.py:948
 msgid ""
 "Lists down members of a host group with the number of services in the "
 "different states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:856
+#: ../cmk/gui/plugins/views/builtin.py:871
 msgid ""
 "Lists members of a host group with the number of services in the different "
 "states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1011
+#: ../cmk/gui/plugins/views/builtin.py:1026
 msgid ""
 "Lists members of a pending host group with the number of services in the "
 "different states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:972
+#: ../cmk/gui/plugins/views/builtin.py:987
 msgid ""
 "Lists members of an unreachable host group with the number of services in "
 "the different states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:894
+#: ../cmk/gui/plugins/views/builtin.py:909
 msgid ""
 "Lists up members of a host group with the number of services in the "
 "different states."
@@ -33281,7 +33281,7 @@ msgstr ""
 msgid "Livestatus encryption"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1161
+#: ../cmk/gui/wato/pages/sites.py:1174
 #, python-format
 msgid "Livestatus encryption of %s"
 msgstr ""
@@ -33409,7 +33409,7 @@ msgstr ""
 msgid "Local Authentication Data"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1232
+#: ../cmk/gui/cee/ntop/pages.py:1222
 msgid "Local Client - Remote Server"
 msgstr ""
 
@@ -33433,11 +33433,11 @@ msgstr ""
 msgid "Local IP address"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1224
+#: ../cmk/gui/cee/ntop/pages.py:1214
 msgid "Local Only"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1236
+#: ../cmk/gui/cee/ntop/pages.py:1226
 msgid "Local Server - Remote Client"
 msgstr ""
 
@@ -33824,12 +33824,12 @@ msgstr ""
 msgid "Logfiles of host %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:581
+#: ../cmk/gui/wato/pages/sites.py:594
 #, python-format
 msgid "Logged out of remote site %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:584
+#: ../cmk/gui/wato/pages/sites.py:597
 msgid "Logged out."
 msgstr ""
 
@@ -33871,7 +33871,7 @@ msgid "Logical processor(s) utilization"
 msgstr ""
 
 #: ../cmk/gui/login.py:541 ../cmk/gui/mobile.py:201
-#: ../cmk/gui/wato/pages/sites.py:658 ../cmk/gui/wato/pages/sites.py:778
+#: ../cmk/gui/wato/pages/sites.py:671 ../cmk/gui/wato/pages/sites.py:791
 msgid "Login"
 msgstr ""
 
@@ -33881,7 +33881,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2400
 #: ../cmk/gui/plugins/wato/active_checks.py:1728
-#: ../cmk/gui/wato/pages/sites.py:647
+#: ../cmk/gui/wato/pages/sites.py:660
 msgid "Login credentials"
 msgstr ""
 
@@ -33897,7 +33897,7 @@ msgstr ""
 msgid "Login for selected databases"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:633
+#: ../cmk/gui/wato/pages/sites.py:646
 #, python-format
 msgid "Login into site \"%s\""
 msgstr ""
@@ -33937,7 +33937,7 @@ msgid "Logo"
 msgstr ""
 
 #: ../cmk/gui/mobile.py:268 ../cmk/gui/wato/user_profile.py:111
-#: ../cmk/gui/wato/pages/sites.py:775
+#: ../cmk/gui/wato/pages/sites.py:788
 msgid "Logout"
 msgstr ""
 
@@ -35366,7 +35366,7 @@ msgstr ""
 msgid "Matrix layout"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2995
+#: ../cmk/gui/plugins/views/builtin.py:2934
 msgid "Matrix of Performance Data"
 msgstr ""
 
@@ -35925,7 +35925,7 @@ msgstr ""
 msgid "May be due to high guest load."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/users.py:1141
+#: ../cmk/gui/wato/pages/users.py:1139
 msgid "May see all sites"
 msgstr ""
 
@@ -37050,7 +37050,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/check_catalog.py:476 ../cmk/gui/logwatch.py:218
 #: ../cmk/gui/logwatch.py:382
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:991
-#: ../cmk/gui/cee/ntop/pages.py:160 ../cmk/gui/pagetypes.py:1772
+#: ../cmk/gui/cee/ntop/pages.py:150 ../cmk/gui/pagetypes.py:1772
 msgid "Monitoring"
 msgstr ""
 
@@ -37249,7 +37249,7 @@ msgstr ""
 msgid "Move this %s to another folder"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2725
+#: ../cmk/gui/htmllib.py:2726
 msgid "Move this entry"
 msgstr ""
 
@@ -37357,7 +37357,7 @@ msgstr ""
 msgid "Moved to"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1277
+#: ../cmk/gui/cee/ntop/pages.py:1267
 msgid "Multicast"
 msgstr ""
 
@@ -37458,8 +37458,8 @@ msgstr ""
 
 #: ../cmk/gui/views.py:1178 ../cmk/gui/views.py:1182
 #: ../cmk/gui/availability.py:138 ../cmk/gui/availability.py:154
-#: ../cmk/gui/availability.py:166 ../cmk/gui/cee/ntop/pages.py:636
-#: ../cmk/gui/cee/ntop/pages.py:1011 ../cmk/gui/cee/ntop/pages.py:1041
+#: ../cmk/gui/availability.py:166 ../cmk/gui/cee/ntop/pages.py:626
+#: ../cmk/gui/cee/ntop/pages.py:1001 ../cmk/gui/cee/ntop/pages.py:1031
 msgid "N/A"
 msgstr ""
 
@@ -37627,7 +37627,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:289
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:351
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:372
-#: ../cmk/gui/cee/ntop/pages.py:363
+#: ../cmk/gui/cee/ntop/pages.py:353
 msgid "Name"
 msgstr ""
 
@@ -38117,11 +38117,11 @@ msgstr ""
 msgid "Network ID"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1133
+#: ../cmk/gui/cee/ntop/pages.py:1123
 msgid "Network Interfaces: Last Day View"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1122
+#: ../cmk/gui/cee/ntop/pages.py:1112
 msgid "Network Interfaces: Last Hour View"
 msgstr ""
 
@@ -38428,13 +38428,13 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:96
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:105
 #: ../cmk/gui/plugins/wato/bi_config.py:499 ../cmk/gui/backup.py:1028
-#: ../cmk/gui/wato/pages/sites.py:1274 ../cmk/gui/logwatch.py:78
+#: ../cmk/gui/wato/pages/sites.py:1287 ../cmk/gui/logwatch.py:78
 #: ../cmk/gui/logwatch.py:168 ../cmk/gui/logwatch.py:285
 #: ../cmk/gui/htmllib.py:1860 ../cmk/gui/cee/plugins/wato/license_usage.py:256
 msgid "No"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1285
+#: ../cmk/gui/wato/pages/sites.py:1298
 #, python-format
 msgid "No (Error: %s, Code: %d, Depth: %d)"
 msgstr ""
@@ -38551,7 +38551,7 @@ msgstr ""
 msgid "No data"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:307
+#: ../cmk/gui/cee/ntop/pages.py:297
 msgid "No data available"
 msgstr ""
 
@@ -38741,7 +38741,7 @@ msgstr ""
 msgid "No performance data: %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:413
+#: ../cmk/gui/wato/pages/sites.py:426
 msgid "No replication with this site"
 msgstr ""
 
@@ -38803,7 +38803,7 @@ msgstr ""
 msgid "No site given."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:369
+#: ../cmk/gui/wato/pages/sites.py:382
 msgid "No status host"
 msgstr ""
 
@@ -38992,7 +38992,7 @@ msgstr ""
 msgid "Non-ASCII characters are not allowed in the attribute \"%s\"."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1273
+#: ../cmk/gui/cee/ntop/pages.py:1263
 msgid "Non-Multicast"
 msgstr ""
 
@@ -39049,7 +39049,7 @@ msgid "None selected"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_nodes.py:36
-#: ../cmk/gui/cee/ntop/pages.py:1251
+#: ../cmk/gui/cee/ntop/pages.py:1241
 msgid "Normal"
 msgstr ""
 
@@ -39224,7 +39224,7 @@ msgstr ""
 msgid "Not contained in any group"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:754
+#: ../cmk/gui/wato/pages/sites.py:767
 msgid "Not enabled"
 msgstr ""
 
@@ -39436,7 +39436,7 @@ msgstr ""
 msgid "Notification configuration"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3839
+#: ../cmk/gui/plugins/views/builtin.py:3751
 msgid "Notification events of hosts."
 msgstr ""
 
@@ -39564,16 +39564,16 @@ msgid ""
 "Notifications are sent out when the status of a host or service changes."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4192
+#: ../cmk/gui/plugins/views/builtin.py:4104
 #: ../cmk/gui/plugins/views/mobile.py:608
 msgid "Notifications of contact"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3889
+#: ../cmk/gui/plugins/views/builtin.py:3801
 msgid "Notifications of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3948
+#: ../cmk/gui/plugins/views/builtin.py:3860
 #: ../cmk/gui/plugins/views/mobile.py:648
 msgid "Notifications of host & services"
 msgstr ""
@@ -39623,7 +39623,7 @@ msgstr ""
 msgid "Ntop host"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/views/ntop.py:124
+#: ../cmk/gui/cee/plugins/views/ntop.py:116
 msgid "Ntop host details"
 msgstr ""
 
@@ -39635,19 +39635,19 @@ msgstr ""
 msgid "Ntop integration of this interface"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/views/ntop.py:54
+#: ../cmk/gui/cee/plugins/views/ntop.py:46
 msgid "Ntop ports"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/views/ntop.py:159
+#: ../cmk/gui/cee/plugins/views/ntop.py:151
 msgid "Ntop protocol breakdown"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/views/ntop.py:89
+#: ../cmk/gui/cee/plugins/views/ntop.py:81
 msgid "Ntop top peers"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:64
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:60
 msgid "Ntop: Alerts"
 msgstr ""
 
@@ -40473,15 +40473,15 @@ msgstr ""
 msgid "OK Pattern"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1167
+#: ../cmk/gui/plugins/views/builtin.py:1182
 msgid "OK Services of Hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2575
+#: ../cmk/gui/plugins/views/builtin.py:2514
 msgid "OK Services of Site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:702
+#: ../cmk/gui/plugins/views/builtin.py:717
 msgid "OK Services of host"
 msgstr ""
 
@@ -40920,11 +40920,11 @@ msgstr ""
 msgid "One service per sensor"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1285
+#: ../cmk/gui/cee/ntop/pages.py:1275
 msgid "One-Way Broadcast/Multicast"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1281
+#: ../cmk/gui/cee/ntop/pages.py:1271
 msgid "One-Way Non-Multicast/Non-Broadcast"
 msgstr ""
 
@@ -40937,7 +40937,7 @@ msgstr ""
 msgid "Online"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:824
+#: ../cmk/gui/wato/pages/sites.py:837
 #, python-format
 msgid "Online (Version: %s, Edition: %s)"
 msgstr ""
@@ -41831,28 +41831,28 @@ msgstr ""
 msgid "Overall state of a virtual machine (for example ESX VMs)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4393
+#: ../cmk/gui/plugins/views/builtin.py:4305
 msgid ""
 "Overall state of all docker containers, with counts of services in the "
 "various states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4369
+#: ../cmk/gui/plugins/views/builtin.py:4281
 msgid ""
 "Overall state of all docker nodes, with counts of services in the various "
 "states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:50
+#: ../cmk/gui/plugins/views/builtin.py:65
 msgid ""
 "Overall state of all hosts, with counts of services in the various states."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4434
+#: ../cmk/gui/plugins/views/builtin.py:4346
 msgid "Overall state of all vSphere based virtual machines."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4417
+#: ../cmk/gui/plugins/views/builtin.py:4329
 msgid ""
 "Overall state of all vSphere servers, with counts of services in the various "
 "states."
@@ -42003,11 +42003,11 @@ msgstr ""
 msgid "PEND"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1435
+#: ../cmk/gui/plugins/views/builtin.py:1450
 msgid "PEND Services of Hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:818
+#: ../cmk/gui/plugins/views/builtin.py:833
 msgid "PENDING Services of host"
 msgstr ""
 
@@ -42064,7 +42064,7 @@ msgstr ""
 msgid "POP3 Server"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2748
+#: ../cmk/gui/htmllib.py:2749
 msgid "POST / GET Variables"
 msgstr ""
 
@@ -42720,7 +42720,7 @@ msgstr ""
 msgid "Peer Name"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:504
+#: ../cmk/gui/cee/ntop/pages.py:494
 msgid "Peers"
 msgstr ""
 
@@ -42728,7 +42728,7 @@ msgstr ""
 msgid "Pending DHCP leases"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2743
+#: ../cmk/gui/plugins/views/builtin.py:2682
 msgid "Pending Services of Site"
 msgstr ""
 
@@ -42752,11 +42752,11 @@ msgstr ""
 msgid "Pending security updates"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:181
+#: ../cmk/gui/plugins/views/builtin.py:196
 msgid "Pending service discovery"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1614
+#: ../cmk/gui/plugins/views/builtin.py:1629
 msgid "Pending services"
 msgstr ""
 
@@ -43301,7 +43301,7 @@ msgstr ""
 msgid "Persistent (long)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:342
+#: ../cmk/gui/wato/pages/sites.py:355
 msgid "Persistent Connection"
 msgstr ""
 
@@ -44757,7 +44757,7 @@ msgstr ""
 msgid "Problem Hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3560
+#: ../cmk/gui/plugins/views/builtin.py:3472
 msgid "Problem aggregations"
 msgstr ""
 
@@ -44809,7 +44809,7 @@ msgstr ""
 msgid "Problems in total"
 msgstr "(geen hosts)"
 
-#: ../cmk/gui/plugins/views/builtin.py:849
+#: ../cmk/gui/plugins/views/builtin.py:864
 msgid "Problems of host"
 msgstr ""
 
@@ -45046,7 +45046,7 @@ msgstr ""
 #: ../cmk/gui/forms.py:66 ../cmk/gui/forms.py:69 ../cmk/gui/key_mgmt.py:266
 #: ../cmk/gui/key_mgmt.py:388 ../cmk/gui/key_mgmt.py:484
 #: ../cmk/gui/wato/pages/users.py:337 ../cmk/gui/wato/pages/folders.py:370
-#: ../cmk/gui/wato/pages/services.py:1149 ../cmk/gui/wato/pages/sites.py:697
+#: ../cmk/gui/wato/pages/services.py:1149 ../cmk/gui/wato/pages/sites.py:710
 #: ../cmk/gui/wato/pages/groups.py:167 ../cmk/gui/wato/pages/groups.py:255
 #: ../cmk/gui/wato/pages/roles.py:209
 #: ../cmk/gui/wato/pages/custom_attributes.py:225
@@ -45089,12 +45089,12 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:46
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:63
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:32
-#: ../cmk/gui/cee/plugins/wato/ntop.py:58 ../cmk/gui/cee/ntop/pages.py:605
-#: ../cmk/gui/cee/ntop/pages.py:1334
+#: ../cmk/gui/cee/plugins/wato/ntop.py:58 ../cmk/gui/cee/ntop/pages.py:595
+#: ../cmk/gui/cee/ntop/pages.py:1324
 msgid "Protocol"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:593
+#: ../cmk/gui/cee/ntop/pages.py:583
 msgid "Protocol Overview"
 msgstr ""
 
@@ -45248,7 +45248,7 @@ msgstr ""
 msgid "Pulse Secure users"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:414
+#: ../cmk/gui/wato/pages/sites.py:427
 msgid "Push configuration to this site"
 msgstr ""
 
@@ -45766,8 +45766,8 @@ msgstr ""
 msgid "Raw Bytes (HEXSTR)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:436 ../cmk/gui/cee/ntop/pages.py:626
-#: ../cmk/gui/cee/ntop/pages.py:962 ../cmk/gui/cee/ntop/pages.py:1001
+#: ../cmk/gui/cee/ntop/pages.py:426 ../cmk/gui/cee/ntop/pages.py:616
+#: ../cmk/gui/cee/ntop/pages.py:952 ../cmk/gui/cee/ntop/pages.py:991
 msgid "Rcvd"
 msgstr ""
 
@@ -46003,7 +46003,7 @@ msgstr ""
 msgid "Receive start of response"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:605 ../cmk/gui/cee/ntop/pages.py:911
+#: ../cmk/gui/cee/ntop/pages.py:595 ../cmk/gui/cee/ntop/pages.py:901
 msgid "Received"
 msgstr ""
 
@@ -46056,7 +46056,7 @@ msgstr ""
 msgid "Recent notifications (for analysis)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2153
+#: ../cmk/gui/plugins/views/builtin.py:2092
 msgid "Recently changed services"
 msgstr ""
 
@@ -46513,7 +46513,7 @@ msgstr ""
 msgid "Remote IP address"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1228
+#: ../cmk/gui/cee/ntop/pages.py:1218
 msgid "Remote Only"
 msgstr ""
 
@@ -46922,19 +46922,19 @@ msgstr ""
 msgid "Replicas"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:461
+#: ../cmk/gui/wato/pages/sites.py:474
 msgid "Replicate Event Console config"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:462
+#: ../cmk/gui/wato/pages/sites.py:475
 msgid "Replicate Event Console configuration to this site"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:471
+#: ../cmk/gui/wato/pages/sites.py:484
 msgid "Replicate extensions"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:472
+#: ../cmk/gui/wato/pages/sites.py:485
 msgid "Replicate extensions (MKPs and files in <tt>~/local/</tt>)"
 msgstr ""
 
@@ -48741,7 +48741,7 @@ msgstr ""
 msgid "Scheduled downtime depth"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:436
+#: ../cmk/gui/plugins/views/builtin.py:451
 msgid "Scheduled downtimes"
 msgstr ""
 
@@ -48789,7 +48789,7 @@ msgid ""
 "matching objects in the given base recursively."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:384
+#: ../cmk/gui/cee/ntop/pages.py:374
 msgid "Score"
 msgstr ""
 
@@ -48912,11 +48912,11 @@ msgstr ""
 msgid "Search for rulesets that have rules configured"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2032
+#: ../cmk/gui/plugins/views/builtin.py:1989
 msgid "Search for services and display their graphs"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2530
+#: ../cmk/gui/plugins/views/builtin.py:2469
 msgid "Search history"
 msgstr ""
 
@@ -48966,7 +48966,7 @@ msgstr ""
 msgid "Search pattern"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3061
+#: ../cmk/gui/plugins/views/builtin.py:2973
 msgid "Search performance data"
 msgstr ""
 
@@ -49017,7 +49017,7 @@ msgstr ""
 msgid "Search string"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2084
+#: ../cmk/gui/plugins/views/builtin.py:2023
 msgid "Search time graphs"
 msgstr ""
 
@@ -49090,7 +49090,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1753
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1524
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1549
-#: ../cmk/gui/availability.py:301 ../cmk/gui/wato/pages/sites.py:330
+#: ../cmk/gui/availability.py:301 ../cmk/gui/wato/pages/sites.py:343
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_timeout.py:44
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_cache_age.py:44
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:82
@@ -49534,13 +49534,13 @@ msgstr ""
 msgid "Sensors"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:433 ../cmk/gui/cee/ntop/pages.py:605
-#: ../cmk/gui/cee/ntop/pages.py:623 ../cmk/gui/cee/ntop/pages.py:910
-#: ../cmk/gui/cee/ntop/pages.py:959 ../cmk/gui/cee/ntop/pages.py:998
+#: ../cmk/gui/cee/ntop/pages.py:423 ../cmk/gui/cee/ntop/pages.py:595
+#: ../cmk/gui/cee/ntop/pages.py:613 ../cmk/gui/cee/ntop/pages.py:900
+#: ../cmk/gui/cee/ntop/pages.py:949 ../cmk/gui/cee/ntop/pages.py:988
 msgid "Sent"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:424
+#: ../cmk/gui/cee/ntop/pages.py:414
 msgid "Sent vs Received Traffic Breakdown"
 msgstr ""
 
@@ -49580,12 +49580,12 @@ msgstr ""
 msgid "Serial Number - LEGACY, don't use"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1252
+#: ../cmk/gui/wato/pages/sites.py:1265
 msgid "Serial number"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/ldap.py:327 ../cmk/gui/cee/ntop/pages.py:662
-#: ../cmk/gui/cee/ntop/pages.py:709
+#: ../cmk/gui/wato/pages/ldap.py:327 ../cmk/gui/cee/ntop/pages.py:652
+#: ../cmk/gui/cee/ntop/pages.py:699
 msgid "Server"
 msgstr ""
 
@@ -49610,7 +49610,7 @@ msgid "Server performance"
 msgstr ""
 
 #: ../cmk/gui/plugins/dashboard/event_bar_chart_dashlet.py:180
-#: ../cmk/gui/plugins/views/builtin.py:1825
+#: ../cmk/gui/plugins/views/builtin.py:1782
 #: ../cmk/gui/plugins/views/icons/builtin.py:996
 #: ../cmk/gui/plugins/views/mobile.py:250
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:627
@@ -49681,7 +49681,7 @@ msgstr ""
 msgid "Service Graphs with Timerange Previews"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1914
+#: ../cmk/gui/plugins/views/builtin.py:1871
 #: ../cmk/gui/plugins/visuals/infos.py:105
 msgid "Service Group"
 msgstr ""
@@ -49733,7 +49733,7 @@ msgstr ""
 msgid "Service Name"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4135
+#: ../cmk/gui/plugins/views/builtin.py:4047
 #: ../cmk/gui/plugins/views/mobile.py:687
 msgid "Service Notifications"
 msgstr ""
@@ -49806,7 +49806,7 @@ msgstr ""
 msgid "Service check duration"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:293
+#: ../cmk/gui/plugins/views/builtin.py:308
 msgid "Service check durations"
 msgstr ""
 
@@ -49957,11 +49957,11 @@ msgstr ""
 msgid "Service goes into warning state"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2122
+#: ../cmk/gui/plugins/views/builtin.py:2061
 msgid "Service graphs of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1973
+#: ../cmk/gui/plugins/views/builtin.py:1930
 #: ../cmk/gui/plugins/wato/builtin_modules.py:507
 #: ../cmk/gui/wato/pages/groups.py:300 ../cmk/gui/wato/pages/groups.py:328
 msgid "Service groups"
@@ -50079,11 +50079,11 @@ msgstr ""
 msgid "Service problem acknowledged"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2023
+#: ../cmk/gui/plugins/views/builtin.py:1980
 msgid "Service problems"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2956
+#: ../cmk/gui/plugins/views/builtin.py:2895
 msgid "Service problems for NagStaMon"
 msgstr ""
 
@@ -50100,7 +50100,7 @@ msgstr ""
 msgid "Service retry check interval"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1752
+#: ../cmk/gui/plugins/views/builtin.py:1709
 msgid "Service search"
 msgstr ""
 
@@ -50157,7 +50157,7 @@ msgstr ""
 msgid "Service unit names"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2129
+#: ../cmk/gui/plugins/views/builtin.py:2068
 msgid "Service whose state changed in the last 60 minutes"
 msgstr ""
 
@@ -50243,28 +50243,28 @@ msgstr ""
 msgid "Services in downtime"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:81
+#: ../cmk/gui/plugins/views/builtin.py:96
 msgid "Services not being monitored due to configuration."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:614
-#: ../cmk/gui/plugins/views/builtin.py:644
+#: ../cmk/gui/plugins/views/builtin.py:629
+#: ../cmk/gui/plugins/views/builtin.py:659
 msgid "Services of Host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1100
+#: ../cmk/gui/plugins/views/builtin.py:1115
 msgid "Services of Hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:673
+#: ../cmk/gui/plugins/views/builtin.py:688
 msgid "Services of Hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2785
+#: ../cmk/gui/plugins/views/builtin.py:2724
 msgid "Services of Site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1891
+#: ../cmk/gui/plugins/views/builtin.py:1848
 msgid "Services of a service group"
 msgstr ""
 
@@ -50273,7 +50273,7 @@ msgid "Services of down hosts"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/mobile.py:278 ../cmk/gui/logwatch.py:221
-#: ../cmk/gui/logwatch.py:385 ../cmk/gui/cee/ntop/pages.py:182
+#: ../cmk/gui/logwatch.py:385 ../cmk/gui/cee/ntop/pages.py:172
 msgid "Services of host"
 msgstr ""
 
@@ -50299,7 +50299,7 @@ msgid ""
 "in the service list of a host."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2166
+#: ../cmk/gui/plugins/views/builtin.py:2105
 msgid ""
 "Services that have not been checked for too long according to their "
 "configured check intervals."
@@ -50801,7 +50801,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:323
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:768
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:987
-#: ../cmk/gui/cee/ntop/pages.py:156 ../cmk/utils/werks.py:38
+#: ../cmk/gui/cee/ntop/pages.py:146 ../cmk/utils/werks.py:38
 msgid "Setup"
 msgstr ""
 
@@ -50820,7 +50820,7 @@ msgid ""
 "when accessing the pages."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1388
+#: ../cmk/gui/cee/ntop/pages.py:1378
 msgid "Severity"
 msgstr ""
 
@@ -51069,7 +51069,7 @@ msgstr ""
 msgid "Show details"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:742
+#: ../cmk/gui/wato/pages/sites.py:755
 msgid "Show details about livestatus encryption"
 msgstr ""
 
@@ -51242,7 +51242,7 @@ msgstr ""
 msgid "Show separate result for each SLA period"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1514
+#: ../cmk/gui/cee/ntop/pages.py:1504
 #, python-format
 msgid "Show services of host %s"
 msgstr ""
@@ -51366,7 +51366,7 @@ msgstr ""
 msgid "Show/Hide password"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3646
+#: ../cmk/gui/plugins/views/builtin.py:3558
 msgid "Shows a single aggregation."
 msgstr ""
 
@@ -51375,7 +51375,7 @@ msgid ""
 "Shows all graphs including timerange selections of a collection of services."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1519
+#: ../cmk/gui/plugins/views/builtin.py:1534
 msgid "Shows details of a host."
 msgstr ""
 
@@ -51384,7 +51384,7 @@ msgid ""
 "Shows host graphs including timerange selections of a collection of hosts."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2791
+#: ../cmk/gui/plugins/views/builtin.py:2730
 msgid "Shows number of alerts grouped for each service."
 msgstr ""
 
@@ -51478,7 +51478,7 @@ msgstr ""
 msgid "Signal/Noise ratio"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1250
+#: ../cmk/gui/wato/pages/sites.py:1263
 msgid "Signature algorithm"
 msgstr ""
 
@@ -51550,7 +51550,7 @@ msgstr ""
 msgid "Simple checks for BIOS/Hardware errors"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3758
+#: ../cmk/gui/plugins/views/builtin.py:3670
 msgid ""
 "Simple summary page of all BI aggregates that is used as a web services."
 msgstr ""
@@ -51592,7 +51592,7 @@ msgstr ""
 msgid "Single"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3722
+#: ../cmk/gui/plugins/views/builtin.py:3634
 msgid ""
 "Single Aggregation for simple API calls. Contains the state and state output."
 msgstr ""
@@ -51609,11 +51609,11 @@ msgstr ""
 msgid "Single file"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3275
+#: ../cmk/gui/plugins/views/builtin.py:3187
 msgid "Single host aggregations"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3636
+#: ../cmk/gui/plugins/views/builtin.py:3548
 msgid "Single host problems"
 msgstr ""
 
@@ -51630,7 +51630,7 @@ msgstr ""
 msgid "Single quotes are not allowed here."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:3381
+#: ../cmk/gui/plugins/views/builtin.py:3293
 msgid "Single-Host Aggregations of Host"
 msgstr ""
 
@@ -51780,7 +51780,7 @@ msgstr ""
 msgid "Site setting and global setting are identical."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:719
+#: ../cmk/gui/wato/pages/sites.py:732
 msgid "Site specific global configuration"
 msgstr ""
 
@@ -51790,7 +51790,7 @@ msgstr ""
 msgid "Site state is unknown"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1097
+#: ../cmk/gui/wato/pages/sites.py:1110
 #, python-format
 msgid "Site-specific global configuration for %s"
 msgstr ""
@@ -51799,7 +51799,7 @@ msgstr ""
 msgid "Site-to-site bandwidth"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:375
+#: ../cmk/gui/wato/pages/sites.py:388
 msgid "Site:"
 msgstr ""
 
@@ -52452,7 +52452,7 @@ msgstr ""
 msgid "Specific objects"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/users.py:1144
+#: ../cmk/gui/wato/pages/users.py:1142
 msgid "Specific sites"
 msgstr ""
 
@@ -53012,11 +53012,11 @@ msgstr ""
 msgid "Stale"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2230
+#: ../cmk/gui/plugins/views/builtin.py:2169
 msgid "Stale hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2197
+#: ../cmk/gui/plugins/views/builtin.py:2136
 msgid "Stale services"
 msgstr ""
 
@@ -54023,7 +54023,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/activate_changes.py:426
 #: ../cmk/gui/cee/plugins/wato/dcd.py:350
 #: ../cmk/gui/cee/plugins/wato/dcd.py:423
-#: ../cmk/gui/cee/plugins/wato/dcd.py:595 ../cmk/gui/cee/ntop/pages.py:1242
+#: ../cmk/gui/cee/plugins/wato/dcd.py:595 ../cmk/gui/cee/ntop/pages.py:1232
 msgid "Status"
 msgstr ""
 
@@ -54047,7 +54047,7 @@ msgstr ""
 msgid "Status comments"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:277 ../cmk/gui/wato/pages/sites.py:733
+#: ../cmk/gui/wato/pages/sites.py:277 ../cmk/gui/wato/pages/sites.py:746
 msgid "Status connection"
 msgstr ""
 
@@ -54063,7 +54063,7 @@ msgstr ""
 msgid "Status downtimes"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1422
+#: ../cmk/gui/wato/pages/sites.py:1435
 msgid "Status encryption"
 msgstr ""
 
@@ -54075,7 +54075,7 @@ msgstr ""
 msgid "Status flapping"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:367
+#: ../cmk/gui/wato/pages/sites.py:380
 msgid "Status host"
 msgstr ""
 
@@ -54091,7 +54091,7 @@ msgstr ""
 msgid "Status notifications enabled"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1585
+#: ../cmk/gui/plugins/views/builtin.py:1600
 msgid "Status of Host"
 msgstr ""
 
@@ -54099,11 +54099,11 @@ msgstr ""
 msgid "Status of OMD sites and Checkmk Notification spooler"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1764
+#: ../cmk/gui/plugins/views/builtin.py:1721
 msgid "Status of a single service, to be used for linking"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:173
+#: ../cmk/gui/cee/ntop/pages.py:163
 msgid "Status of host"
 msgstr ""
 
@@ -54597,7 +54597,7 @@ msgstr ""
 msgid "Successfully discarded all pending changes."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:612
+#: ../cmk/gui/wato/pages/sites.py:625
 #, python-format
 msgid "Successfully logged into remote site %s."
 msgstr ""
@@ -55128,7 +55128,7 @@ msgstr ""
 msgid "TCP ELB Resets"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:841
+#: ../cmk/gui/cee/ntop/pages.py:831
 msgid "TCP Flags Distribution"
 msgstr ""
 
@@ -55670,7 +55670,7 @@ msgstr ""
 msgid "Temporarily disable <b>all</b> notifications!"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:394
+#: ../cmk/gui/wato/pages/sites.py:407
 msgid "Temporarily disable this connection"
 msgstr ""
 
@@ -55872,7 +55872,7 @@ msgid ""
 "requests that are being queued for processing."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1207
+#: ../cmk/gui/wato/pages/sites.py:1220
 #, python-format
 msgid "The CA is already a <a href=\"%s\">trusted CA</a>."
 msgstr ""
@@ -56325,7 +56325,7 @@ msgstr ""
 msgid "The URL prefix must end with a slash."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:355
+#: ../cmk/gui/wato/pages/sites.py:368
 #, python-format
 msgid ""
 "The URL prefix will be prepended to links of addons like NagVis when a link "
@@ -57806,7 +57806,7 @@ msgstr ""
 msgid "The list of services will never match"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1226
+#: ../cmk/gui/wato/pages/sites.py:1239
 msgid "The livestatus connection to this site configured not to be encrypted."
 msgstr ""
 
@@ -59043,7 +59043,7 @@ msgid ""
 "use metrics of hosts monitored by these sites."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/users.py:1135
+#: ../cmk/gui/wato/pages/users.py:1133
 msgid "The sites the user is authorized to see in the GUI."
 msgstr ""
 
@@ -59519,7 +59519,7 @@ msgid ""
 "does not exist."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2857
+#: ../cmk/gui/plugins/views/builtin.py:2796
 msgid "The view is intended for NagStaMon as web service."
 msgstr ""
 
@@ -60334,7 +60334,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:2065
-#: ../cmk/gui/wato/pages/sites.py:1395
+#: ../cmk/gui/wato/pages/sites.py:1408
 msgid "This connection"
 msgstr ""
 
@@ -60734,7 +60734,7 @@ msgid ""
 "then shown below the axis and the lower data is shown above it."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:446
+#: ../cmk/gui/wato/pages/sites.py:459
 msgid ""
 "This might be needed to make the synchronization accept problems with SSL "
 "certificates when using an SSL secured connection."
@@ -60937,7 +60937,7 @@ msgid ""
 "such messages."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:464
+#: ../cmk/gui/wato/pages/sites.py:477
 msgid ""
 "This option enables the distribution of global settings and rules of the "
 "Event Console to the remote site. Any change in the local Event Console "
@@ -62316,7 +62316,7 @@ msgid ""
 "integrate custom nagios plugins."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:332
+#: ../cmk/gui/wato/pages/sites.py:345
 msgid ""
 "This sets the time that the GUI waits for a connection to the site to be "
 "established before the site is considered to be unreachable. It is highly "
@@ -62500,7 +62500,7 @@ msgid "This setting only applies if the WebSphere MQ reports the queue length"
 msgstr ""
 
 #: ../cmk/gui/plugins/webapi/execute_remote_automation.py:32
-#: ../cmk/gui/wato/pages/sites.py:978 ../cmk/gui/wato/pages/sites.py:1158
+#: ../cmk/gui/wato/pages/sites.py:991 ../cmk/gui/wato/pages/sites.py:1171
 #: ../cmk/gui/sites.py:260
 msgid "This site does not exist."
 msgstr ""
@@ -62529,7 +62529,7 @@ msgstr ""
 msgid "This site is not responding."
 msgstr "%d site heeft geen verbinding"
 
-#: ../cmk/gui/wato/pages/sites.py:1062
+#: ../cmk/gui/wato/pages/sites.py:1075
 msgid ""
 "This site is not the central site nor a replication remote site. You cannot "
 "configure specific settings for it."
@@ -62561,14 +62561,14 @@ msgstr ""
 msgid "This snapin is only available on the managers central site."
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/wato.py:329
+#: ../cmk/gui/plugins/sidebar/wato.py:333
 msgid ""
 "This snapin shows the folders defined in WATO. It can be used to open views "
 "filtered by the WATO folder. It works standalone, without interaction with "
 "any other snapin."
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/wato.py:417
+#: ../cmk/gui/plugins/sidebar/wato.py:419
 msgid ""
 "This snapin shows the folders defined in WATO. It can be used to open views "
 "filtered by the WATO folder. This snapin interacts with the \"Views\" "
@@ -62725,7 +62725,7 @@ msgstr ""
 msgid "This view does not support cluster hosts."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2903
+#: ../cmk/gui/plugins/views/builtin.py:2842
 msgid "This view is intended for usage as web service for NagStaMon."
 msgstr ""
 
@@ -63623,7 +63623,7 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:160
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:156
 msgid "Top Talkers"
 msgstr ""
 
@@ -63649,10 +63649,6 @@ msgstr ""
 #: ../cmk/gui/wato/pages/custom_attributes.py:241 ../cmk/gui/pagetypes.py:371
 #: ../cmk/gui/pagetypes.py:1722 ../cmk/gui/pagetypes.py:1736
 msgid "Topic"
-msgstr ""
-
-#: ../cmk/gui/plugins/sidebar/wato.py:361
-msgid "Topic:"
 msgstr ""
 
 #: ../cmk/gui/pagetypes.py:1723
@@ -63683,8 +63679,8 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/cpu.py:625 ../cmk/gui/plugins/metrics/cpu.py:642
 #: ../cmk/gui/plugins/metrics/cpu.py:660 ../cmk/gui/plugins/metrics/cpu.py:677
 #: ../cmk/gui/plugins/metrics/cpu.py:697 ../cmk/gui/plugins/metrics/cpu.py:712
-#: ../cmk/gui/cee/ntop/pages.py:480 ../cmk/gui/cee/ntop/pages.py:606
-#: ../cmk/gui/cee/ntop/pages.py:911 ../cmk/gui/cee/ntop/pages.py:930
+#: ../cmk/gui/cee/ntop/pages.py:470 ../cmk/gui/cee/ntop/pages.py:596
+#: ../cmk/gui/cee/ntop/pages.py:901 ../cmk/gui/cee/ntop/pages.py:920
 msgid "Total"
 msgstr ""
 
@@ -64207,11 +64203,11 @@ msgstr ""
 msgid "Traffic"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:452
+#: ../cmk/gui/cee/ntop/pages.py:442
 msgid "Traffic Received"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:452
+#: ../cmk/gui/cee/ntop/pages.py:442
 msgid "Traffic Sent"
 msgstr ""
 
@@ -64330,7 +64326,7 @@ msgstr ""
 msgid "Tree levels"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/wato.py:325
+#: ../cmk/gui/plugins/sidebar/wato.py:329
 msgid "Tree of folders"
 msgstr ""
 
@@ -64388,7 +64384,7 @@ msgstr ""
 msgid "Trust system wide configured CAs"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1253 ../cmk/gui/wato/pages/sites.py:1277
+#: ../cmk/gui/wato/pages/sites.py:1266 ../cmk/gui/wato/pages/sites.py:1290
 msgid "Trusted"
 msgstr ""
 
@@ -64488,7 +64484,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_retry_count.py:28
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_execution.py:28
 #: ../cmk/gui/cee/reporting.py:953 ../cmk/gui/cee/reporting.py:974
-#: ../cmk/gui/cee/ntop/pages.py:1384
+#: ../cmk/gui/cee/ntop/pages.py:1374
 msgid "Type"
 msgstr ""
 
@@ -64655,15 +64651,15 @@ msgstr ""
 msgid "UNKNOWN"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1368
+#: ../cmk/gui/plugins/views/builtin.py:1383
 msgid "UNKNOWN Services of Hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2701
+#: ../cmk/gui/plugins/views/builtin.py:2640
 msgid "UNKNOWN Services of Site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:789
+#: ../cmk/gui/plugins/views/builtin.py:804
 msgid "UNKNOWN Services of host"
 msgstr ""
 
@@ -64751,11 +64747,11 @@ msgstr ""
 msgid "URL from password store"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:424
+#: ../cmk/gui/wato/pages/sites.py:437
 msgid "URL of remote site"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:426
+#: ../cmk/gui/wato/pages/sites.py:439
 msgid ""
 "URL of the remote Check_MK including <tt>/check_mk/</tt>. This URL is in "
 "many cases the same as the URL-Prefix but with <tt>check_mk/</tt> appended, "
@@ -64768,7 +64764,7 @@ msgstr ""
 msgid "URL of the remote site, for example https://10.3.1.2/testsite"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:352
+#: ../cmk/gui/wato/pages/sites.py:365
 msgid "URL prefix"
 msgstr ""
 
@@ -65230,7 +65226,7 @@ msgstr ""
 msgid "Unhandled service problems"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1259
+#: ../cmk/gui/cee/ntop/pages.py:1249
 msgid "Unidirectional UDP Traffic"
 msgstr ""
 
@@ -65398,7 +65394,7 @@ msgstr ""
 msgid "Unmonitored"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:125
+#: ../cmk/gui/plugins/views/builtin.py:140
 msgid "Unmonitored services"
 msgstr ""
 
@@ -65413,7 +65409,7 @@ msgstr ""
 #: ../cmk/gui/plugins/dashboard/stats.py:216
 #: ../cmk/gui/plugins/visuals/filters.py:1748
 #: ../cmk/gui/cee/plugins/reporting/availability.py:399
-#: ../cmk/gui/cee/ntop/pages.py:481
+#: ../cmk/gui/cee/ntop/pages.py:471
 msgid "Unreachable"
 msgstr ""
 
@@ -66690,7 +66686,7 @@ msgstr ""
 msgid "Use other hostname"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:343
+#: ../cmk/gui/wato/pages/sites.py:356
 msgid "Use persistent connections"
 msgstr ""
 
@@ -66785,7 +66781,7 @@ msgstr ""
 msgid "Use the credentials of the 'automation' user"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/users.py:1174
+#: ../cmk/gui/wato/pages/users.py:1172
 #, python-format
 msgid "Use the default language (%s)"
 msgstr ""
@@ -66815,7 +66811,7 @@ msgstr ""
 msgid "Use the following levels"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:371
+#: ../cmk/gui/wato/pages/sites.py:384
 msgid "Use the following status host"
 msgstr ""
 
@@ -67436,7 +67432,7 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:452
+#: ../cmk/gui/wato/pages/sites.py:465
 msgid "Users are allowed to directly login into the Web GUI of this site"
 msgstr ""
 
@@ -67696,7 +67692,7 @@ msgstr ""
 msgid "Valid automation secret for the automation user"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1248
+#: ../cmk/gui/wato/pages/sites.py:1261
 msgid "Valid from"
 msgstr ""
 
@@ -67707,7 +67703,7 @@ msgid ""
 "underscores, spaces and dots."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1249 ../cmk/gui/wato/pages/sites.py:1276
+#: ../cmk/gui/wato/pages/sites.py:1262 ../cmk/gui/wato/pages/sites.py:1289
 msgid "Valid till"
 msgstr ""
 
@@ -68077,10 +68073,6 @@ msgstr ""
 msgid "View the rule based parameters of this host"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/wato.py:371
-msgid "View:"
-msgstr ""
-
 #: ../cmk/gui/views.py:290 ../cmk/gui/plugins/sidebar/views.py:35
 #: ../cmk/gui/dashboard.py:825 ../cmk/gui/pagetypes.py:1346
 #: ../cmk/gui/pagetypes.py:1890
@@ -68338,15 +68330,15 @@ msgstr ""
 msgid "WARN Pattern"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:1234
+#: ../cmk/gui/plugins/views/builtin.py:1249
 msgid "WARN Services of Hostgroup"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:2617
+#: ../cmk/gui/plugins/views/builtin.py:2556
 msgid "WARN Services of Site"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:731
+#: ../cmk/gui/plugins/views/builtin.py:746
 msgid "WARN Services of host"
 msgstr ""
 
@@ -68435,7 +68427,7 @@ msgstr ""
 msgid "WATO is disabled on this site."
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/wato.py:336
+#: ../cmk/gui/plugins/sidebar/wato.py:340
 msgid "WATO is disabled."
 msgstr ""
 
@@ -68445,7 +68437,7 @@ msgid ""
 "<tt>multisite.mk</tt> if you want to use WATO."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:416
+#: ../cmk/gui/wato/pages/sites.py:429
 msgid ""
 "WATO replication allows you to manage several monitoring sites with a "
 "logically centralized WATO. Remote sites receive their configuration from "
@@ -70105,7 +70097,7 @@ msgid ""
 "and set the filenames manually."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:454
+#: ../cmk/gui/wato/pages/sites.py:467
 msgid ""
 "When enabled, this site is marked for synchronisation every time a Web GUI "
 "related option is changed and users are allowed to login to the Web GUI of "
@@ -71302,8 +71294,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:86
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:95
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:104
-#: ../cmk/gui/plugins/wato/bi_config.py:499 ../cmk/gui/wato/pages/sites.py:1274
-#: ../cmk/gui/wato/pages/sites.py:1283 ../cmk/gui/notifications.py:168
+#: ../cmk/gui/plugins/wato/bi_config.py:499 ../cmk/gui/wato/pages/sites.py:1287
+#: ../cmk/gui/wato/pages/sites.py:1296 ../cmk/gui/notifications.py:168
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:256
 msgid "Yes"
 msgstr ""
@@ -71724,13 +71716,19 @@ msgid ""
 "You can not change your password, because it is managed by another system."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:1056
+#: ../cmk/gui/wato/pages/sites.py:1069
 msgid ""
 "You can not configure site specific global settings in non distributed "
 "setups."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:553
+#: ../cmk/gui/wato/pages/sites.py:326
+msgid ""
+"You can not connect remote sites named <tt>[central_site]_bi</tt>. You will "
+"have to rename your remote site to be able to connect it with this site."
+msgstr ""
+
+#: ../cmk/gui/wato/pages/sites.py:566
 msgid "You can not delete the connection to the local site."
 msgstr ""
 
@@ -72099,7 +72097,7 @@ msgid ""
 "%s</b>."
 msgstr ""
 
-#: ../cmk/gui/watolib/sites.py:325 ../cmk/gui/wato/pages/sites.py:567
+#: ../cmk/gui/watolib/sites.py:325 ../cmk/gui/wato/pages/sites.py:580
 #, python-format
 msgid ""
 "You cannot delete this connection. It has folders/hosts assigned to it. You "
@@ -72317,7 +72315,7 @@ msgstr ""
 msgid "You have not configured any <a href=\"wato.py?mode=tags\">tags</a>."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:677
+#: ../cmk/gui/wato/pages/sites.py:690
 msgid ""
 "You have not configured any local or remotes sites. Multisite will "
 "implicitely add the data of the local monitoring site. If you add remotes "
@@ -72525,7 +72523,7 @@ msgid ""
 "synchronization plugin."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/sites.py:605
+#: ../cmk/gui/wato/pages/sites.py:618
 msgid ""
 "You need to confirm that you want to overwrite the remote site configuration."
 msgstr ""
@@ -74029,7 +74027,7 @@ msgstr ""
 msgid "iSCSI HBAs"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2522
+#: ../cmk/gui/htmllib.py:2523
 msgid "icon not found"
 msgstr ""
 
@@ -74666,8 +74664,8 @@ msgstr ""
 msgid "ntopng Username"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:35
-#: ../cmk/gui/cee/plugins/views/ntop.py:25
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:31
+#: ../cmk/gui/cee/plugins/views/ntop.py:21
 msgid "ntopng is not configured. Please configure it under global settings."
 msgstr ""
 
@@ -74699,7 +74697,7 @@ msgstr ""
 #: ../cmk/gui/valuespec.py:2462 ../cmk/gui/views.py:1410
 #: ../cmk/gui/plugins/views/utils.py:343
 #: ../cmk/gui/plugins/sidebar/master_control.py:133
-#: ../cmk/gui/wato/mkeventd.py:2468 ../cmk/gui/wato/pages/sites.py:1024
+#: ../cmk/gui/wato/mkeventd.py:2468 ../cmk/gui/wato/pages/sites.py:1037
 #: ../cmk/gui/htmllib.py:2148
 msgid "off"
 msgstr ""
@@ -74716,7 +74714,7 @@ msgstr ""
 
 #: ../cmk/gui/valuespec.py:2461
 #: ../cmk/gui/plugins/sidebar/master_control.py:133
-#: ../cmk/gui/wato/mkeventd.py:2468 ../cmk/gui/wato/pages/sites.py:1024
+#: ../cmk/gui/wato/mkeventd.py:2468 ../cmk/gui/wato/pages/sites.py:1037
 #: ../cmk/gui/htmllib.py:2148
 msgid "on"
 msgstr ""
@@ -75395,11 +75393,11 @@ msgstr ""
 msgid "show errors"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2634
+#: ../cmk/gui/htmllib.py:2635
 msgid "show less"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2630
+#: ../cmk/gui/htmllib.py:2631
 msgid "show more"
 msgstr ""
 
@@ -75685,7 +75683,7 @@ msgstr ""
 msgid "vBuckets"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4412
+#: ../cmk/gui/plugins/views/builtin.py:4324
 msgid "vSphere Servers"
 msgstr ""
 
@@ -75693,7 +75691,7 @@ msgstr ""
 msgid "vSphere User name"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/builtin.py:4430
+#: ../cmk/gui/plugins/views/builtin.py:4342
 msgid "vSphere VMs"
 msgstr ""
 
