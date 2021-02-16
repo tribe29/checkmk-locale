@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
+"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-02-11 15:39+0000\n"
+"PO-Revision-Date: 2021-02-16 02:01+0000\n"
 "Last-Translator: Moritz Kiemer <moritz.kiemer@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
@@ -510,10 +510,9 @@ msgstr ""
 "Nutzung von %0.2f %%."
 
 #: ../cmk/gui/plugins/sidebar/main_menu.py:156
-#, fuzzy, python-format
-#| msgid "%d unacknowledged incompatible werks"
+#, python-format
 msgid "%d open incompatible werks"
-msgstr "%d unquittierte Werks"
+msgstr "%d offene inkompatible Werks"
 
 #: ../cmk/gui/table.py:426 ../cmk/gui/wato/pages/rulesets.py:874
 #: ../cmk/gui/wato/pages/services.py:452
@@ -849,10 +848,9 @@ msgid "%s: Top Application Traffic: Last Hour View"
 msgstr "%s: Top Anwendungsverkehr: Letzte Stundenansicht"
 
 #: ../cmk/gui/cee/ntop/pages.py:1128 ../cmk/gui/cee/ntop/pages.py:1139
-#, fuzzy, python-format
-#| msgid "Display name"
+#, python-format
 msgid "%s: Top Local Talkers"
-msgstr "Anzeigename"
+msgstr "%s: lokale Top Talkers"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:261
 #, python-format
@@ -1702,16 +1700,13 @@ msgstr ""
 "Subskription in den <a href=\"%s\">Subskriptionseinstellungen<a> hinzufügen."
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:617
-#, fuzzy, python-format
-#| msgid ""
-#| "<br>Please add customer portal credentials and subscription details in "
-#| "the <a href=\"%s\">subscription settings<a>."
+#, python-format
 msgid ""
 "<br>Please add subscription details in the <a href=\"%s\">subscription "
 "settings<a>."
 msgstr ""
-"<br>Bitte die Anmeldedaten im 'Customer Portal' und Details zu der "
-"Subskription in den <a href=\"%s\">Subskriptionseinstellungen<a> hinzufügen."
+"<br>Bitte die Details zu der Subskription in den <a href=\"%s\""
+">Subskriptionseinstellungen<a> hinzufügen."
 
 #: ../cmk/gui/valuespec.py:5325
 msgid ""
@@ -2359,6 +2354,10 @@ msgid ""
 "to display only information of a single host or for a set of services "
 "matching a regular expression."
 msgstr ""
+"Ein Dashboard kann einen optionalen Kontext haben. Es kann z. B. so "
+"eingeschränkt werden, dass nur Informationen eines einzelnen Hosts oder für "
+"eine Gruppe von Services angezeigt werden, die einem regulären Ausdruck "
+"entsprechen."
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:719
 msgid ""
@@ -5131,10 +5130,8 @@ msgid "Age of never analyzed/vacuumed tables"
 msgstr "Alter der niemals ausgewerteten/vakuumierten Tabellen"
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:38
-#, fuzzy
-#| msgid "Age of the oldest snapshot"
 msgid "Age of oldest message"
-msgstr "Alter des ältesten Sicherungspunktes"
+msgstr "Alter der ältesten Nachricht"
 
 #: ../cmk/gui/wato/pages/notifications.py:638
 msgid "Age of oldest notification is over maximum age"
@@ -5149,11 +5146,8 @@ msgid "Age of the oldest snapshot"
 msgstr "Alter des ältesten Sicherungspunktes"
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:39
-#, fuzzy
-#| msgid "MSGAGE: The age, in seconds, of the oldest message on the queue."
 msgid "Age, in seconds, of the oldest message on the queue."
-msgstr ""
-"MSGAGE: Das Alter der ältesten Nachricht in der Warteschlange in Sekunden."
+msgstr "Alter der ältesten Nachricht in der Warteschlange in Sekunden."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4704
 #: ../cmk/gui/wato/pages/host_diagnose.py:68
@@ -6341,10 +6335,8 @@ msgstr ""
 "haben diese Option automatisch aktiviert, bestehende nicht."
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:891
-#, fuzzy
-#| msgid "Clustered"
 msgid "Altered"
-msgstr "Geclustert"
+msgstr "Geändert"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1323
 msgid "Alternative Hostname"
@@ -7089,10 +7081,8 @@ msgid "Artificial slowdown of logfile parsing (for testing!)"
 msgstr "Das Einlesen der Logdateien künstlich verzögern (zum Testen!)"
 
 #: ../cmk/gui/cee/ntop/pages.py:475
-#, fuzzy
-#| msgid "clients"
 msgid "As client"
-msgstr "Clients"
+msgstr "Als Client"
 
 #: ../cmk/gui/wato/pages/notifications.py:1128
 msgid "As configured in the users settings. Do not add a leading underscore."
@@ -7634,10 +7624,8 @@ msgid "Automatically activate changes"
 msgstr "Änderungen automatisch aktivieren"
 
 #: ../cmk/gui/plugins/dashboard/single_metric.py:238
-#, fuzzy
-#| msgid "Automatically delete hosts without piggyback data"
 msgid "Automatically adjusted to available data"
-msgstr "Automatisches Löschen von Hosts ohne Huckepackdaten"
+msgstr "Automatisch auf verfügbare Daten angepasst"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:42
 msgid "Automatically create monitoring agents"
@@ -8042,10 +8030,8 @@ msgstr ""
 "Schwellenwerte angewendet werden."
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:93
-#, fuzzy
-#| msgid "Average message count lower levels"
 msgid "Average time messages stay on queue"
-msgstr "Untere Schwellwerte für die durchschnittliche Anzahl an Meldungen"
+msgstr "Durchnittliche Zeit, die eine Nachricht in der Warteschlange verbringt"
 
 #: ../cmk/gui/plugins/metrics/aws.py:628 ../cmk/gui/plugins/metrics/aws.py:640
 msgid "Average usage"
@@ -8856,10 +8842,8 @@ msgid "Boxes (omit root)"
 msgstr "Kästen (root auslassen)"
 
 #: ../cmk/gui/cee/ntop/pages.py:612 ../cmk/gui/cee/ntop/pages.py:920
-#, fuzzy
-#| msgid "down"
 msgid "Breakdown"
-msgstr "heruntergefahren"
+msgstr "Aufschlüsselung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/brightness.py:26
 msgid "Brightness"
@@ -8914,10 +8898,8 @@ msgid "Browse the catalog of all check plugins, create static checks"
 msgstr "Den Katalog aller Checkplugins durchsuchen, statische Checks erstellen"
 
 #: ../cmk/gui/plugins/metrics/couchbase.py:84
-#, fuzzy
-#| msgid "Bucket name"
 msgid "Bucket memory"
-msgstr "Bucket-Name"
+msgstr "Bucket Speicher"
 
 #: ../cmk/gui/plugins/wato/check_parameters/couchbase_fragmentation.py:50
 #: ../cmk/gui/plugins/wato/check_parameters/aws.py:250
@@ -8966,9 +8948,8 @@ msgid "Buffered I/O"
 msgstr "Gepufferter I/O"
 
 #: ../cmk/gui/plugins/metrics/storage.py:432
-#, fuzzy
 msgid "Buffered memory"
-msgstr "Shared-Memory"
+msgstr "Buffered-Memory"
 
 #: ../cmk/gui/plugins/metrics/application.py:639
 msgid "Bufferpool Hitratios"
@@ -8983,9 +8964,8 @@ msgid "Bugle"
 msgstr "Signalhorn"
 
 #: ../cmk/gui/plugins/metrics/jenkins.py:42
-#, fuzzy
 msgid "Build duration"
-msgstr "min. Dauer"
+msgstr "Bauzeit"
 
 #: ../cmk/gui/watolib/search.py:426
 msgid "Building of search index started"
@@ -9078,10 +9058,8 @@ msgid "Bulk removal of explicit attributes"
 msgstr "Massenentfernung von expliziten Attributen"
 
 #: ../cmk/gui/wato/pages/host_rename.py:124
-#, fuzzy
-#| msgid "Bulk Rename"
 msgid "Bulk rename"
-msgstr "Massen-Umbenennung"
+msgstr "gebündelte Umbenennung"
 
 #: ../cmk/gui/wato/pages/host_rename.py:118
 msgid "Bulk renaming of hosts"
@@ -9126,10 +9104,8 @@ msgid "Business Intelligence"
 msgstr "Business Intelligence"
 
 #: ../cmk/gui/pagetypes.py:1965
-#, fuzzy
-#| msgid "Use Reporting"
 msgid "Business reporting"
-msgstr "Berichte nutzen"
+msgstr "Business Bericht"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:481
 msgid ""
@@ -9217,30 +9193,28 @@ msgstr ""
 "b>, nicht auf die momentanen WATO-Einstellungen!"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_messages.py:43
-#, fuzzy
 msgid ""
 "By activating averaging, Check_MK will compute the average of the message "
 "count over a given interval. If you define alerting levels then these will "
 "automatically be applied on the averaged value. This helps to mask out short "
 "peaks. "
 msgstr ""
-"Indem sie die Durchschnittbildung aktivieren, berechnet Check_MK den "
-"Durchschnitt der CPU-Auslastung über das angegebene Zeitintervall. Die oben "
-"definierten Schwellwerte der CPU-Auslastung gelten dann für diese "
-"Durchschnitte. So können kurze Lastspitzen ausgefiltert werden."
+"Wenn sie die Durchschnittbildung aktivieren, berechnet Checkmk den "
+"Durchschnitt der Nachrichtenanzahl über das angegebene Zeitintervall. Die "
+"oben definierten Schwellwerte gelten dann für diese Durchschnitte. So können "
+"kurze Spitzen ausgefiltert werden. "
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sources.py:44
-#, fuzzy
 msgid ""
 "By activating averaging, Check_MK will compute the average of the message "
 "count over a given interval. If you define alerting levels they will "
 "automatically be applied on the averaged value. This helps to mask out short "
 "peaks."
 msgstr ""
-"Indem sie die Durchschnittbildung aktivieren, berechnet Check_MK den "
-"Durchschnitt der CPU-Auslastung über das angegebene Zeitintervall. Die oben "
-"definierten Schwellwerte der CPU-Auslastung gelten dann für diese "
-"Durchschnitte. So können kurze Lastspitzen ausgefiltert werden."
+"Indem sie die Durchschnittbildung aktivieren, berechnet Checkmk den "
+"Durchschnitt der Nachrichtenanzahl über das angegebene Zeitintervall. Die "
+"oben definierten Schwellwerte gelten dann für diese Durchschnitte. So können "
+"kurze Spitzen ausgefiltert werden."
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:121
 msgid ""
@@ -9255,20 +9229,15 @@ msgstr ""
 "Durchschnitte. So können kurze Lastspitzen ausgefiltert werden."
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:973
-#, fuzzy
-#| msgid ""
-#| "By activating the computation of averages, the levels on errors and "
-#| "traffic are applied to the averaged value. That way you can make the "
-#| "check react only on long-time changes, not on one-minute events."
 msgid ""
 "By activating the computation of averages, the levels on broad- and "
 "multicast packet rates are applied to the averaged value. That way you can "
 "make the check react only on long-time changes, not on one-minute events."
 msgstr ""
 "Durch die Aktivierung der Berechnung von Durchschnittswerten orientieren "
-"sich auch die Level für Fehler/Datenverkehr an den Durchschnitten. Damit "
-"erreichen Sie dass ein Check langfristig reagiert und nicht auf 1-Minuten-"
-"Ereignisse."
+"sich auch die Level für Broad- und Multicast Datenraten an den "
+"Durchschnitten. Damit erreichen Sie dass ein Check auf langfristige "
+"Veränderungen reagiert und nicht auf 1-Minuten-Ereignisse."
 
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_qos.py:72
 msgid ""
@@ -9282,20 +9251,15 @@ msgstr ""
 "Ereignisse."
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:923
-#, fuzzy
-#| msgid ""
-#| "By activating the computation of averages, the levels on errors and "
-#| "traffic are applied to the averaged value. That way you can make the "
-#| "check react only on long-time changes, not on one-minute events."
 msgid ""
 "By activating the computation of averages, the levels on traffic and speed "
 "are applied to the averaged value. That way you can make the check react "
 "only on long-time changes, not on one-minute events."
 msgstr ""
 "Durch die Aktivierung der Berechnung von Durchschnittswerten orientieren "
-"sich auch die Level für Fehler/Datenverkehr an den Durchschnitten. Damit "
-"erreichen Sie dass ein Check langfristig reagiert und nicht auf 1-Minuten-"
-"Ereignisse."
+"sich auch die Level für Datenmenge und Geschwindigkeiten an den "
+"Durchschnitten. Damit erreichen Sie dass ein Check auf langfristige "
+"Veränderungen reagiert und nicht auf 1-Minuten-Ereignisse."
 
 #: ../cmk/gui/wato/mkeventd.py:900
 msgid ""
@@ -9313,18 +9277,15 @@ msgstr ""
 "kann es nie Matchgruppen geben.b"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:904
-#, fuzzy
-#| msgid ""
-#| "Setting levels on the used bandwidth is optional. If you do set levels "
-#| "you might also consider using averaging."
 msgid ""
 "By activating this item, the sum of incoming and outgoing traffic will be "
 "monitored via a seperate metric. Setting levels on the used total bandwidth "
 "is optional. If you do set levels you might also consider using averaging."
 msgstr ""
-"Schwellwerte für die verbrauchte Bandbreite sind optional. Wenn Sie "
-"Schwellwerte einrichten dann sollten Sie auch einen Durchschnittswert "
-"verwenden."
+"Bei Aktivierung dieser Option wird die Summe über den ein- und ausgehenden "
+"Verkehr mittels einer separaten Metrik überwacht. Schwellwerte für die "
+"verbrauchte Bandbreite sind optional. Wenn Sie Schwellwerte einrichten dann "
+"sollten Sie auch einen Durchschnittswert verwenden."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_db2.py:24
 msgid ""
@@ -9377,13 +9338,6 @@ msgstr ""
 "ChecK_MK-Agent abgefragt, sondern zufällige Monitoringdaten erzeugt."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:5053
-#, fuzzy
-#| msgid ""
-#| "By default Check_MK does not use a specific context during SNMPv3 "
-#| "queries, but some devices are offering their information in different "
-#| "SNMPv3 contexts. This rule can be used to configure, based on hosts and "
-#| "check type, which SNMPv3 contexts Check_MK should ask for when getting "
-#| "information via SNMPv3."
 msgid ""
 "By default Check_MK does not use a specific context during SNMPv3 queries, "
 "but some devices are offering their information in different SNMPv3 "
@@ -9391,11 +9345,11 @@ msgid ""
 "sections, which SNMPv3 contexts Checkmk should ask for when getting "
 "information via SNMPv3."
 msgstr ""
-"Standardmäßig benutzt Check_MK keinen spezifischen Kontext für SNMPv3-"
+"Standardmäßig benutzt Checkmk keinen spezifischen Kontext für SNMPv3-"
 "Anfragen, aber manche Geräte stellen ihre Informationen unter "
-"unterschiedlichen SNMPv3-Kontexten zur Verfügung. Mit dieser Regel kann, "
-"anhand von Host und Checktyp, konfiguriert werden, welche Kontexte Check_MK "
-"anfragen soll, um Informationen via SNMPv3 abzuholen."
+"unterschiedlichen SNMPv3-Kontexten zur Verfügung. Mit dieser Regel kann "
+"anhand von Host und SNMP Sektionen konfiguriert werden, welche Kontexte "
+"Checkmk anfragen soll, um Informationen via SNMPv3 abzuholen."
 
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:181
 msgid ""
@@ -9412,16 +9366,6 @@ msgstr ""
 "des benutzen Platzes ausschließen."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2516
-#, fuzzy
-#| msgid ""
-#| "By default Check_MK uses command line calls of Net-SNMP tools like "
-#| "snmpget or snmpwalk to gather SNMP information. For each request a new "
-#| "command line program is being executed. It is now possible to use the "
-#| "inline SNMP implementation which calls the net-snmp libraries directly "
-#| "via its python bindings. This should increase the performance of SNMP "
-#| "checks in a significant way. The inline SNMP mode is a feature which "
-#| "improves the performance for large installations and only available via "
-#| "our subscription."
 msgid ""
 "By default Check_MK uses command line calls of Net-SNMP tools like snmpget "
 "or snmpwalk to gather SNMP information. For each request a new command line "
@@ -9440,7 +9384,10 @@ msgstr ""
 "neuen integrierten SNMP-Implementierung werden die Net-SNMP-Bibliotheken "
 "direkt aus dem Python-Programm angesprochen. Dies verringert den CPU-"
 "Verbrauch beim SNMP-Monitoring auf etwa die Hälfte, was vor allem für "
-"größere Installation nützlich ist."
+"größere Installation nützlich ist.\n"
+"<b>Hinweis:</b> Diese Option ist veraltet und wurde durch Choose SNMP "
+"Backend ersetzt. Änderungen an dieser Option haben keinen Einfluss auf das "
+"Verhalten von Checkmk"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4225
 msgid ""
@@ -9453,16 +9400,6 @@ msgstr ""
 "SNMP anders festelegen."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2487
-#, fuzzy
-#| msgid ""
-#| "By default Check_MK uses command line calls of Net-SNMP tools like "
-#| "snmpget or snmpwalk to gather SNMP information. For each request a new "
-#| "command line program is being executed. It is now possible to use the "
-#| "inline SNMP implementation which calls the net-snmp libraries directly "
-#| "via its python bindings. This should increase the performance of SNMP "
-#| "checks in a significant way. The inline SNMP mode is a feature which "
-#| "improves the performance for large installations and only available via "
-#| "our subscription."
 msgid ""
 "By default Checkmk uses command line calls of Net-SNMP tools like snmpget or "
 "snmpwalk to gather SNMP information. For each request a new command line "
@@ -9475,10 +9412,12 @@ msgstr ""
 "Standardmäßig verwendet Check_MK zum Holen von SNMP-Informationen "
 "Kommandozeilenbefehle aus dem Net-SNMP-Projekt, wie snmpget oder snmpget. "
 "Jede Anfrage benötigt so die Ausführung eines externen Programmes. Bei der "
-"neuen integrierten SNMP-Implementierung werden die Net-SNMP-Bibliotheken "
-"direkt aus dem Python-Programm angesprochen. Dies verringert den CPU-"
-"Verbrauch beim SNMP-Monitoring auf etwa die Hälfte, was vor allem für "
-"größere Installation nützlich ist."
+"neuen integrierten SNMP-Implementierung werden die entsprechenden "
+"Bibliotheken direkt aus dem Python-Programm angesprochen. Dies verringert "
+"den CPU-Verbrauch beim SNMP-Monitoring auf etwa die Hälfte, was vor allem "
+"für größere Installation nützlich ist. Beide SNMP-Modi sind Features, welche "
+"die Performance für große Installationen verbessern und sind nur über unser "
+"Abonnement verfügbar."
 
 #: ../cmk/gui/plugins/wato/notifications.py:253
 msgid ""
@@ -9490,10 +9429,8 @@ msgstr ""
 "Darstellung untereinander erzwingen."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_agent_disabled_sections.py:29
-#, fuzzy
-#| msgid "Agent sections to be executed"
 msgid "By default all of the sections will be executed."
-msgstr "Agentensektionen, die ausgeführt werden sollen"
+msgstr "Standardmäßig werden alle Sektionen ausgeführt."
 
 #: ../cmk/gui/plugins/wato/support.py:45
 msgid "By default crash reports will be sent to our crash reporting server."
@@ -9663,13 +9600,6 @@ msgstr ""
 "möchten."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4087
-#, fuzzy
-#| msgid ""
-#| "By default, for security reasons, the GUI does not interpret any HTML "
-#| "code received from external sources, like plugin output or log messages. "
-#| "If you are really sure what you are doing and need to have HTML codes, "
-#| "like links rendered, disable this option. Be aware, you might open the "
-#| "way for several injection attacks."
 msgid ""
 "By default, for security reasons, the GUI does not interpret any HTML code "
 "received from external sources, like plugin output or log messages. If you "
@@ -9709,13 +9639,6 @@ msgstr ""
 "Plugin Code produzieren kann, den Ihr Browser interpretiert."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4114
-#, fuzzy
-#| msgid ""
-#| "By default, for security reasons, the GUI does not interpret any HTML "
-#| "code received from external sources, like plugin output or log messages. "
-#| "If you are really sure what you are doing and need to have HTML codes, "
-#| "like links rendered, disable this option. Be aware, you might open the "
-#| "way for several injection attacks."
 msgid ""
 "By default, for security reasons, the GUI does not interpret any HTML code "
 "received from external sources, like service output or log messages. If you "
@@ -9727,16 +9650,9 @@ msgstr ""
 "der von externen Quellen wie Plugin-Ausgabe oder Log-Meldungen empfangen "
 "wird. Wenn Sie wirklich sicher sind, was Sie tun und HTML-Codes benötigen, "
 "wie z.B. gerenderte Links, deaktivieren Sie diese Option. Beachten Sie, dass "
-"Sie den Weg für mehrere Injektionsangriffe frei machen können."
+"Sie den Weg für mehrere Injektionsangriffe frei machen können. "
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:619
-#, fuzzy
-#| msgid ""
-#| "By default, for security reasons, the GUI does not interpret any HTML "
-#| "code received from external sources, like plugin output or log messages. "
-#| "If you are really sure what you are doing and need to have HTML codes, "
-#| "like links rendered, disable this option. Be aware, you might open the "
-#| "way for several injection attacks."
 msgid ""
 "By default, for security reasons, the GUI does not interpret any HTML code "
 "received from external sources, like service output or log messages. If you "
@@ -9748,7 +9664,7 @@ msgstr ""
 "der von externen Quellen wie Plugin-Ausgabe oder Log-Meldungen empfangen "
 "wird. Wenn Sie wirklich sicher sind, was Sie tun und HTML-Codes benötigen, "
 "wie z.B. gerenderte Links, deaktivieren Sie diese Option. Beachten Sie, dass "
-"Sie den Weg für mehrere Injektionsangriffe frei machen können."
+"Sie den Weg für mehrere Injektionsangriffe frei machen können. "
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1808
 msgid ""
@@ -9762,14 +9678,6 @@ msgstr ""
 "gemeinsamen Check überwachen möchten, können Sie hier IP-Adressen angeben."
 
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
-#, fuzzy
-#| msgid ""
-#| "Normally the filesystem checks (<tt>df</tt>, <tt>hr_fs</tt> and others) "
-#| "will create a single service for each filesystem. By defining grouping "
-#| "patterns you can handle groups of filesystems like one filesystem. For "
-#| "each group you can define one or several patterns. The filesystems "
-#| "matching one of the patterns will be monitored like one big filesystem in "
-#| "a single service."
 msgid ""
 "By default, the filesystem checks (<tt>df</tt>, <tt>hr_fs</tt> and others) "
 "will create a single service for each filesystem. By defining grouping "
@@ -9779,12 +9687,12 @@ msgid ""
 "big filesystem in a single service. The filesystems matching one of the "
 "exclude patterns will be excluded from the group and monitored individually."
 msgstr ""
-"Normalerweise erzeugen die Dateisystem-Checks (<tt>df</tt>, <tt>hr_fs</tt> u."
+"Standardmäßig erzeugen die Dateisystem-Checks (<tt>df</tt>, <tt>hr_fs</tt> u."
 "a.) pro Dateisystem einen einzelnen Service. Durch Gruppenbildung können "
 "mehrere Dateisysteme wie eines behandelt werden. Pro Gruppe können ein oder "
-"mehrere Muster definiert werden. Alle Dateisysteme, die auf die Muster "
-"passen, werden wie ein großes Dateisystem in einem einzelnen Service "
-"überwacht."
+"mehrere eingliedernde und ausschließende Muster definiert werden. Alle "
+"Dateisysteme, die auf die Muster passen, werden wie ein großes Dateisystem "
+"in einem einzelnen Service überwacht."
 
 #: ../cmk/gui/wato/pages/notifications.py:1300
 msgid ""
@@ -9853,16 +9761,12 @@ msgid "Bytes"
 msgstr "Bytes"
 
 #: ../cmk/gui/plugins/metrics/network.py:1485
-#, fuzzy
-#| msgid "Bytes per day"
 msgid "Bytes accepted"
-msgstr "Bits pro Tag"
+msgstr "Bytes akzeptiert"
 
 #: ../cmk/gui/plugins/metrics/network.py:1491
-#, fuzzy
-#| msgid "Bytes per day"
 msgid "Bytes dropped"
-msgstr "Bits pro Tag"
+msgstr "Bytes verworfen"
 
 #: ../cmk/gui/plugins/metrics/unit.py:173
 msgid "Bytes per day"
@@ -9873,10 +9777,8 @@ msgid "Bytes per second"
 msgstr "Bits pro Sekunde"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:786
-#, fuzzy
-#| msgid "Bytes per second"
 msgid "Bytes processed"
-msgstr "Bits pro Sekunde"
+msgstr "Bytes verarbeitet"
 
 #: ../cmk/gui/plugins/metrics/application.py:602
 msgid "Bytes reclaimed by GC"
@@ -9887,10 +9789,8 @@ msgid "Bytes reclaimed by GC rate"
 msgstr "Wieder in Anspruch genommene Byte durch die GC Rate"
 
 #: ../cmk/gui/plugins/metrics/network.py:1497
-#, fuzzy
-#| msgid "Bytes per second"
 msgid "Bytes rejected"
-msgstr "Bits pro Sekunde"
+msgstr "Bytes abgelehnt"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:457
 msgid "Bytes sent"
@@ -9976,16 +9876,12 @@ msgid "CLOSING"
 msgstr "CLOSING"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:256
-#, fuzzy
-#| msgid "CA"
 msgid "CMA"
-msgstr "CA"
+msgstr "CMA"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:468
-#, fuzzy
-#| msgid "Check_MK helper usage"
 msgid "CMK helper"
-msgstr "Belegung Check_MK-Hilfsprozesse"
+msgstr "CMK-Hilfsprozesse"
 
 #: ../cmk/gui/plugins/wato/check_parameters/threepar_cpgs.py:21
 msgid "CPG member name"
@@ -10021,9 +9917,8 @@ msgid "CPU Load via WMI"
 msgstr "CPU-Last via WMI"
 
 #: ../cmk/gui/plugins/metrics/storage.py:349
-#, fuzzy
 msgid "CPU Memory used"
-msgstr "Perm-Speicherbelegung"
+msgstr "verwendeter CPU Speicher"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:52
 msgid "CPU Model"
@@ -10080,9 +9975,8 @@ msgid "CPU load average of last minute"
 msgstr "CPU-Last Durchschnitt der letzten Minute"
 
 #: ../cmk/gui/plugins/wato/check_parameters/sophos_cpu.py:25
-#, fuzzy
 msgid "CPU percentage usage"
-msgstr "Prozentuale Nutzung"
+msgstr "prozentuale CPU Auslastung"
 
 #: ../cmk/gui/plugins/metrics/kubernets.py:114
 msgid "CPU request"
@@ -10143,9 +10037,8 @@ msgid "CPU time stolen by other operating systems"
 msgstr "CPU-Zeit, die von anderen Betriebssystem gestohlen wurde"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:393
-#, fuzzy
 msgid "CPU total in ms"
-msgstr "CPU-Zeit"
+msgstr "gesamt CPU in ms"
 
 #: ../cmk/gui/plugins/wato/check_parameters/wmic_process.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/elasticsearch_nodes.py:30
@@ -10158,9 +10051,8 @@ msgid "CPU usage warning at"
 msgstr "CPU-Auslastung Warnung bei"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:387
-#, fuzzy
 msgid "CPU used"
-msgstr "% benutzt"
+msgstr "verwendete CPU"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:779
 #: ../cmk/gui/plugins/metrics/cpu.py:233 ../cmk/gui/plugins/metrics/cpu.py:239
@@ -10175,10 +10067,8 @@ msgid "CPU utilization"
 msgstr "CPU-Auslastung"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:658
-#, fuzzy
-#| msgid "CPU utilization for Appliances"
 msgid "CPU utilization & Kernel performance"
-msgstr "CPU-Auslastung für Appliances"
+msgstr "CPU-Auslastung & Kernel-Performanz"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:522
 msgid "CPU utilization (%(util_numcpu_as_max:max@count) CPU Threads)"
@@ -10296,14 +10186,12 @@ msgid "CRIT Pattern"
 msgstr "CRIT-Muster"
 
 #: ../cmk/gui/plugins/views/builtin.py:1316
-#, fuzzy
 msgid "CRIT Services of Hostgroup"
-msgstr "Services der Hostgruppe"
+msgstr "CRIT Services der Hostgruppe"
 
 #: ../cmk/gui/plugins/views/builtin.py:2598
-#, fuzzy
 msgid "CRIT Services of Site"
-msgstr "Services von Instanz"
+msgstr "CRIT Services der Instanz"
 
 #: ../cmk/gui/plugins/views/builtin.py:775
 msgid "CRIT Services of host"
@@ -10328,9 +10216,8 @@ msgid "CRITICAL"
 msgstr "KRITISCH"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:344
-#, fuzzy
 msgid "CRITICAL services"
-msgstr "KRIT Service von Host"
+msgstr "CRITICAL Services"
 
 #: ../cmk/gui/valuespec.py:6178
 msgid "CRT/PEM File"
@@ -10358,10 +10245,8 @@ msgid "CUPS Queue"
 msgstr "CUPS Queue"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:35
-#, fuzzy
-#| msgid "Number of messages currently queued"
 msgid "CURDEPTH: The number of messages currently on the queue."
-msgstr "Anzahl von E-Mails in der Sendewarteschlange"
+msgstr "CURDEPTH: Anzahl von E-Mails in der Sendewarteschlange."
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:48
 msgid ""
@@ -10395,9 +10280,8 @@ msgid "Cache hit ratio"
 msgstr "Cache-Trefferrate"
 
 #: ../cmk/gui/plugins/metrics/storage.py:74
-#, fuzzy
 msgid "Cache misses per second"
-msgstr "Seiten pro Sekunde"
+msgstr "Cache-Misses pro Sekunde"
 
 #: ../cmk/gui/watolib/sites.py:490
 msgid "Cache several non-status queries"
@@ -10412,9 +10296,8 @@ msgid "Cached agent data"
 msgstr "Gecachte Agentendaten"
 
 #: ../cmk/gui/plugins/metrics/storage.py:426
-#, fuzzy
 msgid "Cached memory"
-msgstr "Shared-Memory"
+msgstr "gecachter Speicher"
 
 #: ../cmk/gui/wato/pages/host_rename.py:500
 msgid "Cached output of monitoring agent"
@@ -10429,10 +10312,8 @@ msgid "Call a Rule"
 msgstr "Regel auswählen..."
 
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:478
-#, fuzzy
-#| msgid "Call a Rule"
 msgid "Call a rule"
-msgstr "Regel auswählen..."
+msgstr "Eine Regel aufrufen"
 
 #: ../cmk/gui/plugins/metrics/application.py:156
 msgid "Call legs"
@@ -10478,10 +10359,8 @@ msgstr "Ein regulärer Host kann nicht als Cluster-Host geklont werden"
 
 #: ../cmk/gui/plugins/wato/bi_config.py:1310
 #: ../cmk/gui/plugins/wato/bi_config.py:1340
-#, fuzzy
-#| msgid "Cannot create graph"
 msgid "Can not evaluate search"
-msgstr "Kann Graph nicht erzeugen"
+msgstr "Kann Suche nicht auswerten"
 
 #: ../cmk/gui/watolib/activate_changes.py:701
 #, python-format
@@ -10567,14 +10446,11 @@ msgid "Cannot create graph"
 msgstr "Kann Graph nicht erzeugen"
 
 #: ../cmk/gui/plugins/metrics/graph_templates.py:99
-#, fuzzy, python-format
-#| msgid ""
-#| "Cannot create graph with metrics with the two different units '%s' and "
-#| "'%s'"
+#, python-format
 msgid "Cannot create graph with metrics of different units '%s'"
 msgstr ""
-"Kann Graph mit Metriken mit den unterschiedlichen Einheiten '%s' und '%s' "
-"nicht erstellen"
+"Graphen mit Metriken unterschiedlicher Einheiten '%s' können nicht erstellt "
+"werden"
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:343
 msgid ""
@@ -10725,32 +10601,24 @@ msgstr ""
 "verletzen."
 
 #: ../cmk/gui/watolib/hosts_and_folders.py:1758
-#, fuzzy
-#| msgid "Cannot move folder: This folder is locked."
 msgid "Cannot move folder: A folder can not be moved into itself."
-msgstr "Ordner ist gesperrt: Kann Ordner nicht verschieben."
+msgstr ""
+"Ordner kann nicht verschoben werden: Ein Ordner kann nicht in sich selbst "
+"verschoben werden."
 
 #: ../cmk/gui/watolib/hosts_and_folders.py:1770
-#, fuzzy
-#| msgid ""
-#| "Cannot move folder: A folder with this name already exists in the target "
-#| "folder."
 msgid ""
 "Cannot move folder: A folder can not be moved to a folder within itself."
 msgstr ""
-"Kann Order nicht verschieben: Im Zielordner existiert bereits ein Ordner mit "
-"diesem Namen."
+"Ordner kann nicht verschoben werden: Ein Ordner kann nicht in einen anderen "
+"Ordner innerhalb seiner selbst verschoben werden."
 
 #: ../cmk/gui/watolib/hosts_and_folders.py:1764
-#, fuzzy
-#| msgid ""
-#| "Cannot move folder: A folder with this name already exists in the target "
-#| "folder."
 msgid ""
 "Cannot move folder: A folder can not be moved to it's own parent folder."
 msgstr ""
-"Kann Order nicht verschieben: Im Zielordner existiert bereits ein Ordner mit "
-"diesem Namen."
+"Ordner kann nicht verschoben werden: Ein Ordner kann nicht in seinen eigenen "
+"übergeordneten Ordner verschoben werden."
 
 #: ../cmk/gui/watolib/hosts_and_folders.py:1752
 msgid ""
@@ -10792,12 +10660,13 @@ msgid "Cannot render graph: host %s, service %s not found."
 msgstr "Graph nicht darstellbar: Host %s, Service %s nicht gefunden."
 
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:95
-#, fuzzy, python-format
-#| msgid "Cannot render graph: host %s, service %s not found."
+#, python-format
 msgid ""
 "Cannot render graph: host %s, service %s not found.\n"
 " %s"
-msgstr "Graph nicht darstellbar: Host %s, Service %s nicht gefunden."
+msgstr ""
+"Graph nicht darstellbar: Host %s, Service %s nicht gefunden.\n"
+"%s"
 
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:80
 #, python-format
@@ -10904,8 +10773,6 @@ msgstr "Katalog"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:402
 #: ../cmk/gui/wato/pages/check_catalog.py:73
-#, fuzzy
-#| msgid "Catalog of Check Plugins"
 msgid "Catalog of check plugins"
 msgstr "Katalog der Checkplugins"
 
@@ -10961,9 +10828,8 @@ msgstr "Zertifikatsdetails"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:137
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:178
-#, fuzzy
 msgid "Certificates for HTTPS verification"
-msgstr "SSL Zertifikats Überprüfung"
+msgstr "Zertifikate für HTTPS-Verifizierung"
 
 #: ../cmk/gui/wato/pages/activate_changes.py:346
 msgid "Change"
@@ -11006,20 +10872,16 @@ msgid "Change comment:"
 msgstr "Ändere Kommentar:"
 
 #: ../cmk/gui/plugins/views/availability.py:375
-#, fuzzy
-#| msgid "Filtering and computation options"
 msgid "Change computation options"
-msgstr "Filter- und Berechnungsoptionen"
+msgstr "Berechnungsoptionen ändern"
 
 #: ../cmk/gui/plugins/views/mkeventd.py:1051
 msgid "Change contact:"
 msgstr "Ändere Kontakt:"
 
 #: ../cmk/gui/plugins/views/availability.py:366
-#, fuzzy
-#| msgid "Change column display options"
 msgid "Change display options"
-msgstr "Ändere Optionen der Spaltenanzeige"
+msgstr "Anzeigeoptionen ändern"
 
 #: ../cmk/gui/cee/plugins/views/cmc_commands.py:63
 msgid "Change downtime comment"
@@ -11043,15 +10905,11 @@ msgid "Change infotext in check output"
 msgstr "Infotext in der Ausgabe des Checks ändern"
 
 #: ../cmk/gui/main_menu.py:86
-#, fuzzy
-#| msgid "Change ago:"
 msgid "Change log"
-msgstr "Änderungen vor:"
+msgstr "Änderungsprotokoll"
 
 #: ../cmk/gui/user_notify.py:61 ../cmk/gui/wato/user_profile.py:97
 #: ../cmk/gui/wato/user_profile.py:346 ../cmk/gui/wato/user_profile.py:637
-#, fuzzy
-#| msgid "Change Password"
 msgid "Change password"
 msgstr "Passwort ändern"
 
@@ -11060,13 +10918,9 @@ msgid "Change password at next login or access"
 msgstr "Passwort bei der nächsten Anmeldung oder Zugriff ändern"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:135
-#, fuzzy
-#| msgid ""
-#| "Change the default user interface theme of your Check_MK installation"
 msgid "Change the default user interface theme of your Checkmk installation"
 msgstr ""
-"Verändere das Default Aussehen des User Interfaces deiner Check_MK-"
-"Installation"
+"Das Standardthema der Benutzeroberfläche der Checkmk-Installation ändern"
 
 #: ../cmk/gui/wato/mkeventd.py:2467
 #: ../cmk/gui/wato/pages/global_settings.py:460
@@ -11154,10 +11008,10 @@ msgstr ""
 "verschoben"
 
 #: ../cmk/gui/watolib/rulesets.py:656
-#, fuzzy, python-format
-#| msgid "Changed properties of rule \"%s\" in folder \"%s\""
+#, python-format
 msgid "Changed properties of rule #%d in ruleset \"%s\" in folder \"%s\""
-msgstr "Eigenschaften von Regel \"%s\" in Ordner \"%s\" geändert"
+msgstr ""
+"Geänderte Eigenschaften der Regel #%d im Regelsatz \"%s\" im Ordner \"%s\""
 
 #: ../cmk/gui/wato/pages/sites.py:1036
 #, python-format
@@ -11171,39 +11025,29 @@ msgstr "Änderung(en)"
 
 #: ../cmk/gui/plugins/views/inventory.py:1220
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:877
-#, fuzzy
-#| msgid "Change"
 msgid "Channel"
-msgstr "Änderung"
+msgstr "Channel"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_channels.py:32
-#, fuzzy
-#| msgid "Change State"
 msgid "Channel state"
-msgstr "Änderungsstatus"
+msgstr "Channel Zustand"
 
 #: ../cmk/gui/plugins/metrics/network.py:739
 msgid "Channel utilization"
 msgstr "Kanalauslastung"
 
 #: ../cmk/gui/plugins/metrics/network.py:745
-#, fuzzy
-#| msgid "Channel utilization"
 msgid "Channel utilization for 2,4GHz Band"
-msgstr "Kanalauslastung"
+msgstr "Channel Auslastung für das 2,4Ghz Band"
 
 #: ../cmk/gui/plugins/metrics/network.py:751
-#, fuzzy
-#| msgid "Channel utilization"
 msgid "Channel utilization for 5GHz Band"
-msgstr "Kanalauslastung"
+msgstr "Channel Auslastung für das 5GHz Band"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:872
 #: ../cmk/gui/plugins/metrics/network.py:1479
-#, fuzzy
-#| msgid "Changes"
 msgid "Channels"
-msgstr "Änderung(en)"
+msgstr "Channels"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:97
 msgid "Characters"
@@ -11275,19 +11119,14 @@ msgid "Check Item"
 msgstr "Checkitem"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1258
-#, fuzzy
-#| msgid "Check DNS service"
 msgid "Check LDAP service access"
-msgstr "Prüfe DNS Service"
+msgstr "Check Zugriff auf LDAP-Service"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:5195
-#, fuzzy
 msgid "Check MK status of piggybacked host within this period"
-msgstr "Check_MK-Status innerhalb dieses Zeitraumes"
+msgstr "CheckMK-Status der Piggyback-Hosts innerhalb dieses Zeitraums prüfen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/proxmox_ve_vm_info_params.py:24
-#, fuzzy
-#| msgid "Check parameters"
 msgid "Check Parameter"
 msgstr "Check-Parameter"
 
@@ -11296,16 +11135,12 @@ msgid "Check SFTP Service"
 msgstr "Prüfe SFTP-Dienst"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1517
-#, fuzzy
-#| msgid "Check access to SMB share"
 msgid "Check SMB share access"
-msgstr "Prüfe Zugriff auf SMB share"
+msgstr "Check Zugriff auf SMB share"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1375
-#, fuzzy
-#| msgid "Check HTTP service"
 msgid "Check SMTP service access"
-msgstr "Prüfe HTTP Service"
+msgstr "Check Zugang zum SMTP-Dienst"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:551
 msgid "Check SQL Database"
@@ -11325,15 +11160,12 @@ msgid "Check State of BI Aggregation"
 msgstr "Status einer BI-Aggregation überwachen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/oracle_dataguard_stats.py:50
-#, fuzzy
 msgid "Check State of Broker on Primary: "
-msgstr "Status einer BI-Aggregation überwachen"
+msgstr "Check Zustand des Brokers auf dem Primary: "
 
 #: ../cmk/gui/plugins/wato/active_checks.py:687
-#, fuzzy
-#| msgid "TCP port for connection"
 msgid "Check TCP port connection"
-msgstr "TCP Port für Verbindung"
+msgstr "Check TCP Port Verbindung"
 
 #: ../cmk/gui/crash_reporting.py:545 ../cmk/gui/cee/plugins/wato/cmc.py:1016
 msgid "Check Type"
@@ -11377,10 +11209,8 @@ msgid "Check containers memory usage"
 msgstr "Überwache die Speichernutzung der Container"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1932
-#, fuzzy
-#| msgid "Currently running"
 msgid "Check current routing"
-msgstr "Läuft aktuell"
+msgstr "Check aktuelles Routing"
 
 #: ../cmk/gui/wato/mkeventd.py:4178
 msgid "Check event state in Event Console"
@@ -11395,10 +11225,8 @@ msgid "Check for an Address"
 msgstr "Auf eine Adresse prüfen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_plugin.py:29
-#, fuzzy
-#| msgid "Check for Version"
 msgid "Check for correct version"
-msgstr "Auf Version prüfen"
+msgstr "Check auf korrekte Version"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4771
 #, fuzzy
@@ -11449,16 +11277,12 @@ msgid "Check logfiles for relevant new messages"
 msgstr "Logdateien auf relevante Meldungen hin überwachen"
 
 #: ../cmk/gui/plugins/views/painters.py:1365
-#, fuzzy
-#| msgid "Check manual (for Check_MK based checks)"
 msgid "Check manual (for Checkmk based checks)"
-msgstr "Check-Dokumentation (für Check_MK basierte Checks)"
+msgstr "Check-Dokumentation (für Checkmk basierte Checks)"
 
 #: ../cmk/gui/plugins/views/icons/builtin.py:293
-#, fuzzy
-#| msgid "Check plugin manual page"
 msgid "Check manual page"
-msgstr "Handbuchseite des Checkplugins"
+msgstr "Check Handbuchseite"
 
 #: ../cmk/gui/views.py:3360
 #, python-format
@@ -11466,10 +11290,8 @@ msgid "Check not executed within %d seconds"
 msgstr "Prüfung nicht innerhalb von %d Sekunden ausgeführt"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1889
-#, fuzzy
-#| msgid "Check Number of Notifications per Contact"
 msgid "Check notification number per contact"
-msgstr "Anzahl von Alarmen pro Kontakt überwachen"
+msgstr "Check Anzahl von Alarmen pro Kontakt"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2285
 msgid "Check only the listed mailboxes"
@@ -11485,16 +11307,12 @@ msgid "Check parameters"
 msgstr "Check-Parameter"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:272
-#, fuzzy
-#| msgid ""
-#| "Check parameters and other configuration variables on hosts and services"
 msgid "Check parameters and other configuration variables for hosts"
-msgstr "Checkparameter und andere Konfigurationsvariablen"
+msgstr "Check-Parameter und andere Konfigurationsvariablen für Hosts"
 
 #: ../cmk/gui/plugins/views/icons/builtin.py:1165
-#, fuzzy
 msgid "Check period"
-msgstr "Check_MK-Version"
+msgstr "Check Zeitraum"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2871
 msgid "Check period for active services"
@@ -11505,10 +11323,8 @@ msgid "Check period for hosts"
 msgstr "Checkperiode für Hosts"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2890
-#, fuzzy
-#| msgid "Check period for passive Check_MK services"
 msgid "Check period for passive Checkmk services"
-msgstr "Checkperiode für passive Check_MK Services"
+msgstr "Check Zeitraum für passive Checkmk Services"
 
 #: ../cmk/gui/wato/pages/services.py:479 ../cmk/gui/wato/pages/services.py:659
 msgid "Check plugin"
@@ -11702,15 +11518,12 @@ msgstr "Belegung Check-Hilfsprozesse"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:439
 #: ../cmk/gui/dashboard.py:830
-#, fuzzy
 msgid "Checkmk"
-msgstr "Check"
+msgstr "Checkmk"
 
 #: ../cmk/gui/cee/reporting.py:590
-#, fuzzy
-#| msgid "Check_MK $PERIODNAME$ '$TITLE$'"
 msgid "Checkmk $PERIODNAME$ '$TITLE$'"
-msgstr "Check_MK $PERIODNAME$ '$TITLE$'"
+msgstr "Checkmk $PERIODNAME$ '$TITLE$'"
 
 #: ../cmk/gui/page_menu.py:339
 msgid "Checkmk - The official guide"
@@ -11718,33 +11531,25 @@ msgstr "Checkmk - The offizielle Guide"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4537
 #: ../cmk/utils/tags.py:571
-#, fuzzy
-#| msgid "Check_MK Agent"
 msgid "Checkmk Agent"
-msgstr "Check_MK Agent"
+msgstr "Checkmk Agent"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/runas.py:30
-#, fuzzy
-#| msgid "Check_MK Agent Local-Directory"
 msgid "Checkmk Agent Local-Directory"
-msgstr "Check_MK Agent Local-Ordner"
+msgstr "Checkmk Agent Local-Ordner"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/runas.py:29
-#, fuzzy
-#| msgid "Check_MK Agent Plugins-Directory"
 msgid "Checkmk Agent Plugins-Directory"
-msgstr "Check_MK Agent Plugins-Ordner"
+msgstr "Checkmk Agent Plugins-Ordner"
 
 #: ../cmk/gui/wato/pages/host_diagnose.py:315
-#, fuzzy, python-format
-#| msgid "Check_MK Agent Port (<a href=\"%s\">Rules</a>)"
+#, python-format
 msgid "Checkmk Agent Port (<a href=\"%s\">Rules</a>)"
-msgstr "Port des Check_MK Agenten (<a href=\"%s\">Regeln</a>)"
+msgstr "Checkmk Agent Port (<a href=\"%s\">Regeln</a>)"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:442
-#, fuzzy
 msgid "Checkmk Agent Version"
-msgstr "Agentenversion"
+msgstr "Checkmk Agent Version"
 
 #: ../cmk/gui/wato/pages/diagnostics.py:211 ../cmk/base/diagnostics.py:407
 msgid ""
@@ -11759,65 +11564,49 @@ msgstr ""
 "RRDCached (Agent-Plugin mk_inventory muss installiert sein)"
 
 #: ../cmk/base/diagnostics.py:488
-#, fuzzy
-#| msgid "Configuration variable:"
 msgid "Checkmk Configuration Files"
-msgstr "Konfigurationsvariable:"
+msgstr "Checkmk-Konfigurationsdateien"
 
 #: ../cmk/base/diagnostics.py:508
-#, fuzzy
-#| msgid "Check logfile groups"
 msgid "Checkmk Log Files"
-msgstr "Überprüfe Logfile-Gruppen"
+msgstr "Checkmk Log-Dateien"
 
 #: ../cmk/gui/plugins/dashboard/logo.py:25
-#, fuzzy
-#| msgid "Check_MK Logo"
 msgid "Checkmk Logo"
-msgstr "Check_MK Logo"
+msgstr "Checkmk Logo"
 
 #: ../cmk/gui/plugins/wato/omd_configuration.py:114
-#, fuzzy
-#| msgid "Check_MK Micro Core"
 msgid "Checkmk Micro Core"
-msgstr "Check_MK Micro Core"
+msgstr "Checkmk Micro Core"
 
 #: ../cmk/gui/mobile.py:181 ../cmk/gui/mobile.py:216 ../cmk/gui/mobile.py:251
-#, fuzzy
-#| msgid "Check_MK Mobile"
 msgid "Checkmk Mobile"
-msgstr "Check_MK Mobil"
+msgstr "Checkmk Mobile"
 
 #: ../cmk/gui/wato/pages/diagnostics.py:210
-#, fuzzy
 msgid "Checkmk Overview"
-msgstr "Check_MK-Version"
+msgstr "Checkmk Overview"
 
 #: ../cmk/base/diagnostics.py:403
 msgid "Checkmk Overview of Checkmk Server"
 msgstr "Checkmk Übersicht des Checkmk Server"
 
 #: ../cmk/gui/sidebar.py:331
-#, fuzzy
-#| msgid "Check_MK Sidebar"
 msgid "Checkmk Sidebar"
-msgstr "Check_MK Seitenleiste"
+msgstr "Checkmk Sidebar"
 
 #: ../cmk/gui/crash_reporting.py:415 ../cmk/gui/werks.py:298
 #: ../cmk/gui/werks.py:460 ../cmk/gui/werks.py:470
-#, fuzzy
 msgid "Checkmk Version"
-msgstr "Check_MK-Version"
+msgstr "Checkmk Version"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:21
-#, fuzzy
 msgid "Checkmk Windows agent service settings"
-msgstr "Agentenversion"
+msgstr "Einstellungen des Checkmk Windows-Agenten-Service"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/super_server.py:19
-#, fuzzy
 msgid "Checkmk agent network service (Linux)"
-msgstr "Agentenversion"
+msgstr "Checkmk Agent Netzwerk-Service (Linux)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:38
 msgid "Checkmk agent: Execute the Checkmk agent within running containers"
@@ -11825,27 +11614,21 @@ msgstr ""
 "Checkmk Agent: Führe den Checkmk Agenten innerhalb laufender Container aus"
 
 #: ../cmk/gui/watolib/automations.py:485
-#, fuzzy
 msgid "Checkmk automation"
-msgstr "Check_MK-Version"
+msgstr "Checkmk Automatisierung"
 
 #: ../cmk/gui/watolib/automations.py:501
-#, fuzzy, python-format
-#| msgid "Use \"Check_MK Automation\" user"
+#, python-format
 msgid "Checkmk automation %s %s"
-msgstr "Benutzer \"Check_MK Automation\" verwenden"
+msgstr "Checkmk-Automatisierung %s %s"
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:585
-#, fuzzy
-#| msgid "Check_MK check helpers"
 msgid "Checkmk check helpers"
-msgstr "Check_MK-Check-Helper"
+msgstr "Checkmk-Check-Hilfsprozesse"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:120
-#, fuzzy
-#| msgid "Check_MK check latency"
 msgid "Checkmk check latency"
-msgstr "Checklatenz von Check_MK-Services"
+msgstr "Checkmk Check-Latenz"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:1099
 #, fuzzy
@@ -11859,38 +11642,23 @@ msgid "Checkmk checker usage"
 msgstr "Belegung Check-Hilfsprozesse"
 
 #: ../cmk/gui/plugins/views/wato.py:29
-#, fuzzy
-#| msgid "Check_MK config filename"
 msgid "Checkmk config filename"
-msgstr "Check_MK Konfigurationsdateiname"
+msgstr "Checkmk Konfigurationsdateiname"
 
 #: ../cmk/gui/webapi.py:124
-#, fuzzy, python-format
-#| msgid "Check_MK exception: %s"
+#, python-format
 msgid "Checkmk exception: %s"
-msgstr "Check_MK Fehler: %s"
+msgstr "Checkmk Fehler: %s"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:126
-#, fuzzy
-#| msgid "Check_MK check latency"
 msgid "Checkmk fetcher latency"
-msgstr "Checklatenz von Check_MK-Services"
+msgstr "Checkmk-Fetcher-Latenz"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:702
-#, fuzzy
-#| msgid "Check helper usage"
 msgid "Checkmk fetcher usage"
-msgstr "Belegung Check-Hilfsprozesse"
+msgstr "Checkmk-Fetcher Auslastung"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4445
-#, fuzzy
-#| msgid ""
-#| "Check_MK has an efficient SNMP implementation called Inline SNMP which "
-#| "reduces the load produced by SNMP monitoring on the monitoring host "
-#| "significantly. This option is enabled by default for all SNMP hosts and "
-#| "it is a good idea to keep this default setting. However, there are SNMP "
-#| "devices which have problems with this SNMP implementation. You can use "
-#| "this rule to disable Inline SNMP for these hosts."
 msgid ""
 "Checkmk has an efficient SNMP implementation called Inline SNMP which "
 "reduces the load produced by SNMP monitoring on the monitoring host "
@@ -11900,68 +11668,50 @@ msgid ""
 "select the SNMP Backend for these hosts.Inline SNMP uses PySNMP bindings to "
 "make SNMP calls."
 msgstr ""
-"Check_MK has an efficient SNMP implementation called Inline SNMP which "
-"reduces the load produced by SNMP monitoring on the monitoring host "
-"significantly. This option is enabled by default for all SNMP hosts and it "
-"is a good idea to keep this default setting. However, there are SNMP devices "
-"which have problems with this SNMP implementation. You can use this rule to "
-"disable Inline SNMP for these hosts."
+"Checkmk verfügt über eine effiziente SNMP-Implementierung namens Inline "
+"SNMP, welche die durch die SNMP-Überwachung erzeugte Last auf dem "
+"Überwachungshost erheblich reduziert. Inline-SNMP ist standardmäßig für alle "
+"SNMP-Hosts aktiviert und es ist eine gute Idee, diese Standardeinstellung "
+"beizubehalten. Es gibt jedoch SNMP-Geräte, die Probleme mit einigen SNMP-"
+"Implementierungen haben. Sie können diese Regel verwenden, um das SNMP-"
+"Backend für diese Hosts auszuwählen. Inline SNMP verwendet PySNMP-Bindungen, "
+"um SNMP-Aufrufe durchzuführen."
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:641
 #: ../cmk/gui/plugins/metrics/checkmk.py:96
 #: ../cmk/gui/cee/plugins/sidebar/cmc.py:78
-#, fuzzy
-#| msgid "Check helper usage"
 msgid "Checkmk helper usage"
-msgstr "Belegung Check-Hilfsprozesse"
+msgstr "Checkmk Hilfsprozess Auslastung"
 
 #: ../cmk/gui/plugins/views/inventory.py:1130
-#, fuzzy
 msgid "Checkmk site"
-msgstr "Check_MK-Version"
+msgstr "Checkmk Instanz"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:26
-#, fuzzy
-#| msgid "Check_MK site objects"
 msgid "Checkmk site objects"
-msgstr "Objekte von Check_MK-Instanzen"
+msgstr "Objekte von Checkmk-Instanzen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:233
-#, fuzzy
-#| msgid "Performance data settings"
 msgid "Checkmk site performance and settings"
-msgstr "Leistungsdateneinstellungen"
+msgstr "Checkmk-Instanz Leistung und Einstellungen"
 
 #: ../cmk/gui/plugins/views/inventory.py:1131
-#, fuzzy
-#| msgid "Check types"
 msgid "Checkmk sites"
-msgstr "Checktypen"
+msgstr "Checkmk Instanzen"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1529
-#, fuzzy
-#| msgid "Check_MK specific"
 msgid "Checkmk specific"
-msgstr "Check_MK-spezifisch"
+msgstr "Checkmk-spezifisch"
 
 #: ../cmk/gui/plugins/views/inventory.py:1136
-#, fuzzy
 msgid "Checkmk version"
-msgstr "Check_MK-Version"
+msgstr "Checkmk-Version"
 
 #: ../cmk/gui/plugins/views/inventory.py:1137
-#, fuzzy
 msgid "Checkmk versions"
-msgstr "Check_MK-Version"
+msgstr "Checkmk-Versionen"
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1711
-#, fuzzy
-#| msgid ""
-#| "Check_MK was not not supporting special characters (like Umlauts) in User-"
-#| "IDs. To deal with LDAP users having umlauts in their User-IDs you had the "
-#| "choice to replace umlauts with other characters. This option is still "
-#| "available for compatibility reasons, but you are adviced to use the \"keep"
-#| "\" option for new installations."
 msgid ""
 "Checkmk was not not supporting special characters (like Umlauts) in User-"
 "IDs. To deal with LDAP users having umlauts in their User-IDs you had the "
@@ -11969,59 +11719,43 @@ msgid ""
 "available for compatibility reasons, but you are adviced to use the \"keep\" "
 "option for new installations."
 msgstr ""
-"Check_MK unterstützte keine Sonderzeichen (wie Umlaute) in User-IDs. Um LDAP-"
+"Checkmk unterstützte keine Sonderzeichen (wie Umlaute) in User-IDs. Um LDAP-"
 "Benutzer mit Umlauten in ihren IDs zu handhaben, gab es die Option, Umlaute "
 "durch andere Zeichen zu ersetzen. Diese Option Existiert noch aus "
 "Kompatibilitätsgründen, es wird jedoch empfohlen, bei neuen Installationen "
 "\"beibehalten\" zu konfigurieren."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2408
-#, fuzzy
-#| msgid "Check_MK with times performance data"
 msgid "Checkmk with times performance data"
-msgstr "Check_MK mit Zeitleistungsdaten"
+msgstr "Checkmk mit Zeitleistungsdaten"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:221
-#, fuzzy
-#| msgid "Check_MK: BI"
 msgid "Checkmk: BI"
-msgstr "Check_MK: BI"
+msgstr "Checkmk: BI"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:233
-#, fuzzy
-#| msgid "Check_MK: Dashboards"
 msgid "Checkmk: Dashboards"
-msgstr "Check_MK: Übersichten"
+msgstr "Checkmk: Übersichten"
 
 #: ../cmk/gui/notify.py:347
-#, fuzzy
-#| msgid "Check_MK: Notification"
 msgid "Checkmk: Notification"
-msgstr "Check_MK: Alarm"
+msgstr "Checkmk: Alarm"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:239
-#, fuzzy
-#| msgid "Check_MK: Other"
 msgid "Checkmk: Other"
-msgstr "Check_MK: Sonstige"
+msgstr "Checkmk: Sonstige"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:227
-#, fuzzy
-#| msgid "Check_MK: Snapins"
 msgid "Checkmk: Snapins"
-msgstr "Check_MK: Seitenleistenelemente"
+msgstr "Checkmk: Seitenleistenelemente"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:209
-#, fuzzy
-#| msgid "Check_MK: Views"
 msgid "Checkmk: Views"
-msgstr "Check_MK: Ansichten"
+msgstr "Checkmk: Ansichten"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:215
-#, fuzzy
-#| msgid "Check_MK: WATO"
 msgid "Checkmk: WATO"
-msgstr "Check_MK: WATO"
+msgstr "Checkmk: WATO"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_connections.py:37
 msgid "Checkpoint Firewall Connections"
@@ -12037,22 +11771,16 @@ msgid "Checkpoint Tunnel Status"
 msgstr "Checkpoint Tunnelstatus"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_connections.py:54
-#, fuzzy
-#| msgid "Checkpoint Firewall Connections"
 msgid "Checkpoint VSID connections"
-msgstr "Verbindungen von Checkpoint Firewalls"
+msgstr "Checkpoint VSID-Verbindungen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_packets.py:57
-#, fuzzy
-#| msgid "Checkpoint Firewall Packet Rates"
 msgid "Checkpoint VSID packet rate"
-msgstr "Checkpoint Firewall Paketraten"
+msgstr "Prüfpunkt VSID-Paketrate"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_traffic.py:47
-#, fuzzy
-#| msgid "Checkpoint Firewall Packet Rates"
 msgid "Checkpoint VSID traffic rate"
-msgstr "Checkpoint Firewall Paketraten"
+msgstr "Checkpoint VSID-Verkehrsrate"
 
 #: ../cmk/utils/werks.py:36
 msgid "Checks & agents"
@@ -12067,10 +11795,8 @@ msgid "Checks via SSH. "
 msgstr "Checks via SSH."
 
 #: ../cmk/utils/packaging.py:130
-#, fuzzy
-#| msgid "Checks & agents"
 msgid "Checks' man pages"
-msgstr "Checks & Agenten"
+msgstr "Handbuch-Seiten der Checks"
 
 #: ../cmk/gui/watolib/rulespecs.py:946
 msgid "Checktype"
@@ -12125,10 +11851,9 @@ msgstr ""
 "winperf_foo&gt;&gt;&gt; sein."
 
 #: ../cmk/gui/valuespec.py:5899
-#, fuzzy, python-format
-#| msgid "Choose another Icon"
+#, python-format
 msgid "Choose another %s"
-msgstr "Ein anderes Symbol wählen"
+msgstr "Wähle anderen %s"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_nodes.py:31
 msgid ""
@@ -12141,15 +11866,6 @@ msgstr ""
 "passen). Der Status wechselt in den Warnstatus, wenn der Modus abweicht."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:85
-#, fuzzy
-#| msgid ""
-#| "Choose how to monitor the docker node. You can uncheck individual "
-#| "sections, if you do not need the corresponding services. The respective "
-#| "checkboxes belong to the check plugins by the name starting with "
-#| "'docker_node_' (e.g. the 'Disk usage:' checkbox belongs to "
-#| "'docker_node_disk_usage'). Note that the disk usage section is "
-#| "notoriously long running. If you are experiencing performance issues, "
-#| "consider disabling it."
 msgid ""
 "Choose how to monitor the docker node. You can uncheck individual sections, "
 "if you do not need the corresponding services. The respectice checkboxes "
@@ -12212,7 +11928,6 @@ msgstr ""
 "netapp_api_if unterstützt."
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:1001
-#, fuzzy
 msgid ""
 "Choose the behaviour when the current port is not the home port of the "
 "respective interface. The default is \"Check and Display\". This feature is "
@@ -12220,7 +11935,7 @@ msgid ""
 msgstr ""
 "Wählen Sie das Verhalten für unterschiedliche "
 "Schnittstellengeschwindigkeiten in Interface-Gruppen. Die Voreinstellung ist "
-"\"Check and WARN\". Diese Funktion wird derzeit nur von dem Check "
+"\"Check and Display\". Diese Funktion wird derzeit nur von dem Check "
 "netapp_api_if unterstützt."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:70
@@ -12270,16 +11985,12 @@ msgstr ""
 "angezeigt."
 
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:81
-#, fuzzy
-#| msgid ""
-#| "Choose time levels (in seconds) for which a service is allowed to be in "
-#| "an 'activating' state"
 msgid ""
 "Choose time levels (in seconds) for which a service is allowed to be in a "
 "'reloading' state"
 msgstr ""
 "Wählen Sie die Schwellwerte für die Zeit (in Sekunden) die sich ein Dienst "
-"in einem 'activating' Zustand befinden darf."
+"in einem 'reloading' Zustand befinden darf."
 
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:71
 msgid ""
