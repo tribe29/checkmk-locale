@@ -1675,7 +1675,7 @@ msgid ""
 "settings<a>."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5306
+#: ../cmk/gui/valuespec.py:5316
 msgid ""
 "<br>Please note that Check_MK needs this password in clear<br>text during "
 "normal operation and thus stores it unencrypted<br>on the Check_MK server."
@@ -2134,7 +2134,7 @@ msgid ""
 "services changes."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6280
+#: ../cmk/gui/valuespec.py:6290
 msgid "A description or title of this rule"
 msgstr ""
 
@@ -2200,7 +2200,7 @@ msgid ""
 "description of the service you like to show the data for."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5644
+#: ../cmk/gui/valuespec.py:5654
 #, python-format
 msgid ""
 "A label key can be used only once per object. The Label key \"%s\" is used "
@@ -3981,7 +3981,7 @@ msgstr "Ajouter du contenu"
 msgid "Add new BI aggregation %s"
 msgstr "agrégations"
 
-#: ../cmk/gui/valuespec.py:6214
+#: ../cmk/gui/valuespec.py:6224
 msgid "Add new CA certificate or chain"
 msgstr ""
 
@@ -4200,7 +4200,7 @@ msgstr "Aucune connexion persistante"
 msgid "Add snapins to your sidebar"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5671
+#: ../cmk/gui/valuespec.py:5681
 msgid "Add some label"
 msgstr ""
 
@@ -4287,7 +4287,7 @@ msgstr "Ajouter cette métrique à un graphique personnalisé"
 msgid "Add time period"
 msgstr "Toutes les Périodes de Temps"
 
-#: ../cmk/gui/valuespec.py:6014
+#: ../cmk/gui/valuespec.py:6024
 msgid "Add time range"
 msgstr ""
 
@@ -6210,7 +6210,7 @@ msgid ""
 "thread to run"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6330 ../cmk/gui/plugins/wato/bi_config.py:1154
+#: ../cmk/gui/valuespec.py:6340 ../cmk/gui/plugins/wato/bi_config.py:1154
 #, python-format
 msgid ""
 "An optional URL pointing to documentation or any other page. This will be "
@@ -6224,7 +6224,7 @@ msgstr ""
 msgid "An optional alias name for your mysql instance"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6302
+#: ../cmk/gui/valuespec.py:6312
 msgid ""
 "An optional comment that may be used to explain the purpose of this object. "
 "The comment is only visible in this dialog and may help other users "
@@ -6474,12 +6474,12 @@ msgstr "Logs d'Application"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:438
 #: ../cmk/gui/plugins/wato/datasource_programs.py:248
-#: ../cmk/gui/wato/pages/check_catalog.py:344 ../cmk/gui/pagetypes.py:1822
+#: ../cmk/gui/wato/pages/check_catalog.py:344 ../cmk/gui/pagetypes.py:1832
 msgid "Applications"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:834
-#: ../cmk/gui/watolib/rulespecs.py:230
+#: ../cmk/gui/watolib/rulespecs.py:229
 msgid "Applications, Processes & Services"
 msgstr ""
 
@@ -6865,7 +6865,7 @@ msgid ""
 "larger number of helpers will consume more memory."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6147
+#: ../cmk/gui/valuespec.py:6157
 msgid "At the beginning of every month at day"
 msgstr ""
 
@@ -6873,7 +6873,7 @@ msgstr ""
 msgid "At the center of the page"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6138
+#: ../cmk/gui/valuespec.py:6148
 msgid "At the end of every month at day"
 msgstr ""
 
@@ -7158,6 +7158,10 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:974
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:55
 msgid "Automatic agent updates"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:48
+msgid "Automatic detection (Python 3 > Python 2)"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/omd_configuration.py:308
@@ -8557,7 +8561,7 @@ msgstr "la durée"
 msgid "Building of search index started"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5832 ../cmk/gui/visuals.py:549
+#: ../cmk/gui/valuespec.py:5842 ../cmk/gui/visuals.py:549
 #: ../cmk/gui/pagetypes.py:1063
 msgid "Builtin"
 msgstr ""
@@ -8600,11 +8604,11 @@ msgid "Bulk Renaming"
 msgstr ""
 
 #: ../cmk/gui/watolib/bulk_discovery.py:74
-#: ../cmk/gui/wato/pages/bulk_discovery.py:81
+#: ../cmk/gui/wato/pages/bulk_discovery.py:93
 msgid "Bulk discovery"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/bulk_discovery.py:117
+#: ../cmk/gui/wato/pages/bulk_discovery.py:129
 #, python-format
 msgid "Bulk discovery currently running in <a href=\"%s\">background</a>."
 msgstr ""
@@ -8685,11 +8689,11 @@ msgid "Bus Speed"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/bi_config.py:114
-#: ../cmk/gui/plugins/wato/bi_config.py:177 ../cmk/gui/pagetypes.py:1815
+#: ../cmk/gui/plugins/wato/bi_config.py:177 ../cmk/gui/pagetypes.py:1825
 msgid "Business Intelligence"
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1978
+#: ../cmk/gui/pagetypes.py:1991
 msgid "Business reporting"
 msgstr ""
 
@@ -9087,6 +9091,25 @@ msgid ""
 "or multiple hosts."
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:25
+msgid ""
+"By default, python agent plugins are written in Python 3. However, since "
+"Python 2 is still often seen on many machines, we provide a fallback Python "
+"2 version alongside the Python 3 version of the plugins, that is used as a "
+"fallback if there is no Python 3 version available on the host.<br>With this "
+"rule, you can enforce the usage of either the Python 2 or Python 3 version."
+"<br>Additionally, you can provide a command, that will be used for python "
+"plugin execution."
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:63
+msgid ""
+"By default, the Checkmk UNIX agent will execute Python 3 plugins with "
+"<tt>python3</tt> and Python 2 plugins with <tt>python2</tt> or <tt>python</"
+"tt> (depending on the command found on the host system). Here you can "
+"specify a specific command, independent of the script that will be executed."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
 msgid ""
 "By default, the filesystem checks (<tt>df</tt>, <tt>hr_fs</tt> and others) "
@@ -9230,7 +9253,7 @@ msgstr ""
 msgid "CAdvisor"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6206
+#: ../cmk/gui/valuespec.py:6216
 msgid "CAs to accept"
 msgstr ""
 
@@ -9600,7 +9623,7 @@ msgstr ""
 msgid "CRITICAL services"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6159
+#: ../cmk/gui/valuespec.py:6169
 msgid "CRT/PEM File"
 msgstr ""
 
@@ -10147,7 +10170,7 @@ msgstr ""
 msgid "Ceph Status"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6158
+#: ../cmk/gui/valuespec.py:6168
 msgid "Certificate Chain (Root / Intermediate Certificate)"
 msgstr ""
 
@@ -10826,7 +10849,7 @@ msgstr "Paramètres du contrôle"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:108
 #: ../cmk/gui/plugins/metrics/checkmk.py:386
-#: ../cmk/gui/cee/plugins/sidebar/cmc.py:80
+#: ../cmk/gui/cee/plugins/sidebar/cmc.py:79
 msgid "Checker helper usage"
 msgstr ""
 
@@ -10996,7 +11019,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/ac_tests.py:641
 #: ../cmk/gui/plugins/metrics/checkmk.py:96
 #: ../cmk/gui/plugins/metrics/checkmk.py:374
-#: ../cmk/gui/cee/plugins/sidebar/cmc.py:78
 msgid "Checkmk helper usage"
 msgstr ""
 
@@ -11130,7 +11152,7 @@ msgstr ""
 msgid "Checks' man pages"
 msgstr "Page de manuel du plugin de contrôle"
 
-#: ../cmk/gui/watolib/rulespecs.py:946
+#: ../cmk/gui/watolib/rulespecs.py:945
 msgid "Checktype"
 msgstr ""
 
@@ -11179,7 +11201,7 @@ msgid ""
 "&gt;."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5880
+#: ../cmk/gui/valuespec.py:5890
 #, fuzzy, python-format
 #| msgid "(other: %s)"
 msgid "Choose another %s"
@@ -12054,7 +12076,7 @@ msgstr ""
 msgid "Commands on host and services"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6301 ../cmk/gui/plugins/views/commands.py:535
+#: ../cmk/gui/valuespec.py:6311 ../cmk/gui/plugins/views/commands.py:535
 #: ../cmk/gui/plugins/views/commands.py:637
 #: ../cmk/gui/plugins/views/commands.py:778
 #: ../cmk/gui/plugins/views/commands.py:879
@@ -12182,7 +12204,7 @@ msgstr ""
 msgid "Committed memory"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6175
+#: ../cmk/gui/valuespec.py:6185
 msgid "Common Name"
 msgstr ""
 
@@ -12639,7 +12661,7 @@ msgstr ""
 msgid "Configured feature mismatch"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1198
+#: ../cmk/gui/watolib/rulespecs.py:1197
 msgid "Configured timeperiod parameters"
 msgstr ""
 
@@ -13159,7 +13181,7 @@ msgstr ""
 msgid "Content elements"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5505
+#: ../cmk/gui/valuespec.py:5515
 #, python-format
 msgid "Content of %s"
 msgstr ""
@@ -13642,7 +13664,7 @@ msgstr ""
 msgid "Counting & Timing"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6171
+#: ../cmk/gui/valuespec.py:6181
 msgid "Country"
 msgstr ""
 
@@ -14248,7 +14270,7 @@ msgstr ""
 msgid "Crit/Down"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6265 ../cmk/gui/plugins/dashboard/stats.py:241
+#: ../cmk/gui/valuespec.py:6275 ../cmk/gui/plugins/dashboard/stats.py:241
 #: ../cmk/gui/plugins/dashboard/alert_statistics.py:150
 #: ../cmk/gui/plugins/views/commands.py:448
 #: ../cmk/gui/plugins/visuals/filters.py:1751
@@ -15421,7 +15443,7 @@ msgstr ""
 msgid "Current host check attempt"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5461
+#: ../cmk/gui/valuespec.py:5471
 msgid "Current image:"
 msgstr ""
 
@@ -16386,7 +16408,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/sidebar/dashboards.py:30 ../cmk/gui/dashboard.py:235
 #: ../cmk/gui/dashboard.py:786 ../cmk/gui/pagetypes.py:1366
-#: ../cmk/gui/pagetypes.py:1917
+#: ../cmk/gui/pagetypes.py:1930
 msgid "Dashboards"
 msgstr ""
 
@@ -16732,7 +16754,7 @@ msgstr ""
 msgid "Day of the month (1-31)"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6146
+#: ../cmk/gui/valuespec.py:6156
 msgid "Day of the week"
 msgstr ""
 
@@ -16767,7 +16789,7 @@ msgstr ""
 msgid "Deadlocks"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6270 ../cmk/gui/cee/plugins/wato/cmc.py:610
+#: ../cmk/gui/valuespec.py:6280 ../cmk/gui/cee/plugins/wato/cmc.py:610
 msgid "Debug"
 msgstr ""
 
@@ -16928,7 +16950,7 @@ msgstr "%s : par défaut"
 msgid "Default parameters for detected services"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1187
+#: ../cmk/gui/watolib/rulespecs.py:1186
 msgid "Default parameters when no timeperiod matches"
 msgstr ""
 
@@ -17396,7 +17418,7 @@ msgstr ""
 msgid "Delete this unpackaged file"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6015
+#: ../cmk/gui/valuespec.py:6025
 msgid "Delete time range"
 msgstr ""
 
@@ -17948,7 +17970,7 @@ msgstr ""
 msgid "Deprecated choice, please re-select"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1258 ../cmk/gui/watolib/search.py:416
+#: ../cmk/gui/watolib/rulespecs.py:1255 ../cmk/gui/watolib/search.py:416
 #, fuzzy
 #| msgid "Deleted user %s"
 msgid "Deprecated rulesets"
@@ -17962,7 +17984,7 @@ msgstr ""
 msgid "Descending"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6279 ../cmk/gui/crash_reporting.py:549
+#: ../cmk/gui/valuespec.py:6289 ../cmk/gui/crash_reporting.py:549
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:137
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:159
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:181
@@ -18507,7 +18529,7 @@ msgstr ""
 msgid "Disable this test"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1148
+#: ../cmk/gui/watolib/rulespecs.py:1147
 #, fuzzy
 #| msgid "%s timespecific parameters"
 msgid "Disable timespecific parameters"
@@ -18583,7 +18605,7 @@ msgstr ""
 msgid "Disabled paths"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6291 ../cmk/gui/plugins/wato/bi_config.py:1226
+#: ../cmk/gui/valuespec.py:6301 ../cmk/gui/plugins/wato/bi_config.py:1226
 msgid "Disabled rules are kept in the configuration but are not applied."
 msgstr ""
 
@@ -19104,7 +19126,7 @@ msgstr ""
 msgid "Displays an introduction and Checkmk logo."
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:449
+#: ../cmk/gui/plugins/dashboard/site_overview.py:445
 msgid "Displays either sites and states or hosts and states of a site"
 msgstr ""
 
@@ -20071,7 +20093,7 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6328 ../cmk/gui/plugins/wato/bi_config.py:901
+#: ../cmk/gui/valuespec.py:6338 ../cmk/gui/plugins/wato/bi_config.py:901
 #: ../cmk/gui/plugins/wato/bi_config.py:1152
 msgid "Documentation URL"
 msgstr ""
@@ -21623,15 +21645,15 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/remove_legacy.py:21
 msgid ""
-"Enable this option if you want to uninstall the Legacy Agent after the new "
-"Windows Agent have been installed."
+"Enable this option if you want to uninstall the legacy agent after the new "
+"Windows agent have been installed."
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:351
 msgid "Enable this package"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1154
+#: ../cmk/gui/watolib/rulespecs.py:1153
 #, fuzzy
 #| msgid "%s timespecific parameters"
 msgid "Enable timespecific parameters"
@@ -21904,6 +21926,14 @@ msgstr ""
 msgid "Enforce IPv6"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:51
+msgid "Enforce Python 2 version"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:54
+msgid "Enforce Python 3 version"
+msgstr ""
+
 #: ../cmk/gui/wato/pages/users.py:877
 msgid "Enforce change"
 msgstr ""
@@ -21917,7 +21947,7 @@ msgid "Enforce show more"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1106
-#: ../cmk/gui/watolib/rulespecs.py:192 ../cmk/gui/watolib/search.py:413
+#: ../cmk/gui/watolib/rulespecs.py:191 ../cmk/gui/watolib/search.py:413
 #, fuzzy
 #| msgid "selected services"
 msgid "Enforced services"
@@ -22081,7 +22111,7 @@ msgstr ""
 msgid "Equal or more than"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6266 ../cmk/gui/plugins/wato/bi_config.py:1350
+#: ../cmk/gui/valuespec.py:6276 ../cmk/gui/plugins/wato/bi_config.py:1350
 #: ../cmk/gui/plugins/sidebar/utils.py:269
 #: ../cmk/gui/cee/plugins/wato/cmc.py:606
 msgid "Error"
@@ -22137,7 +22167,7 @@ msgstr ""
 msgid "Error while rendering element type '%s'"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1079
+#: ../cmk/gui/watolib/rulespecs.py:1078
 #, python-format
 msgid ""
 "Error: Received class in RulespecRegistry:register_manual_check_rulespec %r"
@@ -22243,7 +22273,7 @@ msgstr ""
 
 #: ../cmk/gui/views.py:1335 ../cmk/gui/plugins/wato/omd_configuration.py:169
 #: ../cmk/gui/mkeventd.py:130 ../cmk/gui/wato/mkeventd.py:1257
-#: ../cmk/gui/wato/mkeventd.py:3086 ../cmk/gui/pagetypes.py:1809
+#: ../cmk/gui/wato/mkeventd.py:3086 ../cmk/gui/pagetypes.py:1819
 msgid "Event Console"
 msgstr ""
 
@@ -22528,11 +22558,11 @@ msgstr ""
 msgid "Events: Syslog facility"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6145
+#: ../cmk/gui/valuespec.py:6155
 msgid "Every day"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6146
+#: ../cmk/gui/valuespec.py:6156
 msgid "Every week on..."
 msgstr ""
 
@@ -23077,7 +23107,7 @@ msgstr ""
 msgid "Explicit mapping of job exit codes to states"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5548 ../cmk/gui/cee/plugins/metrics/graphs.py:1033
+#: ../cmk/gui/valuespec.py:5558 ../cmk/gui/cee/plugins/metrics/graphs.py:1033
 msgid "Explicit match"
 msgstr ""
 
@@ -23533,7 +23563,7 @@ msgstr ""
 msgid "Failed to parse file: %s"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5637
+#: ../cmk/gui/valuespec.py:5647
 #, python-format
 msgid "Failed to parse labels: %s"
 msgstr ""
@@ -23607,7 +23637,7 @@ msgid "Failed to spare ratio"
 msgstr ""
 
 #: ../cmk/gui/plugins/webapi/bulk_discovery.py:65
-#: ../cmk/gui/wato/pages/bulk_discovery.py:107
+#: ../cmk/gui/wato/pages/bulk_discovery.py:119
 #, python-format
 msgid "Failed to start discovery: %s"
 msgstr ""
@@ -23838,7 +23868,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:102
 #: ../cmk/gui/plugins/metrics/checkmk.py:380
-#: ../cmk/gui/cee/plugins/sidebar/cmc.py:79
+#: ../cmk/gui/cee/plugins/sidebar/cmc.py:78
 msgid "Fetcher helper usage"
 msgstr ""
 
@@ -23899,7 +23929,7 @@ msgstr ""
 msgid "Fieldnames to query"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5501
+#: ../cmk/gui/valuespec.py:5511
 msgid "File"
 msgstr ""
 
@@ -24126,12 +24156,12 @@ msgstr "(pas de niveau de Service)"
 msgid "Filter"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6378
+#: ../cmk/gui/valuespec.py:6388
 #, python-format
 msgid "Filter %s selection by hostname: "
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6391
+#: ../cmk/gui/valuespec.py:6401
 #, python-format
 msgid "Filter %s selection by service: "
 msgstr ""
@@ -24237,7 +24267,7 @@ msgstr ""
 msgid "Fingerprint (SHA256)"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6097
+#: ../cmk/gui/valuespec.py:6107
 #, python-format
 msgid "Fingerprint: %s"
 msgstr ""
@@ -24547,7 +24577,7 @@ msgstr ""
 msgid "Font family"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6027
+#: ../cmk/gui/valuespec.py:6037
 msgid "Font size"
 msgstr ""
 
@@ -25358,7 +25388,7 @@ msgstr ""
 msgid "Gbit/s"
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1956 ../cmk/base/diagnostics.py:343
+#: ../cmk/gui/pagetypes.py:1969 ../cmk/base/diagnostics.py:343
 msgid "General"
 msgstr ""
 
@@ -25723,7 +25753,7 @@ msgid "Graphic Cards"
 msgstr ""
 
 #: ../cmk/gui/dashboard.py:815 ../cmk/gui/cee/plugins/metrics/graphs.py:377
-#: ../cmk/gui/pagetypes.py:1968
+#: ../cmk/gui/pagetypes.py:1981
 msgid "Graphs"
 msgstr ""
 
@@ -26317,7 +26347,7 @@ msgid "Hardware temperature, single sensor"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:864
-#: ../cmk/gui/watolib/rulespecs.py:275
+#: ../cmk/gui/watolib/rulespecs.py:274
 msgid "Hardware, BIOS"
 msgstr ""
 
@@ -27203,13 +27233,13 @@ msgstr ""
 msgid "Highly automated"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6379
+#: ../cmk/gui/valuespec.py:6389
 #, fuzzy
 #| msgid "Original hostname"
 msgid "Hint a hostname"
 msgstr "Nom d'hôte originel"
 
-#: ../cmk/gui/valuespec.py:6392
+#: ../cmk/gui/valuespec.py:6402
 #, fuzzy
 #| msgid "selected services"
 msgid "Hint a service"
@@ -27235,7 +27265,7 @@ msgstr ""
 msgid "Historic messages"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/availability.py:460 ../cmk/gui/pagetypes.py:1797
+#: ../cmk/gui/plugins/views/availability.py:460 ../cmk/gui/pagetypes.py:1807
 msgid "History"
 msgstr ""
 
@@ -27895,7 +27925,7 @@ msgid ""
 "Host or service must be in the following service level to get notification"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:112
+#: ../cmk/gui/plugins/dashboard/site_overview.py:111
 #, fuzzy
 #| msgid "selected services"
 msgid "Host overview"
@@ -28998,7 +29028,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1362
 #: ../cmk/gui/plugins/sidebar/bookmarks.py:109 ../cmk/gui/visuals.py:1001
 #: ../cmk/gui/wato/pages/icons.py:73 ../cmk/gui/wato/pages/icons.py:158
-#: ../cmk/gui/pagetypes.py:1754 ../cmk/gui/pagetypes.py:1772
+#: ../cmk/gui/pagetypes.py:1754 ../cmk/gui/pagetypes.py:1781
 msgid "Icon"
 msgstr ""
 
@@ -30896,7 +30926,7 @@ msgstr ""
 msgid "Information to query"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6268 ../cmk/gui/plugins/visuals/filters.py:1601
+#: ../cmk/gui/valuespec.py:6278 ../cmk/gui/plugins/visuals/filters.py:1601
 #: ../cmk/gui/cee/plugins/wato/cmc.py:609
 msgid "Informational"
 msgstr ""
@@ -31437,7 +31467,7 @@ msgstr ""
 msgid "Invalid IPv4 address: %s"
 msgstr "omettre l'adresse IP"
 
-#: ../cmk/gui/watolib/rulespecs.py:351
+#: ../cmk/gui/watolib/rulespecs.py:350
 #, python-format
 msgid "Invalid None argument at for %s idx %d"
 msgstr ""
@@ -31500,7 +31530,7 @@ msgstr ""
 msgid "Invalid call: The snapshot is missing."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6166
+#: ../cmk/gui/valuespec.py:6176
 #, python-format
 msgid "Invalid certificate file: %s"
 msgstr ""
@@ -31543,7 +31573,7 @@ msgstr ""
 msgid "Invalid end time given"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:354
+#: ../cmk/gui/watolib/rulespecs.py:353
 #, python-format
 msgid "Invalid expected callable for %s at idx %d: %r"
 msgstr ""
@@ -31554,7 +31584,7 @@ msgstr ""
 msgid "Invalid file name"
 msgstr "Nom d'hôte invalide"
 
-#: ../cmk/gui/valuespec.py:5436
+#: ../cmk/gui/valuespec.py:5446
 #, python-format
 msgid "Invalid file name extension. Allowed are: %s"
 msgstr ""
@@ -31886,7 +31916,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/inventory.py:854
 #: ../cmk/gui/plugins/views/inventory.py:949
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:31
-#: ../cmk/gui/pagetypes.py:1828
+#: ../cmk/gui/pagetypes.py:1838
 msgid "Inventory"
 msgstr ""
 
@@ -32021,7 +32051,7 @@ msgstr ""
 msgid "Issued to"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6193
+#: ../cmk/gui/valuespec.py:6203
 msgid "Issuer"
 msgstr ""
 
@@ -32477,7 +32507,7 @@ msgstr ""
 msgid "Key from password store"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6100
+#: ../cmk/gui/valuespec.py:6110
 msgid "Key pair will be generated when you save."
 msgstr ""
 
@@ -33028,13 +33058,15 @@ msgid ""
 "bulking."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/remove_legacy.py:19
-msgid "Legacy Agent Management"
-msgstr ""
-
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4341
 msgid "Legacy SNMP devices using SNMP v2c"
 msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/remove_legacy.py:19
+#, fuzzy
+#| msgid "User management"
+msgid "Legacy agent management"
+msgstr "Gestion de l'utilisateur"
 
 #: ../cmk/utils/packaging.py:127
 #, fuzzy
@@ -34392,7 +34424,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/ac_tests.py:144
 #: ../cmk/gui/plugins/metrics/checkmk.py:138
 #: ../cmk/gui/plugins/metrics/checkmk.py:368
-#: ../cmk/gui/cee/plugins/sidebar/cmc.py:81
+#: ../cmk/gui/cee/plugins/sidebar/cmc.py:80
 msgid "Livestatus usage"
 msgstr ""
 
@@ -34592,7 +34624,7 @@ msgstr ""
 msgid "Local: Spooling - Send events to local event console in same OMD site"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6173
+#: ../cmk/gui/valuespec.py:6183
 msgid "Locality Name"
 msgstr ""
 
@@ -35909,7 +35941,7 @@ msgstr ""
 msgid "Man page %s not found."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5956
+#: ../cmk/gui/valuespec.py:5966
 msgid "Manage"
 msgstr ""
 
@@ -36320,7 +36352,7 @@ msgid "Match only Event Console alerts"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1320
-#: ../cmk/gui/watolib/rulespecs.py:1192 ../cmk/gui/wato/mkeventd.py:840
+#: ../cmk/gui/watolib/rulespecs.py:1191 ../cmk/gui/wato/mkeventd.py:840
 msgid "Match only during timeperiod"
 msgstr ""
 
@@ -36411,7 +36443,7 @@ msgid "Match the internal identifier"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1322
-#: ../cmk/gui/watolib/rulespecs.py:1193
+#: ../cmk/gui/watolib/rulespecs.py:1192
 msgid ""
 "Match this rule only during times where the selected timeperiod from the "
 "monitoring system is active."
@@ -36792,7 +36824,7 @@ msgstr ""
 msgid "Maximum expected run time for heart beat packet"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5496
+#: ../cmk/gui/valuespec.py:5506
 #, python-format
 msgid "Maximum image size: %dx%dpx"
 msgstr ""
@@ -38205,7 +38237,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/check_catalog.py:475 ../cmk/gui/logwatch.py:218
 #: ../cmk/gui/logwatch.py:384
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:992
-#: ../cmk/gui/cee/ntop/pages.py:150 ../cmk/gui/pagetypes.py:1785
+#: ../cmk/gui/cee/ntop/pages.py:150 ../cmk/gui/pagetypes.py:1795
 msgid "Monitoring"
 msgstr ""
 
@@ -39203,11 +39235,11 @@ msgstr ""
 msgid "Negate: find hosts <b>not</b> having this package"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:637
+#: ../cmk/gui/watolib/rulespecs.py:636
 msgid "Negative match (Exclude matching hosts from the set)"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:683
+#: ../cmk/gui/watolib/rulespecs.py:682
 msgid "Negative match (Exclude matching services from the set)"
 msgstr ""
 
@@ -39396,7 +39428,7 @@ msgstr ""
 msgid "Network specification"
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1834
+#: ../cmk/gui/pagetypes.py:1844
 #, fuzzy
 #| msgid "Network Interfaces"
 msgid "Network statistics"
@@ -39413,7 +39445,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:893
 #: ../cmk/gui/plugins/wato/utils/__init__.py:759
-#: ../cmk/gui/watolib/rulespecs.py:215
+#: ../cmk/gui/watolib/rulespecs.py:214
 msgid "Networking"
 msgstr ""
 
@@ -40871,6 +40903,12 @@ msgstr ""
 msgid "Nr."
 msgstr ""
 
+#: ../cmk/gui/pagetypes.py:1782
+#, fuzzy
+#| msgid "Name of the User"
+msgid "Nr. of items"
+msgstr "Nom de l'Utilisateur"
+
 #: ../cmk/gui/dashboard.py:831
 msgid "Ntop"
 msgstr ""
@@ -41299,6 +41337,12 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/application.py:500
 msgid "Number of issues"
 msgstr ""
+
+#: ../cmk/gui/pagetypes.py:1760
+#, fuzzy
+#| msgid "Name of the User"
+msgid "Number of items"
+msgstr "Nom de l'Utilisateur"
 
 #: ../cmk/gui/plugins/wato/check_parameters/splunk_jobs.py:26
 msgid "Number of jobs"
@@ -42296,7 +42340,7 @@ msgstr ""
 msgid "Only A-Z, a-z, 0-9 and minus (-) are allowed."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6209
+#: ../cmk/gui/valuespec.py:6219
 msgid ""
 "Only accepting HTTPS connections with a server which certificate is signed "
 "with one of the CAs that are listed here. That way it is guaranteed that it "
@@ -42611,7 +42655,7 @@ msgid "Operating System"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:789
-#: ../cmk/gui/watolib/rulespecs.py:260
+#: ../cmk/gui/watolib/rulespecs.py:259
 msgid "Operating System Resources"
 msgstr ""
 
@@ -42909,7 +42953,7 @@ msgstr ""
 msgid "Organization"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6174
+#: ../cmk/gui/valuespec.py:6184
 msgid "Organization Name"
 msgstr ""
 
@@ -42955,7 +42999,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/mobile.py:688
 #: ../cmk/gui/plugins/metrics/checkmk.py:281
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1394 ../cmk/gui/dashboard.py:836
-#: ../cmk/gui/cme/plugins/views/managed.py:496 ../cmk/gui/pagetypes.py:1848
+#: ../cmk/gui/cme/plugins/views/managed.py:496 ../cmk/gui/pagetypes.py:1858
 msgid "Other"
 msgstr ""
 
@@ -43296,7 +43340,7 @@ msgstr ""
 #: ../cmk/gui/plugins/dashboard/utils.py:964
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:64
 #: ../cmk/gui/wato/pages/roles.py:119
-#: ../cmk/gui/cme/plugins/dashboard/managed.py:212 ../cmk/gui/pagetypes.py:1779
+#: ../cmk/gui/cme/plugins/dashboard/managed.py:212 ../cmk/gui/pagetypes.py:1789
 msgid "Overview"
 msgstr ""
 
@@ -43750,7 +43794,7 @@ msgstr ""
 #: ../cmk/gui/sidebar.py:731 ../cmk/gui/crash_reporting.py:551
 #: ../cmk/gui/crash_reporting.py:553 ../cmk/gui/plugins/wato/bi_config.py:870
 #: ../cmk/gui/plugins/wato/bi_config.py:1165
-#: ../cmk/gui/watolib/rulespecs.py:939 ../cmk/gui/watolib/sites.py:391
+#: ../cmk/gui/watolib/rulespecs.py:938 ../cmk/gui/watolib/sites.py:391
 #: ../cmk/gui/wato/pages/rulesets.py:756
 #: ../cmk/gui/wato/pages/object_parameters.py:175
 #: ../cmk/gui/wato/pages/object_parameters.py:201
@@ -44626,7 +44670,7 @@ msgstr ""
 msgid "Performance options"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6150 ../cmk/gui/cee/reporting.py:1510
+#: ../cmk/gui/valuespec.py:6160 ../cmk/gui/cee/reporting.py:1510
 msgid "Period"
 msgstr ""
 
@@ -45038,11 +45082,11 @@ msgid ""
 "good idea to store the backup encrypted."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5478 ../cmk/gui/valuespec.py:5485
+#: ../cmk/gui/valuespec.py:5488 ../cmk/gui/valuespec.py:5495
 msgid "Please choose a PNG image."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5526 ../cmk/gui/http.py:123
+#: ../cmk/gui/valuespec.py:5536 ../cmk/gui/http.py:123
 #, fuzzy
 #| msgid "Please choose a PNG icon."
 msgid "Please choose a file to upload."
@@ -45056,11 +45100,11 @@ msgstr ""
 msgid "Please choose a target to perform the restore from."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5490
+#: ../cmk/gui/valuespec.py:5500
 msgid "Please choose a valid PNG image."
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:947
+#: ../cmk/gui/watolib/rulespecs.py:946
 msgid "Please choose the check plugin"
 msgstr ""
 
@@ -45257,7 +45301,7 @@ msgstr ""
 msgid "Please provide a valid name"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5417 ../cmk/gui/valuespec.py:5422
+#: ../cmk/gui/valuespec.py:5427 ../cmk/gui/valuespec.py:5432
 msgid "Please select a file."
 msgstr ""
 
@@ -45770,11 +45814,11 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:636
+#: ../cmk/gui/watolib/rulespecs.py:635
 msgid "Positive match (Add matching hosts to the set)"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:682
+#: ../cmk/gui/watolib/rulespecs.py:681
 msgid "Positive match (Add matching services to the set)"
 msgstr ""
 
@@ -45963,7 +46007,7 @@ msgstr ""
 msgid "Prefix"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6319
+#: ../cmk/gui/valuespec.py:6329
 msgid "Prefix date and your name to the comment"
 msgstr ""
 
@@ -46230,7 +46274,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:4751
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:180
-#: ../cmk/gui/pagetypes.py:1791
+#: ../cmk/gui/pagetypes.py:1801
 msgid "Problems"
 msgstr ""
 
@@ -46544,6 +46588,10 @@ msgstr ""
 msgid "Protocol to use for fetching updates"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:61
+msgid "Provide command for python script execution"
+msgstr ""
+
 #: ../cmk/gui/cee/plugins/wato/dcd.py:209
 msgid ""
 "Provide individual credentials of an automation user with administrative "
@@ -46732,8 +46780,16 @@ msgstr ""
 msgid "Python Version"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:24
+msgid "Python agent plugin execution (UNIX)"
+msgstr ""
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/install_python.py:70
 msgid "Python environment"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:38
+msgid "Python version for execution of python agent plugins"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:625
@@ -46861,7 +46917,7 @@ msgstr "Supprimer l'acquittement"
 msgid "Queued"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/sidebar/cmc.py:83
+#: ../cmk/gui/cee/plugins/sidebar/cmc.py:82
 msgid "Queued alerts"
 msgstr ""
 
@@ -46869,7 +46925,7 @@ msgstr ""
 msgid "Queued for update"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/sidebar/cmc.py:82
+#: ../cmk/gui/cee/plugins/sidebar/cmc.py:81
 #, fuzzy
 #| msgid "Send Notification"
 msgid "Queued notifications"
@@ -47212,7 +47268,7 @@ msgstr ""
 msgid "Random delay"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5388
+#: ../cmk/gui/valuespec.py:5398
 msgid "Randomize password"
 msgstr ""
 
@@ -47780,7 +47836,7 @@ msgstr ""
 msgid "Regular expression for the beginning of the host name"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5554
+#: ../cmk/gui/valuespec.py:5564
 msgid "Regular expression match"
 msgstr ""
 
@@ -48581,7 +48637,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/reporting/utils.py:57
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:440 ../cmk/gui/cee/reporting.py:675
 #: ../cmk/gui/cee/reporting.py:1006 ../cmk/gui/cee/reporting.py:2542
-#: ../cmk/gui/pagetypes.py:1381 ../cmk/gui/pagetypes.py:1927
+#: ../cmk/gui/pagetypes.py:1381 ../cmk/gui/pagetypes.py:1940
 msgid "Reports"
 msgstr ""
 
@@ -49263,7 +49319,7 @@ msgstr ""
 msgid "Rule Tree"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6290 ../cmk/gui/plugins/wato/bi_config.py:1225
+#: ../cmk/gui/valuespec.py:6300 ../cmk/gui/plugins/wato/bi_config.py:1225
 msgid "Rule activation"
 msgstr ""
 
@@ -49424,7 +49480,7 @@ msgstr ""
 msgid "Rules to configure the behaviour of monitored hosts."
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:197
+#: ../cmk/gui/watolib/rulespecs.py:196
 msgid ""
 "Rules to set up [cms_wato_services#manual_checks|manual services]. Services "
 "set up in this way do not depend on the service discovery. This is useful if "
@@ -50806,7 +50862,7 @@ msgstr ""
 msgid "Select all checkboxes"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5883
+#: ../cmk/gui/valuespec.py:5893
 msgid "Select an Icon"
 msgstr ""
 
@@ -51200,8 +51256,8 @@ msgstr "Chronologie de "
 #: ../cmk/gui/plugins/views/availability.py:1196
 #: ../cmk/gui/plugins/visuals/filters.py:1775
 #: ../cmk/gui/plugins/visuals/filters.py:2590
-#: ../cmk/gui/plugins/visuals/infos.py:51 ../cmk/gui/watolib/rulespecs.py:472
-#: ../cmk/gui/watolib/rulespecs.py:1008 ../cmk/gui/availability.py:1350
+#: ../cmk/gui/plugins/visuals/infos.py:51 ../cmk/gui/watolib/rulespecs.py:471
+#: ../cmk/gui/watolib/rulespecs.py:1007 ../cmk/gui/availability.py:1350
 #: ../cmk/gui/wato/pages/rulesets.py:2010 ../cmk/gui/wato/pages/services.py:647
 #: ../cmk/gui/wato/pages/notifications.py:721 ../cmk/gui/notifications.py:159
 #: ../cmk/gui/cee/plugins/reporting/availability.py:50
@@ -51814,9 +51870,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:215
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:219
 #: ../cmk/gui/plugins/wato/bi_config.py:413
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:97
-#: ../cmk/gui/watolib/search.py:399 ../cmk/gui/watolib/search.py:400
-#: ../cmk/gui/watolib/search.py:413 ../cmk/gui/mobile.py:149
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:97 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/wato/pages/rulesets.py:747 ../cmk/gui/wato/pages/rulesets.py:1784
 #: ../cmk/gui/wato/pages/services.py:1109
 #: ../cmk/gui/wato/pages/object_parameters.py:92
@@ -52613,11 +52667,11 @@ msgstr ""
 msgid "Show alias if set, else description"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/main_menu.py:228
+#: ../cmk/gui/plugins/sidebar/main_menu.py:230
 msgid "Show all"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/main_menu.py:213
+#: ../cmk/gui/plugins/sidebar/main_menu.py:215
 #, python-format
 msgid "Show all %s topics"
 msgstr ""
@@ -53005,7 +53059,7 @@ msgstr ""
 msgid "Show vertical axis"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5393
+#: ../cmk/gui/valuespec.py:5403
 msgid "Show/Hide password"
 msgstr ""
 
@@ -53289,7 +53343,7 @@ msgstr ""
 msgid "Siren"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6230 ../cmk/gui/valuespec.py:6256
+#: ../cmk/gui/valuespec.py:6240 ../cmk/gui/valuespec.py:6266
 #: ../cmk/gui/views.py:2937 ../cmk/gui/views.py:2950
 #: ../cmk/gui/plugins/views/painters.py:356
 #: ../cmk/gui/plugins/views/sorters.py:274
@@ -53415,8 +53469,8 @@ msgstr ""
 msgid "Site name"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:115
-#: ../cmk/gui/plugins/dashboard/site_overview.py:445
+#: ../cmk/gui/plugins/dashboard/site_overview.py:114
+#: ../cmk/gui/plugins/dashboard/site_overview.py:441
 #, fuzzy
 #| msgid "selected services"
 msgid "Site overview"
@@ -54029,7 +54083,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1117
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1378
 #: ../cmk/gui/visuals.py:983 ../cmk/gui/pagetypes.py:378
-#: ../cmk/gui/pagetypes.py:1760 ../cmk/gui/pagetypes.py:1773
+#: ../cmk/gui/pagetypes.py:1769 ../cmk/gui/pagetypes.py:1783
 msgid "Sort index"
 msgstr ""
 
@@ -54724,7 +54778,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:4124
 #: ../cmk/gui/wato/pages/parentscan.py:485
-#: ../cmk/gui/wato/pages/bulk_discovery.py:88
+#: ../cmk/gui/wato/pages/bulk_discovery.py:100
 #: ../cmk/gui/wato/pages/read_only.py:113
 msgid "Start"
 msgstr ""
@@ -55287,7 +55341,7 @@ msgstr ""
 msgid "State on hard write error"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6172
+#: ../cmk/gui/valuespec.py:6182
 msgid "State or Province Name"
 msgstr ""
 
@@ -56032,7 +56086,7 @@ msgid "Storage space used"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:774
-#: ../cmk/gui/watolib/rulespecs.py:290
+#: ../cmk/gui/watolib/rulespecs.py:289
 msgid "Storage, Filesystems and Files"
 msgstr ""
 
@@ -56173,7 +56227,7 @@ msgid ""
 "Subfolders are locked (You cannot create or remove folders in this folder)"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6194 ../cmk/gui/plugins/wato/active_checks.py:2008
+#: ../cmk/gui/valuespec.py:6204 ../cmk/gui/plugins/wato/active_checks.py:2008
 #: ../cmk/gui/wato/mkeventd.py:3458 ../cmk/gui/cee/reporting.py:563
 msgid "Subject"
 msgstr ""
@@ -56714,7 +56768,7 @@ msgid "Syslog-like message logging"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:102
-#: ../cmk/gui/plugins/metrics/cpu.py:168 ../cmk/gui/pagetypes.py:1803
+#: ../cmk/gui/plugins/metrics/cpu.py:168 ../cmk/gui/pagetypes.py:1813
 msgid "System"
 msgstr ""
 
@@ -57341,7 +57395,7 @@ msgid "Temperature trends for devices with builtin levels"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:819
-#: ../cmk/gui/watolib/rulespecs.py:245
+#: ../cmk/gui/watolib/rulespecs.py:244
 msgid "Temperature, Humidity, Electrical Parameters, etc."
 msgstr ""
 
@@ -57675,6 +57729,15 @@ msgid ""
 "because it increases the the amount of context switches."
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:39
+msgid ""
+"The Checkmk agent UNIX will detect a Python 3 installation by looking for "
+"the command <tt>python3</tt>, and a Python 2 installation by looking for the "
+"commands <tt>python2</tt> or <tt>python</tt>. If this doesn't match to your "
+"host's Python installation, e.g., if Python 3 is available via <tt>python</"
+"tt>, you can enforce the right version by setting this rule entry."
+msgstr ""
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/super_server.py:21
 #, python-format
 msgid ""
@@ -57703,7 +57766,7 @@ msgid ""
 "instead."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/bulk_discovery.py:145
+#: ../cmk/gui/wato/pages/bulk_discovery.py:157
 msgid ""
 "The Checkmk discovery will automatically find and configure services to be "
 "checked on your hosts and may also discover host labels."
@@ -58486,7 +58549,7 @@ msgstr ""
 msgid "The cluster must have at least one node"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6035
+#: ../cmk/gui/valuespec.py:6045
 msgid "The color needs to be given in hex format."
 msgstr ""
 
@@ -58574,7 +58637,7 @@ msgid ""
 "permitted to use it. Please choose another one."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6233
+#: ../cmk/gui/valuespec.py:6243
 msgid "The configured site is not known to this site."
 msgstr ""
 
@@ -58883,7 +58946,7 @@ msgid ""
 "contact and receives notifications via Email."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5995
+#: ../cmk/gui/valuespec.py:6005
 #, python-format
 msgid "The emblem type is %s, but should be str"
 msgstr ""
@@ -59290,7 +59353,7 @@ msgid ""
 "unregistered and removed from this list."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5992
+#: ../cmk/gui/valuespec.py:6002
 #, python-format
 msgid "The icon type is %s, but should be str"
 msgstr ""
@@ -59429,12 +59492,12 @@ msgid ""
 "misssing."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5655
+#: ../cmk/gui/valuespec.py:5665
 #, python-format
 msgid "The label ID %r is of type %s, but should be %s"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5659
+#: ../cmk/gui/valuespec.py:5669
 #, python-format
 msgid "The label value %r is of type %s, but should be %s"
 msgstr ""
@@ -60168,7 +60231,7 @@ msgid ""
 "password which uses at least %d of them."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5274
+#: ../cmk/gui/valuespec.py:5278
 msgid ""
 "The password entered here is stored in plain text within the monitoring "
 "site. This usually needed because the monitoring process needs to have "
@@ -60623,13 +60686,13 @@ msgid ""
 "else."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6007
+#: ../cmk/gui/valuespec.py:6017
 #, fuzzy
 #| msgid "The requested snapshot does not exist"
 msgid "The selected emblem does not exist."
 msgstr "Le snapshot demandé n'existe pas."
 
-#: ../cmk/gui/valuespec.py:5426
+#: ../cmk/gui/valuespec.py:5436
 msgid "The selected file is empty. Please select a non-empty file."
 msgstr ""
 
@@ -60637,7 +60700,7 @@ msgstr ""
 msgid "The selected hosts have no explicit attributes"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6004
+#: ../cmk/gui/valuespec.py:6014
 #, fuzzy
 #| msgid "The requested snapshot does not exist"
 msgid "The selected icon does not exist."
@@ -61085,7 +61148,7 @@ msgstr ""
 msgid "The tuple must contain two elements, but you have %d"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6072
+#: ../cmk/gui/valuespec.py:6082
 #, python-format
 msgid "The type is %s, but should be str"
 msgstr ""
@@ -61966,7 +62029,7 @@ msgid ""
 "and submit crash reports to the development team."
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:934
+#: ../cmk/gui/watolib/rulespecs.py:933
 msgid "This check has no parameters."
 msgstr ""
 
@@ -65391,7 +65454,7 @@ msgstr ""
 msgid "Toggle log entries"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5949
+#: ../cmk/gui/valuespec.py:5959
 msgid "Toggle names"
 msgstr ""
 
@@ -65816,7 +65879,7 @@ msgstr ""
 msgid "Total number of failed jobs"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:256
+#: ../cmk/gui/plugins/dashboard/site_overview.py:252
 #: ../cmk/gui/plugins/metrics/checkmk.py:530
 #, fuzzy
 #| msgid "Number of connections for a WiFi"
@@ -66204,7 +66267,7 @@ msgstr ""
 msgid "Treshold"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulespecs.py:1060
+#: ../cmk/gui/watolib/rulespecs.py:1059
 #, python-format
 msgid "Tried to register incompatible rulespec: %r"
 msgstr ""
@@ -67093,7 +67156,9 @@ msgid "Uninstall and remove this package"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/remove_legacy.py:20
-msgid "Uninstall the Legacy Agent after installation of the Windows Agent 1.6"
+msgid ""
+"Uninstall the legacy (pre 1.6) agent after installation of the new Windows "
+"agent"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:363
@@ -67201,7 +67266,7 @@ msgstr ""
 msgid "Unknown site %s"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6238
+#: ../cmk/gui/valuespec.py:6248
 #, python-format
 msgid "Unknown site (%s)"
 msgstr ""
@@ -67476,7 +67541,7 @@ msgstr ""
 msgid "Upload"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5504
+#: ../cmk/gui/valuespec.py:5514
 #, python-format
 msgid "Upload %s"
 msgstr ""
@@ -67523,7 +67588,7 @@ msgstr ""
 msgid "Upload key"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5467
+#: ../cmk/gui/valuespec.py:5477
 msgid "Upload new:"
 msgstr ""
 
@@ -68374,11 +68439,11 @@ msgstr ""
 msgid "Use custom connection parameters"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6085
+#: ../cmk/gui/valuespec.py:6095
 msgid "Use default color"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6086
+#: ../cmk/gui/valuespec.py:6096
 msgid "Use default color of the theme or medium"
 msgstr ""
 
@@ -68673,7 +68738,7 @@ msgstr ""
 msgid "Use the following ID"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6088
+#: ../cmk/gui/valuespec.py:6098
 msgid "Use the following color"
 msgstr ""
 
@@ -69786,7 +69851,7 @@ msgstr ""
 msgid "Venue ID"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6269
+#: ../cmk/gui/valuespec.py:6279
 msgid "Verbose"
 msgstr ""
 
@@ -69985,7 +70050,7 @@ msgstr ""
 
 #: ../cmk/gui/views.py:290 ../cmk/gui/plugins/sidebar/views.py:40
 #: ../cmk/gui/dashboard.py:810 ../cmk/gui/pagetypes.py:1359
-#: ../cmk/gui/pagetypes.py:1909
+#: ../cmk/gui/pagetypes.py:1922
 msgid "Views"
 msgstr ""
 
@@ -70070,7 +70135,7 @@ msgid "VirtualBox Guests"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:849
-#: ../cmk/gui/watolib/rulespecs.py:305
+#: ../cmk/gui/watolib/rulespecs.py:304
 msgid "Virtualization"
 msgstr ""
 
@@ -70100,7 +70165,7 @@ msgstr ""
 msgid "Visual levels for the availability (OK percentage)"
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1962
+#: ../cmk/gui/pagetypes.py:1975
 msgid "Visualization"
 msgstr ""
 
@@ -70492,7 +70557,7 @@ msgid ""
 "metrics"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6267 ../cmk/gui/plugins/dashboard/stats.py:239
+#: ../cmk/gui/valuespec.py:6277 ../cmk/gui/plugins/dashboard/stats.py:239
 #: ../cmk/gui/plugins/dashboard/alert_statistics.py:152
 #: ../cmk/gui/plugins/views/commands.py:447
 #: ../cmk/gui/plugins/visuals/filters.py:1750
@@ -73013,7 +73078,7 @@ msgstr ""
 msgid "Workgroup or domain used (defaults to <tt>WORKGROUP</tt>)"
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1841
+#: ../cmk/gui/pagetypes.py:1851
 msgid "Workplace"
 msgstr ""
 
@@ -73556,11 +73621,18 @@ msgid ""
 "alphabetically."
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1761
+#: ../cmk/gui/pagetypes.py:1770
 msgid ""
 "You can customize the order of the topics by changing this number. Lower "
 "numbers will be sorted first. Topics with the same number will be sorted "
 "alphabetically."
+msgstr ""
+
+#: ../cmk/gui/pagetypes.py:1761
+msgid ""
+"You can define how much items this topic should show. The remaining items "
+"will be visible with the 'Show all' option, available under the last item of "
+"the topic."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1946
@@ -74326,7 +74398,7 @@ msgid ""
 "default values."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/bulk_discovery.py:137
+#: ../cmk/gui/wato/pages/bulk_discovery.py:149
 #, python-format
 msgid "You have selected <b>%d</b> hosts for bulk discovery."
 msgstr ""
@@ -74494,7 +74566,7 @@ msgid ""
 "the access data to the update server."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6217
+#: ../cmk/gui/valuespec.py:6227
 msgid ""
 "You need to enter at least one CA. Otherwise no SSL connection can be made."
 msgstr ""
@@ -74547,11 +74619,11 @@ msgstr ""
 msgid "You need to provide your current password."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6076
+#: ../cmk/gui/valuespec.py:6086
 msgid "You need to select a color."
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6001
+#: ../cmk/gui/valuespec.py:6011
 msgid "You need to select an icon."
 msgstr ""
 
@@ -75538,7 +75610,7 @@ msgstr ""
 msgid "do not activate this %s"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6292 ../cmk/gui/plugins/wato/bi_config.py:1227
+#: ../cmk/gui/valuespec.py:6302 ../cmk/gui/plugins/wato/bi_config.py:1227
 msgid "do not apply this rule"
 msgstr ""
 
@@ -75843,7 +75915,7 @@ msgstr ""
 msgid "from the beginning"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6139 ../cmk/gui/cee/plugins/wato/cmc.py:1046
+#: ../cmk/gui/valuespec.py:6149 ../cmk/gui/cee/plugins/wato/cmc.py:1046
 msgid "from the end"
 msgstr ""
 
@@ -75962,25 +76034,25 @@ msgstr ""
 msgid "hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:243
+#: ../cmk/gui/plugins/dashboard/site_overview.py:239
 msgid "hosts are down or have critical services"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:249
+#: ../cmk/gui/plugins/dashboard/site_overview.py:245
 #, fuzzy
 #| msgid "This element is currently in a scheduled downtime"
 msgid "hosts are in scheduled downtime"
 msgstr "Cet élément est actuellement en période de maintenance planifiée"
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:245
+#: ../cmk/gui/plugins/dashboard/site_overview.py:241
 msgid "hosts are unreachable or have unknown services"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:250
+#: ../cmk/gui/plugins/dashboard/site_overview.py:246
 msgid "hosts are up and have no service problems"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/site_overview.py:247
+#: ../cmk/gui/plugins/dashboard/site_overview.py:243
 msgid "hosts are up but have services in warning state"
 msgstr ""
 
@@ -76621,7 +76693,7 @@ msgstr ""
 msgid "nodes"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:5312 ../cmk/gui/plugins/views/mkeventd.py:814
+#: ../cmk/gui/valuespec.py:5322 ../cmk/gui/plugins/views/mkeventd.py:814
 #: ../cmk/gui/plugins/views/mkeventd.py:847
 #: ../cmk/gui/wato/pages/parentscan.py:167 ../cmk/gui/wato/pages/users.py:410
 #: ../cmk/gui/wato/pages/users.py:458
@@ -77086,7 +77158,7 @@ msgstr ""
 msgid "processes"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6029 ../cmk/gui/plugins/metrics/valuespecs.py:144
+#: ../cmk/gui/valuespec.py:6039 ../cmk/gui/plugins/metrics/valuespecs.py:144
 msgid "pt"
 msgstr ""
 
