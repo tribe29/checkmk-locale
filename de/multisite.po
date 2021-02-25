@@ -4,10 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
+"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-02-24 21:25+0000\n"
-"Last-Translator: Jörg Herbel <joerg.herbel@tribe29.com>\n"
+"PO-Revision-Date: 2021-02-25 10:47+0000\n"
+"Last-Translator: Ulrich Bschorer <ulrich.bschorer@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
 "Language: de\n"
@@ -1123,7 +1123,7 @@ msgstr ", der erste Treffer überspringt das Regelpaket"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:536
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: ../cmk/gui/plugins/sidebar/mkeventd.py:85
 msgid "-.-- %"
@@ -7591,7 +7591,7 @@ msgstr "Automatische Agentupdates"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:48
 msgid "Automatic detection (Python 3 > Python 2)"
-msgstr ""
+msgstr "Automatische Erkennung (Python 3 > Python 2)"
 
 #: ../cmk/gui/plugins/wato/omd_configuration.py:308
 msgid "Automatic disk space cleanup"
@@ -9693,6 +9693,13 @@ msgid ""
 "<br>Additionally, you can provide a command, that will be used for python "
 "plugin execution."
 msgstr ""
+"Standardmäßig sind Python Agent Plugins in Python 3 geschrieben. Da Python 2 "
+"jedoch noch auf vielen Geräten verwendet wird, stellen wir einen Fallback "
+"auf eine Python 2 Version, zusätzlich zur Python 3 Version des Plugins, "
+"bereit, die verwendet wird, wenn kein Python 3 auf dem Host verfügbar ist. "
+"<br>Mit dieser Regel, kann entweder die Verwendung von Python 2 oder Python "
+"3 erzwungen werden.<br>Zusätzlich kann ein Befehl zur Python Plugin "
+"Ausführung festgelegt werden."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:63
 msgid ""
@@ -9701,6 +9708,11 @@ msgid ""
 "tt> (depending on the command found on the host system). Here you can "
 "specify a specific command, independent of the script that will be executed."
 msgstr ""
+"Standardmäßig wird der Checkmk UNIX Agent Python 3 Plugins mit <tt>python3</"
+"tt> ausführen und Python 2 Plugins mit <tt>python2</tt> oder <tt>python</tt> "
+"(abhängig davon welcher Befehl auf dem Host gefunden wird). Hier kann ein "
+"spezifischer Befehl festgelegt werden, der unabhängig vom Skript ausgeführt "
+"wird."
 
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
 msgid ""
@@ -14881,16 +14893,12 @@ msgid "Create view"
 msgstr "Erzeuge Ansicht"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:484
-#, fuzzy
-#| msgid "Create new %s attribute %s"
 msgid "Create your own host related attributes"
-msgstr "Neues %s-Attribut %s erzeugen"
+msgstr "eigenes hostbezogenes Attribut erzeugen"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:659
-#, fuzzy
-#| msgid "Create new %s attribute %s"
 msgid "Create your own user related attributes"
-msgstr "Neues %s-Attribut %s erzeugen"
+msgstr "eigene benutzerbezogene Attribute erzeugen"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:890
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:976 ../cmk/gui/key_mgmt.py:193
@@ -14968,10 +14976,9 @@ msgid "Created new role '%s'"
 msgstr "Neue Rolle '%s' erzeugt"
 
 #: ../cmk/gui/wato/pages/rulesets.py:2279
-#, fuzzy, python-format
-#| msgid "Created new rule in ruleset \"%s\" in folder \"%s\""
+#, python-format
 msgid "Created new rule #%d in ruleset \"%s\" in folder \"%s\""
-msgstr "Neue Regel in Regelsatz \"%s\" im Ordner \"%s\" erzeugt"
+msgstr "Neue Regel #%d im Regelsatz \"%s\" im Ordner \"%s\" erstellt"
 
 #: ../cmk/gui/wato/pages/rulesets.py:2286
 #, python-format
@@ -14994,8 +15001,7 @@ msgid "Created new user: %s"
 msgstr "Nutzer angelegt: %s"
 
 #: ../cmk/gui/watolib/users.py:90
-#, fuzzy, python-format
-#| msgid "Created new user: %s"
+#, python-format
 msgid "Created new users: %s"
 msgstr "Nutzer angelegt: %s"
 
@@ -15116,23 +15122,17 @@ msgstr "Kritisch"
 
 #: ../cmk/gui/plugins/metrics/network.py:1548
 #: ../cmk/gui/plugins/metrics/network.py:1569
-#, fuzzy
-#| msgid "Critical"
 msgid "Critical (In)"
-msgstr "Kritisch"
+msgstr "Kritisch (In)"
 
 #: ../cmk/gui/plugins/metrics/network.py:1550
 #: ../cmk/gui/plugins/metrics/network.py:1571
-#, fuzzy
-#| msgid "Critical at"
 msgid "Critical (Out)"
-msgstr "Kritisch bei"
+msgstr "Kritisch (Out)"
 
 #: ../cmk/gui/plugins/metrics/network.py:1748
-#, fuzzy
-#| msgid "Active connections"
 msgid "Critical (active connections)"
-msgstr "Aktive Verbindungen"
+msgstr "Kritisch (aktive Verbindungen)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ups_test.py:33
 msgid ""
@@ -15912,8 +15912,6 @@ msgstr "Kritisch bei Stratum"
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_proc.py:34
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:35
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_sockets.py:34
-#, fuzzy
-#| msgid "Critical at a usage of"
 msgid "Critical at usage of"
 msgstr "CRIT bei einer Benutzung von"
 
@@ -16011,9 +16009,8 @@ msgid "Critical below"
 msgstr "Kritisch unter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_replica_set.py:32
-#, fuzzy
 msgid "Critical equal or after "
-msgstr "Kritisch nach"
+msgstr "Kritisch gleich oder nach "
 
 #: ../cmk/gui/plugins/wato/check_parameters/safenet_hsm_eventstats.py:44
 msgid "Critical event rate"
@@ -16284,10 +16281,8 @@ msgid "Current image:"
 msgstr "Aktuelles Bild:"
 
 #: ../cmk/gui/logwatch.py:194
-#, fuzzy
-#| msgid "Current size"
 msgid "Current log files"
-msgstr "Aktuelle Größe"
+msgstr "Aktuelle Protokolldateien"
 
 #: ../cmk/gui/wato/pages/host_rename.py:471
 msgid "Current name"
@@ -16310,16 +16305,12 @@ msgid "Current on Power Channel"
 msgstr "Strom auf Power Channel"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:34
-#, fuzzy
-#| msgid "Surge queue length"
 msgid "Current queue depth"
-msgstr "Anstieg der Warteschlangenlänge"
+msgstr "Aktuelle Warteschlangenlänge"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:50
-#, fuzzy
-#| msgid "Surge queue length"
 msgid "Current queue depth in %"
-msgstr "Anstieg der Warteschlangenlänge"
+msgstr "Aktuelle Warteschlangenlänge in %"
 
 #: ../cmk/gui/wato/mkeventd.py:2359
 msgid "Current replication mode"
@@ -16338,10 +16329,9 @@ msgid "Current state"
 msgstr "Aktueller Zustand"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:598
-#, fuzzy, python-format
-#| msgid "Current status of process"
+#, python-format
 msgid "Current status of %s process"
-msgstr "Aktueller Status"
+msgstr "Aktueller Status des %s-Prozesses"
 
 #: ../cmk/gui/wato/mkeventd.py:2355
 msgid "Current status of local Event Console"
@@ -16403,16 +16393,12 @@ msgstr "Wird gerade indiziert, bitte versuchen Sie es in Kürze erneut."
 
 #: ../cmk/gui/plugins/webapi/grafana.py:124
 #: ../cmk/gui/plugins/webapi/grafana.py:170
-#, fuzzy
-#| msgid "Currently not supported with this Check_MK Edition"
 msgid "Currently not supported with this Checkmk Edition"
-msgstr "Wird derzeit von dieser Checkmk Edition nicht unterstützt."
+msgstr "Derzeit nicht unterstützt mit dieser Checkmk Edition"
 
 #: ../cmk/gui/plugins/metrics/network.py:1363
-#, fuzzy
-#| msgid "Half opened connections"
 msgid "Currently open connections"
-msgstr "Halboffene Verbindungen"
+msgstr "Derzeit offene Verbindungen"
 
 #: ../cmk/gui/plugins/views/mkeventd.py:1379
 msgid "Currently open events of a host that is monitored"
@@ -16431,16 +16417,14 @@ msgid "Currently running processes"
 msgstr "Aktuell laufende Prozesse"
 
 #: ../cmk/gui/wato/pages/activate_changes.py:270
-#, fuzzy, python-format
-#| msgid "Currently there are no changes to activate."
+#, python-format
 msgid "Currently there are %d changes to activate."
-msgstr "Im Moment gibt es keine offenen Konfigurationsänderungen."
+msgstr "Derzeit sind %d Änderungen zu aktivieren."
 
 #: ../cmk/gui/plugins/wato/utils/html_elements.py:67
-#, fuzzy, python-format
-#| msgid "Currently there are no changes to activate."
+#, python-format
 msgid "Currently there are %s to activate."
-msgstr "Im Moment gibt es keine offenen Konfigurationsänderungen."
+msgstr "Derzeit gibt es %s zu aktivieren."
 
 #: ../cmk/gui/watolib/activate_changes.py:721
 #: ../cmk/gui/watolib/activate_changes.py:2313
@@ -16455,16 +16439,12 @@ msgid "Currently there are no unsent notification bulks pending."
 msgstr "Im Moment gibt es keine ausstehenden Sammelalarme."
 
 #: ../cmk/gui/plugins/wato/utils/html_elements.py:66
-#, fuzzy
-#| msgid "Currently there are no changes to activate."
 msgid "Currently there is one change to activate"
-msgstr "Im Moment gibt es keine offenen Konfigurationsänderungen."
+msgstr "Derzeit gibt es eine Änderung zum Aktivieren"
 
 #: ../cmk/gui/wato/pages/activate_changes.py:269
-#, fuzzy
-#| msgid "Currently there are no changes to activate."
 msgid "Currently there is one change to activate."
-msgstr "Im Moment gibt es keine offenen Konfigurationsänderungen."
+msgstr "Derzeit ist eine Änderung zu aktivieren."
 
 #: ../cmk/gui/plugins/views/icons/builtin.py:504
 #: ../cmk/gui/plugins/views/mkeventd.py:1140
@@ -16476,10 +16456,9 @@ msgid "Custom Downtime Timeranges"
 msgstr "Angepasste Wartungszeiträume"
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:659
-#, fuzzy, python-format
-#| msgid "Customize GUI design"
+#, python-format
 msgid "Custom GUI design of %s"
-msgstr "GUI-Desing anpassen"
+msgstr "Benutzerdefiniertes GUI-Design von %s"
 
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:502
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:519
@@ -16531,16 +16510,12 @@ msgstr "Benutzerdefiniertes URL-Präfix"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:91
 #: ../cmk/gui/plugins/wato/datasource_programs.py:594
-#, fuzzy
-#| msgid "Proxy server address"
 msgid "Custom URL server address"
-msgstr "Proxyserveradresse"
+msgstr "Benutzerdefinierte URL-Server-Adresse"
 
 #: ../cmk/gui/plugins/views/icons/builtin.py:492
-#, fuzzy
-#| msgid "Custom Action"
 msgid "Custom action"
-msgstr "Angepasste Aktion"
+msgstr "Benutzerdefinierte Aktion"
 
 #: ../cmk/gui/plugins/wato/notifications.py:1070
 msgid "Custom actions that will be available for the alert."
@@ -16555,10 +16530,8 @@ msgid "Custom checks (defined via rule)"
 msgstr "Klassische aktive/passive Nagios-Checks"
 
 #: ../cmk/gui/wato/mkeventd.py:502
-#, fuzzy
-#| msgid "Custom rule event limit"
 msgid "Custom event limit"
-msgstr "Individuelle Ereignisbegrenzung pro Regel"
+msgstr "Individuelle Ereignisbegrenzung"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1004
 msgid "Custom footer links"
@@ -16568,10 +16541,8 @@ msgstr "Benutzerdefinierte Fußzeilen-Links"
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:34
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:88
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:187
-#, fuzzy
-#| msgid "Custom graphs"
 msgid "Custom graph"
-msgstr "Benutzergraphen"
+msgstr "Benutzergraph"
 
 #: ../cmk/gui/plugins/wato/graphs.py:46
 msgid "Custom graph timeranges"
@@ -16585,8 +16556,6 @@ msgstr "Benutzergraphen"
 #: ../cmk/gui/plugins/wato/builtin_modules.py:472
 #: ../cmk/gui/wato/pages/folders.py:427
 #: ../cmk/gui/wato/pages/custom_attributes.py:558
-#, fuzzy
-#| msgid "Custom Host Attributes"
 msgid "Custom host attributes"
 msgstr "Eigene Host-Attribute"
 
@@ -16596,8 +16565,6 @@ msgstr "Spezifische Anmerkungen zu Hosts"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:928
 #: ../cmk/gui/wato/pages/icons.py:53
-#, fuzzy
-#| msgid "Custom Icons"
 msgid "Custom icons"
 msgstr "Benutzericons"
 
@@ -16614,34 +16581,24 @@ msgid "Custom icons or actions for services in status GUI"
 msgstr "Benutzersymbole/Aktionen für Services in der Status-GUI"
 
 #: ../cmk/gui/plugins/wato/notifications.py:512
-#, fuzzy
-#| msgid "Message for host alerts"
 msgid "Custom incident summary for host alerts"
-msgstr "Nachricht für Hostvorfälle"
+msgstr "Benutzerdefinierte Ereigniszusammenfassung für Host-Alerts"
 
 #: ../cmk/gui/plugins/wato/notifications.py:519
-#, fuzzy
-#| msgid "Message for service alerts"
 msgid "Custom incident summary for service alerts"
-msgstr "Nachricht für Servicevorfälle"
+msgstr "Benutzerdefinierte Ereigniszusammenfassung für Service-Warnungen"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:292
-#, fuzzy
-#| msgid "Custom notification"
 msgid "Custom integrations"
-msgstr "manueller Alarm"
+msgstr "Benutzerdefinierte Integrationen"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:551
-#, fuzzy
-#| msgid "Custom rule event limit"
 msgid "Custom limit"
-msgstr "Individuelle Ereignisbegrenzung pro Regel"
+msgstr "Individuelle Begrenzung"
 
 #: ../cmk/gui/plugins/sidebar/custom_links.py:27
-#, fuzzy
-#| msgid "Custom Links"
 msgid "Custom links"
-msgstr "Angepasste Links"
+msgstr "Benutzerdefinierte Links"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1034
 msgid "Custom localizations"
@@ -16666,10 +16623,8 @@ msgid "Custom path prefix"
 msgstr "Benutzerdefiniertes Pfadpräfix"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3415
-#, fuzzy
-#| msgid "Custom services notes"
 msgid "Custom search query"
-msgstr "Angepasste Serviceanmerkungen"
+msgstr "Benutzerdefinierte Suchabfrage"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1185
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1189
@@ -16679,10 +16634,8 @@ msgid "Custom service attributes"
 msgstr "Benutzerdefinierte Serviceattribute"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jira_custom_svc.py:123
-#, fuzzy
-#| msgid "Custom services notes"
 msgid "Custom service name"
-msgstr "Angepasste Serviceanmerkungen"
+msgstr "Benutzerdefinierter Service-Name"
 
 #: ../cmk/gui/plugins/views/painters.py:1507
 msgid "Custom services notes"
@@ -16709,10 +16662,8 @@ msgid "Custom time range"
 msgstr "Zeitspanne"
 
 #: ../cmk/gui/cee/plugins/views/cmc_commands.py:95
-#, fuzzy
-#| msgid "Custom time range"
 msgid "Custom time span"
-msgstr "Zeitspanne"
+msgstr "Benutzerdefinierte Zeitspanne"
 
 #: ../cmk/gui/plugins/views/painters.py:5056
 msgid "Custom title"
@@ -16720,10 +16671,8 @@ msgstr "Angepasster Titel"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:647
 #: ../cmk/gui/wato/pages/custom_attributes.py:525
-#, fuzzy
-#| msgid "Custom User Attributes"
 msgid "Custom user attributes"
-msgstr "Benutzer-Attribute"
+msgstr "Benutzerattribute"
 
 #: ../cmk/gui/wato/pages/bulk_import.py:473
 #, python-format
@@ -16755,9 +16704,8 @@ msgid "Customer ID"
 msgstr "Kunden-ID"
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:370
-#, fuzzy
 msgid "Customer Macros"
-msgstr "Kunden"
+msgstr "Kundenmakros"
 
 #: ../cmk/gui/cme/plugins/views/managed.py:128
 #: ../cmk/gui/cme/plugins/views/managed.py:149
@@ -16765,10 +16713,8 @@ msgid "Customer name"
 msgstr "Kundenname"
 
 #: ../cmk/gui/cme/managed.py:162
-#, fuzzy
-#| msgid "Customer missing"
 msgid "Customer name missing"
-msgstr "Kunde fehlt"
+msgstr "Kundenname fehlt"
 
 #: ../cmk/gui/cme/plugins/views/managed.py:326
 msgid "Customer number of hosts"
@@ -16811,26 +16757,20 @@ msgid "Customer number of services in state WARN"
 msgstr "Kunde: Anzahl von Services mit Status WARN"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:564
-#, fuzzy
-#| msgid "SNMP credentials"
 msgid "Customer portal credentials"
-msgstr "SNMP-Zugangsdaten"
+msgstr "Anmeldedaten für das Kundenportal"
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:347
 msgid "Customer properties"
 msgstr "Kundeneigenschaften"
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:376
-#, fuzzy
-#| msgid "Customer properties"
 msgid "Customer report layout"
-msgstr "Kundeneigenschaften"
+msgstr "Layout des Kundenberichts"
 
 #: ../cmk/gui/cee/reporting.py:1099
-#, fuzzy
-#| msgid "Create %s specific rule for: "
 msgid "Customer specific report layout"
-msgstr "Erzeuge %s spezifische Regel für: "
+msgstr "Kundenspezifisches Report-Layout"
 
 #: ../cmk/gui/cme/plugins/visuals/managed.py:58
 #: ../cmk/gui/cme/plugins/sidebar/managed.py:33
@@ -16856,10 +16796,8 @@ msgstr ""
 "spezifierte Layout als Layout für den Kunden verwenden."
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:717 ../cmk/gui/pagetypes.py:1345
-#, fuzzy
-#| msgid "Customized"
 msgid "Customize"
-msgstr "Angepasst"
+msgstr "Anpassen"
 
 #: ../cmk/gui/visuals.py:148
 #, python-format
@@ -16871,10 +16809,8 @@ msgid "Customize GUI design"
 msgstr "GUI-Desing anpassen"
 
 #: ../cmk/gui/dashboard.py:851
-#, fuzzy
-#| msgid "Customize login screen"
 msgid "Customize builtin dashboard"
-msgstr "Anpassen des Anmeldebildschirms"
+msgstr "Anpassen des eingebauten Dashboards"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:968
 msgid "Customize login screen"
@@ -16908,10 +16844,8 @@ msgid "Customize title"
 msgstr "Titel anpassen"
 
 #: ../cmk/gui/views.py:971
-#, fuzzy
-#| msgid "Customize title"
 msgid "Customize view"
-msgstr "Titel anpassen"
+msgstr "Ansicht anpassen"
 
 #: ../cmk/gui/visuals.py:547 ../cmk/gui/pagetypes.py:1061
 msgid "Customized"
@@ -16926,10 +16860,8 @@ msgid "DATAPROXY - Throttled Server Connections"
 msgstr "DATAPROXY - gedrosselte Serververbindungen"
 
 #: ../cmk/gui/plugins/metrics/network.py:1744
-#, fuzzy
-#| msgid "DB2 Connections"
 msgid "DB Connections"
-msgstr "DB2-Verbindungen"
+msgstr "DB-Verbindungen"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1716
 msgid "DB Number"
@@ -17009,10 +16941,8 @@ msgstr "DB2 Logdatei-Belegung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db2_mem.py:34
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2156
-#, fuzzy
-#| msgid "Heap memory usage"
 msgid "DB2 memory usage"
-msgstr "Nutzung von Heapspeicher"
+msgstr "DB2-Speicherverbrauch"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:600
 msgid "DD.MM.YYYY"
@@ -17023,32 +16953,24 @@ msgid "DDN S2A"
 msgstr "DDN S2A"
 
 #: ../cmk/gui/plugins/wato/check_parameters/storage_iops.py:58
-#, fuzzy
-#| msgid "Disk I/O operations"
 msgid "DDN S2A I/O operations"
-msgstr "Platten-I/O-Operationen"
+msgstr "DDN S2A E/A-Operationen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ddn_s2a_port_errors.py:106
-#, fuzzy
-#| msgid "percent errors"
 msgid "DDN S2A port errors"
-msgstr "Prozent Fehlerrate"
+msgstr "DDN S2A-Anschlussfehler"
 
 #: ../cmk/gui/plugins/wato/check_parameters/read_hits.py:37
-#, fuzzy
-#| msgid "Prefetch hits"
 msgid "DDN S2A read prefetch hits"
-msgstr "Prefetchingtreffer"
+msgstr "DDN S2A Lese-Prefetch-Treffer"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ddn_s2a_wait.py:90
 msgid "DDN S2A read/write wait"
 msgstr "DDN S2A Lesen/Schreiben warten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/storage_throughput.py:58
-#, fuzzy
-#| msgid "Disk throughput"
 msgid "DDN S2A throughput"
-msgstr "Plattendurchsatz"
+msgstr "DDN S2A-Durchsatz"
 
 #: ../cmk/utils/werks.py:60
 msgid "DEB packaging"
@@ -17140,10 +17062,8 @@ msgid "DNS Hostname or IP-address of database server"
 msgstr "DNS-Hostname oder IP-address des Datenbankservers"
 
 #: ../cmk/gui/cee/ntop/pages.py:533
-#, fuzzy
-#| msgid "Set resolution"
 msgid "DNS Resolution"
-msgstr "Auflösung festlegen"
+msgstr "DNS-Auflösung"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:495
 msgid "DNS Server"
@@ -17222,10 +17142,8 @@ msgid "DOWN"
 msgstr "DOWN"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:296
-#, fuzzy
-#| msgid "Other hosts"
 msgid "DOWN hosts"
-msgstr "Andere Hosts"
+msgstr "DOWN-Hosts"
 
 #: ../cmk/gui/cee/plugins/reporting/utils.py:433
 msgid "DPI"
@@ -17286,10 +17204,8 @@ msgid "Dangerous"
 msgstr "Gefährlich"
 
 #: ../cmk/gui/dashboard.py:762
-#, fuzzy
-#| msgid "Dashboards"
 msgid "Dashboard"
-msgstr "Übersichten"
+msgstr "Dashboard"
 
 #: ../cmk/gui/dashboard.py:1465
 msgid "Dashboard Properties"
@@ -17356,16 +17272,12 @@ msgid "Data not found"
 msgstr "Daten nicht gefunden"
 
 #: ../cmk/gui/plugins/dashboard/single_metric.py:215
-#, fuzzy
-#| msgid "Date range"
 msgid "Data range"
-msgstr "Datumsbereich"
+msgstr "Datenbereich"
 
 #: ../cmk/gui/plugins/metrics/netapp.py:37
-#, fuzzy
-#| msgid "Data units read"
 msgid "Data read"
-msgstr "Gelesene Dateneinheiten"
+msgstr "Gelesene Daten"
 
 #: ../cmk/gui/plugins/metrics/storage.py:219
 msgid "Data size"
@@ -17435,15 +17347,12 @@ msgid "Data units written"
 msgstr "Geschriebene Dateneinheiten"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1214
-#, fuzzy
 msgid "Data usage"
-msgstr "Threadnutzung"
+msgstr "verwendete Daten"
 
 #: ../cmk/gui/plugins/metrics/netapp.py:43
-#, fuzzy
-#| msgid "Data units written"
 msgid "Data written"
-msgstr "Geschriebene Dateneinheiten"
+msgstr "Geschriebene Daten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/oracle_dataguard_stats.py:53
 msgid ""
@@ -17687,10 +17596,8 @@ msgid "Dead paths"
 msgstr "Tote Pfade"
 
 #: ../cmk/gui/plugins/metrics/application.py:649
-#, fuzzy
-#| msgid "Read and written blocks"
 msgid "Dead- and waitlocks"
-msgstr "Gelesene und geschriebene Blöcke"
+msgstr "Dead- und Waitlocks"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db2_counters.py:35
 #: ../cmk/gui/plugins/metrics/application.py:102
@@ -17742,13 +17649,11 @@ msgstr "Dezibel Milliwatt"
 #, fuzzy
 #| msgid "Disabled services"
 msgid "Declare disabled services as undecided"
-msgstr "Deaktivierte Services"
+msgstr "Deaktivierte Services als UNKNOWN deklarieren"
 
 #: ../cmk/gui/wato/pages/services.py:1368
-#, fuzzy
-#| msgid "Description for service incidents"
 msgid "Declare monitored services as undecided"
-msgstr "Beschreibung der Service Vorfälle"
+msgstr "Lege überwachte Services als noch nicht entschieden fest"
 
 #: ../cmk/gui/plugins/metrics/application.py:448
 #, fuzzy
@@ -18988,7 +18893,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/dashboard/graph.py:103
 msgid "Deprecated choice, please re-select"
-msgstr ""
+msgstr "Veraltete Auswahl, bitte neu auswählen"
 
 #: ../cmk/gui/watolib/rulespecs.py:1255 ../cmk/gui/watolib/search.py:416
 msgid "Deprecated rulesets"
@@ -26273,11 +26178,15 @@ msgid ""
 "For downloading and submitting license usage reports you must add "
 "subscription details."
 msgstr ""
+"Um Lizenzverwendungsreports herunterzuladen und zu übermitteln müssen zuerst "
+"Subskriptionsdetails hinzugefügt werden."
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:414
 msgid ""
 "For downloading license usage reports you must add subscription details."
 msgstr ""
+"Um Lizenzverwendungsreports herunterzuladen müssen zuerst "
+"Subskriptionsdetails hinzugefügt werden."
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:387
 msgid ""
@@ -26386,6 +26295,8 @@ msgid ""
 "For submitting license usage reports you must add customer portal "
 "credentials."
 msgstr ""
+"Um Lizenzverwendungsreports  zu übermitteln müssen zuerst die Customer "
+"Portal Zugangsdaten hinzugefügt werden."
 
 #: ../cmk/gui/wato/pages/sites.py:644
 #, fuzzy, python-format
@@ -41037,7 +40948,7 @@ msgstr "Metrik-Aggregation"
 
 #: ../cmk/gui/plugins/dashboard/single_metric.py:163
 msgid "Metric compression (RRD)"
-msgstr ""
+msgstr "Metrik Kompression (RRD)"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:831
 #: ../cmk/gui/plugins/wato/check_parameters/prometheus_custom.py:27
@@ -42346,7 +42257,7 @@ msgstr "NTLS-Links"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:326
 msgid "NTOP"
-msgstr ""
+msgstr "NTOP"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ntp.py:31
 #, fuzzy
@@ -44367,6 +44278,8 @@ msgid ""
 "Note: With this command you can archive all events of one host. Needs a rule "
 "\"Check event state in Event Console\" to be configured."
 msgstr ""
+"Notiz: Mit diesem Befehl können alle Events eines Hosts archiviert werden. "
+"Die Regel \"Prüfe  Ereignisstatus in Event Console\" muss konfiguriert sein."
 
 #: ../cmk/gui/plugins/wato/check_parameters/disk_io.py:67
 #: ../cmk/gui/plugins/wato/check_parameters/disk_io.py:91
@@ -50918,7 +50831,7 @@ msgstr "Protokoll zum Holen von Updates"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:61
 msgid "Provide command for python script execution"
-msgstr ""
+msgstr "Stelle einen Befehl für die Python Skript Ausführung bereit"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:209
 msgid ""
@@ -51133,7 +51046,7 @@ msgstr "Python-Version"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:24
 msgid "Python agent plugin execution (UNIX)"
-msgstr ""
+msgstr "Python Agent Plugin Ausführung (UNIX)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/install_python.py:70
 #, fuzzy
@@ -55574,6 +55487,14 @@ msgid ""
 "want to re-edit them, you have to re-select the graph. To check which graph "
 "is currently selected, look at the title of the dashlet in the dashboard."
 msgstr ""
+"Wähle den Graphen aus der in diesem Dashlet dargestellt werden soll. Falls "
+"die aktuelle Auswahl 'Veraltete Auswahl, bitte neu auswählen' anzeigt, wurde "
+"das Dashlet vor dem Release der Version 2.0 erstellt. Vor dieser Version, "
+"wurde die Graphauswahl auf Grund einer einzelnen Nummer die den Output des "
+"jeweiligen Services indiziert. Die Dashlet werden weiter funktionieren, "
+"jedoch wenn sie bearbeitet werden sollen, muss der Graph neu ausgewählt "
+"werden. Um den aktuell ausgewählten Graph festzustellen, kann der Titel des "
+"Dashlets im Dashboard verwendet werden."
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1114
 #, python-format
@@ -61541,7 +61462,7 @@ msgstr "Fehlerbericht wird eingesendet..."
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:258
 msgid "Submit or download"
-msgstr ""
+msgstr "Absenden oder herunterladen"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:354
 #, fuzzy
@@ -63150,6 +63071,12 @@ msgid ""
 "host's Python installation, e.g., if Python 3 is available via <tt>python</"
 "tt>, you can enforce the right version by setting this rule entry."
 msgstr ""
+"Der Checkmk Agent UNIX wird die Python 3 Installation feststellen, in dem er "
+"nach dem <tt>python3</tt> Befehl sucht, die Python 2 Installation wird "
+"erkannt, indem nach den Befehlen <tt>python2</tt> oder <tt>python</tt> "
+"gesucht wird. Wenn dies nicht bei der Python Installation am Host zutrifft, "
+"z.B. wenn Python 3 nur über <tt>python</tt> verfügbar ist. Kann hier die "
+"richtige Version erzwungen werden, indem man diesen Regeleintrag setzt."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/super_server.py:21
 #, fuzzy, python-format
@@ -82741,6 +82668,9 @@ msgid ""
 "will be visible with the 'Show all' option, available under the last item of "
 "the topic."
 msgstr ""
+"Man kann festlegen wie viele Einträge dieses Thema anzeigen soll. Die "
+"restlichen Einträge werden mit der 'Show all' Option unter dem letzten "
+"Eintrag des Themas verfügbar."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1946
 msgid ""
