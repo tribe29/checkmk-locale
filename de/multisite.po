@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
+"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-03-01 07:00+0000\n"
+"PO-Revision-Date: 2021-03-01 23:18+0000\n"
 "Last-Translator: Jörg Herbel <joerg.herbel@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
@@ -78,10 +78,9 @@ msgid " (owned by %s)"
 msgstr " (gehört %s)"
 
 #: ../cmk/gui/plugins/dashboard/site_overview.py:488
-#, fuzzy, python-format
-#| msgid "worst state"
+#, python-format
 msgid " (worst state: %s)"
-msgstr "schlechtester Zustand"
+msgstr " (schlechtester Zustand: %s)"
 
 #: ../cmk/gui/cee/plugins/views/sla.py:139
 msgid " - Broken"
@@ -18570,10 +18569,8 @@ msgid "Deploy custom files with agent"
 msgstr "Benutzerdefinierte Dateien mit Agent ausrollen"
 
 #: ../cmk/gui/werks.py:101
-#, fuzzy
-#| msgid "Deployments"
 msgid "Deploy in minutes"
-msgstr "Deployments"
+msgstr "In Minutenschnelle aufgesetzt"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_iptables.py:23
 msgid "Deploy iptables plugin"
@@ -19531,10 +19528,8 @@ msgid "Discover services during creation"
 msgstr "Erkennen von Services während der Erstellung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:81
-#, fuzzy
-#| msgid "User interface"
 msgid "Discover single interfaces"
-msgstr "Benutzerschnittstelle"
+msgstr "Erkenne einzelne Interfaces"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:502
 msgid "Discovered by plugin"
@@ -19707,10 +19702,8 @@ msgid "Disks"
 msgstr "Platten"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:26
-#, fuzzy
-#| msgid "Diskstate"
 msgid "Diskstat"
-msgstr "Plattenstatus"
+msgstr "Diskstat"
 
 #: ../cmk/gui/plugins/wato/check_parameters/drbd.py:65
 msgid "Diskstate"
@@ -19725,8 +19718,6 @@ msgid "Disovered host labels of the host"
 msgstr "Entdeckte Host-Labels des Hosts"
 
 #: ../cmk/gui/wato/pages/host_rename.py:506
-#, fuzzy
-#| msgid "Auto-disovered services of the host"
 msgid "Disovered services of the host"
 msgstr "Erkannte Services des Hosts"
 
@@ -20330,10 +20321,8 @@ msgid "Do not deploy plugin for Windows interfaces"
 msgstr "Nicht für Windows Interfaces ausrollen."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/zorp.py:23
-#, fuzzy
-#| msgid "Do not deploy Mailman plugin"
 msgid "Do not deploy plugin plugin"
-msgstr "Das Mailman Plugin nicht ausrollen"
+msgstr "Plugin nicht ausrollen"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:276
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:128
@@ -20454,10 +20443,8 @@ msgid "Do not deploy the plesk plugins"
 msgstr "Die plesk Plugins nicht ausrollen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:122
-#, fuzzy
-#| msgid "Do not deploy plugin for Windows interfaces"
 msgid "Do not discover single interfaces"
-msgstr "Nicht für Windows Interfaces ausrollen."
+msgstr "Einzelne Interfaces nicht erkennen"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:598
 msgid "Do not display a date"
@@ -20955,9 +20942,8 @@ msgid "Docsis Upstream Channels"
 msgstr "DOCSIS eingehende Kanäle"
 
 #: ../cmk/gui/plugins/wato/check_parameters/elasticsearch_indices.py:25
-#, fuzzy
 msgid "Document count delta"
-msgstr "Dokumentation"
+msgstr "Dokument Count-Delta"
 
 #: ../cmk/gui/plugins/metrics/elasticsearch.py:54
 #, fuzzy
@@ -29353,10 +29339,8 @@ msgstr "Nutzung von gesamten Speichers"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:260
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1230
-#, fuzzy
-#| msgid "No monitoring core"
 msgid "Host monitoring rules"
-msgstr "Kein Monitoring-Kern"
+msgstr "Monitoring-Regeln für Hosts"
 
 #: ../cmk/gui/plugins/views/sorters.py:115
 #: ../cmk/gui/plugins/wato/datasource_programs.py:85
@@ -29403,10 +29387,9 @@ msgstr ""
 "Host/Service muss den folgenden Servicelevel haben, damit alarmiert wird"
 
 #: ../cmk/gui/plugins/dashboard/event_bar_chart_dashlet.py:257
-#, fuzzy, python-format
-#| msgid "of service %s"
+#, python-format
 msgid "Host or service %ss"
-msgstr "von Service %s"
+msgstr "Host oder Service %ss"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1303
 msgid ""
@@ -29415,10 +29398,8 @@ msgstr ""
 "Host/Service muss den folgenden Servicelevel haben, damit alarmiert wird"
 
 #: ../cmk/gui/plugins/dashboard/site_overview.py:113
-#, fuzzy
-#| msgid "Host Group Overview"
 msgid "Host overview"
-msgstr "Hostgruppenübersicht"
+msgstr "Hostübersicht"
 
 #: ../cmk/gui/plugins/views/painters.py:1815
 msgid "Host performance data"
@@ -29438,16 +29419,13 @@ msgstr "Hostprobleme für NagStaMon"
 
 #: ../cmk/gui/wato/pages/host_diagnose.py:95
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:781
-#, fuzzy
-#| msgid "Host Properties"
 msgid "Host properties"
 msgstr "Hosteigenschaften"
 
 #: ../cmk/gui/wato/pages/rulesets.py:486
-#, fuzzy, python-format
-#| msgid "Host Properties"
+#, python-format
 msgid "Host properties of: %s"
-msgstr "Hosteigenschaften"
+msgstr "Hosteigenschaften von: %s"
 
 #: ../cmk/gui/plugins/views/builtin.py:3197
 msgid "Host related aggregations"
@@ -29613,10 +29591,8 @@ msgid "Hostgroups"
 msgstr "Hostgruppen"
 
 #: ../cmk/gui/plugins/visuals/filters.py:767
-#, fuzzy
-#| msgid "Hosts having certain service problems"
 msgid "Hostgroups having certain problems"
-msgstr "Hosts mit Serviceproblemen"
+msgstr "Hostgruppen mit bestimmten Problemen"
 
 #: ../cmk/gui/plugins/views/datasources.py:197
 msgid "Hostgroups, merged"
@@ -29646,10 +29622,8 @@ msgid "Hostname / IP address of Graphite server"
 msgstr "Hostname / IP-Adresse des Graphite-Servers"
 
 #: ../cmk/gui/plugins/views/builtin.py:3261
-#, fuzzy
-#| msgid "Hostname Aggregations"
 msgid "Hostname aggregations"
-msgstr "Hostname Aggregationen"
+msgstr "Hostname-Aggregationen"
 
 #: ../cmk/gui/wato/pages/host_rename.py:278
 msgid "Hostname matching"
@@ -29673,10 +29647,8 @@ msgid "Hostname translation for piggybacked hosts"
 msgstr "Übersetzung von Hostnamen für Huckepack-Hosts"
 
 #: ../cmk/gui/wato/mkeventd.py:1194
-#, fuzzy
-#| msgid "Hostname/IP address of Master Event Console:"
 msgid "Hostname, IP address or host alias the event is relevant for"
-msgstr "Hostname/IP Adresse der Master Event Console:"
+msgstr "Hostname, IP-Adresse oder Hostalias, für die das Ereignis relevant ist"
 
 #: ../cmk/gui/plugins/views/painters.py:2330
 msgid "Hostname, marked red if down (Deprecated)"
