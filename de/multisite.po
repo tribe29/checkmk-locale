@@ -4,10 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
+"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-03-01 23:18+0000\n"
-"Last-Translator: Jörg Herbel <joerg.herbel@tribe29.com>\n"
+"PO-Revision-Date: 2021-03-02 07:00+0000\n"
+"Last-Translator: Lukas Lengler <lukas.lengler@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
 "Language: de\n"
@@ -520,7 +520,7 @@ msgid "%d open incompatible werks"
 msgstr "%d offene inkompatible Werks"
 
 #: ../cmk/gui/table.py:417 ../cmk/gui/wato/pages/rulesets.py:871
-#: ../cmk/gui/wato/pages/services.py:452
+#: ../cmk/gui/wato/pages/services.py:456
 #, python-format
 msgid "%d rows"
 msgstr "%d Zeilen"
@@ -752,7 +752,7 @@ msgstr "%s nicht in der expliziten Liste von Hostnamen aufgelistet ist."
 msgid "%s not monitored by one of the explicitly selected sites."
 msgstr "%s wird durch keine der explizit ausgewählten Instanzen überwacht."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:767
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:757
 #, python-format
 msgid "%s of %s"
 msgstr "%s von %s"
@@ -1204,7 +1204,7 @@ msgid "1 change"
 msgstr "1 Änderung"
 
 #: ../cmk/gui/table.py:417 ../cmk/gui/wato/pages/rulesets.py:871
-#: ../cmk/gui/wato/pages/services.py:452
+#: ../cmk/gui/wato/pages/services.py:456
 msgid "1 row"
 msgstr "1 Zeile"
 
@@ -2347,7 +2347,7 @@ msgstr ""
 "dieser Regel aufgelistet werden, benutzen den Schnittstellen-Check mit 32bit-"
 "Zählern."
 
-#: ../cmk/gui/dashboard.py:1434
+#: ../cmk/gui/dashboard.py:1449
 msgid ""
 "A dashboard can have an optional context. It can for example be restricted "
 "to display only information of a single host or for a set of services "
@@ -2378,7 +2378,7 @@ msgstr ""
 "und gleichzeitig zu erkennen. Dies vermeidet häufige Core-Neustarts bei "
 "häufigen Serviceänderungen."
 
-#: ../cmk/gui/valuespec.py:6290
+#: ../cmk/gui/valuespec.py:6316
 msgid "A description or title of this rule"
 msgstr "Eine Beschreibung oder ein Titel dieser Regel"
 
@@ -2509,7 +2509,7 @@ msgstr ""
 "Ein Paket darf nur aus Buchstaben, Ziffern, Bindestrich bestehen und muss "
 "mit einem Buchstaben beginnen."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:364
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:371
 msgid "A place where you can put graphs that you currently work with"
 msgstr "Ein Ort, um Graphen, mit denen Sie momentan Arbeiten, abzulegen."
 
@@ -3536,7 +3536,7 @@ msgstr "Aktion bei einem Fehler"
 #: ../cmk/gui/wato/pages/host_diagnose.py:92
 #: ../cmk/gui/wato/pages/audit_log.py:78 ../cmk/gui/wato/pages/audit_log.py:81
 #: ../cmk/gui/wato/pages/analyze_configuration.py:161
-#: ../cmk/gui/wato/pages/services.py:1102
+#: ../cmk/gui/wato/pages/services.py:1106
 #: ../cmk/gui/wato/pages/notifications.py:249
 #: ../cmk/gui/wato/pages/sites.py:687 ../cmk/gui/wato/pages/sites.py:1256
 #: ../cmk/gui/wato/pages/groups.py:161 ../cmk/gui/wato/pages/roles.py:203
@@ -3548,7 +3548,7 @@ msgstr "Aktion bei einem Fehler"
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:369
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:487
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:238
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:956
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:946
 #: ../cmk/gui/cee/reporting.py:941 ../cmk/gui/cee/reporting.py:965
 #: ../cmk/gui/cee/reporting.py:1451 ../cmk/gui/cee/reporting.py:2480
 #: ../cmk/gui/pagetypes.py:1089
@@ -3848,7 +3848,7 @@ msgid "Active check"
 msgstr "Aktiver Check"
 
 #: ../cmk/gui/plugins/views/commands.py:228
-#: ../cmk/gui/wato/pages/services.py:967
+#: ../cmk/gui/wato/pages/services.py:971
 msgid "Active checks"
 msgstr "Aktive Checks"
 
@@ -3994,7 +3994,7 @@ msgstr "Counter hinzufügen"
 msgid "Add Counter Object"
 msgstr "Leistungsindikatorobjekt hinzufügen"
 
-#: ../cmk/gui/dashboard.py:1649
+#: ../cmk/gui/dashboard.py:1664
 msgid "Add Dashlet"
 msgstr "Dashlet hinzufügen"
 
@@ -4058,7 +4058,7 @@ msgstr "Aggregation hinzufügen"
 msgid "Add alert handler rule"
 msgstr "Ereignisbehandlungsregel  hinzufügen"
 
-#: ../cmk/gui/wato/pages/services.py:1364
+#: ../cmk/gui/wato/pages/services.py:1368
 msgid "Add all detected but not yet monitored services to the monitoring."
 msgstr ""
 "Alle erkannten, aber noch nich überwachten Services dem Monitoring "
@@ -4247,7 +4247,7 @@ msgstr "Metrik-Name hinzufügen"
 msgid "Add micro seconds to timestamps in Logfiles"
 msgstr "Zeitstempel in Logdateien mit Mikrosekunden"
 
-#: ../cmk/gui/wato/pages/services.py:1351
+#: ../cmk/gui/wato/pages/services.py:1355
 msgid "Add missing, remove vanished"
 msgstr "Fehlende hinzufügen, verschwundene entfernen"
 
@@ -4266,7 +4266,7 @@ msgstr "Neu hinzufügen"
 msgid "Add new BI aggregation %s"
 msgstr "Neue BI-Aggregation %s hinzufügen"
 
-#: ../cmk/gui/valuespec.py:6224
+#: ../cmk/gui/valuespec.py:6250
 msgid "Add new CA certificate or chain"
 msgstr "Neues CA-Zertifikat oder CA-Kette hinzufügen"
 
@@ -4295,8 +4295,8 @@ msgstr "Neuen Service hinzufügen"
 msgid "Add new action"
 msgstr "Aktion hinzufügen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:886
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1143
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:876
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1133
 msgid "Add new constant"
 msgstr "Neue Konstante hinzufügen"
 
@@ -4316,8 +4316,8 @@ msgstr "Neue Gruppendefinition hinzufügen"
 msgid "Add new mapping"
 msgstr "Neue Umwandlung hinzufügen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:882
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1131
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:872
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1121
 msgid "Add new metric"
 msgstr "Neue Metrik hinzufügen"
 
@@ -4333,8 +4333,8 @@ msgstr "Neues Projekt hinzufügen"
 msgid "Add new row"
 msgstr "Neue Reihe hinzufügen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:884
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1137
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:874
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1127
 msgid "Add new scalar"
 msgstr "Neue Konstante hinzufügen"
 
@@ -4533,7 +4533,7 @@ msgstr ""
 msgid "Add this graph to..."
 msgstr "Diesen Graphen hinzufügen zu..."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1241
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1231
 msgid "Add this metric to custom graph..."
 msgstr "Diese Metrik zu Benutzergraph hinzufügen..."
 
@@ -4568,7 +4568,7 @@ msgstr "Zu den Favoriten hinzufügen"
 msgid "Add to bookmark list"
 msgstr "Zu Lesezeichenliste hinzufügen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:351
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:358
 msgid "Add to graph collection"
 msgstr "Zu Graphensammlung hinzufügen"
 
@@ -5756,7 +5756,7 @@ msgstr ""
 "Alle Checkausführungen (ACHTUNG! Bitte beachten Sie den Hilfetext, bevor Sie "
 "diese Option aktivieren)"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:430
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:437
 msgid "All collections"
 msgstr "Alle Sammlungen"
 
@@ -6573,7 +6573,7 @@ msgstr ""
 "Dauer seiner Zeitscheibe ausgeführt wird, oder das System einen Thread mit "
 "höherer Priorität erkennt."
 
-#: ../cmk/gui/valuespec.py:6340 ../cmk/gui/plugins/wato/bi_config.py:1154
+#: ../cmk/gui/valuespec.py:6366 ../cmk/gui/plugins/wato/bi_config.py:1154
 #, python-format
 msgid ""
 "An optional URL pointing to documentation or any other page. This will be "
@@ -6592,7 +6592,7 @@ msgstr ""
 msgid "An optional alias name for your mysql instance"
 msgstr "Ein optionaler Alias für die mysql Instanz"
 
-#: ../cmk/gui/valuespec.py:6312
+#: ../cmk/gui/valuespec.py:6338
 msgid ""
 "An optional comment that may be used to explain the purpose of this object. "
 "The comment is only visible in this dialog and may help other users "
@@ -6859,13 +6859,13 @@ msgstr "Anwendungen"
 msgid "Applications, Processes & Services"
 msgstr "Anwendungen, Prozesse & Services"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1059
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1049
 msgid "Applied Filters:"
 msgstr "Angewandte Filter:"
 
 #: ../cmk/gui/plugins/views/availability.py:177 ../cmk/gui/werks.py:262
 #: ../cmk/gui/page_menu.py:746 ../cmk/gui/wato/pages/audit_log.py:417
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:870
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:860
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:309
 msgid "Apply"
 msgstr "Anwenden"
@@ -6898,7 +6898,7 @@ msgstr "Filter anwenden"
 msgid "Apply logwatch patterns"
 msgstr "Logwatchmuster anwenden"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1156
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1146
 msgid "Apply operation on all checked metrics: "
 msgstr "Operation auf alle geprüften Metriken anwenden:"
 
@@ -6910,7 +6910,7 @@ msgstr "Regel auf temporäre Tablespaces anwenden"
 msgid "Apply single-core levels defined in 'Levels on single cores'"
 msgstr "Single-core levels anwenden (definiert in 'Levels on single cores')"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1020
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1093
 msgid ""
 "Apply the graph tunings to matching graphs only in specific places, for "
 "example only to graphs shown as dashlet and not to the same graph in a view."
@@ -6961,15 +6961,15 @@ msgstr ""
 "Wenden Sie diese Regel nur auf Schnittstellen an, deren Porttyp unten "
 "aufgeführt ist."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1014
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1087
 msgid "Apply to"
 msgstr "Anwenden bei"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1050
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1123
 msgid "Apply to combined graphs"
 msgstr "Bei Kombigraphen nutzen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1175
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1165
 msgid "Apply transformation on checked metric: "
 msgstr "Transformation auf geprüfte Metrik anwenden:"
 
@@ -7055,7 +7055,7 @@ msgstr ""
 "einen Neustart des Monitoring-Kerns aus!"
 
 # Braucht Kontext
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1116
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1106
 msgid "Area"
 msgstr "Fläche"
 
@@ -7283,7 +7283,7 @@ msgstr ""
 "die eine längere Laufzeit haben, blockieren die Arbeitsprozesse länger. Eine "
 "große Anzahl von Prozessen verbraucht mehr Speicher."
 
-#: ../cmk/gui/valuespec.py:6157
+#: ../cmk/gui/valuespec.py:6183
 msgid "At the beginning of every month at day"
 msgstr "Am Beginn jedes Monats bei Tag"
 
@@ -7291,7 +7291,7 @@ msgstr "Am Beginn jedes Monats bei Tag"
 msgid "At the center of the page"
 msgstr "In der Mitte der Seite"
 
-#: ../cmk/gui/valuespec.py:6148
+#: ../cmk/gui/valuespec.py:6174
 msgid "At the end of every month at day"
 msgstr "Am Ende jedes Monats bei Tag"
 
@@ -7387,7 +7387,7 @@ msgstr "Von Hosts zu entfernende Attribute"
 #: ../cmk/gui/wato/pages/users.py:610 ../cmk/gui/wato/pages/rulesets.py:1418
 #: ../cmk/gui/wato/pages/folders.py:414
 #: ../cmk/gui/wato/pages/activate_changes.py:115
-#: ../cmk/gui/wato/pages/audit_log.py:71 ../cmk/gui/wato/pages/services.py:1176
+#: ../cmk/gui/wato/pages/audit_log.py:71 ../cmk/gui/wato/pages/services.py:1180
 #: ../cmk/gui/wato/pages/hosts.py:473
 msgid "Audit log"
 msgstr "Auditlog"
@@ -7605,12 +7605,12 @@ msgstr "Automatische Rückfall"
 msgid "Automatic page reload"
 msgstr "Seite automatisch aktualisieren"
 
-#: ../cmk/gui/htmllib.py:1723
+#: ../cmk/gui/htmllib.py:1719
 #, python-format
 msgid "Automatic page reload in %d seconds."
 msgstr "Seite wird in %d Sekunden neu geladen."
 
-#: ../cmk/gui/watolib/services.py:574
+#: ../cmk/gui/watolib/services.py:577
 msgid "Automatic refresh"
 msgstr "Automatische Aktualisierung"
 
@@ -7626,7 +7626,7 @@ msgstr "Automatische Updates"
 msgid "Automatically activate changes"
 msgstr "Änderungen automatisch aktivieren"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:210
+#: ../cmk/gui/plugins/dashboard/single_metric.py:218
 msgid "Automatically adjusted to available data"
 msgstr "Automatisch auf verfügbare Daten angepasst"
 
@@ -7809,7 +7809,7 @@ msgstr "Verfügbare Agenten-Konfigurationen"
 msgid "Available capacity"
 msgstr "Verfügbare Kapazität"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1281
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1271
 msgid "Available options"
 msgstr "Verfügbare Optionen"
 
@@ -7829,14 +7829,14 @@ msgstr "Verfügbarer temporärer Speicher"
 msgid "Available till"
 msgstr "Verfügbar bis"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:158
+#: ../cmk/gui/plugins/dashboard/single_metric.py:166
 #: ../cmk/gui/plugins/wato/check_parameters/mysql_innodb_io.py:49
 #: ../cmk/gui/plugins/wato/check_parameters/disk_io.py:47
 #: ../cmk/gui/plugins/metrics/graph_pdf.py:332
 #: ../cmk/gui/plugins/metrics/timeseries.py:194
 #: ../cmk/gui/plugins/metrics/html_render.py:322
 #: ../cmk/gui/availability.py:1330 ../cmk/gui/cee/plugins/wato/cmc.py:1521
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:562
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:569
 #: ../cmk/gui/cee/plugins/metrics/valuespecs.py:175
 #: ../cmk/gui/cee/plugins/metrics/historic.py:135
 #: ../cmk/gui/cee/plugins/metrics/historic.py:156
@@ -8504,8 +8504,8 @@ msgstr "Balkendiagramm"
 msgid "Bar graphics representing the state history"
 msgstr "Balkendiagramm, dass die Status-Historie darstellt"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:325
-#: ../cmk/gui/plugins/dashboard/single_metric.py:329
+#: ../cmk/gui/plugins/dashboard/single_metric.py:333
+#: ../cmk/gui/plugins/dashboard/single_metric.py:337
 msgid "Barplot"
 msgstr "Säulendiagramm"
 
@@ -8631,7 +8631,7 @@ msgstr "Eingebetteten Bericht auf neuer Seite anfangen"
 msgid "Beginner's guide: Adding the first hosts"
 msgstr "Anleitung für Anfänger: Erste Hosts hinzufügen"
 
-#: ../cmk/gui/wato/pages/services.py:1235
+#: ../cmk/gui/wato/pages/services.py:1239
 msgid "Beginner's guide: Configuring services"
 msgstr "Anleitung für Anfänger: Services konfigurieren"
 
@@ -9880,7 +9880,7 @@ msgstr "CARA"
 msgid "CAdvisor"
 msgstr "cAdvisor"
 
-#: ../cmk/gui/valuespec.py:6216
+#: ../cmk/gui/valuespec.py:6242
 msgid "CAs to accept"
 msgstr "Zu akzeptierende CAs"
 
@@ -10257,7 +10257,7 @@ msgstr "KRITISCH"
 msgid "CRITICAL services"
 msgstr "CRITICAL Services"
 
-#: ../cmk/gui/valuespec.py:6169
+#: ../cmk/gui/valuespec.py:6195
 msgid "CRT/PEM File"
 msgstr "CRT/PEM-Datei"
 
@@ -10483,7 +10483,7 @@ msgstr ""
 msgid "Cannot create graph"
 msgstr "Kann Graph nicht erzeugen"
 
-#: ../cmk/gui/plugins/metrics/graph_templates.py:102
+#: ../cmk/gui/plugins/metrics/graph_templates.py:112
 #, python-format
 msgid "Cannot create graph with metrics of different units '%s'"
 msgstr ""
@@ -10848,7 +10848,7 @@ msgstr "Ceph OSDs"
 msgid "Ceph Status"
 msgstr "Ceph-Status"
 
-#: ../cmk/gui/valuespec.py:6168
+#: ../cmk/gui/valuespec.py:6194
 msgid "Certificate Chain (Root / Intermediate Certificate)"
 msgstr "Zertifikatkette (Root / Zwischenzertifikat)"
 
@@ -11336,7 +11336,7 @@ msgid "Check origin and parameters"
 msgstr "Ursprung des Services / Parameter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:123
-#: ../cmk/gui/wato/pages/services.py:662
+#: ../cmk/gui/wato/pages/services.py:666
 msgid "Check parameters"
 msgstr "Check-Parameter"
 
@@ -11360,7 +11360,7 @@ msgstr "Checkperiode für Hosts"
 msgid "Check period for passive Checkmk services"
 msgstr "Check Zeitraum für passive Checkmk Services"
 
-#: ../cmk/gui/wato/pages/services.py:479 ../cmk/gui/wato/pages/services.py:659
+#: ../cmk/gui/wato/pages/services.py:483 ../cmk/gui/wato/pages/services.py:663
 msgid "Check plugin"
 msgstr "Checkplugin"
 
@@ -12263,7 +12263,7 @@ msgstr "Lösche modifizierte Attribute"
 msgid "Cleared audit log."
 msgstr "Audit-Logdatei geleert."
 
-#: ../cmk/gui/htmllib.py:1724
+#: ../cmk/gui/htmllib.py:1720
 msgid "Click for instant reload."
 msgstr "Klicken Sie zum sofortigen Reload."
 
@@ -12370,11 +12370,11 @@ msgstr "Benutzergraph kopieren"
 msgid "Clone forecast graph"
 msgstr "Vorhersagegraph kopieren"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:352
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:359
 msgid "Clone graph collection"
 msgstr "Graphensammlung klonen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:998
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1071
 msgid "Clone graph tuning"
 msgstr "Graph-Tuning klonen"
 
@@ -12408,7 +12408,7 @@ msgstr "Dieses Element duplizieren"
 msgid "Clone this fixel element"
 msgstr "Dieses Seitenelement klonen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:964
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:954
 msgid "Clone this metric"
 msgstr "Diese Metrik klonen"
 
@@ -12556,7 +12556,7 @@ msgid "Clustered"
 msgstr "Geclustert"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3790
-#: ../cmk/gui/wato/pages/services.py:499 ../cmk/gui/wato/pages/services.py:1188
+#: ../cmk/gui/wato/pages/services.py:503 ../cmk/gui/wato/pages/services.py:1192
 #: ../cmk/gui/wato/pages/hosts.py:429
 msgid "Clustered services"
 msgstr "Geclusterte Services"
@@ -12621,13 +12621,14 @@ msgid "Collection Size"
 msgstr "Größe der Collection"
 
 #: ../cmk/gui/plugins/metrics/application.py:345
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:423
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:430
 msgid "Collections"
 msgstr "Collectionen"
 
 #: ../cmk/gui/plugins/metrics/printer.py:42
+#: ../cmk/gui/cee/plugins/dashboard/single_timeseries.py:86
 #: ../cmk/gui/cee/plugins/reporting/utils.py:322
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:914
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:904
 msgid "Color"
 msgstr "Farbe"
 
@@ -12639,39 +12640,45 @@ msgstr "Farbe A3"
 msgid "Color A4"
 msgstr "Farbe A4"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:239
+#: ../cmk/gui/plugins/dashboard/single_metric.py:247
 msgid "Color background after SERVICE state"
 msgstr "Farbwert des Hintergrunds nach SERVICE Status"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:238
+#: ../cmk/gui/plugins/dashboard/single_metric.py:246
 msgid "Color background following it's METRIC THRESHOLDS if available"
 msgstr "Farbwert des Hintergrunds nach den METRIC THRESHOLDS wenn verfügbar"
-
-#: ../cmk/gui/plugins/dashboard/average_scatterplot_dashlet.py:220
-msgid "Color for the average line"
-msgstr "Farbe für die Durchschnittslinie"
-
-#: ../cmk/gui/plugins/dashboard/average_scatterplot_dashlet.py:218
-msgid "Color for the main metric scattered dots"
-msgstr "Farbe für die vereinzelten Punkte der Hauptmetrik"
-
-#: ../cmk/gui/plugins/dashboard/average_scatterplot_dashlet.py:223
-msgid "Color for the median line"
-msgstr "Farbe für die Median-Linie"
 
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:264
 msgid "Color gradient"
 msgstr "Farbverlauf"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:230
+#: ../cmk/gui/plugins/dashboard/average_scatterplot_dashlet.py:227
+#, fuzzy
+#| msgid "Color for the average line"
+msgid "Color of the average"
+msgstr "Farbe für die Durchschnittslinie"
+
+#: ../cmk/gui/plugins/dashboard/average_scatterplot_dashlet.py:234
+#, fuzzy
+#| msgid "Color for the median line"
+msgid "Color of the median"
+msgstr "Farbe für die Median-Linie"
+
+#: ../cmk/gui/plugins/dashboard/average_scatterplot_dashlet.py:220
+#, fuzzy
+#| msgid "Color for the main metric scattered dots"
+msgid "Color of the scattered dots"
+msgstr "Farbe für die vereinzelten Punkte der Hauptmetrik"
+
+#: ../cmk/gui/plugins/dashboard/single_metric.py:238
 msgid "Color value after SERVICE state"
 msgstr "Farbwert nach SERVICE Status"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:229
+#: ../cmk/gui/plugins/dashboard/single_metric.py:237
 msgid "Color value following it's METRIC THRESHOLDS if available"
 msgstr "Farbwert nach den METRIC THRESHOLDS wenn verfügbar"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:496
+#: ../cmk/gui/plugins/dashboard/utils.py:492
 msgid "Colored Background"
 msgstr "Farbiger Hintergrund"
 
@@ -12728,10 +12735,10 @@ msgstr "Spalten"
 msgid "Com. buf. max/total"
 msgstr "Bef. buf. max/gesamt"
 
-#: ../cmk/gui/dashboard.py:1046
+#: ../cmk/gui/dashboard.py:1061
 #: ../cmk/gui/cee/plugins/dashboard/combined_graph.py:27
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:558
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1049
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1122
 msgid "Combined graph"
 msgstr "Kombigraph"
 
@@ -12740,8 +12747,8 @@ msgstr "Kombigraph"
 msgid "Combined graph for template %s"
 msgstr "Kombinierter Graph für Schablone %s"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:583
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:608
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:590
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:615
 msgid "Combined graphs"
 msgstr "Kombigraphen"
 
@@ -12803,7 +12810,7 @@ msgstr "Befehle"
 msgid "Commands on host and services"
 msgstr "Befehle für Hosts/Services"
 
-#: ../cmk/gui/valuespec.py:6311 ../cmk/gui/plugins/views/commands.py:535
+#: ../cmk/gui/valuespec.py:6337 ../cmk/gui/plugins/views/commands.py:535
 #: ../cmk/gui/plugins/views/commands.py:637
 #: ../cmk/gui/plugins/views/commands.py:778
 #: ../cmk/gui/plugins/views/commands.py:879
@@ -12929,7 +12936,7 @@ msgstr "Eingaben"
 msgid "Committed memory"
 msgstr "Zugesicherter Speicher"
 
-#: ../cmk/gui/valuespec.py:6185
+#: ../cmk/gui/valuespec.py:6211
 msgid "Common Name"
 msgstr "Common Name"
 
@@ -13086,7 +13093,7 @@ msgstr ""
 "Unteroptionen 'Single-Core-Levels anwenden' oder 'Graphen für gemittelte "
 "Single-Core-Auslastungen' aktiviert ist."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1072
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1145
 msgid "Compute range accoring to displayed data"
 msgstr "Automatisch mit den angezeigten Werten skalieren"
 
@@ -13732,7 +13739,7 @@ msgstr ""
 msgid "Connection status"
 msgstr "Verbindungsstatus"
 
-#: ../cmk/gui/views.py:2803 ../cmk/gui/wato/pages/services.py:1157
+#: ../cmk/gui/views.py:2803 ../cmk/gui/wato/pages/services.py:1161
 #: ../cmk/gui/wato/pages/hosts.py:391
 msgid "Connection tests"
 msgstr "Verbindungstests"
@@ -13833,7 +13840,7 @@ msgstr "Den Zustand des Jobs berücksichtigen"
 msgid "Consider times where the host is down"
 msgstr "Zeiten berücksichtigen wo der Host unten ist"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:164
+#: ../cmk/gui/plugins/dashboard/single_metric.py:172
 #: ../cmk/gui/cee/plugins/metrics/historic.py:141
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:595
 msgid "Consolidation function for the [cms_graphing#rrds|RRD] data column"
@@ -13843,7 +13850,7 @@ msgstr "Verbindungsfunktion für die [cms_graphing#rrds|RRD]  Datenreihe"
 msgid "Consolidation functions"
 msgstr "Konsolidierungsfunktionen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:710
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:700
 #, python-format
 msgid "Constant value %.2f"
 msgstr "Konstanter Wert: %.2f"
@@ -14076,7 +14083,7 @@ msgid "Context switches"
 msgstr "Kontextswitche"
 
 #: ../cmk/gui/views.py:1246 ../cmk/gui/visuals.py:670
-#: ../cmk/gui/dashboard.py:1628 ../cmk/gui/cee/reporting.py:1310
+#: ../cmk/gui/dashboard.py:1643 ../cmk/gui/cee/reporting.py:1310
 #: ../cmk/gui/cee/reporting.py:1586
 msgid "Continue"
 msgstr "Fortsetzen"
@@ -14177,11 +14184,11 @@ msgstr "Kopiert eine Ansicht in ein Dashlet"
 msgid "Copy Rules From Master"
 msgstr "Kopiere Regeln vom Master"
 
-#: ../cmk/gui/dashboard.py:1541
+#: ../cmk/gui/dashboard.py:1556
 msgid "Copy existing view"
 msgstr "Vorhandene Ansicht kopieren"
 
-#: ../cmk/gui/dashboard.py:1003
+#: ../cmk/gui/dashboard.py:1009
 msgid "Copy of existing view"
 msgstr "Kopie der bestehenden Ansicht"
 
@@ -14339,7 +14346,7 @@ msgstr ""
 msgid "Could not determine current theme."
 msgstr "Aktuelles Theme konnte nicht festgelegt werden"
 
-#: ../cmk/gui/wato/pages/services.py:496
+#: ../cmk/gui/wato/pages/services.py:500
 #, python-format
 msgid ""
 "Could not find any service for your cluster. You first need to specify which "
@@ -14502,7 +14509,7 @@ msgstr "Zählerobjektname oder -nummer"
 msgid "Counting & Timing"
 msgstr "Zählen & Timing"
 
-#: ../cmk/gui/valuespec.py:6181
+#: ../cmk/gui/valuespec.py:6207
 msgid "Country"
 msgstr "Staat"
 
@@ -14722,11 +14729,11 @@ msgstr "Vorhersagegraph erzeugen"
 msgid "Create gateway hosts in"
 msgstr "Erzeuge GatewayHosts in"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:353
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:360
 msgid "Create graph collection"
 msgstr "Graphensammlung erstellen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:999
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1072
 msgid "Create graph tuning"
 msgstr "Graph-Tuning erstellen"
 
@@ -15101,7 +15108,7 @@ msgstr "Kritisch bei"
 msgid "Crit/Down"
 msgstr "Krit/Unten"
 
-#: ../cmk/gui/valuespec.py:6275 ../cmk/gui/plugins/dashboard/stats.py:241
+#: ../cmk/gui/valuespec.py:6301 ../cmk/gui/plugins/dashboard/stats.py:241
 #: ../cmk/gui/plugins/dashboard/alert_statistics.py:150
 #: ../cmk/gui/plugins/views/commands.py:448
 #: ../cmk/gui/plugins/visuals/filters.py:1751
@@ -15111,7 +15118,7 @@ msgstr "Krit/Unten"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3550
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3562
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3574
-#: ../cmk/gui/plugins/metrics/graph_templates.py:218
+#: ../cmk/gui/plugins/metrics/utils.py:821
 #: ../cmk/gui/cee/plugins/reporting/availability.py:389
 #: ../cmk/gui/cee/plugins/reporting/availability.py:406
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:99
@@ -16493,7 +16500,7 @@ msgstr "Benutzerdefiniertes SQL"
 msgid "Custom Time Span:"
 msgstr "Benutzer-Zeitspanne:"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:514
+#: ../cmk/gui/plugins/dashboard/utils.py:510
 msgid "Custom Title"
 msgstr "Angepasster Titel"
 
@@ -16525,7 +16532,7 @@ msgstr "Benutzerdefinierte Aktionen, die für den Alarm zur Verfügung stehen."
 msgid "Custom attributes"
 msgstr "Eigene Attribute"
 
-#: ../cmk/gui/wato/pages/services.py:994
+#: ../cmk/gui/wato/pages/services.py:998
 msgid "Custom checks (defined via rule)"
 msgstr "Klassische aktive/passive Nagios-Checks"
 
@@ -16537,7 +16544,7 @@ msgstr "Individuelle Ereignisbegrenzung"
 msgid "Custom footer links"
 msgstr "Benutzerdefinierte Fußzeilen-Links"
 
-#: ../cmk/gui/dashboard.py:1037
+#: ../cmk/gui/dashboard.py:1052
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:34
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:90
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:188
@@ -16803,6 +16810,12 @@ msgstr "Anpassen"
 #, python-format
 msgid "Customize %s and use them"
 msgstr "Die %s anpassen und benutzen"
+
+#: ../cmk/gui/dashboard.py:924
+#, fuzzy
+#| msgid "Customize builtin dashboard"
+msgid "Customize Dashboards"
+msgstr "Anpassen des eingebauten Dashboards"
 
 #: ../cmk/gui/cme/plugins/wato/managed.py:487
 msgid "Customize GUI design"
@@ -17207,7 +17220,7 @@ msgstr "Gefährlich"
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: ../cmk/gui/dashboard.py:1465
+#: ../cmk/gui/dashboard.py:1480
 msgid "Dashboard Properties"
 msgstr "Übersicht-Eigenschaften"
 
@@ -17234,7 +17247,7 @@ msgstr ""
 msgid "Dashlet"
 msgstr "Übersichtselement"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:491
+#: ../cmk/gui/plugins/dashboard/utils.py:487
 msgid "Dashlet Type"
 msgstr "Dashlet-Typ"
 
@@ -17270,7 +17283,7 @@ msgstr "Datenknoten"
 msgid "Data not found"
 msgstr "Daten nicht gefunden"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:215
+#: ../cmk/gui/plugins/dashboard/single_metric.py:223
 msgid "Data range"
 msgstr "Datenbereich"
 
@@ -17567,7 +17580,7 @@ msgstr "Tag der Erzeugung"
 msgid "Day of the month (1-31)"
 msgstr "Tag im Monat"
 
-#: ../cmk/gui/valuespec.py:6156
+#: ../cmk/gui/valuespec.py:6182
 msgid "Day of the week"
 msgstr "Wochentag"
 
@@ -17602,7 +17615,7 @@ msgstr "Dead- und Waitlocks"
 msgid "Deadlocks"
 msgstr "Deadlocks"
 
-#: ../cmk/gui/valuespec.py:6280 ../cmk/gui/cee/plugins/wato/cmc.py:610
+#: ../cmk/gui/valuespec.py:6306 ../cmk/gui/cee/plugins/wato/cmc.py:610
 msgid "Debug"
 msgstr "Debug"
 
@@ -17643,11 +17656,11 @@ msgstr "Dezibel-Millivolt"
 msgid "Decibel-milliwatts"
 msgstr "Dezibel Milliwatt"
 
-#: ../cmk/gui/wato/pages/services.py:1374
+#: ../cmk/gui/wato/pages/services.py:1378
 msgid "Declare disabled services as undecided"
 msgstr "Lege deaktivierte Services als noch nicht entschieden fest"
 
-#: ../cmk/gui/wato/pages/services.py:1368
+#: ../cmk/gui/wato/pages/services.py:1372
 msgid "Declare monitored services as undecided"
 msgstr "Lege überwachte Services als noch nicht entschieden fest"
 
@@ -17683,7 +17696,7 @@ msgstr "Deduplizierung der gemeinsamen Kapazität"
 msgid "Default"
 msgstr "Standard"
 
-#: ../cmk/gui/node_visualization.py:347
+#: ../cmk/gui/node_visualization.py:348
 #, python-format
 msgid "Default %s template"
 msgstr "Default %s Vorlage"
@@ -17722,6 +17735,12 @@ msgstr "Standard Benutzerprofil"
 msgid "Default Value"
 msgstr "Standardwert"
 
+#: ../cmk/gui/valuespec.py:6098
+#, fuzzy
+#| msgid "Use default color"
+msgid "Default color"
+msgstr "Standardfarbe verwenden"
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:233
 msgid "Default configuration"
 msgstr "Standardkonfiguration"
@@ -17754,6 +17773,12 @@ msgstr "Standard Levels"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:564
 msgid "Default line style"
 msgstr "Voreingestellter Linien Stil"
+
+#: ../cmk/gui/valuespec.py:6121
+#, fuzzy
+#| msgid "Metric History"
+msgid "Default metric color"
+msgstr "Metrik-Historie"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:593
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:792
@@ -17799,6 +17824,12 @@ msgstr "Standardtabellenlayout"
 #: ../cmk/gui/cee/plugins/reporting/builtin.py:27
 msgid "Default template for all reports"
 msgstr "Standardschablone für alle Berichte"
+
+#: ../cmk/gui/valuespec.py:6116
+#, fuzzy
+#| msgid "Default time range"
+msgid "Default theme color"
+msgstr "Standardzeitbereich"
 
 #: ../cmk/gui/cee/reporting.py:767
 msgid "Default time range"
@@ -18203,7 +18234,7 @@ msgstr "Diesen Hintergrund-Prozess löschen"
 msgid "Delete this key"
 msgstr "Diesen Schlüssel löschen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:970
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:960
 msgid "Delete this metric"
 msgstr "Diese Metrik löschen"
 
@@ -18825,7 +18856,7 @@ msgstr "Überholte Einstellungen"
 msgid "Descending"
 msgstr "Absteigend"
 
-#: ../cmk/gui/valuespec.py:6289 ../cmk/gui/crash_reporting.py:549
+#: ../cmk/gui/valuespec.py:6315 ../cmk/gui/crash_reporting.py:549
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:137
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:159
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:181
@@ -18947,7 +18978,7 @@ msgstr "Detaillierte Timeline von Ereignissen für jedes Objekt"
 #: ../cmk/gui/wato/pages/audit_log.py:182
 #: ../cmk/gui/wato/pages/audit_log.py:290
 #: ../cmk/gui/wato/pages/audit_log.py:505
-#: ../cmk/gui/wato/pages/services.py:1224
+#: ../cmk/gui/wato/pages/services.py:1228
 #: ../cmk/gui/wato/pages/global_settings.py:432
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1181
 #: ../cmk/gui/cee/sla.py:1761
@@ -19345,7 +19376,7 @@ msgstr "Deaktivieren im Status-GUI"
 msgid "Disable locking"
 msgstr "Schalte Sperren aus"
 
-#: ../cmk/gui/wato/pages/services.py:1370
+#: ../cmk/gui/wato/pages/services.py:1374
 msgid "Disable monitored services"
 msgstr "Überwachte Services deaktivieren"
 
@@ -19397,11 +19428,11 @@ msgstr "Diesen Test deaktiveren"
 msgid "Disable timespecific parameters"
 msgstr "Zeitspezifische Parameter deaktivieren"
 
-#: ../cmk/gui/wato/pages/services.py:1366
+#: ../cmk/gui/wato/pages/services.py:1370
 msgid "Disable undecided services"
 msgstr "Deaktiviere nicht entschiedene Services"
 
-#: ../cmk/gui/wato/pages/services.py:1378
+#: ../cmk/gui/wato/pages/services.py:1382
 msgid "Disable vanished services"
 msgstr "Deaktiviere verschwundene Services"
 
@@ -19424,7 +19455,7 @@ msgstr ""
 "Deaktivierte %s werden in der Konfiguration beibehalten, sind aber nicht "
 "aktiv."
 
-#: ../cmk/gui/wato/pages/services.py:1028
+#: ../cmk/gui/wato/pages/services.py:1032
 msgid "Disabled active checks"
 msgstr "Abgeschaltete aktive Checks"
 
@@ -19437,15 +19468,15 @@ msgid "Disabled alerts"
 msgstr "Deaktivierte Warnmeldungen"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3483
-#: ../cmk/gui/wato/pages/services.py:1207
+#: ../cmk/gui/wato/pages/services.py:1211
 msgid "Disabled checks"
 msgstr "Deaktivierte Checks"
 
-#: ../cmk/gui/wato/pages/services.py:1019
+#: ../cmk/gui/wato/pages/services.py:1023
 msgid "Disabled clustered services (located on cluster host)"
 msgstr "Deaktivierte Cluster-Dienste (auf dem Cluster-Host)"
 
-#: ../cmk/gui/wato/pages/services.py:1039
+#: ../cmk/gui/wato/pages/services.py:1043
 msgid "Disabled custom checks (defined via rule)"
 msgstr "Abgeschaltete Customchecks, die mit Hilfe einer Regel definiert wurden"
 
@@ -19453,7 +19484,7 @@ msgstr "Abgeschaltete Customchecks, die mit Hilfe einer Regel definiert wurden"
 msgid "Disabled extensions"
 msgstr "Deaktivierte Erweiterungen"
 
-#: ../cmk/gui/wato/pages/services.py:1051
+#: ../cmk/gui/wato/pages/services.py:1055
 msgid "Disabled legacy services (defined in main.mk)"
 msgstr "Legacy Services (definiert in der main.mk)"
 
@@ -19465,7 +19496,7 @@ msgstr "Deaktivierte oder aktivierte Sektionen (SNMP)"
 msgid "Disabled paths"
 msgstr "Deaktivierte Pfade"
 
-#: ../cmk/gui/valuespec.py:6301 ../cmk/gui/plugins/wato/bi_config.py:1226
+#: ../cmk/gui/valuespec.py:6327 ../cmk/gui/plugins/wato/bi_config.py:1226
 msgid "Disabled rules are kept in the configuration but are not applied."
 msgstr ""
 "Deaktivierte Regeln bleiben in der Konfiguration, werden aber nicht "
@@ -19489,7 +19520,7 @@ msgid "Disabled sections (Windows agent)"
 msgstr "Deaktivierte Sektionen (Windows Agent)"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3477
-#: ../cmk/gui/wato/pages/services.py:959 ../cmk/gui/wato/pages/services.py:1196
+#: ../cmk/gui/wato/pages/services.py:963 ../cmk/gui/wato/pages/services.py:1200
 msgid "Disabled services"
 msgstr "Deaktivierte Services"
 
@@ -19536,15 +19567,15 @@ msgid "Discovered by plugin"
 msgstr "Erkannt durch Plugin"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:491
-#: ../cmk/gui/wato/pages/services.py:469
+#: ../cmk/gui/wato/pages/services.py:473
 msgid "Discovered host labels"
 msgstr "Entdeckte Host-Labels"
 
-#: ../cmk/gui/wato/pages/services.py:666
+#: ../cmk/gui/wato/pages/services.py:670
 msgid "Discovered labels"
 msgstr "Erkannte Host-Labels"
 
-#: ../cmk/gui/wato/pages/services.py:488
+#: ../cmk/gui/wato/pages/services.py:492
 msgid "Discovered no service yet."
 msgstr "Es wurde noch kein Service entdeckt."
 
@@ -19552,7 +19583,7 @@ msgstr "Es wurde noch kein Service entdeckt."
 msgid "Discovered process name"
 msgstr "Erkannter Prozessname"
 
-#: ../cmk/gui/wato/pages/services.py:1105
+#: ../cmk/gui/wato/pages/services.py:1109
 msgid "Discovery"
 msgstr "Erkennung"
 
@@ -19805,7 +19836,7 @@ msgstr ""
 msgid "Display average"
 msgstr "Durchschnitt anzeigen"
 
-#: ../cmk/gui/dashboard.py:1471
+#: ../cmk/gui/dashboard.py:1486
 msgid "Display dashboard title"
 msgstr "Titel der Übersicht anzeigen"
 
@@ -19864,7 +19895,7 @@ msgstr "Nur eine Zusammenfassung der Datendateien anzeigen"
 msgid "Display only a summary of all Transactionlogs"
 msgstr "Nur eine Zusammenfassung der Transaktionslogs anzeigen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:198
+#: ../cmk/gui/plugins/dashboard/single_metric.py:206
 msgid "Display range: Minimum must be strictly less than maximum"
 msgstr ""
 "Anzeigebereich: Minimum muss grundsätzlich weniger sein als das Maximum"
@@ -19932,7 +19963,7 @@ msgstr "Werte anzeigen in"
 msgid "Display warn/crit levels in check output..."
 msgstr "Schwellwerte für WARN/CRIT im Check anzeigen..."
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:295
+#: ../cmk/gui/plugins/dashboard/single_metric.py:303
 msgid "Displays Gauge"
 msgstr "Zeige Gauge"
 
@@ -19972,13 +20003,20 @@ msgstr ""
 msgid "Displays a sidebar snapin."
 msgstr "Zeigt ein Seitenleistenelement an"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:363
+#: ../cmk/gui/plugins/dashboard/single_metric.py:371
 msgid "Displays a single metric of a specific host and service."
 msgstr "Zeigt eine einzelne Metrik eines bestimmten Hosts und Services an."
 
 #: ../cmk/gui/plugins/dashboard/static_text.py:30
 msgid "Displays a static text to the user."
 msgstr "Zeigt dem Benutzer einen statischen Text."
+
+#: ../cmk/gui/cee/plugins/dashboard/single_timeseries.py:35
+#, fuzzy
+#| msgid "Displays a single metric of a specific host and service."
+msgid ""
+"Displays a timeseries for a single metric of a specific host and service."
+msgstr "Zeigt eine einzelne Metrik eines bestimmten Hosts und Services an."
 
 #: ../cmk/gui/plugins/views/builtin.py:2998
 msgid "Displays all BI aggregations."
@@ -20023,7 +20061,7 @@ msgstr "Zeigt den Inhalt einer beliebigen Webseite."
 msgid "Displays the content of a view"
 msgstr "Zeigt den Inhalt einer View an"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:961
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:951
 msgid "Dissolve operation"
 msgstr "Operation auflösen"
 
@@ -20572,7 +20610,7 @@ msgstr "Sende nicht an entfernten Host"
 msgid "Do not show a summary line"
 msgstr "Keine Zusammenfassung anzeigen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:246
+#: ../cmk/gui/plugins/dashboard/single_metric.py:254
 msgid "Do not show any status border"
 msgstr "Keinen Statusrand anzeigen"
 
@@ -20946,15 +20984,14 @@ msgid "Document count delta"
 msgstr "Dokument Count-Delta"
 
 #: ../cmk/gui/plugins/metrics/elasticsearch.py:54
-#, fuzzy
 msgid "Document count growth per minute"
-msgstr "Garbagecollections pro Minute zählen"
+msgstr "Zuwachs der Dokumentenanzahl pro Minute zählen"
 
 #: ../cmk/gui/plugins/sidebar/about.py:29
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: ../cmk/gui/valuespec.py:6338 ../cmk/gui/plugins/wato/bi_config.py:901
+#: ../cmk/gui/valuespec.py:6364 ../cmk/gui/plugins/wato/bi_config.py:901
 #: ../cmk/gui/plugins/wato/bi_config.py:1152
 msgid "Documentation URL"
 msgstr "URL zur Dokumentation"
@@ -21025,7 +21062,7 @@ msgstr "Passende verschwundene Dienste nicht entfernen"
 msgid "Don't show and check"
 msgstr "Nicht anzeigen und prüfen"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:506
+#: ../cmk/gui/plugins/dashboard/utils.py:502
 msgid "Don't show any header"
 msgstr "Keine Kopfzeile anzeigen"
 
@@ -21037,7 +21074,7 @@ msgstr "Nicht den Graphtitel anzeigen"
 msgid "Don't show home port info"
 msgstr "Informationen zum Homeport nicht anzeigen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:223
+#: ../cmk/gui/plugins/dashboard/single_metric.py:231
 msgid "Don't show information of limits"
 msgstr "Informationen über Grenzwerte nicht anzeigen"
 
@@ -21278,12 +21315,12 @@ msgstr "Wartungszeiten von Host"
 msgid "Downtimes of service"
 msgstr "Wartungszeiten von Service"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:248
+#: ../cmk/gui/plugins/dashboard/single_metric.py:256
 msgid "Draw a status border when METRICS THRESHOLDS are crossed"
 msgstr ""
 "Zeichnen einer Statusgrenze, wenn METRICS THRESHOLDS überschritten werden"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:247
+#: ../cmk/gui/plugins/dashboard/single_metric.py:255
 msgid "Draw a status border when SERVICE is not OK"
 msgstr "Zeichne einen Statusrahmen, wenn SERVICE nicht OK ist"
 
@@ -21688,11 +21725,11 @@ msgstr "Aggregation editieren"
 msgid "Edit BI Pack %s"
 msgstr "BI-Paket %s editieren"
 
-#: ../cmk/gui/dashboard.py:1372
+#: ../cmk/gui/dashboard.py:1387
 msgid "Edit Dashboards"
 msgstr "Übersichten bearbeiten"
 
-#: ../cmk/gui/dashboard.py:1684
+#: ../cmk/gui/dashboard.py:1699
 msgid "Edit Dashlet"
 msgstr "Dashlet bearbeiten"
 
@@ -21730,11 +21767,11 @@ msgstr "Ansichten Bearbeiten"
 msgid "Edit alert handler rule %d"
 msgstr "Alerthandlerregel %d editieren"
 
-#: ../cmk/gui/wato/pages/services.py:894
+#: ../cmk/gui/wato/pages/services.py:898
 msgid "Edit and analyze the check parameters of this service"
 msgstr "Checkparameter für diesen Service analysieren und editieren"
 
-#: ../cmk/gui/wato/pages/services.py:904
+#: ../cmk/gui/wato/pages/services.py:908
 msgid "Edit and analyze the disabled services rules"
 msgstr "Die Regeln für die deaktivierten Services analysieren und bearbeiten"
 
@@ -21785,7 +21822,7 @@ msgstr "Benutzergraph editieren"
 msgid "Edit customer %s"
 msgstr "Kunde %s bearbeiten"
 
-#: ../cmk/gui/dashboard.py:1388
+#: ../cmk/gui/dashboard.py:1403
 msgid "Edit dashboard"
 msgstr "Übersicht bearbeiten"
 
@@ -21807,11 +21844,11 @@ msgstr "Globale Einstellung bearbeiten"
 msgid "Edit graph"
 msgstr "Graph bearbeiten"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:354
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:361
 msgid "Edit graph collection"
 msgstr "Graphensammlung bearbeiten"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1000
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1073
 msgid "Edit graph tuning"
 msgstr "Graph-Tuning bearbeiten"
 
@@ -22088,7 +22125,7 @@ msgstr "Edition"
 msgid "Effective labels"
 msgstr "Effektive Labels"
 
-#: ../cmk/gui/views.py:2815 ../cmk/gui/wato/pages/services.py:1165
+#: ../cmk/gui/views.py:2815 ../cmk/gui/wato/pages/services.py:1169
 #: ../cmk/gui/wato/pages/hosts.py:399
 msgid "Effective parameters"
 msgstr "effektive Parameter"
@@ -22279,7 +22316,7 @@ msgstr "Report an %s gemailt."
 msgid "Emails containing %s per Second"
 msgstr "Emails, die %s pro Sekunde enthalten"
 
-#: ../cmk/gui/dashboard.py:1516
+#: ../cmk/gui/dashboard.py:1531
 msgid "Embed existing view"
 msgstr "Vorhandene Ansicht einbetten"
 
@@ -23025,7 +23062,7 @@ msgstr "Ausgelaufene Objekte"
 msgid "Equal or more than"
 msgstr "Gleich oder mehr als"
 
-#: ../cmk/gui/valuespec.py:6276 ../cmk/gui/plugins/wato/bi_config.py:1350
+#: ../cmk/gui/valuespec.py:6302 ../cmk/gui/plugins/wato/bi_config.py:1350
 #: ../cmk/gui/plugins/sidebar/utils.py:269
 #: ../cmk/gui/cee/plugins/wato/cmc.py:606
 msgid "Error"
@@ -23475,11 +23512,11 @@ msgstr "Ereignisse: Syslog-Anwendung"
 msgid "Events: Syslog facility"
 msgstr "Ereignisse: Syslog Facility"
 
-#: ../cmk/gui/valuespec.py:6155
+#: ../cmk/gui/valuespec.py:6181
 msgid "Every day"
 msgstr "Jeden Tag"
 
-#: ../cmk/gui/valuespec.py:6156
+#: ../cmk/gui/valuespec.py:6182
 msgid "Every week on..."
 msgstr "Jede Woche am..."
 
@@ -24016,7 +24053,7 @@ msgstr "Explizite Labels"
 msgid "Explicit mapping of job exit codes to states"
 msgstr "Explizite Zuordnung von Job-Exit-Codes zu Zuständen"
 
-#: ../cmk/gui/valuespec.py:5558 ../cmk/gui/cee/plugins/metrics/graphs.py:1034
+#: ../cmk/gui/valuespec.py:5558 ../cmk/gui/cee/plugins/metrics/graphs.py:1107
 msgid "Explicit match"
 msgstr "Genaue Übereinstimmung"
 
@@ -24025,8 +24062,8 @@ msgid "Explicit number"
 msgstr "Explizite Zahl"
 
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:466
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1077
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1079
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1150
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1152
 msgid "Explicit range"
 msgstr "Expliziter Bereich"
 
@@ -24034,7 +24071,7 @@ msgstr "Expliziter Bereich"
 msgid "Explicit renaming"
 msgstr "Explizite Umbenennung"
 
-#: ../cmk/gui/node_visualization.py:301
+#: ../cmk/gui/node_visualization.py:302
 msgid "Explicit set"
 msgstr "Explizites Set"
 
@@ -24070,7 +24107,7 @@ msgstr "Ressourcen explizit auflisten"
 #: ../cmk/gui/plugins/sidebar/dashboards.py:42
 #: ../cmk/gui/plugins/sidebar/views.py:52 ../cmk/gui/visuals.py:2076
 #: ../cmk/gui/wato/pages/audit_log.py:88 ../cmk/gui/wato/pages/audit_log.py:91
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:438
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:445
 msgid "Export"
 msgstr "Exportieren"
 
@@ -24382,7 +24419,7 @@ msgstr ""
 "Der ntop Server '%s' konnte mit dem Benutzer '%s'nicht kontaktiert werden. "
 "Bitte überprüfen Sie Ihre ntop-Verbindungseinstellungen."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:965
+#: ../cmk/gui/plugins/dashboard/utils.py:961
 #, python-format
 msgid ""
 "Failed to convert a builtin dashboard which is referencing the view \"%s\". "
@@ -24696,7 +24733,7 @@ msgstr "Zurück wenn Master wiederkommt innerhalb"
 msgid "Fallback notifications"
 msgstr "Fallback-Alarmierungen"
 
-#: ../cmk/gui/node_visualization.py:356
+#: ../cmk/gui/node_visualization.py:357
 #, python-format
 msgid "Fallback template (%s): Unknown ID %s"
 msgstr "Fallback-Template (%s): Unbekannte ID %s"
@@ -25084,25 +25121,25 @@ msgstr "Dateisysteme (Volumes, Laufwerke)"
 msgid "Filesystems usage"
 msgstr "Verwendung von Dateisystemen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:235
+#: ../cmk/gui/plugins/dashboard/single_metric.py:243
 msgid "Fill color"
 msgstr "Füllfarbe"
 
 #: ../cmk/gui/views.py:915 ../cmk/gui/views.py:923
 #: ../cmk/gui/plugins/wato/bi_config.py:652 ../cmk/gui/mobile.py:338
-#: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/dashboard.py:934
-#: ../cmk/gui/dashboard.py:937 ../cmk/gui/page_menu.py:737
+#: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/dashboard.py:940
+#: ../cmk/gui/dashboard.py:943 ../cmk/gui/page_menu.py:737
 #: ../cmk/gui/wato/pages/audit_log.py:167 ../cmk/gui/node_visualization.py:207
 #: ../cmk/gui/node_visualization.py:210
 msgid "Filter"
 msgstr "Filter"
 
-#: ../cmk/gui/valuespec.py:6388
+#: ../cmk/gui/valuespec.py:6414
 #, python-format
 msgid "Filter %s selection by hostname: "
 msgstr "Auswahl %s nach Hostname filtern: "
 
-#: ../cmk/gui/valuespec.py:6401
+#: ../cmk/gui/valuespec.py:6427
 #, python-format
 msgid "Filter %s selection by service: "
 msgstr "Auswahl %s nach Service filtern: "
@@ -25214,7 +25251,7 @@ msgstr "Fingerprint"
 msgid "Fingerprint (SHA256)"
 msgstr "Fingerprint (SHA256)"
 
-#: ../cmk/gui/valuespec.py:6107
+#: ../cmk/gui/valuespec.py:6133
 #, python-format
 msgid "Fingerprint: %s"
 msgstr "Fingerprint: %s"
@@ -25323,7 +25360,7 @@ msgstr "Seitenel."
 msgid "Fixed page elements"
 msgstr "Seitenelemente"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:201
+#: ../cmk/gui/plugins/dashboard/single_metric.py:209
 msgid "Fixed range"
 msgstr "Fester Bereich"
 
@@ -25512,8 +25549,8 @@ msgstr "Folio"
 msgid "Follow the redirection"
 msgstr "Der Umleitung folgen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:228
 #: ../cmk/gui/plugins/dashboard/single_metric.py:236
+#: ../cmk/gui/plugins/dashboard/single_metric.py:244
 msgid "Follow theme default"
 msgstr "Theme-Standard folgen"
 
@@ -25796,7 +25833,7 @@ msgstr "Für diesen %s"
 
 #: ../cmk/gui/wato/pages/host_rename.py:421
 #: ../cmk/gui/wato/pages/host_diagnose.py:125
-#: ../cmk/gui/wato/pages/services.py:1123
+#: ../cmk/gui/wato/pages/services.py:1127
 #: ../cmk/gui/wato/pages/object_parameters.py:85
 #: ../cmk/gui/wato/pages/hosts.py:307
 msgid "For this host"
@@ -25951,7 +25988,7 @@ msgstr "Zeitbereichformat"
 msgid "Format time stamps as"
 msgstr "Zeiten darstellen als"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:926
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:916
 msgid "Formula"
 msgstr "Formel"
 
@@ -26074,7 +26111,7 @@ msgstr "Mehrere Proxies mit der ID'%s' gefunden."
 msgid "Found multiple proxies using the title '%s'"
 msgstr "Mehrere Proxies mit dem Titel'%s' gefunden."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:491
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:498
 msgid "Found no graph matching this definition."
 msgstr "Kein Graph zu dieser Definition gefunden"
 
@@ -26346,11 +26383,11 @@ msgstr "Vollständiger Name"
 msgid "Full name or alias of the user"
 msgstr "Vollständiger Name oder Alias des Benutzers"
 
-#: ../cmk/gui/watolib/services.py:570
+#: ../cmk/gui/watolib/services.py:573
 msgid "Full scan"
 msgstr "Vollständiger Scan"
 
-#: ../cmk/gui/wato/pages/services.py:1307
+#: ../cmk/gui/wato/pages/services.py:1311
 #, fuzzy
 #| msgid "All services"
 msgid "Full service scan"
@@ -26389,7 +26426,7 @@ msgstr "GC läuft"
 msgid "GC runs rate"
 msgstr "CRC Fehlerrate"
 
-#: ../cmk/gui/htmllib.py:2772
+#: ../cmk/gui/htmllib.py:2768
 msgid "GET/POST variables of this page"
 msgstr "GET/POST-Variablen auf dieser Seite"
 
@@ -26445,7 +26482,7 @@ msgstr "Sammeln von Containerinformationen"
 msgid "Gathered node information"
 msgstr "Gesammelte Node Informationen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:291
+#: ../cmk/gui/plugins/dashboard/single_metric.py:299
 msgid "Gauge"
 msgstr "Messgerät"
 
@@ -26480,7 +26517,7 @@ msgstr "Generelle Eigenschaften"
 msgid "General Purpose SSD space"
 msgstr "Allzweck-SSD-Speicherplatz"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:483
+#: ../cmk/gui/plugins/dashboard/utils.py:479
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4160
 msgid "General Settings"
 msgstr "Globale Einstellungen"
@@ -26666,7 +26703,7 @@ msgstr "Globale Einstellungen für Checkmk, Multisite und den Monitoring-Kern."
 msgid "Global settings matching '%s'"
 msgstr "Globale Einstellungen zum Suchbegriff '%s'"
 
-#: ../cmk/gui/node_visualization.py:295
+#: ../cmk/gui/node_visualization.py:296
 msgid "Globally enforced"
 msgstr "Global erzwungen"
 
@@ -26729,7 +26766,7 @@ msgstr "Detaillierte Größe"
 #: ../cmk/gui/plugins/dashboard/graph.py:68
 #: ../cmk/gui/plugins/views/painters.py:2274
 #: ../cmk/gui/cee/plugins/dashboard/combined_graph.py:51
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1113
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1186
 msgid "Graph"
 msgstr "Graph"
 
@@ -26739,7 +26776,7 @@ msgstr "Graphoptionen"
 
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:626
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:676
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:349
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:356
 msgid "Graph collection"
 msgstr "Graphensammlung"
 
@@ -26748,22 +26785,22 @@ msgstr "Graphensammlung"
 msgid "Graph collection '%s' does not exist"
 msgstr "Die Graphensammlung '%s' existiert nicht"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:350
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:357
 msgid "Graph collections"
 msgstr "Graphensammlung"
 
-#: ../cmk/gui/plugins/metrics/graph_templates.py:58
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:232
+#: ../cmk/gui/plugins/metrics/graph_templates.py:64
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:235
 #, python-format
 msgid "Graph identification: The '%s' attribute is missing"
 msgstr "Graph-Identifikation: Das Attribut '%s' fehlt"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1060
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1133
 #, fuzzy
 msgid "Graph is disabled"
 msgstr "NSCA ist deaktiviert"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1059
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1132
 msgid "Graph is visible"
 msgstr "Graph ist sichtbar"
 
@@ -26771,7 +26808,7 @@ msgstr "Graph ist sichtbar"
 msgid "Graph layout"
 msgstr "Graphenlayout"
 
-#: ../cmk/gui/plugins/metrics/graph_templates.py:202
+#: ../cmk/gui/plugins/metrics/graph_templates.py:212
 #, fuzzy, python-format
 #| msgid "Graph recipe uses undefined metric %s, available are %s"
 msgid "Graph recipe '%s' uses undefined metric '%s', available are: %s"
@@ -26795,7 +26832,7 @@ msgstr ""
 msgid "Graph template"
 msgstr "Graphschablone"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:773
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:780
 #, python-format
 msgid "Graph template %s is missing a title"
 msgstr "Der Graphschablone %s fehlt ein Titel"
@@ -26815,15 +26852,15 @@ msgstr "Graphzeitbereich"
 msgid "Graph title"
 msgstr "Benutze Graphtitel"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:996
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1069
 msgid "Graph tuning"
 msgstr "Graph-Tuning"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:997
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1070
 msgid "Graph tunings"
 msgstr "Graph-Tunings"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1057
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1130
 #, fuzzy
 msgid "Graph visibility"
 msgstr "Sichtbarkeit"
@@ -26841,7 +26878,7 @@ msgstr "Grafikkartenname"
 msgid "Graphic Cards"
 msgstr "Grafikkarten"
 
-#: ../cmk/gui/dashboard.py:827 ../cmk/gui/cee/plugins/metrics/graphs.py:378
+#: ../cmk/gui/dashboard.py:827 ../cmk/gui/cee/plugins/metrics/graphs.py:385
 #: ../cmk/gui/pagetypes.py:1992
 msgid "Graphs"
 msgstr "Graphen"
@@ -27072,7 +27109,7 @@ msgstr "Wachsend"
 msgid "Growth"
 msgstr "Wachstum"
 
-#: ../cmk/gui/node_visualization.py:677
+#: ../cmk/gui/node_visualization.py:679
 #, fuzzy, python-format
 msgid "Growth interrupted %d/%d"
 msgstr "Wachstum verhindert"
@@ -28471,7 +28508,7 @@ msgstr ""
 "Achtung: diese Einstellungen werden nur dann gespeichert/verwendet wenn der "
 "Benutzer Mitglied der Kontaktgruppe ist."
 
-#: ../cmk/gui/dashboard.py:1490
+#: ../cmk/gui/dashboard.py:1505
 msgid ""
 "Here, you can configure additional properties of the dashboard. This is "
 "completely optional and only needed to create more advanced dashboards. For "
@@ -28557,11 +28594,11 @@ msgstr "Anmerkung im Bericht ausblenden"
 msgid "Hide bulks"
 msgstr "Sammelalarme zu"
 
-#: ../cmk/gui/wato/pages/services.py:1242
+#: ../cmk/gui/wato/pages/services.py:1246
 msgid "Hide check parameters"
 msgstr "Check-Parameter verstecken"
 
-#: ../cmk/gui/views.py:943 ../cmk/gui/wato/pages/services.py:1257
+#: ../cmk/gui/views.py:943 ../cmk/gui/wato/pages/services.py:1261
 msgid "Hide checkboxes"
 msgstr "Checkboxen verstecken"
 
@@ -28577,7 +28614,7 @@ msgstr "Kontext nicht anzeigen"
 msgid "Hide details"
 msgstr "Job-Details"
 
-#: ../cmk/gui/wato/pages/services.py:1276
+#: ../cmk/gui/wato/pages/services.py:1280
 #, fuzzy
 #| msgid "Show discovered labels"
 msgid "Hide discovered service labels"
@@ -28621,7 +28658,7 @@ msgstr "Interne Ordnernamen in WATO verstecken"
 msgid "Hide names of configuration variables"
 msgstr "Namen der Konfigurationsvariablen verstecken"
 
-#: ../cmk/gui/wato/pages/services.py:1292
+#: ../cmk/gui/wato/pages/services.py:1296
 msgid "Hide plugin names"
 msgstr "Namen von Plugins ausblenden"
 
@@ -28689,13 +28726,13 @@ msgstr "Hoch: Alarme umgehen die definierten Ruhezeiten"
 msgid "Highly automated"
 msgstr "Hochgradig automatisiert"
 
-#: ../cmk/gui/valuespec.py:6389
+#: ../cmk/gui/valuespec.py:6415
 #, fuzzy
 #| msgid "Original hostname"
 msgid "Hint a hostname"
 msgstr "Original Hostname"
 
-#: ../cmk/gui/valuespec.py:6402
+#: ../cmk/gui/valuespec.py:6428
 #, fuzzy
 #| msgid "Edit services"
 msgid "Hint a service"
@@ -28836,7 +28873,7 @@ msgstr "Waagerechter Abstand"
 #: ../cmk/gui/availability.py:1345 ../cmk/gui/wato/pages/host_rename.py:391
 #: ../cmk/gui/wato/pages/rulesets.py:1048
 #: ../cmk/gui/wato/pages/rulesets.py:2007
-#: ../cmk/gui/wato/pages/services.py:1120
+#: ../cmk/gui/wato/pages/services.py:1124
 #: ../cmk/gui/wato/pages/notifications.py:330
 #: ../cmk/gui/wato/pages/notifications.py:720 ../cmk/gui/notifications.py:158
 #: ../cmk/gui/cee/plugins/reporting/availability.py:48
@@ -29295,8 +29332,8 @@ msgstr "Host-Labels"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3887
 #: ../cmk/gui/plugins/sidebar/search.py:1193
 #: ../cmk/gui/wato/pages/rulesets.py:1712
-#: ../cmk/gui/wato/pages/rulesets.py:1848 ../cmk/gui/wato/pages/services.py:480
-#: ../cmk/gui/wato/pages/services.py:1113
+#: ../cmk/gui/wato/pages/rulesets.py:1848 ../cmk/gui/wato/pages/services.py:484
+#: ../cmk/gui/wato/pages/services.py:1117
 msgid "Host labels"
 msgstr "Host-Labels"
 
@@ -29613,7 +29650,7 @@ msgstr "Hostgruppen (zusammengeführt)"
 #: ../cmk/gui/wato/pages/search.py:99 ../cmk/gui/wato/pages/hosts.py:368
 #: ../cmk/gui/wato/pages/hosts.py:555
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:62
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1032
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1105
 msgid "Hostname"
 msgstr "Hostname"
 
@@ -33259,7 +33296,7 @@ msgstr "Informationen, die im Rumpf der Email gezeigt werden sollen"
 msgid "Information to query"
 msgstr "Abzurufende Informationen"
 
-#: ../cmk/gui/valuespec.py:6278 ../cmk/gui/plugins/visuals/filters.py:1601
+#: ../cmk/gui/valuespec.py:6304 ../cmk/gui/plugins/visuals/filters.py:1601
 #: ../cmk/gui/cee/plugins/wato/cmc.py:609
 msgid "Informational"
 msgstr "Informell"
@@ -33921,12 +33958,12 @@ msgstr "Ungültiger Aufruf: Das Profil fehlt."
 msgid "Invalid call: The snapshot is missing."
 msgstr "Ungültiger Aufruf: Sicherung fehlt."
 
-#: ../cmk/gui/valuespec.py:6176
+#: ../cmk/gui/valuespec.py:6202
 #, python-format
 msgid "Invalid certificate file: %s"
 msgstr "Ungültige Zertifikatsdatei: %s"
 
-#: ../cmk/gui/wato/pages/services.py:719
+#: ../cmk/gui/wato/pages/services.py:723
 msgid "Invalid check parameter"
 msgstr "Ungültiger Check-Parameter"
 
@@ -33934,12 +33971,12 @@ msgstr "Ungültiger Check-Parameter"
 msgid "Invalid check type"
 msgstr "Ungültiger Check-Typ"
 
-#: ../cmk/gui/plugins/metrics/utils.py:937
+#: ../cmk/gui/plugins/metrics/utils.py:1000
 #, python-format
 msgid "Invalid color specification '%s'"
 msgstr "Ungültige Farbangabe '%s'"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:864
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:871
 #, python-format
 msgid "Invalid combined graph representation '%s'"
 msgstr "Ungültige Kombigraphdarstellung '%s'"
@@ -34243,7 +34280,7 @@ msgstr "Ungültige Instanz übergeben"
 msgid "Invalid topic"
 msgstr "Ungültiges Thema"
 
-#: ../cmk/gui/node_visualization.py:499
+#: ../cmk/gui/node_visualization.py:500
 #, python-format
 msgid "Invalid topology_config %r"
 msgstr "Ungültige topology_config %r"
@@ -34290,7 +34327,7 @@ msgid "Invalid value, must be '%r' but is '%r'"
 msgstr "Ungültiger Wert: muss '%r' sein, ist aber '%r'"
 
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:448
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1129
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1202
 msgid "Invalid vertical range: from must be lower than to"
 msgstr ""
 "Ungültiger vertikaler Bereich: die untere Schwelle muss unter der oberen "
@@ -34468,7 +34505,7 @@ msgstr "Ausgestellt von"
 msgid "Issued to"
 msgstr "Ausgestellt an"
 
-#: ../cmk/gui/valuespec.py:6203
+#: ../cmk/gui/valuespec.py:6229
 msgid "Issuer"
 msgstr "Herausgeben"
 
@@ -34990,7 +35027,7 @@ msgstr "Schlüssel"
 msgid "Key from password store"
 msgstr "Schlüssel aus dem Passwortspeicher"
 
-#: ../cmk/gui/valuespec.py:6110
+#: ../cmk/gui/valuespec.py:6136
 msgid "Key pair will be generated when you save."
 msgstr "Schlüsselpaar wird beim Speichern generiert."
 
@@ -35408,7 +35445,7 @@ msgstr "Letztes Back-Ergebnis"
 msgid "Last day of last month"
 msgstr "Gleicher Tag im Monat"
 
-#: ../cmk/gui/watolib/services.py:657
+#: ../cmk/gui/watolib/services.py:660
 #, fuzzy
 msgid "Last exception"
 msgstr "Ausnahme"
@@ -35447,7 +35484,7 @@ msgstr "Letzter Monat"
 msgid "Last progress info"
 msgstr "Letzte Info zum Fortschritt"
 
-#: ../cmk/gui/watolib/services.py:655
+#: ../cmk/gui/watolib/services.py:658
 #, fuzzy
 #| msgid "Last progress info"
 msgid "Last progress update"
@@ -35613,7 +35650,7 @@ msgstr "Ungültige Perfometer-Deklaraion: %r"
 msgid "Legacy run"
 msgstr "Veralteter Lauf"
 
-#: ../cmk/gui/wato/pages/services.py:986
+#: ../cmk/gui/wato/pages/services.py:990
 msgid "Legacy services (defined in main.mk)"
 msgstr "Legacy Services (aus main.mk)"
 
@@ -36576,7 +36613,7 @@ msgstr "Schwellen für die Anzahl der benutzten Zustände"
 
 #: ../cmk/gui/plugins/views/painters.py:4579
 #: ../cmk/gui/plugins/views/mkeventd.py:863
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1115
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1105
 msgid "Line"
 msgstr "Zeile"
 
@@ -36601,7 +36638,7 @@ msgstr "Linear"
 msgid "Linear Regression Trend"
 msgstr "Regulärer Ausdruck: "
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:559
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:566
 msgid "Lines"
 msgstr "Linien"
 
@@ -36691,7 +36728,7 @@ msgstr "Linkausfälle"
 msgid "Link failures"
 msgstr "Linkausfälle"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:529
+#: ../cmk/gui/plugins/dashboard/utils.py:525
 msgid "Link of Title"
 msgstr "Link des Titels"
 
@@ -36709,7 +36746,7 @@ msgstr "Link-Resets ausgehend"
 msgid "Link to dashboard"
 msgstr "Links zu allen Übersichten"
 
-#: ../cmk/gui/dashboard.py:997
+#: ../cmk/gui/dashboard.py:1003
 #, fuzzy
 msgid "Link to existing view"
 msgstr "Vorhandene Ansicht"
@@ -37260,7 +37297,7 @@ msgstr ""
 "Lokal: Spooling - Ereignisse an lokale Eventkonsole derselben OMD Instanz "
 "senden"
 
-#: ../cmk/gui/valuespec.py:6183
+#: ../cmk/gui/valuespec.py:6209
 msgid "Locality Name"
 msgstr "Name der Lokalität"
 
@@ -37828,7 +37865,7 @@ msgstr "Niedrig: kein Klang oder Vibration, aber Popup zeigen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:359
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:470
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1083
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1156
 msgid "Lower"
 msgstr "Untere"
 
@@ -38772,7 +38809,7 @@ msgstr "Manueller Check"
 msgid "Manual check"
 msgstr "Manueller Check"
 
-#: ../cmk/gui/wato/pages/services.py:976
+#: ../cmk/gui/wato/pages/services.py:980
 msgid "Manual checks"
 msgstr "Manuelle Checks"
 
@@ -39437,8 +39474,8 @@ msgstr "Maximale Größe der größten Datei"
 msgid "Maximal size of smallest file"
 msgstr "Mazimale Größe der kleinsten Datei"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:160
-#: ../cmk/gui/plugins/dashboard/single_metric.py:207
+#: ../cmk/gui/plugins/dashboard/single_metric.py:168
+#: ../cmk/gui/plugins/dashboard/single_metric.py:215
 #: ../cmk/gui/plugins/wato/active_checks.py:1173
 #: ../cmk/gui/plugins/metrics/graph_pdf.py:331
 #: ../cmk/gui/plugins/metrics/timeseries.py:192
@@ -39446,7 +39483,7 @@ msgstr "Mazimale Größe der kleinsten Datei"
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:141
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1464
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1520
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:564
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:571
 #: ../cmk/gui/cee/plugins/metrics/valuespecs.py:173
 #: ../cmk/gui/cee/plugins/metrics/historic.py:137
 #: ../cmk/gui/cee/plugins/metrics/historic.py:158
@@ -39739,7 +39776,7 @@ msgstr "Maximale Anzahl von Firewall-Verbindungen"
 msgid "Maximum number of messages"
 msgstr "Maximale Anzahl von Meldungen"
 
-#: ../cmk/gui/node_visualization.py:674
+#: ../cmk/gui/node_visualization.py:676
 #, python-format
 msgid "Maximum number of nodes exceeded %d/%d"
 msgstr "Maximale Anzahl von Knoten überschritten %d/%d"
@@ -40336,7 +40373,7 @@ msgstr "Methode"
 msgid "Method of probing"
 msgstr "Messmethode"
 
-#: ../cmk/gui/plugins/metrics/utils.py:1047
+#: ../cmk/gui/plugins/metrics/utils.py:1110
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:319
 msgid "Metric"
 msgstr "Metrik"
@@ -40351,11 +40388,11 @@ msgstr "Metrik-Vorhersage"
 msgid "Metric History"
 msgstr "Metrik-Historie"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1033
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1023
 msgid "Metric aggregation"
 msgstr "Metrik-Aggregation"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:163
+#: ../cmk/gui/plugins/dashboard/single_metric.py:171
 msgid "Metric compression (RRD)"
 msgstr "Metrik Kompression (RRD)"
 
@@ -40368,7 +40405,7 @@ msgstr "Metrik-Bezeichnung"
 msgid "Metric levels"
 msgstr "Metrik-Schwellwerte"
 
-#: ../cmk/gui/plugins/metrics/utils.py:1055
+#: ../cmk/gui/plugins/metrics/utils.py:1118
 msgid ""
 "Metric names must only consist of letters, digits and underscores and they "
 "must start with a letter."
@@ -40390,7 +40427,7 @@ msgstr ""
 "Aggregationen und Filterungen sind nur mit den Checkmk Enterprise Editions "
 "verfügbar"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:99
+#: ../cmk/gui/plugins/dashboard/single_metric.py:107
 #, fuzzy
 #| msgid "Metric"
 msgid "Metric: "
@@ -40487,15 +40524,15 @@ msgstr "Minimale Größe der größten Datei"
 msgid "Minimal size of smallest file"
 msgstr "Minimale Größe der kleinsten Datei"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:159
-#: ../cmk/gui/plugins/dashboard/single_metric.py:207
+#: ../cmk/gui/plugins/dashboard/single_metric.py:167
+#: ../cmk/gui/plugins/dashboard/single_metric.py:215
 #: ../cmk/gui/plugins/wato/active_checks.py:1172
 #: ../cmk/gui/plugins/metrics/graph_pdf.py:330
 #: ../cmk/gui/plugins/metrics/timeseries.py:193
 #: ../cmk/gui/plugins/metrics/html_render.py:320
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1463
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1519
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:563
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:570
 #: ../cmk/gui/cee/plugins/metrics/valuespecs.py:174
 #: ../cmk/gui/cee/plugins/metrics/historic.py:136
 #: ../cmk/gui/cee/plugins/metrics/historic.py:157
@@ -40612,7 +40649,7 @@ msgstr "Minuten"
 msgid "Mirror margins"
 msgstr "Seitenränder spiegeln"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1096
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1169
 msgid "Mirror the vertical axis"
 msgstr "Die vertikale Achse spiegeln"
 
@@ -40620,15 +40657,15 @@ msgstr "Die vertikale Achse spiegeln"
 msgid "Mirror views"
 msgstr "Gespiegelte Ansichten"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1119
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1109
 msgid "Mirrored Area"
 msgstr "gespiegelte Fläche"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1118
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1108
 msgid "Mirrored Line"
 msgstr "gespiegelte Linie"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1120
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1110
 msgid "Mirrored Stacked"
 msgstr "gespiegelt gestapelt"
 
@@ -40668,10 +40705,16 @@ msgstr "Fehlender Schlüssel \"metric\" in logarithmischem Perfometer: %r"
 msgid "Missing mandatory \"host\" parameter"
 msgstr "Der Parameter \"host\" ist nicht gesetzt."
 
-#: ../cmk/gui/node_visualization.py:743
+#: ../cmk/gui/node_visualization.py:745
 #, python-format
 msgid "Missing mandatory topology keys: %r"
 msgstr "Fehlende Plichtfelder für Topologie: %r"
+
+#: ../cmk/gui/cee/plugins/dashboard/single_timeseries.py:63
+#, fuzzy, python-format
+#| msgid "Missing needed host parameter."
+msgid "Missing needed %s parameter."
+msgstr "Der Parameter host ist nicht gesetzt."
 
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:59
 msgid "Missing needed custom_graph parameter."
@@ -41011,7 +41054,7 @@ msgstr "Überwache die Lanes, wenn ein Port mehrere hat"
 msgid "Monitor costs and usage"
 msgstr "Überwachung von Kosten und Nutzung"
 
-#: ../cmk/gui/wato/pages/services.py:1372
+#: ../cmk/gui/wato/pages/services.py:1376
 #, fuzzy
 #| msgid "Monitored services"
 msgid "Monitor disabled services"
@@ -41076,7 +41119,7 @@ msgstr ""
 msgid "Monitor the performance of the Event Console"
 msgstr "Leistung der Event Console monitoren"
 
-#: ../cmk/gui/wato/pages/services.py:1363
+#: ../cmk/gui/wato/pages/services.py:1367
 #, fuzzy
 #| msgid "Monitored services"
 msgid "Monitor undecided services"
@@ -41094,7 +41137,7 @@ msgstr "Per Checkmk-Agent überwachen"
 msgid "Monitor via SNMP"
 msgstr "Per SNMP überwachen"
 
-#: ../cmk/gui/wato/pages/services.py:1002
+#: ../cmk/gui/wato/pages/services.py:1006
 msgid "Monitored clustered services (located on cluster host)"
 msgstr "Überwachte geclusterte Services (befinden sich auf dem Cluster-Host)"
 
@@ -41114,7 +41157,7 @@ msgid "Monitored on site"
 msgstr "Monitored auf Instanz"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:78
-#: ../cmk/gui/wato/pages/services.py:951
+#: ../cmk/gui/wato/pages/services.py:955
 msgid "Monitored services"
 msgstr "Überwachte Services"
 
@@ -41291,7 +41334,7 @@ msgstr ""
 "fehlerhaft reagieren. Wenn Sie v2c ohne Bulk Walk benutzen möchten, dann "
 "verwenden Sie <tt>snmpv2c_hosts</tt>."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:519
+#: ../cmk/gui/plugins/dashboard/utils.py:515
 #, fuzzy
 #| msgid ""
 #| "Most dashlets have a hard coded default title. For example the view "
@@ -41361,7 +41404,7 @@ msgstr "Bewegt worden"
 msgid "Move this %s to another folder"
 msgstr "Diese(n) %s in einen anderen Ordner verschieben"
 
-#: ../cmk/gui/htmllib.py:2760
+#: ../cmk/gui/htmllib.py:2756
 msgid "Move this entry"
 msgstr "Diesen Eintrag verschieben"
 
@@ -41369,19 +41412,19 @@ msgstr "Diesen Eintrag verschieben"
 msgid "Move this folder to:"
 msgstr "Diesen Ordner verschieben nach:"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:527
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:534
 msgid "Move this graph one position down"
 msgstr "Diesen Graphen eine Position nach unten verschieben"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:524
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:531
 msgid "Move this graph one position up"
 msgstr "Diesen Graphen eine Position nach oben verschieben"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:529
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:536
 msgid "Move this graph to the end"
 msgstr "Diesen Graphen ans Ende verschieben"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:522
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:529
 msgid "Move this graph to the top"
 msgstr "Diesen Graphen an den Anfang verschieben"
 
@@ -41389,7 +41432,7 @@ msgstr "Diesen Graphen an den Anfang verschieben"
 msgid "Move this host to:"
 msgstr "Diesen Host verschieben nach:"
 
-#: ../cmk/gui/wato/pages/services.py:837
+#: ../cmk/gui/wato/pages/services.py:841
 #, python-format
 msgid "Move to %s services"
 msgstr "Zu %s Services verschieben"
@@ -41550,7 +41593,7 @@ msgstr "Muss mindestens eine Subgruppe der Form <tt>(...)</tt> enthalten"
 msgid "My connector"
 msgstr "Verbindung"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:362
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:369
 #, fuzzy
 #| msgid "My Graphs"
 msgid "My graphs"
@@ -42405,7 +42448,7 @@ msgstr "Knoten Statistiken"
 msgid "Network topology"
 msgstr "Netzwerktopologie"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:836
+#: ../cmk/gui/plugins/dashboard/utils.py:832
 #, python-format
 msgid "Network topology of site %s"
 msgstr "Netzwerktopologie der Site %s"
@@ -42511,14 +42554,14 @@ msgstr "Neuer Backup-Job"
 msgid "New backup target"
 msgstr "Neues Sicherungsziel"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:355
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:362
 #, fuzzy
 #| msgid "New Collection"
 msgid "New collection"
 msgstr "Neue Sammlung"
 
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:351
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1264
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1254
 msgid "New custom graph..."
 msgstr "Neuer Benutzergraph..."
 
@@ -42540,7 +42583,7 @@ msgstr "Neue Dateien im Spooler"
 msgid "New forecast"
 msgstr "Neue Vorhersage"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1267
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1257
 msgid "New forecast graph..."
 msgstr "Neuer Vorhersagegraph..."
 
@@ -42577,11 +42620,11 @@ msgstr "Neuer Gespeicherter Bericht"
 msgid "New topic"
 msgstr "Neues Thema hinzufügen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1001
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1074
 msgid "New tuning"
 msgstr "Neue Anpassung"
 
-#: ../cmk/gui/dashboard.py:991
+#: ../cmk/gui/dashboard.py:997
 #, fuzzy
 #| msgid "Preview"
 msgid "New view"
@@ -42655,7 +42698,7 @@ msgstr "Schwellwerte für Logdateien"
 #: ../cmk/gui/plugins/wato/bi_config.py:503 ../cmk/gui/backup.py:1039
 #: ../cmk/gui/wato/pages/sites.py:1265 ../cmk/gui/logwatch.py:78
 #: ../cmk/gui/logwatch.py:168 ../cmk/gui/logwatch.py:285
-#: ../cmk/gui/htmllib.py:1860 ../cmk/gui/cee/plugins/wato/license_usage.py:335
+#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:335
 msgid "No"
 msgstr "Nein"
 
@@ -42774,7 +42817,7 @@ msgstr "Keine Kontakt-Gruppen zugewiesen."
 msgid "No custom attributes are defined yet."
 msgstr "Keine Benutzer-Attribute definiert."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1222
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1212
 #, python-format
 msgid "No custom graph with the name <tt>%s</tt>"
 msgstr "Kein Benutzergraph mit dem Namen <tt>%s</tt>"
@@ -42960,13 +43003,13 @@ msgstr "Keine passenden Hosts gefunden."
 msgid "No matching hosts/services."
 msgstr "Keine passenden Hosts/Services gefunden."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:717
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:724
 #, fuzzy
 #| msgid "No matching Werks found."
 msgid "No matching metrics found"
 msgstr "Keine passenden Werks gefunden."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:897
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:887
 msgid "No metrics in this graph yet."
 msgstr "Der Graph enthält noch keine Metriken."
 
@@ -43102,7 +43145,7 @@ msgstr "Kein Inventarbaum gefunden."
 msgid "No test host"
 msgstr "Kein Status-Host"
 
-#: ../cmk/gui/views.py:3286 ../cmk/gui/plugins/dashboard/utils.py:931
+#: ../cmk/gui/views.py:3286 ../cmk/gui/plugins/dashboard/utils.py:927
 msgid "No title"
 msgstr "Kein Titel"
 
@@ -45515,7 +45558,7 @@ msgstr "Online (Version: %s, Edition: %s)"
 msgid "Only A-Z, a-z, 0-9 and minus (-) are allowed."
 msgstr "Nur A-Z, a-z, 0-9 und Minus (-) sind erlaubt."
 
-#: ../cmk/gui/valuespec.py:6219
+#: ../cmk/gui/valuespec.py:6245
 msgid ""
 "Only accepting HTTPS connections with a server which certificate is signed "
 "with one of the CAs that are listed here. That way it is guaranteed that it "
@@ -45703,7 +45746,7 @@ msgstr ""
 "Nur Hosts umbenennen, deren Namen mit dem hier eingegebenen regulären "
 "Ausdruck <i>beginnen</i>."
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:177
+#: ../cmk/gui/plugins/dashboard/single_metric.py:185
 #, fuzzy
 msgid "Only show current value"
 msgstr "Nur Objekte mit Ausfällen zeigen"
@@ -45907,7 +45950,7 @@ msgstr "Operation"
 msgid "Operation errors"
 msgstr "Fehler"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:878
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:868
 msgid "Operation on selected metrics"
 msgstr "Operation auf den gewählten Metriken"
 
@@ -46199,7 +46242,7 @@ msgstr "Ordnung"
 msgid "Organization"
 msgstr "Organisation"
 
-#: ../cmk/gui/valuespec.py:6184
+#: ../cmk/gui/valuespec.py:6210
 msgid "Organization Name"
 msgstr "Name der Organisation"
 
@@ -46624,7 +46667,7 @@ msgstr "Beeinflussung durch Benutzer"
 msgid "Oversubscribed"
 msgstr "Überzeichnet"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:936
+#: ../cmk/gui/plugins/dashboard/utils.py:932
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:64
 #: ../cmk/gui/wato/pages/roles.py:119
 #: ../cmk/gui/cme/plugins/dashboard/managed.py:212 ../cmk/gui/pagetypes.py:1800
@@ -46802,7 +46845,7 @@ msgstr "POP3"
 msgid "POP3 Server"
 msgstr "POP3-Server"
 
-#: ../cmk/gui/htmllib.py:2783
+#: ../cmk/gui/htmllib.py:2779
 msgid "POST / GET Variables"
 msgstr "POST- / GET-Variablen"
 
@@ -47195,12 +47238,12 @@ msgstr ""
 msgid "Parameters of"
 msgstr "Parameter von"
 
-#: ../cmk/gui/wato/pages/services.py:721
+#: ../cmk/gui/wato/pages/services.py:725
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:148
 msgid "Parameters:"
 msgstr "Parameter:"
 
-#: ../cmk/gui/node_visualization.py:848
+#: ../cmk/gui/node_visualization.py:850
 msgid "Parent / Child topology"
 msgstr "Eltern-/Kinder-Topologie"
 
@@ -47868,7 +47911,7 @@ msgstr "Prozentuale Nutzung"
 msgid "Percentile"
 msgstr "Perzentil"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1286
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1276
 msgid ""
 "Percentile for a single metric is calculated across the displayed time "
 "range. Percentile applied to a group of metrics is calculated at each time "
@@ -47878,7 +47921,7 @@ msgstr ""
 "berechnet. Das auf eine Gruppe von Metriken angewandte Perzentil wird bei "
 "jedem Zeitschritt berechnet."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1283
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1273
 msgid "Percentile within the timerange"
 msgstr "Perzentil innerhalb des Zeitbereichs"
 
@@ -48069,7 +48112,7 @@ msgid "Performance data settings"
 msgstr "Leistungsdateneinstellungen"
 
 #: ../cmk/gui/plugins/dashboard/graph.py:195
-#: ../cmk/gui/plugins/views/icons/builtin.py:380 ../cmk/gui/dashboard.py:1029
+#: ../cmk/gui/plugins/views/icons/builtin.py:380 ../cmk/gui/dashboard.py:1044
 #, fuzzy
 #| msgid "Performance Graph"
 msgid "Performance graph"
@@ -48083,7 +48126,7 @@ msgstr "Performance-Verbesserungen"
 msgid "Performance options"
 msgstr "Performance-Einstellungen"
 
-#: ../cmk/gui/valuespec.py:6160 ../cmk/gui/cee/reporting.py:1510
+#: ../cmk/gui/valuespec.py:6186 ../cmk/gui/cee/reporting.py:1510
 msgid "Period"
 msgstr "Periode"
 
@@ -48515,13 +48558,13 @@ msgstr "Bitte mindestens eine Spalte zur Ansicht hinzufügen."
 msgid "Please add at least one column to your view."
 msgstr "Bitte mindestens eine Spalte zur Ansicht hinzufügen."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1182
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1172
 msgid "Please check one metric you want to apply a transformation"
 msgstr ""
 "Bitte kreuzen Sie eine Metrik an, die Sie für eine Transformation verwenden "
 "möchten."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1161
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1151
 msgid "Please check the metrics you want to combine by an operation"
 msgstr ""
 "Bitte kreuzen Sie die Metriken an, welche Sie mit einer Operation "
@@ -48834,7 +48877,7 @@ msgstr "Bitte wählen Sie eine Datei."
 msgid "Please select a metric"
 msgstr "Bitte wählen Sie eine Metrik"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1279
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1269
 msgid "Please select a number between 0 and 100"
 msgstr "Bitte eine Numer zwischen 0 und 100 auswählen"
 
@@ -48848,8 +48891,8 @@ msgstr "Bitte wählen Sie einen Service"
 msgid "Please select at least one element"
 msgstr "Bitte wählen Sie mindestens eine Metrik"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:740
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:759
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:730
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:749
 msgid "Please select at least one metric"
 msgstr "Bitte wählen Sie mindestens eine Metrik"
 
@@ -49612,7 +49655,7 @@ msgstr "Prefetch Metadata Hitrate"
 msgid "Prefix"
 msgstr "Präfix"
 
-#: ../cmk/gui/valuespec.py:6329
+#: ../cmk/gui/valuespec.py:6355
 msgid "Prefix date and your name to the comment"
 msgstr "dem Kommentar das aktuelle Datum und Ihren Benutzernamen voranstellen"
 
@@ -49639,7 +49682,7 @@ msgstr "Voraussetzungen"
 msgid "Presentation"
 msgstr "Darstellung"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:611
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:618
 #, fuzzy
 #| msgid "Presentation"
 msgid "Presentations"
@@ -50183,12 +50226,12 @@ msgstr "Normale Änderung"
 
 #: ../cmk/gui/valuespec.py:4815 ../cmk/gui/plugins/dashboard/graph.py:304
 #: ../cmk/gui/plugins/dashboard/alert_statistics.py:210
-#: ../cmk/gui/plugins/dashboard/utils.py:651 ../cmk/gui/backup.py:1819
-#: ../cmk/gui/dashboard.py:886 ../cmk/gui/dashboard.py:1715
+#: ../cmk/gui/plugins/dashboard/utils.py:647 ../cmk/gui/backup.py:1819
+#: ../cmk/gui/dashboard.py:886 ../cmk/gui/dashboard.py:1730
 #: ../cmk/gui/forms.py:66 ../cmk/gui/forms.py:69 ../cmk/gui/key_mgmt.py:266
 #: ../cmk/gui/key_mgmt.py:388 ../cmk/gui/key_mgmt.py:484
 #: ../cmk/gui/wato/pages/users.py:344 ../cmk/gui/wato/pages/folders.py:381
-#: ../cmk/gui/wato/pages/services.py:1149 ../cmk/gui/wato/pages/sites.py:689
+#: ../cmk/gui/wato/pages/services.py:1153 ../cmk/gui/wato/pages/sites.py:689
 #: ../cmk/gui/wato/pages/groups.py:169 ../cmk/gui/wato/pages/groups.py:257
 #: ../cmk/gui/wato/pages/roles.py:210
 #: ../cmk/gui/wato/pages/custom_attributes.py:226
@@ -50825,7 +50868,7 @@ msgstr ""
 "RRA-Eintrag nummer %d: Die Anzahl der Schritte muss größer sein, als die vom "
 "vorhergehenden Eintrag."
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1042
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1032
 #, fuzzy
 #| msgid "RRA configuration"
 msgid "RRD consolidation"
@@ -51016,7 +51059,7 @@ msgstr "Zufällige zusätzliche Verzögerung"
 msgid "Randomize password"
 msgstr "Zufallsgesteuertes Passwort"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:221
+#: ../cmk/gui/plugins/dashboard/single_metric.py:229
 #, fuzzy
 #| msgid "Show alias"
 msgid "Range limits"
@@ -51508,7 +51551,7 @@ msgstr "Alle Services und Hostlabel auffrischen (tabula rasa)"
 msgid "Refresh interval"
 msgstr "Durchschnittsintervall"
 
-#: ../cmk/gui/watolib/services.py:450
+#: ../cmk/gui/watolib/services.py:453
 #, python-format
 msgid "Refreshed check configuration of host '%s'"
 msgstr "Die Check-Konfiguration des Hosts'%s' wurde aktualisiert."
@@ -51787,7 +51830,7 @@ msgstr "Zuverlässigkeit"
 msgid "Reload"
 msgstr "Neu laden"
 
-#: ../cmk/gui/htmllib.py:1686
+#: ../cmk/gui/htmllib.py:1682
 msgid "Reloading..."
 msgstr "Neu laden ..."
 
@@ -51939,7 +51982,7 @@ msgstr "Entferne Quittierung"
 msgid "Remove all"
 msgstr "Entferne alles"
 
-#: ../cmk/gui/wato/pages/services.py:1318
+#: ../cmk/gui/wato/pages/services.py:1322
 #, fuzzy
 #| msgid "Remove all downtimes"
 msgid "Remove all and find new"
@@ -51992,7 +52035,7 @@ msgstr "Label-Bedingung entfernen"
 msgid "Remove only matching vanished services"
 msgstr "Verschwundene Services entfernen"
 
-#: ../cmk/gui/wato/pages/services.py:853
+#: ../cmk/gui/wato/pages/services.py:857
 msgid "Remove service"
 msgstr "Entfernter Service"
 
@@ -52004,7 +52047,7 @@ msgstr "Tag entfernen"
 msgid "Remove tag condition"
 msgstr "Tag-Bedingung entfernen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:519
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:526
 msgid "Remove this graph from the collection"
 msgstr "Diesen Graph aus der Sammlung entfernen"
 
@@ -52024,7 +52067,7 @@ msgstr "Snapin entfernen"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3638
 #: ../cmk/gui/watolib/bulk_discovery.py:83
-#: ../cmk/gui/wato/pages/services.py:1376
+#: ../cmk/gui/wato/pages/services.py:1380
 msgid "Remove vanished services"
 msgstr "Verschwundene Services entfernen"
 
@@ -52181,11 +52224,11 @@ msgstr "URL-Inhalte in eigenem Rahmen anzeigen"
 msgid "Render an error message into the document"
 msgstr "Eine Fehlermeldung direkt in das Dokument schreiben"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:497
+#: ../cmk/gui/plugins/dashboard/utils.py:493
 msgid "Render background"
 msgstr "Hintergrund anzeigen"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:498
+#: ../cmk/gui/plugins/dashboard/utils.py:494
 msgid "Render gray background color behind the dashlets content."
 msgstr "Grauen Hintergrund hinter dem Dashletinhalt anzeigen."
 
@@ -52197,7 +52240,7 @@ msgstr "Horizontale Linien zwischen den Zeilen zeichnen"
 msgid "Render in iframe"
 msgstr "In iframe anzeigen"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:504
+#: ../cmk/gui/plugins/dashboard/utils.py:500
 msgid "Render the titlebar including title and link above the dashlet."
 msgstr "Titelleiste mit Titel und Link über dem Dashlet anzeigen"
 
@@ -52471,7 +52514,7 @@ msgstr "Berichte & Verfügbarkeit"
 
 #: ../cmk/gui/views.py:782 ../cmk/gui/plugins/views/availability.py:418
 #: ../cmk/gui/cee/plugins/reporting/utils.py:57
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:441 ../cmk/gui/cee/reporting.py:675
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:448 ../cmk/gui/cee/reporting.py:675
 #: ../cmk/gui/cee/reporting.py:1006 ../cmk/gui/cee/reporting.py:2542
 #: ../cmk/gui/pagetypes.py:1381 ../cmk/gui/pagetypes.py:1951
 msgid "Reports"
@@ -52556,7 +52599,7 @@ msgstr "Anfragen pro Sekunde"
 msgid "Require a comment"
 msgstr "Kommentare entfernen"
 
-#: ../cmk/gui/dashboard.py:1480
+#: ../cmk/gui/dashboard.py:1495
 #, fuzzy
 #| msgid "Required switch contact state"
 msgid "Required context filters"
@@ -53188,7 +53231,7 @@ msgstr "Titel der Regel"
 msgid "Rule Tree"
 msgstr "Regelbaum"
 
-#: ../cmk/gui/valuespec.py:6300 ../cmk/gui/plugins/wato/bi_config.py:1225
+#: ../cmk/gui/valuespec.py:6326 ../cmk/gui/plugins/wato/bi_config.py:1225
 msgid "Rule activation"
 msgstr "Regelaktivierung"
 
@@ -54143,7 +54186,7 @@ msgid "Saturday"
 msgstr "Samstag"
 
 #: ../cmk/gui/plugins/wato/bi_config.py:296
-#: ../cmk/gui/plugins/wato/bi_config.py:984 ../cmk/gui/dashboard.py:1783
+#: ../cmk/gui/plugins/wato/bi_config.py:984 ../cmk/gui/dashboard.py:1798
 #: ../cmk/gui/page_menu.py:440 ../cmk/gui/wato/pages/ldap.py:248
 #: ../cmk/gui/wato/pages/hosts.py:68
 msgid "Save"
@@ -54209,7 +54252,7 @@ msgstr "Speichern und weiter zu"
 msgid "Save this host and go to"
 msgstr "Speichern und weiter zu"
 
-#: ../cmk/gui/watolib/services.py:245
+#: ../cmk/gui/watolib/services.py:246
 #, python-format
 msgid "Saved check configuration of host '%s' with %d services"
 msgstr "Check-Konfiguration von '%s' mit %d Services gespeichert"
@@ -54878,7 +54921,7 @@ msgstr "Einen indiviellen Timeout festlegen"
 msgid "Select interface port type"
 msgstr "Schnittstellentypen auswählen"
 
-#: ../cmk/gui/plugins/metrics/utils.py:1046
+#: ../cmk/gui/plugins/metrics/utils.py:1109
 #, fuzzy
 #| msgid "Change metric"
 msgid "Select metric"
@@ -54966,7 +55009,7 @@ msgstr "Wählen Sie den Typ des Berichtelements"
 msgid "Select the type of fixed page element"
 msgstr "Wählen Sie den Typ des Seitenelements"
 
-#: ../cmk/gui/dashboard.py:1613
+#: ../cmk/gui/dashboard.py:1628
 #, fuzzy
 msgid "Select view"
 msgstr "Ansicht auswählen"
@@ -55263,7 +55306,7 @@ msgstr "Uhrzeit des Servers"
 #: ../cmk/gui/plugins/visuals/filters.py:2590
 #: ../cmk/gui/plugins/visuals/infos.py:51 ../cmk/gui/watolib/rulespecs.py:471
 #: ../cmk/gui/watolib/rulespecs.py:1007 ../cmk/gui/availability.py:1350
-#: ../cmk/gui/wato/pages/rulesets.py:2010 ../cmk/gui/wato/pages/services.py:647
+#: ../cmk/gui/wato/pages/rulesets.py:2010 ../cmk/gui/wato/pages/services.py:651
 #: ../cmk/gui/wato/pages/notifications.py:721 ../cmk/gui/notifications.py:159
 #: ../cmk/gui/cee/plugins/reporting/availability.py:50
 msgid "Service"
@@ -55523,7 +55566,7 @@ msgstr "ID des benutzerdefinierten Service Feldes"
 #: ../cmk/gui/plugins/metrics/valuespecs.py:79
 #: ../cmk/gui/wato/pages/notifications.py:331
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mrpe.py:58
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1041
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1114
 msgid "Service description"
 msgstr "Service-Beschreibung"
 
@@ -55543,7 +55586,7 @@ msgstr "Service-Beschreibungen"
 
 #: ../cmk/gui/plugins/views/datasources.py:437
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2621
-#: ../cmk/gui/watolib/services.py:548 ../cmk/gui/watolib/services.py:556
+#: ../cmk/gui/watolib/services.py:551 ../cmk/gui/watolib/services.py:559
 #: ../cmk/gui/wato/pages/services.py:305 ../cmk/gui/cee/plugins/wato/dcd.py:699
 msgid "Service discovery"
 msgstr "Serviceerkennung"
@@ -55821,7 +55864,7 @@ msgstr "Services, deren Zustand sich binnen der letzen 60 Minuten geändert hat"
 msgid "Service-Level"
 msgstr "Service-Level"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:91
+#: ../cmk/gui/plugins/dashboard/single_metric.py:99
 #, fuzzy
 #| msgid "Service:"
 msgid "Service: "
@@ -55874,7 +55917,7 @@ msgstr "Servicelevel"
 #: ../cmk/gui/plugins/wato/bi_config.py:413
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:97 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/wato/pages/rulesets.py:747 ../cmk/gui/wato/pages/rulesets.py:1784
-#: ../cmk/gui/wato/pages/services.py:1109
+#: ../cmk/gui/wato/pages/services.py:1113
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/cme/plugins/views/managed.py:209
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:552
@@ -56375,7 +56418,7 @@ msgstr ""
 "Setze den Monitoring-Status von Aufgaben, die nicht aktiviert sind (z.B. "
 "weil sie nach der Erkennung deaktiviert wurden)."
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:204
+#: ../cmk/gui/plugins/dashboard/single_metric.py:212
 msgid ""
 "Set the range in which data is displayed. Having selected a metric before "
 "auto selects here the matching unit of the metric."
@@ -56507,8 +56550,8 @@ msgstr ""
 "Schwellwerte einrichten dann sollten Sie auch einen Durchschnittswert "
 "verwenden."
 
-#: ../cmk/gui/wato/mkeventd.py:2991 ../cmk/gui/wato/pages/services.py:1130
-#: ../cmk/gui/wato/pages/services.py:1133
+#: ../cmk/gui/wato/mkeventd.py:2991 ../cmk/gui/wato/pages/services.py:1134
+#: ../cmk/gui/wato/pages/services.py:1137
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -56831,11 +56874,11 @@ msgstr "Alias anzeigen"
 msgid "Show bulks"
 msgstr "Sammelalarme"
 
-#: ../cmk/gui/wato/pages/services.py:1242
+#: ../cmk/gui/wato/pages/services.py:1246
 msgid "Show check parameters"
 msgstr "Check-Parameter anzeigen"
 
-#: ../cmk/gui/views.py:943 ../cmk/gui/wato/pages/services.py:1257
+#: ../cmk/gui/views.py:943 ../cmk/gui/wato/pages/services.py:1261
 msgid "Show checkboxes"
 msgstr "Checkboxen anzeigen"
 
@@ -56879,7 +56922,7 @@ msgstr "Job-Details"
 msgid "Show details about livestatus encryption"
 msgstr "Details zur Livestatus-Verschlüsselung anzeigen"
 
-#: ../cmk/gui/wato/pages/services.py:1277
+#: ../cmk/gui/wato/pages/services.py:1281
 #, fuzzy
 #| msgid "Show discovered labels"
 msgid "Show discovered service labels"
@@ -56907,11 +56950,11 @@ msgstr "Titel anzeigen"
 msgid "Show graph title on graph area"
 msgstr "Zeige Graphen-Titel eingebettet im Graphen"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:507
+#: ../cmk/gui/plugins/dashboard/utils.py:503
 msgid "Show header with highlighted background"
 msgstr "Zeige die Überschrift mit hervorhebendem Hintergrund"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:181
+#: ../cmk/gui/plugins/dashboard/single_metric.py:189
 #, fuzzy
 #| msgid "Show user rules"
 msgid "Show historic values"
@@ -57051,7 +57094,7 @@ msgstr "Zeige Fehler"
 msgid "Show pin"
 msgstr "Zeige Pin"
 
-#: ../cmk/gui/wato/pages/services.py:1292
+#: ../cmk/gui/wato/pages/services.py:1296
 msgid "Show plugin names"
 msgstr "Namen von Plugins anzeigen"
 
@@ -57099,7 +57142,7 @@ msgstr "Zeige reservierten Platz für <tt>root</tt>-User"
 msgid "Show stale hosts and services"
 msgstr "Alle veralteten Hosts und Services zeigen"
 
-#: ../cmk/gui/dashboard.py:1482
+#: ../cmk/gui/dashboard.py:1497
 msgid ""
 "Show the dialog that can be used to update the dashboard context on initial "
 "dashboard rendering and enforce the user to provide the context filters that "
@@ -57132,11 +57175,11 @@ msgstr "Zeige oben den Zeitbereich des Graphs"
 msgid "Show the graph vertical axis"
 msgstr "Zeige die vertikale Achse"
 
-#: ../cmk/gui/dashboard.py:1472
+#: ../cmk/gui/dashboard.py:1487
 msgid "Show the header of the dashboard with the configured title."
 msgstr "Den konfigurierten Titel der Übersicht auf der Seite anzeigen"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:222
+#: ../cmk/gui/plugins/dashboard/single_metric.py:230
 msgid "Show the limits of values displayed"
 msgstr "Zeige die Limits der angezeigten Werte"
 
@@ -57194,13 +57237,13 @@ msgstr ""
 msgid "Show title"
 msgstr "Kein Titel"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:503
+#: ../cmk/gui/plugins/dashboard/utils.py:499
 #, fuzzy
 #| msgid "Show Title"
 msgid "Show title header"
 msgstr "Zeige Titel"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:508
+#: ../cmk/gui/plugins/dashboard/utils.py:504
 #, fuzzy
 #| msgid "Hosts without a baked agent"
 msgid "Show title without any background"
@@ -57522,7 +57565,7 @@ msgstr "Einzelhost-Aggregationen"
 msgid "Single host problems"
 msgstr "Einzelhost-Probleme"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:359
+#: ../cmk/gui/plugins/dashboard/single_metric.py:367
 #, fuzzy
 #| msgid "Change metric"
 msgid "Single metric"
@@ -57555,7 +57598,7 @@ msgstr "Schwellwerte für den maximalen Verbrauch einzelner Anfragen"
 msgid "Siren"
 msgstr "Sirene"
 
-#: ../cmk/gui/valuespec.py:6240 ../cmk/gui/valuespec.py:6266
+#: ../cmk/gui/valuespec.py:6266 ../cmk/gui/valuespec.py:6292
 #: ../cmk/gui/views.py:2940 ../cmk/gui/views.py:2953
 #: ../cmk/gui/plugins/views/painters.py:356
 #: ../cmk/gui/plugins/views/sorters.py:274
@@ -57566,7 +57609,7 @@ msgstr "Sirene"
 msgid "Site"
 msgstr "Instanz"
 
-#: ../cmk/gui/node_visualization.py:892
+#: ../cmk/gui/node_visualization.py:894
 #, python-format
 msgid "Site %s"
 msgstr "Site %s"
@@ -58306,7 +58349,7 @@ msgstr ""
 "Sie können die Kontaktgruppe '<b>%s</b>' nicht zuordnen da Sie nicht "
 "Mitglied sind. Ihre Gruppen sind: <b>%s</b>"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:956
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:963
 #, python-format
 msgid "Sorry, you cannot create combined graphs for more than %d objects"
 msgstr ""
@@ -58318,7 +58361,7 @@ msgstr ""
 msgid "Sorry, you cannot edit the folder %s. It is locked."
 msgstr "Sie können den Ordner %s nicht editieren, er ist gesperrt."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:738
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:745
 #, python-format
 msgid "Sorry, you cannot have more than %d metrics in a combined graph."
 msgstr ""
@@ -58472,7 +58515,7 @@ msgstr "Alle Agenten signieren"
 msgid "Specific date"
 msgstr "Bestimmten Datum"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1018
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1091
 msgid "Specific destination"
 msgstr "Bestimmter Ort"
 
@@ -59219,11 +59262,11 @@ msgstr "Sqlnet Sendetimeout"
 msgid "Stack"
 msgstr "Stapel"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:560
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:567
 msgid "Stacked"
 msgstr "gestapelt"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1117
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1107
 msgid "Stacked Area"
 msgstr "gestapelte Fläche"
 
@@ -59459,7 +59502,7 @@ msgstr "Anfänglicher Überschuss im gemeinsamen Pool"
 #: ../cmk/gui/wato/mkeventd.py:1919 ../cmk/gui/wato/mkeventd.py:1937
 #: ../cmk/gui/wato/pages/ldap.py:346 ../cmk/gui/wato/pages/users.py:413
 #: ../cmk/gui/wato/pages/pattern_editor.py:270
-#: ../cmk/gui/wato/pages/services.py:646
+#: ../cmk/gui/wato/pages/services.py:650
 #: ../cmk/gui/wato/pages/notifications.py:707
 #: ../cmk/gui/wato/pages/notifications.py:709
 #: ../cmk/gui/wato/pages/notifications.py:712
@@ -59895,7 +59938,7 @@ msgstr "Status bei Disk-Lesefehler"
 msgid "State on hard write error"
 msgstr "Status bei hartem Schreibefehler"
 
-#: ../cmk/gui/valuespec.py:6182
+#: ../cmk/gui/valuespec.py:6208
 msgid "State or Province Name"
 msgstr "Staat oder Provinz"
 
@@ -60380,7 +60423,7 @@ msgstr "quittiert"
 msgid "Status active checks"
 msgstr "Aktive Checks ein"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:244
+#: ../cmk/gui/plugins/dashboard/single_metric.py:252
 #, fuzzy
 #| msgid "Status: red"
 msgid "Status border"
@@ -60400,7 +60443,7 @@ msgstr "Statusverbindung"
 msgid "Status data inventory"
 msgstr "Statusdaten-Inventur"
 
-#: ../cmk/gui/wato/pages/services.py:648
+#: ../cmk/gui/wato/pages/services.py:652
 msgid "Status detail"
 msgstr "Statusdetail"
 
@@ -60630,7 +60673,7 @@ msgstr "Erzeugung von Ereignissen anhalten"
 msgid "Stop creating new events, create overflow event"
 msgstr "Erstellen neuer Ereignisse verhindern, ein Überlauf-Ereigniss erzeugen"
 
-#: ../cmk/gui/wato/pages/services.py:1328
+#: ../cmk/gui/wato/pages/services.py:1332
 msgid "Stop job"
 msgstr "Job stoppen"
 
@@ -60829,7 +60872,7 @@ msgstr "Erwartete Zeichenketten in Antwort"
 msgid "Strings to expect in server response"
 msgstr "Erwartete Zeichenketten in Serverantwort"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:924
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:914
 msgid "Style"
 msgstr "Stil"
 
@@ -60857,7 +60900,7 @@ msgstr ""
 "Unterordner sind gesperrt (Sie können hier keine Ordner anlegen oder "
 "entfernen)"
 
-#: ../cmk/gui/valuespec.py:6204 ../cmk/gui/plugins/wato/active_checks.py:2008
+#: ../cmk/gui/valuespec.py:6230 ../cmk/gui/plugins/wato/active_checks.py:2008
 #: ../cmk/gui/wato/mkeventd.py:3458 ../cmk/gui/cee/reporting.py:563
 msgid "Subject"
 msgstr "Subjekt"
@@ -61020,8 +61063,8 @@ msgid "Suggested tutorial videos"
 msgstr "Vorgeschlagene Tutorial Videos"
 
 #: ../cmk/gui/plugins/metrics/timeseries.py:188
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:561
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:858
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:568
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:865
 msgid "Sum"
 msgstr "Summe"
 
@@ -62119,11 +62162,11 @@ msgstr "Vorlage für PDF-Export von Graphsammlungen"
 msgid "Template for PDF exporting of views"
 msgstr "Vorlage für PDF-Export von Ansichten"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1027
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1100
 msgid "Template graphs"
 msgstr "Vorlagen-Graphen"
 
-#: ../cmk/gui/node_visualization.py:333
+#: ../cmk/gui/node_visualization.py:334
 #, python-format
 msgid "Template: %s"
 msgstr "Vorlagen: %s"
@@ -62186,7 +62229,7 @@ msgstr "Test läuft"
 msgid "Text"
 msgstr "Text"
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:227
+#: ../cmk/gui/plugins/dashboard/single_metric.py:235
 #, fuzzy
 #| msgid "Hex color:"
 msgid "Text color"
@@ -63012,7 +63055,7 @@ msgstr ""
 msgid "The URL must begin with <tt>https</tt>."
 msgstr "Die URL muss mit <tt>http://</tt> oder <tt>https://</tt> beginnen."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:530
+#: ../cmk/gui/plugins/dashboard/utils.py:526
 msgid "The URL of the target page the link of the dashlet should link to."
 msgstr "Die URL der Zielseite, auf die der Link des Elements zeigen soll."
 
@@ -63776,7 +63819,7 @@ msgstr ""
 "Die konfigurierte vordefinierte Bedingung wurde entweder entfernt oder Sie "
 "dürfen sie nicht verwenden. Bitte wählen Sie eine andere aus."
 
-#: ../cmk/gui/valuespec.py:6243
+#: ../cmk/gui/valuespec.py:6269
 msgid "The configured site is not known to this site."
 msgstr "Die Konfigurierte Instanz ist dieser Instanz nicht bekannt."
 
@@ -63989,13 +64032,13 @@ msgstr ""
 msgid "The customer ID %s does not exist."
 msgstr "Die Kunden-ID %s existiert nicht."
 
-#: ../cmk/gui/dashboard.py:1327
+#: ../cmk/gui/dashboard.py:1342
 msgid "The dashlet can not be found on the dashboard."
 msgstr "Das Element konnte auf der Übersicht nicht gefunden werden."
 
-#: ../cmk/gui/dashboard.py:1262 ../cmk/gui/dashboard.py:1689
-#: ../cmk/gui/dashboard.py:1827 ../cmk/gui/dashboard.py:1859
-#: ../cmk/gui/dashboard.py:1896
+#: ../cmk/gui/dashboard.py:1277 ../cmk/gui/dashboard.py:1704
+#: ../cmk/gui/dashboard.py:1842 ../cmk/gui/dashboard.py:1874
+#: ../cmk/gui/dashboard.py:1911
 msgid "The dashlet does not exist."
 msgstr "Das Dashlet existiert nicht."
 
@@ -64260,7 +64303,7 @@ msgstr "Erwartete Anzahl von Knoten im Cluster"
 msgid "The expected number of resources in the cluster"
 msgstr "Die erwartete Anzahl von Ressourcen im Cluster"
 
-#: ../cmk/gui/plugins/metrics/graph_templates.py:130
+#: ../cmk/gui/plugins/metrics/graph_templates.py:140
 #, python-format
 msgid ""
 "The expression \"%s\" uses a different consolidation function as the graph "
@@ -64447,7 +64490,7 @@ msgstr "Die Funktion %s ist nicht als snapshot-Funktion verfügbar."
 msgid "The given base object \"%s\" does not exist in LDAP (%s))"
 msgstr "Objekt <tt>%s</tt> ist im LDAP nicht vorhanden (%s)"
 
-#: ../cmk/gui/dashboard.py:1556
+#: ../cmk/gui/dashboard.py:1571
 msgid "The given datasource is not supported"
 msgstr "Die angegebene Datenquelle wird nicht unterstützt."
 
@@ -64755,7 +64798,7 @@ msgstr "Die ID für des Sensors."
 msgid "The identifier of the thermal sensor."
 msgstr "Indikator für den Wärme-Fühler."
 
-#: ../cmk/gui/visuals.py:882 ../cmk/gui/dashboard.py:1676
+#: ../cmk/gui/visuals.py:882 ../cmk/gui/dashboard.py:1691
 #, python-format
 msgid "The info %s does not exist."
 msgstr "Die Informationsquelle %s existiert nicht."
@@ -65325,8 +65368,8 @@ msgstr ""
 msgid "The name of the cluster resource as shown in the service description."
 msgstr "Der Name des Clusters so wie er im Servicenamen angezeigt werden soll."
 
-#: ../cmk/gui/dashboard.py:1309 ../cmk/gui/dashboard.py:1815
-#: ../cmk/gui/dashboard.py:1847
+#: ../cmk/gui/dashboard.py:1324 ../cmk/gui/dashboard.py:1830
+#: ../cmk/gui/dashboard.py:1862
 msgid "The name of the dashboard is missing."
 msgstr "Der Name der Übersicht fehlt."
 
@@ -65972,7 +66015,7 @@ msgstr "Das abzufragende ESX-System (vCenter / Host)"
 msgid "The queried Graylog host"
 msgstr "Der angefragte Graph existiert nicht"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:1015
+#: ../cmk/gui/plugins/dashboard/utils.py:1011
 #: ../cmk/gui/plugins/dashboard/event_bar_chart_dashlet.py:103
 #: ../cmk/gui/plugins/dashboard/event_bar_chart_dashlet.py:133
 msgid "The query returned no data."
@@ -66055,15 +66098,15 @@ msgstr "Die zu kopierende %s existiert nicht."
 msgid "The requested connection does not exist."
 msgstr "Diese Verbindung existiert nicht"
 
-#: ../cmk/gui/dashboard.py:449 ../cmk/gui/dashboard.py:1257
-#: ../cmk/gui/dashboard.py:1316 ../cmk/gui/dashboard.py:1643
-#: ../cmk/gui/dashboard.py:1822 ../cmk/gui/dashboard.py:1854
-#: ../cmk/gui/dashboard.py:1891
+#: ../cmk/gui/dashboard.py:449 ../cmk/gui/dashboard.py:1272
+#: ../cmk/gui/dashboard.py:1331 ../cmk/gui/dashboard.py:1658
+#: ../cmk/gui/dashboard.py:1837 ../cmk/gui/dashboard.py:1869
+#: ../cmk/gui/dashboard.py:1906
 msgid "The requested dashboard does not exist."
 msgstr "Die angefragte Übersicht existiert nicht."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:599 ../cmk/gui/dashboard.py:1330
-#: ../cmk/gui/dashboard.py:1654
+#: ../cmk/gui/plugins/dashboard/utils.py:595 ../cmk/gui/dashboard.py:1345
+#: ../cmk/gui/dashboard.py:1669
 msgid "The requested dashlet type does not exist."
 msgstr "Die angeforderte Art von Element existiert nicht."
 
@@ -66072,7 +66115,7 @@ msgid "The requested global setting does not exist."
 msgstr "Die angeforderte globale Einstellung ist nicht vorhanden."
 
 #: ../cmk/gui/plugins/metrics/graph_images.py:233
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:299
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:306
 msgid "The requested graph does not exist"
 msgstr "Der angefragte Graph existiert nicht"
 
@@ -67294,7 +67337,7 @@ msgstr "Es gibt keine WATO-Sicherung, die wiederhergestellt werden könnte."
 msgid "There is no backup job configured"
 msgstr "Es ist kein Sicherungs-Job konfiguriert"
 
-#: ../cmk/gui/plugins/metrics/utils.py:662
+#: ../cmk/gui/plugins/metrics/utils.py:666
 #, fuzzy, python-format
 #| msgid "There is no graph template with the id '%d'"
 msgid "There is no graph template with the id '%s'"
@@ -67458,7 +67501,7 @@ msgstr ""
 "Hosts, die am Load Balancer registriert sind, was die Summe der gesunden und "
 "ungesunden Instanzen ist."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:476
+#: ../cmk/gui/plugins/dashboard/utils.py:472
 msgid ""
 "These macros can be combined with arbitrary text elements, e.g. \"some text "
 "<tt>$MACRO1$</tt> -- <tt>$MACRO2$</tt>\"."
@@ -67474,7 +67517,7 @@ msgstr ""
 "Diese Makros können in Reports verwenden werden, indem sie mit Dollarzeichen "
 "umschließt. z.B. $CUSTOMER_MACRO$"
 
-#: ../cmk/gui/wato/pages/services.py:961
+#: ../cmk/gui/wato/pages/services.py:965
 msgid ""
 "These services are being discovered but have been disabled by creating a "
 "rule in the rule set <i>Disabled services</i> or <i>Disabled checks</i>."
@@ -67483,7 +67526,7 @@ msgstr ""
 "Regelsatz <i>Deaktivierte Services</i> oder <i>Deaktivierte Checks</i> "
 "deaktiviert worden."
 
-#: ../cmk/gui/wato/pages/services.py:996
+#: ../cmk/gui/wato/pages/services.py:1000
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call a classical check plugin, that you have installed yourself."
@@ -67492,7 +67535,7 @@ msgstr ""
 "Check_MK sondern rufen klassische aktive Check-Plugins auf, welche Sie "
 "selbst installiert haben."
 
-#: ../cmk/gui/wato/pages/services.py:1041
+#: ../cmk/gui/wato/pages/services.py:1045
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call a classical check plugin, that you have installed yourself. "
@@ -67506,7 +67549,7 @@ msgstr ""
 "<i>Deaktivierte Services</i> oder <i>Deaktivierte Checks</i> deaktiviert "
 "worden."
 
-#: ../cmk/gui/wato/pages/services.py:969
+#: ../cmk/gui/wato/pages/services.py:973
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call classical check plugins. They have been added by a rule in the "
@@ -67517,7 +67560,7 @@ msgstr ""
 "einer Regel in der Sektion <i>Aktive Checks</i> hinzugefügt oder implizit "
 "von Check_MK erzeugt."
 
-#: ../cmk/gui/wato/pages/services.py:1030
+#: ../cmk/gui/wato/pages/services.py:1034
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call classical check plugins. They have been added by a rule in the "
@@ -67531,7 +67574,7 @@ msgstr ""
 "von Check_MK erzeugt. Diese Services sind mit Hilfe der Regeln  "
 "<i>Deaktivierte Services</i> oder <i>Deaktivierte Checks</i> deaktiviert."
 
-#: ../cmk/gui/wato/pages/services.py:932
+#: ../cmk/gui/wato/pages/services.py:936
 msgid ""
 "These services had been added to the monitoring by a previous discovery but "
 "the actual items that are monitored are not present anymore. This might be "
@@ -67547,7 +67590,7 @@ msgstr ""
 "mehr relevant ist, sollten Sie den Service entfernen, um einen UNKNOWN-"
 "Status zu vermeiden."
 
-#: ../cmk/gui/wato/pages/services.py:953
+#: ../cmk/gui/wato/pages/services.py:957
 msgid ""
 "These services had been found by a discovery and are currently configured to "
 "be monitored."
@@ -67555,7 +67598,7 @@ msgstr ""
 "Diese Services wurden automatisch erkannt und sind aktuell für die "
 "Überwachung konfiguriert."
 
-#: ../cmk/gui/wato/pages/services.py:988
+#: ../cmk/gui/wato/pages/services.py:992
 msgid ""
 "These services have been configured by the deprecated variable "
 "<tt>legacy_checks</tt> in <tt>main.mk</tt> or a similar configuration file."
@@ -67563,7 +67606,7 @@ msgstr ""
 "Diese Services wurden mithilfe der veralteten Variable <tt>legacy_checks</"
 "tt> in <tt>main.mk</tt> oder einer ähnlichen Datei angelegt."
 
-#: ../cmk/gui/wato/pages/services.py:1053
+#: ../cmk/gui/wato/pages/services.py:1057
 msgid ""
 "These services have been configured by the deprecated variable "
 "<tt>legacy_checks</tt> in <tt>main.mk</tt> or a similar configuration file. "
@@ -67575,7 +67618,7 @@ msgstr ""
 "durch eine Regel im Regelsatz <i>Deaktivierte Services</i> oder "
 "<i>Deaktivierte Checks</i> deaktiviert worden."
 
-#: ../cmk/gui/wato/pages/services.py:922
+#: ../cmk/gui/wato/pages/services.py:926
 msgid ""
 "These services have been found by the service discovery but are not yet "
 "added to the monitoring. You should either decide to monitor them or to "
@@ -67587,7 +67630,7 @@ msgstr ""
 "sie dauerhaft deaktivieren. Wenn Sie sicher sind, dass sie nur vorübergehend "
 "sind, lassen Sie sie einfach, bis sie von selbst wieder verschwinden."
 
-#: ../cmk/gui/wato/pages/services.py:1021
+#: ../cmk/gui/wato/pages/services.py:1025
 msgid ""
 "These services have been found on this host and have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i> but disabled via "
@@ -67597,7 +67640,7 @@ msgstr ""
 "<i>Clustered services</i> auf einen Clusterhost abgebildet, aber über "
 "<i>Deaktivierte Services</i> oder <i>Deaktivierte Checks</i> deaktiviert."
 
-#: ../cmk/gui/wato/pages/services.py:944
+#: ../cmk/gui/wato/pages/services.py:948
 msgid ""
 "These services have been found on this host and have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i> but disappeared "
@@ -67607,7 +67650,7 @@ msgstr ""
 "<i>Geclusterte Services</i> auf einen Cluster-Host abgebildet, sind aber von "
 "diesem Host verschwunden."
 
-#: ../cmk/gui/wato/pages/services.py:1011
+#: ../cmk/gui/wato/pages/services.py:1015
 msgid ""
 "These services have been found on this host and have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i>, but are not yet "
@@ -67619,7 +67662,7 @@ msgstr ""
 "Teil des Monitorings. Bitte fügen Sie diese hinzu oder deaktivieren Sie sie "
 "permanent."
 
-#: ../cmk/gui/wato/pages/services.py:1003
+#: ../cmk/gui/wato/pages/services.py:1007
 msgid ""
 "These services have been found on this host but have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i>."
@@ -67627,7 +67670,7 @@ msgstr ""
 "Diese Services wurden auf diesem Host gefunden aber mithilfe des Regelsatzes "
 "<i>Geclusterte Services</i> einem Cluster zugeordnet."
 
-#: ../cmk/gui/wato/pages/services.py:978
+#: ../cmk/gui/wato/pages/services.py:982
 msgid ""
 "These services have not been found by the discovery but have been added "
 "manually by a rule in the WATO module <i>Manual checks</i>."
@@ -67688,7 +67731,7 @@ msgstr ""
 "href=\"wato.py?mode=edit_ruleset&varname=cmc_service_flap_settings\">Service-"
 "Regel</a> konfiguriert werden."
 
-#: ../cmk/gui/htmllib.py:1427
+#: ../cmk/gui/htmllib.py:1423
 #, python-format
 msgid ""
 "These texts may be localized depending on the users' language. You can "
@@ -68239,13 +68282,13 @@ msgstr ""
 "Dieser Check verwendet das Standard Nagios Plugin <tt>check_smtp</tt> um "
 "Anwort von einem SMTP Server zu bekommen."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:426
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:433
 #, fuzzy
 #| msgid "This connection"
 msgid "This collection"
 msgstr "Diese Verbindung"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:456
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:463
 #, fuzzy
 #| msgid "This connection"
 msgid "This collection as PDF"
@@ -68504,7 +68547,7 @@ msgstr ""
 "Schritten aggregiert. Bei einem Check-Intervall von 1 Minute basieren diese "
 "%s-Werte auf den %s-Werten von %d Einzelwerten."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:495
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:502
 #, python-format
 msgid ""
 "This graph recipe can not be rendered. Maybe it is a deprecated definition. "
@@ -68842,7 +68885,7 @@ msgstr ""
 "s.w.  Man beachte, dass Erholungs--Alarme von der Drosselung nicht betroffen "
 "sind."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1098
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1171
 msgid ""
 "This may be useful for graphs that show some data above the time axis and "
 "some data below it. In case you enable this option the former upper data is "
@@ -69189,7 +69232,7 @@ msgstr ""
 "Diese Option ist nur zum Testen. Sie wird in Zukunft entfernt. Bitte "
 "verwenden Sie sie nicht."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:516
+#: ../cmk/gui/plugins/dashboard/utils.py:512
 msgid ""
 "This option is macro-capable, please check the inline help for more "
 "information."
@@ -72212,7 +72255,7 @@ msgstr ""
 "Zeitbereich, in dem Hosts erhalten bleiben sollen, während die Piggyback-"
 "Quelle nur Piggyback-Daten für andere Hosts sendet."
 
-#: ../cmk/gui/plugins/dashboard/single_metric.py:153
+#: ../cmk/gui/plugins/dashboard/single_metric.py:161
 #, fuzzy
 #| msgid "Time to connect"
 msgid "Time range to consider"
@@ -72488,7 +72531,7 @@ msgid "Timer"
 msgstr "Timer"
 
 #: ../cmk/gui/plugins/dashboard/graph.py:316
-#: ../cmk/gui/plugins/dashboard/single_metric.py:172
+#: ../cmk/gui/plugins/dashboard/single_metric.py:180
 #: ../cmk/gui/plugins/wato/active_checks.py:2462
 msgid "Timerange"
 msgstr "Zeitbereich"
@@ -72502,6 +72545,12 @@ msgstr "Automatischer Benutzerabgleich"
 #: ../cmk/gui/cee/reporting.py:796
 msgid "Times"
 msgstr "Times"
+
+#: ../cmk/gui/cee/plugins/dashboard/single_timeseries.py:31
+#, fuzzy
+#| msgid "Timeperiods"
+msgid "Timeseries"
+msgstr "Zeitperioden"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jira_custom_svc.py:67
 msgid "Timespan for difference calculation of summed up values"
@@ -72520,7 +72569,7 @@ msgstr "Zeitspanne für Differenzberechnung der Gesamtanzahl der Meldungen"
 msgid "Timespan or Duration in seconds"
 msgstr "Zeitspanne oder Dauer in Sekunden"
 
-#: ../cmk/gui/wato/pages/services.py:706
+#: ../cmk/gui/wato/pages/services.py:710
 #: ../cmk/gui/wato/pages/object_parameters.py:413
 #, python-format
 msgid "Timespecific parameters computed at %s"
@@ -72580,7 +72629,7 @@ msgstr "Tinkerforge"
 #: ../cmk/gui/wato/pages/custom_attributes.py:503
 #: ../cmk/gui/cee/plugins/wato/dcd.py:344
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:573
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:916
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:906
 #: ../cmk/gui/cee/reporting.py:1486 ../cmk/gui/cee/reporting.py:2497
 #: ../cmk/gui/cee/sla.py:366 ../cmk/gui/pagetypes.py:158
 #: ../cmk/gui/pagetypes.py:1113
@@ -72732,7 +72781,7 @@ msgstr "Service-Ausgabe umschalten"
 msgid "Toggle the sidebar"
 msgstr "Snapin klappen"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:935
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:925
 msgid "Toggle the visibility of this metric"
 msgstr "Sichtbarkeit dieser Metrik umschalten"
 
@@ -73482,7 +73531,7 @@ msgstr "Übertragungsgröße"
 msgid "Transform status output"
 msgstr "Status-Ausgabe umschreiben"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:880
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:870
 msgid "Transformation on selected metric"
 msgstr "Transformation auf ausgewählte Metriken"
 
@@ -73679,8 +73728,8 @@ msgstr "Einstellungen für Smart PING"
 msgid "Tuning of flap detection"
 msgstr "Unstetigkeitserkennung"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1108
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1119
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1181
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1192
 msgid "Tunings"
 msgstr "Tunings"
 
@@ -74438,7 +74487,7 @@ msgstr ""
 "gemeinsame Basis DN für die Benutzerbasis DN \"%s\" und die Gruppenbasis DN "
 "\"%s\" gefunden)."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:918
+#: ../cmk/gui/plugins/dashboard/utils.py:914
 #, python-format
 msgid ""
 "Unable to transform dashlet %d of dashboard %s. You will need to migrate it "
@@ -74447,7 +74496,7 @@ msgstr ""
 "Das Element Nummer %d der Übersicht %s kann nicht umgewandelt werden. Sie "
 "müssen es von Hand migrieren. Hier ist die Definition: %r"
 
-#: ../cmk/gui/plugins/dashboard/utils.py:895
+#: ../cmk/gui/plugins/dashboard/utils.py:891
 #, python-format
 msgid ""
 "Unable to transform dashlet %d of dashboard %s: the dashlet is using "
@@ -74518,11 +74567,11 @@ msgstr "Unkomprimierte Größe im Speicher"
 msgid "Uncorrectable codewords"
 msgstr "Nicht korrigierbare Schlüsselwörter"
 
-#: ../cmk/gui/wato/pages/services.py:1009
+#: ../cmk/gui/wato/pages/services.py:1013
 msgid "Undecided clustered services"
 msgstr "Unentschiedene geclusterte Services"
 
-#: ../cmk/gui/wato/pages/services.py:920
+#: ../cmk/gui/wato/pages/services.py:924
 msgid "Undecided services (currently not monitored)"
 msgstr "Unentschiedene Services (aktuell nicht überwacht)"
 
@@ -74541,7 +74590,7 @@ msgstr "Nicht definierter Schlüssel '%s'. Erlaubt: %s."
 msgid "Undefined operator '%s' in graph expression"
 msgstr "Nicht definierter Operator '%s' in Graph-Ausdruck"
 
-#: ../cmk/gui/wato/pages/services.py:1236
+#: ../cmk/gui/wato/pages/services.py:1240
 #, fuzzy
 #| msgid "Resetting configuration variable"
 msgid "Understanding and configuring services"
@@ -74647,7 +74696,7 @@ msgstr "Unix-Zeitstempel (Epoche)"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3551
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3563
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3575
-#: ../cmk/gui/node_visualization.py:348
+#: ../cmk/gui/node_visualization.py:349
 #: ../cmk/gui/cee/plugins/reporting/availability.py:407
 msgid "Unknown"
 msgstr "Unbekannt"
@@ -74693,7 +74742,7 @@ msgstr "Unbekannte Gruppe: %s"
 msgid "Unknown match type: %s"
 msgstr "Unbekannte Auswertungsart: %s"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:953
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:943
 #, python-format
 msgid "Unknown metric type <tt>%s</tt>"
 msgstr "Unbekannter Metrik-Typ <tt>%s</tt>"
@@ -74708,7 +74757,7 @@ msgstr "Unbekannte Pfade"
 msgid "Unknown site %s"
 msgstr "Unbekannte Instanz %s"
 
-#: ../cmk/gui/valuespec.py:6248
+#: ../cmk/gui/valuespec.py:6274
 #, python-format
 msgid "Unknown site (%s)"
 msgstr "Unbekannte Instanz (%s)"
@@ -74893,7 +74942,7 @@ msgstr "Updatestatus"
 msgid "Update delay for PNP meta information"
 msgstr "Verzögerte Aktualisierung von PNP-Metadaten"
 
-#: ../cmk/gui/wato/pages/services.py:1401
+#: ../cmk/gui/wato/pages/services.py:1405
 msgid "Update host labels"
 msgstr "Host-Labels aktualisieren"
 
@@ -74926,7 +74975,7 @@ msgstr "Updatestatus"
 msgid "Update status of this host"
 msgstr "Updatestatus für diesen Host"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1000
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:990
 #, fuzzy
 #| msgid "Update Status"
 msgid "Update transform"
@@ -74936,7 +74985,7 @@ msgstr "Updatestatus"
 msgid "Updated attributes: "
 msgstr "Modizifierte Attribute:"
 
-#: ../cmk/gui/wato/pages/services.py:428
+#: ../cmk/gui/wato/pages/services.py:432
 #, python-format
 msgid "Updated discovered host labels of '%s' with %d labels"
 msgstr "Aktualisierte entdeckte Host-Labels von '%s' mit %d Labels."
@@ -75080,7 +75129,7 @@ msgstr "Sicherungsschlüssel '%s' hochgeladen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:358
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:471
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1084
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1157
 msgid "Upper"
 msgstr "Obere"
 
@@ -76001,16 +76050,8 @@ msgstr "Zugangsdaten angeben"
 msgid "Use custom connection parameters"
 msgstr "Individuelle Verbindungseinstellungen nutzen"
 
-#: ../cmk/gui/valuespec.py:6095
-msgid "Use default color"
-msgstr "Standardfarbe verwenden"
-
-#: ../cmk/gui/valuespec.py:6096
-msgid "Use default color of the theme or medium"
-msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
-
 #: ../cmk/gui/plugins/wato/bi_config.py:1527
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1095
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1168
 msgid "Use default layout"
 msgstr "Standardlayout verwenden"
 
@@ -76018,7 +76059,7 @@ msgstr "Standardlayout verwenden"
 msgid "Use default port"
 msgstr "Standardport benutzen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1068
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1141
 msgid "Use default scaling mode"
 msgstr "Standardskalierungsmodus nutzen"
 
@@ -76297,6 +76338,24 @@ msgstr "Den Alias als DNS-Name / IP-Adresse verwenden"
 msgid "Use the credentials of the 'automation' user"
 msgstr "Die Anmeldeinformationen des Benutzers \"automation\" verwenden."
 
+#: ../cmk/gui/valuespec.py:6122
+#, fuzzy
+#| msgid "Use default color of the theme or medium"
+msgid "Use the default color of the metric."
+msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
+
+#: ../cmk/gui/valuespec.py:6099
+#, fuzzy
+#| msgid "Use default color of the theme or medium"
+msgid "Use the default color of the theme or the metric."
+msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
+
+#: ../cmk/gui/valuespec.py:6117
+#, fuzzy
+#| msgid "Use default color of the theme or medium"
+msgid "Use the default color of the theme."
+msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
+
 #: ../cmk/gui/wato/pages/users.py:1179
 #, fuzzy, python-format
 #| msgid "Use the default theme"
@@ -76321,7 +76380,7 @@ msgstr "Standard Aussehen benutzen"
 msgid "Use the following ID"
 msgstr "Die folgende ID verwenden"
 
-#: ../cmk/gui/valuespec.py:6098
+#: ../cmk/gui/valuespec.py:6101 ../cmk/gui/valuespec.py:6124
 msgid "Use the following color"
 msgstr "Die folgende Farbe verwenden"
 
@@ -76446,7 +76505,7 @@ msgstr ""
 "Diesen Hostnamen für alle erzeugten Ereignisse verwenden, anstelle des "
 "Namens des Mailservers"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1266
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1256
 msgid "Use this metric for a forecast graph..."
 msgstr "Verwenden Sie diese Metrik für ein Prognosegrafik....."
 
@@ -77507,15 +77566,15 @@ msgstr "Von diesem Gerät zu sammelnde Werte"
 msgid "Vanished"
 msgstr "Verschwunden"
 
-#: ../cmk/gui/wato/pages/services.py:942
+#: ../cmk/gui/wato/pages/services.py:946
 msgid "Vanished clustered services (located on cluster host)"
 msgstr "Verschwundene geclusterte Dienste (auf dem Cluster-Host)"
 
-#: ../cmk/gui/wato/pages/services.py:930
+#: ../cmk/gui/wato/pages/services.py:934
 msgid "Vanished services (monitored, but no longer exist)"
 msgstr "Verschwundene Services (überwacht aber nicht mehr vorhanden)"
 
-#: ../cmk/gui/wato/pages/services.py:720
+#: ../cmk/gui/wato/pages/services.py:724
 msgid "Variable"
 msgstr "Variable"
 
@@ -77625,7 +77684,7 @@ msgstr "Händler- und Geräte-ID"
 msgid "Venue ID"
 msgstr "Venue-ID"
 
-#: ../cmk/gui/valuespec.py:6279
+#: ../cmk/gui/valuespec.py:6305
 msgid "Verbose"
 msgstr "Verboses Logging"
 
@@ -77732,12 +77791,12 @@ msgstr ""
 "Versionen haben, wird dringend empfohlen, diese Einstellung für alle "
 "Websites zu deaktivieren."
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1093
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1166
 #, fuzzy
 msgid "Vertical axis mirroring"
 msgstr "Skalierung der vertikalen Achse"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1066
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1139
 msgid "Vertical axis scaling"
 msgstr "Skalierung der vertikalen Achse"
 
@@ -77801,7 +77860,7 @@ msgstr "Sehe Aktionsstandards ein"
 msgid "View and edit the details of this package"
 msgstr "Details für dieses Paket anzeigen und bearbeiten"
 
-#: ../cmk/gui/wato/pages/services.py:872
+#: ../cmk/gui/wato/pages/services.py:876
 msgid "View and edit the parameters for this service"
 msgstr "Parameter für diesen Service ansehen und bearbeiten"
 
@@ -77821,7 +77880,7 @@ msgstr "Änderungen speichern"
 msgid "View layout"
 msgstr "Grundlayout"
 
-#: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1579
+#: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1594
 #, fuzzy
 msgid "View name"
 msgstr "Name der Ansicht"
@@ -77945,7 +78004,7 @@ msgstr "Sichtbarkeit"
 msgid "Visibility of Hosts/Services"
 msgstr "Sichtbarkeit von Hosts/Services"
 
-#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:930
+#: ../cmk/gui/cee/plugins/metrics/customgraphs.py:920
 msgid "Visible"
 msgstr "Sichtbar"
 
@@ -78394,7 +78453,7 @@ msgstr ""
 "warn/crit Schwellwerte für diverse Skype for Business (vormals Lync) "
 "Messwerte"
 
-#: ../cmk/gui/valuespec.py:6277 ../cmk/gui/plugins/dashboard/stats.py:239
+#: ../cmk/gui/valuespec.py:6303 ../cmk/gui/plugins/dashboard/stats.py:239
 #: ../cmk/gui/plugins/dashboard/alert_statistics.py:152
 #: ../cmk/gui/plugins/views/commands.py:447
 #: ../cmk/gui/plugins/visuals/filters.py:1750
@@ -78404,7 +78463,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3549
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3561
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3573
-#: ../cmk/gui/plugins/metrics/graph_templates.py:216
+#: ../cmk/gui/plugins/metrics/utils.py:819
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:53
 #: ../cmk/gui/cee/plugins/reporting/availability.py:387
 #: ../cmk/gui/cee/plugins/reporting/availability.py:405
@@ -81795,9 +81854,9 @@ msgstr "Sie dürfen diese %s nicht löschen."
 msgid "You are not allowed to edit %s."
 msgstr "Sie dürfen %s nicht bearbeiten."
 
-#: ../cmk/gui/dashboard.py:502 ../cmk/gui/dashboard.py:1635
-#: ../cmk/gui/dashboard.py:1811 ../cmk/gui/dashboard.py:1843
-#: ../cmk/gui/dashboard.py:1883
+#: ../cmk/gui/dashboard.py:502 ../cmk/gui/dashboard.py:1650
+#: ../cmk/gui/dashboard.py:1826 ../cmk/gui/dashboard.py:1858
+#: ../cmk/gui/dashboard.py:1898
 msgid "You are not allowed to edit dashboards."
 msgstr "Sie dürfen Übersichten nicht bearbeiten."
 
@@ -81900,12 +81959,12 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/host_rename.py:382
 #: ../cmk/gui/wato/pages/services.py:102 ../cmk/gui/wato/pages/services.py:210
-#: ../cmk/gui/wato/pages/services.py:1071 ../cmk/gui/wato/pages/hosts.py:290
+#: ../cmk/gui/wato/pages/services.py:1075 ../cmk/gui/wato/pages/hosts.py:290
 #: ../cmk/gui/wato/pages/hosts.py:506
 msgid "You called this page with an invalid host name."
 msgstr "Diese Seite wurde mit einem ungültigen Hostnamen aufgerufen."
 
-#: ../cmk/gui/wato/pages/services.py:1066
+#: ../cmk/gui/wato/pages/services.py:1070
 msgid "You called this page with an invalid site."
 msgstr "Du hast diese Seite mit einer ungültigen Instanz aufgerufen."
 
@@ -82727,7 +82786,7 @@ msgstr ""
 "Titel des Zeitplans</li><li><tt><tt>$PERIODNAME$</tt>: Der Name des "
 "Planungszeitraums</li></ul></ul>."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:474
+#: ../cmk/gui/plugins/dashboard/utils.py:470
 #, python-format
 msgid ""
 "You can use the following macros to fill in the corresponding information:%s"
@@ -83401,7 +83460,7 @@ msgstr ""
 "konfigurieren, ob der Agentenupdater in die Agenten mit reingebacken werden "
 "soll. Außerdem müssen Sie die Zugangsdaten des Updateservers angeben."
 
-#: ../cmk/gui/valuespec.py:6227
+#: ../cmk/gui/valuespec.py:6253
 msgid ""
 "You need to enter at least one CA. Otherwise no SSL connection can be made."
 msgstr ""
@@ -84511,7 +84570,7 @@ msgstr "Alle wichtigen Updates vollständig auflisten"
 msgid "do not activate this %s"
 msgstr "diese %s nicht aktivieren"
 
-#: ../cmk/gui/valuespec.py:6302 ../cmk/gui/plugins/wato/bi_config.py:1227
+#: ../cmk/gui/valuespec.py:6328 ../cmk/gui/plugins/wato/bi_config.py:1227
 msgid "do not apply this rule"
 msgstr "wende diese Regel nicht an"
 
@@ -84776,7 +84835,7 @@ msgstr "Ordner"
 msgid "for"
 msgstr "für"
 
-#: ../cmk/gui/node_visualization.py:342
+#: ../cmk/gui/node_visualization.py:343
 msgid "force"
 msgstr "Kräftebasiert"
 
@@ -84819,7 +84878,7 @@ msgstr "von"
 msgid "from the beginning"
 msgstr "vom Anfang"
 
-#: ../cmk/gui/valuespec.py:6149 ../cmk/gui/cee/plugins/wato/cmc.py:1046
+#: ../cmk/gui/valuespec.py:6175 ../cmk/gui/cee/plugins/wato/cmc.py:1046
 msgid "from the end"
 msgstr "vom Ende"
 
@@ -84831,7 +84890,7 @@ msgstr "vom Ende"
 msgid "from:"
 msgstr "von:"
 
-#: ../cmk/gui/node_visualization.py:341
+#: ../cmk/gui/node_visualization.py:342
 msgid "global"
 msgstr "Global"
 
@@ -84899,7 +84958,7 @@ msgstr "verberge Antwort"
 msgid "hide variable names"
 msgstr "blende Variablen-Namen aus"
 
-#: ../cmk/gui/node_visualization.py:344
+#: ../cmk/gui/node_visualization.py:345
 msgid "hierarchy"
 msgstr "Hierarchie"
 
@@ -85007,7 +85066,7 @@ msgstr "iSCSI"
 msgid "iSCSI HBAs"
 msgstr "iSCSI HBAs"
 
-#: ../cmk/gui/htmllib.py:2532
+#: ../cmk/gui/htmllib.py:2528
 #, fuzzy
 #| msgid "Metric not found"
 msgid "icon not found"
@@ -85357,7 +85416,7 @@ msgstr[1] "Nachrichten"
 msgid "messages"
 msgstr "Nachrichten"
 
-#: ../cmk/gui/plugins/metrics/utils.py:1045
+#: ../cmk/gui/plugins/metrics/utils.py:1108
 #, fuzzy
 #| msgid "Metric"
 msgid "metric"
@@ -85527,7 +85586,7 @@ msgid "myhost089"
 msgstr "meinserver089"
 
 #: ../cmk/gui/plugins/metrics/artwork.py:362
-#: ../cmk/gui/plugins/metrics/utils.py:645 ../cmk/gui/availability.py:559
+#: ../cmk/gui/plugins/metrics/utils.py:649 ../cmk/gui/availability.py:559
 msgid "n/a"
 msgstr "n.v."
 
@@ -85707,7 +85766,7 @@ msgstr "Direkt verbinden (nicht in CRE verfügbar)"
 msgid "ntopng username to aquire data for"
 msgstr "ntopng Benutzername für den Daten geholt werden sollen"
 
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:769
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:776
 msgid "objects"
 msgstr "Objekte"
 
@@ -85732,7 +85791,7 @@ msgstr "von nicht spezifiziertem Service"
 #: ../cmk/gui/plugins/views/utils.py:344
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
 #: ../cmk/gui/wato/mkeventd.py:2468 ../cmk/gui/wato/pages/sites.py:1015
-#: ../cmk/gui/htmllib.py:2148
+#: ../cmk/gui/htmllib.py:2144
 msgid "off"
 msgstr "aus"
 
@@ -85749,7 +85808,7 @@ msgstr "Offline-Hosts"
 #: ../cmk/gui/valuespec.py:2442
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
 #: ../cmk/gui/wato/mkeventd.py:2468 ../cmk/gui/wato/pages/sites.py:1015
-#: ../cmk/gui/htmllib.py:2148
+#: ../cmk/gui/htmllib.py:2144
 msgid "on"
 msgstr "an"
 
@@ -86111,7 +86170,7 @@ msgstr "Prozessen"
 msgid "pt"
 msgstr "Pt"
 
-#: ../cmk/gui/node_visualization.py:343
+#: ../cmk/gui/node_visualization.py:344
 msgid "radial"
 msgstr "radial"
 
@@ -86462,13 +86521,13 @@ msgstr "Alle anzeigen"
 msgid "show errors"
 msgstr "Zeige Fehler"
 
-#: ../cmk/gui/htmllib.py:2669
+#: ../cmk/gui/htmllib.py:2665
 #, fuzzy
 #| msgid "show all"
 msgid "show less"
 msgstr "Alle anzeigen"
 
-#: ../cmk/gui/htmllib.py:2665
+#: ../cmk/gui/htmllib.py:2661
 #, fuzzy
 #| msgid "show errors"
 msgid "show more"
@@ -87064,11 +87123,6 @@ msgstr "© 2020 tribe29 GmbH. Alle Rechte vorbehalten."
 
 #~ msgid "Change Selection"
 #~ msgstr "Auswahl ändern"
-
-#, fuzzy
-#~| msgid "Metric History"
-#~ msgid "Metric color"
-#~ msgstr "Metrik-Historie"
 
 #~ msgid "Test with this host name"
 #~ msgstr "Test mit diesem Hostnamen"
@@ -90931,9 +90985,6 @@ msgstr "© 2020 tribe29 GmbH. Alle Rechte vorbehalten."
 
 #~ msgid "Time when downtime was created"
 #~ msgstr "Zeit, wann die Wartungszeit erstellt wurde"
-
-#~ msgid "Timeperiods"
-#~ msgstr "Zeitperioden"
 
 #~ msgid "URL to this frame"
 #~ msgstr "URL auf diesen Frame"
