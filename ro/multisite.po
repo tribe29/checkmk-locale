@@ -242,7 +242,7 @@ msgstr " către:"
 msgid "\"%s\" is not a valid python encoding."
 msgstr "%s nu este un număr întreg valid."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:302
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:304
 #, python-format
 msgid ""
 "\"%s\" is not allowed inside the regular expression group %s. Bounding "
@@ -645,7 +645,7 @@ msgstr ""
 msgid "%s Locks"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:465
+#: ../cmk/gui/cee/ntop/pages.py:528
 #, python-format
 msgid "%s Pkts / %s%s"
 msgstr ""
@@ -969,6 +969,10 @@ msgstr ""
 msgid "(SLA alert levels at %d/%d incidents left)"
 msgstr ""
 
+#: ../cmk/gui/cee/ntop/pages.py:977
+msgid "(TLS, HTTP and DNS names)"
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/utils/base_modes.py:154
 msgid "(This module is not yet implemented)"
 msgstr ""
@@ -1152,7 +1156,7 @@ msgstr ", date nu au fost primite în ultimele %.1f intervale de verificate"
 msgid ", the first match skips this rule pack"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:537
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:563
 msgid "-"
 msgstr ""
 
@@ -1245,12 +1249,12 @@ msgstr "randuri"
 msgid "1.0 - 2.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:548
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:574
 #, fuzzy
 msgid "1.000.000 Services"
 msgstr "servicii"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:549
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:575
 #, fuzzy
 msgid "1.500.000 Services"
 msgstr "servicii"
@@ -1291,7 +1295,7 @@ msgstr ""
 msgid "100.0 - 200.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:544
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:570
 #, fuzzy
 msgid "100.000 Services"
 msgstr "servicii"
@@ -1310,7 +1314,7 @@ msgstr ""
 msgid "12 Volt Output Upper Levels"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:540
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:566
 #, fuzzy
 msgid "12.000 Services"
 msgstr "servicii"
@@ -1319,7 +1323,7 @@ msgstr "servicii"
 msgid "15 minutes"
 msgstr "15 minute"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:541
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:567
 #, fuzzy
 msgid "18.000 Services"
 msgstr "servicii"
@@ -1334,12 +1338,12 @@ msgstr "%d zile în urmă"
 msgid "2.0 - 5.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:550
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:576
 #, fuzzy
 msgid "2.000.000 Services"
 msgstr "servicii"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:551
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:577
 #, fuzzy
 msgid "2.000.000+ Services"
 msgstr "servicii"
@@ -1352,7 +1356,7 @@ msgstr ""
 msgid "200.0 - 500.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:545
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:571
 #, fuzzy
 msgid "200.000 Services"
 msgstr "servicii"
@@ -1366,7 +1370,7 @@ msgstr "25 de ore"
 msgid "3 months"
 msgstr "2 ore"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:538
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:564
 #, fuzzy
 msgid "3.000 Services"
 msgstr "servicii"
@@ -1386,12 +1390,12 @@ msgstr ""
 msgid "30 Minutes"
 msgstr "5 minute"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:542
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:568
 #, fuzzy
 msgid "30.000 Services"
 msgstr "servicii"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:546
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:572
 #, fuzzy
 msgid "300.000 Services"
 msgstr "servicii"
@@ -1461,7 +1465,7 @@ msgstr ""
 msgid "500.0+ ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:547
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:573
 #, fuzzy
 msgid "500.000 Services"
 msgstr "servicii"
@@ -1471,7 +1475,7 @@ msgstr "servicii"
 msgid "6 months"
 msgstr "2 ore"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:543
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:569
 #, fuzzy
 msgid "60.000 Services"
 msgstr "servicii"
@@ -1496,7 +1500,7 @@ msgstr ""
 msgid "7-segment display uid"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:539
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:565
 #, fuzzy
 msgid "7.000 Services"
 msgstr "servicii"
@@ -1723,14 +1727,14 @@ msgid ""
 "usernames, mail adresses or phone numbers and are marked with 'M'."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:810
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:836
 #, python-format
 msgid ""
 "<br>Please add customer portal credentials and subscription details in the "
 "<a href=\"%s\">subscription settings<a>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:818
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:844
 #, python-format
 msgid ""
 "<br>Please add subscription details in the <a href=\"%s\">subscription "
@@ -1947,7 +1951,7 @@ msgid ""
 "processes.</p>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:455
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:457
 #, python-format
 msgid ""
 "<p>The control group information is currently only specified by the linux "
@@ -1958,7 +1962,7 @@ msgid ""
 "and selecting \"%s\".</p>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:331
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:333
 msgid ""
 "<p>The process name may contain one or more occurances of <tt>%s</tt>. If "
 "you do this, then the pattern must be a regular expression and be prefixed "
@@ -1994,7 +1998,7 @@ msgid ""
 "by the first, second, ... matching group, allowing you to reorder things.</p>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:416
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:418
 msgid ""
 "<p>The user specification is a user name (string). The inventory will then "
 "trigger only if that user matches the user the process is running as. The "
@@ -3517,7 +3521,7 @@ msgstr " Activează această opțiune"
 #: ../cmk/gui/plugins/metrics/storage.py:498
 #: ../cmk/gui/plugins/metrics/docker.py:66
 #: ../cmk/gui/cee/plugins/reporting/utils.py:303
-#: ../cmk/gui/cee/ntop/pages.py:488 ../cmk/gui/cee/ntop/pages.py:513
+#: ../cmk/gui/cee/ntop/pages.py:551 ../cmk/gui/cee/ntop/pages.py:576
 msgid "Active"
 msgstr ""
 
@@ -3607,7 +3611,7 @@ msgstr "Verificări active"
 msgid "Active VPN Web Sessions"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:403 ../cmk/gui/cee/ntop/pages.py:406
+#: ../cmk/gui/cee/ntop/pages.py:466 ../cmk/gui/cee/ntop/pages.py:469
 #, fuzzy
 msgid "Active alerted flows"
 msgstr "Verificări active"
@@ -3714,7 +3718,7 @@ msgstr "Conexiuni Active"
 msgid "Activity log updates"
 msgstr "actualizare"
 
-#: ../cmk/gui/cee/ntop/pages.py:1132 ../cmk/gui/cee/ntop/pages.py:1143
+#: ../cmk/gui/cee/ntop/pages.py:1196 ../cmk/gui/cee/ntop/pages.py:1207
 #, fuzzy
 msgid "Actual Traffic"
 msgstr "Numele Elementului"
@@ -3956,7 +3960,7 @@ msgid "Add context information to title"
 msgstr "Adaugă informații despre contact"
 
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:137
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:231
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:233
 #, fuzzy
 msgid "Add custom icon or action"
 msgstr "Adaugă informații despre contact"
@@ -3973,7 +3977,7 @@ msgstr "Adaugă Contoar"
 msgid "Add destination address"
 msgstr "Linii de header adiționale"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:515
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:541
 msgid "Add details manually"
 msgstr ""
 
@@ -4590,7 +4594,7 @@ msgstr "Adăugat %s"
 msgid "Added: %s"
 msgstr "Adăugat %s"
 
-#: ../cmk/gui/cee/ntop/pages.py:532
+#: ../cmk/gui/cee/ntop/pages.py:595
 #, fuzzy
 #| msgid "Additional options"
 msgid "Additional Host Names"
@@ -5516,7 +5520,7 @@ msgstr ""
 msgid "Alert on too high power consumption"
 msgstr "APC consum de Curent"
 
-#: ../cmk/gui/cee/ntop/pages.py:489
+#: ../cmk/gui/cee/ntop/pages.py:552
 msgid "Alerted"
 msgstr ""
 
@@ -5526,6 +5530,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/visuals/filters.py:1602
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3017
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:234
 #: ../cmk/gui/cee/plugins/wato/cmc.py:575
 msgid "Alerts"
 msgstr ""
@@ -5561,7 +5566,7 @@ msgstr ""
 msgid "Alien Alarm (long)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1427
+#: ../cmk/gui/cee/ntop/pages.py:1557
 msgid "All"
 msgstr ""
 
@@ -5569,7 +5574,7 @@ msgstr ""
 msgid "All Aggregations"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1266
+#: ../cmk/gui/cee/ntop/pages.py:1330
 #, fuzzy
 msgid "All Alerted"
 msgstr "rapoarte"
@@ -5612,7 +5617,7 @@ msgstr "Grup nou"
 msgid "All WARN services of a given site."
 msgstr "Grup nou"
 
-#: ../cmk/gui/cee/ntop/pages.py:96
+#: ../cmk/gui/cee/ntop/pages.py:159
 msgid ""
 "All absolute data shown on this page refer to the timeframe since this host "
 "was booted-up."
@@ -5634,7 +5639,7 @@ msgstr ""
 msgid "All alert handler executions."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1315
+#: ../cmk/gui/cee/ntop/pages.py:1379
 #, fuzzy
 #| msgid "Application Name"
 msgid "All applications"
@@ -5644,7 +5649,7 @@ msgstr "Numele Aplicatiei"
 msgid "All but first page"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1354
+#: ../cmk/gui/cee/ntop/pages.py:1415
 #, fuzzy
 msgid "All categories"
 msgstr "cu context"
@@ -5680,7 +5685,7 @@ msgstr ""
 msgid "All customers with host and service statistics"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1280
+#: ../cmk/gui/cee/ntop/pages.py:1344
 #, fuzzy
 msgid "All directions"
 msgstr "Acțiune"
@@ -5699,7 +5704,7 @@ msgstr ""
 msgid "All even pages"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1258
+#: ../cmk/gui/cee/ntop/pages.py:1322
 #, fuzzy
 msgid "All flows"
 msgstr " pentru hostul %s"
@@ -5754,7 +5759,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin.py:87
 #: ../cmk/gui/plugins/views/datasources.py:27
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:260
-#: ../cmk/gui/plugins/sidebar/hosts.py:104 ../cmk/gui/cee/ntop/pages.py:1231
+#: ../cmk/gui/plugins/sidebar/hosts.py:104 ../cmk/gui/cee/ntop/pages.py:1295
 msgid "All hosts"
 msgstr ""
 
@@ -5883,7 +5888,7 @@ msgstr " pentru hostul %s"
 msgid "All problems of services not currently in a downtime."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1336
+#: ../cmk/gui/cee/ntop/pages.py:1400
 #, fuzzy
 msgid "All protocols"
 msgstr "rapoarte"
@@ -6648,8 +6653,8 @@ msgstr ""
 msgid "Appliances, other dedicated hardware"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/mkeventd.py:534 ../cmk/gui/cee/ntop/pages.py:920
-#: ../cmk/gui/cee/ntop/pages.py:1327
+#: ../cmk/gui/plugins/views/mkeventd.py:534 ../cmk/gui/cee/ntop/pages.py:983
+#: ../cmk/gui/cee/ntop/pages.py:1391
 msgid "Application"
 msgstr ""
 
@@ -6702,6 +6707,11 @@ msgstr "cereri"
 #: ../cmk/gui/wato/pages/check_catalog.py:344 ../cmk/gui/pagetypes.py:1845
 #, fuzzy
 msgid "Applications"
+msgstr "Numele Aplicatiei"
+
+#: ../cmk/gui/cee/ntop/pages.py:953
+#, fuzzy
+msgid "Applications overview"
 msgstr "Numele Aplicatiei"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:834
@@ -6906,7 +6916,7 @@ msgstr "Perioada de timp Noua"
 msgid "Artificial slowdown of logfile parsing (for testing!)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:477
+#: ../cmk/gui/cee/ntop/pages.py:540
 msgid "As client"
 msgstr ""
 
@@ -6914,7 +6924,7 @@ msgstr ""
 msgid "As configured in the users settings. Do not add a leading underscore."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:478
+#: ../cmk/gui/cee/ntop/pages.py:541
 #, fuzzy
 #| msgid "service"
 msgid "As server"
@@ -8735,7 +8745,7 @@ msgstr ""
 msgid "Boxes (omit root)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:613 ../cmk/gui/cee/ntop/pages.py:921
+#: ../cmk/gui/cee/ntop/pages.py:676 ../cmk/gui/cee/ntop/pages.py:984
 msgid "Breakdown"
 msgstr ""
 
@@ -9618,7 +9628,7 @@ msgstr ""
 msgid "CLOSING"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:325
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:351
 msgid "CMA"
 msgstr ""
 
@@ -9912,7 +9922,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:1932 ../cmk/gui/cme/plugins/views/managed.py:269
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:147
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_eventlog.py:43
-#: ../cmk/gui/cee/ntop/pages.py:381 ../cmk/gui/cee/ntop/pages.py:404
+#: ../cmk/gui/cee/ntop/pages.py:444 ../cmk/gui/cee/ntop/pages.py:467
 #: ../cmk/utils/defines.py:38
 msgid "CRIT"
 msgstr ""
@@ -10142,7 +10152,7 @@ msgstr ""
 msgid "Canceled"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:400
+#: ../cmk/gui/cee/ntop/connector.py:340
 #, python-format
 msgid ""
 "Cannot aquire cookie from ntop server '%s' for user '%s'. Please check your "
@@ -10233,7 +10243,7 @@ msgid ""
 "Cannot display this view in matrix layout. You need at least two columns!"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:682
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:708
 msgid "Cannot download license usage report."
 msgstr ""
 
@@ -10399,7 +10409,7 @@ msgstr ""
 msgid "Cannot render image: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:486
+#: ../cmk/gui/cee/ntop/connector.py:431
 #, python-format
 msgid "Cannot retrieve data from ntop REST API: %s"
 msgstr ""
@@ -10408,7 +10418,7 @@ msgstr ""
 msgid "Cannot retrieve historic data with Nagios core"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:628
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:654
 #, python-format
 msgid "Cannot submit license usage report to the Checkmk license server '%s'."
 msgstr ""
@@ -10492,9 +10502,14 @@ msgid "Categories"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/icons.py:80 ../cmk/gui/wato/pages/icons.py:161
-#: ../cmk/gui/cee/ntop/pages.py:940 ../cmk/gui/cee/ntop/pages.py:1356
+#: ../cmk/gui/cee/ntop/pages.py:1003 ../cmk/gui/cee/ntop/pages.py:1417
 msgid "Category"
 msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:963
+#, fuzzy
+msgid "Category overview"
+msgstr "Privire de ansamblu"
 
 #: ../cmk/gui/cee/plugins/reporting/utils.py:285
 msgid "Cell padding"
@@ -11934,9 +11949,14 @@ msgstr ""
 msgid "Clickable URLs"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:670 ../cmk/gui/cee/ntop/pages.py:717
+#: ../cmk/gui/cee/ntop/pages.py:733 ../cmk/gui/cee/ntop/pages.py:780
 msgid "Client"
 msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:975
+#, fuzzy
+msgid "Client Contacted Services"
+msgstr "Setari"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1659
 msgid "Client ID"
@@ -12420,7 +12440,7 @@ msgstr ""
 msgid "Combined white-/blacklist for new and vanished services"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:322
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:324
 msgid ""
 "Combining \"%s\" and \"%1\" style replacements in the sevice description is "
 "not allowed."
@@ -12454,7 +12474,7 @@ msgstr ""
 msgid "Command line to execute"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:362
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:364
 msgid "Command line:"
 msgstr ""
 
@@ -12489,7 +12509,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/rulesets.py:1228
 #: ../cmk/gui/wato/pages/activate_changes.py:548
 #: ../cmk/gui/wato/pages/pattern_editor.py:272
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:435
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:461
 msgid "Comment"
 msgstr ""
 
@@ -13106,7 +13126,7 @@ msgstr ""
 msgid "Confirm"
 msgstr "Adaugă un snapin pe sidebar"
 
-#: ../cmk/gui/watolib/tags.py:269
+#: ../cmk/gui/watolib/tags.py:278
 #, fuzzy
 msgid "Confirm aux tag deletion"
 msgstr "Dezactiveaza Notificarile"
@@ -13130,12 +13150,12 @@ msgstr ""
 msgid "Confirm renaming of %d %s"
 msgstr ", rulează pe %s"
 
-#: ../cmk/gui/watolib/tags.py:264
+#: ../cmk/gui/watolib/tags.py:273
 #, fuzzy
 msgid "Confirm tag group deletion"
 msgstr "Dezactiveaza Notificarile"
 
-#: ../cmk/gui/watolib/tags.py:281
+#: ../cmk/gui/watolib/tags.py:290
 msgid "Confirm tag modifications"
 msgstr ""
 
@@ -13703,7 +13723,7 @@ msgstr ""
 msgid "Control encryption of data sent from agent to host."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:434
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:436
 #, fuzzy
 msgid "Control group:"
 msgstr "Grup nou"
@@ -13981,7 +14001,7 @@ msgstr ""
 msgid "Could not find the requested crash %s on site %s"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:559
+#: ../cmk/gui/cee/ntop/connector.py:504
 #, python-format
 msgid ""
 "Could not query ifid for host_address '%s'. Your ntopng user may have not "
@@ -14004,16 +14024,6 @@ msgstr ""
 #, fuzzy, python-format
 msgid "Could not save changes: %s"
 msgstr "Activare schimbări"
-
-#: ../cmk/gui/cee/ntop/connector.py:188
-#, fuzzy, python-format
-msgid "Could query available interfaces for host %s and user %s."
-msgstr "Un titlu pentru view"
-
-#: ../cmk/gui/cee/ntop/connector.py:165
-#, python-format
-msgid "Could query available interfaces for user %s."
-msgstr ""
 
 #: ../cmk/gui/plugins/metrics/unit.py:69
 #: ../cmk/gui/plugins/metrics/docker.py:60 ../cmk/gui/availability.py:1333
@@ -14796,7 +14806,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:58
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:102
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:193
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:757
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:759
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:29
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:38
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:47
@@ -15580,7 +15590,7 @@ msgstr "Nivelurile maxime pentru voltaj"
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_cluster_stats.py:84
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_cluster_stats.py:100
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:87
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:742
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:744
 #: ../cmk/gui/plugins/wato/check_parameters/saprouter_cert_age.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/ps_voltage.py:23
 #: ../cmk/gui/plugins/wato/check_parameters/ewon.py:69
@@ -16050,7 +16060,7 @@ msgstr ""
 msgid "Currently in downtime"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/search.py:1412
+#: ../cmk/gui/plugins/sidebar/search.py:1460
 msgid "Currently indexing, please try again shortly."
 msgstr ""
 
@@ -16273,7 +16283,7 @@ msgstr "Numarul maxim de mesaje"
 msgid "Custom integrations"
 msgstr "Atribute personalizate"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:552
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:578
 #, fuzzy
 msgid "Custom limit"
 msgstr "Atribute personalizate"
@@ -16457,7 +16467,7 @@ msgstr ""
 msgid "Customer number of services in state WARN"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:565
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:591
 #, fuzzy
 msgid "Customer portal credentials"
 msgstr "trei nivele"
@@ -16779,7 +16789,7 @@ msgstr ""
 msgid "DNS Hostname or IP-address of database server"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:533
+#: ../cmk/gui/cee/ntop/pages.py:596
 msgid "DNS Resolution"
 msgstr ""
 
@@ -17499,8 +17509,8 @@ msgstr "doua nivele"
 msgid "Default metric color"
 msgstr "afiseaza erori"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:593
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:792
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:595
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:794
 msgid "Default parameters for detected services"
 msgstr ""
 
@@ -18942,7 +18952,7 @@ msgstr " pe siteul de monitorizare: "
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:889
 #: ../cmk/gui/plugins/wato/check_parameters/fcp.py:47
-#: ../cmk/gui/cee/ntop/pages.py:1275
+#: ../cmk/gui/cee/ntop/pages.py:1339
 #, fuzzy
 msgid "Direction"
 msgstr "Acțiune"
@@ -19007,7 +19017,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/commands.py:183
 #: ../cmk/gui/plugins/views/commands.py:240
 #: ../cmk/gui/plugins/views/commands.py:286
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:213
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:215
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:91
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:102
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:163
@@ -19301,7 +19311,7 @@ msgstr "Nici o schimbare"
 msgid "Discovered no service yet."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:467
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:469
 #, fuzzy
 msgid "Discovered process name"
 msgstr "Nici o schimbare"
@@ -20878,7 +20888,7 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/aws.py:370 ../cmk/gui/key_mgmt.py:429
 #: ../cmk/gui/wato/pages/fetch_agent_output.py:269
 #: ../cmk/gui/wato/pages/diagnostics.py:399
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:261
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:262
 msgid "Download"
 msgstr "Descarca"
 
@@ -20919,12 +20929,12 @@ msgstr ""
 msgid "Download filename"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:355
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:381
 #, fuzzy
 msgid "Download license usage report"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:369
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:395
 #, fuzzy
 #| msgid "Download"
 msgid "Download report"
@@ -21144,8 +21154,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1322
 #: ../cmk/gui/cee/plugins/reporting/availability.py:125
 #: ../cmk/gui/cee/plugins/wato/dcd.py:427
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1744 ../cmk/gui/cee/ntop/pages.py:920
-#: ../cmk/gui/cee/ntop/pages.py:940 ../cmk/gui/cee/sla.py:1938
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1744 ../cmk/gui/cee/ntop/pages.py:983
+#: ../cmk/gui/cee/ntop/pages.py:1003 ../cmk/gui/cee/sla.py:1938
 #: ../cmk/gui/cee/sla.py:1956
 msgid "Duration"
 msgstr ""
@@ -21696,8 +21706,8 @@ msgstr ""
 msgid "Edit stored report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:213
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:460
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:214
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:486
 #, fuzzy
 msgid "Edit subscription settings"
 msgstr "foloseste descrierea"
@@ -21863,7 +21873,7 @@ msgid "Edited the %s '%s'"
 msgstr " si %s 's'."
 
 #: ../cmk/gui/crash_reporting.py:416 ../cmk/gui/werks.py:447
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:323
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:349
 #, fuzzy
 msgid "Edition"
 msgstr "Acțiune"
@@ -22543,7 +22553,7 @@ msgstr ""
 msgid "End"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:528
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:554
 #, fuzzy
 msgid "End date"
 msgstr "Parola"
@@ -22637,7 +22647,7 @@ msgstr "afiseaza erori"
 msgid "Enforced services"
 msgstr "Afectat de serviciu"
 
-#: ../cmk/gui/cee/ntop/pages.py:380 ../cmk/gui/cee/ntop/pages.py:383
+#: ../cmk/gui/cee/ntop/pages.py:443 ../cmk/gui/cee/ntop/pages.py:446
 #, fuzzy
 msgid "Engaged Alerts"
 msgstr "Acces la Agenți"
@@ -22902,6 +22912,15 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4090
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4117
 msgid "Escape HTML"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:210
+msgid "Escape HTML codes in host output"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:211
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:212
+msgid "Escape HTML codes in service output"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:451
@@ -23285,7 +23304,7 @@ msgstr "Activare schimbări"
 msgid "Exact RWVDMS name or regex"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:433
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:435
 msgid "Exact content of the operating system control group info"
 msgstr ""
 
@@ -23297,16 +23316,16 @@ msgstr ""
 msgid "Exact mount point name or regex"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:396
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:398
 msgid "Exact name of the operating system user"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:680
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:682
 #, fuzzy
 msgid "Exact name of the process path"
 msgstr "Numarul maxim de procese cu statusul OK"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:355
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:357
 msgid "Exact name of the process without argments"
 msgstr ""
 
@@ -23315,7 +23334,7 @@ msgstr ""
 msgid "Exact name of the task"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:646
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:648
 msgid "Exact name of the textual description"
 msgstr ""
 
@@ -23501,7 +23520,7 @@ msgstr ""
 msgid "Executable format (Linux)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:356
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:358
 msgid "Executable:"
 msgstr ""
 
@@ -24199,7 +24218,7 @@ msgstr ""
 msgid "Failed to compile your module: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:394
+#: ../cmk/gui/cee/ntop/connector.py:334
 #, python-format
 msgid ""
 "Failed to contact ntop server '%s' with user '%s'. Please check your ntop "
@@ -24395,7 +24414,7 @@ msgstr ""
 msgid "Failed to start the job: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:651
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:677
 #, python-format
 msgid ""
 "Failed to submit the license usage report to the Checkmk license server '%s'."
@@ -25111,7 +25130,7 @@ msgstr ""
 msgid "First"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:417
+#: ../cmk/gui/cee/ntop/pages.py:480
 msgid "First Seen"
 msgstr ""
 
@@ -25258,7 +25277,8 @@ msgid "Flow-controlled Connections"
 msgstr "Conexiuni Active"
 
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:108
-#: ../cmk/gui/cee/ntop/pages.py:492
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:269
+#: ../cmk/gui/cee/ntop/pages.py:555
 msgid "Flows"
 msgstr ""
 
@@ -25456,13 +25476,13 @@ msgstr ""
 msgid "For devices that measure smoke in percent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:410
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:436
 msgid ""
 "For downloading and submitting license usage reports you must add "
 "subscription details."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:414
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:440
 msgid ""
 "For downloading license usage reports you must add subscription details."
 msgstr ""
@@ -25530,7 +25550,7 @@ msgstr ""
 msgid "For specific SIDs"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:419
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:445
 msgid ""
 "For submitting license usage reports you must add customer portal "
 "credentials."
@@ -26453,7 +26473,7 @@ msgstr ""
 msgid "Got no data from this site"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:571
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:573
 msgid "Grab user from found processess"
 msgstr ""
 
@@ -26885,7 +26905,7 @@ msgstr ""
 msgid "HR: Used memory via SNMP"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:215
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:217
 msgid "HTML output"
 msgstr ""
 
@@ -27717,8 +27737,8 @@ msgid ""
 "deployment server."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:595
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:794
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:597
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:796
 msgid ""
 "Here you can select default parameters that are being set for detected "
 "services. Note: the preferred way for setting parameters is to use the rule "
@@ -27761,7 +27781,7 @@ msgid ""
 "tablespace name, separated by a dot, for example <b>pengt.TEMP</b>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:588
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:590
 msgid ""
 "Here you can set host labels that automatically get created when discovering "
 "the services."
@@ -28285,7 +28305,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/hosts.py:68 ../cmk/gui/notifications.py:158
 #: ../cmk/gui/cee/plugins/reporting/availability.py:48
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_mysql.py:47
-#: ../cmk/gui/cee/ntop/pages.py:143
+#: ../cmk/gui/cee/ntop/pages.py:206
 msgid "Host"
 msgstr ""
 
@@ -28308,7 +28328,7 @@ msgid ""
 "folder=&mode=changelog\">activate changes page</a> for further information."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:735 ../cmk/gui/cee/ntop/pages.py:755
+#: ../cmk/gui/cee/ntop/pages.py:798 ../cmk/gui/cee/ntop/pages.py:818
 #, fuzzy, python-format
 msgid "Host %s not known in ntopng"
 msgstr "de sus in jos"
@@ -28331,6 +28351,11 @@ msgstr "(fără Nivel de serviciu)"
 #: ../cmk/gui/cee/plugins/wato/ntop.py:64
 #, fuzzy
 msgid "Host Address"
+msgstr "Adresă"
+
+#: ../cmk/gui/cee/ntop/pages.py:180
+#, fuzzy, python-format
+msgid "Host Address %s"
 msgstr "Adresă"
 
 #: ../cmk/gui/plugins/views/painters.py:4425
@@ -28406,7 +28431,7 @@ msgstr "Numele Elementului"
 msgid "Host IPv4 address"
 msgstr "Adresă"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:586
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:588
 #, fuzzy
 #| msgid "Host Name"
 msgid "Host Label"
@@ -28422,6 +28447,12 @@ msgstr "Numele Elementului"
 #, fuzzy
 msgid "Host Metrics"
 msgstr "serviciu"
+
+#: ../cmk/gui/cee/ntop/pages.py:181
+#, fuzzy, python-format
+#| msgid "Host Name"
+msgid "Host Name %s"
+msgstr "Numele Elementului"
 
 #: ../cmk/gui/plugins/views/icons/topology.py:35
 msgid "Host Parent/Child topology"
@@ -28739,7 +28770,7 @@ msgid "Host label"
 msgstr "Numele Elementului"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3887
-#: ../cmk/gui/plugins/sidebar/search.py:1193
+#: ../cmk/gui/plugins/sidebar/search.py:1195
 #: ../cmk/gui/wato/pages/rulesets.py:1712
 #: ../cmk/gui/wato/pages/rulesets.py:1848 ../cmk/gui/wato/pages/services.py:486
 #: ../cmk/gui/wato/pages/services.py:1191
@@ -29018,19 +29049,19 @@ msgid "Host: %s is <b>not</b> <b>%s</b>"
 msgstr "<b>Nu ai definit nici un rol</b>"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:454
-#: ../cmk/gui/plugins/sidebar/search.py:978
+#: ../cmk/gui/plugins/sidebar/search.py:980
 #, fuzzy
 msgid "Hostaddress"
 msgstr "Adresă"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:453
-#: ../cmk/gui/plugins/sidebar/search.py:979
+#: ../cmk/gui/plugins/sidebar/search.py:981
 msgid "Hostalias"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/sorters.py:278
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:456
-#: ../cmk/gui/plugins/sidebar/search.py:858
+#: ../cmk/gui/plugins/sidebar/search.py:860
 msgid "Hostgroup"
 msgstr ""
 
@@ -29061,7 +29092,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:517
 #: ../cmk/gui/plugins/wato/active_checks.py:403
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:452
-#: ../cmk/gui/plugins/sidebar/search.py:976 ../cmk/gui/wato/mkeventd.py:4197
+#: ../cmk/gui/plugins/sidebar/search.py:978 ../cmk/gui/wato/mkeventd.py:4197
 #: ../cmk/gui/wato/pages/bulk_import.py:457
 #: ../cmk/gui/wato/pages/folders.py:801
 #: ../cmk/gui/wato/pages/host_diagnose.py:287
@@ -29166,13 +29197,23 @@ msgstr ""
 #: ../cmk/gui/cme/plugins/views/managed.py:329
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:667
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:673
-#: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1226
+#: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1290
 msgid "Hosts"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1463
 msgid "Hosts Connected"
 msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:656
+#, fuzzy
+msgid "Hosts Contacted (as Client)"
+msgstr " Se potriveste grupurilor: %s"
+
+#: ../cmk/gui/cee/ntop/pages.py:658
+#, fuzzy
+msgid "Hosts Contacts (as Server)"
+msgstr " Se potriveste grupurilor: %s"
 
 #: ../cmk/gui/wato/pages/diagnostics.py:250
 #, fuzzy
@@ -29348,7 +29389,7 @@ msgid "Hostsystem sensor alerts"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:455
-#: ../cmk/gui/plugins/sidebar/search.py:1082
+#: ../cmk/gui/plugins/sidebar/search.py:1084
 #, fuzzy
 msgid "Hosttag"
 msgstr "Numele Elementului"
@@ -29776,7 +29817,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/painters.py:2450
 #: ../cmk/gui/plugins/wato/datasource_programs.py:522
 #: ../cmk/gui/wato/mkeventd.py:4198 ../cmk/gui/wato/pages/host_diagnose.py:154
-#: ../cmk/gui/cee/ntop/pages.py:353
+#: ../cmk/gui/cee/ntop/pages.py:416
 msgid "IP address"
 msgstr ""
 
@@ -30000,7 +30041,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/painters.py:263
 #: ../cmk/gui/plugins/views/painters.py:290
 #: ../cmk/gui/plugins/views/mkeventd.py:754
-#: ../cmk/gui/plugins/views/mkeventd.py:778 ../cmk/gui/cee/ntop/pages.py:920
+#: ../cmk/gui/plugins/views/mkeventd.py:778 ../cmk/gui/cee/ntop/pages.py:983
 msgid "Icons"
 msgstr ""
 
@@ -30131,17 +30172,17 @@ msgid ""
 "will also automatically add/remove them as neccessary."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:203
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:202
+#, python-format
 msgid ""
 "If active, the long output of this service will contain a list of all the "
 "matching processes and their details (i.e. PID, CPU usage, memory usage). "
-"Please note that HTML output will only work if rules in the rulesets "
-"\"Escape HTML codes in host output\" or \"Escape HTML codes in service output"
-"\" are created or the global setting \"Escape HTML codes in service output\" "
-"is disabled. This might expose you to Cross-Site-Scripting attacks (everyone "
-"with write-access to checks could get scripts executed on the monitoring "
-"site in the context of the user of the monitoring site) so please do this if "
-"you understand the consequences."
+"Please note that HTML output will only work if rules in the rulesets \"%s\" "
+"or \"%s\" are created or the global setting \"%s\" is disabled. This might "
+"expose you to Cross-Site-Scripting attacks (everyone with write-access to "
+"checks could get scripts executed on the monitoring site in the context of "
+"the user of the monitoring site), so please do this if you understand the "
+"consequences."
 msgstr ""
 
 #: ../cmk/gui/cee/agent_bakery.py:294
@@ -30221,7 +30262,7 @@ msgstr ""
 msgid "If no port is given, a default value of 443 will be used."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:223
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:225
 msgid ""
 "If non-zero, the the list of all the matching processes and their details in "
 "the long-output will include up to the first N arguments of each processes. "
@@ -31667,11 +31708,11 @@ msgstr ""
 msgid "Include full path"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:222
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:224
 msgid "Include per-process arguments (security risk!)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:221
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:223
 msgid "Include process arguments in long-output"
 msgstr ""
 
@@ -32282,7 +32323,7 @@ msgstr ""
 msgid "Integration Key"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/search.py:670
+#: ../cmk/gui/plugins/sidebar/search.py:672
 msgid ""
 "Interactive search field for direct access to monitoring instances (hosts, "
 "services, host- and servicegroups).<br>You can use the following filters: "
@@ -32295,6 +32336,12 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/skype_edge.py:24
 msgid "Interface"
 msgstr ""
+
+# georgem ##############
+#: ../cmk/gui/cee/ntop/pages.py:1158
+#, fuzzy, python-format
+msgid "Interface %s"
+msgstr "Grup nou"
 
 # georgem ##############
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:158
@@ -32454,8 +32501,8 @@ msgstr ""
 msgid "Invalid %s address: %s"
 msgstr " Parametrul este: %r"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:726
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:771
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:728
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:773
 msgid "Invalid (Not loaded)"
 msgstr ""
 
@@ -32796,12 +32843,12 @@ msgstr ""
 msgid "Invalid start time given"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:601
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:627
 #, fuzzy, python-format
 msgid "Invalid subscription %s date"
 msgstr "foloseste descrierea"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:606
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:632
 #, fuzzy
 msgid "Invalid subscription sizing"
 msgstr "foloseste descrierea"
@@ -32970,8 +33017,8 @@ msgstr ""
 msgid "Inventory: History"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:460
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:461
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:462
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:463
 #: ../cmk/gui/wato/mkeventd.py:895
 #, fuzzy
 msgid "Invert matching"
@@ -33939,7 +33986,7 @@ msgstr ""
 msgid "Last Scan Result"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:417
+#: ../cmk/gui/cee/ntop/pages.py:480
 #, fuzzy
 #| msgid "Add Exception"
 msgid "Last Seen"
@@ -34561,7 +34608,7 @@ msgid "Levels for power state count"
 msgstr "Nivelurile maxime pentru voltaj"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:80
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:735
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:737
 msgid "Levels for process count"
 msgstr ""
 
@@ -34978,9 +35025,9 @@ msgid "License state"
 msgstr "Stare adiministrativă"
 
 #: ../cmk/gui/plugins/metrics/application.py:198
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:138
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:207
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:254
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:139
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:208
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:255
 #, fuzzy
 msgid "License usage"
 msgstr "% utilizare"
@@ -35651,8 +35698,12 @@ msgstr ""
 msgid "Local Authentication Data"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1243
+#: ../cmk/gui/cee/ntop/pages.py:1307
 msgid "Local Client - Remote Server"
+msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:764
+msgid "Local Contacted Ports (as Server)"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/dnsclient.py:23
@@ -35677,11 +35728,11 @@ msgstr ""
 msgid "Local IP address"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1235
+#: ../cmk/gui/cee/ntop/pages.py:1299
 msgid "Local Only"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1247
+#: ../cmk/gui/cee/ntop/pages.py:1311
 msgid "Local Server - Remote Client"
 msgstr ""
 
@@ -37370,7 +37421,7 @@ msgstr "Optiuni tabel"
 msgid "Map power states"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:775
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:777
 #, fuzzy
 msgid "Map process states"
 msgstr "Numele Elementului"
@@ -37469,7 +37520,7 @@ msgstr " Se potriveste grupurilor: %s"
 msgid "Match admin states (SNMP with 64-bit counters only)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:450
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:452
 #, fuzzy
 msgid "Match all control groups"
 msgstr " Se potriveste grupurilor: %s"
@@ -37483,8 +37534,8 @@ msgstr " Se potriveste grupurilor: %s"
 msgid "Match all nodes"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:382
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:718
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:384
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:720
 msgid "Match all processes"
 msgstr ""
 
@@ -37493,7 +37544,7 @@ msgstr ""
 msgid "Match all tasks"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:412
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:414
 msgid "Match all users"
 msgstr ""
 
@@ -37601,7 +37652,7 @@ msgstr " Se potriveste grupurilor: %s"
 msgid "Match port types"
 msgstr " Se potriveste grupurilor: %s"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:716
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:718
 #, fuzzy
 msgid "Match process path"
 msgstr " Se potriveste grupurilor: %s"
@@ -37660,7 +37711,7 @@ msgstr ""
 msgid "Match syslog priority"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:714
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:716
 #, fuzzy
 msgid "Match textual description"
 msgstr "foloseste descrierea"
@@ -39126,7 +39177,7 @@ msgstr ""
 msgid "Missing Prerequisite"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:435
+#: ../cmk/gui/cee/ntop/connector.py:375
 #, fuzzy, python-format
 msgid "Missing connection parameter: %s"
 msgstr "%d reguli de notificări globale"
@@ -39474,7 +39525,7 @@ msgstr ""
 msgid "MongoDB database connections"
 msgstr "Conexiuni Active"
 
-#: ../cmk/gui/plugins/sidebar/search.py:1246
+#: ../cmk/gui/plugins/sidebar/search.py:1248
 #, fuzzy
 msgid "Monitor"
 msgstr " pe siteul de monitorizare: "
@@ -39618,7 +39669,7 @@ msgstr "Afectat de serviciu"
 #: ../cmk/gui/wato/pages/check_catalog.py:475 ../cmk/gui/logwatch.py:218
 #: ../cmk/gui/logwatch.py:384
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:992
-#: ../cmk/gui/cee/ntop/pages.py:150 ../cmk/gui/pagetypes.py:1808
+#: ../cmk/gui/cee/ntop/pages.py:213 ../cmk/gui/pagetypes.py:1808
 #, fuzzy
 msgid "Monitoring"
 msgstr " pe siteul de monitorizare: "
@@ -39755,8 +39806,8 @@ msgstr ""
 msgid "More information can be found in ~/var/log/web.log"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/search.py:618
-#: ../cmk/gui/plugins/sidebar/search.py:623
+#: ../cmk/gui/plugins/sidebar/search.py:620
+#: ../cmk/gui/plugins/sidebar/search.py:625
 #, python-format
 msgid "More than %d results"
 msgstr ""
@@ -39947,7 +39998,7 @@ msgid "Moved to"
 msgstr ""
 
 # TODO
-#: ../cmk/gui/cee/ntop/pages.py:1288
+#: ../cmk/gui/cee/ntop/pages.py:1352
 #, fuzzy
 msgid "Multicast"
 msgstr "Un Multisite view"
@@ -40054,8 +40105,8 @@ msgstr ""
 
 #: ../cmk/gui/views.py:1178 ../cmk/gui/views.py:1182
 #: ../cmk/gui/availability.py:138 ../cmk/gui/availability.py:154
-#: ../cmk/gui/availability.py:166 ../cmk/gui/cee/ntop/pages.py:644
-#: ../cmk/gui/cee/ntop/pages.py:1021 ../cmk/gui/cee/ntop/pages.py:1051
+#: ../cmk/gui/availability.py:166 ../cmk/gui/cee/ntop/pages.py:707
+#: ../cmk/gui/cee/ntop/pages.py:1084 ../cmk/gui/cee/ntop/pages.py:1114
 msgid "N/A"
 msgstr ""
 
@@ -40126,7 +40177,7 @@ msgstr ""
 msgid "NTLS Links"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:326
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:352
 msgid "NTOP"
 msgstr ""
 
@@ -40234,7 +40285,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:291
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:353
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:374
-#: ../cmk/gui/cee/ntop/pages.py:371
+#: ../cmk/gui/cee/ntop/pages.py:434
 msgid "Name"
 msgstr "Nume"
 
@@ -40359,7 +40410,7 @@ msgstr " pe siteul de monitorizare: "
 msgid "Name of node"
 msgstr "Numele elementului pentru eveniment"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:394
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:396
 msgid "Name of operating system user"
 msgstr ""
 
@@ -40772,12 +40823,12 @@ msgstr "Adresă"
 msgid "Network ID"
 msgstr "Adresă"
 
-#: ../cmk/gui/cee/ntop/pages.py:1145
+#: ../cmk/gui/cee/ntop/pages.py:1209
 #, fuzzy
 msgid "Network Interfaces: Last Day View"
 msgstr "Adresă"
 
-#: ../cmk/gui/cee/ntop/pages.py:1134
+#: ../cmk/gui/cee/ntop/pages.py:1198
 #, fuzzy
 msgid "Network Interfaces: Last Hour View"
 msgstr "Adresă"
@@ -40848,9 +40899,14 @@ msgstr "Adresă"
 msgid "Network specification"
 msgstr ""
 
-#: ../cmk/gui/pagetypes.py:1857
+#: ../cmk/gui/cee/ntop/pages.py:195 ../cmk/gui/pagetypes.py:1857
 #, fuzzy
 msgid "Network statistics"
+msgstr " Se potriveste grupurilor: %s"
+
+#: ../cmk/gui/cee/ntop/pages.py:154
+#, fuzzy, python-format
+msgid "Network statistics and flows of %s"
 msgstr " Se potriveste grupurilor: %s"
 
 #: ../cmk/gui/node_visualization.py:72
@@ -41122,7 +41178,7 @@ msgstr "Editeaza regulile de loguri"
 #: ../cmk/gui/plugins/wato/bi_config.py:504 ../cmk/gui/backup.py:1042
 #: ../cmk/gui/wato/pages/sites.py:1269 ../cmk/gui/logwatch.py:78
 #: ../cmk/gui/logwatch.py:168 ../cmk/gui/logwatch.py:285
-#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:335
+#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:361
 msgid "No"
 msgstr ""
 
@@ -41131,7 +41187,7 @@ msgstr ""
 msgid "No (Error: %s, Code: %d, Depth: %d)"
 msgstr ""
 
-#: ../cmk/gui/watolib/tags.py:542 ../cmk/utils/tags.py:589
+#: ../cmk/gui/watolib/tags.py:551 ../cmk/utils/tags.py:589
 msgid "No Checkmk agent, all configured special agents"
 msgstr ""
 
@@ -41189,7 +41245,7 @@ msgstr "Notificari"
 msgid "No actual SLA computation"
 msgstr ""
 
-#: ../cmk/gui/watolib/tags.py:538 ../cmk/utils/tags.py:594
+#: ../cmk/gui/watolib/tags.py:547 ../cmk/utils/tags.py:594
 msgid "No agent"
 msgstr ""
 
@@ -41253,7 +41309,7 @@ msgstr ""
 msgid "No data"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/ntop/pages.py:313
+#: ../cmk/gui/cee/ntop/pages.py:376
 msgid "No data available"
 msgstr ""
 
@@ -41717,7 +41773,7 @@ msgid "Non-ASCII characters are not allowed in the attribute \"%s\"."
 msgstr ""
 
 # TODO
-#: ../cmk/gui/cee/ntop/pages.py:1284
+#: ../cmk/gui/cee/ntop/pages.py:1348
 #, fuzzy
 msgid "Non-Multicast"
 msgstr "Un Multisite view"
@@ -41778,15 +41834,15 @@ msgid "None selected"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_nodes.py:36
-#: ../cmk/gui/cee/ntop/pages.py:1262
+#: ../cmk/gui/cee/ntop/pages.py:1326
 msgid "Normal"
 msgstr ""
 
-#: ../cmk/gui/watolib/tags.py:546 ../cmk/utils/tags.py:584
+#: ../cmk/gui/watolib/tags.py:555 ../cmk/utils/tags.py:584
 msgid "Normal Checkmk agent, all configured special agents"
 msgstr ""
 
-#: ../cmk/gui/watolib/tags.py:550 ../cmk/gui/watolib/tags.py:556
+#: ../cmk/gui/watolib/tags.py:559 ../cmk/gui/watolib/tags.py:565
 #: ../cmk/utils/tags.py:579
 msgid "Normal Checkmk agent, or special agent if configured"
 msgstr ""
@@ -41987,8 +42043,8 @@ msgstr ""
 msgid "Not restricted to showing a specific object."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:725
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:770
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:727
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:772
 msgid "Not runnable (Loaded but waiting for event)"
 msgstr ""
 
@@ -42000,6 +42056,11 @@ msgstr ""
 #: ../cmk/gui/wato/pages/predefined_conditions.py:156
 msgid "Not shared"
 msgstr ""
+
+#: ../cmk/gui/watolib/activate_changes.py:1715
+#, fuzzy
+msgid "Not started."
+msgstr "Statusul Serverului"
 
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:27
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:37
@@ -42709,12 +42770,12 @@ msgstr ""
 msgid "Number of entries"
 msgstr "Cluster nou"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:328
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:354
 #, fuzzy
 msgid "Number of excluded hosts"
 msgstr " pentru elementul %s"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:330
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:356
 #, fuzzy
 msgid "Number of excluded services"
 msgstr "Numarul maxim de mesaje"
@@ -42770,7 +42831,7 @@ msgid "Number of hops"
 msgstr "Numele elementului pentru eveniment"
 
 #: ../cmk/gui/plugins/wato/check_parameters/esx_vsphere_objects_count.py:32
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:327
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:353
 #, fuzzy
 msgid "Number of hosts"
 msgstr " pentru elementul %s"
@@ -43036,7 +43097,7 @@ msgid "Number of send packets per report"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:2637
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:329
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:355
 msgid "Number of services"
 msgstr ""
 
@@ -43809,11 +43870,11 @@ msgstr ""
 msgid "One service per sensor"
 msgstr "Grup nou"
 
-#: ../cmk/gui/cee/ntop/pages.py:1296
+#: ../cmk/gui/cee/ntop/pages.py:1360
 msgid "One-Way Broadcast/Multicast"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1292
+#: ../cmk/gui/cee/ntop/pages.py:1356
 msgid "One-Way Non-Multicast/Non-Broadcast"
 msgstr ""
 
@@ -44189,7 +44250,7 @@ msgstr ""
 msgid "Operating speed"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:429
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:431
 #, fuzzy
 #| msgid "Additional Information"
 msgid "Operating system control group information"
@@ -45543,7 +45604,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/notifications.py:592
 #: ../cmk/gui/wato/pages/users.py:408
 #: ../cmk/gui/wato/pages/password_store.py:147
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:575
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:601
 #: ../cmk/gui/cee/plugins/wato/syncsmtp.py:49
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:101
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:80
@@ -45742,7 +45803,7 @@ msgstr "Adresă"
 msgid "Peer Name"
 msgstr "Numele Elementului"
 
-#: ../cmk/gui/cee/ntop/pages.py:512
+#: ../cmk/gui/cee/ntop/pages.py:575
 msgid "Peers"
 msgstr ""
 
@@ -46662,7 +46723,7 @@ msgstr ""
 msgid "Plaintext"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:324
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:350
 msgid "Platform"
 msgstr ""
 
@@ -46887,7 +46948,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:81
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:736
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:738
 msgid ""
 "Please note that if you specify and also if you modify levels here, the "
 "change is activated only during an inventory.Saving this rule is not enough. "
@@ -47177,8 +47238,8 @@ msgid ""
 "service description"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:497
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:842
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:499
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:844
 msgid ""
 "Please use only a-z, A-Z, 0-9, space, underscore, dot, hyphen and slash for "
 "your service description"
@@ -47983,28 +48044,28 @@ msgstr ""
 msgid "Process ID of the origin process"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:712
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:714
 msgid "Process Match textual description or path of process"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:352
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:354
 msgid "Process Matching"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:678
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:328
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:493
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:838
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:330
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:495
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:840
 #, fuzzy
 msgid "Process Name"
 msgstr "Numele Elementului"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:643
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:645
 #, fuzzy
 msgid "Process Name Matching"
 msgstr "Numele Elementului"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:677
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:679
 #, fuzzy
 msgid "Process Path Matching"
 msgstr "Numele Elementului"
@@ -48014,7 +48075,7 @@ msgstr "Numele Elementului"
 msgid "Process Runtime"
 msgstr "Numele Elementului"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:721
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:723
 #, fuzzy
 msgid "Process Status Matching"
 msgstr "Numele Elementului"
@@ -48029,12 +48090,12 @@ msgstr "Numele Elementului"
 msgid "Process creations"
 msgstr "Numele Elementului"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:558
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:560
 #, fuzzy
 msgid "Process discovery"
 msgstr "Inventariere in masa"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:782
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:784
 #, fuzzy
 msgid "Process discovery (only SNMP)"
 msgstr "Inventariere in masa"
@@ -48258,12 +48319,12 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:46
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:63
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:32
-#: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:613
-#: ../cmk/gui/cee/ntop/pages.py:1345
+#: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:676
+#: ../cmk/gui/cee/ntop/pages.py:1406
 msgid "Protocol"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:601
+#: ../cmk/gui/cee/ntop/pages.py:664
 #, fuzzy
 #| msgid "Tactical Overview"
 msgid "Protocol Overview"
@@ -48684,7 +48745,7 @@ msgstr "Cautare rapida"
 msgid "Quick toggle"
 msgstr "Cautare rapida"
 
-#: ../cmk/gui/plugins/sidebar/search.py:665
+#: ../cmk/gui/plugins/sidebar/search.py:667
 msgid "Quicksearch"
 msgstr "Cautare rapida"
 
@@ -49049,8 +49110,8 @@ msgstr ""
 msgid "Raw Bytes (HEXSTR)"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:444 ../cmk/gui/cee/ntop/pages.py:634
-#: ../cmk/gui/cee/ntop/pages.py:972 ../cmk/gui/cee/ntop/pages.py:1011
+#: ../cmk/gui/cee/ntop/pages.py:507 ../cmk/gui/cee/ntop/pages.py:697
+#: ../cmk/gui/cee/ntop/pages.py:1035 ../cmk/gui/cee/ntop/pages.py:1074
 msgid "Rcvd"
 msgstr ""
 
@@ -49313,7 +49374,7 @@ msgstr ""
 msgid "Receive start of response"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:613 ../cmk/gui/cee/ntop/pages.py:921
+#: ../cmk/gui/cee/ntop/pages.py:676 ../cmk/gui/cee/ntop/pages.py:984
 msgid "Received"
 msgstr ""
 
@@ -49630,11 +49691,11 @@ msgid "Regular expression match"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:107
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:366
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:368
 msgid "Regular expression matching command line"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:441
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:443
 msgid "Regular expression matching control group info"
 msgstr ""
 
@@ -49646,15 +49707,15 @@ msgstr ""
 msgid "Regular expression matching the path"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:691
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:693
 msgid "Regular expression matching the process path"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:657
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:659
 msgid "Regular expression matching the textual description"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:403
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:405
 msgid "Regular expression matching username"
 msgstr ""
 
@@ -49839,6 +49900,10 @@ msgstr ""
 msgid "Remap states"
 msgstr ""
 
+#: ../cmk/gui/cee/ntop/pages.py:762
+msgid "Remote Contacted Ports (as Client)"
+msgstr ""
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/rds_licenses.py:19
 msgid "Remote Desktop Licenses (Windows)"
 msgstr ""
@@ -49847,7 +49912,7 @@ msgstr ""
 msgid "Remote IP address"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1239
+#: ../cmk/gui/cee/ntop/pages.py:1303
 #, fuzzy
 msgid "Remote Only"
 msgstr "Adaugă filtre"
@@ -50408,7 +50473,7 @@ msgstr "Optiuni tabel"
 msgid "Report preview generation of %s / %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:432
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:458
 #: ../cmk/gui/cee/reporting.py:3332
 #, fuzzy
 msgid "Report properties"
@@ -50427,7 +50492,7 @@ msgstr ""
 msgid "Report to schedule"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:229
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:230
 #, fuzzy
 msgid "Report usage"
 msgstr "% utilizare"
@@ -50686,11 +50751,11 @@ msgstr ""
 msgid "Response Time"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:529
+#: ../cmk/gui/cee/ntop/connector.py:474
 msgid "Response data has wrong data type"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:516
+#: ../cmk/gui/cee/ntop/connector.py:461
 msgid "Response object has wrong data type"
 msgstr ""
 
@@ -51414,15 +51479,15 @@ msgstr ""
 msgid "Run tests"
 msgstr "cereri"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:724
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:769
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:726
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:771
 msgid "Runnable (Waiting for resource)"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:517
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:48
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:723
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:768
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:725
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:770
 #: ../cmk/gui/plugins/wato/check_parameters/websphere_mq_manager.py:33
 #: ../cmk/gui/cee/plugins/wato/dcd.py:390
 msgid "Running"
@@ -51867,16 +51932,11 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1336
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4209
 #, fuzzy
 #| msgid "%s rule %s"
 msgid "SNMP rules"
 msgstr "%s regulă %s"
-
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4209
-#, fuzzy
-#| msgid "Settings"
-msgid "SNMP settings"
-msgstr "Setari"
 
 #: ../cmk/gui/wato/mkeventd.py:3920
 msgid "SNMP trap processing"
@@ -52082,7 +52142,7 @@ msgstr ""
 msgid "Same version as the monitoring site"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:320
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:346
 #, fuzzy
 msgid "Sample date"
 msgstr "Numele Elementului"
@@ -52290,7 +52350,7 @@ msgid ""
 "matching objects in the given base recursively."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:392
+#: ../cmk/gui/cee/ntop/pages.py:455
 msgid "Score"
 msgstr ""
 
@@ -52335,7 +52395,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/mobile.py:112
 #: ../cmk/gui/plugins/views/mobile.py:358
-#: ../cmk/gui/plugins/sidebar/search.py:682 ../cmk/gui/page_menu.py:725
+#: ../cmk/gui/plugins/sidebar/search.py:684 ../cmk/gui/page_menu.py:725
 #: ../cmk/gui/wato/pages/rulesets.py:542 ../cmk/gui/wato/pages/rulesets.py:1107
 #: ../cmk/gui/wato/pages/rulesets.py:1111 ../cmk/gui/wato/pages/folders.py:207
 #: ../cmk/gui/wato/pages/search.py:46
@@ -52433,12 +52493,12 @@ msgstr "(selectează directorul)"
 msgid "Search hosts"
 msgstr "Cautare"
 
-#: ../cmk/gui/plugins/sidebar/search.py:1358
+#: ../cmk/gui/plugins/sidebar/search.py:1406
 #, fuzzy
 msgid "Search in Monitoring"
 msgstr "(selectează directorul)"
 
-#: ../cmk/gui/plugins/sidebar/search.py:1390
+#: ../cmk/gui/plugins/sidebar/search.py:1438
 #, fuzzy
 msgid "Search in Setup"
 msgstr "Cautare"
@@ -53068,13 +53128,13 @@ msgstr ""
 msgid "Sensors"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:441 ../cmk/gui/cee/ntop/pages.py:613
-#: ../cmk/gui/cee/ntop/pages.py:631 ../cmk/gui/cee/ntop/pages.py:920
-#: ../cmk/gui/cee/ntop/pages.py:969 ../cmk/gui/cee/ntop/pages.py:1008
+#: ../cmk/gui/cee/ntop/pages.py:504 ../cmk/gui/cee/ntop/pages.py:676
+#: ../cmk/gui/cee/ntop/pages.py:694 ../cmk/gui/cee/ntop/pages.py:983
+#: ../cmk/gui/cee/ntop/pages.py:1032 ../cmk/gui/cee/ntop/pages.py:1071
 msgid "Sent"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:432
+#: ../cmk/gui/cee/ntop/pages.py:495
 msgid "Sent vs Received Traffic Breakdown"
 msgstr ""
 
@@ -53119,8 +53179,8 @@ msgstr ""
 msgid "Serial number"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/ldap.py:330 ../cmk/gui/cee/ntop/pages.py:670
-#: ../cmk/gui/cee/ntop/pages.py:717
+#: ../cmk/gui/wato/pages/ldap.py:330 ../cmk/gui/cee/ntop/pages.py:733
+#: ../cmk/gui/cee/ntop/pages.py:780
 msgid "Server"
 msgstr ""
 
@@ -53147,7 +53207,7 @@ msgstr "Statusul Serverului"
 msgid "Server performance"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:321
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:347
 #, fuzzy
 msgid "Server timezone"
 msgstr "Numele Elementului"
@@ -53172,6 +53232,11 @@ msgstr "Numele Elementului"
 #: ../cmk/gui/cee/plugins/reporting/availability.py:50
 msgid "Service"
 msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:183
+#, fuzzy, python-format
+msgid "Service %s"
+msgstr "serviciu"
 
 #: ../cmk/gui/plugins/views/painters.py:4421
 #, fuzzy
@@ -53204,7 +53269,7 @@ msgstr "Statusul Serverului"
 #: ../cmk/gui/plugins/wato/active_checks.py:1898
 #: ../cmk/gui/plugins/wato/active_checks.py:2317
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:458
-#: ../cmk/gui/plugins/sidebar/search.py:934
+#: ../cmk/gui/plugins/sidebar/search.py:936
 msgid "Service Description"
 msgstr ""
 
@@ -53556,7 +53621,7 @@ msgid "Service is stale"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3820
-#: ../cmk/gui/plugins/sidebar/search.py:1219
+#: ../cmk/gui/plugins/sidebar/search.py:1221
 #: ../cmk/gui/wato/pages/rulesets.py:1715
 #: ../cmk/gui/wato/pages/rulesets.py:1854
 #, fuzzy
@@ -53755,7 +53820,7 @@ msgstr "Numele Elementului"
 
 #: ../cmk/gui/plugins/views/sorters.py:277
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:457
-#: ../cmk/gui/plugins/sidebar/search.py:859
+#: ../cmk/gui/plugins/sidebar/search.py:861
 msgid "Servicegroup"
 msgstr ""
 
@@ -53797,7 +53862,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/services.py:1187
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/cme/plugins/views/managed.py:209
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:553
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:579
 msgid "Services"
 msgstr ""
 
@@ -53858,7 +53923,7 @@ msgid "Services of down hosts"
 msgstr "Grup nou"
 
 #: ../cmk/gui/plugins/views/mobile.py:278 ../cmk/gui/logwatch.py:221
-#: ../cmk/gui/logwatch.py:387 ../cmk/gui/cee/ntop/pages.py:172
+#: ../cmk/gui/logwatch.py:387 ../cmk/gui/cee/ntop/pages.py:235
 msgid "Services of host"
 msgstr ""
 
@@ -54393,7 +54458,7 @@ msgstr ""
 
 #: ../cmk/gui/wato/mkeventd.py:2998 ../cmk/gui/wato/pages/services.py:1208
 #: ../cmk/gui/wato/pages/services.py:1211
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:481
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:507
 msgid "Settings"
 msgstr "Setari"
 
@@ -54452,11 +54517,11 @@ msgstr ""
 #: ../cmk/gui/wato/pages/custom_attributes.py:455
 #: ../cmk/gui/wato/pages/global_settings.py:409 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:210
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:211
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:324
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:769
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:988
-#: ../cmk/gui/cee/ntop/pages.py:146 ../cmk/utils/werks.py:38
+#: ../cmk/gui/cee/ntop/pages.py:209 ../cmk/utils/werks.py:38
 msgid "Setup"
 msgstr ""
 
@@ -54476,7 +54541,7 @@ msgid ""
 "when accessing the pages."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1400
+#: ../cmk/gui/cee/ntop/pages.py:1487
 msgid "Severity"
 msgstr ""
 
@@ -54676,7 +54741,7 @@ msgstr "Scaneaza toate elementele"
 msgid "Show all phases of notifications"
 msgstr "trimite notificare"
 
-#: ../cmk/gui/plugins/sidebar/search.py:1315
+#: ../cmk/gui/plugins/sidebar/search.py:1361
 #, fuzzy
 #| msgid "Show user rules"
 msgid "Show all results"
@@ -54863,7 +54928,7 @@ msgstr ""
 msgid "Show less"
 msgstr "afiseaza toate"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:150
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:151
 msgid "Show license usage information of Checkmk sites."
 msgstr ""
 
@@ -54970,7 +55035,7 @@ msgstr ""
 msgid "Show separate result for each SLA period"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1526
+#: ../cmk/gui/cee/ntop/pages.py:1644
 #, fuzzy, python-format
 msgid "Show services of host %s"
 msgstr " pentru hostul %s"
@@ -55580,7 +55645,7 @@ msgstr ""
 msgid "Site:"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:319
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:345
 #, fuzzy
 msgid "Sitename"
 msgstr "Nume nou"
@@ -55673,7 +55738,7 @@ msgstr ""
 msgid "Size, age and count of file groups (mk_filestats)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:535
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:561
 #, fuzzy
 msgid "Sizing"
 msgstr "foloseste descrierea"
@@ -56166,7 +56231,7 @@ msgid "Sorting"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:1014
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:513
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:539
 msgid "Source"
 msgstr ""
 
@@ -56687,7 +56752,7 @@ msgstr ""
 msgid "Specify which port types should not be discovered"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:574
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:576
 #, python-format
 msgid ""
 "Specifying \"grab user\" makes the created check expect the process to run "
@@ -56883,7 +56948,7 @@ msgstr ""
 msgid "Start URL to display in main frame"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:521
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:547
 #, fuzzy
 msgid "Start date"
 msgstr "Numele Elementului"
@@ -56978,7 +57043,7 @@ msgstr ""
 msgid "Started at %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/activate_changes.py:1715
+#: ../cmk/gui/watolib/activate_changes.py:1713
 #, python-format
 msgid "Started at: %s."
 msgstr ""
@@ -57085,13 +57150,13 @@ msgstr ""
 msgid "State and Count of Processes"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:486
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:520
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:488
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:522
 msgid "State and count of processes"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:831
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:861
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:833
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:863
 msgid "State and count of processes (only SNMP)"
 msgstr ""
 
@@ -57867,7 +57932,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/activate_changes.py:423
 #: ../cmk/gui/cee/plugins/wato/dcd.py:350
 #: ../cmk/gui/cee/plugins/wato/dcd.py:423
-#: ../cmk/gui/cee/plugins/wato/dcd.py:598 ../cmk/gui/cee/ntop/pages.py:1253
+#: ../cmk/gui/cee/plugins/wato/dcd.py:598 ../cmk/gui/cee/ntop/pages.py:1317
 msgid "Status"
 msgstr ""
 
@@ -57960,7 +58025,7 @@ msgstr "(Nu primi notificări)"
 msgid "Status of a single service, to be used for linking"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:163
+#: ../cmk/gui/cee/ntop/pages.py:226
 #, fuzzy
 msgid "Status of host"
 msgstr " pentru elementul %s"
@@ -58385,21 +58450,21 @@ msgstr ""
 msgid "Submit Report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:624
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:650
 #, fuzzy
 msgid "Submit license usage report"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:258
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:259
 msgid "Submit or download"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:354
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:380
 #, fuzzy
 msgid "Submit or download license usage report"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:360
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:386
 #, fuzzy
 msgid "Submit report"
 msgstr "Adaugă element"
@@ -58408,7 +58473,7 @@ msgstr "Adaugă element"
 msgid "Submitting crash report..."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:642
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:668
 msgid "Submitting license usage report..."
 msgstr ""
 
@@ -58431,12 +58496,12 @@ msgstr "foloseste descrierea"
 msgid "Subscription Status"
 msgstr "foloseste descrierea"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:502
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:528
 #, fuzzy
 msgid "Subscription details"
 msgstr "foloseste descrierea"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:591
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:617
 #, fuzzy
 msgid "Subscription settings"
 msgstr "foloseste descrierea"
@@ -58494,7 +58559,7 @@ msgstr ""
 msgid "Successfully stored the report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:646
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:672
 #, fuzzy
 msgid "Successfully submitted the license usage report."
 msgstr "urca snapshot-uri nesigure"
@@ -58542,7 +58607,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/audit_log.py:286
 #: ../cmk/gui/wato/pages/audit_log.py:501
 #: ../cmk/gui/cee/plugins/reporting/availability.py:229
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:311
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:318
 #: ../cmk/gui/cee/plugins/views/sla.py:460
 msgid "Summary"
 msgstr ""
@@ -59049,7 +59114,7 @@ msgstr ""
 msgid "TCP ELB Resets"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:851
+#: ../cmk/gui/cee/ntop/pages.py:914
 #, fuzzy
 msgid "TCP Flags Distribution"
 msgstr "foloseste descrierea"
@@ -59713,7 +59778,7 @@ msgstr ""
 msgid "Text of the third match group from expression match (and so on...)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:214
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:216
 msgid "Text output"
 msgstr ""
 
@@ -62271,7 +62336,7 @@ msgid ""
 "matching this facility."
 msgstr ""
 
-#: ../cmk/gui/config.py:358 ../cmk/gui/cee/ntop/connector.py:468
+#: ../cmk/gui/config.py:358 ../cmk/gui/cee/ntop/connector.py:408
 msgid ""
 "The ntopng username should be derived from 'ntopng Username' under the "
 "current's user settings (identity) but this is not set for the current user."
@@ -63162,7 +63227,7 @@ msgid ""
 "to customer <i>%s</i>. This violates the CME folder hierarchy."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:579
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:605
 msgid ""
 "The subscription details including start date, end date and sizing and the "
 "customer portal credentials are part of the subscription and can be found in "
@@ -63170,7 +63235,7 @@ msgid ""
 "\"https://checkmk.de/download\">Checkmk<a>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:585
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:611
 msgid ""
 "The subscription details including start date, end date and sizing are part "
 "of the subscription and can be found in your contract."
@@ -63993,7 +64058,7 @@ msgid ""
 "configure the localizations %s."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:424
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:450
 #, python-format
 msgid ""
 "These values can be configured in the <a href=\"%s\">subscription "
@@ -64902,8 +64967,8 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:156
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:494
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:839
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:496
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:841
 msgid "This name will be used in the description of the service"
 msgstr ""
 
@@ -65432,7 +65497,7 @@ msgstr ""
 msgid "This problem has been acknowledged."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:367
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:369
 msgid ""
 "This regex must match the <i>beginning</i> of the complete command line of "
 "the process including arguments.<br>When using groups, matches will be "
@@ -65450,7 +65515,7 @@ msgid ""
 "the task including arguments"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:442
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:444
 msgid ""
 "This regex must match the <i>beginning</i> of the complete control group "
 "information"
@@ -65462,7 +65527,7 @@ msgid ""
 "as reported by the agent"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:692
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:694
 msgid ""
 "This regex must match the <i>beginning</i> of the complete path of the "
 "process including arguments.<br>When using groups, matches will be "
@@ -65474,7 +65539,7 @@ msgid ""
 "manual check groups are aggregated"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:658
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:660
 msgid ""
 "This regex must match the <i>beginning</i> of the complete textual "
 "description of the process including arguments.<br>When using groups, "
@@ -65486,7 +65551,7 @@ msgid ""
 "*)$<br>In manual check groups are aggregated"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:404
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:406
 msgid "This regex must match the <i>beginning</i> of the complete username"
 msgstr ""
 
@@ -66310,13 +66375,13 @@ msgid ""
 "crit levels for packet loss, average roundtrip and standard deviation."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:819
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:821
 msgid ""
 "This ruleset defines criteria for SNMP processes base upon the HOST "
 "Resources MIB."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:783
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:785
 msgid ""
 "This ruleset defines criteria for automatically creating checks for running "
 "SNMP processes based upon the HOST Resource MIB and what is running when the "
@@ -66324,7 +66389,7 @@ msgid ""
 "the path of process within the matching criteria."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:559
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:561
 msgid ""
 "This ruleset defines criteria for automatically creating checks for running "
 "processes based upon what is running when the service discovery is done. "
@@ -67793,21 +67858,22 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1144
+#: ../cmk/gui/cee/ntop/pages.py:1208
 msgid "Top Application Traffic: Last Day View"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:1133
+#: ../cmk/gui/cee/ntop/pages.py:1197
 #, fuzzy
 msgid "Top Application Traffic: Last Hour View"
 msgstr "Adresă"
 
-#: ../cmk/gui/cee/ntop/pages.py:1131 ../cmk/gui/cee/ntop/pages.py:1142
+#: ../cmk/gui/cee/ntop/pages.py:1195 ../cmk/gui/cee/ntop/pages.py:1206
 #, fuzzy
 msgid "Top Local Talkers"
 msgstr "% / gamă"
 
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:159
+#: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:304
 msgid "Top Talkers"
 msgstr ""
 
@@ -67825,7 +67891,7 @@ msgstr ""
 msgid "Top of page handling"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:755
+#: ../cmk/gui/cee/ntop/connector.py:716
 #, python-format
 msgid "Top talkers not implemented for type: %s"
 msgstr ""
@@ -67873,8 +67939,9 @@ msgstr "Adaugă filtre"
 #: ../cmk/gui/plugins/metrics/cpu.py:661 ../cmk/gui/plugins/metrics/cpu.py:678
 #: ../cmk/gui/plugins/metrics/cpu.py:698 ../cmk/gui/plugins/metrics/cpu.py:713
 #: ../cmk/gui/cee/plugins/dashboard/event_bar_chart_dashlet.py:113
-#: ../cmk/gui/cee/ntop/pages.py:488 ../cmk/gui/cee/ntop/pages.py:614
-#: ../cmk/gui/cee/ntop/pages.py:921 ../cmk/gui/cee/ntop/pages.py:940
+#: ../cmk/gui/cee/ntop/pages.py:551 ../cmk/gui/cee/ntop/pages.py:677
+#: ../cmk/gui/cee/ntop/pages.py:984 ../cmk/gui/cee/ntop/pages.py:1003
+#: ../cmk/gui/cee/ntop/pages.py:1025 ../cmk/gui/cee/ntop/pages.py:1092
 msgid "Total"
 msgstr ""
 
@@ -67958,6 +68025,16 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/f5_bigip_snat.py:59
 msgid "Total Traffic Minimum"
 msgstr ""
+
+#: ../cmk/gui/cee/ntop/pages.py:655
+#, fuzzy
+msgid "Total Unique Hosts Contacts"
+msgstr "Numarul maxim de mesaje"
+
+#: ../cmk/gui/cee/ntop/pages.py:761
+#, fuzzy
+msgid "Total Unique Port Contacts"
+msgstr "Numarul maxim de mesaje"
 
 #: ../cmk/gui/plugins/wato/check_parameters/pdu_gude.py:26
 msgid "Total accumulated Active Energy of Power Channel"
@@ -68475,11 +68552,11 @@ msgstr "Întreruperi adhoc"
 msgid "Traffic"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:460
+#: ../cmk/gui/cee/ntop/pages.py:523
 msgid "Traffic Received"
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/pages.py:460
+#: ../cmk/gui/cee/ntop/pages.py:523
 msgid "Traffic Sent"
 msgstr ""
 
@@ -68769,7 +68846,7 @@ msgstr "trei nivele"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_retry_count.py:28
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_execution.py:28
 #: ../cmk/gui/cee/reporting.py:955 ../cmk/gui/cee/reporting.py:976
-#: ../cmk/gui/cee/ntop/pages.py:1396
+#: ../cmk/gui/cee/ntop/pages.py:1483
 msgid "Type"
 msgstr ""
 
@@ -69258,7 +69335,7 @@ msgid ""
 "settings</a>."
 msgstr ""
 
-#: ../cmk/gui/cee/ntop/connector.py:458
+#: ../cmk/gui/cee/ntop/connector.py:398
 #, python-format
 msgid ""
 "Unable to connect to instance %s. Please check the credentials under Global "
@@ -69544,7 +69621,7 @@ msgstr "Probleme"
 msgid "Unhandled service problems"
 msgstr "Adaugă Excepție"
 
-#: ../cmk/gui/cee/ntop/pages.py:1270
+#: ../cmk/gui/cee/ntop/pages.py:1334
 msgid "Unidirectional UDP Traffic"
 msgstr ""
 
@@ -69736,7 +69813,7 @@ msgstr "Reguli neaplicate"
 #: ../cmk/gui/plugins/dashboard/stats.py:165
 #: ../cmk/gui/plugins/visuals/filters.py:1748
 #: ../cmk/gui/cee/plugins/reporting/availability.py:399
-#: ../cmk/gui/cee/ntop/pages.py:489
+#: ../cmk/gui/cee/ntop/pages.py:552
 msgid "Unreachable"
 msgstr ""
 
@@ -71865,7 +71942,7 @@ msgstr ""
 msgid "User-ID attribute"
 msgstr "Atribute personalizate"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:396
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:398
 #, fuzzy
 msgid "User:"
 msgstr "Utilizator nou"
@@ -71906,7 +71983,7 @@ msgstr "Utilizator nou"
 #: ../cmk/gui/plugins/wato/utils/__init__.py:352
 #: ../cmk/gui/plugins/wato/notifications.py:714
 #: ../cmk/gui/wato/pages/users.py:783
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:571
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:597
 #: ../cmk/gui/cee/plugins/wato/dcd.py:213
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:31
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:35
@@ -72481,7 +72558,7 @@ msgstr "Cluster nou"
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:816
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:866
 #: ../cmk/gui/werks.py:544 ../cmk/gui/wato/pages/activate_changes.py:429
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:322
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:348
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:292
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:354
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:375
@@ -73206,7 +73283,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:53
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:97
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:189
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:752
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:754
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:37
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:46
@@ -73984,7 +74061,7 @@ msgstr "pornit"
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_cluster_stats.py:83
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_cluster_stats.py:99
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:92
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:747
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:749
 #: ../cmk/gui/plugins/wato/check_parameters/saprouter_cert_age.py:27
 #: ../cmk/gui/plugins/wato/check_parameters/ps_voltage.py:22
 #: ../cmk/gui/plugins/wato/check_parameters/ewon.py:68
@@ -75943,7 +76020,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:104
 #: ../cmk/gui/plugins/wato/bi_config.py:504 ../cmk/gui/wato/pages/sites.py:1269
 #: ../cmk/gui/wato/pages/sites.py:1278
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:335
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:361
 #, fuzzy
 msgid "Yes"
 msgstr "da"
@@ -76172,7 +76249,7 @@ msgid "You can assign icons or actions to services for the status GUI."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:138
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:232
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:234
 msgid ""
 "You can assign icons or actions to the found services in the status GUI."
 msgstr ""
@@ -78375,7 +78452,7 @@ msgstr ""
 msgid "enable this site"
 msgstr "%s acest site"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:531
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:557
 #, fuzzy
 msgid "end"
 msgstr "%d schimbări"
@@ -79878,10 +79955,10 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:93
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:98
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:103
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:743
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:748
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:753
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:758
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:745
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:750
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:755
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:760
 msgid "processes"
 msgstr ""
 
@@ -80288,7 +80365,7 @@ msgstr ""
 msgid "specify manually ->"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:524
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:550
 #, fuzzy
 msgid "start"
 msgstr "Setari"
@@ -80805,6 +80882,15 @@ msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr ""
 
 #, fuzzy
+#~ msgid "Could query available interfaces for host %s and user %s."
+#~ msgstr "Un titlu pentru view"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "SNMP settings"
+#~ msgstr "Setari"
+
+#, fuzzy
 #~ msgid "Checkmk: Snapins"
 #~ msgstr "(fără parametri)"
 
@@ -81075,9 +81161,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "On selected services"
 #~ msgstr "Afectat de serviciu"
-
-#~ msgid "Host Name"
-#~ msgstr "Numele Elementului"
 
 #~ msgid "The host name of the event"
 #~ msgstr "Numele elementului pentru eveniment"
@@ -81459,10 +81542,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cloned rule in ruleset '%s'"
 #~ msgstr "%d reguli wato în set-ul de reguli"
-
-#, fuzzy
-#~ msgid "Clustered Services"
-#~ msgstr "Setari"
 
 #, fuzzy
 #~ msgid "Collection count levels"
@@ -81860,10 +81939,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Host Contact"
-#~ msgstr " Se potriveste grupurilor: %s"
-
-#, fuzzy
-#~ msgid "Host Contact (Regex)"
 #~ msgstr " Se potriveste grupurilor: %s"
 
 #, fuzzy
