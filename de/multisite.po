@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
 "Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-03-04 14:06+0000\n"
+"PO-Revision-Date: 2021-03-04 14:09+0000\n"
 "Last-Translator: Ulrich Bschorer <ulrich.bschorer@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
@@ -46649,7 +46649,6 @@ msgstr ""
 "können Sie diese hier manuell anpassen."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:708
-#, fuzzy
 msgid ""
 "Per default, Checkmk tries to map the underlying Checkmk host to the Node "
 "Exporter host which contains either the Checkmk hostname, host address or "
@@ -46661,14 +46660,14 @@ msgid ""
 "apply to your setup."
 msgstr ""
 "Standardmäßig versucht Checkmk, den zugrundeliegenden Checkmk-Host auf den "
-"Node Exporter-Host abzubilden, der entweder den Checkmk-Hostnamen, die Host-"
+"Node-Exporter-Host abzubilden, der entweder den Checkmk-Hostnamen, die Host-"
 "Adresse oder \"localhost\" in seiner Endpunktadresse enthält. Die erstellten "
-"Dienste des gemappten Node Exporters werden dem Checkmk-Host zugewiesen. Ein "
-"Piggyback-Host für jeden Node-Exporter-Host wird erstellt, wenn keine der "
-"Optionen gültig ist. Diese Option ermöglicht es Ihnen, einen Ihrer Node-"
-"Exporter-Hosts explizit auf den zugrunde liegenden Checkmk-Host zuzuordnen. "
-"Dies kann verwendet werden, wenn die Standardoptionen nicht auf Ihre "
-"Einrichtung zutreffen."
+"Services des gemappten Node Exporters werden dem Checkmk-Host zugewiesen. Es "
+"wird ein Huckepack-Host für jeden Node Exporter-Host erstellt, wenn keine "
+"der Optionen gültig ist. Mit dieser Option können Sie einen Ihrer Node-"
+"Exporter-Hosts explizit dem zugrunde liegenden Checkmk-Host zuordnen. Dies "
+"kann verwendet werden, wenn die Standardoptionen nicht auf Ihre Einrichtung "
+"zutreffen."
 
 #: ../cmk/gui/plugins/userdb/user_attributes.py:224
 msgid "Per entry"
@@ -46788,50 +46787,36 @@ msgid "Percentage of HTTP 500/2/3/4 Errors"
 msgstr "HTTP 500/2/3/4 Fehler in Prozent"
 
 #: ../cmk/gui/plugins/metrics/aws.py:128
-#, fuzzy
-#| msgid "Upper percentual levels for Lambda user errors"
 msgid "Percentage of Lambda user errors"
-msgstr "Obere prozentuale Schwellen für Lambda-Benutzerfehler"
+msgstr "Prozentsatz der Lambda-Benutzerfehler"
 
 #: ../cmk/gui/plugins/metrics/nimble.py:64
-#, fuzzy
-#| msgid "Read IO operations per second"
 msgid "Percentage of Read I/O Operations per Latency Range"
-msgstr "Lesende IO-Operationen pro Sekunde"
+msgstr "Prozentsatz der Lese-E/A-Operationen pro Latenzzeitbereich"
 
 #: ../cmk/gui/plugins/metrics/nimble.py:83
-#, fuzzy
-#| msgid "Write IO operations per second"
 msgid "Percentage of Write I/O Operations per Latency Range"
-msgstr "Schreibende IO-Operationen pro Sekunde"
+msgstr "Prozentsatz der Schreib-E/A-Operationen pro Latenzbereich"
 
 #: ../cmk/gui/plugins/metrics/aws.py:754
-#, fuzzy
-#| msgid "Upper levels on percentage of allowed requests"
 msgid "Percentage of allowed requests"
-msgstr "Obere Schwellwerte für den prozentualen Anteil zugelassener Anfragen"
+msgstr "Prozentsatz der erlaubten Anfragen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/liebert_cooling.py:52
-#, fuzzy
-#| msgid "Percentage of maximum available connections"
 msgid "Percentage of available cooling capacity"
-msgstr "Prozentsatz von maximal verfügbaren Verbindungen"
+msgstr "Prozentsatz der verfügbaren Kühlleistung"
 
 #: ../cmk/gui/plugins/metrics/aws.py:760
-#, fuzzy
-#| msgid "Upper levels on percentage of blocked requests"
 msgid "Percentage of blocked requests"
-msgstr "Obere Schwellwerte für den prozentualen Anteil blockierter Anfragen"
+msgstr "Prozentsatz der blockierten Anfragen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jvm_tp.py:53
 msgid "Percentage of current threads busy in threadpool"
 msgstr "Prozentsatz von beschäftigten Threads im Threadpool"
 
 #: ../cmk/gui/plugins/wato/check_parameters/liebert_cooling_position.py:52
-#, fuzzy
-#| msgid "Percentage of queue length"
 msgid "Percentage of free cooling positions"
-msgstr "Prozentuale Länge der Schlange"
+msgstr "Prozentsatz der freien Kühlpositionen"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1312
 #, fuzzy
