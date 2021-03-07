@@ -1156,7 +1156,7 @@ msgstr ", date nu au fost primite în ultimele %.1f intervale de verificate"
 msgid ", the first match skips this rule pack"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:585
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:571
 msgid "-"
 msgstr ""
 
@@ -1249,12 +1249,12 @@ msgstr "randuri"
 msgid "1.0 - 2.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:596
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:582
 #, fuzzy
 msgid "1.000.000 Services"
 msgstr "servicii"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:597
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:583
 #, fuzzy
 msgid "1.500.000 Services"
 msgstr "servicii"
@@ -1295,7 +1295,7 @@ msgstr ""
 msgid "100.0 - 200.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:592
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:578
 #, fuzzy
 msgid "100.000 Services"
 msgstr "servicii"
@@ -1314,7 +1314,7 @@ msgstr ""
 msgid "12 Volt Output Upper Levels"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:588
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:574
 #, fuzzy
 msgid "12.000 Services"
 msgstr "servicii"
@@ -1323,7 +1323,7 @@ msgstr "servicii"
 msgid "15 minutes"
 msgstr "15 minute"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:589
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:575
 #, fuzzy
 msgid "18.000 Services"
 msgstr "servicii"
@@ -1338,12 +1338,12 @@ msgstr "%d zile în urmă"
 msgid "2.0 - 5.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:598
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:584
 #, fuzzy
 msgid "2.000.000 Services"
 msgstr "servicii"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:599
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:585
 #, fuzzy
 msgid "2.000.000+ Services"
 msgstr "servicii"
@@ -1356,7 +1356,7 @@ msgstr ""
 msgid "200.0 - 500.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:593
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:579
 #, fuzzy
 msgid "200.000 Services"
 msgstr "servicii"
@@ -1370,7 +1370,7 @@ msgstr "25 de ore"
 msgid "3 months"
 msgstr "2 ore"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:586
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:572
 #, fuzzy
 msgid "3.000 Services"
 msgstr "servicii"
@@ -1390,12 +1390,12 @@ msgstr ""
 msgid "30 Minutes"
 msgstr "5 minute"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:590
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:576
 #, fuzzy
 msgid "30.000 Services"
 msgstr "servicii"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:594
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:580
 #, fuzzy
 msgid "300.000 Services"
 msgstr "servicii"
@@ -1465,7 +1465,7 @@ msgstr ""
 msgid "500.0+ ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:595
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:581
 #, fuzzy
 msgid "500.000 Services"
 msgstr "servicii"
@@ -1475,7 +1475,7 @@ msgstr "servicii"
 msgid "6 months"
 msgstr "2 ore"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:591
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:577
 #, fuzzy
 msgid "60.000 Services"
 msgstr "servicii"
@@ -1500,7 +1500,7 @@ msgstr ""
 msgid "7-segment display uid"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:587
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:573
 #, fuzzy
 msgid "7.000 Services"
 msgstr "servicii"
@@ -1727,14 +1727,14 @@ msgid ""
 "usernames, mail adresses or phone numbers and are marked with 'M'."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:840
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:828
 #, python-format
 msgid ""
 "<br>Please add customer portal credentials and subscription details in the "
 "<a href=\"%s\">subscription settings<a>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:848
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:836
 #, python-format
 msgid ""
 "<br>Please add subscription details in the <a href=\"%s\">subscription "
@@ -3883,6 +3883,15 @@ msgstr ""
 msgid "Add all metrics of this graph to"
 msgstr "Adaugă acesta vedere la..."
 
+#: ../cmk/gui/plugins/visuals/filters.py:3148
+#, python-format
+msgid ""
+"Add all your Checkmk servers as monitored hosts to Checkmk to render this "
+"graph. Specifically, we are missing the 'Site [SITE] statistics' services of "
+"the following sites: %s. Either the corresponding Checkmk servers are not "
+"monitored at all, or you filtered them out by applying site filters."
+msgstr ""
+
 #: ../cmk/gui/wato/pages/custom_attributes.py:437
 #: ../cmk/gui/cee/plugins/wato/dcd.py:840
 #, fuzzy
@@ -3977,7 +3986,7 @@ msgstr "Adaugă Contoar"
 msgid "Add destination address"
 msgstr "Linii de header adiționale"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:563
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:549
 msgid "Add details manually"
 msgstr ""
 
@@ -9637,7 +9646,7 @@ msgstr ""
 msgid "CLOSING"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:373
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:359
 msgid "CMA"
 msgstr ""
 
@@ -10252,7 +10261,7 @@ msgid ""
 "Cannot display this view in matrix layout. You need at least two columns!"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:730
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:718
 msgid "Cannot download license usage report."
 msgstr ""
 
@@ -10427,7 +10436,7 @@ msgstr ""
 msgid "Cannot retrieve historic data with Nagios core"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:676
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:664
 #, python-format
 msgid "Cannot submit license usage report to the Checkmk license server '%s'."
 msgstr ""
@@ -12510,7 +12519,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/rulesets.py:1235
 #: ../cmk/gui/wato/pages/activate_changes.py:548
 #: ../cmk/gui/wato/pages/pattern_editor.py:272
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:483
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:469
 msgid "Comment"
 msgstr ""
 
@@ -16285,7 +16294,7 @@ msgstr "Numarul maxim de mesaje"
 msgid "Custom integrations"
 msgstr "Atribute personalizate"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:600
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:586
 #, fuzzy
 msgid "Custom limit"
 msgstr "Atribute personalizate"
@@ -16469,7 +16478,7 @@ msgstr ""
 msgid "Customer number of services in state WARN"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:613
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:599
 #, fuzzy
 msgid "Customer portal credentials"
 msgstr "trei nivele"
@@ -16482,6 +16491,11 @@ msgstr "Proprietatile Folderului"
 #: ../cmk/gui/cme/plugins/wato/managed.py:379
 #, fuzzy
 msgid "Customer report layout"
+msgstr "Proprietatile Folderului"
+
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:608
+#, fuzzy
+msgid "Customer shortcut"
 msgstr "Proprietatile Folderului"
 
 #: ../cmk/gui/cee/reporting.py:1099
@@ -20879,7 +20893,7 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/aws.py:370 ../cmk/gui/key_mgmt.py:429
 #: ../cmk/gui/wato/pages/fetch_agent_output.py:269
 #: ../cmk/gui/wato/pages/diagnostics.py:399
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:256
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:255
 msgid "Download"
 msgstr "Descarca"
 
@@ -20920,12 +20934,12 @@ msgstr ""
 msgid "Download filename"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:403
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:389
 #, fuzzy
 msgid "Download license usage report"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:417
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:403
 #, fuzzy
 #| msgid "Download"
 msgid "Download report"
@@ -21689,8 +21703,8 @@ msgstr ""
 msgid "Edit stored report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:208
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:508
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:207
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:494
 #, fuzzy
 msgid "Edit subscription settings"
 msgstr "foloseste descrierea"
@@ -21856,7 +21870,7 @@ msgid "Edited the %s '%s'"
 msgstr " si %s 's'."
 
 #: ../cmk/gui/crash_reporting.py:416 ../cmk/gui/werks.py:447
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:371
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:357
 #, fuzzy
 msgid "Edition"
 msgstr "Acțiune"
@@ -22535,11 +22549,6 @@ msgstr ""
 #: ../cmk/gui/plugins/views/painters.py:4148
 msgid "End"
 msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:576
-#, fuzzy
-msgid "End date"
-msgstr "Parola"
 
 #: ../cmk/gui/plugins/views/availability.py:1209
 msgid "End-Time"
@@ -24395,7 +24404,7 @@ msgstr ""
 msgid "Failed to start the job: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:699
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:687
 #, python-format
 msgid ""
 "Failed to submit the license usage report to the Checkmk license server '%s'."
@@ -25452,13 +25461,13 @@ msgstr ""
 msgid "For devices that measure smoke in percent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:458
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:444
 msgid ""
 "For downloading and submitting license usage reports you must add "
 "subscription details."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:462
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:448
 msgid ""
 "For downloading license usage reports you must add subscription details."
 msgstr ""
@@ -25526,7 +25535,7 @@ msgstr ""
 msgid "For specific SIDs"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:467
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:453
 msgid ""
 "For submitting license usage reports you must add customer portal "
 "credentials."
@@ -27331,15 +27340,6 @@ msgstr ""
 msgid ""
 "Here a maximum severity of the node state can be set. This severity is not "
 "exceeded, even if some of the childs have more severe states."
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:284
-msgid ""
-"Here we will show you a timeseries graph showing you the historical "
-"development of your license usage. To be able to see this graph, you first "
-"have to configure the subscription start, end and sizing in the subscription "
-"settings. Secondly you will have to wait for at least two days after "
-"creating a site or updating to 2.0."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/vnx_quotas.py:32
@@ -32835,12 +32835,12 @@ msgstr ""
 msgid "Invalid start time given"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:649
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:637
 #, fuzzy, python-format
 msgid "Invalid subscription %s date"
 msgstr "foloseste descrierea"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:654
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:642
 #, fuzzy
 msgid "Invalid subscription sizing"
 msgstr "foloseste descrierea"
@@ -34050,6 +34050,11 @@ msgstr "Numele Elementului"
 msgid "Last result"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:290
+#, fuzzy
+msgid "Last samples"
+msgstr "Setari"
+
 #: ../cmk/gui/wato/pages/users.py:383
 msgid "Last seen"
 msgstr ""
@@ -35017,9 +35022,9 @@ msgid "License state"
 msgstr "Stare adiministrativă"
 
 #: ../cmk/gui/plugins/metrics/application.py:198
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:133
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:202
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:249
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:132
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:201
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:248
 #, fuzzy
 msgid "License usage"
 msgstr "% utilizare"
@@ -39160,15 +39165,6 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr ""
 
-#: ../cmk/gui/plugins/visuals/filters.py:3146
-#, python-format
-msgid ""
-"Missing 'Site [SITE] statistics' service of the following sites: %s. Either "
-"the corresponding Checkmk servers are not monitored at all, or you filtered "
-"them out by applying site filters. Until this is fixed, we are unable to "
-"render."
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1176
 msgid "Missing Prerequisite"
 msgstr ""
@@ -40173,7 +40169,7 @@ msgstr ""
 msgid "NTLS Links"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:374
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:360
 msgid "NTOP"
 msgstr ""
 
@@ -41174,7 +41170,7 @@ msgstr "Editeaza regulile de loguri"
 #: ../cmk/gui/plugins/wato/bi_config.py:504 ../cmk/gui/backup.py:1042
 #: ../cmk/gui/wato/pages/sites.py:1269 ../cmk/gui/logwatch.py:78
 #: ../cmk/gui/logwatch.py:168 ../cmk/gui/logwatch.py:285
-#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:383
+#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:369
 msgid "No"
 msgstr ""
 
@@ -42770,12 +42766,12 @@ msgstr ""
 msgid "Number of entries"
 msgstr "Cluster nou"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:376
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:362
 #, fuzzy
 msgid "Number of excluded hosts"
 msgstr " pentru elementul %s"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:378
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:364
 #, fuzzy
 msgid "Number of excluded services"
 msgstr "Numarul maxim de mesaje"
@@ -42831,7 +42827,7 @@ msgid "Number of hops"
 msgstr "Numele elementului pentru eveniment"
 
 #: ../cmk/gui/plugins/wato/check_parameters/esx_vsphere_objects_count.py:32
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:375
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:361
 #, fuzzy
 msgid "Number of hosts"
 msgstr " pentru elementul %s"
@@ -43097,7 +43093,7 @@ msgid "Number of send packets per report"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:2637
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:377
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:363
 msgid "Number of services"
 msgstr ""
 
@@ -45606,7 +45602,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/notifications.py:592
 #: ../cmk/gui/wato/pages/users.py:408
 #: ../cmk/gui/wato/pages/password_store.py:147
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:623
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:611
 #: ../cmk/gui/cee/plugins/wato/syncsmtp.py:49
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:101
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:80
@@ -46354,9 +46350,19 @@ msgstr ""
 msgid "Period"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:562
+#, fuzzy
+msgid "Period end date"
+msgstr "foloseste descrierea"
+
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:5185
 msgid "Period for outdated piggybacked host data"
 msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:555
+#, fuzzy
+msgid "Period start date"
+msgstr "Numele Elementului"
 
 #: ../cmk/gui/plugins/views/painters.py:933
 #, fuzzy
@@ -46736,7 +46742,7 @@ msgstr ""
 msgid "Plaintext"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:372
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:358
 msgid "Platform"
 msgstr ""
 
@@ -50491,7 +50497,7 @@ msgstr "Optiuni tabel"
 msgid "Report preview generation of %s / %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:480
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:466
 #: ../cmk/gui/cee/reporting.py:3332
 #, fuzzy
 msgid "Report properties"
@@ -50510,7 +50516,7 @@ msgstr ""
 msgid "Report to schedule"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:224
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:223
 #, fuzzy
 msgid "Report usage"
 msgstr "% utilizare"
@@ -52160,7 +52166,7 @@ msgstr ""
 msgid "Same version as the monitoring site"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:368
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:354
 #, fuzzy
 msgid "Sample date"
 msgstr "Numele Elementului"
@@ -53243,7 +53249,7 @@ msgstr "Statusul Serverului"
 msgid "Server performance"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:369
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:355
 #, fuzzy
 msgid "Server timezone"
 msgstr "Numele Elementului"
@@ -53897,7 +53903,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/services.py:1196
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/cme/plugins/views/managed.py:209
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:601
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:587
 msgid "Services"
 msgstr ""
 
@@ -54493,7 +54499,7 @@ msgstr ""
 
 #: ../cmk/gui/wato/mkeventd.py:2998 ../cmk/gui/wato/pages/services.py:1217
 #: ../cmk/gui/wato/pages/services.py:1220
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:529
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:515
 msgid "Settings"
 msgstr "Setari"
 
@@ -54552,7 +54558,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/custom_attributes.py:455
 #: ../cmk/gui/wato/pages/global_settings.py:409 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:205
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:204
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:324
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:769
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:988
@@ -54963,7 +54969,7 @@ msgstr ""
 msgid "Show less"
 msgstr "afiseaza toate"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:145
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:144
 msgid "Show license usage information of Checkmk sites."
 msgstr ""
 
@@ -55693,7 +55699,7 @@ msgstr ""
 msgid "Site:"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:367
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:353
 #, fuzzy
 msgid "Sitename"
 msgstr "Nume nou"
@@ -55786,7 +55792,7 @@ msgstr ""
 msgid "Size, age and count of file groups (mk_filestats)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:583
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:569
 #, fuzzy
 msgid "Sizing"
 msgstr "foloseste descrierea"
@@ -56279,7 +56285,7 @@ msgid "Sorting"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:1014
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:561
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:547
 msgid "Source"
 msgstr ""
 
@@ -56995,11 +57001,6 @@ msgstr ""
 #: ../cmk/gui/plugins/userdb/user_attributes.py:109
 msgid "Start URL to display in main frame"
 msgstr ""
-
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:569
-#, fuzzy
-msgid "Start date"
-msgstr "Numele Elementului"
 
 #: ../cmk/gui/plugins/wato/omd_configuration.py:84
 msgid "Start during system boot"
@@ -58493,21 +58494,21 @@ msgstr ""
 msgid "Submit Report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:672
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:660
 #, fuzzy
 msgid "Submit license usage report"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:253
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:252
 msgid "Submit or download"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:402
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:388
 #, fuzzy
 msgid "Submit or download license usage report"
 msgstr "% utilizare"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:408
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:394
 #, fuzzy
 msgid "Submit report"
 msgstr "Adaugă element"
@@ -58516,7 +58517,7 @@ msgstr "Adaugă element"
 msgid "Submitting crash report..."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:690
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:678
 msgid "Submitting license usage report..."
 msgstr ""
 
@@ -58539,12 +58540,12 @@ msgstr "foloseste descrierea"
 msgid "Subscription Status"
 msgstr "foloseste descrierea"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:550
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:536
 #, fuzzy
 msgid "Subscription details"
 msgstr "foloseste descrierea"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:639
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:627
 #, fuzzy
 msgid "Subscription settings"
 msgstr "foloseste descrierea"
@@ -58602,7 +58603,7 @@ msgstr ""
 msgid "Successfully stored the report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:694
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:682
 #, fuzzy
 msgid "Successfully submitted the license usage report."
 msgstr "urca snapshot-uri nesigure"
@@ -58650,7 +58651,6 @@ msgstr ""
 #: ../cmk/gui/wato/pages/audit_log.py:286
 #: ../cmk/gui/wato/pages/audit_log.py:501
 #: ../cmk/gui/cee/plugins/reporting/availability.py:229
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:327
 #: ../cmk/gui/cee/plugins/views/sla.py:460
 msgid "Summary"
 msgstr ""
@@ -63270,18 +63270,18 @@ msgid ""
 "to customer <i>%s</i>. This violates the CME folder hierarchy."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:627
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:621
 msgid ""
-"The subscription details including start date, end date and sizing and the "
-"customer portal credentials are part of the subscription and can be found in "
-"your contract. The credentials are also used for downloading <a href="
-"\"https://checkmk.de/download\">Checkmk<a>."
+"The subscription details include period start date, end date and sizing. The "
+"customer portal credentials can be found in your subscription contract."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:633
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:615
 msgid ""
-"The subscription details including start date, end date and sizing are part "
-"of the subscription and can be found in your contract."
+"The subscription details include period start date, end date and sizing. The "
+"customer portal credentials can be found in your subscription contract. "
+"These are the same credentials also used for downloading <a href=\"https://"
+"checkmk.de/download\">Checkmk<a>."
 msgstr ""
 
 #: ../cmk/gui/mkeventd.py:332
@@ -64101,7 +64101,7 @@ msgid ""
 "configure the localizations %s."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:472
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:458
 #, python-format
 msgid ""
 "These values can be configured in the <a href=\"%s\">subscription "
@@ -64764,6 +64764,15 @@ msgstr ""
 
 #: ../cmk/gui/cee/reporting.py:855
 msgid "This is a front matter Template"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:283
+msgid ""
+"This is a placeholder for a timeseries graph displaying the historical "
+"development of your license usage. To be able to see this graph, you first "
+"have to configure the subscription start, end and sizing in the subscription "
+"settings. Secondly you will have to wait for at least two days after "
+"creating a site or updating to 2.0"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/notifications.py:208
@@ -72047,7 +72056,7 @@ msgstr "Utilizator nou"
 #: ../cmk/gui/plugins/wato/utils/__init__.py:352
 #: ../cmk/gui/plugins/wato/notifications.py:714
 #: ../cmk/gui/wato/pages/users.py:783
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:619
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:606
 #: ../cmk/gui/cee/plugins/wato/dcd.py:215
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:31
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:35
@@ -72622,7 +72631,7 @@ msgstr "Cluster nou"
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:816
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:866
 #: ../cmk/gui/werks.py:544 ../cmk/gui/wato/pages/activate_changes.py:429
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:370
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:356
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:292
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:354
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:375
@@ -76084,7 +76093,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:104
 #: ../cmk/gui/plugins/wato/bi_config.py:504 ../cmk/gui/wato/pages/sites.py:1269
 #: ../cmk/gui/wato/pages/sites.py:1278
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:383
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:369
 #, fuzzy
 msgid "Yes"
 msgstr "da"
@@ -78521,7 +78530,7 @@ msgstr ""
 msgid "enable this site"
 msgstr "%s acest site"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:579
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:565
 #, fuzzy
 msgid "end"
 msgstr "%d schimbări"
@@ -80439,7 +80448,7 @@ msgstr ""
 msgid "specify manually ->"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:572
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:558
 #, fuzzy
 msgid "start"
 msgstr "Setari"
@@ -80956,6 +80965,14 @@ msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr ""
 
 #, fuzzy
+#~ msgid "End date"
+#~ msgstr "Parola"
+
+#, fuzzy
+#~ msgid "Start date"
+#~ msgstr "Numele Elementului"
+
+#, fuzzy
 #~ msgid "Displays a sidebar element."
 #~ msgstr "Nivelurile maxime pentru voltaj"
 
@@ -81030,10 +81047,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Add subscription details"
-#~ msgstr "foloseste descrierea"
-
-#, fuzzy
-#~ msgid "Subscription end date"
 #~ msgstr "foloseste descrierea"
 
 #, fuzzy
@@ -81127,10 +81140,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Display range"
 #~ msgstr "% / gamă"
-
-#, fuzzy
-#~ msgid "Last state"
-#~ msgstr "Setari"
 
 #, fuzzy
 #~ msgid "Metric Status"
