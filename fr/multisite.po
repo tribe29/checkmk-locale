@@ -108,18 +108,18 @@ msgstr ""
 msgid " Its directory is <tt>%s</tt>."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1894
+#: ../cmk/gui/wato/mkeventd.py:1896
 #, python-format
 msgid " Match groups: %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4353
+#: ../cmk/gui/wato/mkeventd.py:4355
 msgid ""
 " Note: if no contact information is configured for a service then that of "
 "the host will be used instead (if configured)."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4331
+#: ../cmk/gui/wato/mkeventd.py:4333
 msgid ""
 " Note: if no service level is configured for a service then that of the host "
 "will be used instead (if configured)."
@@ -447,7 +447,7 @@ msgstr ""
 msgid "%d HTTP proxy servers configured"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3512
+#: ../cmk/gui/wato/mkeventd.py:3514
 #, python-format
 msgid "%d actions"
 msgstr ""
@@ -489,7 +489,7 @@ msgid "%d errors occured:"
 msgstr ""
 
 #: ../cmk/gui/plugins/dashboard/failed_notifications.py:93
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:447
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:438
 #, python-format
 msgid "%d failed notifications"
 msgstr ""
@@ -538,12 +538,22 @@ msgstr "%d Werks incompatibles non-acquittées"
 msgid "%d rows"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:490
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:473
 #, python-format
 msgid "%d site is %s."
 msgid_plural "%d sites are %s."
 msgstr[0] ""
 msgstr[1] ""
+
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:333
+#, python-format
+msgid "%d sites %s: %s"
+msgstr ""
+
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:345
+#, python-format
+msgid "%d sites without history: %s"
+msgstr ""
 
 #: ../cmk/gui/wato/pages/sites.py:718
 #, python-format
@@ -599,12 +609,12 @@ msgid ""
 "%s\n"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2919
+#: ../cmk/gui/wato/mkeventd.py:2921
 #, python-format
 msgid "%s - Dependency missing"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2921
+#: ../cmk/gui/wato/mkeventd.py:2923
 #, python-format
 msgid "%s - Failed to compile (%s)"
 msgstr ""
@@ -888,7 +898,7 @@ msgid ""
 "&copy; <a target=\"_blank\" href=\"https://checkmk.com\">tribe29 GmbH</a>"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1595 ../cmk/gui/wato/mkeventd.py:1895
+#: ../cmk/gui/wato/mkeventd.py:1597 ../cmk/gui/wato/mkeventd.py:1897
 msgid "&lt;None&gt;"
 msgstr ""
 
@@ -999,7 +1009,7 @@ msgstr ""
 msgid "(disabled)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4017
+#: ../cmk/gui/wato/mkeventd.py:4019
 msgid "(don't send notifications to Event Console)"
 msgstr ""
 
@@ -1052,7 +1062,7 @@ msgstr ""
 msgid "(no title)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1905
+#: ../cmk/gui/wato/mkeventd.py:1907
 msgid "(none)"
 msgstr ""
 
@@ -1076,7 +1086,7 @@ msgstr ""
 msgid "(select target folder)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:250 ../cmk/gui/wato/mkeventd.py:1935
+#: ../cmk/gui/wato/mkeventd.py:250 ../cmk/gui/wato/mkeventd.py:1937
 msgid "(set by message text)"
 msgstr ""
 
@@ -1084,7 +1094,7 @@ msgstr ""
 msgid "(set by syslog)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1934
+#: ../cmk/gui/wato/mkeventd.py:1936
 msgid "(syslog)"
 msgstr ""
 
@@ -1101,7 +1111,7 @@ msgstr ""
 msgid "(unused)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1598
+#: ../cmk/gui/wato/mkeventd.py:1600
 msgid ", but it is overruled by a match in a previous rule pack."
 msgstr ""
 
@@ -1114,11 +1124,11 @@ msgstr ""
 msgid ", errors occured"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1592
+#: ../cmk/gui/wato/mkeventd.py:1594
 msgid ", first match is a cancelling match"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1594
+#: ../cmk/gui/wato/mkeventd.py:1596
 #, python-format
 msgid ", match groups of decisive match: %s"
 msgstr ""
@@ -1128,11 +1138,11 @@ msgstr ""
 msgid ", no data has been received within the last %.1f check periods"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1588
+#: ../cmk/gui/wato/mkeventd.py:1590
 msgid ", the first match skips this rule pack"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:571
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:603
 msgid "-"
 msgstr ""
 
@@ -1223,13 +1233,13 @@ msgstr ""
 msgid "1.0 - 2.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:582
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:614
 #, fuzzy
 #| msgid "all services"
 msgid "1.000.000 Services"
 msgstr "tous les services"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:583
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:615
 #, fuzzy
 #| msgid "all services"
 msgid "1.500.000 Services"
@@ -1270,7 +1280,7 @@ msgstr ""
 msgid "100.0 - 200.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:578
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:610
 #, fuzzy
 #| msgid "all services"
 msgid "100.000 Services"
@@ -1290,7 +1300,7 @@ msgstr ""
 msgid "12 Volt Output Upper Levels"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:574
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:606
 #, fuzzy
 #| msgid "all services"
 msgid "12.000 Services"
@@ -1300,7 +1310,7 @@ msgstr "tous les services"
 msgid "15 minutes"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:575
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:607
 #, fuzzy
 #| msgid "all services"
 msgid "18.000 Services"
@@ -1314,13 +1324,13 @@ msgstr ""
 msgid "2.0 - 5.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:584
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:616
 #, fuzzy
 #| msgid "all services"
 msgid "2.000.000 Services"
 msgstr "tous les services"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:585
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:617
 #, fuzzy
 #| msgid "all services"
 msgid "2.000.000+ Services"
@@ -1334,7 +1344,7 @@ msgstr ""
 msgid "200.0 - 500.0 ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:579
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:611
 #, fuzzy
 #| msgid "all services"
 msgid "200.000 Services"
@@ -1348,7 +1358,7 @@ msgstr ""
 msgid "3 months"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:572
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:604
 #, fuzzy
 #| msgid "all services"
 msgid "3.000 Services"
@@ -1368,13 +1378,13 @@ msgstr ""
 msgid "30 Minutes"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:576
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:608
 #, fuzzy
 #| msgid "all services"
 msgid "30.000 Services"
 msgstr "tous les services"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:580
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:612
 #, fuzzy
 #| msgid "all services"
 msgid "300.000 Services"
@@ -1445,7 +1455,7 @@ msgstr ""
 msgid "500.0+ ms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:581
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:613
 #, fuzzy
 #| msgid "all services"
 msgid "500.000 Services"
@@ -1455,7 +1465,7 @@ msgstr "tous les services"
 msgid "6 months"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:577
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:609
 #, fuzzy
 #| msgid "all services"
 msgid "60.000 Services"
@@ -1481,7 +1491,7 @@ msgstr ""
 msgid "7-segment display uid"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:573
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:605
 #, fuzzy
 #| msgid "all services"
 msgid "7.000 Services"
@@ -1692,14 +1702,14 @@ msgid ""
 "usernames, mail adresses or phone numbers and are marked with 'M'."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:828
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:860
 #, python-format
 msgid ""
 "<br>Please add customer portal credentials and subscription details in the "
 "<a href=\"%s\">subscription settings<a>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:836
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:868
 #, python-format
 msgid ""
 "<br>Please add subscription details in the <a href=\"%s\">subscription "
@@ -2144,7 +2154,7 @@ msgid ""
 "counters instead."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1527
+#: ../cmk/gui/dashboard.py:1530
 msgid ""
 "A dashboard can have an optional context. It can for example be restricted "
 "to display only information of a single host or for a set of services "
@@ -2173,7 +2183,7 @@ msgstr ""
 msgid "A descriptive title for this rule pack"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3425
+#: ../cmk/gui/wato/mkeventd.py:3427
 msgid "A descriptive title of this action."
 msgstr ""
 
@@ -2242,11 +2252,11 @@ msgstr ""
 msgid "A large clock showing the current time of the web server"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1299
+#: ../cmk/gui/plugins/views/inventory.py:1313
 msgid "A list of all hosts with some CPU related inventory data"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1347
+#: ../cmk/gui/plugins/views/inventory.py:1361
 msgid ""
 "A list of all hosts with statistics about total, used and free networking "
 "interfaces"
@@ -2316,11 +2326,11 @@ msgid ""
 "is running."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2078
+#: ../cmk/gui/wato/mkeventd.py:2080
 msgid "A rule pack with this ID already exists."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2209
+#: ../cmk/gui/wato/mkeventd.py:2211
 #, python-format
 msgid "A rule with this ID already exists in rule pack <b>%s</b>."
 msgstr ""
@@ -2341,7 +2351,7 @@ msgid ""
 "which other recipients were notified."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4299
+#: ../cmk/gui/wato/mkeventd.py:4301
 #, python-format
 msgid ""
 "A service level is a number that describes the business impact of a host or "
@@ -2434,7 +2444,7 @@ msgstr ""
 msgid "A unique ID of this BI pack."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3416
+#: ../cmk/gui/wato/mkeventd.py:3418
 msgid ""
 "A unique ID of this action that is used as an internal reference in the "
 "configuration. Changing the ID is not possible if still rules refer to this "
@@ -2468,12 +2478,12 @@ msgstr ""
 msgid "A value in seconds"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1027
+#: ../cmk/gui/plugins/views/inventory.py:1041
 #, python-format
 msgid "A view for searching in the inventory data for %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1056
+#: ../cmk/gui/plugins/views/inventory.py:1070
 #, python-format
 msgid "A view for the %s of one host"
 msgstr ""
@@ -3091,11 +3101,11 @@ msgstr ""
 msgid "Access to NagVis Maps"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3178
+#: ../cmk/gui/wato/mkeventd.py:3180
 msgid "Access to event status via TCP"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4246
+#: ../cmk/gui/wato/mkeventd.py:4248
 msgid "Access to the Event Console"
 msgstr ""
 
@@ -3103,11 +3113,11 @@ msgstr ""
 msgid "Access to the setup menu with only icons (saves space)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4267
+#: ../cmk/gui/wato/mkeventd.py:4269
 msgid "Access via TCP"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4275
+#: ../cmk/gui/wato/mkeventd.py:4277
 msgid "Access via UNIX socket"
 msgstr ""
 
@@ -3201,13 +3211,13 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/mkeventd.py:907
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1074
-#: ../cmk/gui/wato/mkeventd.py:3410 ../cmk/gui/wato/mkeventd.py:3567
+#: ../cmk/gui/wato/mkeventd.py:3412 ../cmk/gui/wato/mkeventd.py:3569
 #: ../cmk/gui/wato/pages/audit_log.py:500 ../cmk/gui/cee/reporting.py:1498
 #: ../cmk/gui/cee/reporting.py:1811
 msgid "Action"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3415
+#: ../cmk/gui/wato/mkeventd.py:3417
 msgid "Action ID"
 msgstr ""
 
@@ -3233,8 +3243,8 @@ msgstr "Erreur d'authentification"
 #: ../cmk/gui/backup.py:428 ../cmk/gui/backup.py:1008 ../cmk/gui/backup.py:1082
 #: ../cmk/gui/user_notify.py:95 ../cmk/gui/page_menu.py:425
 #: ../cmk/gui/key_mgmt.py:175 ../cmk/gui/wato/mkeventd.py:459
-#: ../cmk/gui/wato/mkeventd.py:1476 ../cmk/gui/wato/mkeventd.py:1867
-#: ../cmk/gui/wato/mkeventd.py:2695 ../cmk/gui/wato/pages/bulk_import.py:103
+#: ../cmk/gui/wato/mkeventd.py:1476 ../cmk/gui/wato/mkeventd.py:1869
+#: ../cmk/gui/wato/mkeventd.py:2697 ../cmk/gui/wato/pages/bulk_import.py:103
 #: ../cmk/gui/wato/pages/bulk_import.py:106 ../cmk/gui/wato/pages/ldap.py:160
 #: ../cmk/gui/wato/pages/icons.py:152 ../cmk/gui/wato/pages/users.py:340
 #: ../cmk/gui/wato/pages/tags.py:336 ../cmk/gui/wato/pages/tags.py:383
@@ -3262,7 +3272,7 @@ msgstr "Erreur d'authentification"
 msgid "Actions"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3509
+#: ../cmk/gui/wato/mkeventd.py:3511
 msgid "Actions (Emails & Scripts)"
 msgstr ""
 
@@ -3720,7 +3730,7 @@ msgstr ""
 msgid "Add LDAP connection"
 msgstr "Créer une nouvelle Connexion LDAP"
 
-#: ../cmk/gui/wato/mkeventd.py:2582
+#: ../cmk/gui/wato/mkeventd.py:2584
 msgid "Add MIBs"
 msgstr ""
 
@@ -3730,7 +3740,7 @@ msgstr ""
 msgid "Add NGINX instance"
 msgstr "Ajouter une instance NGINX"
 
-#: ../cmk/gui/wato/mkeventd.py:3792
+#: ../cmk/gui/wato/mkeventd.py:3794
 msgid "Add OID descriptions"
 msgstr ""
 
@@ -3880,7 +3890,7 @@ msgstr "Ajouter une macro personnalisée"
 msgid "Add destination address"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:549
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:581
 msgid "Add details manually"
 msgstr ""
 
@@ -3888,7 +3898,7 @@ msgstr ""
 msgid "Add diskstate rule"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:2163 ../cmk/gui/dashboard.py:1743
+#: ../cmk/gui/valuespec.py:2163 ../cmk/gui/dashboard.py:1746
 msgid "Add element"
 msgstr ""
 
@@ -4051,7 +4061,7 @@ msgstr ""
 msgid "Add new Service"
 msgstr "Chercher uniquement des nouveaux services"
 
-#: ../cmk/gui/wato/mkeventd.py:3513
+#: ../cmk/gui/wato/mkeventd.py:3515
 msgid "Add new action"
 msgstr ""
 
@@ -4090,7 +4100,7 @@ msgstr ""
 msgid "Add new project"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:106
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:97
 msgid "Add new row"
 msgstr ""
 
@@ -4135,7 +4145,7 @@ msgstr "Règle de notification %d supprimée"
 msgid "Add notification rule for user %s"
 msgstr "Règle de notification %d supprimée"
 
-#: ../cmk/gui/wato/mkeventd.py:2585
+#: ../cmk/gui/wato/mkeventd.py:2587
 msgid "Add one or multiple MIBs"
 msgstr ""
 
@@ -4198,8 +4208,8 @@ msgstr ""
 msgid "Add role rule"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/bi_config.py:572 ../cmk/gui/wato/mkeventd.py:1711
-#: ../cmk/gui/wato/mkeventd.py:1714 ../cmk/gui/wato/mkeventd.py:2169
+#: ../cmk/gui/plugins/wato/bi_config.py:572 ../cmk/gui/wato/mkeventd.py:1713
+#: ../cmk/gui/wato/mkeventd.py:1716 ../cmk/gui/wato/mkeventd.py:2171
 #: ../cmk/gui/wato/pages/notifications.py:462
 #: ../cmk/gui/wato/pages/notifications.py:910
 #: ../cmk/gui/wato/pages/notifications.py:976
@@ -4210,7 +4220,7 @@ msgid "Add rule"
 msgstr "Ajouter un dashlet"
 
 #: ../cmk/gui/wato/mkeventd.py:1272 ../cmk/gui/wato/mkeventd.py:1275
-#: ../cmk/gui/wato/mkeventd.py:2035
+#: ../cmk/gui/wato/mkeventd.py:2037
 msgid "Add rule pack"
 msgstr ""
 
@@ -4756,7 +4766,7 @@ msgid ""
 "day, week or bank (30 day) month."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3714
+#: ../cmk/gui/wato/mkeventd.py:3716
 msgid "After this number of days old logfile of event history will be deleted."
 msgstr ""
 
@@ -5377,7 +5387,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/painters.py:3724
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:83
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:2191
-#: ../cmk/gui/availability.py:1349 ../cmk/gui/wato/mkeventd.py:4199
+#: ../cmk/gui/availability.py:1349 ../cmk/gui/wato/mkeventd.py:4201
 #: ../cmk/gui/wato/pages/bulk_import.py:458 ../cmk/gui/wato/pages/users.py:427
 #: ../cmk/gui/wato/pages/sites.py:287 ../cmk/gui/wato/pages/sites.py:726
 #: ../cmk/gui/wato/pages/groups.py:174 ../cmk/gui/wato/pages/groups.py:272
@@ -6467,7 +6477,7 @@ msgstr "Interface réseau"
 msgid "Append Age to output"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3793
+#: ../cmk/gui/wato/mkeventd.py:3795
 msgid "Append descriptions of OIDs to message texts"
 msgstr ""
 
@@ -6480,7 +6490,7 @@ msgstr ""
 msgid "Application"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4225
+#: ../cmk/gui/wato/mkeventd.py:4227
 msgid "Application (regular expression)"
 msgstr ""
 
@@ -6669,7 +6679,7 @@ msgstr ""
 msgid "Archive events of hosts"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3535
+#: ../cmk/gui/wato/mkeventd.py:3537
 msgid "Archive messages that do not match any rule"
 msgstr ""
 
@@ -6816,7 +6826,7 @@ msgstr ""
 msgid "Assignment of services to service groups"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:493
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:476
 #, python-format
 msgid ""
 "Associated hosts, services and events are not included in the Tactical "
@@ -7225,7 +7235,7 @@ msgstr ""
 msgid "Automatic disk space cleanup"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3258
+#: ../cmk/gui/wato/mkeventd.py:3260
 msgid "Automatic fallback"
 msgstr ""
 
@@ -7242,7 +7252,7 @@ msgstr ""
 msgid "Automatic refresh"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3247
+#: ../cmk/gui/wato/mkeventd.py:3249
 msgid "Automatic takeover"
 msgstr ""
 
@@ -7448,7 +7458,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/mysql_innodb_io.py:49
 #: ../cmk/gui/plugins/wato/check_parameters/disk_io.py:47
 #: ../cmk/gui/plugins/metrics/graph_pdf.py:332
-#: ../cmk/gui/plugins/metrics/timeseries.py:194
+#: ../cmk/gui/plugins/metrics/timeseries.py:206
 #: ../cmk/gui/plugins/metrics/html_render.py:322
 #: ../cmk/gui/availability.py:1332
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:137
@@ -8008,11 +8018,11 @@ msgstr ""
 msgid "Background shading for rows"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1124
+#: ../cmk/gui/plugins/views/inventory.py:1138
 msgid "Backplane"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1125
+#: ../cmk/gui/plugins/views/inventory.py:1139
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:188
 msgid "Backplanes"
 msgstr ""
@@ -8418,7 +8428,7 @@ msgstr ""
 msgid "Bluecat NTP Settings"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3474
+#: ../cmk/gui/wato/mkeventd.py:3476
 msgid "Body"
 msgstr ""
 
@@ -8792,7 +8802,7 @@ msgstr ""
 msgid "Busy workers"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2925
+#: ../cmk/gui/wato/mkeventd.py:2927
 msgid "But there were errors:"
 msgstr ""
 
@@ -9351,7 +9361,7 @@ msgstr ""
 msgid "CLOSING"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:359
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:391
 msgid "CMA"
 msgstr ""
 
@@ -9400,7 +9410,7 @@ msgstr ""
 msgid "CPU Model"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1298
+#: ../cmk/gui/plugins/views/inventory.py:1312
 msgid "CPU Related Inventory of all Hosts"
 msgstr ""
 
@@ -9635,7 +9645,7 @@ msgstr ""
 #: ../cmk/gui/availability.py:146 ../cmk/gui/availability.py:162
 #: ../cmk/gui/availability.py:413 ../cmk/gui/availability.py:424
 #: ../cmk/gui/availability.py:435 ../cmk/gui/wato/mkeventd.py:247
-#: ../cmk/gui/wato/mkeventd.py:1932 ../cmk/gui/cme/plugins/views/managed.py:269
+#: ../cmk/gui/wato/mkeventd.py:1934 ../cmk/gui/cme/plugins/views/managed.py:269
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:147
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_eventlog.py:43
 #: ../cmk/gui/cee/ntop/pages.py:444 ../cmk/gui/cee/ntop/pages.py:467
@@ -9951,7 +9961,7 @@ msgid ""
 "Cannot display this view in matrix layout. You need at least two columns!"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:718
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:750
 msgid "Cannot download license usage report."
 msgstr ""
 
@@ -10010,17 +10020,17 @@ msgstr ""
 msgid "Cannot load %s: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1405
-#: ../cmk/gui/plugins/views/inventory.py:1897
+#: ../cmk/gui/plugins/views/inventory.py:1419
+#: ../cmk/gui/plugins/views/inventory.py:1911
 #, python-format
 msgid ""
 "Cannot load HW/SW inventory history entries %s. Please remove the corrupted "
 "files."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:816
-#: ../cmk/gui/plugins/views/inventory.py:894
-#: ../cmk/gui/plugins/views/inventory.py:1909
+#: ../cmk/gui/plugins/views/inventory.py:830
+#: ../cmk/gui/plugins/views/inventory.py:908
+#: ../cmk/gui/plugins/views/inventory.py:1923
 #, python-format
 msgid "Cannot load HW/SW inventory tree %s. Please remove the corrupted file."
 msgstr ""
@@ -10129,7 +10139,7 @@ msgstr ""
 msgid "Cannot retrieve historic data with Nagios core"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:664
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:696
 #, python-format
 msgid "Cannot submit license usage report to the Checkmk license server '%s'."
 msgstr ""
@@ -10367,7 +10377,7 @@ msgstr ""
 "Modifier le thème par défaut de l'interface utilisateur de votre "
 "installation Check_MK"
 
-#: ../cmk/gui/wato/mkeventd.py:2473
+#: ../cmk/gui/wato/mkeventd.py:2475
 #: ../cmk/gui/wato/pages/global_settings.py:467
 #, python-format
 msgid "Changed Configuration variable %s to %s."
@@ -10433,7 +10443,7 @@ msgstr ""
 msgid "Changed position of notification rule %d of user %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1812
+#: ../cmk/gui/wato/mkeventd.py:1814
 #, python-format
 msgid "Changed position of rule %s"
 msgstr ""
@@ -10474,7 +10484,7 @@ msgstr ""
 msgid "Changes"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1220
+#: ../cmk/gui/plugins/views/inventory.py:1234
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:877
 msgid "Channel"
 msgstr ""
@@ -10510,8 +10520,8 @@ msgstr "Aucune modification"
 msgid "Characters"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1118
-#: ../cmk/gui/plugins/views/inventory.py:1119
+#: ../cmk/gui/plugins/views/inventory.py:1132
+#: ../cmk/gui/plugins/views/inventory.py:1133
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:33
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:166
 #: ../cmk/gui/plugins/wato/check_parameters/ucs_bladecenter_chassis_voltage.py:75
@@ -10671,7 +10681,7 @@ msgstr ""
 msgid "Check current routing"
 msgstr "Agent Check_MK"
 
-#: ../cmk/gui/wato/mkeventd.py:4185
+#: ../cmk/gui/wato/mkeventd.py:4187
 msgid "Check event state in Event Console"
 msgstr ""
 
@@ -11107,7 +11117,7 @@ msgstr ""
 msgid "Checkmk helper usage"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1130
+#: ../cmk/gui/plugins/views/inventory.py:1144
 msgid "Checkmk site"
 msgstr ""
 
@@ -11119,7 +11129,7 @@ msgstr ""
 msgid "Checkmk site performance and settings"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1131
+#: ../cmk/gui/plugins/views/inventory.py:1145
 #, fuzzy
 #| msgid "Check Parameters"
 msgid "Checkmk sites"
@@ -11131,11 +11141,11 @@ msgstr "Paramètres du contrôle"
 msgid "Checkmk specific"
 msgstr "Spécifique à Check_MK"
 
-#: ../cmk/gui/plugins/views/inventory.py:1136
+#: ../cmk/gui/plugins/views/inventory.py:1150
 msgid "Checkmk version"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1137
+#: ../cmk/gui/plugins/views/inventory.py:1151
 #, fuzzy
 #| msgid "Check Plugins"
 msgid "Checkmk versions"
@@ -11331,7 +11341,7 @@ msgstr ""
 msgid "Choose if this rule applies to plugins or local checks"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3568
+#: ../cmk/gui/wato/mkeventd.py:3570
 msgid ""
 "Choose the action the Event Console should trigger once the limit is reached."
 msgstr ""
@@ -11372,7 +11382,7 @@ msgstr ""
 msgid "Choose the sidebar element you would like to show."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3449
+#: ../cmk/gui/wato/mkeventd.py:3451
 msgid "Choose the type of action to perform"
 msgstr ""
 
@@ -12085,7 +12095,7 @@ msgstr ""
 msgid "Com. buf. max/total"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1130
+#: ../cmk/gui/dashboard.py:1133
 #: ../cmk/gui/cee/plugins/dashboard/combined_graph.py:27
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:558
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1145
@@ -12174,7 +12184,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/rulesets.py:1235
 #: ../cmk/gui/wato/pages/activate_changes.py:548
 #: ../cmk/gui/wato/pages/pattern_editor.py:272
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:469
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:501
 msgid "Comment"
 msgstr ""
 
@@ -12645,7 +12655,7 @@ msgstr ""
 msgid "Configure restrictions manually"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3510
+#: ../cmk/gui/wato/mkeventd.py:3512
 msgid ""
 "Configure that possible actions that can be performed when a rule triggers "
 "and also manually by a user."
@@ -12790,7 +12800,7 @@ msgstr "Confirmer"
 msgid "Confirm aux tag deletion"
 msgstr "Confirmer la suppression d'hôte"
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:439
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:430
 #: ../cmk/gui/notifications.py:165
 msgid "Confirm failed notifications"
 msgstr ""
@@ -12839,7 +12849,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/active_checks.py:2050
 #: ../cmk/gui/plugins/wato/active_checks.py:2099
 #: ../cmk/gui/plugins/wato/active_checks.py:2271
-#: ../cmk/gui/wato/mkeventd.py:3238
+#: ../cmk/gui/wato/mkeventd.py:3240
 msgid "Connect Timeout"
 msgstr ""
 
@@ -12862,7 +12872,7 @@ msgstr ""
 msgid "Connect timeout"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3968
+#: ../cmk/gui/wato/mkeventd.py:3970
 msgid "Connect timeout to status socket of Event Console"
 msgstr ""
 
@@ -12890,7 +12900,7 @@ msgid ""
 "to validate the certificate provided by the LDAP server."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4250
+#: ../cmk/gui/wato/mkeventd.py:4252
 msgid "Connect to the local Event Console"
 msgstr ""
 
@@ -13320,7 +13330,7 @@ msgstr "Ajouter des informations additionnelles"
 msgid "Context information about this connection"
 msgstr ""
 
-#: ../cmk/gui/bi.py:551 ../cmk/gui/wato/mkeventd.py:1971
+#: ../cmk/gui/bi.py:551 ../cmk/gui/wato/mkeventd.py:1973
 #: ../cmk/gui/wato/pages/rulesets.py:1025
 #: ../cmk/gui/wato/pages/notifications.py:291
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:262
@@ -13336,7 +13346,7 @@ msgid "Context switches"
 msgstr ""
 
 #: ../cmk/gui/views.py:1248 ../cmk/gui/visuals.py:675
-#: ../cmk/gui/dashboard.py:1722 ../cmk/gui/cee/reporting.py:1310
+#: ../cmk/gui/dashboard.py:1725 ../cmk/gui/cee/reporting.py:1310
 #: ../cmk/gui/cee/reporting.py:1586
 msgid "Continue"
 msgstr ""
@@ -13437,11 +13447,11 @@ msgstr ""
 msgid "Copy Rules From Master"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1634
+#: ../cmk/gui/dashboard.py:1637
 msgid "Copy existing view"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1080
+#: ../cmk/gui/dashboard.py:1083
 msgid "Copy of existing view"
 msgstr ""
 
@@ -13873,7 +13883,7 @@ msgstr ""
 msgid "Create a copy of this notification rule"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/bi_config.py:838 ../cmk/gui/wato/mkeventd.py:1869
+#: ../cmk/gui/plugins/wato/bi_config.py:838 ../cmk/gui/wato/mkeventd.py:1871
 #: ../cmk/gui/wato/pages/rulesets.py:932
 msgid "Create a copy of this rule"
 msgstr ""
@@ -14191,7 +14201,7 @@ msgstr ""
 msgid "Created new connection to site %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2274
+#: ../cmk/gui/wato/mkeventd.py:2276
 #, python-format
 msgid "Created new event correlation rule with id %s"
 msgstr ""
@@ -14241,7 +14251,7 @@ msgstr "Propriétés de la règle %s dans le dossier %s modifiées"
 msgid "Created new rule in ruleset \"%s\" in folder \"%s\""
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2093
+#: ../cmk/gui/wato/mkeventd.py:2095
 #, python-format
 msgid "Created new rule pack with id %s"
 msgstr ""
@@ -14333,7 +14343,7 @@ msgid ""
 "Credentials for SNMPv3 without authentication and privacy (noAuthNoPriv)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3847
+#: ../cmk/gui/wato/mkeventd.py:3849
 msgid "Credentials for processing SNMP traps"
 msgstr ""
 
@@ -15560,7 +15570,7 @@ msgstr ""
 msgid "Current queue depth in %"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2365
+#: ../cmk/gui/wato/mkeventd.py:2367
 msgid "Current replication mode"
 msgstr ""
 
@@ -15581,7 +15591,7 @@ msgstr ""
 msgid "Current status of %s process"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2361
+#: ../cmk/gui/wato/mkeventd.py:2363
 msgid "Current status of local Event Console"
 msgstr ""
 
@@ -15610,11 +15620,11 @@ msgstr ""
 msgid "Currently disable execution of all rules in the pack"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3433
+#: ../cmk/gui/wato/mkeventd.py:3435
 msgid "Currently disable execution of this action"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3272
+#: ../cmk/gui/wato/mkeventd.py:3274
 msgid "Currently disable replication"
 msgstr ""
 
@@ -15785,7 +15795,7 @@ msgstr ""
 msgid "Custom footer links"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1121
+#: ../cmk/gui/dashboard.py:1124
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:34
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:90
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:188
@@ -15847,7 +15857,7 @@ msgstr ""
 msgid "Custom integrations"
 msgstr "Attributs personnalisés"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:586
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:618
 #, fuzzy
 #| msgid "Custom Attributes"
 msgid "Custom limit"
@@ -15956,7 +15966,7 @@ msgid "Customcheck"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/bi_config.py:1928 ../cmk/gui/wato/mkeventd.py:358
-#: ../cmk/gui/wato/mkeventd.py:1609 ../cmk/gui/wato/mkeventd.py:1910
+#: ../cmk/gui/wato/mkeventd.py:1611 ../cmk/gui/wato/mkeventd.py:1912
 #: ../cmk/gui/wato/pages/ldap.py:187 ../cmk/gui/wato/pages/users.py:391
 #: ../cmk/gui/cme/plugins/visuals/managed.py:54
 #: ../cmk/gui/cme/plugins/wato/managed.py:144
@@ -16033,7 +16043,7 @@ msgstr ""
 msgid "Customer number of services in state WARN"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:599
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:631
 #, fuzzy
 #| msgid "Customer Management"
 msgid "Customer portal credentials"
@@ -16047,7 +16057,7 @@ msgstr ""
 msgid "Customer report layout"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:608
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:640
 #, fuzzy
 #| msgid "All Dashboards"
 msgid "Customer shortcut"
@@ -16453,7 +16463,7 @@ msgstr ""
 msgid "DRBD shows up as"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1923
+#: ../cmk/gui/wato/mkeventd.py:1925
 msgid "DROP"
 msgstr ""
 
@@ -16496,7 +16506,7 @@ msgstr ""
 msgid "Dashboard"
 msgstr "Tous les Tableaux de Bord"
 
-#: ../cmk/gui/dashboard.py:1558
+#: ../cmk/gui/dashboard.py:1561
 msgid "Dashboard Properties"
 msgstr ""
 
@@ -16825,7 +16835,7 @@ msgstr ""
 msgid "Date range"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1459
+#: ../cmk/gui/plugins/views/inventory.py:1473
 #: ../cmk/gui/wato/pages/notifications.py:694
 msgid "Date/Time"
 msgstr ""
@@ -16894,7 +16904,7 @@ msgstr ""
 msgid "Debug mode"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3867
+#: ../cmk/gui/wato/mkeventd.py:3869
 msgid "Debug rule execution"
 msgstr ""
 
@@ -16958,7 +16968,7 @@ msgstr ""
 msgid "Deduplication shared capacity"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:473
+#: ../cmk/gui/plugins/views/inventory.py:474
 msgid "Default"
 msgstr ""
 
@@ -17260,7 +17270,7 @@ msgstr ""
 msgid "Delete %s number %d?"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2599
+#: ../cmk/gui/wato/mkeventd.py:2601
 #, fuzzy
 #| msgid "Delete host!"
 msgid "Delete MIBs"
@@ -17340,7 +17350,7 @@ msgstr ""
 msgid "Delete messages"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3575
+#: ../cmk/gui/wato/mkeventd.py:3577
 msgid "Delete oldest event, create new event"
 msgstr ""
 
@@ -17381,7 +17391,7 @@ msgstr ""
 msgid "Delete selected"
 msgstr "Supprimer le cluster"
 
-#: ../cmk/gui/wato/mkeventd.py:2600
+#: ../cmk/gui/wato/mkeventd.py:2602
 #, fuzzy
 #| msgid "Deleted user %s"
 msgid "Delete selected MIBs"
@@ -17414,7 +17424,7 @@ msgstr ""
 msgid "Delete this LDAP connection"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2701
+#: ../cmk/gui/wato/mkeventd.py:2703
 msgid "Delete this MIB"
 msgstr ""
 
@@ -17490,11 +17500,11 @@ msgstr ""
 msgid "Delete this role"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:107
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:98
 msgid "Delete this row"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/bi_config.py:860 ../cmk/gui/wato/mkeventd.py:1871
+#: ../cmk/gui/plugins/wato/bi_config.py:860 ../cmk/gui/wato/mkeventd.py:1873
 #: ../cmk/gui/wato/pages/rulesets.py:942
 msgid "Delete this rule"
 msgstr ""
@@ -17574,7 +17584,7 @@ msgstr ""
 msgid "Deleted LDAP connection %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2656
+#: ../cmk/gui/wato/mkeventd.py:2658
 #, python-format
 msgid "Deleted MIB %s"
 msgstr ""
@@ -17620,7 +17630,7 @@ msgstr ""
 msgid "Deleted rule #%d in ruleset \"%s\" in folder \"%s\""
 msgstr "Propriétés de la règle %s dans le dossier %s modifiées"
 
-#: ../cmk/gui/wato/mkeventd.py:1783
+#: ../cmk/gui/wato/mkeventd.py:1785
 #, python-format
 msgid "Deleted rule %s"
 msgstr ""
@@ -18099,7 +18109,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:427
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:928
 #: ../cmk/gui/visuals.py:966 ../cmk/gui/werks.py:308 ../cmk/gui/key_mgmt.py:192
-#: ../cmk/gui/wato/mkeventd.py:1967 ../cmk/gui/wato/mkeventd.py:3821
+#: ../cmk/gui/wato/mkeventd.py:1969 ../cmk/gui/wato/mkeventd.py:3823
 #: ../cmk/gui/wato/pages/ldap.py:189 ../cmk/gui/wato/pages/rulesets.py:1022
 #: ../cmk/gui/wato/pages/rulesets.py:1229
 #: ../cmk/gui/wato/pages/check_catalog.py:508
@@ -18364,7 +18374,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/metrics/application.py:518
-#: ../cmk/gui/plugins/metrics/timeseries.py:190
+#: ../cmk/gui/plugins/metrics/timeseries.py:202
 msgid "Difference"
 msgstr ""
 
@@ -18522,7 +18532,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:102
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:163
 #: ../cmk/gui/backup.py:730 ../cmk/gui/wato/mkeventd.py:324
-#: ../cmk/gui/wato/mkeventd.py:3432
+#: ../cmk/gui/wato/mkeventd.py:3434
 msgid "Disable"
 msgstr ""
 
@@ -19021,7 +19031,7 @@ msgstr ""
 msgid "Display VM power state <i>additionally</i> on"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:121
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:112
 msgid "Display a message if sites are not connected"
 msgstr ""
 
@@ -19059,7 +19069,7 @@ msgstr ""
 msgid "Display average"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1564
+#: ../cmk/gui/dashboard.py:1567
 msgid "Display dashboard title"
 msgstr ""
 
@@ -19311,7 +19321,7 @@ msgstr ""
 msgid "Do a full service scan"
 msgstr "tous les services"
 
-#: ../cmk/gui/wato/mkeventd.py:3231
+#: ../cmk/gui/wato/mkeventd.py:3233
 msgid "Do a replication every"
 msgstr ""
 
@@ -19780,7 +19790,7 @@ msgstr ""
 msgid "Do not monitor"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3439
+#: ../cmk/gui/wato/mkeventd.py:3441
 msgid "Do not offer this action as a command on open events"
 msgstr ""
 
@@ -19812,7 +19822,7 @@ msgstr ""
 msgid "Do not rotate based on the time"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4058
+#: ../cmk/gui/wato/mkeventd.py:4060
 msgid "Do not send to remote host"
 msgstr ""
 
@@ -19832,7 +19842,7 @@ msgstr ""
 msgid "Do not transfer context"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3786
+#: ../cmk/gui/wato/mkeventd.py:3788
 msgid "Do not translate SNMP traps"
 msgstr ""
 
@@ -19925,7 +19935,7 @@ msgstr ""
 msgid "Do you really want to delete the LDAP connection <b>%s</b>?"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2699
+#: ../cmk/gui/wato/mkeventd.py:2701
 #, python-format
 msgid "Do you really want to delete the MIB file <b>%s</b>?"
 msgstr ""
@@ -19980,7 +19990,7 @@ msgstr ""
 msgid "Do you really want to delete the role %s?"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1852
+#: ../cmk/gui/wato/mkeventd.py:1854
 #, python-format
 msgid "Do you really want to delete the rule <b>%s</b> <i>%s</i>?"
 msgstr ""
@@ -20003,7 +20013,7 @@ msgstr ""
 msgid "Do you really want to delete the selected %s?"
 msgstr "Voulez-vous vraiment continuer ?"
 
-#: ../cmk/gui/wato/mkeventd.py:2606
+#: ../cmk/gui/wato/mkeventd.py:2608
 #, fuzzy
 #| msgid "Do you really want to proceed?"
 msgid "Do you really want to delete the selected MIBs?"
@@ -20121,7 +20131,7 @@ msgid ""
 "your environment in an undefined state."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2390
+#: ../cmk/gui/wato/mkeventd.py:2392
 #, fuzzy
 #| msgid "Do you really want to proceed?"
 msgid "Do you really want to switch the event daemon mode?"
@@ -20140,13 +20150,13 @@ msgid "Docker Disk Usage Count"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin.py:4300
-#: ../cmk/gui/plugins/views/inventory.py:1099
-#: ../cmk/gui/plugins/views/inventory.py:1100
+#: ../cmk/gui/plugins/views/inventory.py:1113
+#: ../cmk/gui/plugins/views/inventory.py:1114
 msgid "Docker containers"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1093
-#: ../cmk/gui/plugins/views/inventory.py:1094
+#: ../cmk/gui/plugins/views/inventory.py:1107
+#: ../cmk/gui/plugins/views/inventory.py:1108
 msgid "Docker images"
 msgstr ""
 
@@ -20380,13 +20390,13 @@ msgstr ""
 msgid "Download filename"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:389
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:421
 #, fuzzy
 #| msgid "Allowed states:"
 msgid "Download license usage report"
 msgstr "États autorisés :"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:403
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:435
 #, fuzzy
 #| msgid "Allowed states:"
 msgid "Download report"
@@ -20791,7 +20801,7 @@ msgstr ""
 msgid "EXITED"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3834
+#: ../cmk/gui/wato/mkeventd.py:3836
 msgid ""
 "Each SNMPv3 device has it's own engine ID. This is normally automatically "
 "generated, but can also be configured manually for some devices. As the "
@@ -20888,7 +20898,7 @@ msgstr ""
 msgid "Edit BI Pack %s"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1465
+#: ../cmk/gui/dashboard.py:1468
 msgid "Edit Dashboards"
 msgstr ""
 
@@ -20989,13 +20999,13 @@ msgstr "Ajouter cette métrique à un graphique personnalisé"
 msgid "Edit customer %s"
 msgstr "Utilisateur %s modifié"
 
-#: ../cmk/gui/dashboard.py:1481
+#: ../cmk/gui/dashboard.py:1484
 #, fuzzy
 #| msgid "All Dashboards"
 msgid "Edit dashboard"
 msgstr "Tous les Tableaux de Bord"
 
-#: ../cmk/gui/sidebar.py:706 ../cmk/gui/dashboard.py:1778
+#: ../cmk/gui/sidebar.py:706 ../cmk/gui/dashboard.py:1781
 msgid "Edit element"
 msgstr ""
 
@@ -21071,7 +21081,7 @@ msgstr ""
 msgid "Edit profile"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1731
+#: ../cmk/gui/wato/mkeventd.py:1733
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:282
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:220
 #: ../cmk/gui/cee/reporting.py:1042 ../cmk/gui/pagetypes.py:693
@@ -21102,12 +21112,12 @@ msgstr ""
 msgid "Edit role %s"
 msgstr "%s règle %s"
 
-#: ../cmk/gui/wato/mkeventd.py:2170
+#: ../cmk/gui/wato/mkeventd.py:2172
 #, python-format
 msgid "Edit rule %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2036
+#: ../cmk/gui/wato/mkeventd.py:2038
 #, python-format
 msgid "Edit rule pack %s"
 msgstr ""
@@ -21140,7 +21150,7 @@ msgid "Edit stored report"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:207
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:494
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:526
 #, fuzzy
 #| msgid "Site status"
 msgid "Edit subscription settings"
@@ -21227,7 +21237,7 @@ msgstr ""
 msgid "Edit this report"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/bi_config.py:834 ../cmk/gui/wato/mkeventd.py:1868
+#: ../cmk/gui/plugins/wato/bi_config.py:834 ../cmk/gui/wato/mkeventd.py:1870
 #: ../cmk/gui/wato/pages/rulesets.py:920
 #: ../cmk/gui/wato/pages/pattern_editor.py:285
 msgid "Edit this rule"
@@ -21302,7 +21312,7 @@ msgid "Edited the %s '%s'"
 msgstr ""
 
 #: ../cmk/gui/crash_reporting.py:416 ../cmk/gui/werks.py:447
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:357
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:389
 msgid "Edition"
 msgstr ""
 
@@ -21446,7 +21456,7 @@ msgstr ""
 msgid "Electrical voltage"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1886
+#: ../cmk/gui/dashboard.py:1889
 msgid "Element"
 msgstr ""
 
@@ -21505,7 +21515,7 @@ msgstr ""
 msgid "Emails containing %s per Second"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1609
+#: ../cmk/gui/dashboard.py:1612
 msgid "Embed existing view"
 msgstr ""
 
@@ -21718,7 +21728,7 @@ msgstr ""
 msgid "Enable replication"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3287
+#: ../cmk/gui/wato/mkeventd.py:3289
 msgid "Enable replication from a master"
 msgstr ""
 
@@ -21854,7 +21864,7 @@ msgid ""
 "children_system_time"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3282
+#: ../cmk/gui/wato/mkeventd.py:3284
 msgid ""
 "Enabling this option will create detailed log entries for all replication "
 "activities of the slave. If disabled only problems will be logged."
@@ -22054,7 +22064,7 @@ msgstr "services sélectionnés"
 msgid "Engaged Alerts"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3833
+#: ../cmk/gui/wato/mkeventd.py:3835
 msgid "Engine IDs (only needed for SNMPv3)"
 msgstr ""
 
@@ -22149,7 +22159,7 @@ msgstr ""
 msgid "Enterasys Switch: Temperature"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1041
+#: ../cmk/gui/dashboard.py:1044
 #, fuzzy
 #| msgid "Internal name"
 msgid "Enterprise feature"
@@ -22385,7 +22395,7 @@ msgstr ""
 
 #: ../cmk/gui/views.py:1337 ../cmk/gui/plugins/wato/omd_configuration.py:169
 #: ../cmk/gui/mkeventd.py:130 ../cmk/gui/wato/mkeventd.py:1257
-#: ../cmk/gui/wato/mkeventd.py:3093 ../cmk/gui/pagetypes.py:1832
+#: ../cmk/gui/wato/mkeventd.py:3095 ../cmk/gui/pagetypes.py:1832
 msgid "Event Console"
 msgstr ""
 
@@ -22409,13 +22419,13 @@ msgstr ""
 msgid "Event Console comment"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2430 ../cmk/gui/wato/mkeventd.py:2543
+#: ../cmk/gui/wato/mkeventd.py:2432 ../cmk/gui/wato/mkeventd.py:2545
 #, fuzzy
 #| msgid "use local configuration"
 msgid "Event Console configuration"
 msgstr "utiliser la configuration locale"
 
-#: ../cmk/gui/wato/mkeventd.py:2429
+#: ../cmk/gui/wato/mkeventd.py:2431
 #, python-format
 msgid "Event Console configuration matching '%s'"
 msgstr ""
@@ -22433,7 +22443,7 @@ msgid "Event Console enabled"
 msgstr ""
 
 #: ../cmk/gui/watolib/search.py:409 ../cmk/gui/wato/mkeventd.py:1245
-#: ../cmk/gui/wato/mkeventd.py:4473
+#: ../cmk/gui/wato/mkeventd.py:4475
 msgid "Event Console rule packages"
 msgstr ""
 
@@ -22441,14 +22451,14 @@ msgstr ""
 msgid "Event Console rule packs"
 msgstr ""
 
-#: ../cmk/gui/watolib/search.py:410 ../cmk/gui/wato/mkeventd.py:4105
-#: ../cmk/gui/wato/mkeventd.py:4147 ../cmk/gui/wato/mkeventd.py:4508
+#: ../cmk/gui/watolib/search.py:410 ../cmk/gui/wato/mkeventd.py:4107
+#: ../cmk/gui/wato/mkeventd.py:4149 ../cmk/gui/wato/mkeventd.py:4510
 #, fuzzy
 #| msgid "Event Console Settings"
 msgid "Event Console rules"
 msgstr "Paramètres de l'Event Console"
 
-#: ../cmk/gui/watolib/search.py:411 ../cmk/gui/wato/mkeventd.py:4533
+#: ../cmk/gui/watolib/search.py:411 ../cmk/gui/wato/mkeventd.py:4535
 #, fuzzy
 #| msgid "use local configuration"
 msgid "Event Console settings"
@@ -22462,19 +22472,19 @@ msgstr ""
 msgid "Event Console: Event History"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2500
+#: ../cmk/gui/wato/mkeventd.py:2502
 msgid "Event Console: Generic"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2509
+#: ../cmk/gui/wato/mkeventd.py:2511
 msgid "Event Console: Logging & Diagnose"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2518
+#: ../cmk/gui/wato/mkeventd.py:2520
 msgid "Event Console: SNMP traps"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2363
+#: ../cmk/gui/wato/mkeventd.py:2365
 msgid "Event Daemon is running."
 msgstr ""
 
@@ -22538,7 +22548,7 @@ msgstr ""
 msgid "Event creations"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3913
+#: ../cmk/gui/wato/mkeventd.py:3915
 msgid "Event database"
 msgstr ""
 
@@ -22567,11 +22577,11 @@ msgstr ""
 msgid "Event handlers"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3713
+#: ../cmk/gui/wato/mkeventd.py:3715
 msgid "Event history lifetime"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3693
+#: ../cmk/gui/wato/mkeventd.py:3695
 msgid "Event history logfile rotation"
 msgstr ""
 
@@ -22615,7 +22625,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/icons/mkeventd.py:23
 #: ../cmk/gui/plugins/views/mkeventd.py:1354
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:99 ../cmk/gui/mobile.py:149
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:90 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/cee/plugins/reporting/builtin.py:410
 msgid "Events"
 msgstr ""
@@ -22901,7 +22911,7 @@ msgstr ""
 msgid "Execute MRPE checks"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3484
+#: ../cmk/gui/wato/mkeventd.py:3486
 msgid "Execute Shell Script"
 msgstr ""
 
@@ -23455,7 +23465,7 @@ msgstr ""
 msgid "F_RJT frames"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/mkeventd.py:602 ../cmk/gui/wato/mkeventd.py:1951
+#: ../cmk/gui/plugins/views/mkeventd.py:602 ../cmk/gui/wato/mkeventd.py:1953
 msgid "Facility"
 msgstr ""
 
@@ -23562,7 +23572,7 @@ msgstr ""
 msgid "Failed to calculate a graph recipe."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2916
+#: ../cmk/gui/wato/mkeventd.py:2918
 #, python-format
 msgid "Failed to compile your module: %s"
 msgstr ""
@@ -23697,7 +23707,7 @@ msgid ""
 "modification."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2932
+#: ../cmk/gui/wato/mkeventd.py:2934
 #, python-format
 msgid "Failed to process your MIB file (%s): %s"
 msgstr ""
@@ -23762,7 +23772,7 @@ msgstr ""
 msgid "Failed to start the job: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:687
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:719
 #, python-format
 msgid ""
 "Failed to submit the license usage report to the Checkmk license server '%s'."
@@ -23789,7 +23799,7 @@ msgid ""
 "be writable."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2377
+#: ../cmk/gui/wato/mkeventd.py:2379
 msgid "Failed!"
 msgstr ""
 
@@ -23855,7 +23865,7 @@ msgstr ""
 msgid "Fallback email address for notifications"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3263
+#: ../cmk/gui/wato/mkeventd.py:3265
 msgid "Fallback if master comes back within"
 msgstr ""
 
@@ -23872,7 +23882,7 @@ msgstr ""
 msgid "Falling"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1154
+#: ../cmk/gui/plugins/views/inventory.py:1168
 msgid "Fan"
 msgstr ""
 
@@ -23891,7 +23901,7 @@ msgstr ""
 msgid "Fan speed of hardware devices (in percent)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1155
+#: ../cmk/gui/plugins/views/inventory.py:1169
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:254
 msgid "Fans"
 msgstr ""
@@ -24156,7 +24166,7 @@ msgstr ""
 msgid "Fileinfo"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/wato.py:32 ../cmk/gui/wato/mkeventd.py:2703
+#: ../cmk/gui/plugins/views/wato.py:32 ../cmk/gui/wato/mkeventd.py:2705
 #: ../cmk/gui/cee/plugins/reporting/utils.py:417
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_inotify.py:87
 #: ../cmk/gui/cee/reporting.py:1864
@@ -24253,8 +24263,8 @@ msgstr ""
 
 #: ../cmk/gui/views.py:916 ../cmk/gui/views.py:924
 #: ../cmk/gui/plugins/wato/bi_config.py:653 ../cmk/gui/mobile.py:338
-#: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/dashboard.py:1002
-#: ../cmk/gui/dashboard.py:1005 ../cmk/gui/page_menu.py:739
+#: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/dashboard.py:1005
+#: ../cmk/gui/dashboard.py:1008 ../cmk/gui/page_menu.py:739
 #: ../cmk/gui/wato/pages/audit_log.py:167 ../cmk/gui/node_visualization.py:207
 #: ../cmk/gui/node_visualization.py:210
 msgid "Filter"
@@ -24773,13 +24783,13 @@ msgstr ""
 msgid "For devices that measure smoke in percent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:444
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:476
 msgid ""
 "For downloading and submitting license usage reports you must add "
 "subscription details."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:448
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:480
 msgid ""
 "For downloading license usage reports you must add subscription details."
 msgstr ""
@@ -24847,7 +24857,7 @@ msgstr ""
 msgid "For specific SIDs"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:453
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:485
 msgid ""
 "For submitting license usage reports you must add customer portal "
 "credentials."
@@ -24929,7 +24939,7 @@ msgstr ""
 msgid "Force margin even at top of a page"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3534
+#: ../cmk/gui/wato/mkeventd.py:3536
 msgid "Force message archiving"
 msgstr ""
 
@@ -25181,7 +25191,7 @@ msgstr ""
 msgid "Found rule packs"
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/timeseries.py:191
+#: ../cmk/gui/plugins/metrics/timeseries.py:203
 msgid "Fraction"
 msgstr ""
 
@@ -25334,7 +25344,7 @@ msgstr ""
 msgid "From the top right of the page"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3325
+#: ../cmk/gui/wato/mkeventd.py:3327
 msgid ""
 "From time to time the eventd checks for messages that are expected to be "
 "seen on a regular base, for events that time out and yet for count periods "
@@ -25471,7 +25481,7 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:490
+#: ../cmk/gui/plugins/views/inventory.py:491
 msgid "Gateway route"
 msgstr ""
 
@@ -25549,7 +25559,7 @@ msgstr ""
 msgid "General instance status"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3909 ../cmk/gui/cee/plugins/wato/dcd.py:153
+#: ../cmk/gui/wato/mkeventd.py:3911 ../cmk/gui/cee/plugins/wato/dcd.py:153
 msgid "General messages"
 msgstr ""
 
@@ -26277,11 +26287,11 @@ msgid ""
 "(such as passwords for plugins)."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1142
+#: ../cmk/gui/plugins/views/inventory.py:1156
 msgid "HW container"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1143
+#: ../cmk/gui/plugins/views/inventory.py:1157
 msgid "HW containers"
 msgstr ""
 
@@ -26432,7 +26442,7 @@ msgstr ""
 msgid "Hardware"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:271
+#: ../cmk/gui/plugins/views/inventory.py:272
 msgid "Hardware & Software Tree"
 msgstr ""
 
@@ -27170,7 +27180,7 @@ msgid ""
 "contact group."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1583
+#: ../cmk/gui/dashboard.py:1586
 msgid ""
 "Here, you can configure additional properties of the dashboard. This is "
 "completely optional and only needed to create more advanced dashboards. For "
@@ -27255,7 +27265,7 @@ msgstr ""
 msgid "Hide folders without read permissions"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3438
+#: ../cmk/gui/wato/mkeventd.py:3440
 msgid "Hide from Status GUI"
 msgstr ""
 
@@ -27423,7 +27433,7 @@ msgstr ""
 msgid "History of scheduled downtimes"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1618 ../cmk/gui/wato/mkeventd.py:1961
+#: ../cmk/gui/wato/mkeventd.py:1620 ../cmk/gui/wato/mkeventd.py:1963
 msgid "Hits"
 msgstr ""
 
@@ -27725,7 +27735,7 @@ msgstr ""
 msgid "Host and service configuration rule"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4117 ../cmk/gui/wato/mkeventd.py:4151
+#: ../cmk/gui/wato/mkeventd.py:4119 ../cmk/gui/wato/mkeventd.py:4153
 msgid "Host and service rules related to the Event Console"
 msgstr ""
 
@@ -27790,7 +27800,7 @@ msgstr "utiliser la configuration locale"
 msgid "Host contact groups"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4363
+#: ../cmk/gui/wato/mkeventd.py:4365
 msgid "Host contact information"
 msgstr ""
 
@@ -27825,7 +27835,7 @@ msgstr "<b>Vous n'avez aucun rôle.</b>"
 msgid "Host down"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4169
+#: ../cmk/gui/wato/mkeventd.py:4171
 msgid "Host event limit"
 msgstr ""
 
@@ -27962,7 +27972,7 @@ msgstr ""
 msgid "Host labels: %d total (%d added)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3651
+#: ../cmk/gui/wato/mkeventd.py:3653
 msgid "Host limit"
 msgstr ""
 
@@ -28097,7 +28107,7 @@ msgstr ""
 msgid "Host report for multiple hosts"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4047
+#: ../cmk/gui/wato/mkeventd.py:4049
 msgid "Host running Event Console"
 msgstr ""
 
@@ -28118,7 +28128,7 @@ msgstr ""
 msgid "Host site and name"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4193
+#: ../cmk/gui/wato/mkeventd.py:4195
 msgid "Host specification"
 msgstr ""
 
@@ -28272,7 +28282,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:517
 #: ../cmk/gui/plugins/wato/active_checks.py:403
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:452
-#: ../cmk/gui/plugins/sidebar/search.py:976 ../cmk/gui/wato/mkeventd.py:4197
+#: ../cmk/gui/plugins/sidebar/search.py:976 ../cmk/gui/wato/mkeventd.py:4199
 #: ../cmk/gui/wato/pages/bulk_import.py:457
 #: ../cmk/gui/wato/pages/folders.py:821
 #: ../cmk/gui/wato/pages/host_diagnose.py:287
@@ -28307,7 +28317,7 @@ msgstr ""
 msgid "Hostname or IPv4 address for listener"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3556
+#: ../cmk/gui/wato/mkeventd.py:3558
 msgid "Hostname translation for incoming messages"
 msgstr ""
 
@@ -28327,11 +28337,11 @@ msgstr ""
 msgid "Hostname, red background if down or unreachable (Deprecated)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4256
+#: ../cmk/gui/wato/mkeventd.py:4258
 msgid "Hostname/IP address of Event Console:"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3215
+#: ../cmk/gui/wato/mkeventd.py:3217
 msgid "Hostname/IP address of Master Event Console:"
 msgstr ""
 
@@ -28359,7 +28369,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:202
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:206
 #: ../cmk/gui/plugins/sidebar/wato.py:352
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:95
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:86
 #: ../cmk/gui/plugins/metrics/network.py:1753 ../cmk/gui/watolib/search.py:398
 #: ../cmk/gui/watolib/hosts_and_folders.py:3082 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/wato/pages/bulk_import.py:92
@@ -28602,7 +28612,7 @@ msgstr ""
 msgid "Hours/Minutes out of range"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3324
+#: ../cmk/gui/wato/mkeventd.py:3326
 msgid "Housekeeping Interval"
 msgstr ""
 
@@ -28739,12 +28749,12 @@ msgstr ""
 msgid "IBM MQ (Linux)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1221
+#: ../cmk/gui/plugins/views/inventory.py:1235
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_channels.py:74
 msgid "IBM MQ Channels"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1219
+#: ../cmk/gui/plugins/views/inventory.py:1233
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_managers.py:84
 msgid "IBM MQ Managers"
 msgstr ""
@@ -28753,7 +28763,7 @@ msgstr ""
 msgid "IBM MQ Plugin"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1223
+#: ../cmk/gui/plugins/views/inventory.py:1237
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:150
 msgid "IBM MQ Queues"
 msgstr ""
@@ -28861,7 +28871,7 @@ msgstr ""
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1429
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1440 ../cmk/gui/visuals.py:600
 #: ../cmk/gui/werks.py:294 ../cmk/gui/werks.py:543
-#: ../cmk/gui/wato/mkeventd.py:1605 ../cmk/gui/wato/mkeventd.py:1907
+#: ../cmk/gui/wato/mkeventd.py:1607 ../cmk/gui/wato/mkeventd.py:1909
 #: ../cmk/gui/wato/pages/ldap.py:184 ../cmk/gui/wato/pages/users.py:363
 #: ../cmk/gui/wato/pages/tags.py:339 ../cmk/gui/wato/pages/tags.py:386
 #: ../cmk/gui/wato/pages/sites.py:725
@@ -28985,7 +28995,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:555
 #: ../cmk/gui/plugins/views/painters.py:2450
 #: ../cmk/gui/plugins/wato/datasource_programs.py:522
-#: ../cmk/gui/wato/mkeventd.py:4198 ../cmk/gui/wato/pages/host_diagnose.py:154
+#: ../cmk/gui/wato/mkeventd.py:4200 ../cmk/gui/wato/pages/host_diagnose.py:154
 #: ../cmk/gui/cee/ntop/pages.py:416
 msgid "IP address"
 msgstr ""
@@ -29088,7 +29098,7 @@ msgid ""
 "queue to get messages from the queue."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:480
+#: ../cmk/gui/plugins/views/inventory.py:481
 #: ../cmk/gui/plugins/visuals/filters.py:362
 #: ../cmk/gui/plugins/wato/active_checks.py:2340
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4182
@@ -29127,7 +29137,7 @@ msgstr ""
 msgid "IPv4/IPv6 dual-stack"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:482
+#: ../cmk/gui/plugins/views/inventory.py:483
 #: ../cmk/gui/plugins/visuals/filters.py:363
 #: ../cmk/gui/plugins/wato/active_checks.py:2341
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4183
@@ -29744,7 +29754,7 @@ msgid ""
 "and processes and their various states."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3151
+#: ../cmk/gui/wato/mkeventd.py:3153
 msgid ""
 "If you are running the Event Console as a non-root (such as in an OMD site) "
 "please choose port number greater than 1024."
@@ -29777,7 +29787,7 @@ msgid ""
 "b> delete the contents of that directory when uninstalling."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4239
+#: ../cmk/gui/wato/mkeventd.py:4241
 msgid ""
 "If you check this box then only open events are honored when determining the "
 "event state. Acknowledged events are displayed (i.e. their count) but not "
@@ -29897,7 +29907,7 @@ msgid ""
 "will be removed</b>."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3947
+#: ../cmk/gui/wato/mkeventd.py:3949
 msgid ""
 "If you enable this option then every time an event matches a rule (by normal "
 "hit, cancelling, counting or dropping) a log entry will be written into the "
@@ -29905,7 +29915,7 @@ msgid ""
 "large number of log entries. "
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3259
+#: ../cmk/gui/wato/mkeventd.py:3261
 msgid ""
 "If you enable this option then the slave will automatically fallback from "
 "takeover mode to slavemode if the master is rechable again within the "
@@ -29913,7 +29923,7 @@ msgid ""
 "takeover)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3248
+#: ../cmk/gui/wato/mkeventd.py:3250
 msgid ""
 "If you enable this option then the slave will automatically takeover and "
 "enable event processing if the master is for the configured number of "
@@ -29930,14 +29940,14 @@ msgid ""
 "first couple of minutes after the restart. "
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3440
+#: ../cmk/gui/wato/mkeventd.py:3442
 msgid ""
 "If you enabled this option, then this action will not be available as an "
 "interactive user command. It is usable as an ad-hoc action when a rule "
 "fires, nevertheless."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4226
+#: ../cmk/gui/wato/mkeventd.py:4228
 msgid ""
 "If you enter an application name here then only events for that application "
 "name are counted. You enter a regular expression here that must match a "
@@ -29945,7 +29955,7 @@ msgid ""
 "if you need a complete match."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4215
+#: ../cmk/gui/wato/mkeventd.py:4217
 msgid ""
 "If you enter an item name here, this will be used as part of the service "
 "description after the prefix \"Events \". The prefix plus the configured "
@@ -30033,7 +30043,7 @@ msgid ""
 "and additional addresses."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4020
+#: ../cmk/gui/wato/mkeventd.py:4022
 msgid ""
 "If you select a contact group here, then all notifications of hosts and "
 "services in that contact group will be sent to the event console. <b>Note</"
@@ -30237,7 +30247,7 @@ msgstr ""
 msgid "Ignore TLS errors"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4238
+#: ../cmk/gui/wato/mkeventd.py:4240
 msgid "Ignore acknowledged events"
 msgstr ""
 
@@ -30460,7 +30470,7 @@ msgstr ""
 msgid "In Downtime"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3180
+#: ../cmk/gui/wato/mkeventd.py:3182
 #, python-format
 msgid ""
 "In Multisite setups if you want <a href=\"%s\">event status checks</a> for "
@@ -30478,7 +30488,7 @@ msgstr ""
 msgid "In Progress"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4269
+#: ../cmk/gui/wato/mkeventd.py:4271
 msgid ""
 "In a distributed setup where the Event Console is not running in the same "
 "site as the host is monitored you need to access the remote Event Console "
@@ -30768,7 +30778,7 @@ msgstr ""
 msgid "In this folder"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3305
+#: ../cmk/gui/wato/mkeventd.py:3307
 msgid ""
 "In this interval the event daemon will save its state to disk, so that you "
 "won't lose your current event state in case of a crash."
@@ -31754,7 +31764,7 @@ msgstr ""
 msgid "Invalid file name for tarfile_name given."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2869
+#: ../cmk/gui/wato/mkeventd.py:2871
 msgid "Invalid filename"
 msgstr ""
 
@@ -31858,7 +31868,7 @@ msgstr ""
 msgid "Invalid pass phrase"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1930
+#: ../cmk/gui/plugins/views/inventory.py:1944
 #, python-format
 msgid "Invalid path in inventory tree: '%s' >> %s"
 msgstr ""
@@ -31873,7 +31883,7 @@ msgstr ""
 msgid "Invalid perfometer type: %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2215
+#: ../cmk/gui/wato/mkeventd.py:2217
 msgid "Invalid regular expression"
 msgstr ""
 
@@ -31948,13 +31958,13 @@ msgstr ""
 msgid "Invalid start time given"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:637
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:669
 #, fuzzy, python-format
 #| msgid "Site status"
 msgid "Invalid subscription %s date"
 msgstr "Statut du site"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:642
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:674
 #, fuzzy
 #| msgid "Site status"
 msgid "Invalid subscription sizing"
@@ -32073,15 +32083,15 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/inventory.py:163
 #: ../cmk/gui/plugins/views/inventory.py:193
-#: ../cmk/gui/plugins/views/inventory.py:799
-#: ../cmk/gui/plugins/views/inventory.py:854
-#: ../cmk/gui/plugins/views/inventory.py:949
+#: ../cmk/gui/plugins/views/inventory.py:813
+#: ../cmk/gui/plugins/views/inventory.py:868
+#: ../cmk/gui/plugins/views/inventory.py:963
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:31
 #: ../cmk/gui/pagetypes.py:1851
 msgid "Inventory"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1456
+#: ../cmk/gui/plugins/views/inventory.py:1470
 msgid "Inventory Date/Time"
 msgstr ""
 
@@ -32097,11 +32107,11 @@ msgstr ""
 msgid "Inventory Tree"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1480
+#: ../cmk/gui/plugins/views/inventory.py:1494
 msgid "Inventory changes"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1569
+#: ../cmk/gui/plugins/views/inventory.py:1583
 msgid "Inventory history of host"
 msgstr ""
 
@@ -32109,11 +32119,11 @@ msgstr ""
 msgid "Inventory of Linux kernel configuration (sysctl)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1253
+#: ../cmk/gui/plugins/views/inventory.py:1267
 msgid "Inventory of host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1430
+#: ../cmk/gui/plugins/views/inventory.py:1444
 msgid "Inventory: History"
 msgstr ""
 
@@ -32228,7 +32238,7 @@ msgid ""
 "changes that are overridden at the next configuration activation."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2202
+#: ../cmk/gui/wato/mkeventd.py:2204
 msgid "It is not allowed to change the ID of an existing rule."
 msgstr ""
 
@@ -32297,7 +32307,7 @@ msgstr ""
 msgid "Item"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4214
+#: ../cmk/gui/wato/mkeventd.py:4216
 msgid "Item (used in service description)"
 msgstr ""
 
@@ -32643,13 +32653,13 @@ msgstr ""
 msgid "Kernel Version"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1229
+#: ../cmk/gui/plugins/views/inventory.py:1243
 #, fuzzy
 #| msgid "use local configuration"
 msgid "Kernel configuration (sysctl)"
 msgstr "utiliser la configuration locale"
 
-#: ../cmk/gui/plugins/views/inventory.py:1230
+#: ../cmk/gui/plugins/views/inventory.py:1244
 #, fuzzy
 #| msgid "use local configuration"
 msgid "Kernel configurations (sysctl)"
@@ -33122,7 +33132,7 @@ msgstr ""
 msgid "Last result"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:290
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:299
 #, fuzzy
 #| msgid " State"
 msgid "Last samples"
@@ -33137,7 +33147,7 @@ msgstr ""
 msgid "Last service check is not recent enough"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2381
+#: ../cmk/gui/wato/mkeventd.py:2383
 #, python-format
 msgid "Last successful sync %d seconds ago."
 msgstr ""
@@ -34053,8 +34063,8 @@ msgid "Lifetime remaining"
 msgstr ""
 
 #: ../cmk/gui/plugins/metrics/kubernets.py:60
-#: ../cmk/gui/plugins/metrics/kubernets.py:84 ../cmk/gui/wato/mkeventd.py:3596
-#: ../cmk/gui/wato/mkeventd.py:3622 ../cmk/gui/wato/mkeventd.py:3666
+#: ../cmk/gui/plugins/metrics/kubernets.py:84 ../cmk/gui/wato/mkeventd.py:3598
+#: ../cmk/gui/wato/mkeventd.py:3624 ../cmk/gui/wato/mkeventd.py:3668
 msgid "Limit"
 msgstr ""
 
@@ -34062,7 +34072,7 @@ msgstr ""
 msgid "Limit Path Levels for Service Names"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3646
+#: ../cmk/gui/wato/mkeventd.py:3648
 msgid "Limit amount of current events"
 msgstr ""
 
@@ -34301,7 +34311,7 @@ msgstr ""
 msgid "Link to dashboard"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1074
+#: ../cmk/gui/dashboard.py:1077
 msgid "Link to existing view"
 msgstr ""
 
@@ -34766,11 +34776,11 @@ msgstr ""
 msgid "Local port number"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:489
+#: ../cmk/gui/plugins/views/inventory.py:490
 msgid "Local route"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2310
+#: ../cmk/gui/wato/mkeventd.py:2312
 msgid "Local server status"
 msgstr ""
 
@@ -34868,7 +34878,7 @@ msgstr ""
 msgid "Locked mmap() data"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3917
+#: ../cmk/gui/wato/mkeventd.py:3919
 msgid "Locking"
 msgstr ""
 
@@ -34897,7 +34907,7 @@ msgstr ""
 msgid "Log Entry"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3367
+#: ../cmk/gui/wato/mkeventd.py:3369
 msgid "Log all messages into syslog-like logfiles"
 msgstr ""
 
@@ -34917,7 +34927,7 @@ msgstr ""
 msgid "Log files of host %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3945
+#: ../cmk/gui/wato/mkeventd.py:3947
 msgid "Log hits for rules in log of Event Console"
 msgstr ""
 
@@ -34925,36 +34935,36 @@ msgstr ""
 msgid "Log latency"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3890
+#: ../cmk/gui/wato/mkeventd.py:3892
 msgid "Log level"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3910
+#: ../cmk/gui/wato/mkeventd.py:3912
 msgid ""
 "Log level for all log messages that are not in one of the categories below"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3916
+#: ../cmk/gui/wato/mkeventd.py:3918
 msgid "Log level for handling of incoming queries to the status socket"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3914
+#: ../cmk/gui/wato/mkeventd.py:3916
 msgid "Log level for managing already created events"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3921
+#: ../cmk/gui/wato/mkeventd.py:3923
 msgid ""
 "Log level for the SNMP trap processing mechanics. Setting this to debug will "
 "enable detailed log entries for each received SNMP trap."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3918
+#: ../cmk/gui/wato/mkeventd.py:3920
 msgid ""
 "Log level for the locking mechanics. Setting this to debug will enable log "
 "entries for each lock/unlock action."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3912
+#: ../cmk/gui/wato/mkeventd.py:3914
 msgid "Log level for the processing of all incoming events"
 msgstr ""
 
@@ -34966,11 +34976,11 @@ msgstr ""
 msgid "Log mode"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3280
+#: ../cmk/gui/wato/mkeventd.py:3282
 msgid "Log replication events"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3944
+#: ../cmk/gui/wato/mkeventd.py:3946
 msgid "Log rule hits"
 msgstr ""
 
@@ -35634,21 +35644,21 @@ msgstr ""
 msgid "MI"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2704
+#: ../cmk/gui/wato/mkeventd.py:2706
 msgid "MIB"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2864
+#: ../cmk/gui/wato/mkeventd.py:2866
 #, python-format
 msgid "MIB %s: %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2923
+#: ../cmk/gui/wato/mkeventd.py:2925
 #, python-format
 msgid "MIB file %s uploaded."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2579 ../cmk/gui/wato/mkeventd.py:2773
+#: ../cmk/gui/wato/mkeventd.py:2581 ../cmk/gui/wato/mkeventd.py:2775
 msgid "MIBs"
 msgstr ""
 
@@ -36088,7 +36098,7 @@ msgid ""
 "the status GUI"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1532
+#: ../cmk/gui/wato/mkeventd.py:1534
 msgid "Make this rule pack available in the Extension Packages module"
 msgstr ""
 
@@ -36134,7 +36144,7 @@ msgstr ""
 msgid "Manage configuration read only mode"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3105
+#: ../cmk/gui/wato/mkeventd.py:3107
 msgid "Manage event classification and correlation rules for the Event Console"
 msgstr ""
 
@@ -36170,7 +36180,7 @@ msgstr ""
 msgid "Management board config"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1218
+#: ../cmk/gui/plugins/views/inventory.py:1232
 msgid "Manager"
 msgstr ""
 
@@ -36390,7 +36400,7 @@ msgstr ""
 msgid "Mark the nodes of the resources as preferred one"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3208
+#: ../cmk/gui/wato/mkeventd.py:3210
 msgid "Master Event Console"
 msgstr ""
 
@@ -36606,7 +36616,7 @@ msgstr ""
 msgid "Match the alias"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4195
+#: ../cmk/gui/wato/mkeventd.py:4197
 msgid "Match the hosts with..."
 msgstr ""
 
@@ -36652,7 +36662,7 @@ msgstr ""
 msgid "Matching Pattern"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1899
+#: ../cmk/gui/wato/mkeventd.py:1901
 msgid "Matching is inverted in this rule"
 msgstr ""
 
@@ -36714,11 +36724,11 @@ msgstr ""
 msgid "Max. number of connections"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3760
+#: ../cmk/gui/wato/mkeventd.py:3762
 msgid "Max. number of pending connections to the event socket"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3734
+#: ../cmk/gui/wato/mkeventd.py:3736
 msgid "Max. number of pending connections to the status socket"
 msgstr ""
 
@@ -36810,7 +36820,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1173
 #: ../cmk/gui/plugins/metrics/graph_pdf.py:331
-#: ../cmk/gui/plugins/metrics/timeseries.py:192
+#: ../cmk/gui/plugins/metrics/timeseries.py:204
 #: ../cmk/gui/plugins/metrics/html_render.py:321
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:141
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:139
@@ -37672,7 +37682,7 @@ msgstr ""
 msgid "Metric not found"
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/timeseries.py:26
+#: ../cmk/gui/plugins/metrics/timeseries.py:27
 msgid ""
 "Metric transformations and combinations like Forecasts calculations, "
 "aggregations and filtering are only available with the Checkmk Enterprise "
@@ -37772,7 +37782,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1172
 #: ../cmk/gui/plugins/metrics/graph_pdf.py:330
-#: ../cmk/gui/plugins/metrics/timeseries.py:193
+#: ../cmk/gui/plugins/metrics/timeseries.py:205
 #: ../cmk/gui/plugins/metrics/html_render.py:320
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:138
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:186
@@ -38142,7 +38152,7 @@ msgstr ""
 msgid "Modified attributes"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2277
+#: ../cmk/gui/wato/mkeventd.py:2279
 #, python-format
 msgid "Modified event correlation rule %s"
 msgstr ""
@@ -38157,7 +38167,7 @@ msgstr ""
 msgid "Modified host %s."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2095
+#: ../cmk/gui/wato/mkeventd.py:2097
 #, python-format
 msgid "Modified rule pack %s"
 msgstr ""
@@ -38206,7 +38216,7 @@ msgstr ""
 msgid "Modify: Check VM Status (off: keep default)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1166
+#: ../cmk/gui/plugins/views/inventory.py:1180
 #: ../cmk/gui/plugins/wato/check_parameters/memory_percentage_used_multiitem.py:48
 msgid "Module"
 msgstr ""
@@ -38225,7 +38235,7 @@ msgstr ""
 msgid "Module name or empty"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1167
+#: ../cmk/gui/plugins/views/inventory.py:1181
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:298
 msgid "Modules"
 msgstr ""
@@ -38664,7 +38674,7 @@ msgstr "Dossier de la règle"
 msgid "Move to other folder"
 msgstr "Déplacer ce dossier quelque part ailleurs"
 
-#: ../cmk/gui/wato/mkeventd.py:1979
+#: ../cmk/gui/wato/mkeventd.py:1981
 msgid "Move to pack..."
 msgstr ""
 
@@ -38723,7 +38733,7 @@ msgid ""
 "Moved rule %s from position #%d to #%d in ruleset \"%s\" in folder \"%s\""
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1772 ../cmk/gui/wato/mkeventd.py:1773
+#: ../cmk/gui/wato/mkeventd.py:1774 ../cmk/gui/wato/mkeventd.py:1775
 #, python-format
 msgid "Moved rule %s to pack %s"
 msgstr ""
@@ -38912,7 +38922,7 @@ msgstr ""
 msgid "NTLS Links"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:360
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:392
 msgid "NTOP"
 msgstr ""
 
@@ -39570,7 +39580,7 @@ msgstr ""
 msgid "Network filesystem - overall status and usage (e.g. NFS)"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1086
+#: ../cmk/gui/plugins/views/inventory.py:1100
 msgid "Network interface"
 msgstr ""
 
@@ -39582,7 +39592,7 @@ msgstr ""
 msgid "Network interface groups"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1087
+#: ../cmk/gui/plugins/views/inventory.py:1101
 msgid "Network interfaces"
 msgstr ""
 
@@ -39629,8 +39639,8 @@ msgstr ""
 msgid "Networking"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1224
-#: ../cmk/gui/plugins/views/inventory.py:1225
+#: ../cmk/gui/plugins/views/inventory.py:1238
+#: ../cmk/gui/plugins/views/inventory.py:1239
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:976
 msgid "Networking Tunnels"
 msgstr ""
@@ -39685,7 +39695,7 @@ msgstr ""
 msgid "New %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3506
+#: ../cmk/gui/wato/mkeventd.py:3508
 msgid "New Action"
 msgstr ""
 
@@ -39806,7 +39816,7 @@ msgstr "Nouvelles entrées"
 msgid "New tuning"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1068
+#: ../cmk/gui/dashboard.py:1071
 #, fuzzy
 #| msgid "Create View"
 msgid "New view"
@@ -39866,7 +39876,7 @@ msgstr ""
 msgid "Nimble IO levels"
 msgstr ""
 
-#: ../cmk/gui/crash_reporting.py:534 ../cmk/gui/plugins/views/inventory.py:517
+#: ../cmk/gui/crash_reporting.py:534 ../cmk/gui/plugins/views/inventory.py:518
 #: ../cmk/gui/plugins/views/availability.py:1086
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:78
@@ -39876,7 +39886,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/bi_config.py:504 ../cmk/gui/backup.py:1042
 #: ../cmk/gui/wato/pages/sites.py:1269 ../cmk/gui/logwatch.py:78
 #: ../cmk/gui/logwatch.py:168 ../cmk/gui/logwatch.py:285
-#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:369
+#: ../cmk/gui/htmllib.py:1856 ../cmk/gui/cee/plugins/wato/license_usage.py:401
 msgid "No"
 msgstr ""
 
@@ -40011,7 +40021,7 @@ msgstr "Aucun graphique disponible."
 msgid "No data for discovery available. Please perform a full scan."
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:153
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:144
 msgid "No data from any site"
 msgstr ""
 
@@ -40222,7 +40232,7 @@ msgstr ""
 msgid "No rows selected to perform actions for."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1829
+#: ../cmk/gui/wato/mkeventd.py:1831
 msgid "No rules found."
 msgstr ""
 
@@ -40265,7 +40275,7 @@ msgstr ""
 msgid "No status host"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2383
+#: ../cmk/gui/wato/mkeventd.py:2385
 msgid "No successful synchronization so far."
 msgstr ""
 
@@ -40287,7 +40297,7 @@ msgstr ""
 msgid "No such host(s): %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1919
+#: ../cmk/gui/plugins/views/inventory.py:1933
 msgid "No such inventory tree."
 msgstr ""
 
@@ -40497,7 +40507,7 @@ msgid ""
 "None of the groups of this host (%s) is listed in the selected groups (%s)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1583
+#: ../cmk/gui/wato/mkeventd.py:1585
 msgid "None of the rules in this pack matches"
 msgstr ""
 
@@ -41419,13 +41429,13 @@ msgstr ""
 msgid "Number of entries"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:362
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:394
 #, fuzzy
 #| msgid "Number of open file descriptors"
 msgid "Number of excluded hosts"
 msgstr "Nombre de descripteurs de fichiers ouverts"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:364
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:396
 #, fuzzy
 #| msgid "Name of the User"
 msgid "Number of excluded services"
@@ -41483,7 +41493,7 @@ msgid "Number of hops"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/esx_vsphere_objects_count.py:32
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:361
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:393
 msgid "Number of hosts"
 msgstr ""
 
@@ -41576,7 +41586,7 @@ msgstr ""
 msgid "Number of logon failures to lock the account"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1586
+#: ../cmk/gui/wato/mkeventd.py:1588
 #, python-format
 msgid "Number of matching rules in this pack: %d"
 msgstr ""
@@ -41746,7 +41756,7 @@ msgid "Number of send packets per report"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:2637
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:363
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:395
 msgid "Number of services"
 msgstr ""
 
@@ -42012,8 +42022,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:766 ../cmk/gui/availability.py:144
 #: ../cmk/gui/availability.py:160 ../cmk/gui/availability.py:411
 #: ../cmk/gui/availability.py:422 ../cmk/gui/availability.py:433
-#: ../cmk/gui/wato/mkeventd.py:245 ../cmk/gui/wato/mkeventd.py:1930
-#: ../cmk/gui/cme/plugins/views/managed.py:229
+#: ../cmk/gui/wato/mkeventd.py:245 ../cmk/gui/wato/mkeventd.py:1932
+#: ../cmk/gui/cme/plugins/views/managed.py:229 ../cmk/gui/sites.py:398
 #: ../cmk/gui/cee/plugins/reporting/availability.py:385
 #: ../cmk/gui/cee/plugins/reporting/availability.py:404
 #: ../cmk/gui/cee/plugins/reporting/sla.py:92
@@ -42392,7 +42402,7 @@ msgstr "tous les services"
 msgid "On down host"
 msgstr "Supprimer l'hôte !"
 
-#: ../cmk/gui/wato/mkeventd.py:2596
+#: ../cmk/gui/wato/mkeventd.py:2598
 #, fuzzy
 #| msgid "selected services"
 msgid "On selected MIBs"
@@ -42808,7 +42818,7 @@ msgstr ""
 msgid "Open this site's local web user interface"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1743
+#: ../cmk/gui/plugins/views/inventory.py:1757
 msgid "Open this table for filtering / sorting"
 msgstr ""
 
@@ -42928,7 +42938,7 @@ msgstr ""
 msgid "Optical Signal Power Lane %d"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3389
+#: ../cmk/gui/wato/mkeventd.py:3391
 msgid "Optimize rule execution"
 msgstr ""
 
@@ -43047,8 +43057,8 @@ msgstr ""
 msgid "Oracle Long Active Sessions"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1209
-#: ../cmk/gui/plugins/views/inventory.py:1210
+#: ../cmk/gui/plugins/views/inventory.py:1223
+#: ../cmk/gui/plugins/views/inventory.py:1224
 #, fuzzy
 #| msgid "Service performance data"
 msgid "Oracle PGA performance"
@@ -43076,8 +43086,8 @@ msgstr ""
 msgid "Oracle Recovery Status"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1203
-#: ../cmk/gui/plugins/views/inventory.py:1204
+#: ../cmk/gui/plugins/views/inventory.py:1217
+#: ../cmk/gui/plugins/views/inventory.py:1218
 #, fuzzy
 #| msgid "Service performance data"
 msgid "Oracle SGA performance"
@@ -43099,19 +43109,19 @@ msgstr ""
 msgid "Oracle Undo Retention"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1191
+#: ../cmk/gui/plugins/views/inventory.py:1205
 msgid "Oracle dataguard statistic"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1192
+#: ../cmk/gui/plugins/views/inventory.py:1206
 msgid "Oracle dataguard statistics"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1179
+#: ../cmk/gui/plugins/views/inventory.py:1193
 msgid "Oracle instance"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1180
+#: ../cmk/gui/plugins/views/inventory.py:1194
 msgid "Oracle instances"
 msgstr ""
 
@@ -43121,27 +43131,27 @@ msgstr ""
 msgid "Oracle performance discovery"
 msgstr "Données de performance du service"
 
-#: ../cmk/gui/plugins/views/inventory.py:1185
+#: ../cmk/gui/plugins/views/inventory.py:1199
 msgid "Oracle recovery area"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1186
+#: ../cmk/gui/plugins/views/inventory.py:1200
 msgid "Oracle recovery areas"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1215
+#: ../cmk/gui/plugins/views/inventory.py:1229
 msgid "Oracle system parameter"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1216
+#: ../cmk/gui/plugins/views/inventory.py:1230
 msgid "Oracle system parameters"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1197
+#: ../cmk/gui/plugins/views/inventory.py:1211
 msgid "Oracle tablespace"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1198
+#: ../cmk/gui/plugins/views/inventory.py:1212
 msgid "Oracle tablespaces"
 msgstr ""
 
@@ -43149,7 +43159,7 @@ msgstr ""
 msgid "Order"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2705
+#: ../cmk/gui/wato/mkeventd.py:2707
 msgid "Organization"
 msgstr ""
 
@@ -43216,12 +43226,12 @@ msgstr "Autres paramètres"
 msgid "Other components"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1107
+#: ../cmk/gui/plugins/views/inventory.py:1121
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:122
 msgid "Other entities"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1106
+#: ../cmk/gui/plugins/views/inventory.py:1120
 msgid "Other entity"
 msgstr ""
 
@@ -43452,7 +43462,7 @@ msgstr ""
 msgid "Outside unique MACs"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3655
+#: ../cmk/gui/wato/mkeventd.py:3657
 msgid "Overall current events"
 msgstr ""
 
@@ -43541,7 +43551,7 @@ msgid "Oversubscribed"
 msgstr ""
 
 #: ../cmk/gui/plugins/dashboard/utils.py:932
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:64
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:55
 #: ../cmk/gui/wato/pages/roles.py:119
 #: ../cmk/gui/cme/plugins/dashboard/managed.py:212 ../cmk/gui/pagetypes.py:1802
 msgid "Overview"
@@ -44170,7 +44180,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/notifications.py:592
 #: ../cmk/gui/wato/pages/users.py:408
 #: ../cmk/gui/wato/pages/password_store.py:147
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:611
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:643
 #: ../cmk/gui/cee/plugins/wato/syncsmtp.py:49
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:101
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:80
@@ -44663,7 +44673,7 @@ msgstr "Pourcentage du temps CPU utilisé"
 msgid "Percentage of queue length"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1219
+#: ../cmk/gui/dashboard.py:1222
 #, fuzzy
 #| msgid "Percentage of CPU time used"
 msgid "Percentage of service problems"
@@ -44877,7 +44887,7 @@ msgid "Performance data settings"
 msgstr ""
 
 #: ../cmk/gui/plugins/dashboard/graph.py:195
-#: ../cmk/gui/plugins/views/icons/builtin.py:380 ../cmk/gui/dashboard.py:1115
+#: ../cmk/gui/plugins/views/icons/builtin.py:380 ../cmk/gui/dashboard.py:1118
 #, fuzzy
 #| msgid "No performance data: "
 msgid "Performance graph"
@@ -44895,7 +44905,7 @@ msgstr ""
 msgid "Period"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:562
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:594
 #, fuzzy
 #| msgid "Site status"
 msgid "Period end date"
@@ -44905,7 +44915,7 @@ msgstr "Statut du site"
 msgid "Period for outdated piggybacked host data"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:555
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:587
 #, fuzzy
 #| msgid "Services kept"
 msgid "Period start date"
@@ -45267,7 +45277,7 @@ msgstr ""
 msgid "Plaintext"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:358
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:390
 #, fuzzy
 #| msgid "Platinum"
 msgid "Platform"
@@ -45477,7 +45487,7 @@ msgid ""
 "other services."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2348
+#: ../cmk/gui/wato/mkeventd.py:2350
 msgid ""
 "Please make sure that you have activated it with <tt>omd config set MKEVENTD "
 "on</tt> before starting this site."
@@ -46002,7 +46012,7 @@ msgstr ""
 msgid "Port number that server is listening on."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3149
+#: ../cmk/gui/wato/mkeventd.py:3151
 msgid "Port number:"
 msgstr ""
 
@@ -46131,11 +46141,11 @@ msgstr ""
 msgid "Power Usage"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1149
+#: ../cmk/gui/plugins/views/inventory.py:1163
 msgid "Power supplies"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1148
+#: ../cmk/gui/plugins/views/inventory.py:1162
 msgid "Power supply"
 msgstr ""
 
@@ -46282,7 +46292,7 @@ msgstr ""
 msgid "Pretty-Print configuration files"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3991
+#: ../cmk/gui/wato/mkeventd.py:3993
 msgid "Pretty-Print rules in config file of Event Console"
 msgstr ""
 
@@ -46422,7 +46432,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:1021
 #: ../cmk/gui/plugins/wato/notifications.py:1234
-#: ../cmk/gui/wato/mkeventd.py:1948
+#: ../cmk/gui/wato/mkeventd.py:1950
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/unix_plugins_cache_age.py:32
 msgid "Priority"
 msgstr ""
@@ -46520,7 +46530,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:4751
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:177
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:168
 #: ../cmk/gui/pagetypes.py:1814
 msgid "Problems"
 msgstr ""
@@ -46646,7 +46656,7 @@ msgstr ""
 msgid "Processing of Piggybacked Host Data"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3911
+#: ../cmk/gui/wato/mkeventd.py:3913
 msgid "Processing of incoming events"
 msgstr ""
 
@@ -46677,7 +46687,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:111
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:347
-#: ../cmk/gui/plugins/metrics/timeseries.py:189
+#: ../cmk/gui/plugins/metrics/timeseries.py:201
 msgid "Product"
 msgstr ""
 
@@ -46771,7 +46781,7 @@ msgstr ""
 
 #: ../cmk/gui/valuespec.py:4809 ../cmk/gui/plugins/dashboard/graph.py:307
 #: ../cmk/gui/plugins/dashboard/utils.py:647 ../cmk/gui/backup.py:1825
-#: ../cmk/gui/dashboard.py:929 ../cmk/gui/dashboard.py:1809
+#: ../cmk/gui/dashboard.py:929 ../cmk/gui/dashboard.py:1812
 #: ../cmk/gui/forms.py:66 ../cmk/gui/forms.py:69 ../cmk/gui/key_mgmt.py:265
 #: ../cmk/gui/key_mgmt.py:386 ../cmk/gui/key_mgmt.py:481
 #: ../cmk/gui/wato/pages/users.py:344 ../cmk/gui/wato/pages/folders.py:381
@@ -47086,7 +47096,7 @@ msgstr ""
 msgid "Queried host is the vCenter with Checkmk Agent installed"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:92
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:83
 msgid "Query"
 msgstr ""
 
@@ -47107,7 +47117,7 @@ msgstr ""
 msgid "Query or SQL statement"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1222
+#: ../cmk/gui/plugins/views/inventory.py:1236
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:887
 msgid "Queue"
 msgstr ""
@@ -47846,7 +47856,7 @@ msgstr ""
 msgid "Recipient"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3457
+#: ../cmk/gui/wato/mkeventd.py:3459
 msgid "Recipient Email address"
 msgstr ""
 
@@ -48165,10 +48175,10 @@ msgstr ""
 #: ../cmk/gui/sidebar.py:797 ../cmk/gui/crash_reporting.py:258
 #: ../cmk/gui/plugins/views/availability.py:395
 #: ../cmk/gui/plugins/wato/background_job.py:126 ../cmk/gui/user_notify.py:41
-#: ../cmk/gui/notify.py:161 ../cmk/gui/wato/mkeventd.py:1691
-#: ../cmk/gui/wato/mkeventd.py:2047 ../cmk/gui/wato/mkeventd.py:2181
-#: ../cmk/gui/wato/mkeventd.py:2317 ../cmk/gui/wato/mkeventd.py:2437
-#: ../cmk/gui/wato/mkeventd.py:2617 ../cmk/gui/wato/mkeventd.py:2782
+#: ../cmk/gui/notify.py:161 ../cmk/gui/wato/mkeventd.py:1693
+#: ../cmk/gui/wato/mkeventd.py:2049 ../cmk/gui/wato/mkeventd.py:2183
+#: ../cmk/gui/wato/mkeventd.py:2319 ../cmk/gui/wato/mkeventd.py:2439
+#: ../cmk/gui/wato/mkeventd.py:2619 ../cmk/gui/wato/mkeventd.py:2784
 #: ../cmk/gui/wato/user_profile.py:646 ../cmk/gui/wato/pages/ldap.py:104
 #: ../cmk/gui/wato/pages/users.py:151 ../cmk/gui/wato/pages/rulesets.py:336
 #: ../cmk/gui/wato/pages/rulesets.py:460 ../cmk/gui/wato/pages/rulesets.py:728
@@ -48480,7 +48490,7 @@ msgstr ""
 msgid "Remove vanished services"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1507
+#: ../cmk/gui/plugins/views/inventory.py:1521
 msgid "Removed"
 msgstr ""
 
@@ -48499,7 +48509,7 @@ msgstr ""
 msgid "Removed disabled extension package %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1504
+#: ../cmk/gui/plugins/views/inventory.py:1518
 msgid "Removed entries"
 msgstr ""
 
@@ -48780,11 +48790,11 @@ msgstr ""
 msgid "Replication in progress"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3229
+#: ../cmk/gui/wato/mkeventd.py:3231
 msgid "Replication interval"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3271
+#: ../cmk/gui/wato/mkeventd.py:3273
 msgid "Replication is disabled"
 msgstr ""
 
@@ -48865,7 +48875,7 @@ msgstr "Options de la règle"
 msgid "Report preview generation of %s / %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:466
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:498
 #: ../cmk/gui/cee/reporting.py:3332
 msgid "Report properties"
 msgstr ""
@@ -48977,7 +48987,7 @@ msgstr ""
 msgid "Require a comment"
 msgstr "Commentaire de l'auteur"
 
-#: ../cmk/gui/dashboard.py:1573
+#: ../cmk/gui/dashboard.py:1576
 msgid "Required context filters"
 msgstr ""
 
@@ -49189,7 +49199,7 @@ msgstr ""
 msgid "Restrict access to IP addresses"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3174
+#: ../cmk/gui/wato/mkeventd.py:3176
 msgid "Restrict access to the following source IP addresses"
 msgstr ""
 
@@ -49514,7 +49524,7 @@ msgstr ""
 msgid "Routes"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:105
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:96
 msgid "Rows"
 msgstr ""
 
@@ -49531,7 +49541,7 @@ msgid "Ruckus Spot Unique MAC addresses"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/mkeventd.py:622
-#: ../cmk/gui/plugins/wato/bi_config.py:982 ../cmk/gui/wato/mkeventd.py:2173
+#: ../cmk/gui/plugins/wato/bi_config.py:982 ../cmk/gui/wato/mkeventd.py:2175
 #: ../cmk/gui/wato/pages/rulesets.py:1383
 #: ../cmk/gui/wato/pages/object_parameters.py:282
 msgid "Rule"
@@ -49596,7 +49606,7 @@ msgstr ""
 msgid "Rule contact groups"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1880
+#: ../cmk/gui/wato/mkeventd.py:1882
 #, python-format
 msgid "Rule does not match: %s"
 msgstr ""
@@ -49622,11 +49632,11 @@ msgstr ""
 msgid "Rule hits"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3583
+#: ../cmk/gui/wato/mkeventd.py:3585
 msgid "Rule limit"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1728 ../cmk/gui/wato/mkeventd.py:2039
+#: ../cmk/gui/wato/mkeventd.py:1730 ../cmk/gui/wato/mkeventd.py:2041
 msgid "Rule pack"
 msgstr ""
 
@@ -49638,13 +49648,13 @@ msgstr ""
 msgid "Rule pack properties"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1679
+#: ../cmk/gui/wato/mkeventd.py:1681
 #, python-format
 msgid "Rule package %s"
 msgstr ""
 
 #: ../cmk/gui/wato/mkeventd.py:1252 ../cmk/gui/wato/mkeventd.py:1450
-#: ../cmk/gui/wato/mkeventd.py:2958
+#: ../cmk/gui/wato/mkeventd.py:2960
 msgid "Rule packs"
 msgstr ""
 
@@ -49691,9 +49701,9 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/bi_config.py:594
 #: ../cmk/gui/plugins/wato/bi_config.py:764
 #: ../cmk/gui/plugins/wato/bi_config.py:1828
-#: ../cmk/gui/plugins/wato/bi_config.py:1834 ../cmk/gui/wato/mkeventd.py:1613
-#: ../cmk/gui/wato/mkeventd.py:1686 ../cmk/gui/wato/mkeventd.py:1840
-#: ../cmk/gui/wato/mkeventd.py:2981 ../cmk/gui/wato/pages/rulesets.py:318
+#: ../cmk/gui/plugins/wato/bi_config.py:1834 ../cmk/gui/wato/mkeventd.py:1615
+#: ../cmk/gui/wato/mkeventd.py:1688 ../cmk/gui/wato/mkeventd.py:1842
+#: ../cmk/gui/wato/mkeventd.py:2983 ../cmk/gui/wato/pages/rulesets.py:318
 #: ../cmk/gui/wato/pages/rulesets.py:1172 ../cmk/gui/wato/pages/folders.py:400
 #: ../cmk/gui/wato/pages/notifications.py:970
 #: ../cmk/gui/wato/pages/groups.py:107
@@ -50071,7 +50081,7 @@ msgstr ""
 msgid "SIP - Sends Timed-Out"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1921
+#: ../cmk/gui/wato/mkeventd.py:1923
 msgid "SKIP PACK"
 msgstr ""
 
@@ -50219,11 +50229,11 @@ msgstr ""
 msgid "SNMP Information"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3008 ../cmk/utils/packaging.py:142
+#: ../cmk/gui/wato/mkeventd.py:3010 ../cmk/utils/packaging.py:142
 msgid "SNMP MIBs"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2572
+#: ../cmk/gui/wato/mkeventd.py:2574
 msgid "SNMP MIBs for trap translation"
 msgstr ""
 
@@ -50282,11 +50292,11 @@ msgstr ""
 msgid "SNMP rules"
 msgstr "%s règle %s"
 
-#: ../cmk/gui/wato/mkeventd.py:3920
+#: ../cmk/gui/wato/mkeventd.py:3922
 msgid "SNMP trap processing"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3850
+#: ../cmk/gui/wato/mkeventd.py:3852
 msgid "SNMP traps not configured"
 msgstr ""
 
@@ -50475,7 +50485,7 @@ msgstr ""
 msgid "Same version as the monitoring site"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:354
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:386
 #, fuzzy
 #| msgid "Server time"
 msgid "Sample date"
@@ -50494,7 +50504,7 @@ msgid "Saturday"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/bi_config.py:297
-#: ../cmk/gui/plugins/wato/bi_config.py:986 ../cmk/gui/dashboard.py:1878
+#: ../cmk/gui/plugins/wato/bi_config.py:986 ../cmk/gui/dashboard.py:1881
 #: ../cmk/gui/page_menu.py:442 ../cmk/gui/wato/pages/ldap.py:249
 msgid "Save"
 msgstr ""
@@ -50689,7 +50699,7 @@ msgstr ""
 msgid "Script Type"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3490
+#: ../cmk/gui/wato/mkeventd.py:3492
 msgid "Script body"
 msgstr ""
 
@@ -50719,7 +50729,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1026
+#: ../cmk/gui/plugins/views/inventory.py:1040
 #, python-format
 msgid "Search %s"
 msgstr ""
@@ -51081,7 +51091,7 @@ msgid "Secure notification spooler messages"
 msgstr ""
 
 #: ../cmk/gui/watolib/analyze_configuration.py:122
-#: ../cmk/gui/wato/mkeventd.py:3158 ../cmk/gui/wato/pages/users.py:854
+#: ../cmk/gui/wato/mkeventd.py:3160 ../cmk/gui/wato/pages/users.py:854
 #: ../cmk/gui/wato/pages/custom_attributes.py:297
 msgid "Security"
 msgstr ""
@@ -51172,7 +51182,7 @@ msgstr ""
 msgid "Select device type"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2947
+#: ../cmk/gui/wato/mkeventd.py:2949
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:770
 msgid "Select file"
 msgstr ""
@@ -51265,7 +51275,7 @@ msgstr ""
 msgid "Select the type of fixed page element"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1706
+#: ../cmk/gui/dashboard.py:1709
 #, fuzzy
 #| msgid "selected services"
 msgid "Select view"
@@ -51310,7 +51320,7 @@ msgstr ""
 msgid "Send"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3451
+#: ../cmk/gui/wato/mkeventd.py:3453
 msgid "Send Email"
 msgstr ""
 
@@ -51360,11 +51370,11 @@ msgstr ""
 msgid "Send notification to"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4016
+#: ../cmk/gui/wato/mkeventd.py:4018
 msgid "Send notifications to Event Console"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4050
+#: ../cmk/gui/wato/mkeventd.py:4052
 msgid "Send notifications to remote Event Console"
 msgstr ""
 
@@ -51380,7 +51390,7 @@ msgstr ""
 msgid "Send that many PINGs in one bulk:"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4057
+#: ../cmk/gui/wato/mkeventd.py:4059
 msgid "Send to remote Event Console via syslog"
 msgstr ""
 
@@ -51408,7 +51418,7 @@ msgstr ""
 msgid "Sends Timed-Out"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1160
+#: ../cmk/gui/plugins/views/inventory.py:1174
 #: ../cmk/gui/plugins/wato/check_parameters/switch_contact.py:36
 msgid "Sensor"
 msgstr ""
@@ -51446,7 +51456,7 @@ msgstr ""
 msgid "Sensor threshold"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1161
+#: ../cmk/gui/plugins/views/inventory.py:1175
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:276
 msgid "Sensors"
 msgstr ""
@@ -51526,7 +51536,7 @@ msgstr ""
 msgid "Server performance"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:355
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:387
 #, fuzzy
 #| msgid "Timeline of "
 msgid "Server timezone"
@@ -51632,7 +51642,7 @@ msgstr "Services ajoutés"
 
 #: ../cmk/gui/plugins/views/painters.py:1580
 #: ../cmk/gui/plugins/views/painters.py:3118 ../cmk/gui/wato/mkeventd.py:195
-#: ../cmk/gui/wato/mkeventd.py:388 ../cmk/gui/wato/mkeventd.py:1957
+#: ../cmk/gui/wato/mkeventd.py:388 ../cmk/gui/wato/mkeventd.py:1959
 msgid "Service Level"
 msgstr ""
 
@@ -51644,11 +51654,11 @@ msgstr ""
 msgid "Service Level Agreements"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4314
+#: ../cmk/gui/wato/mkeventd.py:4316
 msgid "Service Level of hosts"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4330
+#: ../cmk/gui/wato/mkeventd.py:4332
 msgid "Service Level of services"
 msgstr ""
 
@@ -51775,7 +51785,7 @@ msgstr "utiliser la configuration locale"
 msgid "Service contact groups"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4375
+#: ../cmk/gui/wato/mkeventd.py:4377
 msgid "Service contact information"
 msgstr ""
 
@@ -52165,12 +52175,12 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:215
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:219
 #: ../cmk/gui/plugins/wato/bi_config.py:414
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:97 ../cmk/gui/mobile.py:149
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:88 ../cmk/gui/mobile.py:149
 #: ../cmk/gui/wato/pages/rulesets.py:747 ../cmk/gui/wato/pages/rulesets.py:1796
 #: ../cmk/gui/wato/pages/services.py:1196
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/cme/plugins/views/managed.py:209
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:587
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:619
 msgid "Services"
 msgstr ""
 
@@ -52360,7 +52370,7 @@ msgstr ""
 msgid "Set as start URL"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:360 ../cmk/gui/wato/mkeventd.py:1914
+#: ../cmk/gui/wato/mkeventd.py:360 ../cmk/gui/wato/mkeventd.py:1916
 msgid "Set by rule pack"
 msgstr ""
 
@@ -52732,9 +52742,9 @@ msgid ""
 "might also consider using averaging."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2998 ../cmk/gui/wato/pages/services.py:1217
+#: ../cmk/gui/wato/mkeventd.py:3000 ../cmk/gui/wato/pages/services.py:1217
 #: ../cmk/gui/wato/pages/services.py:1220
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:515
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:547
 msgid "Settings"
 msgstr ""
 
@@ -52776,10 +52786,10 @@ msgstr ""
 #: ../cmk/gui/plugins/sidebar/wato.py:131
 #: ../cmk/gui/plugins/sidebar/wato.py:162 ../cmk/gui/backup.py:574
 #: ../cmk/gui/watolib/search.py:397 ../cmk/gui/notify.py:164
-#: ../cmk/gui/wato/mkeventd.py:1313 ../cmk/gui/wato/mkeventd.py:1694
-#: ../cmk/gui/wato/mkeventd.py:2050 ../cmk/gui/wato/mkeventd.py:2184
-#: ../cmk/gui/wato/mkeventd.py:2320 ../cmk/gui/wato/mkeventd.py:2440
-#: ../cmk/gui/wato/mkeventd.py:2620 ../cmk/gui/wato/mkeventd.py:2785
+#: ../cmk/gui/wato/mkeventd.py:1313 ../cmk/gui/wato/mkeventd.py:1696
+#: ../cmk/gui/wato/mkeventd.py:2052 ../cmk/gui/wato/mkeventd.py:2186
+#: ../cmk/gui/wato/mkeventd.py:2322 ../cmk/gui/wato/mkeventd.py:2442
+#: ../cmk/gui/wato/mkeventd.py:2622 ../cmk/gui/wato/mkeventd.py:2787
 #: ../cmk/gui/wato/pages/ldap.py:107 ../cmk/gui/wato/pages/users.py:154
 #: ../cmk/gui/wato/pages/rulesets.py:339 ../cmk/gui/wato/pages/rulesets.py:463
 #: ../cmk/gui/wato/pages/rulesets.py:731 ../cmk/gui/wato/pages/rulesets.py:1404
@@ -53081,7 +53091,7 @@ msgstr ""
 msgid "Show discovered service labels"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:116
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:107
 msgid "Show failed notifications"
 msgstr ""
 
@@ -53157,7 +53167,7 @@ msgstr ""
 msgid "Show inline help"
 msgstr "Afficher dans la table d'hôtes WATO"
 
-#: ../cmk/gui/plugins/views/inventory.py:259
+#: ../cmk/gui/plugins/views/inventory.py:260
 msgid "Show internal tree paths"
 msgstr ""
 
@@ -53300,11 +53310,11 @@ msgstr ""
 msgid "Show space reserved for the <tt>root</tt> user"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:111
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:102
 msgid "Show stale hosts and services"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1575
+#: ../cmk/gui/dashboard.py:1578
 msgid ""
 "Show the dialog that can be used to update the dashboard context on initial "
 "dashboard rendering and enforce the user to provide the context filters that "
@@ -53332,7 +53342,7 @@ msgstr ""
 msgid "Show the graph vertical axis"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1565
+#: ../cmk/gui/dashboard.py:1568
 msgid "Show the header of the dashboard with the configured title."
 msgstr ""
 
@@ -53874,7 +53884,7 @@ msgstr ""
 msgid "Site:"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:353
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:385
 msgid "Sitename"
 msgstr ""
 
@@ -53892,7 +53902,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1825
 #: ../cmk/gui/plugins/wato/check_parameters/docker_node_disk_usage.py:39
 #: ../cmk/gui/plugins/metrics/docker.py:72 ../cmk/gui/backup.py:1037
-#: ../cmk/gui/wato/mkeventd.py:2706
+#: ../cmk/gui/wato/mkeventd.py:2708
 #: ../cmk/gui/cee/plugins/reporting/utils.py:420
 msgid "Size"
 msgstr ""
@@ -53961,7 +53971,7 @@ msgstr ""
 msgid "Size, age and count of file groups (mk_filestats)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:569
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:601
 msgid "Sizing"
 msgstr ""
 
@@ -53993,7 +54003,7 @@ msgstr ""
 msgid "Skip this rule pack, continue rule execution with next rule pack"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2848
+#: ../cmk/gui/wato/mkeventd.py:2850
 #, python-format
 msgid "Skipped %s: %s"
 msgstr ""
@@ -54131,11 +54141,11 @@ msgstr ""
 msgid "Software"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1080
+#: ../cmk/gui/plugins/views/inventory.py:1094
 msgid "Software package"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1081
+#: ../cmk/gui/plugins/views/inventory.py:1095
 msgid "Software packages"
 msgstr ""
 
@@ -54328,7 +54338,7 @@ msgstr ""
 msgid "Sorry, there is already an attribute with that name."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2816
+#: ../cmk/gui/wato/mkeventd.py:2818
 msgid "Sorry, uploading TAR/GZ files is not yet implemented."
 msgstr ""
 
@@ -54446,7 +54456,7 @@ msgid "Sorting"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:1014
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:547
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:579
 msgid "Source"
 msgstr ""
 
@@ -54646,7 +54656,7 @@ msgstr ""
 msgid "Specify an arbitrary name of this connection here"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3695
+#: ../cmk/gui/wato/mkeventd.py:3697
 msgid ""
 "Specify at which time period a new file for the event history will be "
 "created."
@@ -54811,7 +54821,7 @@ msgid ""
 "override the others."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3210
+#: ../cmk/gui/wato/mkeventd.py:3212
 msgid ""
 "Specify the host name or IP address of the master Event Console that you "
 "want to replicate from. The port number must be the same as set in the "
@@ -55056,7 +55066,7 @@ msgstr ""
 msgid "Sqlnet Send timeout"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1172
+#: ../cmk/gui/plugins/views/inventory.py:1186
 msgid "Stack"
 msgstr ""
 
@@ -55068,14 +55078,14 @@ msgstr ""
 msgid "Stacked Area"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1173
+#: ../cmk/gui/plugins/views/inventory.py:1187
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:326
 msgid "Stacks"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:1556
 #: ../cmk/gui/plugins/views/painters.py:3094
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:182
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:173
 msgid "Stale"
 msgstr ""
 
@@ -55285,7 +55295,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:70
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:612 ../cmk/gui/backup.py:483
 #: ../cmk/gui/backup.py:920 ../cmk/gui/wato/mkeventd.py:383
-#: ../cmk/gui/wato/mkeventd.py:1919 ../cmk/gui/wato/mkeventd.py:1937
+#: ../cmk/gui/wato/mkeventd.py:1921 ../cmk/gui/wato/mkeventd.py:1939
 #: ../cmk/gui/wato/pages/ldap.py:347 ../cmk/gui/wato/pages/users.py:413
 #: ../cmk/gui/wato/pages/pattern_editor.py:270
 #: ../cmk/gui/wato/pages/services.py:730
@@ -55325,7 +55335,7 @@ msgstr ""
 msgid "State (severity) of event"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3304
+#: ../cmk/gui/wato/mkeventd.py:3306
 msgid "State Retention Interval"
 msgstr ""
 
@@ -56088,7 +56098,7 @@ msgstr ""
 msgid "Statistic file retention time"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3345
+#: ../cmk/gui/wato/mkeventd.py:3347
 msgid "Statistics Interval"
 msgstr ""
 
@@ -56097,7 +56107,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:933
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:26
 #: ../cmk/gui/plugins/wato/utils/context_buttons.py:51
-#: ../cmk/gui/wato/mkeventd.py:2990
+#: ../cmk/gui/wato/mkeventd.py:2992
 #: ../cmk/gui/wato/pages/activate_changes.py:423
 #: ../cmk/gui/cee/plugins/wato/dcd.py:354
 #: ../cmk/gui/cee/plugins/wato/dcd.py:427
@@ -56194,7 +56204,7 @@ msgstr ""
 msgid "Status of host"
 msgstr "(pas de statut d'hôte)"
 
-#: ../cmk/gui/wato/mkeventd.py:2376
+#: ../cmk/gui/wato/mkeventd.py:2378
 #, python-format
 msgid "Status of last synchronization: <b>%s</b>"
 msgstr ""
@@ -56223,7 +56233,7 @@ msgstr ""
 msgid "Status passive checks"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3915
+#: ../cmk/gui/wato/mkeventd.py:3917
 msgid "Status queries"
 msgstr ""
 
@@ -56342,11 +56352,11 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3571
+#: ../cmk/gui/wato/mkeventd.py:3573
 msgid "Stop creating new events"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3572 ../cmk/gui/wato/mkeventd.py:3574
+#: ../cmk/gui/wato/mkeventd.py:3574 ../cmk/gui/wato/mkeventd.py:3576
 msgid "Stop creating new events, create overflow event"
 msgstr ""
 
@@ -56569,7 +56579,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/valuespec.py:6222 ../cmk/gui/plugins/wato/active_checks.py:2008
-#: ../cmk/gui/wato/mkeventd.py:3465 ../cmk/gui/cee/reporting.py:563
+#: ../cmk/gui/wato/mkeventd.py:3467 ../cmk/gui/cee/reporting.py:563
 msgid "Subject"
 msgstr ""
 
@@ -56593,7 +56603,7 @@ msgstr ""
 msgid "Submit Report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:660
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:692
 msgid "Submit license usage report"
 msgstr ""
 
@@ -56601,13 +56611,13 @@ msgstr ""
 msgid "Submit or download"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:388
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:420
 #, fuzzy
 #| msgid "Successfully restored snapshot."
 msgid "Submit or download license usage report"
 msgstr "Succès de la restauration du snapshot."
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:394
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:426
 msgid "Submit report"
 msgstr ""
 
@@ -56615,7 +56625,7 @@ msgstr ""
 msgid "Submitting crash report..."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:678
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:710
 msgid "Submitting license usage report..."
 msgstr ""
 
@@ -56637,13 +56647,13 @@ msgstr ""
 msgid "Subscription Status"
 msgstr "Statut du site"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:536
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:568
 #, fuzzy
 #| msgid "Site status"
 msgid "Subscription details"
 msgstr "Statut du site"
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:627
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:659
 #, fuzzy
 #| msgid "Site status"
 msgid "Subscription settings"
@@ -56658,7 +56668,7 @@ msgstr ""
 msgid "Succeeded"
 msgstr ""
 
-#: ../cmk/gui/watolib/activate_changes.py:1398 ../cmk/gui/wato/mkeventd.py:2377
+#: ../cmk/gui/watolib/activate_changes.py:1398 ../cmk/gui/wato/mkeventd.py:2379
 #: ../cmk/gui/wato/pages/ldap.py:342
 msgid "Success"
 msgstr ""
@@ -56702,7 +56712,7 @@ msgstr ""
 msgid "Successfully stored the report"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:682
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:714
 #, fuzzy
 #| msgid "Successfully restored snapshot."
 msgid "Successfully submitted the license usage report."
@@ -56721,7 +56731,7 @@ msgstr ""
 msgid "Suggested tutorial videos"
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/timeseries.py:188
+#: ../cmk/gui/plugins/metrics/timeseries.py:200
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:571
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:868
 msgid "Sum"
@@ -56925,7 +56935,7 @@ msgstr ""
 msgid "Switch '%s' to '%s'"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2394
+#: ../cmk/gui/wato/mkeventd.py:2396
 msgid "Switch back to sync mode!"
 msgstr ""
 
@@ -56937,20 +56947,20 @@ msgstr ""
 msgid "Switch number"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1345
+#: ../cmk/gui/plugins/views/inventory.py:1359
 msgid "Switch port statistics"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2392
+#: ../cmk/gui/wato/mkeventd.py:2394
 msgid "Switch to Takeover mode!"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2339
+#: ../cmk/gui/wato/mkeventd.py:2341
 #, python-format
 msgid "Switched replication slave mode to %s"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2340
+#: ../cmk/gui/wato/mkeventd.py:2342
 #, python-format
 msgid "Switched to %s mode"
 msgstr ""
@@ -57075,7 +57085,7 @@ msgstr ""
 msgid "Syslog facility"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4078
+#: ../cmk/gui/wato/mkeventd.py:4080
 msgid "Syslog facility for Event Console notifications"
 msgstr ""
 
@@ -57103,7 +57113,7 @@ msgstr ""
 msgid "Syslog-Priority"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3366
+#: ../cmk/gui/wato/mkeventd.py:3368
 msgid "Syslog-like message logging"
 msgstr ""
 
@@ -57202,7 +57212,7 @@ msgstr "services sélectionnés"
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services.py:28
 #, fuzzy
 #| msgid "Windows Service Discovery"
-msgid "Systemd single services siscovery"
+msgid "Systemd single services discovery"
 msgstr "Découverte des Services Windows"
 
 #: ../cmk/gui/plugins/wato/check_parameters/tcp_connections.py:40
@@ -57266,11 +57276,11 @@ msgstr ""
 msgid "TCP Port number"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3220
+#: ../cmk/gui/wato/mkeventd.py:3222
 msgid "TCP Port number of status socket:"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4261
+#: ../cmk/gui/wato/mkeventd.py:4263
 msgid "TCP Port number:"
 msgstr ""
 
@@ -57294,7 +57304,7 @@ msgstr ""
 msgid "TCP connect"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3239
+#: ../cmk/gui/wato/mkeventd.py:3241
 msgid "TCP connect timeout for connecting to the master"
 msgstr ""
 
@@ -57391,7 +57401,7 @@ msgid "TX Signal Power Lane %d"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/layouts.py:539
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:93
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:84
 msgid "Table"
 msgstr ""
 
@@ -57574,11 +57584,11 @@ msgstr ""
 msgid "Take n'th worst state for n = "
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3251
+#: ../cmk/gui/wato/mkeventd.py:3253
 msgid "Takeover after a master downtime of"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2369
+#: ../cmk/gui/wato/mkeventd.py:2371
 msgid "Takeover!"
 msgstr ""
 
@@ -57891,7 +57901,7 @@ msgstr ""
 msgid "Text to cancel event(s)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:753 ../cmk/gui/wato/mkeventd.py:1964
+#: ../cmk/gui/wato/mkeventd.py:753 ../cmk/gui/wato/mkeventd.py:1966
 #: ../cmk/gui/wato/pages/pattern_editor.py:161
 msgid "Text to match"
 msgstr ""
@@ -57900,7 +57910,7 @@ msgstr ""
 msgid "Text to place"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3476
+#: ../cmk/gui/wato/mkeventd.py:3478
 msgid "Text-body of the email to send. "
 msgstr ""
 
@@ -58130,7 +58140,7 @@ msgstr ""
 msgid "The ESX Host"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2346
+#: ../cmk/gui/wato/mkeventd.py:2348
 msgid "The Event Console Daemon is currently not running. "
 msgstr ""
 
@@ -58538,7 +58548,7 @@ msgid ""
 "networks in the syntax <tt>10.3.3.0/24</tt>."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3168
+#: ../cmk/gui/wato/mkeventd.py:3170
 msgid ""
 "The access to the event status via TCP will only be allowed from this source "
 "IP addresses"
@@ -58919,7 +58929,7 @@ msgstr ""
 msgid "The comment which is automatically sent with an adhoc downtime"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1254
+#: ../cmk/gui/plugins/views/inventory.py:1268
 msgid "The complete hardware- and software inventory of a host"
 msgstr ""
 
@@ -59047,11 +59057,11 @@ msgstr ""
 msgid "The connection %r does not exist"
 msgstr ""
 
-#: ../cmk/gui/sites.py:280
+#: ../cmk/gui/sites.py:297
 msgid "The connection to this site has been disabled."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4357
+#: ../cmk/gui/wato/mkeventd.py:4359
 msgid ""
 "The contact information must not contain one of the characters <tt>;</tt> "
 "<tt>'</tt> <tt>|</tt> or <tt>$</tt>"
@@ -59143,7 +59153,7 @@ msgstr ""
 msgid "The customer ID %s does not exist."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1355
+#: ../cmk/gui/dashboard.py:1358
 #, fuzzy
 #| msgid "The requested snapshot does not exist"
 msgid "The dashboard element does not exist."
@@ -59272,12 +59282,12 @@ msgid ""
 "device.Here you can make settings to the monitoring of the proxied device."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1420
+#: ../cmk/gui/dashboard.py:1423
 msgid "The element can not be found on the dashboard."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1783 ../cmk/gui/dashboard.py:1925
-#: ../cmk/gui/dashboard.py:1957 ../cmk/gui/dashboard.py:1994
+#: ../cmk/gui/dashboard.py:1786 ../cmk/gui/dashboard.py:1928
+#: ../cmk/gui/dashboard.py:1960 ../cmk/gui/dashboard.py:1997
 #, fuzzy
 #| msgid "The requested snapshot does not exist"
 msgid "The element does not exist."
@@ -59312,7 +59322,7 @@ msgstr ""
 msgid "The end date must be after the start date"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3830
+#: ../cmk/gui/wato/mkeventd.py:3832
 msgid ""
 "The engine IDs have to be configured as hex strings like "
 "<tt>8000000001020304</tt>."
@@ -59330,14 +59340,14 @@ msgstr ""
 msgid "The entry %s is missing"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3346
+#: ../cmk/gui/wato/mkeventd.py:3348
 msgid ""
 "The event daemon keeps statistics about the rate of messages, events rule "
 "hits, and other stuff. These values are updated in the interval configured "
 "here and are available in the sidebar snapin <i>Event Console Performance</i>"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3761
+#: ../cmk/gui/wato/mkeventd.py:3763
 msgid ""
 "The event socket is an alternative way for sending events to the Event "
 "Console. It is used by the Check_MK logwatch check when forwarding log "
@@ -59397,7 +59407,7 @@ msgstr ""
 msgid "The file extension has to be <tt>.pdf</tt>"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2909
+#: ../cmk/gui/wato/mkeventd.py:2911
 msgid "The file is empty"
 msgstr ""
 
@@ -59514,7 +59524,7 @@ msgstr ""
 msgid "The given base object \"%s\" does not exist in LDAP (%s))"
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1649
+#: ../cmk/gui/dashboard.py:1652
 msgid "The given datasource is not supported"
 msgstr ""
 
@@ -59613,7 +59623,7 @@ msgid ""
 "time) is longer ago than the configure age."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1570
+#: ../cmk/gui/plugins/views/inventory.py:1584
 msgid "The history for changes in hardware- and software inventory of a host"
 msgstr ""
 
@@ -59777,7 +59787,7 @@ msgstr ""
 msgid "The identifier of the thermal sensor."
 msgstr ""
 
-#: ../cmk/gui/visuals.py:887 ../cmk/gui/dashboard.py:1770
+#: ../cmk/gui/visuals.py:887 ../cmk/gui/dashboard.py:1773
 #, python-format
 msgid "The info %s does not exist."
 msgstr ""
@@ -60233,8 +60243,8 @@ msgstr ""
 msgid "The name of the cluster resource as shown in the service description."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:1402 ../cmk/gui/dashboard.py:1913
-#: ../cmk/gui/dashboard.py:1945
+#: ../cmk/gui/dashboard.py:1405 ../cmk/gui/dashboard.py:1916
+#: ../cmk/gui/dashboard.py:1948
 msgid "The name of the dashboard is missing."
 msgstr ""
 
@@ -60774,7 +60784,7 @@ msgid ""
 "pending changes."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3230
+#: ../cmk/gui/wato/mkeventd.py:3232
 msgid "The replication will be triggered each this number of seconds"
 msgstr ""
 
@@ -60810,21 +60820,21 @@ msgstr ""
 msgid "The requested connection does not exist."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:466 ../cmk/gui/dashboard.py:1350
-#: ../cmk/gui/dashboard.py:1409 ../cmk/gui/dashboard.py:1737
-#: ../cmk/gui/dashboard.py:1920 ../cmk/gui/dashboard.py:1952
-#: ../cmk/gui/dashboard.py:1989
+#: ../cmk/gui/dashboard.py:466 ../cmk/gui/dashboard.py:1353
+#: ../cmk/gui/dashboard.py:1412 ../cmk/gui/dashboard.py:1740
+#: ../cmk/gui/dashboard.py:1923 ../cmk/gui/dashboard.py:1955
+#: ../cmk/gui/dashboard.py:1992
 msgid "The requested dashboard does not exist."
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/utils.py:595 ../cmk/gui/dashboard.py:1423
-#: ../cmk/gui/dashboard.py:1748
+#: ../cmk/gui/plugins/dashboard/utils.py:595 ../cmk/gui/dashboard.py:1426
+#: ../cmk/gui/dashboard.py:1751
 #, fuzzy
 #| msgid "The requested snapshot does not exist"
 msgid "The requested element type does not exist."
 msgstr "Le snapshot demandé n'existe pas."
 
-#: ../cmk/gui/wato/mkeventd.py:2462
+#: ../cmk/gui/wato/mkeventd.py:2464
 msgid "The requested global setting does not exist."
 msgstr ""
 
@@ -60943,7 +60953,7 @@ msgstr ""
 msgid "The rule is only applied to hosts directly in or below this folder."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2027
+#: ../cmk/gui/wato/mkeventd.py:2029
 msgid "The rule pack you are trying to edit does not exist."
 msgstr ""
 
@@ -60958,7 +60968,7 @@ msgstr ""
 msgid "The rule would match, but matching is inverted."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2148 ../cmk/gui/wato/mkeventd.py:2165
+#: ../cmk/gui/wato/mkeventd.py:2150 ../cmk/gui/wato/mkeventd.py:2167
 msgid "The rule you are trying to edit does not exist."
 msgstr ""
 
@@ -61255,7 +61265,7 @@ msgstr ""
 msgid "The state of the job is ignored by default."
 msgstr ""
 
-#: ../cmk/gui/sites.py:284
+#: ../cmk/gui/sites.py:301
 msgid "The status of this site has not yet been determined."
 msgstr ""
 
@@ -61276,13 +61286,13 @@ msgid ""
 "to customer <i>%s</i>. This violates the CME folder hierarchy."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:621
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:653
 msgid ""
 "The subscription details include period start date, end date and sizing. The "
 "customer portal credentials can be found in your subscription contract."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:615
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:647
 msgid ""
 "The subscription details include period start date, end date and sizing. The "
 "customer portal credentials can be found in your subscription contract. "
@@ -61458,6 +61468,13 @@ msgstr ""
 msgid "The timeperiod %s is not known to the local monitoring core"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:295
+#, python-format
+msgid ""
+"The timeseries graph may be incomplete due to the following warnings:<ul>%s</"
+"ul>"
+msgstr ""
+
 #: ../cmk/gui/wato/pages/custom_attributes.py:242
 msgid "The title is used to label this attribute."
 msgstr ""
@@ -61494,7 +61511,7 @@ msgstr ""
 msgid "The top level rule does not exist."
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:72
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:63
 msgid "The total number of hosts and service with and without problems"
 msgstr ""
 
@@ -61895,7 +61912,7 @@ msgstr ""
 msgid "These hosts have installed the correct version of their agent."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3494
+#: ../cmk/gui/wato/mkeventd.py:3496
 msgid ""
 "These information are also available as environment variables with the "
 "prefix <tt>CMK_</tt>. For example the text of the event is available as "
@@ -62101,7 +62118,7 @@ msgid ""
 "configure the localizations %s."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:458
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:490
 #, python-format
 msgid ""
 "These values can be configured in the <a href=\"%s\">subscription "
@@ -62284,7 +62301,7 @@ msgstr ""
 msgid "This alias is already used in timeperiod %s."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3273
+#: ../cmk/gui/wato/mkeventd.py:3275
 msgid ""
 "This allows you to disable the replication without loosing your settings. If "
 "you check this box, then no replication will be done and the Event Console "
@@ -62398,7 +62415,7 @@ msgstr ""
 msgid "This check is not configurable via WATO"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4186
+#: ../cmk/gui/wato/mkeventd.py:4188
 msgid ""
 "This check is part of the Check_MK Event Console and monitors whether there "
 "are any open events for a particular host. The overall state of the service "
@@ -62760,7 +62777,7 @@ msgstr ""
 msgid "This is a front matter Template"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:283
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:285
 msgid ""
 "This is a placeholder for a timeseries graph displaying the historical "
 "development of your license usage. To be able to see this graph, you first "
@@ -62828,7 +62845,7 @@ msgid ""
 "This is relevant for aggregations that are much larger than one minute."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1545
+#: ../cmk/gui/wato/mkeventd.py:1546
 msgid "This is rule pack can be packaged with the Extension Packages module."
 msgstr ""
 
@@ -63173,7 +63190,7 @@ msgstr ""
 msgid "This option has been modified."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3647
+#: ../cmk/gui/wato/mkeventd.py:3649
 msgid ""
 "This option helps you to protect the Event Console from resoure problems "
 "which may occur in case of too many current events at the same time."
@@ -63241,11 +63258,11 @@ msgid ""
 "deviation to quantify the confidence interval."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3391
+#: ../cmk/gui/wato/mkeventd.py:3393
 msgid "This option turns on a faster algorithm for matching events to rules. "
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3869
+#: ../cmk/gui/wato/mkeventd.py:3871
 msgid ""
 "This option turns on logging the execution of rules. For each message "
 "received the execution details of each rule are logged. This creates an "
@@ -63292,7 +63309,7 @@ msgstr ""
 msgid "This package does not exist."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1826
+#: ../cmk/gui/wato/mkeventd.py:1828
 msgid "This package does not yet contain any rules."
 msgstr ""
 
@@ -63838,7 +63855,7 @@ msgid ""
 "actually supplies values for these parameters."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1904
+#: ../cmk/gui/wato/mkeventd.py:1906
 #, python-format
 msgid "This rule attaches contact group(s) to the events: %s"
 msgstr ""
@@ -63942,7 +63959,7 @@ msgid ""
 "This rule does <b>never</b> apply due to an empty list of explicit hosts!"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1888
+#: ../cmk/gui/wato/mkeventd.py:1890
 msgid "This rule does a cancelling match."
 msgstr ""
 
@@ -63984,7 +64001,7 @@ msgid ""
 "windows printer queue."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/bi_config.py:865 ../cmk/gui/wato/mkeventd.py:1876
+#: ../cmk/gui/plugins/wato/bi_config.py:865 ../cmk/gui/wato/mkeventd.py:1878
 #: ../cmk/gui/wato/pages/rulesets.py:905
 #: ../cmk/gui/wato/pages/notifications.py:264
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:247
@@ -64040,7 +64057,7 @@ msgstr ""
 msgid "This rule matches, but is overridden by a previous rule."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1884
+#: ../cmk/gui/wato/mkeventd.py:1886
 msgid "This rule matches, but is overruled by a previous match."
 msgstr ""
 
@@ -64050,21 +64067,21 @@ msgid ""
 "rules."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1890
+#: ../cmk/gui/wato/mkeventd.py:1892
 msgid "This rule matches."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1558
+#: ../cmk/gui/wato/mkeventd.py:1560
 msgid ""
 "This rule pack is currently disabled. None of its rules will be applied."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1552
+#: ../cmk/gui/wato/mkeventd.py:1554
 #, python-format
 msgid "This rule pack is modified. Originally it was provided via the MKP %s."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:1541
+#: ../cmk/gui/wato/mkeventd.py:1542
 #, python-format
 msgid "This rule pack is provided via the MKP %s."
 msgstr ""
@@ -64194,7 +64211,7 @@ msgstr ""
 msgid "This rule set is for configuring levels for global packet counters."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4349
+#: ../cmk/gui/wato/mkeventd.py:4351
 msgid ""
 "This rule set is useful if you send your monitoring notifications into the "
 "Event Console. The contact information that is set by this rule will be put "
@@ -64509,7 +64526,7 @@ msgstr ""
 msgid "This rulset allow you to configure a SSH check for a host"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3492
+#: ../cmk/gui/wato/mkeventd.py:3494
 msgid "This script will be executed using the BASH shell. "
 msgstr ""
 
@@ -64741,7 +64758,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/webapi/execute_remote_automation.py:32
 #: ../cmk/gui/wato/pages/sites.py:973 ../cmk/gui/wato/pages/sites.py:1153
-#: ../cmk/gui/sites.py:285
+#: ../cmk/gui/sites.py:302
 msgid "This site does not exist."
 msgstr ""
 
@@ -64750,13 +64767,13 @@ msgstr ""
 msgid "This site is %s"
 msgstr ""
 
-#: ../cmk/gui/sites.py:281
+#: ../cmk/gui/sites.py:298
 #, fuzzy
 #| msgid "This element is currently in a scheduled downtime"
 msgid "This site is currently down."
 msgstr "Cet élément est actuellement en période de maintenance planifiée"
 
-#: ../cmk/gui/sites.py:282
+#: ../cmk/gui/sites.py:299
 #, fuzzy
 #| msgid "This element is currently in a scheduled downtime"
 msgid "This site is currently not reachable."
@@ -64766,7 +64783,7 @@ msgstr "Cet élément est actuellement en période de maintenance planifiée"
 msgid "This site is not a distributed WATO site."
 msgstr ""
 
-#: ../cmk/gui/sites.py:283
+#: ../cmk/gui/sites.py:300
 #, fuzzy
 #| msgid "This host is not possible."
 msgid "This site is not responding."
@@ -64782,7 +64799,7 @@ msgstr ""
 msgid "This site is not update and needs a replication. Start it now."
 msgstr ""
 
-#: ../cmk/gui/sites.py:279
+#: ../cmk/gui/sites.py:296
 #, fuzzy
 #| msgid "This host is not possible."
 msgid "This site is online."
@@ -65112,7 +65129,7 @@ msgid ""
 "e.g. '>=1024'."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4051
+#: ../cmk/gui/wato/mkeventd.py:4053
 msgid ""
 "This will send the notification to a Check_MK Event Console on a remote host "
 "by using syslog. <b>Note</b>: this setting will only be applied if no Event "
@@ -65715,13 +65732,13 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1316
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1891
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2580
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:86
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:77
 #: ../cmk/gui/plugins/sidebar/bookmarks.py:99
 #: ../cmk/gui/plugins/metrics/valuespecs.py:100 ../cmk/gui/visuals.py:603
 #: ../cmk/gui/visuals.py:963 ../cmk/gui/backup.py:773 ../cmk/gui/backup.py:1106
 #: ../cmk/gui/backup.py:1252 ../cmk/gui/werks.py:295 ../cmk/gui/werks.py:552
 #: ../cmk/gui/wato/mkeventd.py:309 ../cmk/gui/wato/mkeventd.py:316
-#: ../cmk/gui/wato/mkeventd.py:1606 ../cmk/gui/wato/mkeventd.py:3424
+#: ../cmk/gui/wato/mkeventd.py:1608 ../cmk/gui/wato/mkeventd.py:3426
 #: ../cmk/gui/wato/pages/tags.py:340 ../cmk/gui/wato/pages/tags.py:388
 #: ../cmk/gui/wato/pages/tags.py:443 ../cmk/gui/wato/pages/tags.py:795
 #: ../cmk/gui/wato/pages/rulesets.py:1202 ../cmk/gui/wato/pages/folders.py:1140
@@ -65799,7 +65816,7 @@ msgid ""
 "program \"Microsoft Azure\"."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3656
+#: ../cmk/gui/wato/mkeventd.py:3658
 msgid ""
 "To protect you against a continously growing list of current events created "
 "by different hosts or rules, you can configure this overall limit of current "
@@ -66559,11 +66576,11 @@ msgstr ""
 msgid "Translate Hostnames"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3797
+#: ../cmk/gui/wato/mkeventd.py:3799
 msgid "Translate SNMP traps"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3787
+#: ../cmk/gui/wato/mkeventd.py:3789
 msgid "Translate SNMP traps using the available MIBs"
 msgstr ""
 
@@ -66705,7 +66722,7 @@ msgstr ""
 msgid "Try Pattern Match"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3240
+#: ../cmk/gui/wato/mkeventd.py:3242
 msgid "Try bringing up TCP connection for"
 msgstr ""
 
@@ -66801,7 +66818,7 @@ msgstr ""
 msgid "Type Error: html.write accepts str and unicode input objects only!"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3448
+#: ../cmk/gui/wato/mkeventd.py:3450
 msgid "Type of Action"
 msgstr ""
 
@@ -66954,7 +66971,7 @@ msgstr ""
 #: ../cmk/gui/availability.py:147 ../cmk/gui/availability.py:163
 #: ../cmk/gui/availability.py:414 ../cmk/gui/availability.py:425
 #: ../cmk/gui/availability.py:436 ../cmk/gui/wato/mkeventd.py:248
-#: ../cmk/gui/wato/mkeventd.py:1933 ../cmk/gui/wato/pages/users.py:400
+#: ../cmk/gui/wato/mkeventd.py:1935 ../cmk/gui/wato/pages/users.py:400
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:148
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1176 ../cmk/utils/defines.py:25
 msgid "UNKNOWN"
@@ -67516,7 +67533,7 @@ msgstr ""
 msgid "Undefined key '%s' in the dictionary. Allowed are %s."
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/timeseries.py:129
+#: ../cmk/gui/plugins/metrics/timeseries.py:132
 #, python-format
 msgid "Undefined operator '%s' in graph expression"
 msgstr ""
@@ -67541,7 +67558,7 @@ msgid ""
 "Unfortunately, using a proxy and a virtual host is not supported (try '%s')."
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:179
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:170
 msgid "Unhandled"
 msgstr ""
 
@@ -67554,7 +67571,7 @@ msgstr ""
 msgid "Unhandled host problems"
 msgstr ""
 
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:180
+#: ../cmk/gui/plugins/sidebar/tactical_overview.py:171
 #, fuzzy
 #| msgid "Acknowledge Problems"
 msgid "Unhandled p."
@@ -67649,12 +67666,12 @@ msgstr ""
 msgid "Unknown date"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1113
+#: ../cmk/gui/plugins/views/inventory.py:1127
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:144
 msgid "Unknown entities"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1112
+#: ../cmk/gui/plugins/views/inventory.py:1126
 msgid "Unknown entity"
 msgstr ""
 
@@ -67951,7 +67968,7 @@ msgid "Updating of search index started"
 msgstr ""
 
 #: ../cmk/gui/plugins/metrics/aws.py:376 ../cmk/gui/key_mgmt.py:303
-#: ../cmk/gui/wato/mkeventd.py:2777 ../cmk/gui/wato/pages/bulk_import.py:96
+#: ../cmk/gui/wato/mkeventd.py:2779 ../cmk/gui/wato/pages/bulk_import.py:96
 #: ../cmk/gui/wato/pages/icons.py:60 ../cmk/gui/cme/plugins/wato/managed.py:501
 #: ../cmk/gui/cme/plugins/wato/managed.py:604
 #: ../cmk/gui/cme/plugins/wato/managed.py:670
@@ -67971,11 +67988,11 @@ msgstr ""
 msgid "Upload CRT/PEM File"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2936 ../cmk/gui/wato/mkeventd.py:2945
+#: ../cmk/gui/wato/mkeventd.py:2938 ../cmk/gui/wato/mkeventd.py:2947
 msgid "Upload MIB file"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2770
+#: ../cmk/gui/wato/mkeventd.py:2772
 #, fuzzy
 msgid "Upload SNMP MIBs"
 msgstr "Téléchargement de la MIB %s vers le serveur : %s"
@@ -69239,7 +69256,7 @@ msgid ""
 "conditions including the text representation of the configured values."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2938
+#: ../cmk/gui/wato/mkeventd.py:2940
 msgid ""
 "Use this form to upload MIB files for translating incoming SNMP traps. You "
 "can upload single MIB files with the extension <tt>.mib</tt> or <tt>.txt</"
@@ -69789,7 +69806,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/utils/__init__.py:352
 #: ../cmk/gui/plugins/wato/notifications.py:714
 #: ../cmk/gui/wato/pages/users.py:783
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:606
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:638
 #: ../cmk/gui/cee/plugins/wato/dcd.py:215
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:31
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:35
@@ -70345,7 +70362,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:816
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:866
 #: ../cmk/gui/werks.py:544 ../cmk/gui/wato/pages/activate_changes.py:429
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:356
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:388
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:292
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:354
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:375
@@ -70443,7 +70460,7 @@ msgstr ""
 #: ../cmk/gui/views.py:1244 ../cmk/gui/plugins/dashboard/view.py:76
 #: ../cmk/gui/plugins/dashboard/view.py:91
 #: ../cmk/gui/plugins/wato/bi_config.py:650
-#: ../cmk/gui/plugins/metrics/html_render.py:823 ../cmk/gui/dashboard.py:1718
+#: ../cmk/gui/plugins/metrics/html_render.py:823 ../cmk/gui/dashboard.py:1721
 #: ../cmk/gui/pagetypes.py:1093
 msgid "View"
 msgstr ""
@@ -70478,7 +70495,7 @@ msgstr "modifications"
 msgid "View layout"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1672
+#: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1675
 msgid "View name"
 msgstr ""
 
@@ -70731,7 +70748,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:766 ../cmk/gui/availability.py:145
 #: ../cmk/gui/availability.py:161 ../cmk/gui/availability.py:412
 #: ../cmk/gui/availability.py:423 ../cmk/gui/availability.py:434
-#: ../cmk/gui/wato/mkeventd.py:246 ../cmk/gui/wato/mkeventd.py:1931
+#: ../cmk/gui/wato/mkeventd.py:246 ../cmk/gui/wato/mkeventd.py:1933
 #: ../cmk/gui/cme/plugins/views/managed.py:249
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:146 ../cmk/utils/defines.py:37
 msgid "WARN"
@@ -72613,7 +72630,7 @@ msgid ""
 "the \"Alternative address to ping\" above."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4206
+#: ../cmk/gui/wato/mkeventd.py:4208
 msgid ""
 "When querying the event status, you can match events to a particular host "
 "using the hostname, the IP address, or the host alias. This is due to the "
@@ -72635,7 +72652,7 @@ msgid ""
 "tt> the name of the parent host."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4079
+#: ../cmk/gui/wato/mkeventd.py:4081
 msgid ""
 "When sending notifications from the monitoring system to the event console "
 "the following syslog facility will be set for these messages. Choosing a "
@@ -72667,7 +72684,7 @@ msgstr ""
 msgid "When the Agent to be uninstalled"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3557
+#: ../cmk/gui/wato/mkeventd.py:3559
 msgid ""
 "When the Event Console receives a message than the host name that is "
 "contained in that message will be translated using this configuration. This "
@@ -72676,14 +72693,14 @@ msgid ""
 "being applied."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3969
+#: ../cmk/gui/wato/mkeventd.py:3971
 msgid ""
 "When the Multisite GUI connects the socket of the event daemon in order to "
 "retrieve information about current and historic events then this timeout "
 "will be applied."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3736
+#: ../cmk/gui/wato/mkeventd.py:3738
 msgid ""
 "When the Multisite GUI or the active check check_mkevents connects to the "
 "socket of the event daemon in order to retrieve information about current "
@@ -72692,7 +72709,7 @@ msgid ""
 "queued before refusing new connections."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3994
+#: ../cmk/gui/wato/mkeventd.py:3996
 msgid ""
 "When the WATO module of the Event Console saves rules to the file "
 "<tt>mkeventd.d/wato/rules.mk</tt> it usually prints the Python "
@@ -72851,7 +72868,7 @@ msgid ""
 "automatically update the cache once a day."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3798
+#: ../cmk/gui/wato/mkeventd.py:3800
 msgid ""
 "When this option is enabled all available SNMP MIB files will be used to "
 "translate the incoming SNMP traps. Information which can not be translated, "
@@ -72874,7 +72891,7 @@ msgid ""
 "SERVICE / VARIABLE</i>."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3536
+#: ../cmk/gui/wato/mkeventd.py:3538
 msgid ""
 "When this option is enabled then messages that do not match a rule will be "
 "archived into the event history anyway (Messages that do match a rule will "
@@ -72890,7 +72907,7 @@ msgid ""
 "(due to some change in the rules of the monitoring agents)."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3368
+#: ../cmk/gui/wato/mkeventd.py:3370
 msgid ""
 "When this option is enabled, then <b>every</b> incoming message is being "
 "logged into the directory <tt>messages</tt> in the Event Consoles state "
@@ -73007,7 +73024,7 @@ msgid ""
 "events."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3848
+#: ../cmk/gui/wato/mkeventd.py:3850
 msgid ""
 "When you want to process SNMP traps with the Event Console it is necessary "
 "to configure the credentials to decrypt the incoming traps."
@@ -73485,7 +73502,7 @@ msgid ""
 "configured in the early stages."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3160
+#: ../cmk/gui/wato/mkeventd.py:3162
 msgid ""
 "Without this option the access is limited to querying the current and "
 "historic event status."
@@ -73710,7 +73727,7 @@ msgstr ""
 msgid "Wrong service level %d (need %d..%d)"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2690
+#: ../cmk/gui/wato/mkeventd.py:2692
 msgid "X"
 msgstr ""
 
@@ -73746,7 +73763,7 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
-#: ../cmk/gui/crash_reporting.py:533 ../cmk/gui/plugins/views/inventory.py:517
+#: ../cmk/gui/crash_reporting.py:533 ../cmk/gui/plugins/views/inventory.py:518
 #: ../cmk/gui/plugins/views/availability.py:1086
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:65
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:77
@@ -73755,7 +73772,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:104
 #: ../cmk/gui/plugins/wato/bi_config.py:504 ../cmk/gui/wato/pages/sites.py:1269
 #: ../cmk/gui/wato/pages/sites.py:1278
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:369
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:401
 msgid "Yes"
 msgstr ""
 
@@ -73835,9 +73852,9 @@ msgstr ""
 msgid "You are not allowed to edit %s."
 msgstr ""
 
-#: ../cmk/gui/dashboard.py:519 ../cmk/gui/dashboard.py:1729
-#: ../cmk/gui/dashboard.py:1909 ../cmk/gui/dashboard.py:1941
-#: ../cmk/gui/dashboard.py:1981
+#: ../cmk/gui/dashboard.py:519 ../cmk/gui/dashboard.py:1732
+#: ../cmk/gui/dashboard.py:1912 ../cmk/gui/dashboard.py:1944
+#: ../cmk/gui/dashboard.py:1984
 msgid "You are not allowed to edit dashboards."
 msgstr ""
 
@@ -73921,7 +73938,7 @@ msgstr ""
 msgid "You are trying to edit a rule which does not exist anymore."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2244
+#: ../cmk/gui/wato/mkeventd.py:2246
 #, python-format
 msgid ""
 "You are using the replacment reference <tt>\\%d</tt>, but your match text "
@@ -74016,7 +74033,7 @@ msgid ""
 "Address or Name configured in the field above."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3892
+#: ../cmk/gui/wato/mkeventd.py:3894
 #, python-format
 msgid ""
 "You can configure the Event Console to log more details about it's actions. "
@@ -74136,7 +74153,7 @@ msgid ""
 "Matching patterns will be highlighted after clicking the \"Try out\" button."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3610
+#: ../cmk/gui/wato/mkeventd.py:3612
 msgid ""
 "You can limit the number of current events created by a single host here. "
 "This is meant to prevent you from message storms created by one device."
@@ -74146,7 +74163,7 @@ msgid ""
 "Event Console will notify the configured contacts of the host."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3584
+#: ../cmk/gui/wato/mkeventd.py:3586
 msgid ""
 "You can limit the number of current events created by a single rule here. "
 "This is meant to prevent you from too generous rules creating a lot of "
@@ -74648,12 +74665,12 @@ msgid ""
 "reported."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2225
+#: ../cmk/gui/wato/mkeventd.py:2227
 msgid ""
 "You cannot use counting and expecting at the same time in the same rule."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2231
+#: ../cmk/gui/wato/mkeventd.py:2233
 msgid ""
 "You cannot use expecting and delay at the same time in the same rule, sorry."
 msgstr ""
@@ -74911,7 +74928,7 @@ msgid ""
 "monitoring setup, the update site might differ."
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2219
+#: ../cmk/gui/wato/mkeventd.py:2221
 msgid ""
 "You matching text has too many regular expresssion subgroups. Only nine are "
 "allowed."
@@ -75358,7 +75375,7 @@ msgstr ""
 msgid "above predicted value"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3175
+#: ../cmk/gui/wato/mkeventd.py:3177
 msgid "access unrestricted"
 msgstr ""
 
@@ -75366,7 +75383,7 @@ msgstr ""
 msgid "acknowledged"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4242
+#: ../cmk/gui/wato/mkeventd.py:4244
 msgid "acknowledged events will not be honored"
 msgstr ""
 
@@ -75455,11 +75472,11 @@ msgstr ""
 msgid "allocated"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3163
+#: ../cmk/gui/wato/mkeventd.py:3165
 msgid "allow commands"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3159
+#: ../cmk/gui/wato/mkeventd.py:3161
 msgid "allow execution of commands and actions via TCP"
 msgstr ""
 
@@ -75630,11 +75647,11 @@ msgstr ""
 msgid "change the state"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1547
+#: ../cmk/gui/plugins/views/inventory.py:1561
 msgid "changed"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1544
+#: ../cmk/gui/plugins/views/inventory.py:1558
 msgid "changed entries"
 msgstr ""
 
@@ -75866,8 +75883,8 @@ msgstr ""
 msgid "critical if older than"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3599 ../cmk/gui/wato/mkeventd.py:3625
-#: ../cmk/gui/wato/mkeventd.py:3669
+#: ../cmk/gui/wato/mkeventd.py:3601 ../cmk/gui/wato/mkeventd.py:3627
+#: ../cmk/gui/wato/mkeventd.py:3671
 msgid "current events"
 msgstr ""
 
@@ -75912,7 +75929,7 @@ msgstr ""
 msgid "dBmV"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3696
+#: ../cmk/gui/wato/mkeventd.py:3698
 msgid "daily"
 msgstr ""
 
@@ -75931,7 +75948,7 @@ msgid "day"
 msgstr ""
 
 #: ../cmk/gui/valuespec.py:334 ../cmk/gui/valuespec.py:363
-#: ../cmk/gui/plugins/views/inventory.py:552
+#: ../cmk/gui/plugins/views/inventory.py:553
 #: ../cmk/gui/plugins/visuals/utils.py:360
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:47
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:48
@@ -75948,7 +75965,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/active_checks.py:1457
 #: ../cmk/gui/plugins/wato/active_checks.py:1460
 #: ../cmk/gui/plugins/wato/utils/__init__.py:909
-#: ../cmk/gui/wato/mkeventd.py:3716 ../cmk/gui/wato/pages/audit_log.py:467
+#: ../cmk/gui/wato/mkeventd.py:3718 ../cmk/gui/wato/pages/audit_log.py:467
 #: ../cmk/gui/cee/plugins/wato/cmc.py:351
 msgid "days"
 msgstr ""
@@ -76027,8 +76044,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/solaris_services.py:41
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3353
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3377
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:475
 #: ../cmk/gui/wato/pages/users.py:400 ../cmk/gui/wato/pages/users.py:470
+#: ../cmk/gui/sites.py:402
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:340
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_db2.py:39
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:139
@@ -76044,7 +76061,7 @@ msgid "discards"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:134
-#: ../cmk/gui/plugins/sidebar/tactical_overview.py:480
+#: ../cmk/gui/sites.py:406
 msgid "disconnected"
 msgstr ""
 
@@ -76153,7 +76170,7 @@ msgstr ""
 msgid "enable debug of Livestatus queries"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3868
+#: ../cmk/gui/wato/mkeventd.py:3870
 msgid "enable extensive rule logging"
 msgstr ""
 
@@ -76161,11 +76178,11 @@ msgstr ""
 msgid "enable notifications"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3390
+#: ../cmk/gui/wato/mkeventd.py:3392
 msgid "enable optimized rule execution"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3992
+#: ../cmk/gui/wato/mkeventd.py:3994
 msgid "enable pretty-printing of rules"
 msgstr ""
 
@@ -76177,7 +76194,7 @@ msgstr ""
 msgid "enable this site"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:565
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:597
 #, fuzzy
 #| msgid "Legend"
 msgid "end"
@@ -76362,7 +76379,7 @@ msgstr ""
 msgid "fourth week"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:456
+#: ../cmk/gui/plugins/views/inventory.py:457
 #: ../cmk/gui/plugins/visuals/inventory.py:253
 msgid "free"
 msgstr ""
@@ -76729,7 +76746,7 @@ msgstr ""
 msgid "is "
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:462
+#: ../cmk/gui/plugins/views/inventory.py:463
 msgid "is clustered"
 msgstr ""
 
@@ -76743,7 +76760,7 @@ msgstr ""
 msgid "is not "
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:462
+#: ../cmk/gui/plugins/views/inventory.py:463
 msgid "is not clustered"
 msgstr ""
 
@@ -76807,7 +76824,7 @@ msgstr ""
 msgid "legacy run"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4251
+#: ../cmk/gui/wato/mkeventd.py:4253
 msgid "local connect"
 msgstr ""
 
@@ -76837,7 +76854,7 @@ msgstr ""
 msgid "log switches / hour"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3281
+#: ../cmk/gui/wato/mkeventd.py:3283
 msgid "logging is enabled"
 msgstr ""
 
@@ -76893,7 +76910,7 @@ msgstr ""
 msgid "master"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2370
+#: ../cmk/gui/wato/mkeventd.py:2372
 msgid "master / standalone"
 msgstr ""
 
@@ -77098,11 +77115,11 @@ msgstr ""
 msgid "negate"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1527
+#: ../cmk/gui/plugins/views/inventory.py:1541
 msgid "new"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1524
+#: ../cmk/gui/plugins/views/inventory.py:1538
 msgid "new entries"
 msgstr ""
 
@@ -77125,7 +77142,7 @@ msgstr ""
 msgid "no"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3186
+#: ../cmk/gui/wato/mkeventd.py:3188
 msgid "no access via TCP"
 msgstr ""
 
@@ -77133,7 +77150,7 @@ msgstr ""
 msgid "no assumed state set"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3164
+#: ../cmk/gui/wato/mkeventd.py:3166
 msgid "no commands"
 msgstr ""
 
@@ -77281,7 +77298,7 @@ msgstr ""
 #: ../cmk/gui/valuespec.py:2440 ../cmk/gui/views.py:1412
 #: ../cmk/gui/plugins/views/utils.py:344
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
-#: ../cmk/gui/wato/mkeventd.py:2474 ../cmk/gui/wato/pages/sites.py:1019
+#: ../cmk/gui/wato/mkeventd.py:2476 ../cmk/gui/wato/pages/sites.py:1019
 #: ../cmk/gui/htmllib.py:2144
 msgid "off"
 msgstr ""
@@ -77298,7 +77315,7 @@ msgstr ""
 
 #: ../cmk/gui/valuespec.py:2439
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
-#: ../cmk/gui/wato/mkeventd.py:2474 ../cmk/gui/wato/pages/sites.py:1019
+#: ../cmk/gui/wato/mkeventd.py:2476 ../cmk/gui/wato/pages/sites.py:1019
 #: ../cmk/gui/htmllib.py:2144
 msgid "on"
 msgstr ""
@@ -77444,7 +77461,7 @@ msgstr ""
 msgid "pending"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3743 ../cmk/gui/wato/mkeventd.py:3768
+#: ../cmk/gui/wato/mkeventd.py:3745 ../cmk/gui/wato/mkeventd.py:3770
 msgid "pending connections"
 msgstr ""
 
@@ -77851,9 +77868,9 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/unit.py:88 ../cmk/gui/watolib/sites.py:460
 #: ../cmk/gui/watolib/sites.py:465 ../cmk/gui/watolib/sites.py:475
 #: ../cmk/gui/watolib/sites.py:481 ../cmk/gui/watolib/sites.py:488
-#: ../cmk/gui/availability.py:517 ../cmk/gui/wato/mkeventd.py:3232
-#: ../cmk/gui/wato/mkeventd.py:3241 ../cmk/gui/wato/mkeventd.py:3252
-#: ../cmk/gui/wato/mkeventd.py:3264 ../cmk/gui/wato/pages/parentscan.py:414
+#: ../cmk/gui/availability.py:517 ../cmk/gui/wato/mkeventd.py:3234
+#: ../cmk/gui/wato/mkeventd.py:3243 ../cmk/gui/wato/mkeventd.py:3254
+#: ../cmk/gui/wato/mkeventd.py:3266 ../cmk/gui/wato/pages/parentscan.py:414
 #: ../cmk/gui/wato/pages/host_diagnose.py:323
 #: ../cmk/gui/wato/pages/host_diagnose.py:340
 #: ../cmk/gui/cee/plugins/wato/cmc.py:996
@@ -77917,7 +77934,7 @@ msgstr ""
 msgid "send notification"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:4018
+#: ../cmk/gui/wato/mkeventd.py:4020
 msgid "send notifications of contactgroup:"
 msgstr ""
 
@@ -78036,7 +78053,7 @@ msgstr ""
 msgid "specify manually ->"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:558
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:590
 msgid "start"
 msgstr ""
 
@@ -78060,7 +78077,7 @@ msgstr ""
 msgid "success"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:2368
+#: ../cmk/gui/wato/mkeventd.py:2370
 msgid "synchronize"
 msgstr ""
 
@@ -78178,7 +78195,7 @@ msgstr ""
 msgid "to:"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:3516 ../cmk/gui/plugins/views/inventory.py:549
+#: ../cmk/gui/valuespec.py:3516 ../cmk/gui/plugins/views/inventory.py:550
 msgid "today"
 msgstr ""
 
@@ -78202,7 +78219,7 @@ msgstr ""
 msgid "two levels"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:449
+#: ../cmk/gui/plugins/views/inventory.py:450
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:217
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:290
@@ -78260,7 +78277,7 @@ msgstr ""
 msgid "use port name"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:456
+#: ../cmk/gui/plugins/views/inventory.py:457
 #: ../cmk/gui/plugins/visuals/inventory.py:253
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_transactionlogs.py:56
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:76
@@ -78445,7 +78462,7 @@ msgstr ""
 msgid "week"
 msgstr ""
 
-#: ../cmk/gui/wato/mkeventd.py:3696
+#: ../cmk/gui/wato/mkeventd.py:3698
 msgid "weekly"
 msgstr ""
 
@@ -78520,7 +78537,7 @@ msgstr ""
 msgid "yes"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:3552 ../cmk/gui/plugins/views/inventory.py:551
+#: ../cmk/gui/valuespec.py:3552 ../cmk/gui/plugins/views/inventory.py:552
 msgid "yesterday"
 msgstr ""
 
