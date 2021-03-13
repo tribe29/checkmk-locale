@@ -4,10 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
+"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-03-11 07:00+0000\n"
-"Last-Translator: Ulrich Bschorer <ulrich.bschorer@tribe29.com>\n"
+"PO-Revision-Date: 2021-03-13 06:19+0000\n"
+"Last-Translator: Lukas Lengler <lukas.lengler@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
 "Language: de\n"
@@ -563,11 +563,9 @@ msgid "%d sites %s: %s"
 msgstr "%d Instanzen %s: %s"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:345
-#, fuzzy, python-format
-#| msgid "%d site is %s."
-#| msgid_plural "%d sites are %s."
+#, python-format
 msgid "%d sites without history: %s"
-msgstr "%d Instanz ist %s"
+msgstr "%d Instanzen ohne Verlauf: %s"
 
 #: ../cmk/gui/wato/pages/sites.py:718
 #, python-format
@@ -11911,10 +11909,8 @@ msgid "Checks & agents"
 msgstr "Checks & Agenten"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1061
-#, fuzzy
-#| msgid "No management board"
 msgid "Checks on management boards"
-msgstr "Kein Management-Board"
+msgstr "Checks auf Management-Boards"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1060
 #, fuzzy
@@ -40079,7 +40075,7 @@ msgstr ""
 #: ../cmk/gui/plugins/dashboard/graph.py:258
 #, python-format
 msgid "Missing data needed to render this graph. Details: %s"
-msgstr ""
+msgstr "Es fehlen benötigte Daten um den Graph zu rendern. Details: %s"
 
 #: ../cmk/gui/cee/agent_bakery.py:113
 msgid "Missing host name"
@@ -41704,14 +41700,10 @@ msgid "Network interfaces on Windows"
 msgstr "Netzwerkkarten unter Windows"
 
 #: ../cmk/gui/cee/ntop/pages.py:1217
-#, fuzzy
-#| msgid "Network Interfaces: Last Day View"
 msgid "Network interfaces: last day view"
 msgstr "Netzwerkschnittstellen: Ansicht über den vergangenen Tag"
 
 #: ../cmk/gui/cee/ntop/pages.py:1206
-#, fuzzy
-#| msgid "Network Interfaces: Last Hour View"
 msgid "Network interfaces: last hour view"
 msgstr "Netzwerkschnittstellen: Ansicht über die letzte Stunde"
 
@@ -55388,10 +55380,9 @@ msgid "Show %ss for hosts and services"
 msgstr "Alle veralteten Hosts und Services zeigen"
 
 #: ../cmk/gui/cee/plugins/dashboard/event_bar_chart_dashlet.py:263
-#, fuzzy, python-format
-#| msgid "Move %s to %s services"
+#, python-format
 msgid "Show %ss for services"
-msgstr "%s zu %s Services verschieben"
+msgstr "Zeige %ss für Services"
 
 #: ../cmk/gui/wato/pages/notifications.py:673
 msgid "Show / hide notification context"
@@ -55946,9 +55937,8 @@ msgid "Sidecar name"
 msgstr "Instanzname"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3245
-#, fuzzy
 msgid "Sidecars"
-msgstr "Instanzname"
+msgstr "Sidecars"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1937
 msgid "Siemens PLC (SPS)"
@@ -65081,6 +65071,8 @@ msgid ""
 "The timeseries graph may be incomplete due to the following warnings:<ul>%s</"
 "ul>"
 msgstr ""
+"Der Zeitreihen Graph kann unvollständig sein aufgrund der folgenden "
+"Warnungen: <ul>%s</ul>"
 
 #: ../cmk/gui/wato/pages/custom_attributes.py:242
 msgid "The title is used to label this attribute."
