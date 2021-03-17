@@ -653,7 +653,7 @@ msgstr "%s Fertiggestellt."
 msgid "%s Locks"
 msgstr "%s Locks"
 
-#: ../cmk/gui/cee/ntop/pages.py:527
+#: ../cmk/gui/cee/ntop/pages.py:509
 #, python-format
 msgid "%s Pkts / %s%s"
 msgstr "%s Pakete / %s%s"
@@ -762,7 +762,7 @@ msgstr "%s Latenz %s"
 msgid "%s matching labels: %s"
 msgstr "%s mit übereinstimmenden Labels: %s"
 
-#: ../cmk/gui/watolib/host_attributes.py:776
+#: ../cmk/gui/watolib/host_attributes.py:777
 #, python-format
 msgid "%s may be missing, if must not be empty if it is set."
 msgstr "%s fehlt (möglicherweise) - darf nicht leer sein, wenn gesetzt."
@@ -974,7 +974,7 @@ msgstr "(SLA Schwellwerte bei %d%%/%d%% übrig)"
 msgid "(SLA alert levels at %d/%d incidents left)"
 msgstr "(SLA Schwellwerte bei %d/%d Ausfällen übrig)"
 
-#: ../cmk/gui/cee/ntop/pages.py:976
+#: ../cmk/gui/cee/ntop/pages.py:958
 msgid "(TLS, HTTP and DNS names)"
 msgstr "(TLS, HTTP und DNS Namen)"
 
@@ -1386,7 +1386,7 @@ msgstr "30.000 Services"
 msgid "300.000 Services"
 msgstr "300.000 Services"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:256
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:260
 msgid "32bit packaged binary"
 msgstr "Paketierte 32bit binary"
 
@@ -1459,7 +1459,7 @@ msgstr "6 Monate"
 msgid "60.000 Services"
 msgstr "60.000 Services"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:253
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:257
 msgid "64bit packaged binary"
 msgstr "Paketierte 64bit binary"
 
@@ -1577,6 +1577,13 @@ msgid ""
 msgstr ""
 "<b>Anmerkung:</b> Die angezeigten Ergebnisse sind unvollständig und geben "
 "nicht die Sortierordnung wieder."
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:107
+msgid ""
+"<b>Note<sup>3</sup>:</b> In order to deploy this plugin to Solaris, a Python "
+"3.4 installation (or newer) with installed python packages \"pyOpenSSL\", "
+"\"requests\" and \"PySocks\" is required on the target hosts."
+msgstr ""
 
 #: ../cmk/gui/wato/pages/host_rename.py:530
 #, python-format
@@ -3759,7 +3766,7 @@ msgid "Activating changes of Livestatus Proxy configuration"
 msgstr "Aktiviere Änderungen der Livestatus-Proxy-Konfiguration"
 
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:393
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:109
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:113
 #: ../cmk/gui/cee/reporting.py:1686
 msgid "Activation"
 msgstr "Aktivierung"
@@ -3795,7 +3802,7 @@ msgstr "Aktivierungszustand"
 #: ../cmk/gui/plugins/metrics/storage.py:498
 #: ../cmk/gui/plugins/metrics/docker.py:66
 #: ../cmk/gui/cee/plugins/reporting/utils.py:303
-#: ../cmk/gui/cee/ntop/pages.py:550 ../cmk/gui/cee/ntop/pages.py:575
+#: ../cmk/gui/cee/ntop/pages.py:532 ../cmk/gui/cee/ntop/pages.py:557
 msgid "Active"
 msgstr "Aktiv"
 
@@ -3872,7 +3879,7 @@ msgstr "Aktive VPN-Benutzer"
 msgid "Active VPN Web Sessions"
 msgstr "Aktive VPN-Web-Sitzungen"
 
-#: ../cmk/gui/cee/ntop/pages.py:465 ../cmk/gui/cee/ntop/pages.py:468
+#: ../cmk/gui/cee/ntop/pages.py:447 ../cmk/gui/cee/ntop/pages.py:450
 msgid "Active alerted flows"
 msgstr "Aktive benachrichtigte 'flows'"
 
@@ -3965,7 +3972,7 @@ msgstr "Aktive Einheit"
 msgid "Activity log updates"
 msgstr "Updates zu Log-Aktivitäten"
 
-#: ../cmk/gui/cee/ntop/pages.py:1204 ../cmk/gui/cee/ntop/pages.py:1215
+#: ../cmk/gui/cee/ntop/pages.py:1186 ../cmk/gui/cee/ntop/pages.py:1197
 #, fuzzy
 #| msgid "Actual Traffic"
 msgid "Actual traffic"
@@ -4014,7 +4021,7 @@ msgid "Add Bookmark"
 msgstr "Lesezeichen speichern"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:138
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:179
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:183
 msgid "Add CA or self-signed certificate"
 msgstr "CA oder selbstsigniertes Zertifikat hinzufügen"
 
@@ -4444,7 +4451,7 @@ msgid "Add pattern"
 msgstr "Muster hinzufügen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:78
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:192
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:187
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:158
 msgid "Add pattern group"
 msgstr "Mustergruppe hinzufügen"
@@ -4722,7 +4729,7 @@ msgstr "Dem Stack hinzugefügt"
 msgid "Added: %s"
 msgstr "Hinzugefügt: %s"
 
-#: ../cmk/gui/cee/ntop/pages.py:594
+#: ../cmk/gui/cee/ntop/pages.py:576
 msgid "Additional Host Names"
 msgstr "Zusätzliche Host-Namen"
 
@@ -4773,8 +4780,8 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:901
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1804
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:266
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:329
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:276
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:339
 #: ../cmk/gui/plugins/wato/active_checks.py:2159
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:657 ../cmk/utils/tags.py:683
 #: ../cmk/utils/tags.py:689
@@ -5346,14 +5353,16 @@ msgid "Agent update status"
 msgstr "Status Agentenupdates"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:91
-msgid "Agent updater (Linux, Windows)"
+#, fuzzy
+#| msgid "Agent updater (Linux, Windows)"
+msgid "Agent updater (Linux, Windows, Solaris)"
 msgstr "Agent-Updater (Linux, Windows)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1009
 msgid "Agent updater ruleset"
 msgstr "Regelkette des Agentenupdater"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:208
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:212
 msgid ""
 "Agent updater will follow variables \"HTTP_PROXY\" and \"HTTPS_PROXY\" on "
 "the host."
@@ -5682,7 +5691,7 @@ msgstr "Alarmiere bei zu hoher Gesamtauslastung"
 msgid "Alert on too high power consumption"
 msgstr "Alarmiere bei zu hohem Energieverbrauch"
 
-#: ../cmk/gui/cee/ntop/pages.py:551
+#: ../cmk/gui/cee/ntop/pages.py:533
 msgid "Alerted"
 msgstr "Alarmiert"
 
@@ -5728,7 +5737,7 @@ msgstr "Alias für erzeugte Gateway-Hosts"
 msgid "Alien Alarm (long)"
 msgstr "Alienalarm (lang)"
 
-#: ../cmk/gui/cee/ntop/pages.py:1579
+#: ../cmk/gui/cee/ntop/pages.py:1561
 msgid "All"
 msgstr "Alle"
 
@@ -5736,7 +5745,7 @@ msgstr "Alle"
 msgid "All Aggregations"
 msgstr "Alle Aggregationen"
 
-#: ../cmk/gui/cee/ntop/pages.py:1347
+#: ../cmk/gui/cee/ntop/pages.py:1329
 msgid "All Alerted"
 msgstr "Alle Alarmierten"
 
@@ -5798,7 +5807,7 @@ msgstr "Alle Aggregationen, in denen ein bestimmter Host enthalten ist"
 msgid "All alert handler executions."
 msgstr "Alle Alerthandlerausführungen."
 
-#: ../cmk/gui/cee/ntop/pages.py:1396
+#: ../cmk/gui/cee/ntop/pages.py:1378
 msgid "All applications"
 msgstr "Alle Anwendungen"
 
@@ -5806,7 +5815,7 @@ msgstr "Alle Anwendungen"
 msgid "All but first page"
 msgstr "Alle Seiten bis auf Seite 1"
 
-#: ../cmk/gui/cee/ntop/pages.py:1432
+#: ../cmk/gui/cee/ntop/pages.py:1414
 msgid "All categories"
 msgstr "Alle Kategorien"
 
@@ -5840,7 +5849,7 @@ msgstr "Alle Kunden"
 msgid "All customers with host and service statistics"
 msgstr "Alle Kunden mit Host- und Service-Statistik"
 
-#: ../cmk/gui/cee/ntop/pages.py:1361
+#: ../cmk/gui/cee/ntop/pages.py:1343
 msgid "All directions"
 msgstr "Alle Richtungen"
 
@@ -5857,7 +5866,7 @@ msgstr "Alle Elemente von Tuple müssen Int sein, Sie haben %s"
 msgid "All even pages"
 msgstr "Alle geraden Seiten"
 
-#: ../cmk/gui/cee/ntop/pages.py:1339
+#: ../cmk/gui/cee/ntop/pages.py:1321
 msgid "All flows"
 msgstr "Alle 'Flows'"
 
@@ -5913,7 +5922,7 @@ msgstr "Alle Host- und Servicewartungszeiten (einschließlich IDs)"
 #: ../cmk/gui/plugins/views/builtin.py:87
 #: ../cmk/gui/plugins/views/datasources.py:27
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:260
-#: ../cmk/gui/plugins/sidebar/hosts.py:104 ../cmk/gui/cee/ntop/pages.py:1312
+#: ../cmk/gui/plugins/sidebar/hosts.py:104 ../cmk/gui/cee/ntop/pages.py:1294
 msgid "All hosts"
 msgstr "Alle Hosts"
 
@@ -6054,7 +6063,7 @@ msgstr "Alle problematischen Logdateien"
 msgid "All problems of services not currently in a downtime."
 msgstr "Alle Probleme von Services, die gerade nicht in Wartung sind."
 
-#: ../cmk/gui/cee/ntop/pages.py:1417
+#: ../cmk/gui/cee/ntop/pages.py:1399
 msgid "All protocols"
 msgstr "Alle Protokolle"
 
@@ -6868,8 +6877,8 @@ msgstr "Beschreibungen von OIDs an Nachrichtentexte anhängen"
 msgid "Appliances, other dedicated hardware"
 msgstr "Appliances, andere spezialisierte Hardware"
 
-#: ../cmk/gui/plugins/views/mkeventd.py:534 ../cmk/gui/cee/ntop/pages.py:982
-#: ../cmk/gui/cee/ntop/pages.py:1408
+#: ../cmk/gui/plugins/views/mkeventd.py:534 ../cmk/gui/cee/ntop/pages.py:964
+#: ../cmk/gui/cee/ntop/pages.py:1390
 msgid "Application"
 msgstr "Anwendung"
 
@@ -6919,7 +6928,7 @@ msgstr "Application ausstehende Anfragen"
 msgid "Applications"
 msgstr "Anwendungen"
 
-#: ../cmk/gui/cee/ntop/pages.py:952
+#: ../cmk/gui/cee/ntop/pages.py:934
 msgid "Applications overview"
 msgstr "Anwendungsübersicht"
 
@@ -6963,7 +6972,7 @@ msgstr "Bedingungen anwenden"
 msgid "Apply filters"
 msgstr "Filter anwenden"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:396
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:406
 msgid "Apply logwatch patterns"
 msgstr "Logwatchmuster anwenden"
 
@@ -7144,7 +7153,7 @@ msgstr "Artikel im Benutzerhandbuch"
 msgid "Artificial slowdown of logfile parsing (for testing!)"
 msgstr "Das Einlesen der Logdateien künstlich verzögern (zum Testen!)"
 
-#: ../cmk/gui/cee/ntop/pages.py:539
+#: ../cmk/gui/cee/ntop/pages.py:521
 msgid "As client"
 msgstr "Als Client"
 
@@ -7154,7 +7163,7 @@ msgstr ""
 "Wie in den Benutzereinstellungen konfiguriert. Fügen Sie keinen führenden "
 "Unterstrich hinzu."
 
-#: ../cmk/gui/cee/ntop/pages.py:540
+#: ../cmk/gui/cee/ntop/pages.py:522
 msgid "As server"
 msgstr "Als Server"
 
@@ -8658,7 +8667,7 @@ msgstr "Basis-Authentifizierung"
 msgid "Basic properties"
 msgstr "Grundlegende Eigenschaften"
 
-#: ../cmk/gui/watolib/host_attributes.py:72 ../cmk/gui/wato/pages/tags.py:654
+#: ../cmk/gui/watolib/host_attributes.py:73 ../cmk/gui/wato/pages/tags.py:654
 #: ../cmk/gui/wato/pages/tags.py:762 ../cmk/gui/wato/pages/sites.py:258
 msgid "Basic settings"
 msgstr "Grundeinstellungen"
@@ -8922,7 +8931,7 @@ msgstr "Kästen"
 msgid "Boxes (omit root)"
 msgstr "Kästen (root auslassen)"
 
-#: ../cmk/gui/cee/ntop/pages.py:675 ../cmk/gui/cee/ntop/pages.py:983
+#: ../cmk/gui/cee/ntop/pages.py:657 ../cmk/gui/cee/ntop/pages.py:965
 msgid "Breakdown"
 msgstr "Aufschlüsselung"
 
@@ -10285,7 +10294,7 @@ msgstr "CRC Fehlerrate"
 #: ../cmk/gui/wato/mkeventd.py:1934 ../cmk/gui/cme/plugins/views/managed.py:269
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:147
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_eventlog.py:43
-#: ../cmk/gui/cee/ntop/pages.py:443 ../cmk/gui/cee/ntop/pages.py:466
+#: ../cmk/gui/cee/ntop/pages.py:425 ../cmk/gui/cee/ntop/pages.py:448
 #: ../cmk/utils/defines.py:38
 msgid "CRIT"
 msgstr "KRIT"
@@ -10912,11 +10921,11 @@ msgid "Categories"
 msgstr "Kategorien"
 
 #: ../cmk/gui/wato/pages/icons.py:80 ../cmk/gui/wato/pages/icons.py:161
-#: ../cmk/gui/cee/ntop/pages.py:1002 ../cmk/gui/cee/ntop/pages.py:1434
+#: ../cmk/gui/cee/ntop/pages.py:984 ../cmk/gui/cee/ntop/pages.py:1416
 msgid "Category"
 msgstr "Kategorie"
 
-#: ../cmk/gui/cee/ntop/pages.py:962
+#: ../cmk/gui/cee/ntop/pages.py:944
 msgid "Category overview"
 msgstr "Übersicht der Kategorien"
 
@@ -10962,7 +10971,7 @@ msgid "Certificate details"
 msgstr "Zertifikatsdetails"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:137
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:178
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:182
 msgid "Certificates for HTTPS verification"
 msgstr "Zertifikate für HTTPS-Verifizierung"
 
@@ -12397,11 +12406,11 @@ msgstr "Klicken Sie hier, um den Aktivierungsstatus pro Seite zu sehen."
 msgid "Clickable URLs"
 msgstr "Anklickbare URLs"
 
-#: ../cmk/gui/cee/ntop/pages.py:732 ../cmk/gui/cee/ntop/pages.py:779
+#: ../cmk/gui/cee/ntop/pages.py:714 ../cmk/gui/cee/ntop/pages.py:761
 msgid "Client"
 msgstr "Kunde"
 
-#: ../cmk/gui/cee/ntop/pages.py:974
+#: ../cmk/gui/cee/ntop/pages.py:956
 msgid "Client Contacted Services"
 msgstr "Client Contacted Services"
 
@@ -13125,7 +13134,7 @@ msgstr "Wiederherstellung fertigstellen"
 msgid "Complete variable list (for testing)"
 msgstr "Vollständige Variablenliste (für Tests)"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:202
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:206
 msgid "Completely ignore connection via proxy. This is the default."
 msgstr ""
 "Ignoriere alle Proxy-Konfigurationen. Dies ist die Standardeinstellung."
@@ -13454,7 +13463,7 @@ msgstr ""
 msgid "Configure the JIRA URL here."
 msgstr "Konfigurieren Sie hier die JIRA URL."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:197
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:201
 msgid "Configure the agent updater whether to connect via proxy server."
 msgstr ""
 "Konfiguriere den Agent Updater für die Verbindung über einen Proxy Server."
@@ -14752,7 +14761,7 @@ msgstr "Erzeuge neues Ereignis für jeden Vorfall - nie verbinden"
 msgid "Create a notification"
 msgstr "Einen Alarm erzeugen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:408
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:418
 msgid "Create a separate check for each logfile"
 msgstr "Separaten Service für jede Logdatei erzeugen"
 
@@ -15141,7 +15150,7 @@ msgstr "Erstellen der Dump-Datei fehlgeschlagen"
 msgid "Creating scheduled report '%s'..."
 msgstr "Geplanten Bericht '%s' erzeugen..."
 
-#: ../cmk/gui/watolib/host_attributes.py:177
+#: ../cmk/gui/watolib/host_attributes.py:178
 msgid "Creation / Locking"
 msgstr "Erstellung / Sperrung"
 
@@ -16615,7 +16624,7 @@ msgstr "Benutzerdefinierte Aktion"
 msgid "Custom actions that will be available for the alert."
 msgstr "Benutzerdefinierte Aktionen, die für den Alarm zur Verfügung stehen."
 
-#: ../cmk/gui/watolib/host_attributes.py:162 ../cmk/gui/wato/pages/users.py:190
+#: ../cmk/gui/watolib/host_attributes.py:163 ../cmk/gui/wato/pages/users.py:190
 msgid "Custom attributes"
 msgstr "Eigene Attribute"
 
@@ -17166,7 +17175,7 @@ msgstr "DNS Hostname/IP Adresse"
 msgid "DNS Hostname or IP-address of database server"
 msgstr "DNS-Hostname oder IP-address des Datenbankservers"
 
-#: ../cmk/gui/cee/ntop/pages.py:595
+#: ../cmk/gui/cee/ntop/pages.py:577
 msgid "DNS Resolution"
 msgstr "DNS-Auflösung"
 
@@ -17191,7 +17200,7 @@ msgstr "DNS Hostname oder IP Adresse"
 msgid "DNS lookup"
 msgstr "DNS lookup"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:216
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:220
 msgid "DNS name or IP address of proxy server"
 msgstr "Hostname / IP-Adresse des Proxy-Servers"
 
@@ -17199,7 +17208,7 @@ msgstr "Hostname / IP-Adresse des Proxy-Servers"
 msgid "DNS name or IP address of target notification spooler"
 msgstr "DNS-Name oder IP-Adresse des Ziel-Alarmspoolers"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:144
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:148
 msgid "DNS name or IP address of update server"
 msgstr "DNS-Name oder IP-Adresse des Updateservers"
 
@@ -17390,7 +17399,7 @@ msgstr "Gelesene Daten"
 msgid "Data size"
 msgstr "Datengröße"
 
-#: ../cmk/gui/watolib/host_attributes.py:102 ../cmk/utils/tags.py:575
+#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:575
 #: ../cmk/utils/tags.py:602 ../cmk/utils/tags.py:635 ../cmk/utils/tags.py:694
 #: ../cmk/utils/tags.py:699 ../cmk/utils/tags.py:704
 msgid "Data sources"
@@ -18765,7 +18774,7 @@ msgstr "Plugin für Windows Task-Scheduler ausrollen"
 msgid "Deploy plugin for Windows broadcom bonding"
 msgstr "Plugin für Windows Broadcom-Bonding ausrollen"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:118
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:122
 msgid "Deploy plugin that updates agent automatically"
 msgstr "Plugin, das Agenten automatisch aktualisiert, ausrollen"
 
@@ -19337,11 +19346,11 @@ msgstr "Direkte Zuordnung des Status der VM zu einem Monitoringstatus"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:891
 #: ../cmk/gui/plugins/wato/check_parameters/fcp.py:47
-#: ../cmk/gui/cee/ntop/pages.py:1356
+#: ../cmk/gui/cee/ntop/pages.py:1338
 msgid "Direction"
 msgstr "Richtung"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:232
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:242
 msgid "Directly forward to Event Console"
 msgstr "Leite direkt an Eventkonsole weiter"
 
@@ -19494,7 +19503,7 @@ msgstr "Schalte Verarbeitung von Leistungsdaten ab"
 msgid "Disable profiling"
 msgstr "Profiling deaktivieren"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:201
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:205
 msgid "Disable proxy handling"
 msgstr "Proxy-Unterstützung deaktivieren"
 
@@ -20371,7 +20380,7 @@ msgstr "Das Windowsdrucker-Plugin nicht ausrollen"
 msgid "Do not deploy Windows Updates plugin"
 msgstr "Das Windows Updates-Plugin nicht ausrollen"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:117
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:121
 msgid "Do not deploy automatic agent update plugin"
 msgstr "Plugin für automatische Agentenupdates nicht ausrollen"
 
@@ -20609,7 +20618,7 @@ msgstr "Die Sicherung nicht verschlüsseln"
 msgid "Do not enforce the resource to be hold by a specific node."
 msgstr "Nicht erzwingen, dass die Resource auf einem bestimmten Knoten läuft."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:110
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:114
 msgid ""
 "Do not forget to activate the plugin in at least one of your rules. It can "
 "be useful to create rules that are only partially filled out. Since the rule "
@@ -21474,8 +21483,8 @@ msgstr "Doppelte Tag-ID \"%s\" in den Hilfsmerkmalen"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1322
 #: ../cmk/gui/cee/plugins/reporting/availability.py:125
 #: ../cmk/gui/cee/plugins/wato/dcd.py:431
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1744 ../cmk/gui/cee/ntop/pages.py:982
-#: ../cmk/gui/cee/ntop/pages.py:1002 ../cmk/gui/cee/sla.py:1938
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1744 ../cmk/gui/cee/ntop/pages.py:964
+#: ../cmk/gui/cee/ntop/pages.py:984 ../cmk/gui/cee/sla.py:1938
 #: ../cmk/gui/cee/sla.py:1956
 msgid "Duration"
 msgstr "Ausführungszeit"
@@ -22974,7 +22983,7 @@ msgstr "\"Mehr anzeigen\" erzwingen"
 msgid "Enforced services"
 msgstr "Erzwungene Services"
 
-#: ../cmk/gui/cee/ntop/pages.py:442 ../cmk/gui/cee/ntop/pages.py:445
+#: ../cmk/gui/cee/ntop/pages.py:424 ../cmk/gui/cee/ntop/pages.py:427
 msgid "Engaged Alerts"
 msgstr "Aktive Alarme"
 
@@ -23732,7 +23741,7 @@ msgid "Exclude \"Activate changes\" for time ranges"
 msgstr "\"Änderungen aktivieren\" für Zeitbereiche ausschließen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:46
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:177
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:182
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:151
 msgid "Exclude Pattern"
 msgstr "Ausschluss-Muster"
@@ -23814,11 +23823,13 @@ msgstr "Exklusive Locks"
 msgid "Exclusive locks"
 msgstr "Exklusive Locks"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:261
-msgid "Executable Python2 script"
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:265
+#, fuzzy
+#| msgid "Executable Python2 script"
+msgid "Executable Python script"
 msgstr "Ausführbares Python2-Script"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:244
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:248
 msgid "Executable format (Linux)"
 msgstr "Ausführbares Format (Linux)"
 
@@ -24588,7 +24599,7 @@ msgstr "Das passende Zertifikat konnte in der Kette nicht gefunden werden"
 msgid "Failed to get the status from DCD (%s)"
 msgstr "Der Status des DCD (%s) konnte nicht ermittelt werden"
 
-#: ../cmk/gui/watolib/host_attributes.py:460
+#: ../cmk/gui/watolib/host_attributes.py:461
 #, python-format
 msgid "Failed to load legacy host attribute from local plugins: %r"
 msgstr ""
@@ -25405,7 +25416,7 @@ msgstr "Firmware"
 msgid "First"
 msgstr "1."
 
-#: ../cmk/gui/cee/ntop/pages.py:479
+#: ../cmk/gui/cee/ntop/pages.py:461
 msgid "First Seen"
 msgstr "Erstmals gesehen"
 
@@ -25550,7 +25561,7 @@ msgstr "Verbindungen unter Flusskontrolle"
 
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:108
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:269
-#: ../cmk/gui/cee/ntop/pages.py:554
+#: ../cmk/gui/cee/ntop/pages.py:536
 msgid "Flows"
 msgstr "Flows"
 
@@ -26110,7 +26121,7 @@ msgstr "Länge der Fortinet FortiSandbox Wartenschlange"
 msgid "Forum"
 msgstr "Forum"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:218
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:228
 msgid "Forward Messages to Event Console"
 msgstr "Leite Logwatch Ereignisse an Eventkonsole weiter"
 
@@ -26122,11 +26133,11 @@ msgstr "Emails als Ereignisse an die Event Console senden"
 msgid "Forward to remote site by notification spooler"
 msgstr "An eine entfernte Instanz weiterleiten mit Hilfe des Alarmspooler"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:207
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:217
 msgid "Forwarding"
 msgstr "Weiterleitung"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:225
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:235
 #: ../cmk/gui/plugins/wato/active_checks.py:2112
 msgid "Forwarding Method"
 msgstr "Weiterleitungsmethode"
@@ -27237,7 +27248,7 @@ msgstr "HTML-Ausgabe"
 
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:41
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:52
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:169
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:173
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:48
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:67
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:34
@@ -27344,14 +27355,14 @@ msgstr "HTTP-Anfragen pro Sekunde"
 msgid "HTTP, TCP, Email, ..."
 msgstr "HTTP, TCP, Email, ..."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:170
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:174
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:49
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:76
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:35
 msgid "HTTPS"
 msgstr "HTTPS"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:164
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:168
 msgid ""
 "HTTPS is the suggested setting here. It requires a valid SSL setup of your "
 "Apache webserver on your monitoring server, however. When using HTTP then "
@@ -28906,7 +28917,7 @@ msgstr ""
 "einen Blick auf die <a href=\"wato.py?folder=&mode=changelog\" >Änderungen "
 "aktivieren Seite</a> für weitere Informationen."
 
-#: ../cmk/gui/cee/ntop/pages.py:797 ../cmk/gui/cee/ntop/pages.py:817
+#: ../cmk/gui/cee/ntop/pages.py:779 ../cmk/gui/cee/ntop/pages.py:799
 #, python-format
 msgid "Host %s not known in ntopng"
 msgstr "Hosts %s nicht in ntopng gefunden"
@@ -29507,7 +29518,7 @@ msgid "Host tag:"
 msgstr "Hostmerkmal:"
 
 #: ../cmk/gui/plugins/views/painters.py:4779
-#: ../cmk/gui/watolib/host_attributes.py:117
+#: ../cmk/gui/watolib/host_attributes.py:118
 #: ../cmk/gui/wato/pages/rulesets.py:1726
 #: ../cmk/gui/wato/pages/rulesets.py:1876
 msgid "Host tags"
@@ -29721,7 +29732,7 @@ msgstr "Zu übersetzende Hostnamen"
 #: ../cmk/gui/cme/plugins/views/managed.py:329
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:667
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:673
-#: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1307
+#: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1289
 msgid "Hosts"
 msgstr "Hosts"
 
@@ -29729,11 +29740,11 @@ msgstr "Hosts"
 msgid "Hosts Connected"
 msgstr "Verbundene Hosts"
 
-#: ../cmk/gui/cee/ntop/pages.py:655
+#: ../cmk/gui/cee/ntop/pages.py:637
 msgid "Hosts Contacted (as Client)"
 msgstr "Hosts Verbindungen (als Client)"
 
-#: ../cmk/gui/cee/ntop/pages.py:657
+#: ../cmk/gui/cee/ntop/pages.py:639
 msgid "Hosts Contacts (as Server)"
 msgstr "Hosts Verbindungen (als Server)"
 
@@ -30355,7 +30366,7 @@ msgstr "IP-Präfix"
 #: ../cmk/gui/plugins/views/painters.py:2453
 #: ../cmk/gui/plugins/wato/datasource_programs.py:522
 #: ../cmk/gui/wato/mkeventd.py:4200 ../cmk/gui/wato/pages/host_diagnose.py:154
-#: ../cmk/gui/cee/ntop/pages.py:415
+#: ../cmk/gui/cee/ntop/pages.py:397
 msgid "IP address"
 msgstr "IP Adresse"
 
@@ -30574,7 +30585,7 @@ msgstr "Symbolbild für Services in Status GUI"
 #: ../cmk/gui/plugins/views/painters.py:263
 #: ../cmk/gui/plugins/views/painters.py:290
 #: ../cmk/gui/plugins/views/mkeventd.py:754
-#: ../cmk/gui/plugins/views/mkeventd.py:778 ../cmk/gui/cee/ntop/pages.py:982
+#: ../cmk/gui/plugins/views/mkeventd.py:778 ../cmk/gui/cee/ntop/pages.py:964
 msgid "Icons"
 msgstr "Symbole"
 
@@ -31149,7 +31160,7 @@ msgstr ""
 "dürfen nur noch A-Z, a-z, 0-9 und minus (-) für den Variablennamen verwendet "
 "werden."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:380
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:390
 msgid ""
 "If this option is enabled, the check monitors the list of forwarded logfiles "
 "and will warn you if at any time a logfile is missing or exceeding when "
@@ -31161,7 +31172,7 @@ msgstr ""
 "wegfällt, dann nimmt der Check einen WARNUNG-Status an. Mit einer erneuten "
 "Serviceerkennung wird der Check dann wieder OK."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:398
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:408
 msgid ""
 "If this option is enabled, the logwatch lines are first reclassified by the "
 "logwatch patterns before they are sent to the event console. If you "
@@ -31181,7 +31192,7 @@ msgstr ""
 "Reklassifizierung machen, die z.B. nur Meldungen aus der Datei <tt>access."
 "log</tt> betrifft."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:411
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:421
 msgid ""
 "If this option is enabled, there will be one separate check for each logfile "
 "found during the service discovery. This option also changes the behaviour "
@@ -32430,7 +32441,7 @@ msgstr ""
 "mode=edit_configvar&varname=notification_fallback_email\">Ersatzemailadresse "
 "für die Alarmierung</a> können Sie eine Ersatzadresse eintragen."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:134
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:138
 msgid ""
 "In case of \"Registration and fallback\", the agent updater will use this "
 "information only on registration and rely on the update URL provided by the "
@@ -32700,7 +32711,7 @@ msgstr ""
 "Namen, der mit'docker_container_' beginnt (z.B. gehört die Checkbox 'Node "
 "Name:' zu 'docker_container_node_node_name')."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:189
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:193
 msgid ""
 "In order to save resources on the target host and on the update server it is "
 "recommended to do the update checks not more than once every 10 minutes."
@@ -32858,7 +32869,7 @@ msgid "Inbound messages"
 msgstr "Eingehende Nachrichten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:45
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:176
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:181
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:147
 msgid "Include Pattern"
 msgstr "Einschluss-Muster"
@@ -33455,7 +33466,7 @@ msgstr ""
 "deaktivieren. Die Regelsätze haben den zusätzlichen Vorteil, dass der "
 "konfigurierte Wert im Alarmierungskontext zugänglich ist."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:208
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:218
 msgid ""
 "Instead of using the regular logwatch check all lines received by logwatch "
 "can be forwarded to a Check_MK event console daemon to be processed. The "
@@ -33508,7 +33519,7 @@ msgstr ""
 msgid "Interface"
 msgstr "Schnittstelle"
 
-#: ../cmk/gui/cee/ntop/pages.py:1166
+#: ../cmk/gui/cee/ntop/pages.py:1148
 #, python-format
 msgid "Interface %s"
 msgstr "Schnittstelle %s"
@@ -33641,7 +33652,7 @@ msgstr "Intervall, um auf Updates zu prüfen:"
 msgid "Interval for collecting data"
 msgstr "Intervall zum Datensammeln"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:187
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:191
 msgid "Interval for update check"
 msgstr "Intervall für den Updatecheck"
 
@@ -35141,7 +35152,7 @@ msgstr "Letzter Lauf"
 msgid "Last Scan Result"
 msgstr "Letztes Scan-Ergebnis"
 
-#: ../cmk/gui/cee/ntop/pages.py:479
+#: ../cmk/gui/cee/ntop/pages.py:461
 msgid "Last Seen"
 msgstr "Zuletzt gesehen"
 
@@ -36462,6 +36473,12 @@ msgstr "Linux, Solaris, AIX Dateien"
 msgid "Linux-User:"
 msgstr "Linux-Benutzer:"
 
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:188
+#, fuzzy
+#| msgid "File Grouping Patterns"
+msgid "List Grouping Patterns"
+msgstr "Dateigruppen"
+
 #: ../cmk/gui/plugins/wato/active_checks.py:510
 msgid ""
 "List all allowed expected answers here. If query for an IP address then the "
@@ -36502,7 +36519,7 @@ msgstr ""
 msgid "List of available NagVis maps"
 msgstr "Tabelle der verfügbaren NagVis-Karten"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:388
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:398
 msgid "List of expected logfiles"
 msgstr "Liste der erwarteten Logdateien"
 
@@ -36783,11 +36800,11 @@ msgstr "Lokal"
 msgid "Local Authentication Data"
 msgstr "Lokale Anmeldungsdaten"
 
-#: ../cmk/gui/cee/ntop/pages.py:1324
+#: ../cmk/gui/cee/ntop/pages.py:1306
 msgid "Local Client - Remote Server"
 msgstr "Lokaler Client - Entfernter Server"
 
-#: ../cmk/gui/cee/ntop/pages.py:763
+#: ../cmk/gui/cee/ntop/pages.py:745
 msgid "Local Contacted Ports (as Server)"
 msgstr "Lokal kontaktierte Ports (als Server)"
 
@@ -36811,11 +36828,11 @@ msgstr "Lokale HTTP 503 Antworten"
 msgid "Local IP address"
 msgstr "Lokale IP Adresse"
 
-#: ../cmk/gui/cee/ntop/pages.py:1316
+#: ../cmk/gui/cee/ntop/pages.py:1298
 msgid "Local Only"
 msgstr "Nur lokal"
 
-#: ../cmk/gui/cee/ntop/pages.py:1328
+#: ../cmk/gui/cee/ntop/pages.py:1310
 msgid "Local Server - Remote Client"
 msgstr "Lokaler Server - Entfernter Client"
 
@@ -36880,15 +36897,15 @@ msgstr "lokaler Serverstatus"
 msgid "Local site %s"
 msgstr "Lokale Instanz %s"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:230
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:240
 msgid "Local: Send events to local Event Console in same OMD site"
 msgstr "Lokal: Ereignisse an lokale Eventkonsole derselben OMD Instanz senden"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:236
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:246
 msgid "Local: Send events to local Event Console into unix socket"
 msgstr "Lokal:  Ereignisse an lokale Eventkonsole über Unix Socket senden"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:250
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:260
 msgid ""
 "Local: Spooling - Send events to local Event Console into given spool "
 "directory"
@@ -36896,7 +36913,7 @@ msgstr ""
 "Lokal: Spooling - Ereignisse an lokale Eventkonsole in ein Spool-Verzeichnis "
 "senden"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:243
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:253
 msgid "Local: Spooling - Send events to local event console in same OMD site"
 msgstr ""
 "Lokal: Spooling - Ereignisse an lokale Eventkonsole derselben OMD Instanz "
@@ -37163,8 +37180,10 @@ msgstr "Logdateieintrags-Klasse"
 msgid "Logfile"
 msgstr "Logdatei"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:182
-msgid "Logfile Grouping Patterns"
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:167
+#, fuzzy
+#| msgid "Logfile Grouping Patterns"
+msgid "Logfile Grouping"
 msgstr "Logdateien-Gruppierungsmuster"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:78
@@ -37348,7 +37367,7 @@ msgstr "Logswitches"
 msgid "Logwatch"
 msgstr "Logwatch"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:434
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:444
 msgid "Logwatch Event Console Forwarding"
 msgstr "Logwatch Event Console Weiterleitung"
 
@@ -38286,7 +38305,7 @@ msgstr "Benutzer anlegen, ändern und löschen, Ändern von Passworten"
 msgid "Managed Objects"
 msgstr "Verwaltete Objekte"
 
-#: ../cmk/gui/watolib/host_attributes.py:147
+#: ../cmk/gui/watolib/host_attributes.py:148
 msgid "Management Board"
 msgstr "Management-Board"
 
@@ -39310,11 +39329,11 @@ msgstr "Maximale Größe"
 msgid "Maximum size of all files on backup space"
 msgstr "Maximale Größe aller Dateien am Sicherungsspeicherplatz"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:295
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:305
 msgid "Maximum spool duration"
 msgstr "Maximale Dauer der Zwischenspeicherung"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:308
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:318
 msgid "Maximum spool size"
 msgstr "Maximale Größe des Zwischenspeichers"
 
@@ -39729,7 +39748,7 @@ msgstr "Meldung wenn Regel-Ergebnis %s ist"
 msgid "Messages"
 msgstr "Nachrichten"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:214
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:224
 msgid "Messages are handled by logwatch."
 msgstr "Ereignisse werden mit Logwatch verarbeitet."
 
@@ -39741,13 +39760,13 @@ msgstr "Meldungen in Warteschlange"
 msgid "Messages in text log files"
 msgstr "Meldungen in Textdateien"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:298
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:308
 msgid "Messages that are spooled longer than this time will be thrown away."
 msgstr ""
 "Verwerfe Nachrichten, die länger als die hier gesetzte Dauer "
 "zwischengespeichert werden."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:284
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:294
 msgid ""
 "Messages that can not be forwarded, e.g. when the target Event Console is "
 "not running, can temporarily be stored locally. Forwarding is tried again on "
@@ -40595,7 +40614,7 @@ msgstr "Überwachung von Cloud-Umgebungen wie Microsoft Azure"
 msgid "Monitoring of container and container orchestration software"
 msgstr "Monitoring von Containern und Container-Orchestrationssoftware"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:377
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:387
 msgid "Monitoring of forwarded logfiles"
 msgstr "Liste der weitergeleiteten Logdateien überwachen"
 
@@ -40878,7 +40897,7 @@ msgstr "Regel %s in Paket %s verschoben"
 msgid "Moved to"
 msgstr "Bewegt zu"
 
-#: ../cmk/gui/cee/ntop/pages.py:1369
+#: ../cmk/gui/cee/ntop/pages.py:1351
 msgid "Multicast"
 msgstr "Multicast"
 
@@ -40980,8 +40999,8 @@ msgstr "Nr."
 
 #: ../cmk/gui/views.py:1179 ../cmk/gui/views.py:1183
 #: ../cmk/gui/availability.py:139 ../cmk/gui/availability.py:155
-#: ../cmk/gui/availability.py:167 ../cmk/gui/cee/ntop/pages.py:706
-#: ../cmk/gui/cee/ntop/pages.py:1083 ../cmk/gui/cee/ntop/pages.py:1113
+#: ../cmk/gui/availability.py:167 ../cmk/gui/cee/ntop/pages.py:688
+#: ../cmk/gui/cee/ntop/pages.py:1065 ../cmk/gui/cee/ntop/pages.py:1095
 msgid "N/A"
 msgstr "KA"
 
@@ -41159,7 +41178,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:291
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:353
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:374
-#: ../cmk/gui/cee/ntop/pages.py:433
+#: ../cmk/gui/cee/ntop/pages.py:415
 msgid "Name"
 msgstr "Name"
 
@@ -41181,7 +41200,7 @@ msgstr "Name des Zertifikats"
 msgid "Name of Channel"
 msgstr "Name des Kanals"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:152
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:156
 msgid "Name of Checkmk site of update server"
 msgstr "Name der Checkmk-Instanz des Updateservers"
 
@@ -41230,7 +41249,7 @@ msgid "Name of filesystem with quotas enabled"
 msgstr "Name des Dateisystems, bei dem die Quotas aktiviert sind"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:38
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:171
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:176
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:141
 msgid "Name of group"
 msgstr "Name der Gruppe"
@@ -41654,7 +41673,7 @@ msgid "Network Adapters"
 msgstr "Netzwerkadapter"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1880
-#: ../cmk/gui/watolib/host_attributes.py:87
+#: ../cmk/gui/watolib/host_attributes.py:88
 msgid "Network Address"
 msgstr "Netzwerkadresse"
 
@@ -41675,7 +41694,7 @@ msgid "Network Load balancers"
 msgstr "Netzwerk-Loadbalancers"
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:386
-#: ../cmk/gui/watolib/host_attributes.py:132
+#: ../cmk/gui/watolib/host_attributes.py:133
 msgid "Network Scan"
 msgstr "Netzwerk-Scan"
 
@@ -41715,11 +41734,11 @@ msgstr "Netzwerkschnittstellen/Switch Ports"
 msgid "Network interfaces on Windows"
 msgstr "Netzwerkkarten unter Windows"
 
-#: ../cmk/gui/cee/ntop/pages.py:1217
+#: ../cmk/gui/cee/ntop/pages.py:1199
 msgid "Network interfaces: last day view"
 msgstr "Netzwerkschnittstellen: Ansicht über den vergangenen Tag"
 
-#: ../cmk/gui/cee/ntop/pages.py:1206
+#: ../cmk/gui/cee/ntop/pages.py:1188
 msgid "Network interfaces: last hour view"
 msgstr "Netzwerkschnittstellen: Ansicht über die letzte Stunde"
 
@@ -42110,7 +42129,7 @@ msgstr "Kein Benutzergraph mit dem Namen <tt>%s</tt>"
 msgid "No data"
 msgstr "Keine Daten"
 
-#: ../cmk/gui/cee/ntop/pages.py:375
+#: ../cmk/gui/cee/ntop/pages.py:357
 msgid "No data available"
 msgstr "keine Daten verfügbar"
 
@@ -42163,7 +42182,7 @@ msgstr "Kein Ausschlussbereich definiert"
 msgid "No explicit credentials"
 msgstr "Keine expliziten Zugangsdaten"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:215
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:225
 msgid "No forwarding"
 msgstr "Keine Weiterleitung"
 
@@ -42556,8 +42575,8 @@ msgstr "Grundrauschen"
 msgid "Nominal Frequencies"
 msgstr "Nominelle Frequenzen"
 
-#: ../cmk/gui/valuespec.py:651 ../cmk/gui/watolib/host_attributes.py:665
-#: ../cmk/gui/watolib/host_attributes.py:670
+#: ../cmk/gui/valuespec.py:651 ../cmk/gui/watolib/host_attributes.py:666
+#: ../cmk/gui/watolib/host_attributes.py:671
 msgid "Non-ASCII characters are not allowed here."
 msgstr "Hier sind nur ASCII-Zeichen erlaubt."
 
@@ -42566,7 +42585,7 @@ msgstr "Hier sind nur ASCII-Zeichen erlaubt."
 msgid "Non-ASCII characters are not allowed in the attribute \"%s\"."
 msgstr "Im Attribut \"%s\" sind nur ASCII-Zeichen erlaubt."
 
-#: ../cmk/gui/cee/ntop/pages.py:1365
+#: ../cmk/gui/cee/ntop/pages.py:1347
 msgid "Non-Multicast"
 msgstr "Non-Multicast"
 
@@ -42625,7 +42644,7 @@ msgid "None selected"
 msgstr "Nichts ausgewählt"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_nodes.py:36
-#: ../cmk/gui/cee/ntop/pages.py:1343
+#: ../cmk/gui/cee/ntop/pages.py:1325
 msgid "Normal"
 msgstr "Normal"
 
@@ -42820,7 +42839,7 @@ msgstr ""
 "wenn die Schwellwerte gerissen wurden. Mit dieser Option wird der Wert immer "
 "angezeigt."
 
-#: ../cmk/gui/watolib/host_attributes.py:931
+#: ../cmk/gui/watolib/host_attributes.py:932
 msgid "Not"
 msgstr "Nicht"
 
@@ -44649,11 +44668,11 @@ msgstr "Eins der Unterelemente ist in eine Wartungszeit"
 msgid "One service per sensor"
 msgstr "Ein Service pro Sensor"
 
-#: ../cmk/gui/cee/ntop/pages.py:1377
+#: ../cmk/gui/cee/ntop/pages.py:1359
 msgid "One-Way Broadcast/Multicast"
 msgstr "Einweg Broadcast/Multicast"
 
-#: ../cmk/gui/cee/ntop/pages.py:1373
+#: ../cmk/gui/cee/ntop/pages.py:1355
 msgid "One-Way Non-Multicast/Non-Broadcast"
 msgstr "Einweg Non-Multicast/Non-Broadcast"
 
@@ -45150,13 +45169,21 @@ msgstr "Optionale Parameter"
 msgid "Optional variable prefix"
 msgstr "Optionaler Variablenpräfix"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:246
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:250
+#, fuzzy
+#| msgid ""
+#| "Optionally choose the format of the agent updater excecutable file. "
+#| "Relevant for Linux only. On other OSes, the executable format will be "
+#| "chosen automatically regardless of this rule. The binary formats yield a "
+#| "broader compatibility whereas the python script is small an editable. "
+#| "Please note that the Check_MK team can offer no support for issues about "
+#| "the target system's python environment when choosing \"Script\"."
 msgid ""
 "Optionally choose the format of the agent updater excecutable file. Relevant "
 "for Linux only. On other OSes, the executable format will be chosen "
 "automatically regardless of this rule. The binary formats yield a broader "
 "compatibility whereas the python script is small an editable. Please note "
-"that the Check_MK team can offer no support for issues about the target "
+"that the Checkmk team can offer no support for issues about the target "
 "system's python environment when choosing \"Script\"."
 msgstr ""
 "Wählen Sie optional das Format der ausführbaren Datei des Agenten-Updaters. "
@@ -45167,7 +45194,7 @@ msgstr ""
 "von \"Script\" keinen Support für Probleme mit der Pythonumgebung des "
 "Zielsystems anbieten kann."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:123
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:127
 msgid ""
 "Optionally provide protocol, server and site for agent registration and/or "
 "updates. If not entered here, you can provide it on registration."
@@ -46577,7 +46604,7 @@ msgstr "IP-Adresse des Peers"
 msgid "Peer Name"
 msgstr "Name des Peers"
 
-#: ../cmk/gui/cee/ntop/pages.py:574
+#: ../cmk/gui/cee/ntop/pages.py:556
 msgid "Peers"
 msgstr "Peers"
 
@@ -47995,7 +48022,7 @@ msgstr "Bitte einen Titel für die Tag-Gruppe \"%s\" angeben."
 msgid "Please specify a title."
 msgstr "Bitte geben sie einen Titel an."
 
-#: ../cmk/gui/watolib/host_attributes.py:772
+#: ../cmk/gui/watolib/host_attributes.py:773
 #, python-format
 msgid "Please specify a value for %s"
 msgstr "Bitte einen Wert für %s angeben"
@@ -48280,8 +48307,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3314
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3549
 #: ../cmk/gui/plugins/wato/check_parameters/threepar_ports.py:51
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:271
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:334
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:281
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:344
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:50
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:24
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:32
@@ -49157,16 +49184,16 @@ msgstr "Anteil von gesunden Hosts"
 #: ../cmk/gui/plugins/wato/active_checks.py:2156
 #: ../cmk/gui/plugins/wato/active_checks.py:2408
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:685
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:228
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:232
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:46
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:63
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:32
-#: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:675
-#: ../cmk/gui/cee/ntop/pages.py:1423
+#: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:657
+#: ../cmk/gui/cee/ntop/pages.py:1405
 msgid "Protocol"
 msgstr "Protokoll"
 
-#: ../cmk/gui/cee/ntop/pages.py:663
+#: ../cmk/gui/cee/ntop/pages.py:645
 msgid "Protocol Overview"
 msgstr "Protokoll-Übersicht"
 
@@ -49174,7 +49201,7 @@ msgstr "Protokoll-Übersicht"
 msgid "Protocol of Server"
 msgstr "Serverprotokoll"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:162
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:166
 msgid "Protocol to use for fetching updates"
 msgstr "Protokoll zum Holen von Updates"
 
@@ -49194,7 +49221,7 @@ msgstr ""
 msgid "Provide levels"
 msgstr "Grenzwerte bereitstellen"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:212
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:216
 msgid "Provide proxy settings"
 msgstr "Proxy-Einstellungen angeben"
 
@@ -49272,7 +49299,7 @@ msgstr "Proxyserveradresse"
 msgid "Proxy server details"
 msgstr "Details zum Proxyserver"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:196
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:200
 msgid "Proxy settings"
 msgstr "Proxy-Einstellungen"
 
@@ -49345,7 +49372,7 @@ msgid "Put file to SFTP server"
 msgstr "Schiebe Datei zu SFTP-Server"
 
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:38
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:370
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:380
 msgid ""
 "Put the item names of the logfiles here. For example \"System$\" to select "
 "the service \"LOG System\". You can use regular expressions which must match "
@@ -49902,8 +49929,8 @@ msgstr "Rate Zeitfenster"
 msgid "Raw Bytes (HEXSTR)"
 msgstr "Rohbytes (HEXSTR)"
 
-#: ../cmk/gui/cee/ntop/pages.py:506 ../cmk/gui/cee/ntop/pages.py:696
-#: ../cmk/gui/cee/ntop/pages.py:1034 ../cmk/gui/cee/ntop/pages.py:1073
+#: ../cmk/gui/cee/ntop/pages.py:488 ../cmk/gui/cee/ntop/pages.py:678
+#: ../cmk/gui/cee/ntop/pages.py:1016 ../cmk/gui/cee/ntop/pages.py:1055
 msgid "Rcvd"
 msgstr "Rcvd"
 
@@ -50141,7 +50168,7 @@ msgstr "Empfangen der kompletten Antwort"
 msgid "Receive start of response"
 msgstr "Empfangen des Anfangs der Antwort"
 
-#: ../cmk/gui/cee/ntop/pages.py:675 ../cmk/gui/cee/ntop/pages.py:983
+#: ../cmk/gui/cee/ntop/pages.py:657 ../cmk/gui/cee/ntop/pages.py:965
 msgid "Received"
 msgstr "Empfangen"
 
@@ -50227,7 +50254,7 @@ msgstr "Wartung dieser Zeitperiode reklassifizieren"
 msgid "Reclassify host state of this period"
 msgstr "Hostzustand dieser Periode neu klassifizieren"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:395
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:405
 msgid "Reclassify messages before forwarding them to the EC"
 msgstr "Meldungen erst umklassifizieren, dann zur EC senden"
 
@@ -50430,7 +50457,7 @@ msgstr "Registrierte Modems"
 msgid "Registered phones"
 msgstr "Registrierte Telefone"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:130
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:134
 msgid "Registration and fallback"
 msgstr "Registrierung und Fallback"
 
@@ -50674,7 +50701,7 @@ msgstr "Verbleibendes Belieferung"
 msgid "Remap states"
 msgstr "Zustände umschreiben"
 
-#: ../cmk/gui/cee/ntop/pages.py:761
+#: ../cmk/gui/cee/ntop/pages.py:743
 msgid "Remote Contacted Ports (as Client)"
 msgstr "Entfernt kontaktierte Ports (als Client)"
 
@@ -50686,7 +50713,7 @@ msgstr "Remote Desktop Lizenzen (Windows)"
 msgid "Remote IP address"
 msgstr "Entfernte IP Adresse"
 
-#: ../cmk/gui/cee/ntop/pages.py:1320
+#: ../cmk/gui/cee/ntop/pages.py:1302
 msgid "Remote Only"
 msgstr "Nur Remote"
 
@@ -50749,7 +50776,7 @@ msgstr "Entfernte Portnummer"
 msgid "Remote site URL"
 msgstr "URL der entfernten Instanz"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:257
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:267
 msgid "Remote: Send events to remote syslog host"
 msgstr "Entfernt: Ereignisse an entfernten Syslog-Host senden"
 
@@ -51558,7 +51585,7 @@ msgstr "Von diesem Sicherungsziel wiederherstellen"
 msgid "Restore job"
 msgstr "Job wiederherstellen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:368
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:378
 msgid "Restrict Logfiles (Prefix matching regular expressions)"
 msgstr "Beschränke Logfiles durch reguläre Ausdrücke (passend auf Prefix)"
 
@@ -53064,11 +53091,11 @@ msgstr ""
 "<i>Durchsuche den kompletten Teilbaum unterhalb der Basis-DN</i> die beste "
 "Wahl."
 
-#: ../cmk/gui/cee/ntop/pages.py:454
+#: ../cmk/gui/cee/ntop/pages.py:436
 msgid "Score"
 msgstr "Punktzahl"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:260
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:264
 msgid "Script (Limited support, see inline help)"
 msgstr "Skript (Eingeschränkte Unterstützung, siehe Inline-Hilfe)"
 
@@ -53801,11 +53828,11 @@ msgstr "An entfernte Event Console über Syslog senden"
 msgid "Send via Email"
 msgstr "Per E-Mail versenden"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:261
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:271
 msgid "Send via TCP"
 msgstr "Senden über TCP"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:324
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:334
 msgid "Send via UDP"
 msgstr "Senden über UDP"
 
@@ -53864,13 +53891,13 @@ msgstr "Sensorschwellwert"
 msgid "Sensors"
 msgstr "Sensoren"
 
-#: ../cmk/gui/cee/ntop/pages.py:503 ../cmk/gui/cee/ntop/pages.py:675
-#: ../cmk/gui/cee/ntop/pages.py:693 ../cmk/gui/cee/ntop/pages.py:982
-#: ../cmk/gui/cee/ntop/pages.py:1031 ../cmk/gui/cee/ntop/pages.py:1070
+#: ../cmk/gui/cee/ntop/pages.py:485 ../cmk/gui/cee/ntop/pages.py:657
+#: ../cmk/gui/cee/ntop/pages.py:675 ../cmk/gui/cee/ntop/pages.py:964
+#: ../cmk/gui/cee/ntop/pages.py:1013 ../cmk/gui/cee/ntop/pages.py:1052
 msgid "Sent"
 msgstr "Gesendet"
 
-#: ../cmk/gui/cee/ntop/pages.py:494
+#: ../cmk/gui/cee/ntop/pages.py:476
 msgid "Sent vs Received Traffic Breakdown"
 msgstr "Vergleich versendeter und empfangener Traffic"
 
@@ -53878,7 +53905,7 @@ msgstr "Vergleich versendeter und empfangener Traffic"
 msgid "Sentinel"
 msgstr "Markierung"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:409
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:419
 msgid "Separate check"
 msgstr "Separater Check"
 
@@ -53914,8 +53941,8 @@ msgstr "Seriennummer - VERALTET, nicht verwenden"
 msgid "Serial number"
 msgstr "Seriennummer"
 
-#: ../cmk/gui/wato/pages/ldap.py:330 ../cmk/gui/cee/ntop/pages.py:732
-#: ../cmk/gui/cee/ntop/pages.py:779
+#: ../cmk/gui/wato/pages/ldap.py:330 ../cmk/gui/cee/ntop/pages.py:714
+#: ../cmk/gui/cee/ntop/pages.py:761
 msgid "Server"
 msgstr "Server"
 
@@ -55272,7 +55299,7 @@ msgstr ""
 "können so eingestellt werden, dass sie nur eine begrenzte Anzahl von Zeilen "
 "anzeigen, wenn man auf die Seite zugreift."
 
-#: ../cmk/gui/cee/ntop/pages.py:1509
+#: ../cmk/gui/cee/ntop/pages.py:1491
 msgid "Severity"
 msgstr "Schwere"
 
@@ -55717,7 +55744,7 @@ msgstr "Zeige separates Ergebnis für jede SLA Periode"
 msgid "Show service status"
 msgstr "Service-Status anzeigen"
 
-#: ../cmk/gui/cee/ntop/pages.py:1707
+#: ../cmk/gui/cee/ntop/pages.py:1689
 #, python-format
 msgid "Show services of host %s"
 msgstr "Services des Hosts %s anzeigen"
@@ -56002,7 +56029,7 @@ msgstr "Signaturschlüssel"
 msgid "Signature keys for signing agents"
 msgstr "Signaturschlüssel zum Signieren von Agenten"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:272
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:276
 msgid "Signature keys the agent will accept"
 msgstr "Signaturen, die der Agent akzeptieren soll"
 
@@ -57700,11 +57727,11 @@ msgstr "Abzufragende Splunk Instanz"
 msgid "Spool files of PNP4Nagios"
 msgstr "Spooldateien von PNP4Nagios"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:281
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:291
 msgid "Spool messages that could not be sent"
 msgstr "Nachrichten, die nicht geschickt werden konnten, zwischenspeichern"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:245
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:255
 msgid "Spool to Event Console"
 msgstr "Spoole zu Eventkonsole"
 
@@ -58800,7 +58827,7 @@ msgstr "Statistik Intervall"
 #: ../cmk/gui/wato/pages/activate_changes.py:423
 #: ../cmk/gui/cee/plugins/wato/dcd.py:354
 #: ../cmk/gui/cee/plugins/wato/dcd.py:427
-#: ../cmk/gui/cee/plugins/wato/dcd.py:602 ../cmk/gui/cee/ntop/pages.py:1334
+#: ../cmk/gui/cee/plugins/wato/dcd.py:602 ../cmk/gui/cee/ntop/pages.py:1316
 msgid "Status"
 msgstr "Status"
 
@@ -59773,7 +59800,7 @@ msgstr "Syslog-Einrichtung"
 msgid "Syslog facility for Event Console notifications"
 msgstr "Event Console Alarme ausliefern mit Syslog Facility"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:358
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:368
 msgid "Syslog facility for forwarded messages"
 msgstr "Nachrichten mit Syslog Facility weiterleiten"
 
@@ -59920,7 +59947,7 @@ msgstr "TCP-Verbindungs-Timeout (<a href=\"%s\">Rules</a>)"
 msgid "TCP ELB Resets"
 msgstr "TCP-ELB-Resets"
 
-#: ../cmk/gui/cee/ntop/pages.py:913
+#: ../cmk/gui/cee/ntop/pages.py:895
 msgid "TCP Flags Distribution"
 msgstr "TCP Flags Verteilung"
 
@@ -59943,7 +59970,7 @@ msgstr "TCP Port"
 msgid "TCP Port Number"
 msgstr "TCP Portnummer"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:221
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:225
 msgid "TCP Port for connection"
 msgstr "TCP Port für Verbindung"
 
@@ -61574,7 +61601,7 @@ msgstr ""
 "senden. Sie müssen diese Einstellung an das konfigurierte Checkintervall "
 "anpassen, falls Sie dieses verändert haben."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:273
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:277
 #, python-format
 msgid ""
 "The agent will update itself only with packages that are signed by one of "
@@ -61863,7 +61890,7 @@ msgstr ""
 "Verzeichnis /var/tmp/backups suchen. Die YESTERDAY-Syntax subtrahiert "
 "einfach einen Tag von der Referenzzeit."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:184
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:193
 msgid ""
 "The check <tt>logwatch</tt> normally creates one service for each logfile. "
 "By defining grouping patterns you can switch to the check <tt>logwatch."
@@ -66536,7 +66563,7 @@ msgstr ""
 msgid "This defines one file grouping pattern."
 msgstr "Dies definiert ein Datengruppen-Muster."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:167
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:172
 msgid "This defines one logfile grouping pattern"
 msgstr "Dies definiert ein Logdateien-Gruppierungsmuster"
 
@@ -66784,16 +66811,25 @@ msgid "This is a top-level rule. Show rule tree"
 msgstr ""
 "Dies ist eine Regel, die an der Spitze des Baums steht. Anzeigen der Regel"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:263
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:267
+#, fuzzy
+#| msgid ""
+#| "This is essentially the raw agent updater script that gets packaged "
+#| "within the binary versions. You have to care for the dependencies by "
+#| "yourself. The script requires a Python 2.7.13 (or greater, but not "
+#| "Python3) installation and matching python packages \"requests\", "
+#| "\"requests[socks]\" and \"pyOpenSSL\" installed on the target hosts. "
+#| "Requirements may change eventually without anouncement. However, this "
+#| "might be the right choice for experienced users or users that want to run "
+#| "the agent updater on architectures like ARM, ppc or others."
 msgid ""
 "This is essentially the raw agent updater script that gets packaged within "
 "the binary versions. You have to care for the dependencies by yourself. The "
-"script requires a Python 2.7.13 (or greater, but not Python3) installation "
-"and matching python packages \"requests\", \"requests[socks]\" and "
-"\"pyOpenSSL\" installed on the target hosts. Requirements may change "
-"eventually without anouncement. However, this might be the right choice for "
-"experienced users or users that want to run the agent updater on "
-"architectures like ARM, ppc or others."
+"script requires a Python 3.4 (or greater) installation and matching python "
+"packages \"requests\", \"PySocks\" and \"pyOpenSSL\" installed on the target "
+"hosts. Requirements may change eventually without anouncement. However, this "
+"might be the right choice for experienced users or users that want to run "
+"the agent updater on architectures like ARM, ppc or others."
 msgstr ""
 "Dies ist im Wesentlichen das Updater-Skript des Agenten, das innerhalb der "
 "Binärversionen verpackt wird. Sie müssen sich selbst um die Abhängigkeiten "
@@ -66885,7 +66921,7 @@ msgstr ""
 "Bezeichnung für das Unterverzeichnis in dem Dateien und Ordner erstellt "
 "werden. Diese Bezeichnung kann später <b>nicht</b> verändert werden."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:145
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:149
 msgid ""
 "This is the name/address at which the agent can reach your central "
 "monitoring server via HTTPS or HTTP. <b>Note</b>: If you are using HTTPS "
@@ -68685,18 +68721,32 @@ msgstr ""
 "dessen vSphere-API. Die Zugangsdaten können Sie hier konfigurieren."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:93
+#, fuzzy
+#| msgid ""
+#| "This rule set allows to deploy an agent plugin that updates the Check_MK "
+#| "agent for Linux and Windows on a regular base. The agent will look for "
+#| "new updates on a regular base and update itself, when a new baked agent "
+#| "is available, released and signed. <br><b>Note<sup>1</sup>:</b> This "
+#| "update mechanism is baked into the agent itself. So after activating this "
+#| "feature you need at least one more manual update of the agent, of course."
+#| "<br><b>Note<sup>2</sup>:</b> After deploying this new plugin you need to "
+#| "call it once manually for registerting the agent at your update server. "
+#| "Call <tt>cmk-update-agent -H <i>HOST</i></tt>, where <i>HOST</i> must be "
+#| "the name of that host in your monitoring. You find the plugin in <tt>/usr/"
+#| "lib/check_mk_agent/plugins</tt> (Linux) and in the subdirectory "
+#| "<tt>plugins</tt> of your agent installation directory (Windows)."
 msgid ""
-"This rule set allows to deploy an agent plugin that updates the Check_MK "
-"agent for Linux and Windows on a regular base. The agent will look for new "
-"updates on a regular base and update itself, when a new baked agent is "
-"available, released and signed. <br><b>Note<sup>1</sup>:</b> This update "
+"This rule set allows to deploy an agent plugin that updates the Checkmk "
+"agent for Linux, Solaris and Windows on a regular base. The agent will look "
+"for new updates on a regular base and update itself, when a new baked agent "
+"is available, released and signed. <br><b>Note<sup>1</sup>:</b> This update "
 "mechanism is baked into the agent itself. So after activating this feature "
 "you need at least one more manual update of the agent, of course."
 "<br><b>Note<sup>2</sup>:</b> After deploying this new plugin you need to "
 "call it once manually for registerting the agent at your update server. Call "
 "<tt>cmk-update-agent -H <i>HOST</i></tt>, where <i>HOST</i> must be the name "
 "of that host in your monitoring. You find the plugin in <tt>/usr/lib/"
-"check_mk_agent/plugins</tt> (Linux) and in the subdirectory <tt>plugins</tt> "
+"check_mk_agent/plugins</tt> (UNIX) and in the subdirectory <tt>plugins</tt> "
 "of your agent installation directory (Windows)."
 msgstr ""
 "Rollt ein Agentenplugin aus, das den Check_MK-Agenten für Linux und Windows "
@@ -70900,19 +70950,19 @@ msgstr "%s Alarme"
 msgid "Top alerters - %s"
 msgstr "Top Alarmierer - %s"
 
-#: ../cmk/gui/cee/ntop/pages.py:1216
+#: ../cmk/gui/cee/ntop/pages.py:1198
 #, fuzzy
 #| msgid "Top Application Traffic: Last Day View"
 msgid "Top application traffic: last day view"
 msgstr "Top Application Traffic: Ansicht über den vergangenen Tag"
 
-#: ../cmk/gui/cee/ntop/pages.py:1205
+#: ../cmk/gui/cee/ntop/pages.py:1187
 #, fuzzy
 #| msgid "Top Application Traffic: Last Hour View"
 msgid "Top application traffic: last hour view"
 msgstr "Top Application Traffic: Ansicht über die letzte Stunde"
 
-#: ../cmk/gui/cee/ntop/pages.py:1203
+#: ../cmk/gui/cee/ntop/pages.py:1185
 #, fuzzy
 #| msgid "Top Local Talkers"
 msgid "Top local talkers"
@@ -70922,7 +70972,7 @@ msgstr "Top Local Talkers"
 msgid "Top of page handling"
 msgstr "Verhalten beim Seitenanfang"
 
-#: ../cmk/gui/cee/ntop/pages.py:1214
+#: ../cmk/gui/cee/ntop/pages.py:1196
 #, fuzzy
 #| msgid "Remote destination"
 msgid "Top remote destinations"
@@ -70977,9 +71027,9 @@ msgstr "Topologie-Filter"
 #: ../cmk/gui/plugins/metrics/cpu.py:661 ../cmk/gui/plugins/metrics/cpu.py:678
 #: ../cmk/gui/plugins/metrics/cpu.py:698 ../cmk/gui/plugins/metrics/cpu.py:713
 #: ../cmk/gui/cee/plugins/dashboard/event_bar_chart_dashlet.py:113
-#: ../cmk/gui/cee/ntop/pages.py:550 ../cmk/gui/cee/ntop/pages.py:676
-#: ../cmk/gui/cee/ntop/pages.py:983 ../cmk/gui/cee/ntop/pages.py:1002
-#: ../cmk/gui/cee/ntop/pages.py:1024 ../cmk/gui/cee/ntop/pages.py:1091
+#: ../cmk/gui/cee/ntop/pages.py:532 ../cmk/gui/cee/ntop/pages.py:658
+#: ../cmk/gui/cee/ntop/pages.py:965 ../cmk/gui/cee/ntop/pages.py:984
+#: ../cmk/gui/cee/ntop/pages.py:1006 ../cmk/gui/cee/ntop/pages.py:1073
 msgid "Total"
 msgstr "Gesamt"
 
@@ -71066,11 +71116,11 @@ msgstr "Absolute Bandbreite Maximum"
 msgid "Total Traffic Minimum"
 msgstr "Absolute Bandbreite Minimum"
 
-#: ../cmk/gui/cee/ntop/pages.py:654
+#: ../cmk/gui/cee/ntop/pages.py:636
 msgid "Total Unique Hosts Contacts"
 msgstr "Gesamtzahl eindeutiger Verbindungen der Hosts"
 
-#: ../cmk/gui/cee/ntop/pages.py:760
+#: ../cmk/gui/cee/ntop/pages.py:742
 msgid "Total Unique Port Contacts"
 msgstr "Gesamtzahl von eindeutigen Port Verbindungen"
 
@@ -71597,13 +71647,13 @@ msgstr "Downtimes verfolgen"
 msgid "Traffic"
 msgstr "Verkehr"
 
-#: ../cmk/gui/cee/ntop/pages.py:522
+#: ../cmk/gui/cee/ntop/pages.py:504
 #, fuzzy
 #| msgid "Received Power"
 msgid "Traffic Received"
 msgstr "Empfangene Leistung"
 
-#: ../cmk/gui/cee/ntop/pages.py:522
+#: ../cmk/gui/cee/ntop/pages.py:504
 #, fuzzy
 #| msgid "Traffic"
 msgid "Traffic Sent"
@@ -71888,7 +71938,7 @@ msgstr "Tx-Leistungspegel"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_retry_count.py:28
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_execution.py:28
 #: ../cmk/gui/cee/reporting.py:955 ../cmk/gui/cee/reporting.py:976
-#: ../cmk/gui/cee/ntop/pages.py:1505
+#: ../cmk/gui/cee/ntop/pages.py:1487
 msgid "Type"
 msgstr "Typ"
 
@@ -72737,7 +72787,7 @@ msgstr "offen"
 msgid "Unhandled service problems"
 msgstr "Unbehandelte Serviceprobleme"
 
-#: ../cmk/gui/cee/ntop/pages.py:1351
+#: ../cmk/gui/cee/ntop/pages.py:1333
 msgid "Unidirectional UDP Traffic"
 msgstr "Unidirektionaler UDP-Verkehr"
 
@@ -72924,7 +72974,7 @@ msgstr "Unpaketierte Dateien"
 #: ../cmk/gui/plugins/dashboard/stats.py:167
 #: ../cmk/gui/plugins/visuals/filters.py:1750
 #: ../cmk/gui/cee/plugins/reporting/availability.py:399
-#: ../cmk/gui/cee/ntop/pages.py:551
+#: ../cmk/gui/cee/ntop/pages.py:533
 msgid "Unreachable"
 msgstr "Nicht erreichbar"
 
@@ -73047,7 +73097,7 @@ msgstr "Paketdatenbank aktualisieren"
 msgid "Update preview"
 msgstr "Update-Vorschau"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:122
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:126
 msgid "Update server information"
 msgstr "Aktualisiere Server Informationen"
 
@@ -73897,7 +73947,7 @@ msgstr "Dringlichkeit"
 msgid "Usability"
 msgstr "Nutzbarkeit"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:128
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:132
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/install_python.py:58
 #, fuzzy
 msgid "Usage"
@@ -74179,7 +74229,7 @@ msgstr ""
 "Doppelte Anführungszeichen verwenden, enthaltene Anführungszeichen mit "
 "Backslash ausnehmen"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:207
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:211
 msgid "Use environment variables from host"
 msgstr "Verwende Umgebungsvariablen vom Host"
 
@@ -74206,7 +74256,7 @@ msgstr "Explizite Servicenamen verwenden und allgemeine Tags ignorieren"
 msgid "Use fixed width (relative to font size)"
 msgstr "Feste Breite (relativ zur Schriftgröße) verwenden"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:131
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:135
 #, fuzzy
 msgid "Use for all connections"
 msgstr "SSL für Verbindung verwenden."
@@ -76516,7 +76566,7 @@ msgstr "Warn"
 msgid "Warn if VM status value is not"
 msgstr "Nur wenn der Status nicht-OK ist"
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:378
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:388
 msgid "Warn if list of forwarded logfiles changes"
 msgstr "Warnen, wenn die Liste der weitergeleiteten Logdateien sich ändert"
 
@@ -78236,7 +78286,7 @@ msgstr ""
 "Wenn Sie Emails vom Postfach an die Event Console weiterleiten, wird der "
 "Inhalt der Email auf die hier eingestellte Anzahl von Zeichen gekürzt."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:360
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:370
 msgid ""
 "When forwarding messages and no facility can be extracted from the message "
 "this facility is used."
@@ -78569,7 +78619,7 @@ msgstr ""
 "Wenn die iCalender-Datei wiederkehrende Termine enthält, dann werden diese "
 "Termine für die Anzahl von Jahren berücksichtigt, die Sie hier einstellen."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:390
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:400
 msgid ""
 "When the monitoring of forwarded logfiles is enabled, the check verifies "
 "that all of the logfiles listed here are reported by the monitored system."
@@ -78589,7 +78639,7 @@ msgstr ""
 "ist 100%. Das bedeutet: der Check ist nur dann kritisch, wenn <b>alle</b> "
 "Pakete verloren gehen."
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:311
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:321
 msgid ""
 "When the total size of spooled messages exceeds this number, the oldest "
 "messages of the currently spooled messages is thrown away until the left "
@@ -80548,7 +80598,7 @@ msgstr ""
 "Sie können nur Pfade unterhalb von <tt>/mnt</tt> als Zielverzeichnisse "
 "konfigurieren."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:181
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:185
 msgid ""
 "You can optionally provide CA or self-signed certificates that will be used "
 "by the agent updater to verify outgoing HTTPS connections. By providing "
@@ -81315,7 +81365,7 @@ msgstr ""
 "Instanzen ergänzen, dann denken Sie daran, auch Ihre lokale Instanz "
 "anzulegen, wenn Sie diese Daten anzeigen möchten."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:277
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:281
 #, python-format
 msgid ""
 "You have not created any agent <a href='%s'>signature keys</a> yet. This is "
@@ -81430,7 +81480,7 @@ msgstr ""
 "Es genügt, wenn Sie hier nur diejenigen Werte angeben, die sich von den "
 "Standardwerten unterscheiden, die Sie oben definiert haben."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:154
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:158
 #, python-format
 msgid ""
 "You likely should enter <tt>%s</tt> here. However, in a distributed "
