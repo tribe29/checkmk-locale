@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
 "Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-03-18 04:04+0000\n"
+"PO-Revision-Date: 2021-03-23 07:00+0000\n"
 "Last-Translator: Ulrich Bschorer <ulrich.bschorer@tribe29.com>\n"
 "Language-Team: German <https://translate.checkmk.com/projects/checkmk/"
 "software/de/>\n"
@@ -3977,10 +3977,8 @@ msgid "Activity log updates"
 msgstr "Updates zu Log-Aktivitäten"
 
 #: ../cmk/gui/cee/ntop/pages.py:1186 ../cmk/gui/cee/ntop/pages.py:1197
-#, fuzzy
-#| msgid "Actual Traffic"
 msgid "Actual traffic"
-msgstr "Actual Traffic"
+msgstr "Tatsächlicher Verkehr"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:467
 msgid "Adaptable"
@@ -8406,10 +8404,6 @@ msgstr "Backend-Verbindung %s"
 msgid "Backend connection errors"
 msgstr "Fehler bei der Backend-Verbindung"
 
-#: ../cmk/gui/cee/plugins/dashboard/single_metric.py:213
-msgid "Backgroud in status color"
-msgstr "Hintergrund in Statusfarbe"
-
 #: ../cmk/gui/gui_background_job.py:540
 msgid "Background Job"
 msgstr "Hintergrund-Prozess"
@@ -8418,6 +8412,12 @@ msgstr "Hintergrund-Prozess"
 #, python-format
 msgid "Background Job %s already running"
 msgstr "Hintergrundjob %s läuft bereits"
+
+#: ../cmk/gui/cee/plugins/dashboard/single_metric.py:213
+#, fuzzy
+#| msgid "Backgroud in status color"
+msgid "Background in status color and label"
+msgstr "Hintergrund in Statusfarbe"
 
 #: ../cmk/gui/background_job.py:297
 msgid "Background job"
@@ -35019,6 +35019,12 @@ msgstr "LVM, Logical Volume Groups (Linux)"
 msgid "Label"
 msgstr "Label"
 
+#: ../cmk/gui/cee/plugins/dashboard/single_metric.py:212
+#, fuzzy
+#| msgid "Text in status color"
+msgid "Label with status color"
+msgstr "Text in Statusfarbe"
+
 #: ../cmk/gui/availability.py:232
 msgid "Labelling Options"
 msgstr "Beschriftungsoptionen"
@@ -42137,10 +42143,10 @@ msgid "No data from any site"
 msgstr "Keine Daten verfügbar"
 
 #: ../cmk/gui/plugins/dashboard/utils.py:1084
-#, fuzzy
-#| msgid "Edit and analyze the check parameters of this service"
 msgid "No data was found with the current parameters of this dashlet."
-msgstr "Checkparameter für diesen Service analysieren und editieren"
+msgstr ""
+"Es wurden keine Daten mit den aktuellen Parametern für dieses Dashlet "
+"gefunden."
 
 #: ../cmk/gui/cee/plugins/sidebar/cmc.py:56
 msgid "No data."
@@ -49022,10 +49028,8 @@ msgid "Processor"
 msgstr "Prozessor"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:57
-#, fuzzy
-#| msgid "Entitled capacity consumed"
 msgid "Processor Entitled Capacity"
-msgstr "Verbrauch des Kapazitätskontigentes"
+msgstr "Processor Entitled Capacity"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:56
 msgid "Processor Implementation Mode"
@@ -49505,16 +49509,12 @@ msgid "Queue name"
 msgstr "Name der Warteschlange"
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:66
-#, fuzzy
-#| msgid "Queue length"
 msgid "Queue time long"
-msgstr "Länge der Warteschlange"
+msgstr "Warteschlangenzeit lang"
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:59
-#, fuzzy
-#| msgid "Queue Name"
 msgid "Queue time short"
-msgstr "Name der Schlange"
+msgstr "Warteschlangenzeit kurz"
 
 #: ../cmk/gui/watolib/activate_changes.py:1471
 msgid "Queued"
@@ -58923,10 +58923,8 @@ msgid "Status service period"
 msgstr "Status Servicezeit"
 
 #: ../cmk/gui/cee/plugins/views/icons/cmc.py:20
-#, fuzzy
-#| msgid "Status host"
 msgid "Status shadow"
-msgstr "Status Host"
+msgstr "Status Shadow"
 
 #: ../cmk/gui/plugins/views/icons/builtin.py:796
 msgid "Status stale"
@@ -59553,54 +59551,44 @@ msgid "Swap In Upper"
 msgstr "Swap In Upper"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:61
-#, fuzzy
 msgid "Swap In critical at"
-msgstr "kritisch bei"
+msgstr "Einlagern kritisch bei"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:53
-#, fuzzy
 msgid "Swap In critical below"
-msgstr "kritisch unter"
+msgstr "Einlagern kritisch unter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:60
-#, fuzzy
 msgid "Swap In warning at"
-msgstr "Warnung bei"
+msgstr "Einlagern Warnung bei"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:52
-#, fuzzy
 msgid "Swap In warning below"
-msgstr "Warnung unter"
+msgstr "Einlagern Warnung unter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:66
-#, fuzzy
 msgid "Swap Out Lower"
-msgstr "Eingangsleistung"
+msgstr "Auslagern unter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:74
-#, fuzzy
 msgid "Swap Out Upper"
-msgstr "benutzer Swap"
+msgstr "Auslagern über"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:77
-#, fuzzy
 msgid "Swap Out critical at"
-msgstr "kritisch bei"
+msgstr "Auslagern kritisch bei"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:69
-#, fuzzy
 msgid "Swap Out critical below"
-msgstr "kritisch unter"
+msgstr "Auslagern kritisch unter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:76
-#, fuzzy
 msgid "Swap Out warning at"
-msgstr "Warnung bei"
+msgstr "Auslagern Warnung bei"
 
 #: ../cmk/gui/plugins/wato/check_parameters/kernel_performance.py:68
-#, fuzzy
 msgid "Swap Out warning below"
-msgstr "Warnung unter"
+msgstr "Auslagern Warnung unter"
 
 #: ../cmk/gui/plugins/metrics/storage.py:402
 msgid "Swap cached"
@@ -60540,10 +60528,6 @@ msgstr "Text von der URL %s"
 #: ../cmk/gui/wato/mkeventd.py:207
 msgid "Text groups from regular expression match, separated by spaces"
 msgstr "Textgruppen von regulären Ausdrücken, mit Leerzeichen separiert"
-
-#: ../cmk/gui/cee/plugins/dashboard/single_metric.py:212
-msgid "Text in status color"
-msgstr "Text in Statusfarbe"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:240
 msgid "Text logfiles (Linux, Windows)"
@@ -68020,18 +68004,12 @@ msgstr ""
 "wodurch sich das temporäre Dateisystem schnell füllen kann."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1013
-#, fuzzy
-#| msgid ""
-#| "This rule selects the vSphere agent instead of the normal Check_MK Agent "
-#| "and allows monitoring of VMWare ESX via the vSphere API. You can "
-#| "configure your connection settings here."
 msgid ""
 "This rule allows monitoring of VMWare ESX via the vSphere API. You can "
 "configure your connection settings here."
 msgstr ""
-"Dieser Regelsatz wählt für einen Host den vSphere-Agenten anstelle des "
-"normalen Monitoring-Agenten. Dies erlaubt das Überwachen von VMWare ESX über "
-"dessen vSphere-API. Die Zugangsdaten können Sie hier konfigurieren."
+"Diese Regel ermöglicht die Überwachung von VMWare ESX über die vSphere-API. "
+"Sie können hier Ihre Verbindungseinstellungen konfigurieren."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2017
 msgid ""
@@ -69914,7 +69892,6 @@ msgstr ""
 "überwacht ausstehende normale und Sicherheitsupdates."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:67
-#, fuzzy
 msgid ""
 "This will deploy the agent plugin <tt>mk_docker.py</tt>. You can choose to "
 "monitor the node and/or the individual containers. This plugin requires the "
@@ -69927,17 +69904,18 @@ msgid ""
 "translation rules</a> to avoid name collisions if containers with the same "
 "name exist on multiple docker nodes."
 msgstr ""
-"Hiermit wird das Agenten-Plugin <tt>mk_docker.py</tt> ausgerollt. Sie können "
-"den Knoten und/oder die einzelnen Container überwachen. Dieses Plugin "
-"benötigt die Python-Bibliothek 'docker' (mindestens Version 2.0.0) auf dem "
-"überwachten System, welche mit dem Befehl '<tt>pip install docker</tt>' "
-"installiert werden kann. WARNUNG: <tt>pip install docker-py</tt> kann eine "
-"veraltete, inkompatible Version derselben Bibliothek installieren. Wenn Sie "
-"die Container mehrerer Dockerknoten überwachen möchten, empfehlen wir "
-"dringend, <a href='wato.py?"
-"mode=edit_ruleset&varname=piggyback_translation'>Übersetzungsregeln für "
-"Huckepack-Hosts</a> einzurichten, um Namenskollisionen zu vermeiden, wenn "
-"Container mit dem gleichen Namen auf mehreren Dockerknoten existieren."
+"Dadurch wird das Agent-Plugin <tt>mk_docker.py</tt> bereitgestellt. Sie "
+"können wählen, ob Sie den Knoten und/oder die einzelnen Container überwachen "
+"möchten. Dieses Plugin erfordert, dass die Python-Bibliothek "
+"'docker' (mindestens Version 2.0.0) auf dem überwachten System installiert "
+"ist, was mit dem Befehl '<tt>pip install docker</tt>' erreicht werden kann. "
+"ACHTUNG: <tt>pip install docker-py</tt> installiert möglicherweise eine "
+"veraltete, inkompatible Version der gleichen Bibliothek. Wenn Sie die "
+"Container mehrerer Docker-Knoten überwachen möchten, empfehlen wir dringend, "
+"<a href=\"wato.py?mode=edit_ruleset&varname=piggyback_translation"
+"\">Piggyback-Übersetzungsregeln</a> einzurichten, um Namenskollisionen zu "
+"vermeiden, wenn Container mit demselben Namen auf mehreren Docker-Knoten "
+"existieren."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_mysql.py:27
 msgid ""
@@ -70670,9 +70648,8 @@ msgid "Title format"
 msgstr "Titelformat"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:619
-#, fuzzy
 msgid "Title of Column. This field is mandatory."
-msgstr "Titel der Spalte. Dies ist ein Pflichtfeld"
+msgstr "Titel der Spalte. Dieses Feld ist obligatorisch."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:695
 msgid "Title of the tree"
@@ -70830,10 +70807,8 @@ msgid "Top Talkers"
 msgstr "Top Talkers"
 
 #: ../cmk/gui/cee/plugins/dashboard/alert_statistics.py:197
-#, fuzzy
-#| msgid "%s alerts"
 msgid "Top alerters"
-msgstr "%s Alarme"
+msgstr "Top Alarmer"
 
 #: ../cmk/gui/cee/plugins/dashboard/alert_statistics.py:55
 #, python-format
@@ -70849,20 +70824,16 @@ msgid "Top application traffic: last hour view"
 msgstr "Top-Anwendungs-Traffic: Ansicht der letzten Stunde"
 
 #: ../cmk/gui/cee/ntop/pages.py:1185
-#, fuzzy
-#| msgid "Top Local Talkers"
 msgid "Top local talkers"
-msgstr "Top Local Talkers"
+msgstr "Lokale Top-Talker"
 
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:225
 msgid "Top of page handling"
 msgstr "Verhalten beim Seitenanfang"
 
 #: ../cmk/gui/cee/ntop/pages.py:1196
-#, fuzzy
-#| msgid "Remote destination"
 msgid "Top remote destinations"
-msgstr "Entferntes Ziel"
+msgstr "Top Remote Destinations"
 
 #: ../cmk/gui/cee/ntop/connector.py:710
 #, python-format
@@ -70976,9 +70947,8 @@ msgid "Total Pending Mails"
 msgstr "Gesamtzahl ausstehender Emails"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1525
-#, fuzzy
 msgid "Total RAM + Swap installed"
-msgstr "Gesamter RAM + installierter Swap"
+msgstr "Gesamtes RAM + installierter Swapspeicher"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1526
 msgid "Total RAM installed"
@@ -71096,9 +71066,8 @@ msgid "Total host problems"
 msgstr "Gesamtanzahl Host-Probleme"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_failures.py:25
-#, fuzzy
 msgid "Total index failure count upper levels"
-msgstr "Gesamtgröße der Datendatei: Absolute obere Schwellen"
+msgstr "Obergrenze für die Gesamtzahl der Indexausfälle"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_svc_total_latency.py:25
 msgid "Total latency for all MDisks"
@@ -71139,118 +71108,100 @@ msgid "Total number of Sessions"
 msgstr "Gesamtzahl von Sitzungen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:197
-#, fuzzy
 msgid "Total number of active primary shards lower level"
-msgstr "Erwartete Anzahl von aktiven, primären Shards"
+msgstr "Untergrenze für die Gesamtzahl der aktiven Primary Shards"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:205
-#, fuzzy
 msgid "Total number of active primary shards upper level"
-msgstr "Erwartete Anzahl von aktiven, primären Shards"
+msgstr "Obergrenze für die Gesamtzahl der aktiven Primary Shards"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:181
-#, fuzzy
 msgid "Total number of active shards lower level"
-msgstr "Erwartete Anzahl von aktiven Shards in Prozent"
+msgstr "Untergrenze für die Gesamtzahl der aktiven Shards"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:189
-#, fuzzy
 msgid "Total number of active shards upper level"
-msgstr "Erwartete Anzahl von aktiven Shards in Prozent"
+msgstr "Obergrenze für die Gesamtzahl der aktiven Shards"
 
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info_clients.py:26
-#, fuzzy
 msgid "Total number of client connections lower level"
-msgstr "Maximale Anzahl von Verbindungen oder Listeners"
+msgstr "Untergrenze für die Gesamtzahl der Klient-Verbindungen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info_clients.py:40
-#, fuzzy
 msgid "Total number of client connections upper level"
-msgstr "Maximale Anzahl von Verbindungen oder Listeners"
+msgstr "Obergrenze für die Gesamtzahl der Klient-Verbindungen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info_clients.py:86
-#, fuzzy
 msgid "Total number of clients pending on a blocking call lower level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr ""
+"Untergrenze für die Gesamtzahl der Klienten, die auf einen blockierenden "
+"Aufruf warten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info_clients.py:100
-#, fuzzy
 msgid "Total number of clients pending on a blocking call upper level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr ""
+"Obergrenze für die Gesamtzahl der Klienten, die auf einen blockierenden "
+"Aufruf warten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:356
-#, fuzzy
 msgid "Total number of collections lower level"
-msgstr "Maximale Anzahl von Verbindungen oder Listeners"
+msgstr "Untergrenze für die Gesamtzahl der Kollektionen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:364
-#, fuzzy
 msgid "Total number of collections upper level"
-msgstr "Maximale Anzahl von Verbindungen oder Listeners"
+msgstr "Obergrenze für die Gesamtzahl der Kollektionen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sidecars.py:72
-#, fuzzy
 msgid "Total number of collectors in state failing lower level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr "Untergrenze für die Gesamtzahl der Kollektoren im Zustand failing"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sidecars.py:81
-#, fuzzy
 msgid "Total number of collectors in state failing upper level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr "Obergrenze für die Gesamtzahl der Kollektoren im Zustand failing"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sidecars.py:36
-#, fuzzy
 msgid "Total number of collectors in state running lower level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr "Untergrenze für die Gesamtzahl der Kollektoren im Zustand running"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sidecars.py:45
-#, fuzzy
 msgid "Total number of collectors in state running upper level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr "Obergrenze für die Gesamtzahl der Kollektoren im Zustand running"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sidecars.py:54
 msgid "Total number of collectors in state stopped lower level"
 msgstr "Gesamte Anzahl an Kollektoren mit Status \"stopped lower level\""
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_sidecars.py:63
-#, fuzzy
 msgid "Total number of collectors in state stopped upper level"
-msgstr "Anzahl von Ordnern, die pro Level anzulegen sind"
+msgstr "Obergrenze für die Gesamtzahl der Kollektoren im Zustand stopped"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:165
-#, fuzzy
 msgid "Total number of data nodes lower level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Untergrenze für die Gesamtzahl der Data Nodes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:173
-#, fuzzy
 msgid "Total number of data nodes upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze für die Gesamtzahl der Data Nodes"
 
 #: ../cmk/gui/plugins/metrics/jenkins.py:48
-#, fuzzy
 msgid "Total number of executors"
-msgstr "Gesamtzahl Aufträge"
+msgstr "Gesamtzahl der Executors"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:340
-#, fuzzy
 msgid "Total number of extents lower level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Untergrenze der Gesamtzahl der Extents"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:348
-#, fuzzy
 msgid "Total number of extents upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze der Gesamtzahl der Extents"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:90
-#, fuzzy
 msgid "Total number of extractor lower level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Untergrenze der Gesamtzahl der Extractor"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:98
-#, fuzzy
 msgid "Total number of extractor upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze der Gesamtzahl der Extractor"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:375
 msgid "Total number of failed jobs"
@@ -71262,48 +71213,40 @@ msgid "Total number of hosts"
 msgstr "Gesamtzahl der Hosts"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:276
-#, fuzzy
 msgid "Total number of indexes lower level"
-msgstr "Gesamtzahl von Modems"
+msgstr "Untergrenze der Gesamtzahl der Indizes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:284
-#, fuzzy
 msgid "Total number of indexes upper level"
-msgstr "Gesamtzahl von Modems"
+msgstr "Obergrenze der Gesamtzahl der Indizes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:245
-#, fuzzy
 msgid "Total number of indices lower level"
-msgstr "Gesamtzahl von Modems"
+msgstr "Untergrenze für die Gesamtzahl der Indizes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:253
-#, fuzzy
 msgid "Total number of indices upper level"
-msgstr "Gesamtzahl von Modems"
+msgstr "Obergrenze für die Gesamtzahl der Indizes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_nodes.py:61
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:26
-#, fuzzy
 msgid "Total number of inputs lower level"
-msgstr "Untere Schwellwerte für Container"
+msgstr "Untergrenze für die Gesamtzahl der Eingänge"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_nodes.py:69
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:34
-#, fuzzy
 msgid "Total number of inputs upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze für die Gesamtzahl der Eingänge"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jira_custom_svc.py:35
 #: ../cmk/gui/plugins/wato/check_parameters/jira_workflow.py:26
-#, fuzzy
 msgid "Total number of issues lower level"
-msgstr "Untere Schwellwerte für Container"
+msgstr "Untergrenze für die Gesamtzahl der Issues"
 
 #: ../cmk/gui/plugins/wato/check_parameters/jira_custom_svc.py:43
 #: ../cmk/gui/plugins/wato/check_parameters/jira_workflow.py:34
-#, fuzzy
 msgid "Total number of issues upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze für die Gesamtzahl der Issues"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:369
 msgid "Total number of jobs"
@@ -71314,34 +71257,28 @@ msgid "Total number of modems"
 msgstr "Gesamtzahl von Modems"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:149
-#, fuzzy
 msgid "Total number of nodes lower level"
-msgstr "Gesamtzahl von Modems"
+msgstr "Untergrenze für die Gesamtzahl der Nodes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:157
-#, fuzzy
 msgid "Total number of nodes upper level"
-msgstr "Gesamtzahl von Modems"
+msgstr "Obergrenze für die Gesamtzahl der Nodes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:372
-#, fuzzy
 msgid "Total number of objects lower level"
-msgstr "Gesamtzahl Aufträge"
+msgstr "Untergrenze für die Gesamtzahl der Objekte"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:380
-#, fuzzy
 msgid "Total number of objects upper level"
-msgstr "Gesamtzahl Aufträge"
+msgstr "Obergrenze für die Gesamtzahl der Objekte"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:42
-#, fuzzy
 msgid "Total number of outputs lower level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Untergrenze für die Gesamtzahl der Ausgänge"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:50
-#, fuzzy
 msgid "Total number of outputs upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze für die Gesamtzahl der Ausgänge"
 
 #: ../cmk/gui/plugins/metrics/network.py:1503
 msgid "Total number of packets"
@@ -71356,45 +71293,38 @@ msgid "Total number of services"
 msgstr "Gesamtzahl der Services"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:74
-#, fuzzy
 msgid "Total number of stream rules lower level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Untergrenze für die Gesamtzahl der Stream-Regeln"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:82
-#, fuzzy
 msgid "Total number of stream rules upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze für die Gesamtzahl der Stream-Regeln"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:58
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_streams.py:26
-#, fuzzy
 msgid "Total number of streams lower level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Untergrenze für die Gesamtzahl der Streams"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_streams.py:34
-#, fuzzy
 msgid "Total number of streams upper level"
-msgstr "Gesamtzahl von Bändern"
+msgstr "Obergrenze für die Gesamtzahl der Streams"
 
 #: ../cmk/gui/plugins/metrics/storage.py:704
 msgid "Total number of tapes"
 msgstr "Gesamtzahl von Bändern"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:213
-#, fuzzy
 msgid "Total number of unassigned shards"
-msgstr "Anzahl nicht zugewiesener Shards"
+msgstr "Gesamtzahl der nicht zugewiesenen Shards"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:106
-#, fuzzy
 msgid "Total number of user lower level"
-msgstr "Untere Schwellwerte für Container"
+msgstr "Untergrenze für die Gesamtzahl der Benutzer"
 
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_cluster_stats.py:114
-#, fuzzy
 msgid "Total number of user upper level"
-msgstr "Obere Schwellwerte für Container"
+msgstr "Obergrenze für die Gesamtzahl der Benutzer"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:381
 msgid "Total number of zombie jobs"
@@ -74068,14 +73998,16 @@ msgstr "Manuell erzeugtes ORACLE Passwort-Wallet verwenden"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:5112
 #: ../cmk/gui/cee/plugins/wato/dcd.py:794
-#, fuzzy, python-format
+#, python-format
 msgid "Use maximum age from <a href=\"%s\">global settings</a>"
-msgstr "Maximales Alter aus den globalen Einstellungen verwenden"
+msgstr "Maximales Alter aus <a href=\"%s\">globale Einstellungen</a> verwenden"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:5114
-#, fuzzy, python-format
+#, python-format
 msgid "Use maximum age from <a href=\"%s\">global settings</a> or above"
-msgstr "Maximales Alter aus den globalen Einstellungen verwenden"
+msgstr ""
+"Maximales Alter aus <a href=\"%s\">globale Einstellungen</a> oder höher "
+"verwenden"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:257
 msgid "Use monitoring host name"
@@ -74214,34 +74146,25 @@ msgid "Use the credentials of the 'automation' user"
 msgstr "Die Anmeldeinformationen des Benutzers \"automation\" verwenden."
 
 #: ../cmk/gui/valuespec.py:6114
-#, fuzzy
-#| msgid "Use default color of the theme or medium"
 msgid "Use the default color of the metric."
-msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
+msgstr "Standardfarbe der Metrik verwenden."
 
 #: ../cmk/gui/valuespec.py:6091
-#, fuzzy
-#| msgid "Use default color of the theme or medium"
 msgid "Use the default color of the theme or the metric."
-msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
+msgstr "Standardfarbe des Themas oder der Metrik verwenden."
 
 #: ../cmk/gui/valuespec.py:6109
-#, fuzzy
-#| msgid "Use default color of the theme or medium"
 msgid "Use the default color of the theme."
-msgstr "Standardfarbe der Darstellung oder des Mediums verwenden"
+msgstr "Standardfarbe des Themas verwenden."
 
 #: ../cmk/gui/wato/pages/users.py:1182
-#, fuzzy, python-format
-#| msgid "Use the default theme"
+#, python-format
 msgid "Use the default language (%s)"
-msgstr "Standard Aussehen benutzen"
+msgstr "Die Standardsprache (%s) verwenden"
 
 #: ../cmk/gui/plugins/userdb/user_attributes.py:254
-#, fuzzy
-#| msgid "Use the default theme"
 msgid "Use the default show mode"
-msgstr "Standard Aussehen benutzen"
+msgstr "Den Standardanzeigemodus verwenden"
 
 #: ../cmk/gui/plugins/userdb/user_attributes.py:114
 msgid "Use the default start URL"
@@ -74325,15 +74248,11 @@ msgstr ""
 "Host-Labels auszuwählen."
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1221
-#, fuzzy
-#| msgid ""
-#| "Use this condition to select services based on the configured service "
-#| "labels."
 msgid ""
 "Use this condition to select hosts based on the configured service labels."
 msgstr ""
-"Verwenden Sie diese Bedingung, um Dienste basierend auf den konfigurierten "
-"Service-Labels auszuwählen."
+"Diese Bedingung verwenden, um Hosts basierend auf den konfigurierten Service-"
+"Labels auszuwählen."
 
 #: ../cmk/gui/wato/pages/rulesets.py:1871
 msgid ""
@@ -74435,20 +74354,18 @@ msgstr ""
 "Ereignissbegrenzung für Regeln</a> überschreiben"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3217
-#, fuzzy
 msgid ""
 "Use this option to query a port which is different from standard port 443."
 msgstr ""
-"Verwenden Sie diese Option, um einen Port abzufragen, der sich vom "
-"Standardport 8089 unterscheidet."
+"Diese Option verwenden, um einen Port abzufragen, der sich vom Standardport "
+"443 unterscheidet."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3106
-#, fuzzy
 msgid ""
 "Use this option to query a port which is different from standard port 8080."
 msgstr ""
-"Verwenden Sie diese Option, um einen Port abzufragen, der sich vom "
-"Standardport 8089 unterscheidet."
+"Diese Option verwenden, um einen Port abzufragen, der sich vom Standardport "
+"8080 unterscheidet."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3016
 msgid ""
@@ -74485,42 +74402,40 @@ msgstr ""
 "ersten Host aus, der eine Antwort sendet."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3186
-#, fuzzy
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_graylog.com."
 msgstr ""
-"Verwenden Sie diese Option, um festzulegen, welcher Host vom Spezialagenten "
-"geprüft werden soll."
+"Mit dieser Option wird festgelegt, welche Instanz vom speziellen Agenten "
+"geprüft werden soll. Bitte hier den Hostnamen angeben, z. B. my_graylog.com."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3073
-#, fuzzy
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jenkins.com."
 msgstr ""
-"Verwenden Sie diese Option, um festzulegen, welcher Host vom Spezialagenten "
-"geprüft werden soll."
+"Mit dieser Option wird festgelegt, welche Instanz vom speziellen Agenten "
+"geprüft werden soll. Bitte hier den Hostnamen angeben, z. B. my_jenkins.com."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3386
-#, fuzzy
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jira.com. If not set, the "
 "assigned host is used as instance."
 msgstr ""
-"Verwenden Sie diese Option, um festzulegen, welcher Host vom Spezialagenten "
-"geprüft werden soll."
+"Mit dieser Option wird festgelegt, welche Instanz vom speziellen Agenten "
+"geprüft werden soll. Bitte geben hier den Hostnamen angeben, z. B. my_jira."
+"com. Wenn nicht gesetzt, wird der zugewiesene Host als Instanz verwendet."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3517
-#, fuzzy
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_rabbitmq.com. If not set, the "
 "assigned host is used as instance."
 msgstr ""
-"Verwenden Sie diese Option, um festzulegen, welcher Host vom Spezialagenten "
-"geprüft werden soll."
+"Mit dieser Option wird festgelegt, welche Instanz vom speziellen Agenten "
+"geprüft werden soll. Bitte hier den Hostnamen angeben, z. B. my_rabbitmq."
+"com. Wenn nicht gesetzt, wird der zugewiesene Host als Instanz verwendet."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3759
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3843
@@ -74669,9 +74584,8 @@ msgid "Used Bandwidth of port in megabyte/s"
 msgstr "Durchsatz in MByte/Sek"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1542
-#, fuzzy
 msgid "Used CPU Memory"
-msgstr "Cisco Speicherverwendung"
+msgstr "verwendeter CPU Speicher"
 
 #: ../cmk/gui/plugins/metrics/cpu.py:411
 msgid "Used CPU Time"
@@ -74682,10 +74596,8 @@ msgid "Used DHCP leases"
 msgstr "Genutzte DHCP-Leases"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1532
-#, fuzzy
-#| msgid "Used by"
 msgid "Used RAM"
-msgstr "Benutzt von"
+msgstr "Verwendetes RAM"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:898
 #: ../cmk/gui/plugins/wato/check_parameters/fcp.py:55
@@ -74706,9 +74618,8 @@ msgid "Used by"
 msgstr "Benutzt von"
 
 #: ../cmk/gui/wato/pages/tags.py:549
-#, fuzzy
 msgid "Used by tags"
-msgstr "Genutzte Hosttags"
+msgstr "Von Tags verwendet"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1244
 msgid "Used file handles"
@@ -74719,10 +74630,8 @@ msgid "Used filesystem space"
 msgstr "Belegter Dateisystemplatz"
 
 #: ../cmk/gui/plugins/metrics/fs.py:48
-#, fuzzy
-#| msgid "Used filesystem space"
 msgid "Used filesystem space %"
-msgstr "Belegter Dateisystemplatz"
+msgstr "Verwendeter Dateisystem Speicherplatz %"
 
 #: ../cmk/gui/wato/pages/rulesets.py:1256
 msgid "Used host tags"
@@ -74733,9 +74642,8 @@ msgid "Used in BI aggregate"
 msgstr "Verwendet in BI Aggregation"
 
 #: ../cmk/gui/wato/pages/tags.py:520 ../cmk/gui/wato/pages/tags.py:567
-#, fuzzy
 msgid "Used in rulesets"
-msgstr "Verwendete Regelsätze"
+msgstr "Verwendet in Regelsätzen"
 
 #: ../cmk/gui/plugins/visuals/filters.py:3094
 msgid ""
@@ -74867,10 +74775,8 @@ msgid "User and password"
 msgstr "Username und Passwort"
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1638
-#, fuzzy
-#| msgid "User Base DN"
 msgid "User base DN"
-msgstr "Base DN für Benutzer"
+msgstr "Benutzer Base DN"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:83
 msgid "User for login"
@@ -74881,10 +74787,8 @@ msgid "User interface"
 msgstr "Benutzerschnittstelle"
 
 #: ../cmk/gui/wato/user_profile.py:578
-#, fuzzy
-#| msgid "User interface"
 msgid "User interface settings"
-msgstr "Benutzerschnittstelle"
+msgstr "Einstellungen der Benutzeroberfläche"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:134
 #: ../cmk/gui/plugins/userdb/user_attributes.py:149
@@ -74892,9 +74796,8 @@ msgid "User interface theme"
 msgstr "Aussehen des User Interfaces"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_runas.py:91
-#, fuzzy
 msgid "User name"
-msgstr "Benutzer"
+msgstr "Benutzername"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1461
 msgid "User name on the storage system. Read only permissions are sufficient."
@@ -74909,13 +74812,10 @@ msgid "User notifications"
 msgstr "Nutzer Benachrichtigungen"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_runas.py:98
-#, fuzzy
 msgid "User password"
-msgstr "Username und Passwort"
+msgstr "Benutzerpasswort"
 
 #: ../cmk/gui/dashboard.py:808
-#, fuzzy
-#| msgid "User Profile"
 msgid "User profile"
 msgstr "Benutzerprofil"
 
@@ -74957,8 +74857,6 @@ msgid "User who performed action"
 msgstr "Benutzer der Aktion ausführt"
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1697
-#, fuzzy
-#| msgid "User-ID Attribute"
 msgid "User-ID attribute"
 msgstr "Benutzer-ID Eigenschaft"
 
@@ -75236,9 +75134,8 @@ msgid "VA"
 msgstr "VA"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3150
-#, fuzzy
 msgid "VCenter authentication"
-msgstr "System-Authentifizierung"
+msgstr "VCenter-Authentifizierung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/veeam_tapejobs.py:37
 msgid "VEEAM tape backup jobs"
@@ -75261,27 +75158,21 @@ msgid "VM name"
 msgstr "VM-Name"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1120
-#, fuzzy
-#| msgid "Manual snapshots"
 msgid "VM snapshot summary"
-msgstr "Manuelle Schnappschüsse"
+msgstr "Zusammenfassung der VM-Schnappschüsse"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1371
 #: ../cmk/gui/plugins/wato/datasource_programs.py:199
-#, fuzzy
-#| msgid "# Containers"
 msgid "VM, Cloud, Container"
-msgstr "# Container"
+msgstr "VM, Cloud, Container"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2185
 msgid "VMWare ESX host systems: Used space"
 msgstr "VMWare ESX Hostsysteme: belegter Platz"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1011
-#, fuzzy
-#| msgid "Check state of VMWare ESX via vSphere"
 msgid "VMWare ESX via vSphere"
-msgstr "Zustand von VMWare ESX mittels vSphere überwachen"
+msgstr "VMWare ESX via vSphere"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1685
 #: ../cmk/gui/plugins/metrics/storage.py:1696
@@ -75309,16 +75200,12 @@ msgid "VMware Tools is installed, but the version is not current"
 msgstr "VMware-Tools sind installiert, aber die Version ist nicht aktuell"
 
 #: ../cmk/gui/plugins/wato/check_parameters/licenses.py:83
-#, fuzzy
-#| msgid "Used licenses"
 msgid "VMware licenses"
-msgstr "Genutzte Lizenzen"
+msgstr "VMware Lizenzen"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2890
-#, fuzzy
-#| msgid "Check VNX quotas and filesystems"
 msgid "VNX quotas and filesystems"
-msgstr "VNX-Quoten und Dateisysteme überprüfen"
+msgstr "VNX-Quotas und Dateisysteme"
 
 #: ../cmk/gui/plugins/wato/check_parameters/vnx_quotas.py:23
 msgid "VNX quotas and filesystems discovery"
@@ -75337,15 +75224,12 @@ msgid "VPN tunnel specific configuration"
 msgstr "Konfiguration für einzelne VPN-Tunnel"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fortigate_sslvpn.py:20
-#, fuzzy
-#| msgid "VPN Tunnel"
 msgid "VPN tunnels"
 msgstr "VPN Tunnel"
 
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:50
-#, fuzzy
 msgid "VRRP Instance"
-msgstr "Instanz"
+msgstr "VRRP Instanz"
 
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_packets.py:55
 #: ../cmk/gui/plugins/wato/check_parameters/checkpoint_vsx_connections.py:52
@@ -75388,16 +75272,12 @@ msgid "Valid until Checkmk version"
 msgstr "Gültig bis Checkmk-Version"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:756
-#, fuzzy
-#| msgid "Limit of meta data"
 msgid "Validity of missing data"
-msgstr "Limitierung von Metadaten"
+msgstr "Gültigkeit der fehlenden Daten"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:766
-#, fuzzy
-#| msgid "Limit of meta data"
 msgid "Validity of outdated data"
-msgstr "Limitierung von Metadaten"
+msgstr "Gültigkeit veralteter Daten"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:661
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:990
@@ -75419,10 +75299,8 @@ msgid "Value Type"
 msgstr "Werttyp"
 
 #: ../cmk/gui/valuespec.py:3021
-#, fuzzy
-#| msgid "Value must be a %s with two elements."
 msgid "Value must be a tuple with two elements."
-msgstr "Der Wert muss vom Typ %s sein und zwei 2 Elemente haben."
+msgstr "Wert muss ein Tupel mit zwei Elementen sein."
 
 #: ../cmk/utils/object_diff.py:38 ../cmk/utils/object_diff.py:39
 #, python-brace-format
@@ -75455,22 +75333,16 @@ msgid "Vanished clustered services (located on cluster host)"
 msgstr "Verschwundene geclusterte Dienste (auf dem Cluster-Host)"
 
 #: ../cmk/gui/wato/pages/services.py:625
-#, fuzzy
-#| msgid "Vanished host label: %d"
-#| msgid_plural "Vanished host labels: %d"
 msgid "Vanished host label: "
 msgid_plural "Vanished host labels: "
-msgstr[0] "Verschwundenes Host-Label: %d"
-msgstr[1] "Verschwundene Host-Labels: %d"
+msgstr[0] "Verschwundenes Host-Label: "
+msgstr[1] "Verschwundene Host-Labels: "
 
 #: ../cmk/gui/wato/pages/services.py:617
-#, fuzzy
-#| msgid "Vanished service: %d"
-#| msgid_plural "Vanished services: %d"
 msgid "Vanished service: "
 msgid_plural "Vanished services: "
-msgstr[0] "Verschwundener Service: %d"
-msgstr[1] "Verschwundene Services: %d"
+msgstr[0] "Verschwundener Service: "
+msgstr[1] "Verschwundene Services: "
 
 #: ../cmk/gui/wato/pages/services.py:1021
 msgid "Vanished services (monitored, but no longer exist)"
@@ -75558,9 +75430,8 @@ msgid "Varnish Worker thread ratio"
 msgstr "Varnish Worker thread ratio"
 
 #: ../cmk/gui/plugins/metrics/aws.py:50
-#, fuzzy
 msgid "Vault size"
-msgstr "Datengröße"
+msgstr "Vault Größe"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/veeam_backup_status.py:19
 msgid "Veeam Backup Status (Windows)"
@@ -75620,8 +75491,6 @@ msgid "Veritas Volume Manger (Linux, HP-UX)"
 msgstr "Veritas Volume Manger (Linux, HP-UX)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:62
-#, fuzzy
-#| msgid "Veritas Cluster Server"
 msgid "Veritas cluster server"
 msgstr "Veritas Cluster Server"
 
@@ -75670,10 +75539,8 @@ msgid "Version of Server"
 msgstr "Version des Servers"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:444
-#, fuzzy
-#| msgid "Version"
 msgid "Versions"
-msgstr "Version"
+msgstr "Versionen"
 
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:288
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:307
@@ -75694,9 +75561,8 @@ msgstr ""
 "Websites zu deaktivieren."
 
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1195
-#, fuzzy
 msgid "Vertical axis mirroring"
-msgstr "Skalierung der vertikalen Achse"
+msgstr "Vertikale Achse spiegeln"
 
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1168
 msgid "Vertical axis scaling"
@@ -75727,16 +75593,12 @@ msgid "Very voluble"
 msgstr "Sehr geläufig"
 
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_vhosts.py:144
-#, fuzzy
-#| msgid "Host name"
 msgid "Vhost name"
-msgstr "Hostname"
+msgstr "Vhost Name"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3559
-#, fuzzy
-#| msgid "hosts"
 msgid "Vhosts"
-msgstr "Hosts"
+msgstr "Vhosts"
 
 #: ../cmk/gui/plugins/wato/notifications.py:376
 msgid "VictorOPS REST Endpoint"
@@ -75771,27 +75633,20 @@ msgid "View and edit the rules and aggregations in this BI pack"
 msgstr "Regeln und Aggregationen in diesem BI-Paket anzeigen und bearbeiten"
 
 #: ../cmk/gui/wato/pages/audit_log.py:116
-#, fuzzy
-#| msgid "Save changes"
 msgid "View changes"
-msgstr "Änderungen speichern"
+msgstr "Änderungen anzeigen"
 
 #: ../cmk/gui/views.py:900
-#, fuzzy
-#| msgid "Base layout"
 msgid "View layout"
-msgstr "Grundlayout"
+msgstr "Ansicht Layout"
 
 #: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1682
-#, fuzzy
 msgid "View name"
-msgstr "Name der Ansicht"
+msgstr "Name anzeigen"
 
 #: ../cmk/gui/page_menu.py:601
-#, fuzzy
-#| msgid "Activate pending changes"
 msgid "View pending changes"
-msgstr "Aktiviere offene Änderungen"
+msgstr "Austehende Änderungen anzeigen"
 
 #: ../cmk/gui/wato/pages/folders.py:911
 msgid "View the rule based parameters of this host"
@@ -75804,10 +75659,8 @@ msgid "Views"
 msgstr "Ansichten"
 
 #: ../cmk/gui/plugins/metrics/couchbase.py:66
-#, fuzzy
-#| msgid "Presentation"
 msgid "Views fragmentation"
-msgstr "Darstellung"
+msgstr "Ansichten Fragmentierung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/viprinet_router.py:42
 msgid "Viprinet router"
@@ -75854,10 +75707,8 @@ msgstr ""
 "genutzt wird."
 
 #: ../cmk/gui/plugins/wato/check_parameters/fortigate_sslvpn.py:33
-#, fuzzy
-#| msgid "Virtual Machine"
 msgid "Virtual domain"
-msgstr "Virtuelle Maschine"
+msgstr "Virtual Domain"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:913
 #: ../cmk/gui/plugins/wato/active_checks.py:1814
@@ -75886,10 +75737,8 @@ msgid "Virtual size"
 msgstr "Virtuelle Größe"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:63
-#, fuzzy
-#| msgid "Virtual host"
 msgid "VirtualBox Guests"
-msgstr "Virtueller Host"
+msgstr "VirtualBox Guests"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:850
 #: ../cmk/gui/watolib/rulespecs.py:304
@@ -75911,10 +75760,8 @@ msgid "Visible"
 msgstr "Sichtbar"
 
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:160
-#, fuzzy
-#| msgid "Host check command expanded"
 msgid "Visit Checkmk exchange"
-msgstr "Hostcheckbefehl erweitert"
+msgstr "Checkmk-Exchange besuchen"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_eventlog.py:83
 msgid "Vista API"
@@ -75925,15 +75772,12 @@ msgid "Visual levels for the availability (OK percentage)"
 msgstr "Optische Schwellen (OK-Prozentwert)"
 
 #: ../cmk/gui/pagetypes.py:1988
-#, fuzzy
-#| msgid "BI Visualization"
 msgid "Visualization"
-msgstr "BI Visualisierung"
+msgstr "Visualisierung"
 
 #: ../cmk/gui/cee/plugins/metrics/historic.py:187
-#, fuzzy
 msgid "Visualization levels"
-msgstr "Schwellwerte Virtualisierung"
+msgstr "Visualisierung Grenzen"
 
 #: ../cmk/gui/plugins/views/bi.py:204
 msgid "Visualize this aggregation"
@@ -75982,20 +75826,16 @@ msgid "Voluble"
 msgstr "Geläufig"
 
 #: ../cmk/gui/plugins/wato/check_parameters/nimble_latency.py:24
-#, fuzzy
-#| msgid "Voluble"
 msgid "Volume"
-msgstr "Geläufig"
+msgstr "Volume"
 
 #: ../cmk/gui/plugins/wato/check_parameters/volume_groups.py:57
 msgid "Volume Group"
 msgstr "Volumegruppe"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:361
-#, fuzzy
-#| msgid "Volume Group"
 msgid "Volume Group Name"
-msgstr "Volumegruppe"
+msgstr "Volume Gruppenname"
 
 #: ../cmk/gui/plugins/wato/check_parameters/volume_groups.py:60
 msgid "Volume Groups (LVM)"
@@ -76015,10 +75855,8 @@ msgid "Vswitch bonding"
 msgstr "Vswitch Verbindung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/diskstat.py:63
-#, fuzzy
-#| msgid "Text logfiles (Linux)"
 msgid "VxVM volumes (Linux)"
-msgstr "Text-Logdateien (Linux)"
+msgstr "VxVM volumes (Linux)"
 
 #: ../cmk/gui/plugins/views/painters.py:3335
 #: ../cmk/gui/plugins/views/painters.py:3627
@@ -76076,14 +75914,12 @@ msgid "WARN Pattern"
 msgstr "WARN Muster"
 
 #: ../cmk/gui/plugins/views/builtin.py:1249
-#, fuzzy
 msgid "WARN Services of Hostgroup"
-msgstr "Services der Hostgruppe"
+msgstr "WARN-Services der Hostgroup"
 
 #: ../cmk/gui/plugins/views/builtin.py:2556
-#, fuzzy
 msgid "WARN Services of Site"
-msgstr "Services von Instanz"
+msgstr "WARN Services der Instanz"
 
 #: ../cmk/gui/plugins/views/builtin.py:746
 msgid "WARN Services of host"
@@ -76113,9 +75949,8 @@ msgid "WARNING"
 msgstr "WARNUNG"
 
 #: ../cmk/gui/plugins/metrics/checkmk.py:328
-#, fuzzy
 msgid "WARNING services"
-msgstr "Webservices"
+msgstr "WARNING Services"
 
 #: ../cmk/gui/wato/mkeventd.py:1434
 msgid ""
@@ -76213,10 +76048,8 @@ msgstr "WATO Neustart für Nagios"
 
 #: ../cmk/gui/plugins/metrics/unit.py:313
 #: ../cmk/gui/plugins/metrics/unit.py:314
-#, fuzzy
-#| msgid "CPU"
 msgid "WCU"
-msgstr "CPU"
+msgstr "WCU"
 
 #: ../cmk/gui/plugins/metrics/network.py:979
 msgid "WEB - Failed Get Locations Requests"
@@ -76304,20 +76137,16 @@ msgid "Warn"
 msgstr "Warn"
 
 #: ../cmk/gui/plugins/wato/check_parameters/proxmox_ve_vm_info_params.py:32
-#, fuzzy
-#| msgid "Only if the status is non-OK"
 msgid "Warn if VM status value is not"
-msgstr "Nur wenn der Status nicht-OK ist"
+msgstr "Warnen, wenn der VM-Statuswert nicht"
 
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:388
 msgid "Warn if list of forwarded logfiles changes"
 msgstr "Warnen, wenn die Liste der weitergeleiteten Logdateien sich ändert"
 
 #: ../cmk/gui/plugins/wato/check_parameters/proxmox_ve_node_info_params.py:31
-#, fuzzy
-#| msgid "Only if the status is non-OK"
 msgid "Warn if node status value is not"
-msgstr "Nur wenn der Status nicht-OK ist"
+msgstr "Warnen, wenn der Node-Statuswert nicht"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:244
 msgid "Warn if protocol doesn't match expected protocol version (ex: 2.0)"
@@ -76377,23 +76206,17 @@ msgstr "Warnung"
 
 #: ../cmk/gui/plugins/metrics/network.py:1547
 #: ../cmk/gui/plugins/metrics/network.py:1568
-#, fuzzy
-#| msgid "Warning"
 msgid "Warning (In)"
-msgstr "Warnung"
+msgstr "Warnung (Eingang)"
 
 #: ../cmk/gui/plugins/metrics/network.py:1549
 #: ../cmk/gui/plugins/metrics/network.py:1570
-#, fuzzy
-#| msgid "Warning at"
 msgid "Warning (Out)"
-msgstr "Warnung bei"
+msgstr "Warnung (Ausgang)"
 
 #: ../cmk/gui/plugins/metrics/network.py:1747
-#, fuzzy
-#| msgid "Active connections"
 msgid "Warning (active connections)"
-msgstr "Aktive Verbindungen"
+msgstr "Warnung (aktive Verbindungen)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ups_test.py:26
 msgid ""
@@ -77168,8 +76991,6 @@ msgstr "Warnung bei oder unter"
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_proc.py:31
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_sockets.py:31
-#, fuzzy
-#| msgid "Warning at a usage of"
 msgid "Warning at usage of"
 msgstr "Warnung bei Verwendung von"
 
@@ -77267,9 +77088,8 @@ msgid "Warning below"
 msgstr "Warnung unter"
 
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_replica_set.py:31
-#, fuzzy
 msgid "Warning equal or after "
-msgstr "Warnung nach"
+msgstr "Warnung gleich oder nach "
 
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_cluster.py:19
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_collections.py:19
@@ -77504,10 +77324,8 @@ msgid "Warning: This host has an invalid configuration: "
 msgstr "Warnung: Die Host-Konfiguration ist ungültig: "
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:897
-#, fuzzy
-#| msgid "Warnings:"
 msgid "Warnings occured:"
-msgstr "Warnungen:"
+msgstr "Warnungen sind aufgetreten:"
 
 #: ../cmk/gui/watolib/activate_changes.py:1411
 msgid "Warnings:"
@@ -77560,10 +77378,8 @@ msgid "Web"
 msgstr "Web"
 
 #: ../cmk/gui/plugins/metrics/aws.py:873
-#, fuzzy
-#| msgid "AWS/WAFV2 Web ACL Requests"
 msgid "Web ACL Requests"
-msgstr "AWS/WAFV2 Web-ACL-Anfragen"
+msgstr "Web ACL Requests"
 
 #: ../cmk/gui/plugins/metrics/aws.py:730
 msgid "Web ACL capacity units (WCUs)"
@@ -77673,9 +77489,8 @@ msgid "Weekly Report"
 msgstr "Wöchentlicher Bericht"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:581
-#, fuzzy
 msgid "Weekly rate"
-msgstr "Wöchentlicher Bericht"
+msgstr "Wöchentliche Rate"
 
 #: ../cmk/gui/werks.py:79
 #, python-format
@@ -78009,17 +77824,14 @@ msgstr ""
 "möchten."
 
 #: ../cmk/gui/wato/pages/sites.py:449
-#, fuzzy
-#| msgid ""
-#| "When enabled, this site is marked for synchronisation every time a Web "
-#| "GUI related option is changed in the master site."
 msgid ""
 "When enabled, this site is marked for synchronisation every time a Web GUI "
 "related option is changed and users are allowed to login to the Web GUI of "
 "this site."
 msgstr ""
-"Falls aktiviert, wird diese Instanz bei jeder Änderung einer globalen "
-"Einstellung für die Benutzeroberfläche für die Synchronisation vorgemerkt."
+"Wenn diese Option aktiviert ist, wird diese Instanz bei jeder Änderung einer "
+"Web-GUI-bezogenen Option für die Synchronisierung markiert, und die Benutzer "
+"können sich an der Web-GUI dieser Site anmelden."
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2219
 msgid ""
@@ -78618,13 +78430,6 @@ msgstr ""
 "werden Sie diese Funktion nie benötigen."
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:342
-#, fuzzy
-#| msgid ""
-#| "When using the regular HTTP protocol all data transfered between the "
-#| "Check_MK and the clients using the GUI is sent over the network in plain "
-#| "text (unencrypted). This includes the passwords users enter to "
-#| "authenticate with Check_MK and other sensitive information. It is highly "
-#| "recommended to enable SSL for securing the transported data."
 msgid ""
 "When using the regular HTTP protocol all data transfered between the Checkmk "
 "and the clients using the GUI is sent over the network in plain text "
@@ -78632,20 +78437,14 @@ msgid ""
 "Checkmk and other sensitive information. It is highly recommended to enable "
 "SSL for securing the transported data."
 msgstr ""
-"Wenn Sie das reguläre HTTP-Protokoll nutzen, werden die Daten zwischen dem "
-"Client und der Oberfläche im Klartext übertragen (unverschlüsselt). Dies "
-"beinhaltet auch vom Nutzer eingegebene Passwörter und andere sensible "
-"Informationen. Es wird dringend empfohlen HTTPS zur Absicherung dieser Daten "
-"zu nutzen."
+"Bei Verwendung des regulären HTTP-Protokolls werden alle Daten, die zwischen "
+"Checkmk und den Clients, welche die GUI verwenden, übertragen werden, im "
+"Klartext (unverschlüsselt) über das Netzwerk gesendet. Dazu gehören auch die "
+"Passwörter, die Benutzer zur Authentifizierung bei Checkmk eingeben, sowie "
+"andere sensible Informationen. Es wird dringend empfohlen, SSL zur Sicherung "
+"der transportierten Daten zu aktivieren."
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:244
-#, fuzzy
-#| msgid ""
-#| "When using the regular LDAP protocol all data transfered between the "
-#| "Check_MK and LDAP servers is sent over the network in plain text "
-#| "(unencrypted). This also includes the passwords users enter to "
-#| "authenticate with the LDAP Server. It is highly recommended to enable SSL "
-#| "for securing the transported data."
 msgid ""
 "When using the regular LDAP protocol all data transfered between the Checkmk "
 "and LDAP servers is sent over the network in plain text (unencrypted). This "
@@ -78653,11 +78452,12 @@ msgid ""
 "Server. It is highly recommended to enable SSL for securing the transported "
 "data."
 msgstr ""
-"Wenn Sie das reguläre LDAP-Protokoll nutzen, werden die Daten zwischen dem "
-"Client und der Oberfläche im Klartext übertragen (unverschlüsselt). Dies "
-"beinhaltet auch vom Nutzer eingegebene Passwörter und andere sensible "
-"Informationen. Es wird dringend empfohlen SSL zur Absicherung dieser Daten "
-"zu nutzen."
+"Bei Verwendung des regulären LDAP-Protokolls werden alle Daten, die zwischen "
+"dem Checkmk- und dem LDAP-Server übertragen werden, im Klartext "
+"(unverschlüsselt) über das Netzwerk gesendet. Dazu gehören auch die "
+"Passwörter, die Benutzer zur Authentifizierung beim LDAP-Server eingeben. Es "
+"wird dringend empfohlen, SSL zur Sicherung der transportierten Daten zu "
+"aktivieren."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4187
 msgid ""
@@ -78838,16 +78638,12 @@ msgstr ""
 "Seitenkontext (Filtern) hinzugefügt werden sollen oder nicht."
 
 #: ../cmk/gui/plugins/views/mkeventd.py:160
-#, fuzzy
-#| msgid ""
-#| "Whether or not the user is permitted to see the number of open events in "
-#| "the tactical overview snapin."
 msgid ""
 "Whether or not the user is permitted to see the number of open events in the "
 "sidebar element 'Overview'."
 msgstr ""
-"Ist der Nutzer berechtigt die Anzahl der offenen Ereginisse in der "
-"taktischen Übersicht zu sehen."
+"Ob der Benutzer die Anzahl der offenen Ereignisse im Seitenleistenelement "
+"\"Übersicht\" sehen darf oder nicht."
 
 #: ../cmk/gui/plugins/wato/omd_configuration.py:85
 msgid ""
@@ -78875,10 +78671,8 @@ msgid "Who"
 msgstr "Wer"
 
 #: ../cmk/gui/plugins/metrics/network.py:1796
-#, fuzzy
-#| msgid "Connection type"
 msgid "WiFi connection types"
-msgstr "Verbindungstyp"
+msgstr "WiFi-Verbindungstypen"
 
 #: ../cmk/gui/cee/plugins/reporting/fixed_elements.py:49
 #: ../cmk/gui/cee/reporting.py:814
@@ -78935,19 +78729,16 @@ msgid "Windows Agent"
 msgstr "Windows Agent"
 
 #: ../cmk/gui/plugins/wato/check_parameters/win_dhcp_pools.py:30
-#, fuzzy
-#| msgid "Windows Service Discovery"
 msgid "Windows DHCP pool discovery"
-msgstr "Erkennung von Windowsservices"
+msgstr "Windows DHCP-Pool-Erkennung"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/utils.py:72
 msgid "Windows Event Logs"
 msgstr "Windows Ereignisprotokolle"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/firewall.py:21
-#, fuzzy
 msgid "Windows Firewall"
-msgstr "Windows-Lizenz"
+msgstr "Windows Firewall"
 
 #: ../cmk/gui/plugins/wato/check_parameters/win_license.py:48
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_license.py:19
@@ -78955,10 +78746,8 @@ msgid "Windows License"
 msgstr "Windows-Lizenz"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/install_python.py:34
-#, fuzzy
-#| msgid "Windows Updates"
 msgid "Windows Modules"
-msgstr "Windows-Aktualisierungen"
+msgstr "Windows Module"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/windows_multipath.py:19
 msgid "Windows Multipath"
@@ -78985,38 +78774,32 @@ msgid "Windows Service Summary"
 msgstr "Windows-Dienste (Zusammengefasst)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:45
-#, fuzzy
 msgid "Windows Service does nothing"
-msgstr "Windows Services"
+msgstr "Windows-Service tut nichts"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:32
 msgid "Windows Service doesn't restart automatically"
 msgstr "Windows Service wird nicht automatisch neu gestartet"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:60
-#, fuzzy
 msgid "Windows Service is disabled and can't be started"
-msgstr "Diese Regel ist zur Zeit deaktiviert und wird nicht angewendet"
+msgstr "Windows-Service ist deaktiviert und kann nicht gestartet werden"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:31
-#, fuzzy
 msgid "Windows Service restarts automatically"
-msgstr "Windows-Dienste (Zusammengefasst)"
+msgstr "Windows-Service startet automatisch neu"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:57
-#, fuzzy
 msgid "Windows Service starts automatically"
-msgstr "Windows-Dienste (Zusammengefasst)"
+msgstr "Windows-Service startet automatisch"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:58
-#, fuzzy
 msgid "Windows Service starts automatically with delay"
-msgstr "Windows-Dienste (Zusammengefasst)"
+msgstr "Windows-Service startet automatisch mit Verzögerung"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:59
-#, fuzzy
 msgid "Windows Service starts on demand"
-msgstr "Erkennung von Windowsservices"
+msgstr "Windows-Service startet bei Bedarf"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_service.py:44
 msgid "Windows Service writes information to the Event Log"
@@ -79032,10 +78815,8 @@ msgid "Windows Task Scheduler"
 msgstr "Windows Task Scheduler"
 
 #: ../cmk/gui/plugins/wato/check_parameters/windows_tasks.py:166
-#, fuzzy
-#| msgid "Windows Updates"
 msgid "Windows Tasks"
-msgstr "Windows-Aktualisierungen"
+msgstr "Windows Tasks"
 
 #: ../cmk/gui/plugins/wato/check_parameters/winperf_ts_sessions.py:57
 msgid "Windows Terminal Server Sessions"
@@ -79046,29 +78827,22 @@ msgid "Windows Updates"
 msgstr "Windows-Aktualisierungen"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3149
-#, fuzzy
 msgid "Windows authentication"
-msgstr "Ungültige Benutzeranmeldung"
+msgstr "Windows-Authentifizierung"
 
 #: ../cmk/gui/wato/pages/download_agents.py:70
 #: ../cmk/gui/wato/pages/download_agents.py:232
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:443
-#, fuzzy
-#| msgid "Windows License"
 msgid "Windows files"
-msgstr "Windows-Lizenz"
+msgstr "Windows Dateien"
 
 #: ../cmk/gui/plugins/wato/check_parameters/windows_printer_queues.py:105
-#, fuzzy
-#| msgid "Levels for the number of print jobs"
 msgid "Windows printers: number of open jobs"
-msgstr "Schwellwerte für die Anzahl Druckerjobs"
+msgstr "Windows-Drucker: Anzahl der offenen Aufträge"
 
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:30
-#, fuzzy
-#| msgid "Windows Service Discovery"
 msgid "Windows service discovery"
-msgstr "Erkennung von Windowsservices"
+msgstr "Windows-Service-Erkennung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/systemtime.py:47
 msgid "Windows system time offset"
@@ -79078,16 +78852,13 @@ msgstr "Windows System Zeitverschiebung"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:296
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1003
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1673
-#, fuzzy
-#| msgid "ORACLE Databases (Linux, Solaris, AIX)"
 msgid "Windows, Linux, Solaris, AIX"
-msgstr "ORACLE Datenbanken (Linux, Solaris, AIX)"
+msgstr "Windows, Linux, Solaris, AIX"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:295
-#, fuzzy, python-format
-#| msgid "Monitoring Agents matching: %s"
+#, python-format
 msgid "Windows, Linux, Solaris, AIX agents matching: %s"
-msgstr "Monitoringagenten zutreffend auf: %s"
+msgstr "Windows, Linux, Solaris, AIX-Agenten passend zu: %s"
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:1002
 msgid ""
@@ -79430,10 +79201,8 @@ msgid "Worker threads not created"
 msgstr "Worker threads nicht erstellt"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3359
-#, fuzzy
-#| msgid "Overflows"
 msgid "Workflows"
-msgstr "Überläufe"
+msgstr "Arbeitsabläufe"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1532
 msgid "Workgroup"
@@ -79444,10 +79213,8 @@ msgid "Workgroup or domain used (defaults to <tt>WORKGROUP</tt>)"
 msgstr "Benutzte Arbeitsgruppe oder Domäne (Default ist <tt>WORKGROUP</tt>)"
 
 #: ../cmk/gui/pagetypes.py:1864
-#, fuzzy
-#| msgid "My workplace"
 msgid "Workplace"
-msgstr "Mein Arbeitsbereich"
+msgstr "Arbeitsplatz"
 
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:718
 msgid "Worst - take worst of all node states"
@@ -79476,26 +79243,20 @@ msgid "Write Avg exe (ms)"
 msgstr "Schreibe Avg exe (ms)"
 
 #: ../cmk/gui/plugins/metrics/aws.py:616
-#, fuzzy
-#| msgid "Write wait"
 msgid "Write Capacity"
-msgstr "Schreibelatenz"
+msgstr "Schreibkapazität"
 
 #: ../cmk/gui/plugins/metrics/unit.py:315
-#, fuzzy
-#| msgid "Printer Input Units"
 msgid "Write Capacity Units"
-msgstr "Drucker-Papierfächer"
+msgstr "Schreibkapazität Units"
 
 #: ../cmk/gui/plugins/wato/check_parameters/storage_iops.py:34
 msgid "Write IO operations per second"
 msgstr "Schreibende IO-Operationen pro Sekunde"
 
 #: ../cmk/gui/plugins/wato/check_parameters/nimble_latency.py:92
-#, fuzzy
-#| msgid "Write latency"
 msgid "Write Latency"
-msgstr "Schreibelatenz"
+msgstr "Schreiblatenz"
 
 #: ../cmk/gui/plugins/wato/check_parameters/nfsiostats.py:94
 msgid "Write Operations/s"
@@ -79745,10 +79506,8 @@ msgid "You are not allowed to acknowledge %s"
 msgstr "Sie dürfen %s nicht bestätigen"
 
 #: ../cmk/gui/plugins/sidebar/main_menu.py:148
-#, fuzzy
-#| msgid "You are not allowed to acknowledge %s"
 msgid "You are not allowed to acknowlegde werks"
-msgstr "Sie dürfen %s nicht bestätigen"
+msgstr "Sie dürfen Werke nicht quittieren."
 
 #: ../cmk/gui/watolib/activate_changes.py:2311
 msgid "You are not allowed to activate changes of other users."
@@ -79804,10 +79563,8 @@ msgid "You are not allowed to use the notification module."
 msgstr "Sie haben keine Berechtigung für das Alarmierungsmodul."
 
 #: ../cmk/gui/plugins/sidebar/wato.py:52
-#, fuzzy
-#| msgid "You are not allowed to edit %s."
 msgid "You are not allowed to use the setup."
-msgstr "Sie dürfen %s nicht bearbeiten."
+msgstr "Sie dürfen das Setup nicht verwenden."
 
 #: ../cmk/gui/wsgi/applications/utils.py:108
 msgid "You are not authenticated."
@@ -80051,19 +79808,14 @@ msgid "You can create predefined conditions <a href=\"%s\">here</a>."
 msgstr "Sie können vordefinierte Bedingungen <a href=\"%s\">hier</a> anlegen."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1896
-#, fuzzy
-#| msgid ""
-#| "You can customize the list of icon categories to be able to assign your "
-#| "<a href=\"?mode=icons\">custom icons</a> to these categories. They will "
-#| "then be shown under this category in the icon selector."
 msgid ""
 "You can customize the list of icon categories to be able to assign your <a "
 "href=\"wato.py?mode=icons\">custom icons</a> to these categories. They will "
 "then be shown under this category in the icon selector."
 msgstr ""
-"Sie können hier die Liste der Icon-Kategorien konfigurieren, denen Sie Ihre "
-"Icons   <a href=\"?mode=icons\">custom icons</a> zuordnen</a> können. Unter "
-"diesen Kategorien werden die Icons dann in der Icon-Auswahl angezeigt."
+"Sie können die Liste der Symbolkategorien anpassen, um Ihre <a href=\"wato."
+"py?mode=icons\">eigenen Symbole</a> diesen Kategorien zuordnen zu können. "
+"Sie werden dann unter dieser Kategorie in der Icon-Auswahl angezeigt."
 
 #: ../cmk/gui/visuals.py:989 ../cmk/gui/pagetypes.py:380
 #, python-format
@@ -80138,21 +79890,15 @@ msgstr ""
 "Setzen Sie hier einen Haken, dann werden auch leere Hostgruppen angezeigt."
 
 #: ../cmk/gui/plugins/dashboard/static_text.py:48
-#, fuzzy
-#| msgid ""
-#| "You can enter a text here that will be displayed in the dashlet when "
-#| "viewing the dashboard. It is also possible to insert a limited set of "
-#| "HTML tags, some of them are: h2, b, tt, i, br, pre, a, sup, p, li, ul and "
-#| "ol."
 msgid ""
 "You can enter a text here that will be displayed in the element when viewing "
 "the dashboard. It is also possible to insert a limited set of HTML tags, "
 "some of them are: h2, b, tt, i, br, pre, a, sup, p, li, ul and ol."
 msgstr ""
-"Sie können hier einen Text eingeben, der im (Übersichts-) Element beim "
-"Betrachten des Dashboards angezeigt wird. Es ist auch möglich, einen Auswahl "
-"von HTML-Tags einzufügen, einige davon sind: h2, b, tt, i, br, pre, a, sup, "
-"p, li, ul und ol."
+"Sie können hier einen Text eingeben, der in dem Element angezeigt wird, wenn "
+"das Dashboard angezeigt wird. Es ist auch möglich, einen begrenzten Satz von "
+"HTML-Tags einzufügen, einige davon sind: h2, b, tt, i, br, pre, a, sup, p, "
+"li, ul und ol."
 
 #: ../cmk/gui/wato/pages/tags.py:293
 msgid ""
@@ -80461,12 +80207,9 @@ msgstr ""
 "und warnungs bzw.  kritische Levels auf 10% und 20% gesetzt werden."
 
 #: ../cmk/gui/wato/mkeventd.py:1172
-#, fuzzy
-#| msgid ""
-#| "You can simulate an event here and check out, which rules are matching."
 msgid "You can simulate an event here and check out which rules are matching."
 msgstr ""
-"Simulieren Sie ein Ereignis und überprüfen Sie, welche Regeln zutreffen."
+"Sie können hier ein Ereignis simulieren und prüfen, welche Regeln zutreffen."
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2328
 msgid ""
@@ -80792,10 +80535,9 @@ msgstr ""
 "sind: "
 
 #: ../cmk/gui/wato/pages/roles.py:154
-#, fuzzy, python-format
-#| msgid "You cannot delete the builtin roles!"
+#, python-format
 msgid "You cannot delete roles, that are still in use (%s)!"
-msgstr "Die eingebauten Rollen können nicht gelöscht werden!"
+msgstr "Sie können keine Rollen löschen, die noch in Verwendung sind (%s)!"
 
 #: ../cmk/gui/wato/pages/roles.py:148
 msgid "You cannot delete the builtin roles!"
@@ -80843,12 +80585,10 @@ msgstr ""
 "verwendet."
 
 #: ../cmk/utils/bi/bi_packs.py:182
-#, fuzzy
-#| msgid "You cannot delete this rule: it is still used by aggregations."
 msgid "You cannot delete this rule: it is still used by other aggregations."
 msgstr ""
-"Sie können diese Regel nicht löschen: Sie wird noch von Aggregationen "
-"verwendet."
+"Sie können diese Regel nicht löschen: Sie wird weiterhin von anderen "
+"Aggregationen verwendet."
 
 #: ../cmk/gui/plugins/wato/bi_config.py:716 ../cmk/utils/bi/bi_packs.py:185
 msgid "You cannot delete this rule: it is still used by other rules."
@@ -80945,16 +80685,13 @@ msgid "You do not have the permissions to design this graph."
 msgstr "Sie haben nicht die Berechtigungen, diesen Graphen zu bearbeiten."
 
 #: ../cmk/gui/pagetypes.py:1225
-#, fuzzy, python-format
-#| msgid "You do not have the permissions to design this graph."
+#, python-format
 msgid "You do not have the permissions to edit this %s"
-msgstr "Sie haben nicht die Berechtigungen, diesen Graphen zu bearbeiten."
+msgstr "Sie haben nicht die Berechtigung, diesen %s zu bearbeiten"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:293
-#, fuzzy
-#| msgid "You do not have the permissions to design this graph."
 msgid "You do not have the permissions to modify the forecast model."
-msgstr "Sie haben nicht die Berechtigungen, diesen Graphen zu bearbeiten."
+msgstr "Sie haben nicht die Berechtigung, das Prognosemodell zu ändern."
 
 #: ../cmk/gui/wato/pages/host_rename.py:115
 #: ../cmk/gui/wato/pages/host_rename.py:390
@@ -80974,11 +80711,9 @@ msgstr "Sie haben %d gebackene Agenten, die das Update Plugin beinhalten."
 
 #: ../cmk/gui/cee/plugins/openapi/endpoints/agent.py:226
 #: ../cmk/gui/cee/plugins/openapi/endpoints/agent.py:235
-#, fuzzy, python-format
-#| msgid "You have %d <a href=\"%s\">rules</a> for deploying the update plugin"
+#, python-format
 msgid "You have %d rules for deploying the update plugin"
-msgstr ""
-"Aktuell gibt es %d <a href=\"%s\">Regeln</a> um das Updateplugin auszurollen."
+msgstr "Sie haben %d Regeln für die Bereitstellung des Update-Plugins"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:325
 #, python-format
@@ -81021,13 +80756,9 @@ msgstr ""
 "signieren."
 
 #: ../cmk/gui/cee/plugins/openapi/endpoints/agent.py:217
-#, fuzzy, python-format
-#| msgid ""
-#| "You have created %d <a href=\"%s\">signature keys</a> for signing agents"
+#, python-format
 msgid "You have created %d signature keys for signing agents"
-msgstr ""
-"Sie haben %d <a href=\"%s\">Signatur-Schlüssel</a> angelegt, um Agenten zu "
-"signieren."
+msgstr "Sie haben %d Signaturschlüssel zum Signieren von Agenten erzeugt"
 
 #: ../cmk/gui/wato/pages/tags.py:315
 #, python-format
@@ -81191,9 +80922,8 @@ msgid "You have signed some or all agent packages"
 msgstr "Sie haben manche oder alle Pakete signiert"
 
 #: ../cmk/gui/backup.py:1409
-#, fuzzy
 msgid "You have to provide a canonical path."
-msgstr "Sie müssen einen \"host\" angeben."
+msgstr "Sie müssen einen kanonischen Pfad angeben."
 
 #: ../cmk/gui/valuespec.py:3190
 msgid "You have to select at least one element."
@@ -81295,10 +81025,8 @@ msgstr ""
 "Dienste zu erstellen."
 
 #: ../cmk/gui/valuespec.py:2286
-#, fuzzy
-#| msgid "You have to select at least one element."
 msgid "You must specify at least one element."
-msgstr "Sie müssen mindestens ein Element auswählen."
+msgstr "Sie müssen mindestens ein Element angeben."
 
 #: ../cmk/gui/cee/reporting.py:3362
 msgid ""
@@ -81460,10 +81188,8 @@ msgid "You need to set the \"%s\" parameter."
 msgstr "Sie müssen den Parameter \"%s\" angeben."
 
 #: ../cmk/gui/plugins/dashboard/custom_url.py:71
-#, fuzzy
-#| msgid "You need to specify a URL in the dashlet properties"
 msgid "You need to specify a URL in the element properties"
-msgstr "Sie müssen eine URL in den Eigenschaften des Dashlets angeben"
+msgstr "Sie müssen eine URL in den Elementeigenschaften angeben"
 
 #: ../cmk/gui/backup.py:967
 msgid "You need to specify a backup job."
@@ -81498,10 +81224,9 @@ msgid "Your %s element has been saved."
 msgstr "Ihr %s-Element wurde gespeichert."
 
 #: ../cmk/gui/visuals.py:527 ../cmk/gui/pagetypes.py:1053
-#, fuzzy, python-format
-#| msgid "The %s has been deleted."
+#, python-format
 msgid "Your %s has been deleted."
-msgstr "%s wurde gelöscht."
+msgstr "Ihr %s wurde gelöscht."
 
 #: ../cmk/gui/visuals.py:1100
 #, python-format
@@ -81522,7 +81247,6 @@ msgid "Your contact groups are <b>%s</b>."
 msgstr "Ihre Kontakt-Gruppen sind <b>%s</b>."
 
 #: ../cmk/gui/crash_reporting.py:293
-#, fuzzy
 msgid ""
 "Your crash report has been submitted (ID: ###ID###). Thanks for your "
 "participation, it is very important for the quality of Checkmk."
@@ -81537,19 +81261,19 @@ msgid ""
 "the details about support, you find details on <a href=\"https://checkmk.com/"
 "checkmk_support_contract.html\" target=\"_blank\">our website</a>."
 msgstr ""
-"Ihr Crashreport ist eingereicht (ID: ###ID###). Vielen Dank für Ihre "
-"Teilnahme, es ist sehr wichtig, um die Qualität von Check_MK zu verbessern."
-"<br><br>Bitte beachten Sie:<ul><li>Grundsätzlich beantworten wir <i>keine</"
-"i> Crashreports, außer wir benötigen mehr Informationen von Ihnen.</"
-"li><li>Wir lesen jedes Feedback gründlich durch. Dies kann aber unter "
-"Umständen ein paar Wochen oder sogar Monate dauern und ist oft verknüpft mit "
-"unserem Veröffentlichungszyklus.</li><li>Falls Sie eine schnelle Lösung für "
-"Ihr Problem brauchen, dann können wir Sie mit professionellem Support "
-"unterstützen. Falls Sie bereits einen Supportvertrag mit uns haben, dann "
-"benutzen Sie hierfür die personalisierte Supportemailadresse und senden Sie "
-"uns eine Mail bzgl. Ihres Crashreports.<br>Details zum Support finden Sie "
-"auf <a href=\"http://mathias-kettner.com/checkmk_support_contract.html\" "
-"target=_blank>unserer Homepage</a>."
+"Ihr Absturzbericht wurde eingereicht (ID: ###ID###). Vielen Dank für Ihre "
+"Teilnahme, sie ist sehr wichtig für die Qualität von Checkmk.<br><br>Bitte "
+"beachten Sie:<ul><li>Im Allgemeinen <i>reagieren</i> wir nicht auf "
+"Absturzberichte, es sei denn, wir benötigen weitere Informationen von Ihnen. "
+"</li><li>Wir lesen jedes Feedback gründlich, aber das kann erst nach ein "
+"paar Wochen oder sogar Monaten passieren und ist oft mit unserem Release-"
+"Zyklus abgestimmt.</li><li>Wenn Sie eine schnelle Lösung für Ihr Problem "
+"benötigen, dann können wir Ihnen im Rahmen des professionellen Supports "
+"helfen. Wenn Sie bereits einen Supportvertrag haben, dann nutzen Sie bitte "
+"Ihre persönliche Support-E-Mail-Adresse, um uns eine Mail mit Bezug auf "
+"Ihren Absturzbericht zu senden.<br>Wenn Sie sich für die Details zum Support "
+"interessieren, dann finden Sie Details auf <a href=\"https://checkmk.com/"
+"checkmk_support_contract.html\" target=\"_blank\">unserer Website</a>."
 
 #: ../cmk/gui/plugins/views/commands.py:1101
 msgid "Your end date is before your start date."
@@ -81682,19 +81406,14 @@ msgstr ""
 #: ../cmk/gui/utils/__init__.py:195 ../cmk/gui/plugins/visuals/inventory.py:66
 #: ../cmk/gui/plugins/visuals/inventory.py:390
 #: ../cmk/gui/plugins/visuals/inventory.py:591
-#, fuzzy
-#| msgid ""
-#| "You search statement is not valid. You need to provide a regular "
-#| "expression (regex). For example you need to use <tt>\\\\</tt> instead of "
-#| "<tt>\\</tt> if you like to search for a single backslash."
 msgid ""
 "Your search statement is not valid. You need to provide a regular expression "
 "(regex). For example you need to use <tt>\\\\</tt> instead of <tt>\\</tt> if "
 "you like to search for a single backslash."
 msgstr ""
-"Ihr Suchausdruck ist nicht gültig. Bitte geben Sie einen gültigen regulären "
-"Ausdruck (Regex) an. Z.B. benötigen Sie <tt>\\\\</tt> um einen einzelnen <tt>"
-"\\</tt> zu matchen."
+"Ihre Suchanweisung ist nicht gültig. Sie müssen einen regulären Ausdruck "
+"(regex) angeben. Zum Beispiel müssen Sie <tt>\\\\</tt> statt <tt>\\</tt> "
+"verwenden, wenn Sie nach einem einzelnen Backslash suchen möchten."
 
 #: ../cmk/gui/wato/pages/global_settings.py:365
 msgid "Your setting and factory settings are identical."
@@ -81705,10 +81424,8 @@ msgid "Your user has no roles. Please assign at least one role."
 msgstr "Benutzer gehört zu keiner Rolle. Bitte mindestens eine Rolle zuweisen."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:65
-#, fuzzy
-#| msgid "Filesystem usage"
 msgid "ZFS filesystem usage"
-msgstr "Dateisystembenutzung"
+msgstr "Nutzung des ZFS-Dateisystems"
 
 #: ../cmk/gui/plugins/metrics/storage.py:1377
 msgid "ZFS meta data"
@@ -81723,20 +81440,16 @@ msgid "Zerto"
 msgstr "Zerto"
 
 #: ../cmk/gui/plugins/wato/check_parameters/zorp_connections_params.py:49
-#, fuzzy
-#| msgid "connections"
 msgid "Zorp connections"
-msgstr "Verbindungen"
+msgstr "Zorp-Verbindungen"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/zorp.py:19
-#, fuzzy
 msgid "Zorp firewall"
-msgstr "Windows-Lizenz"
+msgstr "Zorp-Firewall"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:66
-#, fuzzy
 msgid "Zpool status"
-msgstr "Zustände umschreiben"
+msgstr "Zpool-Status"
 
 #: ../cmk/gui/plugins/wato/check_parameters/zypper.py:18
 msgid "Zypper Updates"
@@ -81861,10 +81574,8 @@ msgid "all logfiles on all hosts"
 msgstr "alle Log-Dateien auf allen Hosts"
 
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:206
-#, fuzzy
-#| msgid "Full stats"
 msgid "all states"
-msgstr "Vollständige Statistiken"
+msgstr "alle Zustände"
 
 #: ../cmk/gui/wato/pages/notifications.py:357
 msgid "all users"
@@ -81939,15 +81650,12 @@ msgid "avg. duration"
 msgstr "Dauer i.D."
 
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:36
-#, fuzzy
 msgid "backup"
-msgstr "Sicherung"
+msgstr "Backup"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:529
-#, fuzzy
-#| msgid "Agent baking"
 msgid "baking"
-msgstr "Agentenbäckerei"
+msgstr "backen"
 
 #: ../cmk/gui/plugins/metrics/unit.py:263
 #: ../cmk/gui/plugins/metrics/unit.py:264
@@ -82101,7 +81809,6 @@ msgid "complete"
 msgstr "vollständig"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:703
-#, fuzzy
 msgid "confidence interval"
 msgstr "Konfidenzintervall"
 
@@ -82550,10 +82257,8 @@ msgid "eWON SNMP Proxy"
 msgstr "eWON SNMP Proxy"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ewon.py:27
-#, fuzzy
-#| msgid "eWON Discovery"
 msgid "eWON discovery"
-msgstr "eWON-Serviceerkennung"
+msgstr "eWON-Erkennung"
 
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:36
 msgid "echo"
@@ -82608,10 +82313,8 @@ msgid "enable this site"
 msgstr "diese Instanz aktivieren"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:597
-#, fuzzy
-#| msgid "Send"
 msgid "end"
-msgstr "Senden"
+msgstr "Ende"
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1033
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1048
@@ -82689,10 +82392,8 @@ msgid "expect all"
 msgstr "erwarte alles"
 
 #: ../cmk/gui/wato/pages/folders.py:450
-#, fuzzy
-#| msgid "Explicit labels"
 msgid "explicit host labels"
-msgstr "Explizite Labels"
+msgstr "explizite Host-Labels"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2344
 msgid "explicitly specified groups"
@@ -82705,9 +82406,8 @@ msgid "failures"
 msgstr "Ausfällen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:40
-#, fuzzy
 msgid "fault"
-msgstr "fehlerhaft"
+msgstr "Fehler"
 
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:221
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:234
@@ -82737,10 +82437,8 @@ msgid "first level"
 msgstr "erste Ebene"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:705
-#, fuzzy
-#| msgid "Fit and forecast of %s "
 msgid "fit & forecast"
-msgstr "Passgenauigkeit und Vorhersage für %s"
+msgstr "Passgenauigkeit und Vorhersage"
 
 #: ../cmk/gui/plugins/views/painters.py:4002
 msgid "fixed"
@@ -82763,8 +82461,6 @@ msgid "folder"
 msgstr "Ordner"
 
 #: ../cmk/gui/plugins/visuals/wato.py:140
-#, fuzzy
-#| msgid "folder"
 msgid "folders"
 msgstr "Ordner"
 
@@ -82785,9 +82481,8 @@ msgid "forced-commands-only"
 msgstr "nur erzwungene Kommandos"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:622
-#, fuzzy
 msgid "forecast trend only"
-msgstr "nur erzwungene Kommandos"
+msgstr "nur Prognosetrend"
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1708
 msgid "fourth week"
@@ -82832,8 +82527,6 @@ msgid "global"
 msgstr "Global"
 
 #: ../cmk/gui/plugins/dashboard/graph.py:67
-#, fuzzy
-#| msgid "Graph"
 msgid "graph"
 msgstr "Graph"
 
@@ -82843,10 +82536,8 @@ msgid "graph number %d"
 msgstr "Graph Nummer %d"
 
 #: ../cmk/gui/plugins/wato/notifications.py:268
-#, fuzzy
-#| msgid "Graph"
 msgid "graphs"
-msgstr "Graph"
+msgstr "Graphen"
 
 #: ../cmk/gui/wato/pages/notifications.py:787
 msgid "group by"
@@ -82910,10 +82601,8 @@ msgid "high threshold"
 msgstr "obere Schwelle"
 
 #: ../cmk/gui/plugins/metrics/varnish.py:50
-#, fuzzy
-#| msgid "Read hits"
 msgid "hits"
-msgstr "Lesetreffer"
+msgstr "Treffer"
 
 #: ../cmk/gui/plugins/metrics/varnish.py:52
 msgid "hits for pass"
@@ -82929,10 +82618,8 @@ msgstr[0] "Host"
 msgstr[1] "Hosts"
 
 #: ../cmk/gui/wato/pages/folders.py:449
-#, fuzzy
-#| msgid "Host tags"
 msgid "host tags"
-msgstr "Hostmerkmale"
+msgstr "Host Tags"
 
 #: ../cmk/gui/cee/agent_bakery.py:301
 msgid "hostname will be ignored when agent_hash is given."
@@ -82943,32 +82630,24 @@ msgid "hosts"
 msgstr "Hosts"
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:243
-#, fuzzy
-#| msgid "Lists all downtimes for services."
 msgid "hosts are down or have critical services"
-msgstr "Listet alle Wartungszeiten für Services  auf."
+msgstr "Hosts sind ausgefallen oder haben kritische Services."
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:249
-#, fuzzy
-#| msgid "The host was in a scheduled downtime"
 msgid "hosts are in scheduled downtime"
-msgstr "Der Host war in einer Wartungszeit"
+msgstr "Hosts befinden sich in der geplanten Ausfallzeit"
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:245
 msgid "hosts are unreachable or have unknown services"
 msgstr "Hosts sind unerreichbar oder haben unbekannte Services."
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:250
-#, fuzzy
-#| msgid "Hosts having certain service problems"
 msgid "hosts are up and have no service problems"
-msgstr "Hosts mit Serviceproblemen"
+msgstr "Hosts sind aktiv und haben keine Serviceprobleme"
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:247
-#, fuzzy
-#| msgid "Service goes into warning state"
 msgid "hosts are up but have services in warning state"
-msgstr "Service in Status WARN gewechselt"
+msgstr "Hosts sind aktiv, haben aber Services im Warnzustand"
 
 #: ../cmk/gui/valuespec.py:3704 ../cmk/gui/wato/mkeventd.py:673
 #: ../cmk/gui/cee/plugins/dashboard/bar_chart_dashlet.py:26
@@ -82996,10 +82675,8 @@ msgid "htpasswd"
 msgstr "htpasswd"
 
 #: ../cmk/gui/wato/pages/timeperiods.py:358
-#, fuzzy
-#| msgid "iCalendar File"
 msgid "iCalendar"
-msgstr "iCalendar-Datei"
+msgstr "iCalendar"
 
 #: ../cmk/gui/wato/pages/timeperiods.py:372
 msgid "iCalendar File"
@@ -83018,17 +82695,13 @@ msgid "iSCSI HBAs"
 msgstr "iSCSI HBAs"
 
 #: ../cmk/gui/htmllib.py:2528
-#, fuzzy
-#| msgid "Metric not found"
 msgid "icon not found"
-msgstr "Metrik nicht gefunden"
+msgstr "Icon nicht gefunden"
 
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:72
 #: ../cmk/gui/plugins/wato/check_parameters/db_connections.py:73
-#, fuzzy
-#| msgid "Failed connections"
 msgid "idle connections"
-msgstr "Fehlgeschlagene Verbindungen"
+msgstr "idle Verbindungen"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1086
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:780
@@ -83333,9 +83006,8 @@ msgid "manually configure %s"
 msgstr "%s manuell Konfigurieren"
 
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:24
-#, fuzzy
 msgid "master"
-msgstr "Cluster"
+msgstr "Master"
 
 #: ../cmk/gui/wato/mkeventd.py:2372
 msgid "master / standalone"
@@ -83368,8 +83040,6 @@ msgid "messages"
 msgstr "Nachrichten"
 
 #: ../cmk/gui/plugins/metrics/utils.py:1125
-#, fuzzy
-#| msgid "Metric"
 msgid "metric"
 msgstr "Metrik"
 
@@ -83440,10 +83110,8 @@ msgid "minutes"
 msgstr "Minuten"
 
 #: ../cmk/gui/plugins/metrics/varnish.py:51
-#, fuzzy
-#| msgid "Classes"
 msgid "misses"
-msgstr "Klassen"
+msgstr "Fehlgriffe"
 
 #: ../cmk/gui/plugins/wato/check_parameters/job.py:74
 msgid "mk-job job age"
@@ -83472,10 +83140,8 @@ msgid "monitor"
 msgstr "überwachen"
 
 #: ../cmk/gui/werks.py:93
-#, fuzzy
-#| msgid "Unmonitored"
 msgid "monitored"
-msgstr "Ungemonitort"
+msgstr "überwacht"
 
 #: ../cmk/gui/valuespec.py:3698
 msgid "month"
@@ -83644,20 +83310,16 @@ msgid "not"
 msgstr "nicht"
 
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:207
-#, fuzzy
-#| msgid "Host states"
 msgid "not OK states"
-msgstr "Hoststatus"
+msgstr "nicht OK-Zustände"
 
 #: ../cmk/gui/wato/pages/users.py:468
 msgid "not a contact"
 msgstr "kein Kontakt"
 
 #: ../cmk/gui/plugins/metrics/varnish.py:33
-#, fuzzy
-#| msgid "Not activated"
 msgid "not attempted"
-msgstr "Nicht aktiviert"
+msgstr "nicht ausgeführt"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:647
 msgid "not available"
@@ -83808,10 +83470,8 @@ msgid "orderly stop"
 msgstr "ordnungsgemäß gestoppt"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:704
-#, fuzzy
-#| msgid "Original %s"
 msgid "original"
-msgstr "Original %s"
+msgstr "Original"
 
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:137
 msgid "other"
@@ -83911,10 +83571,9 @@ msgstr "ausstehende Verbindungen"
 #: ../cmk/gui/cee/plugins/dashboard/bar_chart_dashlet.py:32
 #: ../cmk/gui/cee/plugins/dashboard/bar_chart_dashlet.py:179
 #: ../cmk/gui/cee/plugins/dashboard/bar_chart_dashlet.py:185
-#, fuzzy, python-format
-#| msgid "%s per %s"
+#, python-format
 msgid "per %s"
-msgstr "%s pro %s"
+msgstr "pro %s"
 
 #: ../cmk/gui/plugins/wato/check_parameters/skype_sip.py:42
 #: ../cmk/gui/plugins/wato/check_parameters/skype_sip.py:43
@@ -83996,9 +83655,8 @@ msgstr "Prozent Fehlerrate"
 #: ../cmk/gui/plugins/wato/check_parameters/elasticsearch_indices.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/elasticsearch_indices.py:42
 #: ../cmk/gui/plugins/wato/check_parameters/elasticsearch_indices.py:43
-#, fuzzy
 msgid "percent higher than average"
-msgstr "Perzentil innerhalb des Zeitbereichs"
+msgstr "Prozent höher als der Durchschnitt"
 
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:54
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:57
@@ -84083,10 +83741,8 @@ msgid "previous notifications of this type are cancelled"
 msgstr "obige Alarme dieses Typs werden wieder gelöscht"
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:484
-#, fuzzy
-#| msgid "Stale services"
 msgid "problem services"
-msgstr "Veraltete Services"
+msgstr "Problem-Services"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:641
 msgid "procedure call is used"
@@ -84231,8 +83887,6 @@ msgid "restart"
 msgstr "Neustart"
 
 #: ../cmk/gui/plugins/metrics/varnish.py:36
-#, fuzzy
-#| msgid "Retry"
 msgid "retry"
 msgstr "Wiederhole"
 
@@ -84403,10 +84057,9 @@ msgstr[0] "Service"
 msgstr[1] "Services"
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:486
-#, fuzzy, python-format
-#| msgid "Service is stale"
+#, python-format
 msgid "service in %s state"
-msgstr "Service ist veraltet"
+msgstr "Service im Zustand %s"
 
 #: ../cmk/gui/plugins/wato/check_parameters/msoffice.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/msoffice.py:67
@@ -84471,26 +84124,20 @@ msgid "show errors"
 msgstr "Zeige Fehler"
 
 #: ../cmk/gui/htmllib.py:2665
-#, fuzzy
-#| msgid "show all"
 msgid "show less"
-msgstr "Alle anzeigen"
+msgstr "weniger anzeigen"
 
 #: ../cmk/gui/htmllib.py:2661
-#, fuzzy
-#| msgid "show errors"
 msgid "show more"
-msgstr "Zeige Fehler"
+msgstr "mehr anzeigen"
 
 #: ../cmk/gui/plugins/views/bi.py:490
 msgid "show only problems"
 msgstr "Nur Probleme anzeigen"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:533
-#, fuzzy
-#| msgid "Design"
 msgid "signing"
-msgstr "Entwerfen"
+msgstr "signieren"
 
 #: ../cmk/gui/plugins/wato/check_parameters/apache_status.py:34
 #: ../cmk/gui/plugins/wato/check_parameters/apache_status.py:35
@@ -84513,10 +84160,8 @@ msgid "specify manually ->"
 msgstr "Manuell festlegen ->"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:590
-#, fuzzy
-#| msgid "Restart"
 msgid "start"
-msgstr "Neustart"
+msgstr "Starten"
 
 #: ../cmk/gui/availability.py:545
 msgid "status entries"
