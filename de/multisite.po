@@ -762,7 +762,7 @@ msgstr "%s Latenz %s"
 msgid "%s matching labels: %s"
 msgstr "%s mit übereinstimmenden Labels: %s"
 
-#: ../cmk/gui/watolib/host_attributes.py:777
+#: ../cmk/gui/watolib/host_attributes.py:780
 #, python-format
 msgid "%s may be missing, if must not be empty if it is set."
 msgstr "%s fehlt (möglicherweise) - darf nicht leer sein, wenn gesetzt."
@@ -1093,7 +1093,7 @@ msgstr "(nicht ausgewählt)"
 msgid "(only works with the microcore)"
 msgstr "(nur für den Microcore verfügbar)"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:455
+#: ../cmk/gui/wato/pages/bulk_import.py:458
 msgid "(please select)"
 msgstr "(bitte wählen Sie)"
 
@@ -1131,7 +1131,7 @@ msgid ", but it is overruled by a match in a previous rule pack."
 msgstr ""
 ", wird aber durch einen Match in einem früheren Regelpaket überschrieben."
 
-#: ../cmk/gui/plugins/views/utils.py:1528
+#: ../cmk/gui/plugins/views/utils.py:1529
 #, python-format
 msgid ", elapsed cache lifespan: %s"
 msgstr ", elapsed cache lifespan: %s"
@@ -1578,14 +1578,6 @@ msgstr ""
 "<b>Anmerkung:</b> Die angezeigten Ergebnisse sind unvollständig und geben "
 "nicht die Sortierordnung wieder."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4623
-msgid ""
-"<b>Note</b>: On the agent side, this encryption is only supported by the "
-"Linux agent and the Windows agent. However, when setting the Encryption "
-"settings to <i>enforce</i>, Checkmk will expect encrypted data from all "
-"matching hosts. Please keep this in mind when configuring this ruleset."
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:107
 msgid ""
 "<b>Note<sup>3</sup>:</b> In order to deploy this plugin to Solaris, a Python "
@@ -1803,12 +1795,6 @@ msgstr ""
 "<br><i><i>Verwenden Sie explizite Dienstnamen und ignorieren Sie "
 "übergreifende Tags</i>: Mit dieser Auswahl können Sie explizite Namen "
 "angeben. Die ü\\bergreifende Tags werden für diesen Dienst ignoriert."
-
-#: ../cmk/gui/valuespec.py:5399
-#, fuzzy
-#| msgid "Event was deleted automatically"
-msgid "<i>Generated automatically</i>"
-msgstr "Ereignis wurde automatisch gelöscht"
 
 #: ../cmk/gui/watolib/hosts_and_folders.py:2227
 #, python-format
@@ -2442,7 +2428,7 @@ msgstr ""
 "und gleichzeitig zu erkennen. Dies vermeidet häufige Core-Neustarts bei "
 "häufigen Serviceänderungen."
 
-#: ../cmk/gui/valuespec.py:6344
+#: ../cmk/gui/valuespec.py:6311
 msgid "A description or title of this rule"
 msgstr "Eine Beschreibung oder ein Titel dieser Regel"
 
@@ -2509,7 +2495,7 @@ msgstr ""
 msgid "A host with this name already exists in this folder."
 msgstr "Ein Host mit diesem Namen existiert in diesem Ordner bereits."
 
-#: ../cmk/gui/views.py:1477
+#: ../cmk/gui/views.py:1474
 msgid ""
 "A joined column can display information about specific services for host "
 "objects in a view showing host objects. You need to specify the service "
@@ -2519,7 +2505,7 @@ msgstr ""
 "Ansichten anzeigen. Sie müssen die Service Description des Services "
 "eingeben, für den die Daten angezeigt werden sollen."
 
-#: ../cmk/gui/valuespec.py:5680
+#: ../cmk/gui/valuespec.py:5647
 #, python-format
 msgid ""
 "A label key can be used only once per object. The Label key \"%s\" is used "
@@ -4167,7 +4153,7 @@ msgstr "Cluster hinzufügen"
 msgid "Add cluster mapping"
 msgstr "Clusterzuordnung hinzufügen"
 
-#: ../cmk/gui/views.py:1502
+#: ../cmk/gui/views.py:1499
 msgid "Add column"
 msgstr "Spalte hinzufügen"
 
@@ -4237,7 +4223,7 @@ msgstr "Element hinzufügen"
 msgid "Add elements to your sidebar"
 msgstr "Elemente zur Ihrer Seitenleiste hinzufügen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5168
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5149
 msgid "Add exception"
 msgstr "Ausnahme hinzufügen"
 
@@ -4344,7 +4330,7 @@ msgstr "Neu hinzufügen"
 msgid "Add new BI aggregation %s"
 msgstr "Neue BI-Aggregation %s hinzufügen"
 
-#: ../cmk/gui/valuespec.py:6276
+#: ../cmk/gui/valuespec.py:6243
 msgid "Add new CA certificate or chain"
 msgstr "Neues CA-Zertifikat oder CA-Kette hinzufügen"
 
@@ -4549,11 +4535,11 @@ msgstr "Seitenleistenelement hinzufügen"
 msgid "Add site connection"
 msgstr "Instanz-Verbindung hinzufügen"
 
-#: ../cmk/gui/valuespec.py:5707
+#: ../cmk/gui/valuespec.py:5674
 msgid "Add some label"
 msgstr "Füge ein Label hinzu"
 
-#: ../cmk/gui/views.py:1568
+#: ../cmk/gui/views.py:1565
 msgid "Add sorter"
 msgstr "Sortierer hinzufügen"
 
@@ -4626,7 +4612,7 @@ msgstr "Diese Metrik zu einem dedizerten Graphen hinzufügen"
 msgid "Add time period"
 msgstr "Neue Zeitperiode hinzufügen"
 
-#: ../cmk/gui/valuespec.py:6050
+#: ../cmk/gui/valuespec.py:6017
 msgid "Add time range"
 msgstr "Zeitbereich hinzufügen"
 
@@ -5238,7 +5224,7 @@ msgstr "Alter des ältesten Sicherungspunktes"
 msgid "Age, in seconds, of the oldest message on the queue."
 msgstr "Alter der ältesten Nachricht in der Warteschlange in Sekunden."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4719
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4700
 #: ../cmk/gui/wato/pages/host_diagnose.py:68
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:77
 msgid "Agent"
@@ -5354,7 +5340,7 @@ msgid "Agent output"
 msgstr "Agentenausgabe"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1220
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4830
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4811
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:410
 msgid "Agent rules"
 msgstr "Agentenregeln"
@@ -5738,7 +5724,7 @@ msgstr "Algorithmus"
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:82
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:2194
 #: ../cmk/gui/availability.py:1350 ../cmk/gui/wato/mkeventd.py:4201
-#: ../cmk/gui/wato/pages/bulk_import.py:458 ../cmk/gui/wato/pages/users.py:427
+#: ../cmk/gui/wato/pages/bulk_import.py:461 ../cmk/gui/wato/pages/users.py:427
 #: ../cmk/gui/wato/pages/sites.py:287 ../cmk/gui/wato/pages/sites.py:726
 #: ../cmk/gui/wato/pages/groups.py:174 ../cmk/gui/wato/pages/groups.py:272
 #: ../cmk/gui/wato/pages/roles.py:219 ../cmk/gui/wato/pages/roles.py:362
@@ -5782,7 +5768,7 @@ msgstr "Alle Ereignisprotokolle"
 msgid "All OK services of a given site."
 msgstr "Alle Services, mit Status OK, einer bestimmten Instanz."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4964
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4945
 msgid "All SNMP sections"
 msgstr "Alle SNMP Sektionen"
 
@@ -6000,7 +5986,7 @@ msgstr "Alle Logdateien"
 msgid "All matching rules will add to the resulting list."
 msgstr "Alle zutreffenden Regeln fügen Elemente zum Ergebnis hinzu."
 
-#: ../cmk/gui/views.py:2733
+#: ../cmk/gui/views.py:2732
 msgid "All metrics of same type in one graph"
 msgstr "Alle Metriken desselben Typs in einem Graph"
 
@@ -6308,7 +6294,7 @@ msgstr "Erlaubter Admin-Status:"
 msgid "Allowed agent access via IP address"
 msgstr "Agentenzugriff über IP-Adressen beschränken"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4855
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4836
 msgid "Allowed agent access via IP address (Linux, Windows)"
 msgstr "Agentenzugriff über IP-Adressen beschränken (Linux, Windows)"
 
@@ -6497,7 +6483,7 @@ msgstr ""
 msgid "Always show all rows"
 msgstr "Immer alle Zeilen anzeigen"
 
-#: ../cmk/gui/views.py:1364
+#: ../cmk/gui/views.py:1361
 msgid "Always show the checkboxes"
 msgstr "Checkboxen immer anzeigen"
 
@@ -6667,7 +6653,7 @@ msgstr ""
 "Dauer seiner Zeitscheibe ausgeführt wird, oder das System einen Thread mit "
 "höherer Priorität erkennt."
 
-#: ../cmk/gui/valuespec.py:6394 ../cmk/gui/plugins/wato/bi_config.py:1156
+#: ../cmk/gui/valuespec.py:6361 ../cmk/gui/plugins/wato/bi_config.py:1156
 #, python-format
 msgid ""
 "An optional URL pointing to documentation or any other page. This will be "
@@ -6686,7 +6672,7 @@ msgstr ""
 msgid "An optional alias name for your mysql instance"
 msgstr "Ein optionaler Alias für die mysql Instanz"
 
-#: ../cmk/gui/valuespec.py:6366
+#: ../cmk/gui/valuespec.py:6333
 msgid ""
 "An optional comment that may be used to explain the purpose of this object. "
 "The comment is only visible in this dialog and may help other users "
@@ -6790,7 +6776,7 @@ msgstr ""
 "den Bericht löschen zu können, entfernen Sie bitte zunächst diese "
 "Abhängigkeit."
 
-#: ../cmk/gui/userdb.py:428
+#: ../cmk/gui/userdb.py:430
 msgid "Another session is active"
 msgstr "Andere Sitzung aktiv"
 
@@ -6799,7 +6785,7 @@ msgstr "Andere Sitzung aktiv"
 msgid "Another synchronization job is already running: %s"
 msgstr "Eine andere Synchronisation läuft gerade: %s"
 
-#: ../cmk/gui/userdb.py:1258
+#: ../cmk/gui/userdb.py:1260
 #, python-format
 msgid "Another user synchronization is already running: %s"
 msgstr "Eine andere Usersynchronisation läuft gerade: %s"
@@ -7196,7 +7182,7 @@ msgstr ""
 "Sobald Sie erwartete Zeichenketten konfiguriert haben wird der Check die "
 "Antwort ausgeben - solange bis Sie die Ausgabe mit dieser Option verbergen"
 
-#: ../cmk/gui/views.py:1562
+#: ../cmk/gui/views.py:1559
 msgid "Ascending"
 msgstr "Aufsteigend"
 
@@ -7345,7 +7331,7 @@ msgstr "Asynchron übertragene Checkergebnisse"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_plugin.py:35
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_plugin.py:36
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4794
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4775
 msgid "At least"
 msgstr "Mindestens"
 
@@ -7382,7 +7368,7 @@ msgstr ""
 "die eine längere Laufzeit haben, blockieren die Arbeitsprozesse länger. Eine "
 "große Anzahl von Prozessen verbraucht mehr Speicher."
 
-#: ../cmk/gui/valuespec.py:6209
+#: ../cmk/gui/valuespec.py:6176
 msgid "At the beginning of every month at day"
 msgstr "Am Beginn jedes Monats bei Tag"
 
@@ -7390,7 +7376,7 @@ msgstr "Am Beginn jedes Monats bei Tag"
 msgid "At the center of the page"
 msgstr "In der Mitte der Seite"
 
-#: ../cmk/gui/valuespec.py:6200
+#: ../cmk/gui/valuespec.py:6167
 msgid "At the end of every month at day"
 msgstr "Am Ende jedes Monats bei Tag"
 
@@ -7701,7 +7687,7 @@ msgstr "Instanz automatisch aufräumen"
 msgid "Automatic fallback"
 msgstr "Automatische Rückfall"
 
-#: ../cmk/gui/views.py:1391
+#: ../cmk/gui/views.py:1388
 msgid "Automatic page reload"
 msgstr "Seite automatisch aktualisieren"
 
@@ -7842,7 +7828,7 @@ msgstr ""
 msgid "Avail."
 msgstr "Verfüg."
 
-#: ../cmk/gui/views.py:2694 ../cmk/gui/plugins/views/availability.py:241
+#: ../cmk/gui/views.py:2693 ../cmk/gui/plugins/views/availability.py:241
 #: ../cmk/gui/plugins/views/availability.py:363
 #: ../cmk/gui/plugins/views/availability.py:445
 #: ../cmk/gui/plugins/views/availability.py:819
@@ -8279,7 +8265,7 @@ msgstr "B/s"
 msgid "BBcredit zero"
 msgstr "BBcredit-Zero"
 
-#: ../cmk/gui/views.py:1343 ../cmk/utils/werks.py:40
+#: ../cmk/gui/views.py:1340 ../cmk/utils/werks.py:40
 msgid "BI"
 msgstr "BI"
 
@@ -8408,11 +8394,11 @@ msgstr "Zurück"
 msgid "Back to previous page"
 msgstr "Zurück zur vorherigen Seite"
 
-#: ../cmk/gui/views.py:3098 ../cmk/gui/views.py:3150
+#: ../cmk/gui/views.py:3097 ../cmk/gui/views.py:3149
 msgid "Back to view"
 msgstr "Zurück zu Ansicht"
 
-#: ../cmk/gui/views.py:3156
+#: ../cmk/gui/views.py:3155
 msgid "Back to view with checkboxes reset"
 msgstr "Zurück zur Ansicht und Checkboxen zurücksetzen"
 
@@ -8675,7 +8661,7 @@ msgstr "Basiert auf"
 msgid "Based on role"
 msgstr "Basiert auf Rolle"
 
-#: ../cmk/gui/views.py:1398
+#: ../cmk/gui/views.py:1395
 msgid "Basic Layout"
 msgstr "Grundlayout"
 
@@ -9094,7 +9080,7 @@ msgstr "Bauzeit"
 msgid "Building of search index started"
 msgstr "Bauen der Suchindex gestartet"
 
-#: ../cmk/gui/valuespec.py:5868 ../cmk/gui/visuals.py:552
+#: ../cmk/gui/valuespec.py:5835 ../cmk/gui/visuals.py:552
 #: ../cmk/gui/pagetypes.py:1063
 msgid "Builtin"
 msgstr "eingebaut"
@@ -9464,7 +9450,7 @@ msgstr ""
 "Wenn Sie diese Regel für einen Host konfigurieren, so wird nicht der "
 "ChecK_MK-Agent abgefragt, sondern zufällige Monitoringdaten erzeugt."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5068
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5049
 msgid ""
 "By default Check_MK does not use a specific context during SNMPv3 queries, "
 "but some devices are offering their information in different SNMPv3 "
@@ -10001,7 +9987,7 @@ msgstr "CARA"
 msgid "CAdvisor"
 msgstr "cAdvisor"
 
-#: ../cmk/gui/valuespec.py:6268
+#: ../cmk/gui/valuespec.py:6235
 msgid "CAs to accept"
 msgstr "Zu akzeptierende CAs"
 
@@ -10378,11 +10364,11 @@ msgstr "KRITISCH"
 msgid "CRITICAL services"
 msgstr "CRITICAL Services"
 
-#: ../cmk/gui/valuespec.py:6221
+#: ../cmk/gui/valuespec.py:6188
 msgid "CRT/PEM File"
 msgstr "CRT/PEM-Datei"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:342
+#: ../cmk/gui/wato/pages/bulk_import.py:345
 msgid "CSV File"
 msgstr "CSV-Datei"
 
@@ -10428,7 +10414,7 @@ msgstr "Cachegröße"
 msgid "Cache age for background checks"
 msgstr "Cache-Alter für Hintergrundchecks"
 
-#: ../cmk/gui/plugins/views/utils.py:1523
+#: ../cmk/gui/plugins/views/utils.py:1524
 #, python-format
 msgid "Cache generated %s ago, cache interval: %s"
 msgstr "Cache generated %s ago, cache interval: %s"
@@ -10755,7 +10741,7 @@ msgstr ""
 "Kann den HW/SW-Inventory Baum %s nicht laden. Bitte entfernen Sie die "
 "beschädigte Datei."
 
-#: ../cmk/gui/views.py:2206
+#: ../cmk/gui/views.py:2205
 #, python-format
 msgid ""
 "Cannot load HW/SW inventory trees %s. Please remove the corrupted files."
@@ -10987,7 +10973,7 @@ msgstr "Ceph OSDs"
 msgid "Ceph Status"
 msgstr "Ceph-Status"
 
-#: ../cmk/gui/valuespec.py:6220
+#: ../cmk/gui/valuespec.py:6187
 msgid "Certificate Chain (Root / Intermediate Certificate)"
 msgstr "Zertifikatkette (Root / Zwischenzertifikat)"
 
@@ -11315,7 +11301,7 @@ msgstr "Checkitem"
 msgid "Check LDAP service access"
 msgstr "Check Zugriff auf LDAP-Service"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5210
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5191
 msgid "Check MK status of piggybacked host within this period"
 msgstr "CheckMK-Status der Piggyback-Hosts innerhalb dieses Zeitraums prüfen"
 
@@ -11427,7 +11413,7 @@ msgstr "Auf eine Adresse prüfen"
 msgid "Check for correct version"
 msgstr "Check auf korrekte Version"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4786
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4767
 msgid "Check for correct version of Checkmk agent"
 msgstr "Auf korrekte Version des Checkmk-Agenten prüfen"
 
@@ -11481,7 +11467,7 @@ msgstr "Check-Dokumentation (für Checkmk basierte Checks)"
 msgid "Check manual page"
 msgstr "Check Handbuchseite"
 
-#: ../cmk/gui/views.py:3391
+#: ../cmk/gui/views.py:3390
 #, python-format
 msgid "Check not executed within %d seconds"
 msgstr "Prüfung nicht innerhalb von %d Sekunden ausgeführt"
@@ -12050,7 +12036,7 @@ msgstr ""
 "Sektionsheader und somit der Name des benötigten Checkplugins &lt;&lt;&lt;"
 "winperf_foo&gt;&gt;&gt; sein."
 
-#: ../cmk/gui/valuespec.py:5916
+#: ../cmk/gui/valuespec.py:5883
 #, python-format
 msgid "Choose another %s"
 msgstr "Wähle anderen %s"
@@ -12082,11 +12068,11 @@ msgstr ""
 "dass der Abschnitt über die Festplattennutzung bekanntermaßen lange läuft. "
 "Wenn Sie Leistungsprobleme haben, sollten Sie erwägen, diese zu deaktivieren."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4613
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4598
 msgid "Choose if realtime updates are sent/expected encrypted"
 msgstr "Wählen Sie, ob Echtzeitchecks verschlüsselt übertragen werden sollen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4600
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4585
 msgid ""
 "Choose if the agent agents encrypt packages. This controls whether baked "
 "agents encrypt their output and whether check_mk expects encrypted output. "
@@ -12871,11 +12857,11 @@ msgstr "Hintergrund einfärben, wenn der Host up ist"
 msgid "Colorize background if host unreachable"
 msgstr "Hintergrund einfärben, wenn der Host nicht erreichbar ist."
 
-#: ../cmk/gui/views.py:1435 ../cmk/gui/views.py:1468 ../cmk/gui/views.py:1555
+#: ../cmk/gui/views.py:1432 ../cmk/gui/views.py:1465 ../cmk/gui/views.py:1552
 msgid "Column"
 msgstr "Spalte"
 
-#: ../cmk/gui/views.py:1412
+#: ../cmk/gui/views.py:1409
 msgid "Column Headers"
 msgstr "Spaltenüberschriften"
 
@@ -12891,7 +12877,7 @@ msgstr "Spaltentitel"
 msgid "Column title"
 msgstr "Spaltentitel"
 
-#: ../cmk/gui/views.py:1614 ../cmk/gui/views.py:1689
+#: ../cmk/gui/views.py:1611 ../cmk/gui/views.py:1686
 #: ../cmk/gui/cee/plugins/reporting/views.py:371
 msgid "Columns"
 msgstr "Spalten"
@@ -12965,7 +12951,7 @@ msgstr "Kommandozeile:"
 msgid "Command to execute on remote host."
 msgstr "Dieser Befehl wird auf dem Zielhost ausgeführt."
 
-#: ../cmk/gui/views.py:828 ../cmk/gui/plugins/visuals/filters.py:1598
+#: ../cmk/gui/views.py:825 ../cmk/gui/plugins/visuals/filters.py:1598
 #: ../cmk/gui/plugins/visuals/infos.py:220 ../cmk/gui/mobile.py:340
 #: ../cmk/gui/mobile.py:358
 msgid "Commands"
@@ -12975,7 +12961,7 @@ msgstr "Befehle"
 msgid "Commands on host and services"
 msgstr "Befehle für Hosts/Services"
 
-#: ../cmk/gui/valuespec.py:6365 ../cmk/gui/plugins/views/commands.py:535
+#: ../cmk/gui/valuespec.py:6332 ../cmk/gui/plugins/views/commands.py:535
 #: ../cmk/gui/plugins/views/commands.py:637
 #: ../cmk/gui/plugins/views/commands.py:778
 #: ../cmk/gui/plugins/views/commands.py:896
@@ -13101,7 +13087,7 @@ msgstr "Eingaben"
 msgid "Committed memory"
 msgstr "Zugesicherter Speicher"
 
-#: ../cmk/gui/valuespec.py:6237
+#: ../cmk/gui/valuespec.py:6204
 msgid "Common Name"
 msgstr "Common Name"
 
@@ -13371,7 +13357,7 @@ msgid "Configuration of individual Eventlogs"
 msgstr "Konfiguration von bestimmten Ereignisprotokollen"
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1232
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4834
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4815
 msgid "Configuration of monitoring agents for Linux, Windows and Unix"
 msgstr "Konfiguration von Monitoring-Agenten für Linux, Windows und Unix"
 
@@ -13914,7 +13900,7 @@ msgstr ""
 msgid "Connection status"
 msgstr "Verbindungsstatus"
 
-#: ../cmk/gui/views.py:2829 ../cmk/gui/wato/pages/services.py:1327
+#: ../cmk/gui/views.py:2828 ../cmk/gui/wato/pages/services.py:1327
 #: ../cmk/gui/wato/pages/hosts.py:401
 msgid "Connection tests"
 msgstr "Verbindungstests"
@@ -14193,7 +14179,7 @@ msgstr "Enthält korrupte Datei %s"
 msgid "Content elements"
 msgstr "Inhaltselemente"
 
-#: ../cmk/gui/valuespec.py:5541
+#: ../cmk/gui/valuespec.py:5508
 #, python-format
 msgid "Content of %s"
 msgstr "Inhalt von %s"
@@ -14258,7 +14244,7 @@ msgstr "Kontextsensitive Hilfe"
 msgid "Context switches"
 msgstr "Kontextswitche"
 
-#: ../cmk/gui/views.py:1250 ../cmk/gui/visuals.py:679
+#: ../cmk/gui/views.py:1247 ../cmk/gui/visuals.py:679
 #: ../cmk/gui/dashboard.py:1732 ../cmk/gui/cee/reporting.py:1317
 #: ../cmk/gui/cee/reporting.py:1593
 msgid "Continue"
@@ -14272,10 +14258,10 @@ msgstr "Setze Zählen fort wenn Ereignis <b>quittiert</b> ist."
 msgid "Continue search"
 msgstr "Suche verfeinern"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4622
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4607
 #, fuzzy
 #| msgid "Control encryption of data sent from agent to host."
-msgid "Control encryption of data sent from agents to Checkmk."
+msgid "Control encryption of data sent from agent to host."
 msgstr "Verschlüsselung der Daten vom Agenten"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:436
@@ -14685,7 +14671,7 @@ msgstr "Zählerobjektname oder -nummer"
 msgid "Counting & Timing"
 msgstr "Zählen & Timing"
 
-#: ../cmk/gui/valuespec.py:6233
+#: ../cmk/gui/valuespec.py:6200
 msgid "Country"
 msgstr "Staat"
 
@@ -15071,7 +15057,7 @@ msgstr "Thema erstellen"
 msgid "Create users only on login"
 msgstr "Nutzer nur bei Login anlegen"
 
-#: ../cmk/gui/views.py:1242
+#: ../cmk/gui/views.py:1239
 msgid "Create view"
 msgstr "Erzeuge Ansicht"
 
@@ -15284,7 +15270,7 @@ msgstr "Kritisch bei"
 msgid "Crit/Down"
 msgstr "Krit/Unten"
 
-#: ../cmk/gui/valuespec.py:6329 ../cmk/gui/plugins/dashboard/stats.py:245
+#: ../cmk/gui/valuespec.py:6296 ../cmk/gui/plugins/dashboard/stats.py:245
 #: ../cmk/gui/plugins/views/commands.py:448
 #: ../cmk/gui/plugins/visuals/filters.py:1753
 #: ../cmk/gui/plugins/wato/check_parameters/ucs_bladecenter_faultinst.py:24
@@ -16456,7 +16442,7 @@ msgstr "Aktuelle Ereignisse"
 msgid "Current host check attempt"
 msgstr "Aktueller Host-Check Versuch"
 
-#: ../cmk/gui/valuespec.py:5497
+#: ../cmk/gui/valuespec.py:5464
 msgid "Current image:"
 msgstr "Aktuelles Bild:"
 
@@ -16851,7 +16837,7 @@ msgstr "Angepasster Titel"
 msgid "Custom user attributes"
 msgstr "Benutzerattribute"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:472
+#: ../cmk/gui/wato/pages/bulk_import.py:475
 #, python-format
 msgid "Custom variable: %s"
 msgstr "Benutzervariable: %s"
@@ -17030,7 +17016,7 @@ msgstr "Zeitspanne festlegen"
 msgid "Customize title"
 msgstr "Titel anpassen"
 
-#: ../cmk/gui/views.py:974
+#: ../cmk/gui/views.py:971
 msgid "Customize view"
 msgstr "Ansicht anpassen"
 
@@ -17378,7 +17364,7 @@ msgstr "Täglich"
 msgid "Daily Report"
 msgstr "Täglicher Bericht"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4801
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4782
 msgid "Daily build"
 msgstr "Tagesversion"
 
@@ -17430,7 +17416,7 @@ msgstr ""
 "Dashlet-Typ %s konnte nicht gefunden werden. Bitte entfernen Sie ihn aus "
 "Ihrer Dashboard-Konfiguration."
 
-#: ../cmk/gui/views.py:781 ../cmk/gui/plugins/views/availability.py:417
+#: ../cmk/gui/views.py:778 ../cmk/gui/plugins/views/availability.py:417
 msgid "Data"
 msgstr "Daten"
 
@@ -17683,7 +17669,7 @@ msgstr "Dataguard-Statistiken"
 msgid "Dataguard statistics"
 msgstr "Dataguard-Statistiken"
 
-#: ../cmk/gui/views.py:1203 ../cmk/gui/views.py:1225 ../cmk/gui/views.py:1379
+#: ../cmk/gui/views.py:1200 ../cmk/gui/views.py:1222 ../cmk/gui/views.py:1376
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:579
 msgid "Datasource"
 msgstr "Datenquelle"
@@ -17759,7 +17745,7 @@ msgstr "Tag der Erzeugung"
 msgid "Day of the month (1-31)"
 msgstr "Tag im Monat"
 
-#: ../cmk/gui/valuespec.py:6208
+#: ../cmk/gui/valuespec.py:6175
 msgid "Day of the week"
 msgstr "Wochentag"
 
@@ -17794,7 +17780,7 @@ msgstr "Dead- und Waitlocks"
 msgid "Deadlocks"
 msgstr "Deadlocks"
 
-#: ../cmk/gui/valuespec.py:6334 ../cmk/gui/cee/plugins/wato/cmc.py:610
+#: ../cmk/gui/valuespec.py:6301 ../cmk/gui/cee/plugins/wato/cmc.py:610
 msgid "Debug"
 msgstr "Debug"
 
@@ -17914,7 +17900,7 @@ msgstr "Standard Benutzerprofil"
 msgid "Default Value"
 msgstr "Standardwert"
 
-#: ../cmk/gui/valuespec.py:6124
+#: ../cmk/gui/valuespec.py:6091
 msgid "Default color"
 msgstr "Standardfarbe"
 
@@ -17951,7 +17937,7 @@ msgstr "Standard Levels"
 msgid "Default line style"
 msgstr "Voreingestellter Linien Stil"
 
-#: ../cmk/gui/valuespec.py:6147
+#: ../cmk/gui/valuespec.py:6114
 msgid "Default metric color"
 msgstr "Standard Metrik-Farbe"
 
@@ -18000,7 +17986,7 @@ msgstr "Standardtabellenlayout"
 msgid "Default template for all reports"
 msgstr "Standardschablone für alle Berichte"
 
-#: ../cmk/gui/valuespec.py:6142
+#: ../cmk/gui/valuespec.py:6109
 msgid "Default theme color"
 msgstr "Standardfarbe des Theme"
 
@@ -18448,7 +18434,7 @@ msgstr "Lösche Merkmalgruppe"
 msgid "Delete this unpackaged file"
 msgstr "Diese unpaketierte Datei löschen"
 
-#: ../cmk/gui/valuespec.py:6051
+#: ../cmk/gui/valuespec.py:6018
 msgid "Delete time range"
 msgstr "Datums- & Zeitbereich löschen"
 
@@ -19025,11 +19011,11 @@ msgstr "Veraltete Regelsätze"
 msgid "Deprecations"
 msgstr "Überholte Einstellungen"
 
-#: ../cmk/gui/views.py:1562
+#: ../cmk/gui/views.py:1559
 msgid "Descending"
 msgstr "Absteigend"
 
-#: ../cmk/gui/valuespec.py:6343 ../cmk/gui/crash_reporting.py:549
+#: ../cmk/gui/valuespec.py:6310 ../cmk/gui/crash_reporting.py:549
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:137
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:159
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:181
@@ -19494,8 +19480,8 @@ msgstr "Ungeschriebene FUSE-Blöcke"
 msgid "Disable"
 msgstr "Ausschalten"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4610
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4618
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4595
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4603
 msgid "Disable (drop encrypted data)"
 msgstr "Deaktivieren (verschlüsselte Daten verwerfen)"
 
@@ -19666,7 +19652,7 @@ msgstr "Deaktivierte Erweiterungen"
 msgid "Disabled legacy services (defined in main.mk)"
 msgstr "Legacy Services (definiert in der main.mk)"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5004
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4985
 msgid "Disabled or enabled sections (SNMP)"
 msgstr "Deaktivierte oder aktivierte Sektionen (SNMP)"
 
@@ -19674,7 +19660,7 @@ msgstr "Deaktivierte oder aktivierte Sektionen (SNMP)"
 msgid "Disabled paths"
 msgstr "Deaktivierte Pfade"
 
-#: ../cmk/gui/valuespec.py:6355 ../cmk/gui/plugins/wato/bi_config.py:1228
+#: ../cmk/gui/valuespec.py:6322 ../cmk/gui/plugins/wato/bi_config.py:1228
 msgid "Disabled rules are kept in the configuration but are not applied."
 msgstr ""
 "Deaktivierte Regeln bleiben in der Konfiguration, werden aber nicht "
@@ -19684,7 +19670,7 @@ msgstr ""
 msgid "Disabled schedule entries are not being executed."
 msgstr "Deaktivierte Einträge werden nicht ausgeführt."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5021
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5002
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:77
 msgid "Disabled sections"
 msgstr "Deaktivierte Sektionen"
@@ -20321,7 +20307,7 @@ msgstr "Platzhalter-VMs nicht überwachen"
 msgid "Do not activate changes"
 msgstr "Änderungen nicht aktivieren"
 
-#: ../cmk/gui/views.py:1512
+#: ../cmk/gui/views.py:1509
 msgid "Do not add a link"
 msgstr "Keinen Link hinzufügen"
 
@@ -20845,7 +20831,7 @@ msgstr "Führe rekursiv aus"
 msgid "Do transfer context"
 msgstr "Kontext übermitteln"
 
-#: ../cmk/gui/views.py:3110 ../cmk/gui/mobile.py:475
+#: ../cmk/gui/views.py:3109 ../cmk/gui/mobile.py:475
 #, python-format
 msgid "Do you really want to %s"
 msgstr "Wollen Sie wirklich %s?"
@@ -21165,7 +21151,7 @@ msgstr "Zuwachs der Dokumentenanzahl pro Minute zählen"
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: ../cmk/gui/valuespec.py:6392 ../cmk/gui/plugins/wato/bi_config.py:902
+#: ../cmk/gui/valuespec.py:6359 ../cmk/gui/plugins/wato/bi_config.py:902
 #: ../cmk/gui/plugins/wato/bi_config.py:1154
 msgid "Documentation URL"
 msgstr "URL zur Dokumentation"
@@ -21220,7 +21206,7 @@ msgstr "Vergessen Sie nicht den Instanznamen:  instance:dbname"
 msgid "Don't handle Real-Time Checks"
 msgstr "Echtzeitchecks nicht verarbeiten"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:456
+#: ../cmk/gui/wato/pages/bulk_import.py:459
 msgid "Don't import"
 msgstr "Nicht importieren"
 
@@ -21923,7 +21909,7 @@ msgstr "Regel bearbeiten"
 msgid "Edit SLA"
 msgstr "SLA bearbeiten"
 
-#: ../cmk/gui/views.py:1204
+#: ../cmk/gui/views.py:1201
 msgid "Edit Views"
 msgstr "Ansichten Bearbeiten"
 
@@ -22290,7 +22276,7 @@ msgstr "Edition"
 msgid "Effective labels"
 msgstr "Effektive Labels"
 
-#: ../cmk/gui/views.py:2841 ../cmk/gui/wato/pages/services.py:1335
+#: ../cmk/gui/views.py:2840 ../cmk/gui/wato/pages/services.py:1335
 #: ../cmk/gui/wato/pages/hosts.py:409
 msgid "Effective parameters"
 msgstr "effektive Parameter"
@@ -22550,8 +22536,8 @@ msgstr "Leere Antwort vom Webservice"
 msgid "Enable"
 msgstr "Einschalten"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4609
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4617
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4594
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4602
 msgid "Enable  (accept encrypted and unencrypted data)"
 msgstr "Erlauben (Verschlüsselte und Unverschlüsselte Daten annehmen)"
 
@@ -22820,7 +22806,7 @@ msgstr "In Zeitraum aktiv"
 msgid "Enabled permanently"
 msgstr "Dauerhaft aktiv"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5029
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5010
 msgid "Enabled sections"
 msgstr "Aktivierte Sektionen"
 
@@ -22959,25 +22945,20 @@ msgstr ""
 "Verschlüsselte Verbindungen zu dieser Website werden ohne Zertifikatsprüfung "
 "hergestellt."
 
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4606
 #: ../cmk/gui/backup.py:791 ../cmk/gui/watolib/sites.py:140
 msgid "Encryption"
 msgstr "Verschlüsselung"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4621
-#, fuzzy
-#| msgid "Text logfiles (Linux, Windows)"
-msgid "Encryption (Linux, Windows)"
-msgstr "Text-Logdateien (Linux, Windows)"
-
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4599
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4584
 msgid "Encryption for Agent"
 msgstr "Verschlüsselung des Agenten"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4612
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4597
 msgid "Encryption for Realtime Updates"
 msgstr "Beschreibung"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4587
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4581
 msgid "Encryption secret"
 msgstr "Verschlüsselungsgeheimnis"
 
@@ -23025,8 +23006,8 @@ msgstr "Endet präventiv"
 msgid "Endpoints"
 msgstr "Endpoints"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4608
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4615
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4593
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4600
 msgid "Enforce (drop unencrypted data)"
 msgstr "Erzwingen (unverschlüsselte Daten verwerfen)"
 
@@ -23243,7 +23224,7 @@ msgstr "Ausgelaufene Objekte"
 msgid "Equal or more than"
 msgstr "Gleich oder mehr als"
 
-#: ../cmk/gui/valuespec.py:6330 ../cmk/gui/plugins/wato/bi_config.py:1352
+#: ../cmk/gui/valuespec.py:6297 ../cmk/gui/plugins/wato/bi_config.py:1352
 #: ../cmk/gui/plugins/sidebar/utils.py:269
 #: ../cmk/gui/cee/plugins/wato/cmc.py:606
 msgid "Error"
@@ -23259,7 +23240,7 @@ msgstr "Fehler bei der Erkennung von %s"
 msgid "Error during discovery of %s on site %s"
 msgstr "Fehler bei der Entdeckung von %s auf der Instanz %s"
 
-#: ../cmk/gui/userdb.py:1199
+#: ../cmk/gui/userdb.py:1201
 msgid "Error during saving"
 msgstr "Fehler beim Speichern"
 
@@ -23421,7 +23402,7 @@ msgstr "Gerade Zeilen"
 msgid "Event"
 msgstr "Ereignis"
 
-#: ../cmk/gui/views.py:1339 ../cmk/gui/plugins/wato/omd_configuration.py:169
+#: ../cmk/gui/views.py:1336 ../cmk/gui/plugins/wato/omd_configuration.py:169
 #: ../cmk/gui/mkeventd.py:130 ../cmk/gui/wato/mkeventd.py:1257
 #: ../cmk/gui/wato/mkeventd.py:3095 ../cmk/gui/pagetypes.py:1836
 msgid "Event Console"
@@ -23700,11 +23681,11 @@ msgstr "Ereignisse: Syslog-Anwendung"
 msgid "Events: Syslog facility"
 msgstr "Ereignisse: Syslog Facility"
 
-#: ../cmk/gui/valuespec.py:6207
+#: ../cmk/gui/valuespec.py:6174
 msgid "Every day"
 msgstr "Jeden Tag"
 
-#: ../cmk/gui/valuespec.py:6208
+#: ../cmk/gui/valuespec.py:6175
 msgid "Every week on..."
 msgstr "Jede Woche am..."
 
@@ -23810,7 +23791,7 @@ msgstr "Fehler"
 msgid "Exceptions (from weekdays)"
 msgstr "Ausnahme (von den Wochentagen)"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5167
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5148
 msgid "Exceptions for piggybacked hosts (VMs, ...)"
 msgstr "Ausnahmen für Huckepack-Hosts (VMs, ...)"
 
@@ -24257,7 +24238,7 @@ msgstr "Explizite Labels"
 msgid "Explicit mapping of job exit codes to states"
 msgstr "Explizite Zuordnung von Job-Exit-Codes zu Zuständen"
 
-#: ../cmk/gui/valuespec.py:5584 ../cmk/gui/cee/plugins/metrics/graphs.py:1136
+#: ../cmk/gui/valuespec.py:5551 ../cmk/gui/cee/plugins/metrics/graphs.py:1136
 msgid "Explicit match"
 msgstr "Genaue Übereinstimmung"
 
@@ -24307,7 +24288,7 @@ msgstr "Explizit auf Hosts eingestellt"
 msgid "Explicitly specify resources"
 msgstr "Ressourcen explizit auflisten"
 
-#: ../cmk/gui/views.py:778 ../cmk/gui/plugins/views/availability.py:414
+#: ../cmk/gui/views.py:775 ../cmk/gui/plugins/views/availability.py:414
 #: ../cmk/gui/plugins/sidebar/dashboards.py:42
 #: ../cmk/gui/plugins/sidebar/views.py:52 ../cmk/gui/visuals.py:2049
 #: ../cmk/gui/wato/pages/audit_log.py:88 ../cmk/gui/wato/pages/audit_log.py:91
@@ -24315,12 +24296,12 @@ msgstr "Ressourcen explizit auflisten"
 msgid "Export"
 msgstr "Exportieren"
 
-#: ../cmk/gui/views.py:869 ../cmk/gui/plugins/views/availability.py:474
+#: ../cmk/gui/views.py:866 ../cmk/gui/plugins/views/availability.py:474
 #: ../cmk/gui/wato/pages/audit_log.py:156
 msgid "Export CSV"
 msgstr "Exportiere CSV"
 
-#: ../cmk/gui/views.py:875
+#: ../cmk/gui/views.py:872
 msgid "Export JSON"
 msgstr "Exportiere JSON"
 
@@ -24727,7 +24708,7 @@ msgstr "Python-Anfrage konnte nicht verarbeitet werden: '%s': %s"
 msgid "Failed to parse file: %s"
 msgstr "Die Datei kann nicht eingelesen werden: %s"
 
-#: ../cmk/gui/valuespec.py:5673
+#: ../cmk/gui/valuespec.py:5640
 #, python-format
 msgid "Failed to parse labels: %s"
 msgstr "Das Parsen von Labels ist fehlgeschlagen: %s"
@@ -24997,7 +24978,7 @@ msgstr "Holt alle verfügbaren Sub-OIDs."
 msgid "Fetch chunked"
 msgstr "Anfrage chunked"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4970
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4951
 msgid "Fetch every"
 msgstr "Hole alle"
 
@@ -25013,7 +24994,7 @@ msgstr "Fetch kaputter Header"
 msgid "Fetch head"
 msgstr "Anfrage head"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4945
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4926
 msgid "Fetch intervals for SNMP sections"
 msgstr "Abrufintervalle für SNMP-Abschnitte"
 
@@ -25110,7 +25091,7 @@ msgstr "Größe der Felddaten"
 msgid "Fieldnames to query"
 msgstr "Abzurufende Felder"
 
-#: ../cmk/gui/valuespec.py:5537
+#: ../cmk/gui/valuespec.py:5504
 msgid "File"
 msgstr "Datei"
 
@@ -25128,7 +25109,7 @@ msgstr "Dateigruppen"
 msgid "File Name"
 msgstr "Dateiname"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:449
+#: ../cmk/gui/wato/pages/bulk_import.py:452
 msgid "File Parsing Settings"
 msgstr "Einstellungen zum Dateiparsen"
 
@@ -25324,7 +25305,7 @@ msgstr "Dateisysteme (Volumes, Laufwerke)"
 msgid "Filesystems usage"
 msgstr "Verwendung von Dateisystemen"
 
-#: ../cmk/gui/views.py:918 ../cmk/gui/views.py:926
+#: ../cmk/gui/views.py:915 ../cmk/gui/views.py:923
 #: ../cmk/gui/plugins/wato/bi_config.py:653 ../cmk/gui/mobile.py:338
 #: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/dashboard.py:1012
 #: ../cmk/gui/dashboard.py:1015 ../cmk/gui/page_menu.py:739
@@ -25333,12 +25314,12 @@ msgstr "Verwendung von Dateisystemen"
 msgid "Filter"
 msgstr "Filter"
 
-#: ../cmk/gui/valuespec.py:6441
+#: ../cmk/gui/valuespec.py:6408
 #, python-format
 msgid "Filter %s selection by hostname: "
 msgstr "Auswahl %s nach Hostname filtern: "
 
-#: ../cmk/gui/valuespec.py:6454
+#: ../cmk/gui/valuespec.py:6421
 #, python-format
 msgid "Filter %s selection by service: "
 msgstr "Auswahl %s nach Service filtern: "
@@ -25426,7 +25407,7 @@ msgstr "Zu sendende Zeichenkette"
 msgid "Finalizing"
 msgstr "Abschluss"
 
-#: ../cmk/gui/userdb.py:1316
+#: ../cmk/gui/userdb.py:1318
 msgid "Finalizing synchronization"
 msgstr "Finalisiere Synchronisation"
 
@@ -25450,7 +25431,7 @@ msgstr "Fingerprint"
 msgid "Fingerprint (SHA256)"
 msgstr "Fingerprint (SHA256)"
 
-#: ../cmk/gui/valuespec.py:6159
+#: ../cmk/gui/valuespec.py:6126
 #, python-format
 msgid "Fingerprint: %s"
 msgstr "Fingerprint: %s"
@@ -25766,7 +25747,7 @@ msgstr "Folgen, aber bei IP Adresse und Port bleiben"
 msgid "Font family"
 msgstr "Schriftfamilie"
 
-#: ../cmk/gui/valuespec.py:6063
+#: ../cmk/gui/valuespec.py:6030
 msgid "Font size"
 msgstr "Schriftgröße"
 
@@ -26166,7 +26147,7 @@ msgstr "Parametrisierung des Vorhersagemodells"
 msgid "Form (Cookie) based"
 msgstr "Formular (mit Cookies)"
 
-#: ../cmk/gui/views.py:910
+#: ../cmk/gui/views.py:907
 msgid "Format"
 msgstr "Format"
 
@@ -26770,7 +26751,7 @@ msgstr "Diesen Bericht erstellen"
 msgid "Generating report..."
 msgstr "Erstelle Report..."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4849
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4830
 msgid "Generic Options"
 msgstr "Generische Einstellungen"
 
@@ -27217,7 +27198,7 @@ msgstr "Gruppen-CN"
 msgid "Group<nobr> </nobr>DN"
 msgstr "Gruppen-DN"
 
-#: ../cmk/gui/views.py:1616 ../cmk/gui/views.py:1690
+#: ../cmk/gui/views.py:1613 ../cmk/gui/views.py:1687
 #: ../cmk/gui/availability.py:321 ../cmk/gui/cee/plugins/reporting/views.py:373
 msgid "Grouping"
 msgstr "Gruppierung"
@@ -27480,7 +27461,7 @@ msgstr "HW-Container"
 msgid "HW containers"
 msgstr "HW-Container"
 
-#: ../cmk/gui/views.py:1341 ../cmk/gui/plugins/views/icons/inventory.py:23
+#: ../cmk/gui/views.py:1338 ../cmk/gui/plugins/views/icons/inventory.py:23
 #: ../cmk/utils/werks.py:45
 msgid "HW/SW inventory"
 msgstr "HW/SW-Inventur"
@@ -27691,7 +27672,7 @@ msgstr "Hat sich geändert"
 msgid "Has never been activated"
 msgstr "Wurde nicht aktiviert"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:444
+#: ../cmk/gui/wato/pages/bulk_import.py:447
 msgid "Has title line"
 msgstr "Hat Titelzeile"
 
@@ -28283,7 +28264,7 @@ msgstr ""
 "verschiedene Schwellwerte einrichten. Beachten Sie, dass sich diese "
 "Schwellwerte nur auf eine einzelne Datei beziehen."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4787
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4768
 msgid ""
 "Here you can make sure that all of your Check_MK agents are running one "
 "specific version. Agents running  a different version return a non-OK state."
@@ -28542,7 +28523,7 @@ msgstr ""
 "Hier können Sie alternative Tageszeiten für ausgewählte Tage in der Form "
 "YYYY-MM-DD festlegen."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5158
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5139
 msgid ""
 "Here you can specify explicit piggybacked host names or regex patterns to "
 "match specific piggybacked host names."
@@ -28809,11 +28790,11 @@ msgstr "Hoch: Alarme umgehen die definierten Ruhezeiten"
 msgid "Highly automated"
 msgstr "Hochgradig automatisiert"
 
-#: ../cmk/gui/valuespec.py:6442
+#: ../cmk/gui/valuespec.py:6409
 msgid "Hint a hostname"
 msgstr "Einen Hostnamen vorschlagen"
 
-#: ../cmk/gui/valuespec.py:6455
+#: ../cmk/gui/valuespec.py:6422
 msgid "Hint a service"
 msgstr "Einen Service vorschlagen"
 
@@ -29229,7 +29210,7 @@ msgstr "Hostchecks und SMART-Pings"
 msgid "Host comments"
 msgstr "Hostkommentare"
 
-#: ../cmk/gui/views.py:2804
+#: ../cmk/gui/views.py:2803
 msgid "Host configuration"
 msgstr "Hostkonfiguration"
 
@@ -29583,7 +29564,7 @@ msgstr "Hoststatistiken"
 msgid "Host status"
 msgstr "Hoststatus"
 
-#: ../cmk/gui/views.py:1132 ../cmk/gui/views.py:1164
+#: ../cmk/gui/views.py:1129 ../cmk/gui/views.py:1161
 msgid "Host tag:"
 msgstr "Hostmerkmal:"
 
@@ -29682,7 +29663,7 @@ msgstr "Hostgruppen Alias"
 msgid "Hostgroup name"
 msgstr "Hostgruppen-Name"
 
-#: ../cmk/gui/views.py:1351 ../cmk/gui/plugins/views/datasources.py:173
+#: ../cmk/gui/views.py:1348 ../cmk/gui/plugins/views/datasources.py:173
 msgid "Hostgroups"
 msgstr "Hostgruppen"
 
@@ -29702,7 +29683,7 @@ msgstr "Hostgruppen (zusammengeführt)"
 #: ../cmk/gui/plugins/wato/active_checks.py:405
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:452
 #: ../cmk/gui/plugins/sidebar/search.py:976 ../cmk/gui/wato/mkeventd.py:4199
-#: ../cmk/gui/wato/pages/bulk_import.py:457
+#: ../cmk/gui/wato/pages/bulk_import.py:460
 #: ../cmk/gui/wato/pages/folders.py:822
 #: ../cmk/gui/wato/pages/host_diagnose.py:287
 #: ../cmk/gui/wato/pages/pattern_editor.py:156
@@ -29738,7 +29719,7 @@ msgstr "Hostname oder IPv4-Adresse des Listeners"
 msgid "Hostname translation for incoming messages"
 msgstr "Übersetzung von Hostnamen für eingehende Meldungen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4887
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4868
 msgid "Hostname translation for piggybacked hosts"
 msgstr "Übersetzung von Hostnamen für Huckepack-Hosts"
 
@@ -29775,7 +29756,7 @@ msgstr "Abzurufende Hostnamen"
 msgid "Hostnames to resolve"
 msgstr "Zu übersetzende Hostnamen"
 
-#: ../cmk/gui/views.py:1349 ../cmk/gui/plugins/views/bi.py:426
+#: ../cmk/gui/views.py:1346 ../cmk/gui/plugins/views/bi.py:426
 #: ../cmk/gui/plugins/views/bi.py:446
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:440
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:466
@@ -30489,7 +30470,7 @@ msgstr "IPC Semaphoren"
 msgid "IPMI"
 msgstr "IPMI"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4741
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4722
 msgid "IPMI Management Board"
 msgstr "IPMI Management-Board"
 
@@ -30566,7 +30547,7 @@ msgstr "IPv4-Subnetz"
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:564
 #: ../cmk/gui/plugins/views/painters.py:2473
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:111
-#: ../cmk/gui/wato/pages/bulk_import.py:460
+#: ../cmk/gui/wato/pages/bulk_import.py:463
 #: ../cmk/gui/wato/pages/host_diagnose.py:291
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:92
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:45
@@ -30613,7 +30594,7 @@ msgstr "IPv6-Subnetz"
 #: ../cmk/gui/valuespec.py:1339
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:567
 #: ../cmk/gui/plugins/views/painters.py:2493
-#: ../cmk/gui/wato/pages/bulk_import.py:461
+#: ../cmk/gui/wato/pages/bulk_import.py:464
 msgid "IPv6 address"
 msgstr "IPv6-Adresse"
 
@@ -30710,7 +30691,7 @@ msgstr "Inaktivitätstimeout"
 msgid "Idle workers"
 msgstr "Untätige Workerprozesse"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4751
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4732
 msgid ""
 "If a Checkmk site is updated to a newer version but the agents of some hosts "
 "are not, then the warning <i>Unexpected allowed IP ranges</i> may be "
@@ -30786,7 +30767,7 @@ msgstr ""
 "ausgewählten Hosts dieselbe Einstellung für dieses Attribut. Wenn Sie die "
 "Auswahl übergehen, dann behalten alle Hosts ihre individuelle Ein-stellung."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5214
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5195
 msgid ""
 "If a source host does not send data for its piggybacked hosts at all or for "
 "single piggybacked hosts then a period can be set in order to treat outdated "
@@ -31463,7 +31444,7 @@ msgstr ""
 "Check_MK spätestens mit diesem Intervall auf fällige zu sendende "
 "Sammelalarme prüfen."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4864
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4845
 msgid ""
 "If you are using the Agent bakery, the configuration will be used for "
 "restricting network access to the baked agents. On Linux, a systemd "
@@ -32273,7 +32254,7 @@ msgstr "Ignoriere den Status"
 msgid "Ignore the state of the Job"
 msgstr "Zustand des Jobs ignorieren"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4791
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4772
 msgid "Ignore the version"
 msgstr "Version ignorieren"
 
@@ -32351,8 +32332,8 @@ msgstr "Auswirkung"
 msgid "Import"
 msgstr "Importieren"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:341
-#: ../cmk/gui/wato/pages/bulk_import.py:347
+#: ../cmk/gui/wato/pages/bulk_import.py:344
+#: ../cmk/gui/wato/pages/bulk_import.py:350
 msgid "Import Hosts"
 msgstr "Hosts importieren"
 
@@ -32452,7 +32433,7 @@ msgstr ""
 "Event Console über TCP. Stellen Sie sicher dass in den globalen "
 "Einstellungen die Event Console aktiviert ist. Standard-Port: 6558."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4700
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4681
 msgid ""
 "In addition to setting the generic \"Missing monitoring data\" state above "
 "you can specify a regex pattern to match specific check plugins and give "
@@ -33162,7 +33143,7 @@ msgstr ""
 msgid "Individual program call instead of agent access"
 msgstr "Programmaufruf (kein Zugriff auf Agenten)"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4715
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4696
 msgid "Individual states per data source"
 msgstr "Einzelne Zustände pro Datenquelle"
 
@@ -33206,7 +33187,7 @@ msgstr "Informationen, die im Rumpf der Email gezeigt werden sollen"
 msgid "Information to query"
 msgstr "Abzurufende Informationen"
 
-#: ../cmk/gui/valuespec.py:6332 ../cmk/gui/plugins/visuals/filters.py:1593
+#: ../cmk/gui/valuespec.py:6299 ../cmk/gui/plugins/visuals/filters.py:1593
 #: ../cmk/gui/cee/plugins/wato/cmc.py:609
 msgid "Informational"
 msgstr "Informell"
@@ -33834,7 +33815,7 @@ msgstr "Ungültiger Aufruf: Das Profil fehlt."
 msgid "Invalid call: The snapshot is missing."
 msgstr "Ungültiger Aufruf: Sicherung fehlt."
 
-#: ../cmk/gui/valuespec.py:6228
+#: ../cmk/gui/valuespec.py:6195
 #, python-format
 msgid "Invalid certificate file: %s"
 msgstr "Ungültige Zertifikatsdatei: %s"
@@ -33886,7 +33867,7 @@ msgstr "Ungültiges erwartetes Callable für %s am idx %d: %r"
 msgid "Invalid file name"
 msgstr "Ungültiger Dateiname"
 
-#: ../cmk/gui/valuespec.py:5472
+#: ../cmk/gui/valuespec.py:5439
 #, python-format
 msgid "Invalid file name extension. Allowed are: %s"
 msgstr "Ungültige Endung für den Dateinamen: Erlaubt sind: %s"
@@ -34187,7 +34168,7 @@ msgstr "Ungültiger Wert: muss ID einer eingebauten Regel sein."
 msgid "Invalid value for ack parameter."
 msgstr "Ungültiger Wert für ACK Parameter."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:309
+#: ../cmk/gui/wato/pages/bulk_import.py:312
 #, python-format
 msgid "Invalid value in column %d (%s) of row %d: %s"
 msgstr "Ungültiger Wert in Spalte %d (%s) der Zeile %d: %s"
@@ -34370,7 +34351,7 @@ msgstr "Ausgestellt von"
 msgid "Issued to"
 msgstr "Ausgestellt an"
 
-#: ../cmk/gui/valuespec.py:6255
+#: ../cmk/gui/valuespec.py:6222
 msgid "Issuer"
 msgstr "Herausgeben"
 
@@ -34699,7 +34680,7 @@ msgstr "Jobs"
 msgid "Join Launcher Service Failures"
 msgstr "Fehler des \"Join Launcher\" Service"
 
-#: ../cmk/gui/views.py:1476
+#: ../cmk/gui/views.py:1473
 msgid "Joined column"
 msgstr "Verknüpfte Spalte"
 
@@ -34766,7 +34747,7 @@ msgstr "Kaspersky Anti-Virus (Linux)"
 msgid "Kaspersky Anti-Virus Time Settings"
 msgstr "Kaspersky Anti-Virus: Zeiteinstellungen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5185
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5166
 msgid ""
 "Keep hosts while piggyback source sends piggyback data only for other hosts "
 "for"
@@ -34852,7 +34833,7 @@ msgstr "Schlüssel"
 msgid "Key from password store"
 msgstr "Schlüssel aus dem Passwortspeicher"
 
-#: ../cmk/gui/valuespec.py:6162
+#: ../cmk/gui/valuespec.py:6129
 msgid "Key pair will be generated when you save."
 msgstr "Schlüsselpaar wird beim Speichern generiert."
 
@@ -36378,7 +36359,7 @@ msgstr ""
 "Zeilen, die länger als hier eingestellt sind, werden abgeschnitten und der "
 "Test <tt>[TRUNCATED]</tt> hinten angehängt."
 
-#: ../cmk/gui/views.py:1444
+#: ../cmk/gui/views.py:1441
 msgid "Link"
 msgstr "Link"
 
@@ -36466,7 +36447,7 @@ msgstr "Link-Resets eingehend"
 msgid "Link resets out"
 msgstr "Link-Resets ausgehend"
 
-#: ../cmk/gui/views.py:1517
+#: ../cmk/gui/views.py:1514
 msgid "Link to dashboard"
 msgstr "Link zum Dashboard"
 
@@ -36474,7 +36455,7 @@ msgstr "Link zum Dashboard"
 msgid "Link to existing view"
 msgstr "Verknüpfung mit vorhandener Ansicht"
 
-#: ../cmk/gui/views.py:1513
+#: ../cmk/gui/views.py:1510
 msgid "Link to view"
 msgstr "Link zur Ansicht"
 
@@ -36761,7 +36742,7 @@ msgstr "Livestatus-Verschlüsselung"
 msgid "Livestatus encryption of %s"
 msgstr "Livestatus-Verschlüsselung von %s"
 
-#: ../cmk/gui/views.py:730
+#: ../cmk/gui/views.py:727
 msgid "Livestatus error"
 msgstr "Livestatus Fehler"
 
@@ -37010,7 +36991,7 @@ msgstr ""
 "Lokal: Spooling - Ereignisse an lokale Eventkonsole derselben OMD Instanz "
 "senden"
 
-#: ../cmk/gui/valuespec.py:6235
+#: ../cmk/gui/valuespec.py:6202
 msgid "Locality Name"
 msgstr "Name der Lokalität"
 
@@ -37098,7 +37079,7 @@ msgstr "Locks/Batch"
 msgid "Lockwaits"
 msgstr "Lockwaits"
 
-#: ../cmk/gui/views.py:1345
+#: ../cmk/gui/views.py:1342
 msgid "Log"
 msgstr "Log"
 
@@ -38336,7 +38317,7 @@ msgstr "Dieses Regelpaket in der Erweiterungspaketverwaltung verfügbar machen"
 msgid "Make this variable available in notifications"
 msgstr "Diese Variable in der Alarmierung verfügbar machen"
 
-#: ../cmk/gui/views.py:1365
+#: ../cmk/gui/views.py:1362
 msgid "Make view sortable by user"
 msgstr "Benutzer kann Ansicht sortieren"
 
@@ -38355,7 +38336,7 @@ msgstr "Manpage Browser"
 msgid "Man page %s not found."
 msgstr "Manpage %s nicht gefunden."
 
-#: ../cmk/gui/valuespec.py:5992
+#: ../cmk/gui/valuespec.py:5959
 msgid "Manage"
 msgstr "Verwalten"
 
@@ -39176,7 +39157,7 @@ msgstr "Maximale Anzahl von nicht-operativen Zugangspunkten"
 msgid "Maximum bulk size"
 msgstr "Maximale Anzahl von Alarmen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5113
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5094
 #: ../cmk/gui/cee/plugins/wato/dcd.py:802
 msgid "Maximum cache age must be greater than period."
 msgstr "Das maximale Cache-Alter muss größer als der Zeitraum sein."
@@ -39233,7 +39214,7 @@ msgstr "Maximale Entfernung (TTL) zum Gateway"
 msgid "Maximum expected run time for heart beat packet"
 msgstr "Maximale erwartete Laufzeit des Lebenszeichens"
 
-#: ../cmk/gui/valuespec.py:5532
+#: ../cmk/gui/valuespec.py:5499
 #, python-format
 msgid "Maximum image size: %dx%dpx"
 msgstr "Maximale Bildgröße: %dx%dpx"
@@ -40193,7 +40174,7 @@ msgstr "Fehlende Voraussetzung"
 msgid "Missing connection parameter: %s"
 msgstr "Fehlende Verbindungseinstellung : %s"
 
-#: ../cmk/gui/views.py:1918
+#: ../cmk/gui/views.py:1915
 #, python-format
 msgid ""
 "Missing context information: %s. You can either add this as a fixed setting, "
@@ -40284,7 +40265,7 @@ msgstr "Variable user_id fehlt"
 msgid "Mixed"
 msgstr "Gemischt"
 
-#: ../cmk/gui/views.py:1333
+#: ../cmk/gui/views.py:1330
 msgid "Mobile"
 msgstr "Mobil"
 
@@ -40453,7 +40434,7 @@ msgstr "Ändern"
 msgid "Modify builtin %s"
 msgstr "Eingebaute %s bearbeiten"
 
-#: ../cmk/gui/views.py:936
+#: ../cmk/gui/views.py:933
 msgid "Modify display options"
 msgstr "Anzeigeoptionen verändern"
 
@@ -40652,7 +40633,7 @@ msgid "Monitored jobs"
 msgstr "Überwachte Jobs"
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:778
-#: ../cmk/gui/wato/pages/bulk_import.py:459
+#: ../cmk/gui/wato/pages/bulk_import.py:462
 msgid "Monitored on site"
 msgstr "Monitored auf Instanz"
 
@@ -41093,7 +41074,7 @@ msgstr "N * 100%, da jeder Kern mit 100% bei Volllast beiträgt"
 msgid "N#"
 msgstr "Nr."
 
-#: ../cmk/gui/views.py:1181 ../cmk/gui/views.py:1185
+#: ../cmk/gui/views.py:1178 ../cmk/gui/views.py:1182
 #: ../cmk/gui/availability.py:139 ../cmk/gui/availability.py:155
 #: ../cmk/gui/availability.py:167 ../cmk/gui/cee/ntop/pages.py:688
 #: ../cmk/gui/cee/ntop/pages.py:1065 ../cmk/gui/cee/ntop/pages.py:1095
@@ -42256,7 +42237,7 @@ msgstr ""
 msgid "No data."
 msgstr "Keine Daten."
 
-#: ../cmk/gui/views.py:1604
+#: ../cmk/gui/views.py:1601
 msgid "No datasource defined."
 msgstr "Keine Datenquelle definiert."
 
@@ -42399,7 +42380,7 @@ msgstr "Keine Treffer"
 msgid "No matching Werks found."
 msgstr "Keine passenden Werks gefunden."
 
-#: ../cmk/gui/views.py:3146
+#: ../cmk/gui/views.py:3145
 msgid "No matching data row. No command sent."
 msgstr "Befehl nicht gesendet: Keine passenden Daten."
 
@@ -42465,7 +42446,7 @@ msgstr "Keine Einschränkung auf bestimmte Objekte"
 msgid "No roles assigned."
 msgstr "Keine Rollen zugewiesen."
 
-#: ../cmk/gui/views.py:3097
+#: ../cmk/gui/views.py:3096
 msgid "No rows selected to perform actions for."
 msgstr "Keine Zeilen für Aktionen ausgewählt."
 
@@ -42542,7 +42523,7 @@ msgstr "Kein Inventarbaum gefunden."
 msgid "No test host"
 msgstr "Kein Testhost"
 
-#: ../cmk/gui/views.py:3314 ../cmk/gui/plugins/dashboard/utils.py:923
+#: ../cmk/gui/views.py:3313 ../cmk/gui/plugins/dashboard/utils.py:923
 msgid "No title"
 msgstr "Kein Titel"
 
@@ -42685,12 +42666,12 @@ msgstr "Grundrauschen"
 msgid "Nominal Frequencies"
 msgstr "Nominelle Frequenzen"
 
-#: ../cmk/gui/valuespec.py:651 ../cmk/gui/watolib/host_attributes.py:666
-#: ../cmk/gui/watolib/host_attributes.py:671
+#: ../cmk/gui/valuespec.py:651 ../cmk/gui/watolib/host_attributes.py:669
+#: ../cmk/gui/watolib/host_attributes.py:674
 msgid "Non-ASCII characters are not allowed here."
 msgstr "Hier sind nur ASCII-Zeichen erlaubt."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:301
+#: ../cmk/gui/wato/pages/bulk_import.py:304
 #, python-format
 msgid "Non-ASCII characters are not allowed in the attribute \"%s\"."
 msgstr "Im Attribut \"%s\" sind nur ASCII-Zeichen erlaubt."
@@ -42948,7 +42929,7 @@ msgstr ""
 "wenn die Schwellwerte gerissen wurden. Mit dieser Option wird der Wert immer "
 "angezeigt."
 
-#: ../cmk/gui/watolib/host_attributes.py:932
+#: ../cmk/gui/watolib/host_attributes.py:935
 msgid "Not"
 msgstr "Nicht"
 
@@ -43491,7 +43472,7 @@ msgstr "Anzahl der Checkmk-Checkers ist kleiner als die Anzahl der CPUs"
 msgid "Number of Chunks"
 msgstr "Anzahl der Chunks"
 
-#: ../cmk/gui/views.py:1405
+#: ../cmk/gui/views.py:1402
 msgid "Number of Columns"
 msgstr "Spaltenanzahl"
 
@@ -44566,7 +44547,7 @@ msgstr "Ungerade Zeilen"
 msgid "Of aggregations"
 msgstr "Von Aggregaten"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4797
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4778
 msgid "Official Release version"
 msgstr "Offizielles Release"
 
@@ -44671,7 +44652,7 @@ msgstr "Bei ausgewählten Aggregaten"
 msgid "On selected hosts"
 msgstr "Für ausgewählte Hosts"
 
-#: ../cmk/gui/views.py:831
+#: ../cmk/gui/views.py:828
 msgid "On selected objects"
 msgstr "Bei ausgewählten Objekten"
 
@@ -44800,7 +44781,7 @@ msgstr "Online (Version: %s, Edition: %s)"
 msgid "Only A-Z, a-z, 0-9 and minus (-) are allowed."
 msgstr "Nur A-Z, a-z, 0-9 und Minus (-) sind erlaubt."
 
-#: ../cmk/gui/valuespec.py:6271
+#: ../cmk/gui/valuespec.py:6238
 msgid ""
 "Only accepting HTTPS connections with a server which certificate is signed "
 "with one of the CAs that are listed here. That way it is guaranteed that it "
@@ -45311,7 +45292,7 @@ msgstr ""
 "Agentenregistrierung und/oder Updates an. Wenn Sie diese Daten hier nicht "
 "eingeben, können Sie sie bei der Registrierung angeben."
 
-#: ../cmk/gui/views.py:1385 ../cmk/gui/plugins/views/painters.py:1668
+#: ../cmk/gui/views.py:1382 ../cmk/gui/plugins/views/painters.py:1668
 #: ../cmk/gui/plugins/views/painters.py:2392
 #: ../cmk/gui/plugins/views/painters.py:2858
 #: ../cmk/gui/plugins/views/availability.py:366
@@ -45449,7 +45430,7 @@ msgstr "Oracle Tablespace"
 msgid "Oracle tablespaces"
 msgstr "Oracle Tablespaces"
 
-#: ../cmk/gui/views.py:1561
+#: ../cmk/gui/views.py:1558
 msgid "Order"
 msgstr "Ordnung"
 
@@ -45457,7 +45438,7 @@ msgstr "Ordnung"
 msgid "Organization"
 msgstr "Organisation"
 
-#: ../cmk/gui/valuespec.py:6236
+#: ../cmk/gui/valuespec.py:6203
 msgid "Organization Name"
 msgstr "Name der Organisation"
 
@@ -45712,7 +45693,7 @@ msgstr "Output-Bandbreite"
 msgid "Output broadcast packets"
 msgstr "Ausgehende Broadcast-Pakete"
 
-#: ../cmk/gui/views.py:2066
+#: ../cmk/gui/views.py:2065
 #, python-format
 msgid "Output format '%s' not supported"
 msgstr "Ausgabeformat'%s' nicht unterstützt"
@@ -45813,7 +45794,7 @@ msgstr ""
 "Gesamtzustand von aller vSphere-Server, mit Anzahl der Dienste in den "
 "verschiedenen Zustände."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4681
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4662
 msgid "Overall status"
 msgstr "Gesamtstatus"
 
@@ -46285,7 +46266,7 @@ msgstr "Seiten"
 msgid "Pages per second"
 msgstr "Seiten pro Sekunde"
 
-#: ../cmk/gui/plugins/views/utils.py:2077
+#: ../cmk/gui/plugins/views/utils.py:2078
 #, python-format
 msgid "Painter %r returned invalid result: %r"
 msgstr "Painter %r lieferte ein ungültiges Ergebnis: %r"
@@ -47170,7 +47151,7 @@ msgstr "Echtzeitchecks ausführen"
 msgid "Perform a check of the URL or the certificate expiration."
 msgstr "Überprüfe URL oder Ablauf des Zertifikats"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:344
+#: ../cmk/gui/wato/pages/bulk_import.py:347
 msgid "Perform automatic service discovery"
 msgstr "Automatische Service-Erkennung durchführen"
 
@@ -47250,7 +47231,7 @@ msgstr "Performance-Verbesserungen"
 msgid "Performance options"
 msgstr "Performance-Einstellungen"
 
-#: ../cmk/gui/valuespec.py:6212 ../cmk/gui/cee/reporting.py:1516
+#: ../cmk/gui/valuespec.py:6179 ../cmk/gui/cee/reporting.py:1516
 msgid "Period"
 msgstr "Periode"
 
@@ -47258,7 +47239,7 @@ msgstr "Periode"
 msgid "Period end date"
 msgstr "Enddatum des Zeitraums"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5205
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5186
 msgid "Period for outdated piggybacked host data"
 msgstr "Zeitraum für veraltete Huckepack-Hostdaten"
 
@@ -47527,7 +47508,7 @@ msgstr "Physischer Status des Ports"
 msgid "Piano Bar"
 msgstr "Klavier"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4744
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4725
 #: ../cmk/utils/tags.py:609
 msgid "Piggyback"
 msgstr "Huckepack"
@@ -47556,7 +47537,7 @@ msgstr "Huckepack Name der virtuellen Maschine"
 msgid "Piggybacked docker containers"
 msgstr "Huckepack Docker Container"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5150
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5131
 msgid "Piggybacked host name expressions"
 msgstr "Ausdrücke für Piggyback-Hostnamen"
 
@@ -47643,7 +47624,7 @@ msgstr "Plattform"
 msgid "Platform Firmware level"
 msgstr "Plattform Firmware-Ebene"
 
-#: ../cmk/gui/views.py:1366
+#: ../cmk/gui/views.py:1363
 msgid "Play alarm sounds"
 msgstr "Alarmtöne abspielen"
 
@@ -47667,7 +47648,7 @@ msgstr ""
 msgid "Please add at least one child node."
 msgstr "Bitte fügen Sie mindestens einen untergeordneten Knoten hinzu."
 
-#: ../cmk/gui/views.py:1430
+#: ../cmk/gui/views.py:1427
 msgid "Please add at least one column to your view."
 msgstr "Bitte mindestens eine Spalte zur Ansicht hinzufügen."
 
@@ -47696,11 +47677,11 @@ msgstr ""
 "sicher genug abgelegt. In anderen Fällen kann es gut sein die Datensicherung "
 "mit Check_MK zu verschlüsseln."
 
-#: ../cmk/gui/valuespec.py:5514 ../cmk/gui/valuespec.py:5521
+#: ../cmk/gui/valuespec.py:5481 ../cmk/gui/valuespec.py:5488
 msgid "Please choose a PNG image."
 msgstr "Bitte wählen Sie ein PNG-Bild."
 
-#: ../cmk/gui/valuespec.py:5562 ../cmk/gui/http.py:123
+#: ../cmk/gui/valuespec.py:5529 ../cmk/gui/http.py:123
 msgid "Please choose a file to upload."
 msgstr "Bitte wählen Sie eine Datei zum Hochladen."
 
@@ -47714,7 +47695,7 @@ msgstr ""
 "Bitte wählen Sie die Quelle von der Sie die Wiederherstellung ausführen "
 "wollen."
 
-#: ../cmk/gui/valuespec.py:5526
+#: ../cmk/gui/valuespec.py:5493
 msgid "Please choose a valid PNG image."
 msgstr "Bitte wählen Sie ein gültiges PNG-Bild."
 
@@ -47966,7 +47947,7 @@ msgstr ""
 msgid "Please provide a valid name"
 msgstr "Bitte geben Sie einen gültigen Namen an"
 
-#: ../cmk/gui/valuespec.py:5453 ../cmk/gui/valuespec.py:5458
+#: ../cmk/gui/valuespec.py:5420 ../cmk/gui/valuespec.py:5425
 msgid "Please select a file."
 msgstr "Bitte wählen Sie eine Datei."
 
@@ -48130,7 +48111,7 @@ msgstr "Bitte einen Titel für die Tag-Gruppe \"%s\" angeben."
 msgid "Please specify a title."
 msgstr "Bitte geben sie einen Titel an."
 
-#: ../cmk/gui/watolib/host_attributes.py:773
+#: ../cmk/gui/watolib/host_attributes.py:776
 #, python-format
 msgid "Please specify a value for %s"
 msgstr "Bitte einen Wert für %s angeben"
@@ -48721,7 +48702,7 @@ msgstr "Prefetch Metadata Hitrate"
 msgid "Prefix"
 msgstr "Präfix"
 
-#: ../cmk/gui/valuespec.py:6383
+#: ../cmk/gui/valuespec.py:6350
 msgid "Prefix date and your name to the comment"
 msgstr "dem Kommentar das aktuelle Datum und Ihren Benutzernamen voranstellen"
 
@@ -48780,7 +48761,7 @@ msgid "Prevent loading HTML from service output or log messages"
 msgstr ""
 "Verhindern Sie das Laden von HTML aus Serviceausgaben oder Protokollmeldungen"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:362
+#: ../cmk/gui/wato/pages/bulk_import.py:365
 msgid "Preview"
 msgstr "Vorschau"
 
@@ -48982,7 +48963,7 @@ msgstr "Das Problem ist bestätigt, periodische Benachrichtigungen sind aktiv"
 msgid "Problem notifications"
 msgstr "Problem-Alarmierungen"
 
-#: ../cmk/gui/views.py:3218
+#: ../cmk/gui/views.py:3217
 #, python-format
 msgid "Problem while executing hook function %s in hook %s: %s"
 msgstr ""
@@ -49119,7 +49100,7 @@ msgstr "Prozesse"
 msgid "Processing first site %s"
 msgstr "Bearbeitung der ersten Seite %s"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5137
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5118
 msgid "Processing of Piggybacked Host Data"
 msgstr "Verarbeitung von Piggybacked-Host-Daten"
 
@@ -49178,7 +49159,7 @@ msgstr "Profilzugriffe"
 msgid "Program"
 msgstr "Programm"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4729
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4710
 msgid "Programs"
 msgstr "Programme"
 
@@ -49564,7 +49545,7 @@ msgstr "Befragter Host ist das vCenter"
 msgid "Query"
 msgstr "Anfrage"
 
-#: ../cmk/gui/views.py:1869
+#: ../cmk/gui/views.py:1866
 #, python-format
 msgid "Query %s resource"
 msgstr "Ressource %s abfragen"
@@ -49993,7 +49974,7 @@ msgstr "Raid-Status der Linux-Software"
 msgid "Random delay"
 msgstr "Zufällige zusätzliche Verzögerung"
 
-#: ../cmk/gui/valuespec.py:5424
+#: ../cmk/gui/valuespec.py:5391
 msgid "Randomize password"
 msgstr "Zufallsgesteuertes Passwort"
 
@@ -50570,7 +50551,7 @@ msgstr "Regulärer Ausdruck der auf Syslog Tag (Groß-/Kleinschreibung) passt"
 msgid "Regular expression for the beginning of the host name"
 msgstr "Reguläre Ausdrücke für den Anfang der Hostnamens"
 
-#: ../cmk/gui/valuespec.py:5590
+#: ../cmk/gui/valuespec.py:5557
 msgid "Regular expression match"
 msgstr "Regulären Ausdruck prüfen"
 
@@ -51395,7 +51376,7 @@ msgstr "Berichte"
 msgid "Reporting & availability"
 msgstr "Berichte & Verfügbarkeit"
 
-#: ../cmk/gui/views.py:785 ../cmk/gui/plugins/views/availability.py:421
+#: ../cmk/gui/views.py:782 ../cmk/gui/plugins/views/availability.py:421
 #: ../cmk/gui/cee/plugins/reporting/utils.py:57
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:452 ../cmk/gui/cee/reporting.py:675
 #: ../cmk/gui/cee/reporting.py:1013 ../cmk/gui/cee/reporting.py:2549
@@ -52079,7 +52060,7 @@ msgstr "Titel der Regel"
 msgid "Rule Tree"
 msgstr "Regelbaum"
 
-#: ../cmk/gui/valuespec.py:6354 ../cmk/gui/plugins/wato/bi_config.py:1227
+#: ../cmk/gui/valuespec.py:6321 ../cmk/gui/plugins/wato/bi_config.py:1227
 msgid "Rule activation"
 msgstr "Regelaktivierung"
 
@@ -52175,7 +52156,7 @@ msgstr "Regel:"
 msgid "Rulebased notifications are activated"
 msgstr "Die regelbasierte Alarmierung ist aktiv"
 
-#: ../cmk/gui/views.py:2852 ../cmk/gui/plugins/wato/bi_config.py:506
+#: ../cmk/gui/views.py:2851 ../cmk/gui/plugins/wato/bi_config.py:506
 #: ../cmk/gui/plugins/wato/bi_config.py:564
 #: ../cmk/gui/plugins/wato/bi_config.py:594
 #: ../cmk/gui/plugins/wato/bi_config.py:764
@@ -52707,7 +52688,7 @@ msgstr "SMTP Befehle ausführen."
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:685
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4239
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4735
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4716
 #: ../cmk/utils/tags.py:642
 msgid "SNMP"
 msgstr "SNMP"
@@ -52724,7 +52705,7 @@ msgstr "SNMP Community"
 msgid "SNMP Community for the SNMP trap"
 msgstr "SNMP-Community für die SNMP-Trap"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5083
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5064
 msgid "SNMP Context IDs"
 msgstr "SNMP Kontext-IDs"
 
@@ -52740,7 +52721,7 @@ msgstr "SNMP MIBs"
 msgid "SNMP MIBs for trap translation"
 msgstr "SNMP-MIBs für Trap-Übersetzung"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4738
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4719
 msgid "SNMP Management Board"
 msgstr "SNMP Management Board"
 
@@ -52748,7 +52729,7 @@ msgstr "SNMP Management Board"
 msgid "SNMP check for EMC Isilon quotas"
 msgstr "SNMP Check für EMC Isilon Quotas"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:462
+#: ../cmk/gui/wato/pages/bulk_import.py:465
 msgid "SNMP community"
 msgstr "SNMP Community"
 
@@ -52844,7 +52825,7 @@ msgstr "SNMPv2c (ohne Bulkwalk)"
 msgid "SNMPv3"
 msgstr "SNMPv3"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5067
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5048
 msgid "SNMPv3 contexts to use in requests"
 msgstr "Kontexte für SNMPv3-Anfragen"
 
@@ -52987,7 +52968,7 @@ msgstr "Salesforce"
 msgid "Same times for all weekdays"
 msgstr "Gleiche Zeiten für alle Wochentage"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4792
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4773
 msgid "Same version as the monitoring site"
 msgstr "Selbe Version wie die Monitoring-Instanz"
 
@@ -53541,11 +53522,11 @@ msgstr "Wartezeit in Sekunden vor Abfrage"
 msgid "Seconds to wait between sending string and polling for response"
 msgstr "Wartezeit in Sekunden zwischen Senden und Abfragen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4959
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4940
 msgid "Section"
 msgstr "Sektion"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5075
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5056
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/winperf.py:25
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:109
 msgid "Section name"
@@ -53555,7 +53536,7 @@ msgstr "Sektionsname"
 msgid "Section of files to monitor"
 msgstr "Sektion zu überwachender Dateien"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5051
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5032
 msgid "Section(s) cannot be disabled and enabled at the same time:"
 msgstr "Sektionen können nicht gleichzeitig  deaktiviert und aktiviert werden"
 
@@ -53656,7 +53637,7 @@ msgstr "Hinweise zur Verbesserung der Checkmk-Installation sehen"
 msgid "See user %s"
 msgstr "%s anderer Benutzer sehen"
 
-#: ../cmk/gui/views.py:1273
+#: ../cmk/gui/views.py:1270
 msgid "Select Datasource"
 msgstr "Datenquelle auswählen"
 
@@ -53669,7 +53650,7 @@ msgstr "Zeitperiode auswählen"
 msgid "Select all checkboxes"
 msgstr "Alle Checkboxen auswählen"
 
-#: ../cmk/gui/valuespec.py:5919
+#: ../cmk/gui/valuespec.py:5886
 msgid "Select an Icon"
 msgstr "Wählen Sie ein Symbol aus"
 
@@ -54285,7 +54266,7 @@ msgstr "Servicecheck Typ"
 msgid "Service checks"
 msgstr "Servicechecks"
 
-#: ../cmk/gui/views.py:2813 ../cmk/gui/wato/pages/hosts.py:393
+#: ../cmk/gui/views.py:2812 ../cmk/gui/wato/pages/hosts.py:393
 msgid "Service configuration"
 msgstr "Servicekonfiguration"
 
@@ -54640,7 +54621,7 @@ msgstr "Alias der Servicegruppe"
 msgid "Servicegroup name"
 msgstr "Name der Servicegruppe"
 
-#: ../cmk/gui/views.py:1353 ../cmk/gui/plugins/views/datasources.py:228
+#: ../cmk/gui/views.py:1350 ../cmk/gui/plugins/views/datasources.py:228
 msgid "Servicegroups"
 msgstr "Servicegruppen"
 
@@ -54652,7 +54633,7 @@ msgstr "Servicegruppen (zusammengefügt)"
 msgid "Servicelevel"
 msgstr "Servicelevel"
 
-#: ../cmk/gui/views.py:1347
+#: ../cmk/gui/views.py:1344
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:441
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:467
 #: ../cmk/gui/plugins/views/painters.py:2833
@@ -54917,7 +54898,7 @@ msgstr "Setze Ausführungsmodus für Plugins und lokale Checks"
 msgid "Set expected router mode"
 msgstr "Setze erwarteten Mode des Routers"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:436
+#: ../cmk/gui/wato/pages/bulk_import.py:439
 msgid "Set field delimiter"
 msgstr "Setze Trennzeichen"
 
@@ -54978,7 +54959,7 @@ msgstr ""
 "Untere Schwellerte für das Prozessalter festlegen (nicht die verbrauchte CPU-"
 "Zeit, sondern die echte Zeit)."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5193
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5174
 msgid "Set maximum age"
 msgstr "Maximales Alter einstellen"
 
@@ -54990,7 +54971,7 @@ msgstr "Setzen Sie einen optionalen Timeout Wert für Verbindungen zu JIRA."
 msgid "Set optional timeout for connections to ServiceNow"
 msgstr "Optionalen Timeout für Verbindungen zu ServiceNow einstellen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5202
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5183
 msgid "Set period how long outdated piggyback data is treated as valid"
 msgstr ""
 "Zeitraum einstellen, wie lange veraltete Piggyback-Daten als gültig "
@@ -55191,7 +55172,7 @@ msgstr "Diese ntopng Instanz aktiv setzen"
 msgid "Set timeouts for plugins and local checks"
 msgstr "Timeouts für Plugins und lokale Checks"
 
-#: ../cmk/gui/views.py:1394
+#: ../cmk/gui/views.py:1391
 msgid "Set to \"0\" to disable the automatic reload."
 msgstr "Auf \"0\" setzen, um automatisches Neuladen zu deaktivieren."
 
@@ -55343,7 +55324,7 @@ msgstr ""
 "Schwellwerte einrichten dann sollten Sie auch einen Durchschnittswert "
 "verwenden."
 
-#: ../cmk/gui/views.py:2796 ../cmk/gui/plugins/wato/background_job.py:129
+#: ../cmk/gui/views.py:2795 ../cmk/gui/plugins/wato/background_job.py:129
 #: ../cmk/gui/plugins/sidebar/wato.py:131
 #: ../cmk/gui/plugins/sidebar/wato.py:162 ../cmk/gui/backup.py:574
 #: ../cmk/gui/watolib/search.py:397 ../cmk/gui/notify.py:164
@@ -55603,7 +55584,7 @@ msgstr "Bulks anzeigen"
 msgid "Show check parameters"
 msgstr "Check-Parameter anzeigen"
 
-#: ../cmk/gui/views.py:946 ../cmk/gui/wato/pages/services.py:1427
+#: ../cmk/gui/views.py:943 ../cmk/gui/wato/pages/services.py:1427
 msgid "Show checkboxes"
 msgstr "Checkboxen anzeigen"
 
@@ -55623,7 +55604,7 @@ msgstr "Bedienelemente anzeigen"
 msgid "Show current / last state of this backup job"
 msgstr "Den aktuellen / letzten Zustand des Backup-Jobs einsehen"
 
-#: ../cmk/gui/views.py:1363
+#: ../cmk/gui/views.py:1360
 msgid "Show data only on search"
 msgstr "Daten nur bei Suche zeigen"
 
@@ -55913,7 +55894,7 @@ msgstr "Zeige dieses Attribut in Host-Tabellen in den Einstellungen"
 msgid "Show this attribute in the user table of the setup menu"
 msgstr "Dieses Attribut in der Benutzertabelle des Setup-Menüs anzeigen"
 
-#: ../cmk/gui/views.py:1362
+#: ../cmk/gui/views.py:1359
 msgid "Show this view in the Mobile GUI"
 msgstr "Diese Ansicht in der GUI für Mobilgeräte zeigen"
 
@@ -55966,7 +55947,7 @@ msgstr "Benutzerregeln"
 msgid "Show vertical axis"
 msgstr "Zeige die vertikale Achse"
 
-#: ../cmk/gui/valuespec.py:5429
+#: ../cmk/gui/valuespec.py:5396
 msgid "Show/Hide password"
 msgstr "Passwort anzeigen/ausblenden"
 
@@ -56281,8 +56262,8 @@ msgstr "Verbrauch bei Einzelanforderung"
 msgid "Siren"
 msgstr "Sirene"
 
-#: ../cmk/gui/valuespec.py:6292 ../cmk/gui/valuespec.py:6320
-#: ../cmk/gui/views.py:2967 ../cmk/gui/plugins/views/painters.py:356
+#: ../cmk/gui/valuespec.py:6259 ../cmk/gui/valuespec.py:6287
+#: ../cmk/gui/views.py:2966 ../cmk/gui/plugins/views/painters.py:356
 #: ../cmk/gui/plugins/views/sorters.py:274
 #: ../cmk/gui/plugins/views/availability.py:1191
 #: ../cmk/gui/wato/pages/activate_changes.py:420
@@ -56774,7 +56755,7 @@ msgstr ""
 "gesetzt ist. Bitte beachten Sie, dass der Agent dieses Verzeichnis nicht "
 "automatisch bereinigt."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4889
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4870
 msgid ""
 "Some agents or agent plugins send data not only for the queried host but "
 "also for other hosts &quot;piggyback&quot; with their own data. This is the "
@@ -57067,7 +57048,7 @@ msgstr ""
 "Damit Sie die Berechtigungen des Hosts verändern dürfen benötigen Sie "
 "Schreibzugriff auf den Ordner dem der Host zugeordnet ist."
 
-#: ../cmk/gui/views.py:3074
+#: ../cmk/gui/views.py:3073
 msgid "Sorry. This command is not implemented."
 msgstr "Dieser Befehl ist nicht implementiert."
 
@@ -57075,7 +57056,7 @@ msgstr "Dieser Befehl ist nicht implementiert."
 msgid "Sort"
 msgstr "Sortieren"
 
-#: ../cmk/gui/table.py:585 ../cmk/gui/plugins/views/utils.py:1906
+#: ../cmk/gui/table.py:585 ../cmk/gui/plugins/views/utils.py:1907
 #, python-format
 msgid "Sort by %s"
 msgstr "Sortierung nach %s"
@@ -57091,7 +57072,7 @@ msgstr "Sortierungsindex"
 msgid "Sort overflow"
 msgstr "Sortiere Überlauf"
 
-#: ../cmk/gui/views.py:1546 ../cmk/gui/views.py:1567
+#: ../cmk/gui/views.py:1543 ../cmk/gui/views.py:1564
 msgid "Sorting"
 msgstr "Sortierung"
 
@@ -57146,7 +57127,7 @@ msgstr "Freie und kaputte Platten"
 msgid "Spare disk"
 msgstr "Freie Platten"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4732
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4713
 msgid "Special Agent"
 msgstr "Spezialagent"
 
@@ -57174,7 +57155,7 @@ msgstr "Bestimmte Instanzen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_plugin.py:37
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_plugin.py:38
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4793
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4774
 msgid "Specific version"
 msgstr "Bestimmte Version"
 
@@ -58255,7 +58236,7 @@ msgstr "Status für ungültige Kalibrierung"
 msgid "State if conditions above are not satisfied"
 msgstr "Status, falls die oberen Bedingungen nicht erfüllt sind"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4692
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4673
 msgid "State if just <i>some</i> check plugins received no monitoring data"
 msgstr ""
 "Zustand, wenn nur <i>einige</i> Check-Plugins keine Überwachungsdaten "
@@ -58294,7 +58275,7 @@ msgstr "Zustand, wenn Node nicht im Zustand running ist"
 msgid "State if remaining API reads are unknown"
 msgstr "Status falls verbleibende API Leseoperationen unbekannt sind"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4710
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4691
 msgid "State if specific check plugins receive no monitoring data."
 msgstr "Status, wenn bestimmte Check-Plugins keine Überwachungsdaten erhalten."
 
@@ -58347,7 +58328,7 @@ msgstr "Status falls Force Logging eingeschaltet ist:"
 msgid "State in case of Job has no log information"
 msgstr "Status des Service, falls der Job keine Log-Informationen hat"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4650
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4631
 msgid "State in case of a timeout"
 msgstr "Status bei allgemeiner Zeitüberschreitung"
 
@@ -58355,11 +58336,11 @@ msgstr "Status bei allgemeiner Zeitüberschreitung"
 msgid "State in case of absent updates"
 msgstr "Status bei fehlenden Updates"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4646
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4627
 msgid "State in case of connection problems"
 msgstr "Status bei Verbindungsproblemen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4642
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4623
 msgid "State in case of empty output"
 msgstr "Status bei leerer Ausgabe"
 
@@ -58375,11 +58356,11 @@ msgstr "Zustand für den Fall, dass keine Systemreplikation erfolgt"
 msgid "State in case of non space error count is greater then 0: "
 msgstr "Status, falls der \"Non Space Error\"-Zähler größer als 0 ist:"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4749
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4730
 msgid "State in case of restricted address missmatch"
 msgstr "Zustand bei eingeschränkter Adressübereinstimmung"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4654
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4635
 msgid "State in case of unhandled exception"
 msgstr "Status im Falle von unbehandelten Ausnahmen"
 
@@ -58387,8 +58368,8 @@ msgstr "Status im Falle von unbehandelten Ausnahmen"
 msgid "State in case of unknown status from replication script"
 msgstr "Status bei unbekanntem Status vom Replikationsskript"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4686
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4725
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4667
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4706
 msgid "State in case of wrong agent version"
 msgstr "Status bei falscher Agentenversion"
 
@@ -58492,7 +58473,7 @@ msgstr "Status bei Disk-Lesefehler"
 msgid "State on hard write error"
 msgstr "Status bei hartem Schreibefehler"
 
-#: ../cmk/gui/valuespec.py:6234
+#: ../cmk/gui/valuespec.py:6201
 msgid "State or Province Name"
 msgstr "Staat oder Provinz"
 
@@ -59004,7 +58985,7 @@ msgstr "Status des Services, falls der Job deaktiviert ist"
 msgid "Status of service in case of missing job"
 msgstr "Status des Services, falls der Job fehlt"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4764
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4745
 msgid "Status of the Checkmk services"
 msgstr "Status der Checkmk-Services"
 
@@ -59370,7 +59351,7 @@ msgstr ""
 "Unterordner sind gesperrt (Sie können hier keine Ordner anlegen oder "
 "entfernen)"
 
-#: ../cmk/gui/valuespec.py:6256 ../cmk/gui/plugins/wato/active_checks.py:2034
+#: ../cmk/gui/valuespec.py:6223 ../cmk/gui/plugins/wato/active_checks.py:2034
 #: ../cmk/gui/wato/mkeventd.py:3467 ../cmk/gui/cee/reporting.py:563
 msgid "Subject"
 msgstr "Subjekt"
@@ -59494,7 +59475,7 @@ msgstr "Anmeldung an entfernte Instanz %s war erfolgreich."
 msgid "Successfully moved hosts to their original folder destinations."
 msgstr "Hosts erfolgreich in ihre Originalordner verschoben."
 
-#: ../cmk/gui/views.py:3142 ../cmk/gui/mobile.py:496
+#: ../cmk/gui/views.py:3141 ../cmk/gui/mobile.py:496
 #, python-format
 msgid "Successfully sent %d commands."
 msgstr "Erfolgreich %d Befehle gesendet."
@@ -59806,7 +59787,7 @@ msgstr "Sync-Plugins: Rollen"
 msgid "Synchronization job acknowledged"
 msgstr "Synchronisations-Job bestätigt"
 
-#: ../cmk/gui/userdb.py:1288 ../cmk/gui/watolib/host_label_sync.py:137
+#: ../cmk/gui/userdb.py:1290 ../cmk/gui/watolib/host_label_sync.py:137
 msgid "Synchronization started..."
 msgstr "Synchronisation gestartet..."
 
@@ -60291,7 +60272,7 @@ msgstr "Merkmalnutzung"
 msgid "Tag value"
 msgstr "Wert des Merkmals"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:467
+#: ../cmk/gui/wato/pages/bulk_import.py:470
 #, python-format
 msgid "Tag: %s"
 msgstr "Merkmal: %s"
@@ -61607,13 +61588,6 @@ msgstr ""
 "abgerufen wurde. Wird berechnet, indem LGETDATE/LGETTIME vom aktuellen "
 "Zeitstempel subtrahiert wird."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4589
-msgid ""
-"The agent communication is encrypted using AES. The underlying key is "
-"generated and stored automatically on rule creation. To enforce a new key, "
-"the rule must be deleted and replaced with a new one."
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:89
 msgid ""
 "The agent plugin <tt>mk_filestats</tt> monitors a configured set of files "
@@ -61744,7 +61718,7 @@ msgstr "Anwendung (syslog Merkmal) passt nicht"
 msgid "The aspect of the image is preserved."
 msgstr "Das Seitenverhältnis des Bildes wird erhalten."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:283
+#: ../cmk/gui/wato/pages/bulk_import.py:286
 #, python-format
 msgid ""
 "The attribute \"%s\" is assigned to multiple columns. You can not populate "
@@ -62066,7 +62040,7 @@ msgstr "Der Cluster kann kein Knoten von sich selber sein"
 msgid "The cluster must have at least one node"
 msgstr "Der Cluster muss zumindest einen Node haben"
 
-#: ../cmk/gui/valuespec.py:6071
+#: ../cmk/gui/valuespec.py:6038
 msgid "The color needs to be given in hex format."
 msgstr "Die Farbe muss im HEX-Format angegeben werden."
 
@@ -62181,7 +62155,7 @@ msgstr ""
 "Die konfigurierte vordefinierte Bedingung wurde entweder entfernt oder Sie "
 "dürfen sie nicht verwenden. Bitte wählen Sie eine andere aus."
 
-#: ../cmk/gui/valuespec.py:6295
+#: ../cmk/gui/valuespec.py:6262
 msgid "The configured site is not known to this site."
 msgstr "Die Konfigurierte Instanz ist dieser Instanz nicht bekannt."
 
@@ -62401,11 +62375,11 @@ msgstr "Typ passt auf keine möglichen Alternativen."
 msgid "The database name on the Mailbox Server."
 msgstr "Der Datenbankname auf dem Mailbox-Server"
 
-#: ../cmk/gui/views.py:1381
+#: ../cmk/gui/views.py:1378
 msgid "The datasource of a view cannot be changed."
 msgstr "Datenquelle einer Ansicht kann nicht geändert werden."
 
-#: ../cmk/gui/views.py:1226
+#: ../cmk/gui/views.py:1223
 msgid ""
 "The datasources define which type of objects should be displayed with this "
 "view."
@@ -62573,7 +62547,7 @@ msgstr ""
 "E-Mail-Adresse ist optional und nur dann notwendig, wenn der Benutzer als "
 "Kontakt eingetragen ist und Alarmierungs-E-Mails bekommen soll."
 
-#: ../cmk/gui/valuespec.py:6031
+#: ../cmk/gui/valuespec.py:5998
 #, python-format
 msgid "The emblem type is %s, but should be str"
 msgstr "Der Emblemtyp ist %s, sollte aber str sein"
@@ -62728,7 +62702,7 @@ msgstr ""
 "Ändern Sie nie gleichzeitig ID und Titel eines Merkmals, da WATO dann die "
 "Zuordnung in Ordnern, Hosts und Regeln nicht durchführen kann."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:445
+#: ../cmk/gui/wato/pages/bulk_import.py:448
 msgid "The first line in the file contains titles."
 msgstr "Die erste Zeile der Datei beinhaltet Titel."
 
@@ -62738,7 +62712,7 @@ msgstr ""
 "Die erste Regel, die zutrifft, legt den Wert fest. Weitere Regeln werden "
 "nicht mehr ausgewertet."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:370
+#: ../cmk/gui/wato/pages/bulk_import.py:373
 msgid ""
 "The first row below the titles contains fields to specify which column of "
 "the CSV file should be imported to which attribute of the created hosts. The "
@@ -62840,7 +62814,7 @@ msgstr "Objekt <tt>%s</tt> ist im LDAP nicht vorhanden (%s)"
 msgid "The given datasource is not supported"
 msgstr "Die angegebene Datenquelle wird nicht unterstützt."
 
-#: ../cmk/gui/views.py:1606
+#: ../cmk/gui/views.py:1603
 msgid "The given datasource is not supported."
 msgstr "Die angegebene Datenquelle wird nicht unterstützt."
 
@@ -63005,7 +62979,7 @@ msgstr "Der Host fehlt."
 msgid "The host must be in one of the selected host groups"
 msgstr "Der Host muss in einer der ausgewählten Hostgruppen sein"
 
-#: ../cmk/gui/wato/pages/bulk_import.py:315
+#: ../cmk/gui/wato/pages/bulk_import.py:318
 msgid "The host name attribute needs to be assigned to a column."
 msgstr "Das Hostname-Attribut muss einre Spalte zugeordnet sein."
 
@@ -63072,7 +63046,7 @@ msgstr ""
 "diese Hosts aus dem Monitoring entfernen, werden sie automatisch "
 "deregistriert und von dieser Liste entfernt."
 
-#: ../cmk/gui/valuespec.py:6028
+#: ../cmk/gui/valuespec.py:5995
 #, python-format
 msgid "The icon type is %s, but should be str"
 msgstr "Der Icon-Typ ist %s, sollte aber str sein"
@@ -63226,12 +63200,12 @@ msgstr ""
 "Der Schlüssel mit dem Fingerprint %s wird zur Wiederherstellung benötigt, "
 "fehlt aber."
 
-#: ../cmk/gui/valuespec.py:5691
+#: ../cmk/gui/valuespec.py:5658
 #, python-format
 msgid "The label ID %r is of type %s, but should be %s"
 msgstr "Die Label-ID %r ist vom Typ %s, sollte aber %s sein"
 
-#: ../cmk/gui/valuespec.py:5695
+#: ../cmk/gui/valuespec.py:5662
 #, python-format
 msgid "The label value %r is of type %s, but should be %s"
 msgstr "Der Label-Wert %r ist vom Typ %s, sollte aber %s sein"
@@ -63277,7 +63251,7 @@ msgstr "Die letzten 400 Tage"
 msgid "The last 8 days"
 msgstr "Die letzten 8 Tage"
 
-#: ../cmk/gui/views.py:3144
+#: ../cmk/gui/views.py:3143
 #, python-format
 msgid "The last one was: <pre>%s</pre>"
 msgstr "Letzter Wert war <pre>%s</pre>"
@@ -64434,7 +64408,7 @@ msgstr "Die angeforderte globale Einstellung ist nicht vorhanden."
 msgid "The requested graph does not exist"
 msgstr "Der angefragte Graph existiert nicht"
 
-#: ../cmk/gui/views.py:1745 ../cmk/gui/plugins/webapi/grafana.py:132
+#: ../cmk/gui/views.py:1742 ../cmk/gui/plugins/webapi/grafana.py:132
 #: ../cmk/gui/htmllib.py:1187
 #, python-format
 msgid "The requested item %s does not exist"
@@ -64688,11 +64662,11 @@ msgstr ""
 "Das ausgewählte Element '%r' ist nicht mehr verfügbar. Bitte wählen Sie "
 "etwas anderes aus."
 
-#: ../cmk/gui/valuespec.py:6043
+#: ../cmk/gui/valuespec.py:6010
 msgid "The selected emblem does not exist."
 msgstr "Das ausgewählte Emblem ist nicht vorhanden."
 
-#: ../cmk/gui/valuespec.py:5462
+#: ../cmk/gui/valuespec.py:5429
 msgid "The selected file is empty. Please select a non-empty file."
 msgstr ""
 "Die ausgewählte Datei ist leer. Bitte wähle eine nicht leere Datei aus."
@@ -64701,7 +64675,7 @@ msgstr ""
 msgid "The selected hosts have no explicit attributes"
 msgstr "Ausgewählten Hosts habe keine expliziten Merkmale"
 
-#: ../cmk/gui/valuespec.py:6040
+#: ../cmk/gui/valuespec.py:6007
 msgid "The selected icon does not exist."
 msgstr "Das ausgewählte Symbol ist nicht vorhanden."
 
@@ -65250,7 +65224,7 @@ msgstr "Die Gesamtgröße aller Indizes für die Kollektion"
 msgid "The tuple must contain two elements, but you have %d"
 msgstr "Tuple muss 2 Elemente enthalten - Sie haben aber %d"
 
-#: ../cmk/gui/valuespec.py:6108
+#: ../cmk/gui/valuespec.py:6075
 #, python-format
 msgid "The type is %s, but should be str"
 msgstr "Type muss str sein - ist aber %s"
@@ -65305,11 +65279,11 @@ msgstr ""
 "Der Benutzer %s, welcher vom Netzwerkscan des Folders %s benutzt wurde, "
 "existiert nicht."
 
-#: ../cmk/gui/userdb.py:1291
+#: ../cmk/gui/userdb.py:1293
 msgid "The user synchronization completed successfully."
 msgstr "Der Benutzerabgleich wurde erfolgreich durchgeführt."
 
-#: ../cmk/gui/userdb.py:1293
+#: ../cmk/gui/userdb.py:1295
 msgid "The user synchronization failed."
 msgstr "Die Synchronisation ist fehlgeschlagen."
 
@@ -65329,7 +65303,7 @@ msgstr ""
 "Der Benutzer, der für die Anmeldung verwendet wird, muss mindestens die "
 "Rolle 'itil' in ServiceNow haben."
 
-#: ../cmk/gui/userdb.py:1155
+#: ../cmk/gui/userdb.py:1157
 #, python-format
 msgid "The username returned by the %s connector is not of type string (%r)."
 msgstr ""
@@ -65465,7 +65439,7 @@ msgstr ""
 "Die Ansicht '%s', welche die Datenquelle '%s' nutzt, kann nicht dargestellt "
 "werden, da die Datenquelle nicht existiert."
 
-#: ../cmk/gui/views.py:414
+#: ../cmk/gui/views.py:411
 #, python-format
 msgid ""
 "The view '%s' using the layout '%s' can not be rendered because the layout "
@@ -67047,7 +67021,7 @@ msgstr ""
 "Agentenbäckerei arbeiten kann diese Liste leer sein. Geben Sie dann den "
 "Namen des Remote-Alerthandlers manuell an."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:366
+#: ../cmk/gui/wato/pages/bulk_import.py:369
 msgid ""
 "This list shows you the first 10 rows from your CSV file in the way the "
 "import is currently parsing it. If the lines are not splitted correctly or "
@@ -67230,7 +67204,7 @@ msgstr ""
 "alle paketierten Dateien in einen unpaketierten Zustand. Die Dateien können "
 "dann frei in ein anderes Paket verpakt oder manuell gelöscht werden."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5006
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4987
 msgid ""
 "This option allows to omit individual sections from being fetched at all. As "
 "a result, associated Checkmk services may be entirely missing. However, some "
@@ -68298,7 +68272,7 @@ msgstr ""
 msgid "This rule allows you to override netapp warnings"
 msgstr "Diese Regel erlaubt das Überschreiben von NetApp Warnungen"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4856
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4837
 msgid ""
 "This rule allows you to restrict the access to the Check_MK agent to certain "
 "IP addresses and networks. Usually you configure just the IP addresses of "
@@ -68427,7 +68401,7 @@ msgstr ""
 "Dieser Regelsatz steuert die Serviceerkennung von Brocade-Ports. Sie können "
 "dabei festlegen, welche Ports in die Überwachung aufgenommen werden."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4947
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4928
 msgid ""
 "This rule can be used to customize the data acquisition interval of SNMP "
 "based sections. This can be useful for cases where fetching the data takes "
@@ -69278,7 +69252,7 @@ msgstr ""
 "Das ist dann der Fall, wenn der Host eine dynamische IP Adresse hat, die "
 "sich ändert."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4765
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4746
 msgid ""
 "This ruleset specifies the total status of the Check_MK services "
 "<i>Check_MK</i>, <i>Check_MK Discovery</i> and <i>Check_MK HW/SW Inventory</"
@@ -69895,7 +69869,7 @@ msgstr ""
 "Diese Variable ist in den <a href=\"%s\">Globalen Einstellungen</a> "
 "konfiguriert."
 
-#: ../cmk/gui/views.py:888 ../cmk/gui/plugins/views/availability.py:488
+#: ../cmk/gui/views.py:885 ../cmk/gui/plugins/views/availability.py:488
 msgid "This view as PDF"
 msgstr "Diese Ansicht als PDF"
 
@@ -70728,7 +70702,7 @@ msgstr "Zeiteinstellungen für spezielle Methoden"
 msgid "Tinkerforge"
 msgstr "Tinkerforge"
 
-#: ../cmk/gui/gui_background_job.py:363 ../cmk/gui/views.py:1459
+#: ../cmk/gui/gui_background_job.py:363 ../cmk/gui/views.py:1456
 #: ../cmk/gui/plugins/wato/graphs.py:41
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:405
 #: ../cmk/gui/plugins/wato/bi_config.py:338
@@ -70887,7 +70861,7 @@ msgstr "Elemente umschalten"
 msgid "Toggle log entries"
 msgstr "Log-Einträge umschalten"
 
-#: ../cmk/gui/valuespec.py:5985
+#: ../cmk/gui/valuespec.py:5952
 msgid "Toggle names"
 msgstr "Namen umschalten"
 
@@ -70915,7 +70889,7 @@ msgstr "Token"
 msgid "Token Bucket"
 msgstr "Marken"
 
-#: ../cmk/gui/views.py:1449
+#: ../cmk/gui/views.py:1446
 msgid "Tooltip"
 msgstr "Hinweis"
 
@@ -71625,7 +71599,7 @@ msgstr "%s übersetzt"
 msgid "Translation of VM state to monitoring state"
 msgstr "Übersetzung des Status der VM in einen Monitoringstatus"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4910
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4891
 msgid "Translation of service descriptions"
 msgstr "Übersetzung der Service-Description"
 
@@ -72485,7 +72459,7 @@ msgstr ""
 "hinzufügen oder die Berichtserstellung mit den fehlenden HTTP-Variablen "
 "aufrufen."
 
-#: ../cmk/gui/views.py:681
+#: ../cmk/gui/views.py:678
 #, python-format
 msgid ""
 "Unable to render this view, because we miss some required context "
@@ -72794,7 +72768,7 @@ msgstr "Unbekannte Pfade"
 msgid "Unknown site %s"
 msgstr "Unbekannte Instanz %s"
 
-#: ../cmk/gui/valuespec.py:6300
+#: ../cmk/gui/valuespec.py:6267
 #, python-format
 msgid "Unknown site (%s)"
 msgstr "Unbekannte Instanz (%s)"
@@ -73064,7 +73038,7 @@ msgstr "Aktualisierung des Suchindex gestartet"
 msgid "Upload"
 msgstr "Hochladen"
 
-#: ../cmk/gui/valuespec.py:5540
+#: ../cmk/gui/valuespec.py:5507
 #, python-format
 msgid "Upload %s"
 msgstr "%s hochladen"
@@ -73110,7 +73084,7 @@ msgstr "Symbol hochladen"
 msgid "Upload key"
 msgstr "Schlüssel hochladen"
 
-#: ../cmk/gui/valuespec.py:5503
+#: ../cmk/gui/valuespec.py:5470
 msgid "Upload new:"
 msgstr "Neues hochladen:"
 
@@ -74114,13 +74088,13 @@ msgstr "Lokalen FQDN benutzen"
 msgid "Use manually created ORACLE password wallet"
 msgstr "Manuell erzeugtes ORACLE Passwort-Wallet verwenden"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5131
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5112
 #: ../cmk/gui/cee/plugins/wato/dcd.py:794
 #, python-format
 msgid "Use maximum age from <a href=\"%s\">global settings</a>"
 msgstr "Maximales Alter aus <a href=\"%s\">globale Einstellungen</a> verwenden"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5133
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5114
 #, python-format
 msgid "Use maximum age from <a href=\"%s\">global settings</a> or above"
 msgstr ""
@@ -74263,15 +74237,15 @@ msgstr "Den Alias als DNS-Name / IP-Adresse verwenden"
 msgid "Use the credentials of the 'automation' user"
 msgstr "Die Anmeldeinformationen des Benutzers \"automation\" verwenden."
 
-#: ../cmk/gui/valuespec.py:6148
+#: ../cmk/gui/valuespec.py:6115
 msgid "Use the default color of the metric."
 msgstr "Standardfarbe der Metrik verwenden."
 
-#: ../cmk/gui/valuespec.py:6125
+#: ../cmk/gui/valuespec.py:6092
 msgid "Use the default color of the theme or the metric."
 msgstr "Standardfarbe des Themas oder der Metrik verwenden."
 
-#: ../cmk/gui/valuespec.py:6143
+#: ../cmk/gui/valuespec.py:6110
 msgid "Use the default color of the theme."
 msgstr "Standardfarbe des Themas verwenden."
 
@@ -74296,7 +74270,7 @@ msgstr "Standard Aussehen benutzen"
 msgid "Use the following ID"
 msgstr "Die folgende ID verwenden"
 
-#: ../cmk/gui/valuespec.py:6127 ../cmk/gui/valuespec.py:6150
+#: ../cmk/gui/valuespec.py:6094 ../cmk/gui/valuespec.py:6117
 msgid "Use the following color"
 msgstr "Die folgende Farbe verwenden"
 
@@ -74958,7 +74932,7 @@ msgstr "Benutzerrollen sind anpassbare Sätze von Berechtigungen."
 msgid "User store key"
 msgstr "Benutzerschlüssel aus dem Speicher"
 
-#: ../cmk/gui/userdb.py:1273
+#: ../cmk/gui/userdb.py:1275
 msgid "User synchronization"
 msgstr "Automatischer Benutzerabgleich"
 
@@ -75171,7 +75145,7 @@ msgstr ""
 "Mit Hilfe dieser Option können Sie den global konfigurierten Servicecheck-"
 "Timeout überschreiben."
 
-#: ../cmk/gui/wato/pages/bulk_import.py:328
+#: ../cmk/gui/wato/pages/bulk_import.py:331
 msgid ""
 "Using this page you can import several hosts at once into the choosen "
 "folder. You can choose a CSV file from your workstation to be uploaded, "
@@ -75576,7 +75550,7 @@ msgstr "Händler- und Geräte-ID"
 msgid "Venue ID"
 msgstr "Venue-ID"
 
-#: ../cmk/gui/valuespec.py:6333
+#: ../cmk/gui/valuespec.py:6300
 msgid "Verbose"
 msgstr "Verboses Logging"
 
@@ -75723,7 +75697,7 @@ msgstr "Vhosts"
 msgid "VictorOPS REST Endpoint"
 msgstr "VictorOPS REST-Endpunkt"
 
-#: ../cmk/gui/views.py:1246 ../cmk/gui/plugins/dashboard/view.py:76
+#: ../cmk/gui/views.py:1243 ../cmk/gui/plugins/dashboard/view.py:76
 #: ../cmk/gui/plugins/dashboard/view.py:91
 #: ../cmk/gui/plugins/wato/bi_config.py:650
 #: ../cmk/gui/plugins/metrics/html_render.py:823 ../cmk/gui/dashboard.py:1728
@@ -75731,7 +75705,7 @@ msgstr "VictorOPS REST-Endpunkt"
 msgid "View"
 msgstr "Ansicht"
 
-#: ../cmk/gui/views.py:1372
+#: ../cmk/gui/views.py:1369
 msgid "View Properties"
 msgstr "Ansicht-Eigenschaften"
 
@@ -75755,7 +75729,7 @@ msgstr "Regeln und Aggregationen in diesem BI-Paket anzeigen und bearbeiten"
 msgid "View changes"
 msgstr "Änderungen anzeigen"
 
-#: ../cmk/gui/views.py:902
+#: ../cmk/gui/views.py:899
 msgid "View layout"
 msgstr "Ansicht Layout"
 
@@ -76303,7 +76277,7 @@ msgstr ""
 "warn/crit Schwellwerte für diverse Skype for Business (vormals Lync) "
 "Messwerte"
 
-#: ../cmk/gui/valuespec.py:6331 ../cmk/gui/plugins/dashboard/stats.py:243
+#: ../cmk/gui/valuespec.py:6298 ../cmk/gui/plugins/dashboard/stats.py:243
 #: ../cmk/gui/plugins/views/commands.py:447
 #: ../cmk/gui/plugins/visuals/filters.py:1752
 #: ../cmk/gui/plugins/wato/check_parameters/ucs_bladecenter_faultinst.py:23
@@ -77469,7 +77443,7 @@ msgstr ""
 "Leider haben Sie nicht die erforderliche Berechtigung. Wenden Sie sich an "
 "den Administrator, um die folgende Berechtigung zu bekommen: '<b>%s</b>'."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5172
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:5153
 msgid ""
 "We assume that a source host is sending piggyback data every check interval "
 "by default. If this is not the case for some source hosts then the "
@@ -79232,7 +79206,7 @@ msgstr ""
 msgid "With unlimited scale"
 msgstr "Mit unbegrenzter Skalierung"
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4912
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4893
 msgid ""
 "Within this ruleset service descriptions can be translated similar to the "
 "ruleset <tt>Hostname translation for piggybacked hosts</tt>. Services such "
@@ -79645,7 +79619,7 @@ msgstr "Sie dürfen diese %s nicht bearbeiten."
 msgid "You are not allowed to edit your user profile."
 msgstr "Sie dürfen Ihre Benutzer-Profil nicht bearbeiten."
 
-#: ../cmk/gui/views.py:3091
+#: ../cmk/gui/views.py:3090
 msgid ""
 "You are not allowed to perform actions. If you think this is an error, "
 "please ask your administrator grant you the permission to do so."
@@ -79834,7 +79808,7 @@ msgstr ""
 "Symbole können Services bei der Status-Anzeige zugeordnet werden. Speichern "
 "Sie die Grafiken in <tt>%s</tt>. "
 
-#: ../cmk/gui/wato/pages/bulk_import.py:376
+#: ../cmk/gui/wato/pages/bulk_import.py:379
 msgid ""
 "You can change these assignments according to your needs and then start the "
 "import by clicking on the <i>Import</i> button above."
@@ -80166,7 +80140,7 @@ msgstr ""
 "Sie können nur für die lokale Instanz eine lokale Verbindung konfigurieren. "
 "Die IDs ('%s' und '%s') stimmen nicht überein."
 
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4960
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4941
 msgid ""
 "You can only configure section names here, but not choose individual check "
 "plugins. The reason for this is that the check plugins themselves are not "
@@ -81211,7 +81185,7 @@ msgstr ""
 "konfigurieren, ob der Agentenupdater in die Agenten mit reingebacken werden "
 "soll. Außerdem müssen Sie die Zugangsdaten des Updateservers angeben."
 
-#: ../cmk/gui/valuespec.py:6279
+#: ../cmk/gui/valuespec.py:6246
 msgid ""
 "You need to enter at least one CA. Otherwise no SSL connection can be made."
 msgstr ""
@@ -81276,11 +81250,11 @@ msgstr "Sie müssen Zeitperiodenausnahmen im Format JJJJJ-MM-TT angeben"
 msgid "You need to provide your current password."
 msgstr "Geben Sie bitte Ihr aktuelles Passwort an."
 
-#: ../cmk/gui/valuespec.py:6112
+#: ../cmk/gui/valuespec.py:6079
 msgid "You need to select a color."
 msgstr "Sie müssen eine Farbe auswählen."
 
-#: ../cmk/gui/valuespec.py:6037
+#: ../cmk/gui/valuespec.py:6004
 msgid "You need to select an icon."
 msgstr "Sie müssen ein Symbol auswählen."
 
@@ -81562,12 +81536,12 @@ msgstr "Zypper-Aktualisierungen"
 msgid "Zypper normal and security updates (Linux)"
 msgstr "Normale und Sicherheitsupdates für Zypper (Linux)"
 
-#: ../cmk/gui/userdb.py:1312
+#: ../cmk/gui/userdb.py:1314
 #, python-format
 msgid "[%s] Exception: %s"
 msgstr "[%s] Ausnahme: %s"
 
-#: ../cmk/gui/userdb.py:1310
+#: ../cmk/gui/userdb.py:1312
 #, python-format
 msgid "[%s] Finished sync for connection"
 msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
@@ -81578,7 +81552,7 @@ msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
 msgid "[%s] Finished sync for site"
 msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
 
-#: ../cmk/gui/userdb.py:1304
+#: ../cmk/gui/userdb.py:1306
 #, python-format
 msgid "[%s] Starting sync for connection"
 msgstr "[%s] Synchronisation für Verbindung gestartet"
@@ -81652,7 +81626,7 @@ msgstr "Bei Links zwischen zwei Switchen das Kürzel \"ISL\" hinzufügen"
 msgid "add ISL"
 msgstr "ISL markieren"
 
-#: ../cmk/gui/plugins/views/utils.py:1304
+#: ../cmk/gui/plugins/views/utils.py:1305
 #: ../cmk/gui/plugins/visuals/utils.py:381
 msgid "ago"
 msgstr "vor"
@@ -82320,7 +82294,7 @@ msgstr "Alle wichtigen Updates vollständig auflisten"
 msgid "do not activate this %s"
 msgstr "diese %s nicht aktivieren"
 
-#: ../cmk/gui/valuespec.py:6356 ../cmk/gui/plugins/wato/bi_config.py:1229
+#: ../cmk/gui/valuespec.py:6323 ../cmk/gui/plugins/wato/bi_config.py:1229
 msgid "do not apply this rule"
 msgstr "wende diese Regel nicht an"
 
@@ -82625,7 +82599,7 @@ msgstr "von"
 msgid "from the beginning"
 msgstr "vom Anfang"
 
-#: ../cmk/gui/valuespec.py:6201 ../cmk/gui/cee/plugins/wato/cmc.py:1046
+#: ../cmk/gui/valuespec.py:6168 ../cmk/gui/cee/plugins/wato/cmc.py:1046
 msgid "from the end"
 msgstr "vom Ende"
 
@@ -82878,11 +82852,11 @@ msgstr "in ... Tagen"
 msgid "in notif. p."
 msgstr "in Alarmierungszeit"
 
-#: ../cmk/gui/plugins/views/utils.py:1302
+#: ../cmk/gui/plugins/views/utils.py:1303
 msgid "in the future!"
 msgstr "in der Zukunft!"
 
-#: ../cmk/gui/plugins/views/utils.py:1300
+#: ../cmk/gui/plugins/views/utils.py:1301
 msgid "in the past!"
 msgstr "in der Vergangenheit!"
 
@@ -83218,7 +83192,7 @@ msgstr "Minute"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2641
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3344
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3369
-#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4971
+#: ../cmk/gui/plugins/wato/check_mk_configuration.py:4952
 msgid "minutes"
 msgstr "Minuten"
 
@@ -83341,7 +83315,7 @@ msgstr "Neuer Hostname"
 
 #: ../cmk/gui/plugins/views/painters.py:1543
 #: ../cmk/gui/plugins/views/painters.py:4061
-#: ../cmk/gui/plugins/views/utils.py:1323
+#: ../cmk/gui/plugins/views/utils.py:1324
 #: ../cmk/gui/plugins/visuals/utils.py:328
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:44
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:87
@@ -83403,8 +83377,7 @@ msgstr "Knoten"
 msgid "nodes"
 msgstr "Knoten"
 
-#: ../cmk/gui/valuespec.py:5315 ../cmk/gui/valuespec.py:5398
-#: ../cmk/gui/plugins/views/mkeventd.py:819
+#: ../cmk/gui/valuespec.py:5315 ../cmk/gui/plugins/views/mkeventd.py:819
 #: ../cmk/gui/plugins/views/mkeventd.py:852
 #: ../cmk/gui/wato/pages/parentscan.py:170 ../cmk/gui/wato/pages/users.py:410
 #: ../cmk/gui/wato/pages/users.py:458
@@ -83493,7 +83466,7 @@ msgstr "ntopng Benutzername für den Daten geholt werden sollen"
 msgid "objects"
 msgstr "Objekte"
 
-#: ../cmk/gui/views.py:1456
+#: ../cmk/gui/views.py:1453
 msgid "of Service"
 msgstr "des Service"
 
@@ -83506,7 +83479,7 @@ msgstr "von Service %s"
 msgid "of unspecified service"
 msgstr "von nicht spezifiziertem Service"
 
-#: ../cmk/gui/valuespec.py:2440 ../cmk/gui/views.py:1414
+#: ../cmk/gui/valuespec.py:2440 ../cmk/gui/views.py:1411
 #: ../cmk/gui/plugins/views/utils.py:344
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
 #: ../cmk/gui/wato/mkeventd.py:2476 ../cmk/gui/wato/pages/sites.py:1019
@@ -83540,7 +83513,7 @@ msgstr "auf Host %s"
 msgid "on unspecified host"
 msgstr "auf nicht spezifiziertem Host"
 
-#: ../cmk/gui/views.py:1415
+#: ../cmk/gui/views.py:1412
 msgid "once per group"
 msgstr "Einmal pro Gruppe"
 
@@ -83879,7 +83852,7 @@ msgstr "Zeige Leistungsdaten"
 msgid "processes"
 msgstr "Prozessen"
 
-#: ../cmk/gui/valuespec.py:6065 ../cmk/gui/plugins/metrics/valuespecs.py:144
+#: ../cmk/gui/valuespec.py:6032 ../cmk/gui/plugins/metrics/valuespecs.py:144
 msgid "pt"
 msgstr "Pt"
 
@@ -83927,7 +83900,7 @@ msgstr ""
 msgid "remove"
 msgstr "Entferne"
 
-#: ../cmk/gui/views.py:1416
+#: ../cmk/gui/views.py:1413
 msgid "repeat every 20'th row"
 msgstr "Wiederhole jede 20. Zeile"
 
@@ -84016,11 +83989,11 @@ msgstr "wiederverwenden"
 msgid "right"
 msgstr "rechts"
 
-#: ../cmk/gui/views.py:698
+#: ../cmk/gui/views.py:695
 msgid "row"
 msgstr "Zeile"
 
-#: ../cmk/gui/views.py:698
+#: ../cmk/gui/views.py:695
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:495
 msgid "rows"
 msgstr "Zeilen"
@@ -84104,7 +84077,7 @@ msgstr "sec."
 msgid "second week"
 msgstr "zweite Woche"
 
-#: ../cmk/gui/valuespec.py:366 ../cmk/gui/views.py:1392
+#: ../cmk/gui/valuespec.py:366 ../cmk/gui/views.py:1389
 #: ../cmk/gui/plugins/wato/datasource_programs.py:387
 #: ../cmk/gui/plugins/wato/datasource_programs.py:440
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1072
@@ -84559,7 +84532,7 @@ msgstr "Wert"
 msgid "view"
 msgstr "Ansicht"
 
-#: ../cmk/gui/views.py:163 ../cmk/gui/views.py:1071
+#: ../cmk/gui/views.py:163 ../cmk/gui/views.py:1068
 msgid "views"
 msgstr "Ansichten"
 
@@ -84748,7 +84721,7 @@ msgid "years"
 msgstr "Jahre"
 
 #: ../cmk/gui/plugins/views/painters.py:1542
-#: ../cmk/gui/plugins/views/utils.py:1323
+#: ../cmk/gui/plugins/views/utils.py:1324
 #: ../cmk/gui/plugins/visuals/utils.py:328
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:41
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:86
@@ -84772,6 +84745,16 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. Alle Rechte vorbehalten."
+
+#, fuzzy
+#~| msgid "Event was deleted automatically"
+#~ msgid "<i>Generated automatically</i>"
+#~ msgstr "Ereignis wurde automatisch gelöscht"
+
+#, fuzzy
+#~| msgid "Text logfiles (Linux, Windows)"
+#~ msgid "Encryption (Linux, Windows)"
+#~ msgstr "Text-Logdateien (Linux, Windows)"
 
 #~ msgid "Critical if younger than"
 #~ msgstr "Kritsch wenn jünger als"
