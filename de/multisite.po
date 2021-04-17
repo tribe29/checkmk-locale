@@ -452,6 +452,12 @@ msgstr "%.2f%% OK"
 msgid "%/m"
 msgstr "%/m"
 
+#: ../cmk/gui/main_menu.py:189
+#, fuzzy
+#| msgid "%H:%M:%S"
+msgid "%H:%M"
+msgstr "%H:%M:%S"
+
 #: ../cmk/utils/render.py:42
 msgid "%H:%M:%S"
 msgstr "%H:%M:%S"
@@ -2998,7 +3004,7 @@ msgstr "API-Schlüssel/-Token"
 msgid "API server endpoint"
 msgstr "API-Server-Endpunkt"
 
-#: ../cmk/gui/main_menu.py:95
+#: ../cmk/gui/main_menu.py:103
 msgid "APIs"
 msgstr "APIs"
 
@@ -4410,7 +4416,7 @@ msgstr "Neue Metrik hinzufügen"
 msgid "Add new pattern"
 msgstr "Neues Muster hinzufügen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3379
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3380
 msgid "Add new project"
 msgstr "Neues Projekt hinzufügen"
 
@@ -5578,7 +5584,7 @@ msgstr "Luftstromabweichung"
 msgid "Airflow levels"
 msgstr "Schwellwerte für Luftströmung"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3244
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3245
 msgid "Alarms"
 msgstr "Alarme"
 
@@ -6806,7 +6812,7 @@ msgstr "Andere Sitzung aktiv"
 msgid "Another synchronization job is already running: %s"
 msgstr "Eine andere Synchronisation läuft gerade: %s"
 
-#: ../cmk/gui/userdb.py:1260
+#: ../cmk/gui/userdb.py:1268
 #, python-format
 msgid "Another user synchronization is already running: %s"
 msgstr "Eine andere Usersynchronisation läuft gerade: %s"
@@ -7521,7 +7527,7 @@ msgstr "Auth"
 msgid "Authenticate users by incoming HTTP requests"
 msgstr "Benutzer anhand eingehender HTTP-Requests authentifizieren"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3325
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3326
 #: ../cmk/gui/plugins/wato/active_checks.py:157
 #: ../cmk/gui/plugins/wato/active_checks.py:198
 #: ../cmk/gui/plugins/wato/active_checks.py:1314
@@ -8167,7 +8173,7 @@ msgstr "Durschschnittliche Auslastung pro Kern"
 msgid "Average value"
 msgstr "Durchschnittswert"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3476
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3477
 msgid "Average value of the following numeric field: "
 msgstr "Durschnittswert des folgenden numerischen Feldes: "
 
@@ -9049,7 +9055,7 @@ msgstr "Bucket Speicher"
 msgid "Bucket name"
 msgstr "Bucket-Name"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3315
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3316
 msgid "Bucket names"
 msgstr "Bucket-Namen"
 
@@ -11108,7 +11114,7 @@ msgstr "Graphzeitbereich ändern auf: %s"
 msgid "Change infotext in check output"
 msgstr "Infotext in der Ausgabe des Checks ändern"
 
-#: ../cmk/gui/main_menu.py:86
+#: ../cmk/gui/main_menu.py:94
 msgid "Change log"
 msgstr "Änderungsprotokoll"
 
@@ -12750,7 +12756,7 @@ msgstr "Definition von Clusterknoten"
 msgid "Cluster roles"
 msgstr "Clusterrollen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3245
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3246
 msgid "Cluster statistics"
 msgstr "Clusterstatistiken"
 
@@ -12758,7 +12764,7 @@ msgstr "Clusterstatistiken"
 msgid "Cluster status"
 msgstr "Clusterstatus"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3246
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3247
 msgid "Cluster traffic statistics"
 msgstr "Cluster Durchsatzstatistiken"
 
@@ -12790,7 +12796,7 @@ msgstr "Geclusterte Services für überlappende Cluster"
 msgid "Clusters: Prefered check result of local checks"
 msgstr "Cluster: Bevorzugtes Checkergebnis von Local-Checks"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3566
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3567
 msgid "Clusterwide"
 msgstr "Geclustert"
 
@@ -14530,7 +14536,7 @@ msgstr "Couchbase Summe der Bucket Operationen"
 msgid "Couchbase Total Node Operations"
 msgstr "Couchbase gesamte Node Operationen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3310
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3311
 msgid "Couchbase servers"
 msgstr "Couchbase Server"
 
@@ -16861,7 +16867,7 @@ msgstr "Benutzer-Alarmtabelle diese Benutzers"
 msgid "Custom path prefix"
 msgstr "Benutzerdefiniertes Pfadpräfix"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3494
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3495
 msgid "Custom search query"
 msgstr "Benutzerdefinierte Suchabfrage"
 
@@ -18211,7 +18217,7 @@ msgstr ""
 "Pfad an. Suchmuster (* und ?) werden unterstützt, es werden dann ggfs. "
 "mehrere Services mit einem Muster erzeugt."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3242
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3243
 msgid "Defines what information to query."
 msgstr "Definiert abzurufende Informationen."
 
@@ -18223,7 +18229,7 @@ msgstr ""
 "Legt fest, welche Informationen abgefragt werden sollen. Checks für "
 "Cluster-, Index- und Shard-Statistiken folgen in Kürze."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3563
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3564
 msgid ""
 "Defines what information to query. You can choose between the cluster, "
 "nodes, vhosts and queues."
@@ -20194,7 +20200,7 @@ msgstr "Anzeigemodus"
 msgid "Display name"
 msgstr "Anzeigename"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3264
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3265
 msgid "Display node details on"
 msgstr "Node-Details anzeigen auf"
 
@@ -20211,7 +20217,7 @@ msgid "Display range: Minimum must be strictly less than maximum"
 msgstr ""
 "Anzeigebereich: Minimum muss grundsätzlich weniger sein als das Maximum"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3275
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3276
 msgid "Display sidecar details on"
 msgstr "Zeige Sidecar Details auf"
 
@@ -20219,7 +20225,7 @@ msgstr "Zeige Sidecar Details auf"
 msgid "Display snapshot summary on ESX hosts"
 msgstr "Snapshot-Zusammenfassung auf ESX-Hosts anzeigen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3286
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3287
 msgid "Display source details on"
 msgstr "Quellendetails anzeigen auf"
 
@@ -21788,7 +21794,7 @@ msgstr "E-Mails"
 msgid "E.Type"
 msgstr "B.Typ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3444
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3445
 msgid "E.g. 'project = my_project and result = \"waiting for something\"'"
 msgstr "z.B. 'project = my_project and result = \"waiting for something\"'"
 
@@ -23232,7 +23238,7 @@ msgstr ""
 "Den Exitcode als 10 stellige, kleingeschriebenen Hexwert eingeben, z.B.  "
 "0x00000000."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3356
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3357
 msgid ""
 "Enter the full name of the project here. You can find the name in Jira "
 "within \"Projects\" - \"View all projects\" - column: \"Project\". This "
@@ -23274,7 +23280,7 @@ msgstr ""
 "Geben Sie hier den Dienstnamen für Uniserv an (Dies hat nichts mit dem "
 "Servicenamen für das Monitoring zu tun)."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3369
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3370
 msgid "Enter the workflow name for the project here. E.g. \"in progress\"."
 msgstr ""
 "Gib den Name des Arbeitprozess für das Projekt ein. z.B. \"in progress\"."
@@ -23379,7 +23385,7 @@ msgstr "Fehler bei der Erkennung von %s"
 msgid "Error during discovery of %s on site %s"
 msgstr "Fehler bei der Entdeckung von %s auf der Instanz %s"
 
-#: ../cmk/gui/userdb.py:1201
+#: ../cmk/gui/userdb.py:1209
 msgid "Error during saving"
 msgstr "Fehler beim Speichern"
 
@@ -24488,7 +24494,7 @@ msgstr "Erweiterungen in <tt>~/local/</tt> und MKPs"
 msgid "Extents"
 msgstr "Erweitert"
 
-#: ../cmk/gui/main_menu.py:125
+#: ../cmk/gui/main_menu.py:133
 msgid "External"
 msgstr "Extern"
 
@@ -24668,7 +24674,7 @@ msgstr "Fehlgeschlagene Verbindungen"
 msgid "Failed disk"
 msgstr "Defekte Platte"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3247
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3248
 msgid "Failed index operations"
 msgstr "Fehlgeschlagene Indexoperationen"
 
@@ -25205,8 +25211,8 @@ msgstr "Fibrechannel-Schnittstellen"
 msgid "Field"
 msgstr "Feld"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3464
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3480
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3465
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3481
 msgid "Field Name: "
 msgstr "Feldname: "
 
@@ -25540,7 +25546,7 @@ msgstr "Zu sendende Zeichenkette"
 msgid "Finalizing"
 msgstr "Abschluss"
 
-#: ../cmk/gui/userdb.py:1318
+#: ../cmk/gui/userdb.py:1326
 msgid "Finalizing synchronization"
 msgstr "Finalisiere Synchronisation"
 
@@ -26369,7 +26375,7 @@ msgstr "Länge der Fortinet FortiSandbox Wartenschlange"
 msgid "Fortinet FortiSandbox Queue Length"
 msgstr "Länge der Fortinet FortiSandbox Wartenschlange"
 
-#: ../cmk/gui/main_menu.py:138
+#: ../cmk/gui/main_menu.py:146
 msgid "Forum"
 msgstr "Forum"
 
@@ -27235,7 +27241,7 @@ msgstr "Grafen von Services mit Beschreibung:"
 msgid "Graphs per notification (default: 5)"
 msgstr "Graphen pro Alarm (vorkonfiguriert: 5)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3187
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3188
 msgid "Graylog"
 msgstr "Graylog"
 
@@ -27263,7 +27269,7 @@ msgstr "Graylog Cluster Datenverkehr"
 msgid "Graylog index failures"
 msgstr "Graylog Index-Fehler"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3194
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3195
 msgid "Graylog instance to query"
 msgstr "Abzufragende Graylog-Instanzen"
 
@@ -28375,7 +28381,7 @@ msgstr ""
 "Hier können Sie festlegen, welches Protokoll verwendet werden soll. Der "
 "Standardwert ist https."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3469
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3470
 msgid ""
 "Here you can define, how many search results should be processed. The max. "
 "internal limit of Jira is 1000 results. If you want to ignore any limit, set "
@@ -28385,7 +28391,7 @@ msgstr ""
 "sollen. Das maximale interne Limit von Jira liegt bei 1000 Ergebnissen. Wenn "
 "Sie ein Limit ignorieren wollen, setzen Sie hier -1. Standard ist 50."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3453
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3454
 msgid ""
 "Here you can define, what search result should be used. You can show the "
 "number of search results (count) or the summed up or average values of a "
@@ -31704,7 +31710,7 @@ msgstr ""
 "Hostalias\" verwenden, dann müssen Sie einen regulären Ausdruck mit genau "
 "einer Matchgruppe angeben."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3232
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3233
 msgid ""
 "If you choose to query for failed index operations, use this option to set "
 "the timeframe in which failures should be covered. The check will output the "
@@ -33391,7 +33397,7 @@ msgstr "Informationen die der 'docker system df' Ausgabe gleichen"
 msgid "Information to be displayed in the email body"
 msgstr "Informationen, die im Rumpf der Email gezeigt werden sollen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3241
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3242
 msgid "Information to query"
 msgstr "Abzurufende Informationen"
 
@@ -33403,7 +33409,7 @@ msgstr "Informell"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2963
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3030
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3120
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3562
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3563
 msgid "Informations to query"
 msgstr "Abzurufende Informationen"
 
@@ -34727,7 +34733,7 @@ msgstr "JIRA URL"
 msgid "JMX monitoring of Java JVMs using Jolokia"
 msgstr "JMX-Überwachung von Java JVMs mithilfe von Jolokia"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3443
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3444
 msgid "JQL query: "
 msgstr "JQL-Abfrage "
 
@@ -34739,7 +34745,7 @@ msgstr "JVM Execute Queue"
 msgid "JVM garbage collection levels"
 msgstr "JVM Garbagecollection-Schwellwerte"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3248
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3249
 msgid "JVM heap size"
 msgstr "JVM heap-Größe"
 
@@ -34807,11 +34813,11 @@ msgstr "Warteschlange in Jenkins"
 msgid "Jira custom service"
 msgstr "Jira Custom Service"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3394
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3395
 msgid "Jira instance to query"
 msgstr "Abzufragende Jira-Instanz"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3388
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3389
 msgid "Jira statistics"
 msgstr "Jira Statistiken"
 
@@ -36388,7 +36394,7 @@ msgstr "Lizenznutzung"
 msgid "License aggreement"
 msgstr "Lizenz-Vereinbarung"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3249
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3250
 msgid "License state"
 msgstr "Lizenzstatus"
 
@@ -36459,8 +36465,8 @@ msgstr "Maximale Anzahl begrenzen auf"
 msgid "Limit maximum number used cpus"
 msgstr "Maximale Anzahl genutzter CPUs begrenzen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3468
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3484
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3469
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3485
 msgid "Limit number of processed search results"
 msgstr "Anzahl der verarbeiteten Suchergebnisse begrenzen"
 
@@ -38622,7 +38628,7 @@ msgstr "Manager"
 msgid "Mandatory context"
 msgstr "Notwendiger Kontext"
 
-#: ../cmk/gui/main_menu.py:130 ../cmk/gui/plugins/views/painters.py:1403
+#: ../cmk/gui/main_menu.py:138 ../cmk/gui/plugins/views/painters.py:1403
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:57
 msgid "Manual"
 msgstr "Manuell"
@@ -40012,7 +40018,7 @@ msgid "Message averaging"
 msgstr "Meldungen mitteln"
 
 #: ../cmk/gui/plugins/visuals/filters.py:2855
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3250
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3251
 msgid "Message count"
 msgstr "Nachrichtenanzahl"
 
@@ -40809,7 +40815,7 @@ msgstr "Bestimmte Dateien im Verzeichnis überwachen"
 msgid "Monitor temporary Tablespace"
 msgstr "Temporären Tablespace überwachen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3426
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3427
 msgid ""
 "Monitor the number of issues for given projects and their workflows. This "
 "results in a service for each project with the number of issues per workflow."
@@ -41639,7 +41645,7 @@ msgstr "Name des Service"
 msgid "Name of the Application"
 msgstr "Name der Anwendung"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3315
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3316
 msgid "Name of the Buckets to monitor."
 msgstr "Name der zu überwachenden Buckets."
 
@@ -42903,8 +42909,8 @@ msgstr "Knoten Statistiken"
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:589
 #: ../cmk/gui/plugins/wato/datasource_programs.py:594
 #: ../cmk/gui/plugins/wato/datasource_programs.py:766
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3251
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3567
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3252
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3568
 #: ../cmk/gui/plugins/wato/bi_config.py:885
 #: ../cmk/gui/plugins/metrics/kubernets.py:30
 #: ../cmk/gui/plugins/metrics/elasticsearch.py:102
@@ -44257,7 +44263,7 @@ msgstr "Anzahl von Versuchen (ohne den ersten normalen Lauf)"
 msgid "Number of rule groups"
 msgstr "Anzahl der Regelgruppen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3458
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3459
 msgid "Number of search results"
 msgstr "Anzahl der Suchergebnisse"
 
@@ -46805,10 +46811,10 @@ msgstr "Passwort für diesen Benutzer"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2941
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3009
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3099
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3210
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3329
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3411
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3542
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3211
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3330
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3412
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3543
 #: ../cmk/gui/plugins/wato/active_checks.py:2429
 #: ../cmk/gui/plugins/wato/notifications.py:721
 msgid "Password of the user"
@@ -48519,7 +48525,7 @@ msgstr "Anschlussnummer oder -name"
 msgid "Plugin"
 msgstr "Plugin"
 
-#: ../cmk/gui/main_menu.py:116
+#: ../cmk/gui/main_menu.py:124
 msgid "Plugin API reference"
 msgstr "Plugin-API-Referenz"
 
@@ -48643,9 +48649,9 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2955
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3023
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3113
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3224
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3321
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3556
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3225
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3322
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3557
 #: ../cmk/gui/plugins/wato/check_parameters/threepar_ports.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:281
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:344
@@ -49419,7 +49425,7 @@ msgstr "Fortschritt"
 msgid "Progress Info"
 msgstr "Fortschritt"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3355
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3356
 msgid "Project"
 msgstr "Projekt"
 
@@ -49511,9 +49517,9 @@ msgstr "Anteil von gesunden Hosts"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2946
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3014
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3104
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3215
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3416
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3547
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3216
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3417
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3548
 #: ../cmk/gui/plugins/wato/check_parameters/tcp_connections.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:48
 #: ../cmk/gui/plugins/wato/active_checks.py:2182
@@ -49880,7 +49886,7 @@ msgid "Queued work requests"
 msgstr "Eingereihte Arbeitsanfragen"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:894
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3569
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3570
 #: ../cmk/gui/plugins/metrics/application.py:536
 msgid "Queues"
 msgstr "Warteschlangen"
@@ -49998,11 +50004,11 @@ msgstr "benutzter RAM %"
 msgid "RCU"
 msgstr "RCU"
 
-#: ../cmk/gui/main_menu.py:100
+#: ../cmk/gui/main_menu.py:108
 msgid "REST API documentation"
 msgstr "REST-API-Dokumentation"
 
-#: ../cmk/gui/main_menu.py:108
+#: ../cmk/gui/main_menu.py:116
 msgid "REST API interactive GUI"
 msgstr "REST API interaktive Ansicht"
 
@@ -50139,7 +50145,7 @@ msgstr "RX Signal Stromleitung %d"
 msgid "RX/TX"
 msgstr "RX/TX"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3520
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3521
 msgid "RabbitMQ"
 msgstr "RabbitMQ"
 
@@ -50151,7 +50157,7 @@ msgstr "RabbitMQ-Cluster-Nachrichten"
 msgid "RabbitMQ cluster stats"
 msgstr "RabbitMQ-Cluster-Statistiken"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3525
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3526
 msgid "RabbitMQ instance to query"
 msgstr "RabbitMQ-Instanz zur Abfrage"
 
@@ -50958,7 +50964,7 @@ msgstr "Relative Schwellen für aktive Sitzungen"
 msgid "Relay Log Size"
 msgstr "Relay Logdateigröße"
 
-#: ../cmk/gui/main_menu.py:79 ../cmk/gui/werks.py:177
+#: ../cmk/gui/main_menu.py:87 ../cmk/gui/werks.py:177
 msgid "Release notes"
 msgstr "Versionshinweise"
 
@@ -51674,7 +51680,7 @@ msgstr "Request-Wartezeite"
 msgid "Requests data about Elasticsearch clusters, nodes and indices."
 msgstr "Fordert Daten über Elasticsearch-Cluster, -Nodes und -Indizes an."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3521
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3522
 msgid "Requests data from a RabbitMQ instance."
 msgstr "Fordert Daten von einer RabbitMQ-Instanz an."
 
@@ -51690,7 +51696,7 @@ msgstr "Fordert Daten von einer Jenkins-Instanz an."
 msgid "Requests in Processing"
 msgstr "Aktuell bearbeitete Anfragen"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3188
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3189
 msgid "Requests node, cluster and indice data from a Graylog instance."
 msgstr "Fordert Node-, Cluster- und Index-Daten von einer Graylog-Instanz an."
 
@@ -54594,7 +54600,7 @@ msgstr "Service-Beschreibung"
 msgid "Service description format"
 msgstr "Format der Servicebeschreibung"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3435
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3436
 msgid "Service description: "
 msgstr "Servicebeschreibung: "
 
@@ -56324,7 +56330,7 @@ msgstr "Position der Seitenleiste"
 msgid "Sidecar name"
 msgstr "Sidecar-Name"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3252
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3253
 msgid "Sidecars"
 msgstr "Sidecars"
 
@@ -56524,8 +56530,8 @@ msgstr "Einzel-Metrik"
 msgid "Single peers or summary"
 msgstr "Einzelne Peers oder Zusammenfassung"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3365
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3373
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3366
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3374
 msgid "Single quotes are not allowed here."
 msgstr "Einfache Anführungszeichen sind hier nicht erlaubt."
 
@@ -57400,7 +57406,7 @@ msgstr "Quellfeld des Alerts. Default ist die IP des eingehenden Requests."
 msgid "Source name"
 msgstr "Name der Quelle"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3253
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3254
 msgid "Sources"
 msgstr "Quellen"
 
@@ -59564,7 +59570,7 @@ msgstr "Gerade"
 msgid "Stream rules"
 msgstr "Stromregeln"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3254
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3255
 #: ../cmk/gui/plugins/metrics/storage.py:62
 #: ../cmk/gui/plugins/metrics/application.py:476
 #: ../cmk/gui/plugins/metrics/network.py:1918
@@ -59869,7 +59875,7 @@ msgstr "Zusammenfassung aller Sensoren"
 msgid "Summed up values lower level"
 msgstr "Summierte Schwellwerte der Untergrenze"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3460
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3461
 msgid "Summed up values of the following numeric field:"
 msgstr "Aufsummierte Werte des folgenden numerischen Feldes:"
 
@@ -60114,7 +60120,7 @@ msgstr "Sync-Plugins: Rollen"
 msgid "Synchronization job acknowledged"
 msgstr "Synchronisations-Job bestätigt"
 
-#: ../cmk/gui/userdb.py:1290 ../cmk/gui/watolib/host_label_sync.py:137
+#: ../cmk/gui/userdb.py:1298 ../cmk/gui/watolib/host_label_sync.py:137
 msgid "Synchronization started..."
 msgstr "Synchronisation gestartet..."
 
@@ -61361,7 +61367,7 @@ msgstr ""
 "Die Event-Consolen-Ansicht '%s' kann nicht dargestellt werden. "
 "Möglicherweise ist die Event Console deaktiviert."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3269
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3270
 msgid "The Graylog node"
 msgstr "Die Graylog-Node"
 
@@ -62613,7 +62619,7 @@ msgstr ""
 "werde können."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:415
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3326
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3327
 msgid "The credentials for api calls with authentication."
 msgstr "Die Anmeldedaten für Api-Aufrufe mit Authentifizierung."
 
@@ -64151,7 +64157,7 @@ msgstr ""
 "Der Knoten <b>%s</b> ist nicht vorhanden (muss ein in WATO konfigurierter "
 "Host sein)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3265
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3266
 msgid ""
 "The node details can be displayed either on the queried host or the Graylog "
 "node."
@@ -64604,8 +64610,8 @@ msgstr ""
 msgid "The port on which the ntopng instance is reachable."
 msgstr "Der Port unter dem die ntopng Instanz erreichbar ist."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3323
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3558
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3324
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3559
 msgid "The port that is used for the api call."
 msgstr "Der Port, der für den Api-Aufruf verwendet wird."
 
@@ -64637,9 +64643,9 @@ msgstr "Der Name des Clusters so wie er im Servicenamen angezeigt werden soll."
 msgid "The queried ESX system (vCenter / Host)"
 msgstr "Das abzufragende ESX-System (vCenter / Host)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3268
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3279
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3290
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3269
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3280
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3291
 msgid "The queried Graylog host"
 msgstr "Der abgefragte Graylog-Host"
 
@@ -64801,7 +64807,7 @@ msgstr "Die Wiederherstellung wurde gestartet."
 msgid "The restore has been stopped."
 msgstr "Die Wiederherstellung wurde gestoppt."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3436
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3437
 msgid "The resulting service will get this entry as service description"
 msgstr ""
 "Der resultierende Service erhält diesen Eintrag als Servicebeschreibung"
@@ -65114,7 +65120,7 @@ msgstr ""
 "Die Seitenleiste kann so eingestellt werden, dass regelmäßig prüft, ob es "
 "neue Popup-Alarme gibt. Das ist per Default aus."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3276
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3277
 msgid ""
 "The sidecar details can be displayed either on the queried host or the "
 "sidecar host."
@@ -65122,7 +65128,7 @@ msgstr ""
 "Die Sidecar-Details können entweder auf dem abgefragten Host oder auf dem "
 "Sidecar-Host angezeigt werden."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3280
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3281
 msgid "The sidecar host"
 msgstr "Sidecar-Host"
 
@@ -65201,7 +65207,7 @@ msgstr ""
 msgid "The source IP address does not match."
 msgstr "Die IP-Quelladresse passt nicht."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3287
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3288
 msgid ""
 "The source details can be displayed either on the queried host or the source "
 "host."
@@ -65209,7 +65215,7 @@ msgstr ""
 "Die Quelldetails können entweder auf dem abgefragten Host oder auf dem "
 "Quellhost angezeigt werden."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3291
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3292
 msgid "The source host"
 msgstr "Der Quell-Host"
 
@@ -65616,11 +65622,11 @@ msgstr ""
 "Der Benutzer %s, welcher vom Netzwerkscan des Folders %s benutzt wurde, "
 "existiert nicht."
 
-#: ../cmk/gui/userdb.py:1293
+#: ../cmk/gui/userdb.py:1301
 msgid "The user synchronization completed successfully."
 msgstr "Der Benutzerabgleich wurde erfolgreich durchgeführt."
 
-#: ../cmk/gui/userdb.py:1295
+#: ../cmk/gui/userdb.py:1303
 msgid "The user synchronization failed."
 msgstr "Die Synchronisation ist fehlgeschlagen."
 
@@ -65640,13 +65646,13 @@ msgstr ""
 "Der Benutzer, der für die Anmeldung verwendet wird, muss mindestens die "
 "Rolle 'itil' in ServiceNow haben."
 
-#: ../cmk/gui/userdb.py:1157
+#: ../cmk/gui/userdb.py:1165
 #, python-format
 msgid "The username returned by the %s connector is not of type string (%r)."
 msgstr ""
 "Der vom Konnektor %s gelieferte Benutzername ist nicht vom Typ string (%r)."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3204
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3205
 msgid ""
 "The username that should be used for accessing the Graylog API. Has to have "
 "read permissions at least."
@@ -65654,12 +65660,12 @@ msgstr ""
 "Der Benutzername, der für den Zugriff auf die Graylog-API verwendet werden "
 "soll. Muss mindestens Leserechte haben."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3405
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3406
 msgid "The username that should be used for accessing the Jira API."
 msgstr ""
 "Der Benutzername, der für den Zugriff auf die Jira-API verwendet werden soll."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3536
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3537
 msgid "The username that should be used for accessing the RabbitMQ API."
 msgstr "Der Benutzername der zum Zugriff auf die RabbitMQ API verwendet wird."
 
@@ -68480,7 +68486,7 @@ msgstr ""
 "Dieser Regelsatz erlaubt das Überschreiben von Schwellwerten für die "
 "angegebenen Sensornamen."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3311
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3312
 msgid ""
 "This rule allows to select a Couchbase server to monitor as well as "
 "configure buckets for further checks"
@@ -69111,7 +69117,7 @@ msgstr ""
 "Check_MK-Agenten. Dadurch wird der Host via der UCS Bladecenter Web API "
 "überwacht. "
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3169
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3170
 msgid "This rule selects the Zerto special agent for an existing Checkmk host"
 msgstr ""
 "Diese Regel wählt den Zerto-Spezialagenten für einen vorhandenen Checkmk-"
@@ -70618,7 +70624,7 @@ msgstr "Zeitdispersion (jitter)"
 msgid "Time drifted devices"
 msgstr "Zeitverschobene Geräte"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3231
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3232
 msgid "Time for coverage of failures"
 msgstr "Zeit für die Erfassung von Ausfällen"
 
@@ -70916,7 +70922,7 @@ msgstr "Zeitleiste von"
 msgid "Timemachine backup age"
 msgstr "Alter der Timemachine-Sicherung"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3317
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3318
 #: ../cmk/gui/plugins/wato/active_checks.py:412
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:236
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_timeout.py:43
@@ -70956,7 +70962,7 @@ msgstr ""
 "erreichbar. Hinweis: Dieser Eintrag beschränkt <b>nicht</b> die Zeit, die "
 "der Agent für das Erstellen der Ausgabe benötigt."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3319
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3320
 msgid "Timeout for requests in seconds."
 msgstr "Timeout für Anfragen in Sekunden."
 
@@ -72061,6 +72067,20 @@ msgstr "Performance-Daten aus Trends"
 msgid "Treshold"
 msgstr "Schwellwert"
 
+#: ../cmk/gui/main_menu.py:185
+msgid "Trial expired"
+msgstr ""
+
+#: ../cmk/gui/main_menu.py:187
+#, python-format
+msgid "Trial expires in %s days"
+msgstr ""
+
+#: ../cmk/gui/main_menu.py:188
+#, python-format
+msgid "Trial expires today (%s)"
+msgstr ""
+
 #: ../cmk/gui/watolib/rulespecs.py:1059
 #, python-format
 msgid "Tried to register incompatible rulespec: %r"
@@ -72224,7 +72244,7 @@ msgstr "Ereignis-Typ"
 msgid "Type of query"
 msgstr "Art der Anfrag"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3452
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3453
 msgid "Type of result"
 msgstr "Typ des Ergebnisses"
 
@@ -74194,7 +74214,7 @@ msgstr "Inline-SNMP verwenden (veraltet)"
 msgid "Use Inline SNMP Backend"
 msgstr "Inline-SNMP-Backend verwenden"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3389
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3390
 msgid ""
 "Use Jira Query Language (JQL) to get statistics out of your Jira instance."
 msgstr ""
@@ -74817,7 +74837,7 @@ msgstr ""
 "mode=mkeventd_edit_configvar&site=&varname=event_limit\">globale "
 "Ereignissbegrenzung für Regeln</a> überschreiben"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3226
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3227
 msgid ""
 "Use this option to query a port which is different from standard port 443."
 msgstr ""
@@ -74865,7 +74885,7 @@ msgstr ""
 "der nächste Server abgefragt (Fallback). Die Prüfung gibt nur Daten vom "
 "ersten Host aus, der eine Antwort sendet."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3195
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3196
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_graylog.com."
@@ -74881,7 +74901,7 @@ msgstr ""
 "Mit dieser Option wird festgelegt, welche Instanz vom speziellen Agenten "
 "geprüft werden soll. Bitte hier den Hostnamen angeben, z. B. my_jenkins.com."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3395
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3396
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jira.com. If not set, the "
@@ -74891,7 +74911,7 @@ msgstr ""
 "geprüft werden soll. Bitte geben hier den Hostnamen angeben, z. B. my_jira."
 "com. Wenn nicht gesetzt, wird der zugewiesene Host als Instanz verwendet."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3526
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3527
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_rabbitmq.com. If not set, the "
@@ -75300,7 +75320,7 @@ msgstr "Benutzerrollen sind anpassbare Sätze von Berechtigungen."
 msgid "User store key"
 msgstr "Benutzerschlüssel aus dem Speicher"
 
-#: ../cmk/gui/userdb.py:1275
+#: ../cmk/gui/userdb.py:1283
 msgid "User synchronization"
 msgstr "Automatischer Benutzerabgleich"
 
@@ -75343,10 +75363,10 @@ msgstr "Benutzer:"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3007
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3090
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3162
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3203
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3328
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3404
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3535
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3204
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3329
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3405
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3536
 #: ../cmk/gui/plugins/wato/active_checks.py:159
 #: ../cmk/gui/plugins/wato/active_checks.py:200
 #: ../cmk/gui/plugins/wato/active_checks.py:406
@@ -75965,7 +75985,7 @@ msgstr "Veritas Volume Manger (Linux, HP-UX)"
 msgid "Veritas cluster server"
 msgstr "Veritas Cluster Server"
 
-#: ../cmk/gui/main_menu.py:74 ../cmk/gui/plugins/views/crash_reporting.py:235
+#: ../cmk/gui/main_menu.py:82 ../cmk/gui/plugins/views/crash_reporting.py:235
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:340
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:390
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:400
@@ -76068,7 +76088,7 @@ msgstr "Sehr geläufig"
 msgid "Vhost name"
 msgstr "Vhost Name"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3568
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3569
 msgid "Vhosts"
 msgstr "Vhosts"
 
@@ -79671,7 +79691,7 @@ msgstr "Worker threads limitiert"
 msgid "Worker threads not created"
 msgstr "Worker threads nicht erstellt"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3368
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3369
 msgid "Workflows"
 msgstr "Arbeitsabläufe"
 
@@ -81681,7 +81701,7 @@ msgstr "Sie müssen einen Kommentar für die Ausfallszeit eingeben."
 msgid "You need to supply a comment."
 msgstr "Sie müssen einen Kommentar eingeben."
 
-#: ../cmk/gui/main_menu.py:146
+#: ../cmk/gui/main_menu.py:154
 msgid "YouTube"
 msgstr "YouTube"
 
@@ -81908,7 +81928,7 @@ msgstr "ZFS Metadaten"
 msgid "ZFS storage pool status"
 msgstr "Status des ZFS Speicher-Pools"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3168
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3169
 msgid "Zerto"
 msgstr "Zerto"
 
@@ -81932,12 +81952,12 @@ msgstr "Zypper-Aktualisierungen"
 msgid "Zypper normal and security updates (Linux)"
 msgstr "Normale und Sicherheitsupdates für Zypper (Linux)"
 
-#: ../cmk/gui/userdb.py:1314
+#: ../cmk/gui/userdb.py:1322
 #, python-format
 msgid "[%s] Exception: %s"
 msgstr "[%s] Ausnahme: %s"
 
-#: ../cmk/gui/userdb.py:1312
+#: ../cmk/gui/userdb.py:1320
 #, python-format
 msgid "[%s] Finished sync for connection"
 msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
@@ -81948,7 +81968,7 @@ msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
 msgid "[%s] Finished sync for site"
 msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
 
-#: ../cmk/gui/userdb.py:1306
+#: ../cmk/gui/userdb.py:1314
 #, python-format
 msgid "[%s] Starting sync for connection"
 msgstr "[%s] Synchronisation für Verbindung gestartet"
