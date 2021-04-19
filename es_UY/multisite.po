@@ -738,8 +738,8 @@ msgstr "%s no es un valor permitido"
 msgid "%s is not an existing element in this selection."
 msgstr "%s no es un elemento existente en esta selección."
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1775
-#: ../cmk/gui/watolib/hosts_and_folders.py:1954
+#: ../cmk/gui/watolib/hosts_and_folders.py:1919
+#: ../cmk/gui/watolib/hosts_and_folders.py:2098
 #, python-format
 msgid "%s is parent of %s."
 msgstr "%s es padre de %s."
@@ -1744,12 +1744,12 @@ msgid ""
 "these service."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2270
+#: ../cmk/gui/watolib/hosts_and_folders.py:2414
 #, python-format
 msgid "<li>Cannot delete hosts in folder %s: %s</li>"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2284
+#: ../cmk/gui/watolib/hosts_and_folders.py:2428
 #, python-format
 msgid "<li>Cannot move hosts from folder %s: %s</li>"
 msgstr ""
@@ -2155,7 +2155,7 @@ msgstr ""
 msgid "A direct link to all groups of BI aggregations organized as tree"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:3072
+#: ../cmk/gui/watolib/hosts_and_folders.py:3216
 msgid "A folder with that name already exists."
 msgstr ""
 
@@ -2183,7 +2183,7 @@ msgstr ""
 msgid "A heading for the view"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2159
+#: ../cmk/gui/watolib/hosts_and_folders.py:2303
 #, python-format
 msgid ""
 "A host with the name <b><tt>%s</tt></b> already exists in the folder <a href="
@@ -8577,7 +8577,7 @@ msgstr ""
 msgid "But you are allowed to make changes anyway. "
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1564
+#: ../cmk/gui/watolib/hosts_and_folders.py:1708
 msgid "But you are not a member of any contact group."
 msgstr ""
 
@@ -9812,28 +9812,28 @@ msgid ""
 "Cannot load HW/SW inventory trees %s. Please remove the corrupted files."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2858
+#: ../cmk/gui/watolib/hosts_and_folders.py:3002
 #, python-format
 msgid ""
 "Cannot move folder. Some of its elements have specifically other customers "
 "set (<i>%s</i>). This violates the CME folder hierarchy."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1809
+#: ../cmk/gui/watolib/hosts_and_folders.py:1953
 msgid "Cannot move folder: A folder can not be moved into itself."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1821
+#: ../cmk/gui/watolib/hosts_and_folders.py:1965
 msgid ""
 "Cannot move folder: A folder can not be moved to a folder within itself."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1815
+#: ../cmk/gui/watolib/hosts_and_folders.py:1959
 msgid ""
 "Cannot move folder: A folder can not be moved to it's own parent folder."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1803
+#: ../cmk/gui/watolib/hosts_and_folders.py:1947
 msgid ""
 "Cannot move folder: A folder with this name already exists in the target "
 "folder."
@@ -9844,7 +9844,7 @@ msgstr ""
 msgid "Cannot parse log file %s: %s"
 msgstr ""
 
-#: ../cmk/utils/store.py:147
+#: ../cmk/utils/store.py:148
 #, python-format
 msgid "Cannot read configuration file \"%s\": %s"
 msgstr ""
@@ -9860,7 +9860,7 @@ msgstr ""
 msgid "Cannot read configuration file %s: %s:"
 msgstr ""
 
-#: ../cmk/utils/store.py:250
+#: ../cmk/utils/store.py:251
 #, python-format
 msgid "Cannot read file \"%s\": %s"
 msgstr ""
@@ -9917,7 +9917,7 @@ msgstr ""
 msgid "Cannot update timeperiod information for %s: %s"
 msgstr ""
 
-#: ../cmk/utils/store.py:350
+#: ../cmk/utils/store.py:351
 #, python-format
 msgid "Cannot write configuration file \"%s\": %s"
 msgstr ""
@@ -13310,7 +13310,7 @@ msgstr ""
 msgid "Could not save changes: %s"
 msgstr ""
 
-#: ../cmk/utils/store.py:59
+#: ../cmk/utils/store.py:60
 msgid ""
 "Couldn't lock the Checkmk configuration. Another process is running that "
 "holds this lock. In order for you to be able to perform the desired action, "
@@ -13859,12 +13859,12 @@ msgstr ""
 msgid "Created new extension package %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1751
+#: ../cmk/gui/watolib/hosts_and_folders.py:1895
 #, python-format
 msgid "Created new folder %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1935
+#: ../cmk/gui/watolib/hosts_and_folders.py:2079
 #, python-format
 msgid "Created new host %s."
 msgstr ""
@@ -17221,12 +17221,12 @@ msgstr ""
 msgid "Deleted custom GUI logo"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1782
+#: ../cmk/gui/watolib/hosts_and_folders.py:1926
 #, python-format
 msgid "Deleted folder %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1967
+#: ../cmk/gui/watolib/hosts_and_folders.py:2111
 #, python-format
 msgid "Deleted host %s"
 msgstr ""
@@ -20818,7 +20818,7 @@ msgstr ""
 msgid "Edited host tag group %s (%s)"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1881
+#: ../cmk/gui/watolib/hosts_and_folders.py:2025
 #, python-format
 msgid "Edited properties of folder %s"
 msgstr ""
@@ -24120,7 +24120,7 @@ msgstr ""
 msgid "Folder Selection"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2122
+#: ../cmk/gui/watolib/hosts_and_folders.py:2266
 msgid ""
 "Folder attributes are locked (You cannot edit the attributes of this folder)"
 msgstr ""
@@ -27201,7 +27201,7 @@ msgstr ""
 msgid "Host and service rules related to the Event Console"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2114
+#: ../cmk/gui/watolib/hosts_and_folders.py:2258
 msgid ""
 "Host attributes are locked (You cannot create, edit or delete hosts in this "
 "folder)"
@@ -27810,7 +27810,7 @@ msgstr ""
 #: ../cmk/gui/plugins/sidebar/wato.py:352
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:86
 #: ../cmk/gui/plugins/metrics/network.py:1771 ../cmk/gui/watolib/search.py:398
-#: ../cmk/gui/watolib/hosts_and_folders.py:3125 ../cmk/gui/mobile.py:150
+#: ../cmk/gui/watolib/hosts_and_folders.py:3269 ../cmk/gui/mobile.py:150
 #: ../cmk/gui/wato/pages/bulk_import.py:92
 #: ../cmk/gui/wato/pages/random_hosts.py:43
 #: ../cmk/gui/wato/pages/host_rename.py:121
@@ -31192,7 +31192,7 @@ msgstr ""
 msgid "Invalid fixel element type '%s'"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:3080
+#: ../cmk/gui/watolib/hosts_and_folders.py:3224
 msgid ""
 "Invalid folder name. Only the characters a-z, A-Z, 0-9, _ and - are allowed."
 msgstr ""
@@ -35331,9 +35331,9 @@ msgstr ""
 msgid "Main dashboard"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1105
-#: ../cmk/gui/watolib/hosts_and_folders.py:2021
-#: ../cmk/gui/watolib/hosts_and_folders.py:2022
+#: ../cmk/gui/watolib/hosts_and_folders.py:1249
+#: ../cmk/gui/watolib/hosts_and_folders.py:2165
+#: ../cmk/gui/watolib/hosts_and_folders.py:2166
 msgid "Main directory"
 msgstr ""
 
@@ -37474,7 +37474,7 @@ msgstr ""
 msgid "Modified folders: %d, modified hosts: %d, modified rulesets: %d"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2611
+#: ../cmk/gui/watolib/hosts_and_folders.py:2755
 #, python-format
 msgid "Modified host %s."
 msgstr ""
@@ -38030,7 +38030,7 @@ msgstr ""
 msgid "Moved BI rule with ID %s to BI pack %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1838
+#: ../cmk/gui/watolib/hosts_and_folders.py:1982
 #, python-format
 msgid "Moved folder %s to %s"
 msgstr ""
@@ -38039,7 +38039,7 @@ msgstr ""
 msgid "Moved from"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2024
+#: ../cmk/gui/watolib/hosts_and_folders.py:2168
 #, python-format
 msgid "Moved host from \"%s\" to \"%s\""
 msgstr ""
@@ -44753,7 +44753,7 @@ msgstr ""
 msgid "Please specify a name of the new group."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:3075
+#: ../cmk/gui/watolib/hosts_and_folders.py:3219
 msgid "Please specify a name."
 msgstr ""
 
@@ -47574,7 +47574,7 @@ msgstr ""
 msgid "Removed entries"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2637
+#: ../cmk/gui/watolib/hosts_and_folders.py:2781
 #, python-format
 msgid "Removed explicit attributes of host %s."
 msgstr ""
@@ -47636,7 +47636,7 @@ msgstr ""
 msgid "Renamed %d hosts at the following places:<br><ul>%s</ul>"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2681
+#: ../cmk/gui/watolib/hosts_and_folders.py:2825
 #, python-format
 msgid "Renamed cluster node from %s into %s."
 msgstr ""
@@ -47651,12 +47651,12 @@ msgstr ""
 msgid "Renamed host condition from \"%s\" to \"%s\""
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2702
+#: ../cmk/gui/watolib/hosts_and_folders.py:2846
 #, python-format
 msgid "Renamed host from %s into %s."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2050
+#: ../cmk/gui/watolib/hosts_and_folders.py:2194
 #, python-format
 msgid "Renamed host from %s to %s"
 msgstr ""
@@ -47666,12 +47666,12 @@ msgstr ""
 msgid "Renamed host in %d rulesets of folder %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2694
+#: ../cmk/gui/watolib/hosts_and_folders.py:2838
 #, python-format
 msgid "Renamed parent from %s into %s."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2067
+#: ../cmk/gui/watolib/hosts_and_folders.py:2211
 #, python-format
 msgid "Renamed parent from %s to %s in folder \"%s\""
 msgstr ""
@@ -49895,7 +49895,7 @@ msgstr ""
 msgid "Search result(s) preview"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2217
+#: ../cmk/gui/watolib/hosts_and_folders.py:2361
 #, python-format
 msgid "Search results for folder %s"
 msgstr ""
@@ -53162,12 +53162,12 @@ msgid ""
 "possible rate"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2274
+#: ../cmk/gui/watolib/hosts_and_folders.py:2418
 #, python-format
 msgid "Some hosts could not be deleted:<ul>%s</ul>"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2288
+#: ../cmk/gui/watolib/hosts_and_folders.py:2432
 #, python-format
 msgid "Some hosts could not be moved:<ul>%s</ul>"
 msgstr ""
@@ -53262,12 +53262,12 @@ msgstr ""
 msgid "Sorry, spaces are not allowed in group names."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1586
+#: ../cmk/gui/watolib/hosts_and_folders.py:1730
 #, python-format
 msgid "Sorry, the hosts in the folder %s are locked."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1591
+#: ../cmk/gui/watolib/hosts_and_folders.py:1735
 #, python-format
 msgid "Sorry, the sub folders in the folder %s are locked."
 msgstr ""
@@ -53302,7 +53302,7 @@ msgid ""
 "Sorry, you are not allowed to download agents without specifying a host name."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2745
+#: ../cmk/gui/watolib/hosts_and_folders.py:2889
 #, python-format
 msgid ""
 "Sorry, you cannot assign the contact group '<b>%s</b>' because you are not "
@@ -53314,7 +53314,7 @@ msgstr ""
 msgid "Sorry, you cannot create combined graphs for more than %d objects"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1582
+#: ../cmk/gui/watolib/hosts_and_folders.py:1726
 #, python-format
 msgid "Sorry, you cannot edit the folder %s. It is locked."
 msgstr ""
@@ -53328,14 +53328,14 @@ msgstr ""
 msgid "Sorry, you have no permission for this host."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2537
+#: ../cmk/gui/watolib/hosts_and_folders.py:2681
 #, python-format
 msgid ""
 "Sorry, you have no permission on the host '<b>%s</b>'. The host's contact "
 "groups are <b>%s</b>, your contact groups are <b>%s</b>."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1554
+#: ../cmk/gui/watolib/hosts_and_folders.py:1698
 #, python-format
 msgid "Sorry, you have no permissions to the folder <b>%s</b>."
 msgstr ""
@@ -53357,13 +53357,13 @@ msgstr ""
 msgid "Sorry, your user account does not exist."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1856
+#: ../cmk/gui/watolib/hosts_and_folders.py:2000
 msgid ""
 "Sorry. In order to change the permissions of a folder you need write access "
 "to the parent folder."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2646
+#: ../cmk/gui/watolib/hosts_and_folders.py:2790
 msgid ""
 "Sorry. In order to change the permissions of a host you need write access to "
 "the folder it is contained in."
@@ -55507,7 +55507,7 @@ msgid ""
 "arguments <tt>$2$</tt>, <tt>$3$</tt>, etc."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2130
+#: ../cmk/gui/watolib/hosts_and_folders.py:2274
 msgid ""
 "Subfolders are locked (You cannot create or remove folders in this folder)"
 msgstr ""
@@ -57919,7 +57919,7 @@ msgid ""
 "local site. But this may make the host be monitored from multiple sites."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2798
+#: ../cmk/gui/watolib/hosts_and_folders.py:2942
 #, python-format
 msgid ""
 "The configured target site <i>%s</i> for this folder is invalid. The folder "
@@ -57927,7 +57927,7 @@ msgid ""
 "folder hierarchy. You may choose the following sites <i>%s</i>."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2787
+#: ../cmk/gui/watolib/hosts_and_folders.py:2931
 #, python-format
 msgid ""
 "The configured target site refers to the default customer <i>%s</i>. The "
@@ -58343,11 +58343,11 @@ msgid ""
 "currently available attributes are:"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1556
+#: ../cmk/gui/watolib/hosts_and_folders.py:1700
 msgid "The folder is not permitted for any contact group."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1558
+#: ../cmk/gui/watolib/hosts_and_folders.py:1702
 #, python-format
 msgid "The folder's permitted contact groups are <b>%s</b>."
 msgstr ""
@@ -58523,7 +58523,7 @@ msgstr ""
 msgid "The host '%s' does not exist"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2833
+#: ../cmk/gui/watolib/hosts_and_folders.py:2977
 #, python-format
 msgid ""
 "The host <i>%s</i> has the explicit site <i>%s</i> set, which belongs to "
@@ -60159,7 +60159,7 @@ msgid ""
 "critical."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2817
+#: ../cmk/gui/watolib/hosts_and_folders.py:2961
 #, python-format
 msgid ""
 "The subfolder <i>%s</i> has the explicit site <i>%s</i> set, which belongs "
@@ -66205,7 +66205,7 @@ msgstr ""
 msgid "Unable to match connection"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2883
+#: ../cmk/gui/watolib/hosts_and_folders.py:3027
 #, python-format
 msgid ""
 "Unable to modify host <i>%s</i>. Its site id <i>%s</i> conflicts with the "
@@ -66213,7 +66213,7 @@ msgid ""
 "hierarchy. You may choose the sites: %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:2906
+#: ../cmk/gui/watolib/hosts_and_folders.py:3050
 #, python-format
 msgid ""
 "Unable to move host <i>%s</i>. Its explicit set site attribute <i>%s</i> "
@@ -73363,8 +73363,8 @@ msgstr ""
 msgid "You cannot delete the builtin roles!"
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1774
-#: ../cmk/gui/watolib/hosts_and_folders.py:1953
+#: ../cmk/gui/watolib/hosts_and_folders.py:1918
+#: ../cmk/gui/watolib/hosts_and_folders.py:2097
 #, python-format
 msgid "You cannot delete these hosts: %s"
 msgstr ""
@@ -73717,7 +73717,7 @@ msgid ""
 "allowed."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1566
+#: ../cmk/gui/watolib/hosts_and_folders.py:1710
 msgid ""
 "You may enter the folder as you might have permission on a subfolders, "
 "though."
@@ -73829,7 +73829,7 @@ msgstr ""
 msgid "You need to provide a \"host\"."
 msgstr ""
 
-#: ../cmk/utils/store.py:127
+#: ../cmk/utils/store.py:128
 msgid ""
 "You need to provide a config dictionary to merge with the read "
 "configuration. The dictionary should have all expected keys and their "
@@ -73943,7 +73943,7 @@ msgstr ""
 msgid "Your changes haven been saved."
 msgstr ""
 
-#: ../cmk/gui/watolib/hosts_and_folders.py:1561
+#: ../cmk/gui/watolib/hosts_and_folders.py:1705
 #, python-format
 msgid "Your contact groups are <b>%s</b>."
 msgstr ""
