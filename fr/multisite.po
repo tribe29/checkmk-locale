@@ -6,86 +6,89 @@ msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
 "Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-04-23 06:00+0000\n"
+"Last-Translator: Raynald MASCLEF <raynald.masclef@medianet-informatique.fr>\n"
+"Language-Team: French <https://translate.checkmk.com/projects/checkmk/"
+"software/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: ../cmk/gui/cee/plugins/views/sla.py:250
 #, python-format
 msgid " %s, outage duration %s"
-msgstr ""
+msgstr " %s, durée de la panne %s"
 
 #: ../cmk/gui/wato/pages/host_rename.py:538
 #, python-format
 msgid " (%d times)"
-msgstr ""
+msgstr " (%d temps)"
 
 #: ../cmk/gui/visuals.py:962
 msgid " (Copy)"
-msgstr ""
+msgstr " (copie)"
 
 #: ../cmk/gui/backup.py:936
 #, python-format
 msgid " (Duration: %s)"
-msgstr ""
+msgstr " (Durée: %s)"
 
 #: ../cmk/gui/backup.py:500
 #, python-format
 msgid " (Duration: %s, %sIO: %s/s)"
-msgstr ""
+msgstr " (Durée: %s, %sIO: %s/s)"
 
 #: ../cmk/gui/wato/pages/roles.py:180
 msgid " (copy)"
-msgstr ""
+msgstr " (copie)"
 
 #: ../cmk/gui/wato/pages/timeperiods.py:567
 #, python-format
 msgid " (day %d)"
-msgstr ""
+msgstr " (jour %d)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:746
 msgid " (in errors per second)"
-msgstr ""
+msgstr " (erreur par seconde)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:956
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:969
 msgid " (in packets per second)"
-msgstr ""
+msgstr " (en paquet par seconde)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:745
 msgid " (in relation to all packets (successful + error))"
-msgstr ""
+msgstr " (en relation avec tous les paquets (succès + erreur))"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:955
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:968
 msgid " (in relation to all successful packets)"
-msgstr ""
+msgstr " (en relation avec tous les paquets correctement installés)"
 
 #: ../cmk/gui/wato/pages/users.py:476
 msgid " (invalid)"
-msgstr ""
+msgstr " (invalide)"
 
 #: ../cmk/gui/pagetypes.py:662
 #, python-format
 msgid " (owned by %s)"
-msgstr ""
+msgstr " (appartenant à %s)"
 
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:488
 #, python-format
 msgid " (worst state: %s)"
-msgstr ""
+msgstr " (état de panne: %s)"
 
 #: ../cmk/gui/cee/plugins/views/sla.py:139
 msgid " - Broken"
-msgstr ""
+msgstr " - Cassé"
 
 #: ../cmk/gui/valuespec.py:4337
 msgid " Activate this option"
-msgstr ""
+msgstr " Activer cette option"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1858
 msgid ""
@@ -93,68 +96,78 @@ msgid ""
 "checks to access and identify the single values. The identifier needs to be "
 "unique within a group of VALUETYPES."
 msgstr ""
+" Un identifiant de votre choix. Cet identifiant est utilisé par les "
+"contrôles Check_MK pour accéder aux valeurs individuelles et les identifier. "
+"L'identifiant doit être unique au sein d'un groupe de VALUETYPES."
 
 #: ../cmk/gui/watolib/activate_changes.py:1731
 #, python-format
 msgid " Finished at: %s."
-msgstr ""
+msgstr " Fini à: %s."
 
 #: ../cmk/gui/valuespec.py:4336
 msgid " Ignore this option"
-msgstr ""
+msgstr " Ignorer cette option"
 
 #: ../cmk/gui/wato/pages/folders.py:675
 #, python-format
 msgid " Its directory is <tt>%s</tt>."
-msgstr ""
+msgstr " Le répertoire est  <tt>%s</tt>."
 
 #: ../cmk/gui/wato/mkeventd.py:1900
 #, python-format
 msgid " Match groups: %s"
-msgstr ""
+msgstr " Groupe(s) correspondant(s): %s"
 
 #: ../cmk/gui/wato/mkeventd.py:4358
 msgid ""
 " Note: if no contact information is configured for a service then that of "
 "the host will be used instead (if configured)."
 msgstr ""
+" Remarque : si aucune information de contact n'est configurée pour un "
+"service, celle de l'hôte sera utilisée à la place (si elle est configurée)."
 
 #: ../cmk/gui/wato/mkeventd.py:4336
 msgid ""
 " Note: if no service level is configured for a service then that of the host "
 "will be used instead (if configured)."
 msgstr ""
+" Remarque : si aucun niveau de service n'est configuré pour un service, "
+"celui de l'hôte sera utilisé à la place (s'il est configuré)."
 
 #: ../cmk/gui/wato/pages/folders.py:679
 #, python-format
 msgid " The folder contains <b>%d</b> hosts, which will also be deleted!"
 msgstr ""
+" Les dossiers qui contiennent <b>%d</b> hôtes, seront également supprimés !"
 
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:112
 msgid ""
 " The text will automatically be wrapped. An empty line will start a new "
 "paragraph."
 msgstr ""
+" Le texte sera automatiquement mis en forme. Une ligne vide permet de "
+"commencer un nouveau paragraphe."
 
 #: ../cmk/gui/wato/pages/rulesets.py:720 ../cmk/gui/wato/pages/rulesets.py:1078
 #, python-format
 msgid " and %s '%s'"
-msgstr ""
+msgstr " et %s '%s'"
 
 #: ../cmk/gui/wato/pages/rulesets.py:975
 #, python-format
 msgid " and the %s '%s'."
-msgstr ""
+msgstr " et le %s '%s'."
 
 #: ../cmk/gui/plugins/views/commands.py:725
 #, python-format
 msgid " for a period of %s"
-msgstr ""
+msgstr " pour une période de %s"
 
 #: ../cmk/gui/wato/pages/rulesets.py:718
 #, python-format
 msgid " for host %s"
-msgstr ""
+msgstr " pour l'hôte %s"
 
 #: ../cmk/gui/plugins/views/mkeventd.py:1175
 #, python-format
@@ -164,24 +177,24 @@ msgstr ""
 #: ../cmk/gui/valuespec.py:3521
 #, python-format
 msgid " in %d days"
-msgstr ""
+msgstr " dans %d jour(s)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/memory_linux.py:34
 #, python-format
 msgid " in relation to %s"
-msgstr ""
+msgstr " en relation avec %s"
 
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:46
 msgid " larger than"
-msgstr ""
+msgstr " plus grand que"
 
 #: ../cmk/gui/valuespec.py:3519
 msgid " next week"
-msgstr ""
+msgstr " semaine prochaine"
 
 #: ../cmk/gui/plugins/views/commands.py:131
 msgid " of"
-msgstr ""
+msgstr " de"
 
 #: ../cmk/gui/plugins/views/mkeventd.py:1130
 #, fuzzy, python-format
@@ -193,7 +206,7 @@ msgstr "Les parents des hôtes suivants : %s"
 #: ../cmk/gui/wato/pages/rulesets.py:2207
 #: ../cmk/gui/cee/plugins/reporting/utils.py:395
 msgid " or "
-msgstr ""
+msgstr " ou "
 
 #: ../cmk/gui/valuespec.py:2360
 msgid " or int"
@@ -202,7 +215,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/commands.py:129
 #, python-format
 msgid " spread over %d minutes "
-msgstr ""
+msgstr " étalé sur %d minute(s) "
 
 #: ../cmk/gui/plugins/views/mkeventd.py:1051
 #: ../cmk/gui/plugins/views/mkeventd.py:1219
@@ -221,7 +234,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:832 ../cmk/gui/wato/mkeventd.py:877
 #: ../cmk/gui/wato/pages/notifications.py:190
 msgid " to:"
-msgstr ""
+msgstr " à:"
 
 #: ../cmk/gui/watolib/rulespecs.py:1078
 #, python-format
@@ -229,12 +242,13 @@ msgid ""
 "!!! Error: Received class in RulespecRegistry:register_manual_check_rulespec "
 "%r"
 msgstr ""
+"!!!Erreur : Classe reçue dans RulespecRegistry:"
+"register_manual_check_rulespec %r"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:69
-#, fuzzy, python-format
-#| msgid "%s is not a valid integer number."
+#, python-format
 msgid "\"%s\" is not a valid python encoding."
-msgstr "%s n'est pas un nombre entier valide."
+msgstr "%s n'est pas un nombre entier valide pour Python"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:304
 #, python-format
@@ -448,7 +462,7 @@ msgstr ""
 msgid "%Y-%m-%d"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1513
+#: ../cmk/gui/cee/reporting.py:1493
 #, python-format
 msgid "%d Filter settings"
 msgstr ""
@@ -655,7 +669,7 @@ msgstr ""
 msgid "%s Pkts / %s%s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1972
+#: ../cmk/gui/cee/reporting.py:1952
 #, python-format
 msgid "%s Preview of report finished"
 msgstr ""
@@ -1065,7 +1079,7 @@ msgstr ""
 msgid "(no parameters)"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1104
+#: ../cmk/gui/cee/reporting.py:1105
 msgid "(no report)"
 msgstr ""
 
@@ -1297,7 +1311,7 @@ msgstr ""
 msgid "100.000 Services"
 msgstr "tous les services"
 
-#: ../cmk/gui/cee/reporting.py:742
+#: ../cmk/gui/cee/reporting.py:751
 msgid "10x14"
 msgstr ""
 
@@ -2049,7 +2063,11 @@ msgid ""
 "reclassify the matching log messages. The first pattern which matches a line "
 "will be used for reclassifying a message. You can use the <a href=\"wato.py?"
 "mode=pattern_editor\">Logfile Pattern Analyzer</a> to test the rules you "
-"defined here.</p><p>Select \"Ignore\" as state to get the matching logs "
+"defined here.</p><p>Note that to match a special regex character in your "
+"patterns, you need to use a backslash to escape its special meaning. This is "
+"especially relevant for Windows file paths. For example, to match the "
+"Windows path \"C:\\Users\\amdin\\Desktop\", enter \"C:\\\\Users\\\\admin\\"
+"\\Desktop\".</p><p>Select \"Ignore\" as state to get the matching logs "
 "deleted. Other states will keep the log entries but reclassify the state of "
 "them.</p>"
 msgstr ""
@@ -2237,7 +2255,7 @@ msgid "A heading for the graphs"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/reporting/utils.py:220
-#: ../cmk/gui/cee/reporting.py:3379
+#: ../cmk/gui/cee/reporting.py:3359
 msgid "A heading for the view"
 msgstr ""
 
@@ -2328,7 +2346,7 @@ msgid ""
 "each matching service on the specified hosts one child node will be created. "
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:879
+#: ../cmk/gui/cee/reporting.py:888
 msgid "A report can not reference itself"
 msgstr ""
 
@@ -2536,15 +2554,15 @@ msgstr ""
 msgid "A/V Edge - UDP Packets Dropped"
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/printer.py:60 ../cmk/gui/cee/reporting.py:733
+#: ../cmk/gui/plugins/metrics/printer.py:60 ../cmk/gui/cee/reporting.py:742
 msgid "A3"
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/printer.py:54 ../cmk/gui/cee/reporting.py:734
+#: ../cmk/gui/plugins/metrics/printer.py:54 ../cmk/gui/cee/reporting.py:743
 msgid "A4"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:735
+#: ../cmk/gui/cee/reporting.py:744
 msgid "A5"
 msgstr ""
 
@@ -3230,8 +3248,8 @@ msgstr ""
 #: ../cmk/gui/plugins/views/mkeventd.py:916
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1112
 #: ../cmk/gui/wato/mkeventd.py:3415 ../cmk/gui/wato/mkeventd.py:3572
-#: ../cmk/gui/wato/pages/audit_log.py:503 ../cmk/gui/cee/reporting.py:1505
-#: ../cmk/gui/cee/reporting.py:1818
+#: ../cmk/gui/wato/pages/audit_log.py:503 ../cmk/gui/cee/reporting.py:1485
+#: ../cmk/gui/cee/reporting.py:1798
 msgid "Action"
 msgstr ""
 
@@ -3284,9 +3302,8 @@ msgstr "Erreur d'authentification"
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:487
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:238
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:947
-#: ../cmk/gui/cee/reporting.py:941 ../cmk/gui/cee/reporting.py:972
-#: ../cmk/gui/cee/reporting.py:1457 ../cmk/gui/cee/reporting.py:2487
-#: ../cmk/gui/pagetypes.py:1089
+#: ../cmk/gui/cee/reporting.py:947 ../cmk/gui/cee/reporting.py:1437
+#: ../cmk/gui/cee/reporting.py:2467 ../cmk/gui/pagetypes.py:1089
 msgid "Actions"
 msgstr ""
 
@@ -3451,7 +3468,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:393
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:113
-#: ../cmk/gui/cee/reporting.py:1693
+#: ../cmk/gui/cee/reporting.py:1673
 msgid "Activation"
 msgstr ""
 
@@ -3880,7 +3897,7 @@ msgstr "Ajouter ces groupes de contact à l'hôte"
 msgid "Add contact information"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1019
+#: ../cmk/gui/cee/reporting.py:1029
 #, fuzzy
 #| msgid "Add Content"
 msgid "Add content"
@@ -4168,11 +4185,11 @@ msgstr "Règle de notification %d supprimée"
 msgid "Add one or multiple MIBs"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1034
+#: ../cmk/gui/cee/reporting.py:1041
 msgid "Add page element"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:83
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:87
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:65
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:159
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:493
@@ -4182,7 +4199,7 @@ msgid "Add pattern"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:78
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:187
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:191
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:158
 msgid "Add pattern group"
 msgstr ""
@@ -4243,7 +4260,7 @@ msgstr "Ajouter un dashlet"
 msgid "Add rule pack"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1554 ../cmk/gui/cee/reporting.py:1557
+#: ../cmk/gui/cee/reporting.py:1534 ../cmk/gui/cee/reporting.py:1537
 #, fuzzy
 #| msgid "Add dashlet"
 msgid "Add schedule"
@@ -4533,8 +4550,8 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:528
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:913
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1811
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:276
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:339
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:280
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:343
 #: ../cmk/gui/plugins/wato/active_checks.py:2185
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:657 ../cmk/utils/tags.py:685
 #: ../cmk/utils/tags.py:691
@@ -5508,7 +5525,7 @@ msgstr ""
 msgid "All applications"
 msgstr "Logs d'Application"
 
-#: ../cmk/gui/cee/reporting.py:302
+#: ../cmk/gui/cee/reporting.py:303
 msgid "All but first page"
 msgstr ""
 
@@ -5563,7 +5580,7 @@ msgstr ""
 msgid "All elements of the tuple must be of type int, you have %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:304
+#: ../cmk/gui/cee/reporting.py:305
 msgid "All even pages"
 msgstr ""
 
@@ -5698,7 +5715,7 @@ msgstr ""
 msgid "All object types"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:303
+#: ../cmk/gui/cee/reporting.py:304
 msgid "All odd pages"
 msgstr ""
 
@@ -5715,7 +5732,7 @@ msgstr ""
 msgid "All package types are signed with the key '%s'"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:300
+#: ../cmk/gui/cee/reporting.py:301
 msgid "All pages"
 msgstr ""
 
@@ -6022,12 +6039,12 @@ msgid ""
 "Images, Local Volumes, and the Build Cache."
 msgstr ""
 
-#: ../cmk/gui/visuals.py:197 ../cmk/gui/cee/reporting.py:2269
+#: ../cmk/gui/visuals.py:197 ../cmk/gui/cee/reporting.py:2249
 #, python-format
 msgid "Allows to delete %s created by other users."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2263
+#: ../cmk/gui/cee/reporting.py:2243
 #, python-format
 msgid "Allows to delete own %s."
 msgstr ""
@@ -6398,7 +6415,7 @@ msgstr ""
 msgid "Another renaming operation is currently in progress"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:626
+#: ../cmk/gui/cee/reporting.py:627
 #, python-format
 msgid ""
 "Another report (<tt>%s</tt>) uses the settings and page layout of this "
@@ -6616,7 +6633,7 @@ msgstr "Conditions prédef."
 msgid "Apply filters"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:406
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:410
 msgid "Apply logwatch patterns"
 msgstr ""
 
@@ -6965,7 +6982,7 @@ msgstr ""
 msgid "At the beginning of every month at day"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:286
+#: ../cmk/gui/cee/reporting.py:287
 msgid "At the center of the page"
 msgstr ""
 
@@ -6973,7 +6990,7 @@ msgstr ""
 msgid "At the end of every month at day"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3058
+#: ../cmk/gui/cee/reporting.py:3038
 msgid ""
 "At the time the report was created not all Checkmk sites were reachable. So "
 "some of the report's data is probably missing. The following sites had "
@@ -7489,7 +7506,7 @@ msgstr ""
 msgid "Available temp space"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2508
+#: ../cmk/gui/cee/reporting.py:2488
 msgid "Available till"
 msgstr ""
 
@@ -8248,7 +8265,7 @@ msgstr ""
 msgid "Base state computation on soft and hard states"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:669
+#: ../cmk/gui/cee/reporting.py:678
 msgid "Based on"
 msgstr ""
 
@@ -8313,7 +8330,7 @@ msgstr ""
 msgid "Beamer lamp operation time"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3373
+#: ../cmk/gui/cee/reporting.py:3353
 msgid "Begin child reports on new page"
 msgstr ""
 
@@ -8478,7 +8495,7 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:569
+#: ../cmk/gui/cee/reporting.py:570
 msgid "Body for report mail"
 msgstr ""
 
@@ -8535,7 +8552,7 @@ msgstr ""
 msgid "Both - Display the information for both, pod and container, levels"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:824
+#: ../cmk/gui/cee/reporting.py:833
 msgid "Bottom"
 msgstr ""
 
@@ -9738,10 +9755,10 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/hostsystem_sensors.py:34
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:57
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:97
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:109
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:121
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:133
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:101
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:113
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:125
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:137
 #: ../cmk/gui/plugins/wato/active_checks.py:355
 #: ../cmk/gui/plugins/wato/active_checks.py:750
 #: ../cmk/gui/plugins/wato/active_checks.py:782
@@ -10027,12 +10044,12 @@ msgstr ""
 msgid "Cannot download license usage report."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1649 ../cmk/gui/cee/reporting.py:1661
+#: ../cmk/gui/cee/reporting.py:1629 ../cmk/gui/cee/reporting.py:1641
 #, python-format
 msgid "Cannot edit schedule entry for non-existing report %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2231
+#: ../cmk/gui/cee/reporting.py:2211
 #, python-format
 msgid ""
 "Cannot email report: The owner %s does not have an email address and no "
@@ -10077,7 +10094,7 @@ msgstr ""
 msgid "Cannot load %s from %s: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2330
+#: ../cmk/gui/cee/reporting.py:2310
 #, python-format
 msgid "Cannot load %s: %s"
 msgstr ""
@@ -10153,7 +10170,7 @@ msgstr ""
 msgid "Cannot read configuration file %s: %s"
 msgstr ""
 
-#: ../cmk/gui/config.py:161
+#: ../cmk/gui/config.py:168
 #, python-format
 msgid "Cannot read configuration file %s: %s:"
 msgstr ""
@@ -10344,11 +10361,11 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:95
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:99
 msgid "Change CRITICAL State to"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:131
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:135
 msgid "Change Context Info to"
 msgstr ""
 
@@ -10356,7 +10373,7 @@ msgstr ""
 msgid "Change Event state to:"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:119
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:123
 msgid "Change OK State to"
 msgstr ""
 
@@ -10368,7 +10385,7 @@ msgstr ""
 msgid "Change Timerange"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:107
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:111
 msgid "Change WARNING State to"
 msgstr ""
 
@@ -11037,7 +11054,7 @@ msgstr ""
 msgid "Checkmk"
 msgstr "Contrôle"
 
-#: ../cmk/gui/cee/reporting.py:592
+#: ../cmk/gui/cee/reporting.py:593
 msgid "Checkmk $PERIODNAME$ '$TITLE$'"
 msgstr ""
 
@@ -11351,11 +11368,11 @@ msgstr ""
 msgid "Child host name:"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3359
+#: ../cmk/gui/cee/reporting.py:3339
 msgid "Child report"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3343
+#: ../cmk/gui/cee/reporting.py:3323
 #, python-format
 msgid "Child report is added %d times (once for each matched element)"
 msgstr ""
@@ -11803,7 +11820,7 @@ msgstr ""
 msgid "Clone"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:949 ../cmk/gui/cee/reporting.py:1146
+#: ../cmk/gui/visuals.py:949 ../cmk/gui/cee/reporting.py:1137
 #, python-format
 msgid "Clone %s"
 msgstr ""
@@ -11848,12 +11865,12 @@ msgstr "Tous les Rôles"
 msgid "Clone graph tuning"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1631
+#: ../cmk/gui/cee/reporting.py:1611
 #, python-format
 msgid "Clone report schedule entry %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2295
+#: ../cmk/gui/cee/reporting.py:2275
 msgid "Clone stored report"
 msgstr ""
 
@@ -11867,19 +11884,15 @@ msgstr "Déplacer cette entrée %s"
 msgid "Clone this connection in order to create a new one"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:945
+#: ../cmk/gui/cee/reporting.py:957
 msgid "Clone this element"
-msgstr ""
-
-#: ../cmk/gui/cee/reporting.py:976
-msgid "Clone this fixel element"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:955
 msgid "Clone this metric"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1462
+#: ../cmk/gui/cee/reporting.py:1442
 msgid "Clone this schedule entry"
 msgstr ""
 
@@ -12654,8 +12667,8 @@ msgid "Configuration variable:"
 msgstr ""
 
 #: ../cmk/gui/sidebar.py:800 ../cmk/gui/wato/pages/analyze_configuration.py:86
-#: ../cmk/gui/cee/reporting.py:1090 ../cmk/gui/cee/reporting.py:1572
-#: ../cmk/gui/cee/reporting.py:2535
+#: ../cmk/gui/cee/reporting.py:1091 ../cmk/gui/cee/reporting.py:1552
+#: ../cmk/gui/cee/reporting.py:2515
 #, fuzzy
 #| msgid "Confirm"
 msgid "Configure"
@@ -13372,7 +13385,7 @@ msgstr ""
 msgid "Contains corrupt file %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:937
+#: ../cmk/gui/cee/reporting.py:965
 msgid "Content elements"
 msgstr ""
 
@@ -13381,7 +13394,7 @@ msgstr ""
 msgid "Content of %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:899 ../cmk/gui/cee/reporting.py:2558
+#: ../cmk/gui/cee/reporting.py:910 ../cmk/gui/cee/reporting.py:2538
 #, python-format
 msgid "Content of report %s"
 msgstr ""
@@ -13397,19 +13410,19 @@ msgid "Contents"
 msgstr ""
 
 #: ../cmk/gui/mobile.py:348 ../cmk/gui/mobile.py:405 ../cmk/gui/logwatch.py:418
-#: ../cmk/gui/cee/reporting.py:1513
+#: ../cmk/gui/cee/reporting.py:1493
 msgid "Context"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:804 ../cmk/gui/cee/reporting.py:1254
-#: ../cmk/gui/cee/reporting.py:1751
+#: ../cmk/gui/visuals.py:804 ../cmk/gui/cee/reporting.py:1247
+#: ../cmk/gui/cee/reporting.py:1731
 msgid "Context / Search Filters"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:101
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:113
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:125
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:137
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:105
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:117
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:129
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:141
 msgid "Context Info"
 msgstr ""
 
@@ -13444,8 +13457,8 @@ msgid "Context switches"
 msgstr ""
 
 #: ../cmk/gui/views.py:1266 ../cmk/gui/visuals.py:684
-#: ../cmk/gui/dashboard.py:1732 ../cmk/gui/cee/reporting.py:1317
-#: ../cmk/gui/cee/reporting.py:1593
+#: ../cmk/gui/dashboard.py:1732 ../cmk/gui/cee/reporting.py:1316
+#: ../cmk/gui/cee/reporting.py:1573
 msgid "Continue"
 msgstr ""
 
@@ -14010,7 +14023,7 @@ msgstr ""
 msgid "Create a notification"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:418
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:422
 msgid "Create a separate check for each logfile"
 msgstr ""
 
@@ -14100,7 +14113,7 @@ msgstr ""
 msgid "Create hosts in"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1155
+#: ../cmk/gui/cee/reporting.py:1138
 #, python-format
 msgid "Create new %s"
 msgstr ""
@@ -14135,7 +14148,7 @@ msgstr ""
 msgid "Create new notification rule"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1651
+#: ../cmk/gui/cee/reporting.py:1631
 msgid "Create new report schedule entry"
 msgstr ""
 
@@ -14199,7 +14212,7 @@ msgstr ""
 msgid "Create real-time data executing the following agent plugins"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:659
+#: ../cmk/gui/cee/reporting.py:668
 msgid "Create regular time-schedule for this report"
 msgstr ""
 
@@ -14239,7 +14252,7 @@ msgstr ""
 msgid "Create status and (if configured) health services"
 msgstr "Services déjà configurés"
 
-#: ../cmk/gui/cee/reporting.py:2296
+#: ../cmk/gui/cee/reporting.py:2276
 msgid "Create stored report"
 msgstr ""
 
@@ -14277,7 +14290,7 @@ msgstr "Créer un Attribut Utilisateur"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:902
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:978 ../cmk/gui/key_mgmt.py:193
-#: ../cmk/gui/cee/reporting.py:2507
+#: ../cmk/gui/cee/reporting.py:2487
 msgid "Created"
 msgstr ""
 
@@ -14409,7 +14422,7 @@ msgstr ""
 msgid "Creating dump file failed"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2031
+#: ../cmk/gui/cee/reporting.py:2011
 #, python-format
 msgid "Creating scheduled report '%s'..."
 msgstr ""
@@ -16185,7 +16198,7 @@ msgstr ""
 msgid "Customer shortcut"
 msgstr "Tous les Tableaux de Bord"
 
-#: ../cmk/gui/cee/reporting.py:1106
+#: ../cmk/gui/cee/reporting.py:1107
 msgid "Customer specific report layout"
 msgstr ""
 
@@ -16606,7 +16619,7 @@ msgstr ""
 msgid "Daily"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2191
+#: ../cmk/gui/cee/reporting.py:2171
 msgid "Daily Report"
 msgstr ""
 
@@ -17118,7 +17131,7 @@ msgstr "%s : par défaut"
 msgid "Default BI Visualization Settings"
 msgstr "Paramètre par défaut"
 
-#: ../cmk/gui/cee/reporting.py:847
+#: ../cmk/gui/cee/reporting.py:856
 msgid "Default Graph layout"
 msgstr ""
 
@@ -17222,7 +17235,7 @@ msgstr ""
 msgid "Default state to report when tunnel can not be found anymore"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:842
+#: ../cmk/gui/cee/reporting.py:851
 msgid "Default table layout"
 msgstr ""
 
@@ -17235,15 +17248,15 @@ msgstr ""
 msgid "Default theme color"
 msgstr "%s : par défaut"
 
-#: ../cmk/gui/cee/reporting.py:767
+#: ../cmk/gui/cee/reporting.py:776
 msgid "Default time range"
 msgstr ""
 
-#: ../cmk/gui/config.py:1310
+#: ../cmk/gui/config.py:1322
 msgid "Default to show less"
 msgstr ""
 
-#: ../cmk/gui/config.py:1311
+#: ../cmk/gui/config.py:1323
 msgid "Default to show more"
 msgstr ""
 
@@ -17418,12 +17431,12 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2262
+#: ../cmk/gui/cee/reporting.py:2242
 #, python-format
 msgid "Delete %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:949 ../cmk/gui/cee/reporting.py:980
+#: ../cmk/gui/cee/reporting.py:962
 #, python-format
 msgid "Delete %s number %d?"
 msgstr ""
@@ -17438,7 +17451,7 @@ msgstr "Supprimer l'hôte !"
 msgid "Delete additional files when disk space is below"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1886
+#: ../cmk/gui/cee/reporting.py:1866
 msgid "Delete after"
 msgstr ""
 
@@ -17474,7 +17487,7 @@ msgstr ""
 msgid "Delete files older than"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:196 ../cmk/gui/cee/reporting.py:2268
+#: ../cmk/gui/visuals.py:196 ../cmk/gui/cee/reporting.py:2248
 #, python-format
 msgid "Delete foreign %s"
 msgstr ""
@@ -17516,7 +17529,7 @@ msgstr ""
 msgid "Delete processed messages"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1467
+#: ../cmk/gui/cee/reporting.py:1447
 #, python-format
 msgid "Delete report schedule entry '%s'?"
 msgstr ""
@@ -17538,7 +17551,7 @@ msgid ""
 "positive sense. Just remove that tag if it's used negated."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2500
+#: ../cmk/gui/cee/reporting.py:2480
 #, python-format
 msgid "Delete scheduled report '%s'?"
 msgstr ""
@@ -17618,16 +17631,12 @@ msgstr ""
 msgid "Delete this customer"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:950
+#: ../cmk/gui/cee/reporting.py:963
 msgid "Delete this element"
 msgstr ""
 
 #: ../cmk/gui/valuespec.py:1877 ../cmk/gui/valuespec.py:2157
 msgid "Delete this entry"
-msgstr ""
-
-#: ../cmk/gui/cee/reporting.py:981
-msgid "Delete this fixel element"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/folders.py:687
@@ -17671,11 +17680,11 @@ msgstr ""
 msgid "Delete this rule pack"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1468
+#: ../cmk/gui/cee/reporting.py:1448
 msgid "Delete this schedule entry"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2502
+#: ../cmk/gui/cee/reporting.py:2482
 msgid "Delete this scheduled report"
 msgstr ""
 
@@ -18278,7 +18287,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/notifications.py:287
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:583
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:258
-#: ../cmk/gui/cee/reporting.py:956 ../cmk/gui/pagetypes.py:164
+#: ../cmk/gui/cee/reporting.py:975 ../cmk/gui/pagetypes.py:164
 msgid "Description"
 msgstr ""
 
@@ -18639,7 +18648,7 @@ msgstr ""
 msgid "Direction"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:242
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:246
 msgid "Directly forward to Event Console"
 msgstr ""
 
@@ -18894,7 +18903,7 @@ msgstr ""
 msgid "Disabled rules are kept in the configuration but are not applied."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1694
+#: ../cmk/gui/cee/reporting.py:1674
 msgid "Disabled schedule entries are not being executed."
 msgstr ""
 
@@ -20567,7 +20576,7 @@ msgstr ""
 msgid "Download backup key"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:783
+#: ../cmk/gui/cee/reporting.py:792
 msgid "Download filename"
 msgstr ""
 
@@ -20595,7 +20604,7 @@ msgstr ""
 msgid "Download this package as an MKP file"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1970 ../cmk/gui/cee/reporting.py:2494
+#: ../cmk/gui/cee/reporting.py:1950 ../cmk/gui/cee/reporting.py:2474
 msgid "Download this report"
 msgstr ""
 
@@ -21060,7 +21069,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:946 ../cmk/gui/cee/reporting.py:1136
+#: ../cmk/gui/visuals.py:946 ../cmk/gui/cee/reporting.py:1137
 #, python-format
 msgid "Edit %s"
 msgstr ""
@@ -21097,7 +21106,7 @@ msgstr ""
 msgid "Edit LDAP connection: %s"
 msgstr "Diagnostique de la connexion LDAP"
 
-#: ../cmk/gui/cee/reporting.py:638
+#: ../cmk/gui/cee/reporting.py:639
 msgid "Edit Reports"
 msgstr ""
 
@@ -21265,7 +21274,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:1737
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:282
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:220
-#: ../cmk/gui/cee/reporting.py:1049 ../cmk/gui/pagetypes.py:693
+#: ../cmk/gui/cee/reporting.py:1053 ../cmk/gui/pagetypes.py:693
 #, fuzzy
 #| msgid "Basic Properties"
 msgid "Edit properties"
@@ -21279,11 +21288,11 @@ msgstr ""
 msgid "Edit properties of this rule pack"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:655
+#: ../cmk/gui/cee/reporting.py:665
 msgid "Edit report content"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1622
+#: ../cmk/gui/cee/reporting.py:1602
 #, python-format
 msgid "Edit report schedule entry %s"
 msgstr ""
@@ -21326,7 +21335,7 @@ msgstr ""
 msgid "Edit site specific global settings of %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2297
+#: ../cmk/gui/cee/reporting.py:2277
 msgid "Edit stored report"
 msgstr ""
 
@@ -21398,12 +21407,8 @@ msgstr ""
 msgid "Edit this customer"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:943
+#: ../cmk/gui/cee/reporting.py:952
 msgid "Edit this element"
-msgstr ""
-
-#: ../cmk/gui/cee/reporting.py:974
-msgid "Edit this fixel element"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/icons/wato.py:58
@@ -21414,7 +21419,7 @@ msgstr ""
 msgid "Edit this notification rule"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1016
+#: ../cmk/gui/cee/reporting.py:1026
 msgid "Edit this report"
 msgstr ""
 
@@ -21424,7 +21429,7 @@ msgstr ""
 msgid "Edit this rule"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1460
+#: ../cmk/gui/cee/reporting.py:1440
 msgid "Edit this schedule entry"
 msgstr ""
 
@@ -21655,7 +21660,7 @@ msgstr ""
 msgid "Element type"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:663 ../cmk/gui/cee/reporting.py:710
+#: ../cmk/gui/cee/reporting.py:672 ../cmk/gui/cee/reporting.py:719
 msgid "Elements"
 msgstr ""
 
@@ -21682,11 +21687,11 @@ msgstr ""
 msgid "Email sent"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1850
+#: ../cmk/gui/cee/reporting.py:1830
 msgid "Email-Addresses to mail PDF reports to"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2158
+#: ../cmk/gui/cee/reporting.py:2138
 #, python-format
 msgid "Emailed report to %s."
 msgstr ""
@@ -22229,7 +22234,7 @@ msgstr ""
 msgid "Enforce lower case User-IDs."
 msgstr ""
 
-#: ../cmk/gui/config.py:1312
+#: ../cmk/gui/config.py:1324
 msgid "Enforce show more"
 msgstr ""
 
@@ -22455,7 +22460,7 @@ msgstr ""
 msgid "Error showing view: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3207 ../cmk/gui/cee/reporting.py:3228
+#: ../cmk/gui/cee/reporting.py:3187 ../cmk/gui/cee/reporting.py:3208
 #, python-format
 msgid "Error while rendering element type '%s'"
 msgstr ""
@@ -22985,7 +22990,7 @@ msgid "Exclude \"Activate changes\" for time ranges"
 msgstr "Activer les modifications !"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:46
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:182
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:186
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:151
 msgid "Exclude Pattern"
 msgstr ""
@@ -23121,11 +23126,11 @@ msgid ""
 "This user needs the permission to add new hosts to this folder."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1475
+#: ../cmk/gui/cee/reporting.py:1455
 msgid "Execute this schedule now"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1472
+#: ../cmk/gui/cee/reporting.py:1452
 msgid "Execute this schedule now in background job"
 msgstr ""
 
@@ -23166,7 +23171,7 @@ msgstr ""
 msgid "Execution time of Checkmk Agent"
 msgstr "Temps d'exécution"
 
-#: ../cmk/gui/cee/reporting.py:738
+#: ../cmk/gui/cee/reporting.py:747
 msgid "Executive"
 msgstr ""
 
@@ -24359,7 +24364,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/wato.py:32 ../cmk/gui/wato/mkeventd.py:2710
 #: ../cmk/gui/cee/plugins/reporting/utils.py:417
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_inotify.py:87
-#: ../cmk/gui/cee/reporting.py:1871
+#: ../cmk/gui/cee/reporting.py:1851
 msgid "Filename"
 msgstr ""
 
@@ -24367,7 +24372,7 @@ msgstr ""
 msgid "Filename / Directory"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:574
+#: ../cmk/gui/cee/reporting.py:575
 msgid "Filename for attached PDF"
 msgstr ""
 
@@ -24649,7 +24654,7 @@ msgstr ""
 msgid "First day of this month"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:301
+#: ../cmk/gui/cee/reporting.py:302
 msgid "First page"
 msgstr ""
 
@@ -24678,11 +24683,11 @@ msgstr ""
 msgid "Fixed Levels"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:664
+#: ../cmk/gui/cee/reporting.py:673
 msgid "Fixed el."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:968
+#: ../cmk/gui/cee/reporting.py:987
 msgid "Fixed page elements"
 msgstr ""
 
@@ -24862,7 +24867,7 @@ msgid ""
 "Folders group your hosts, can inherit attributes and can have permissions."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:741
+#: ../cmk/gui/cee/reporting.py:750
 msgid "Folio"
 msgstr ""
 
@@ -24878,7 +24883,7 @@ msgstr ""
 msgid "Follow, but stay to same IP-address and port"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:793
+#: ../cmk/gui/cee/reporting.py:802
 msgid "Font family"
 msgstr ""
 
@@ -25289,7 +25294,7 @@ msgstr ""
 msgid "Forum"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:228
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:232
 msgid "Forward Messages to Event Console"
 msgstr ""
 
@@ -25301,11 +25306,11 @@ msgstr ""
 msgid "Forward to remote site by notification spooler"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:217
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:221
 msgid "Forwarding"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:235
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:239
 #: ../cmk/gui/plugins/wato/active_checks.py:2138
 msgid "Forwarding Method"
 msgstr ""
@@ -25520,7 +25525,7 @@ msgstr ""
 msgid "From Start"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:276
+#: ../cmk/gui/cee/reporting.py:277
 msgid "From left of the page"
 msgstr ""
 
@@ -25532,31 +25537,31 @@ msgstr ""
 msgid "From password store"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:277
+#: ../cmk/gui/cee/reporting.py:278
 msgid "From right of the page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:282
+#: ../cmk/gui/cee/reporting.py:283
 msgid "From the bottom left of the page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:275
+#: ../cmk/gui/cee/reporting.py:276
 msgid "From the bottom of the page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:284
+#: ../cmk/gui/cee/reporting.py:285
 msgid "From the bottom right of the page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:278
+#: ../cmk/gui/cee/reporting.py:279
 msgid "From the top left of the page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:274
+#: ../cmk/gui/cee/reporting.py:275
 msgid "From the top of the page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:280
+#: ../cmk/gui/cee/reporting.py:281
 msgid "From the top right of the page"
 msgstr ""
 
@@ -25581,7 +25586,7 @@ msgid "From: "
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2072
-#: ../cmk/gui/cee/reporting.py:559
+#: ../cmk/gui/cee/reporting.py:560
 msgid "From: email address"
 msgstr ""
 
@@ -25666,7 +25671,7 @@ msgstr ""
 msgid "GET/POST variables of this page"
 msgstr ""
 
-#: ../cmk/gui/config.py:1318
+#: ../cmk/gui/config.py:1330
 msgid "GUI"
 msgstr ""
 
@@ -25729,7 +25734,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1741
+#: ../cmk/gui/cee/reporting.py:1721
 msgid "General Options"
 msgstr ""
 
@@ -25779,7 +25784,7 @@ msgstr ""
 msgid "General messages"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:711 ../cmk/gui/cee/reporting.py:1068
+#: ../cmk/gui/cee/reporting.py:720 ../cmk/gui/cee/reporting.py:1071
 msgid "Generate"
 msgstr ""
 
@@ -25791,11 +25796,11 @@ msgstr ""
 msgid "Generate event"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1699
+#: ../cmk/gui/cee/reporting.py:1679
 msgid "Generate report in background job"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1479
+#: ../cmk/gui/cee/reporting.py:1459
 msgid "Generate report preview in background job"
 msgstr ""
 
@@ -25809,11 +25814,11 @@ msgstr ""
 msgid "Generate service labels for discovered interfaces"
 msgstr "Alias comme nom de service pour les contrôles d'interface réseau"
 
-#: ../cmk/gui/cee/reporting.py:657 ../cmk/gui/cee/reporting.py:1065
+#: ../cmk/gui/cee/reporting.py:666 ../cmk/gui/cee/reporting.py:1068
 msgid "Generate this report"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2073
+#: ../cmk/gui/cee/reporting.py:2053
 msgid "Generating report..."
 msgstr ""
 
@@ -25939,7 +25944,7 @@ msgstr ""
 msgid "Go to main page"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2089
+#: ../cmk/gui/cee/reporting.py:2069
 msgid "Go to the report store"
 msgstr ""
 
@@ -26812,7 +26817,7 @@ msgid "Heartbeat tools missing or not installed"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:222
-#: ../cmk/gui/cee/reporting.py:815
+#: ../cmk/gui/cee/reporting.py:824
 msgid "Height"
 msgstr ""
 
@@ -26825,7 +26830,7 @@ msgstr ""
 msgid "Help Text"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:795
+#: ../cmk/gui/cee/reporting.py:804
 msgid "Helvetica"
 msgstr ""
 
@@ -28318,7 +28323,7 @@ msgstr ""
 msgid "Host renaming"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3409
+#: ../cmk/gui/cee/reporting.py:3389
 msgid "Host report for multiple hosts"
 msgstr ""
 
@@ -29093,7 +29098,7 @@ msgstr ""
 #: ../cmk/gui/cme/plugins/wato/managed.py:203
 #: ../cmk/gui/cme/plugins/wato/managed.py:329
 #: ../cmk/gui/cme/plugins/wato/managed.py:338
-#: ../cmk/gui/cee/plugins/wato/dcd.py:349 ../cmk/gui/cee/reporting.py:1489
+#: ../cmk/gui/cee/plugins/wato/dcd.py:349 ../cmk/gui/cee/reporting.py:1469
 #: ../cmk/gui/pagetypes.py:1110
 msgid "ID"
 msgstr ""
@@ -29140,10 +29145,10 @@ msgid "IDLE"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:60
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:100
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:112
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:124
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:136
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:104
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:116
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:128
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:140
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:210
 msgid "IGNORE"
 msgstr ""
@@ -29634,7 +29639,7 @@ msgid ""
 "host was being seen."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:768
+#: ../cmk/gui/cee/reporting.py:777
 msgid ""
 "If no explicit time range is being provided then the report defaults to this "
 "range."
@@ -29828,7 +29833,7 @@ msgid ""
 "for the variable name."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:390
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:394
 msgid ""
 "If this option is enabled, the check monitors the list of forwarded logfiles "
 "and will warn you if at any time a logfile is missing or exceeding when "
@@ -29836,7 +29841,7 @@ msgid ""
 "Reinventorize this check in order to make it OK again."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:408
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:412
 msgid ""
 "If this option is enabled, the logwatch lines are first reclassified by the "
 "logwatch patterns before they are sent to the event console. If you "
@@ -29848,7 +29853,7 @@ msgid ""
 "<i>access.log</i>, which do not apply to other logfiles."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:421
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:425
 msgid ""
 "If this option is enabled, there will be one separate check for each logfile "
 "found during the service discovery. This option also changes the behaviour "
@@ -30277,7 +30282,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/reporting/utils.py:226
-#: ../cmk/gui/cee/reporting.py:775
+#: ../cmk/gui/cee/reporting.py:784
 msgid ""
 "If you set a limit here then there will never be fetched and rendered more "
 "data rows than you specify here. This can save you against reports will a "
@@ -30720,7 +30725,7 @@ msgid ""
 "the first match is used."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1700
+#: ../cmk/gui/cee/reporting.py:1680
 msgid ""
 "In case generating of the report takes a lot of time, you can configure the "
 "report to be generated asynchronously in a background job."
@@ -31052,7 +31057,7 @@ msgid "Inbound messages"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:45
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:181
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:185
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:147
 msgid "Include Pattern"
 msgstr ""
@@ -31464,7 +31469,7 @@ msgstr ""
 msgid "Insert HTML section between body and table"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3374
+#: ../cmk/gui/cee/reporting.py:3354
 msgid "Insert page break before each child report"
 msgstr ""
 
@@ -31634,7 +31639,7 @@ msgid ""
 "accessible in the notification context."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:218
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:222
 msgid ""
 "Instead of using the regular logwatch check all lines received by logwatch "
 "can be forwarded to a Check_MK event console daemon to be processed. The "
@@ -31988,7 +31993,7 @@ msgstr ""
 msgid "Invalid filename"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3162
+#: ../cmk/gui/cee/reporting.py:3142
 #, python-format
 msgid "Invalid fixel element type '%s'"
 msgstr ""
@@ -32013,7 +32018,7 @@ msgstr ""
 msgid "Invalid graph type '%s'"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2789
+#: ../cmk/gui/cee/reporting.py:2769
 #, python-format
 msgid "Invalid graph type: %s"
 msgstr ""
@@ -32117,7 +32122,7 @@ msgstr ""
 msgid "Invalid regular expression: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3218
+#: ../cmk/gui/cee/reporting.py:3198
 #, python-format
 msgid "Invalid report element type '%s'"
 msgstr ""
@@ -32400,7 +32405,7 @@ msgstr ""
 msgid "Is mountpoint"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:176 ../cmk/gui/cee/reporting.py:2258
+#: ../cmk/gui/visuals.py:176 ../cmk/gui/cee/reporting.py:2238
 #, python-format
 msgid "Is needed for seeing %s that other users have created."
 msgstr ""
@@ -33273,7 +33278,7 @@ msgid "Last Entry"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/views/agent_bakery.py:159
-#: ../cmk/gui/cee/reporting.py:1523
+#: ../cmk/gui/cee/reporting.py:1503
 msgid "Last Error"
 msgstr ""
 
@@ -33285,7 +33290,7 @@ msgstr ""
 msgid "Last OK"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1520
+#: ../cmk/gui/cee/reporting.py:1500
 msgid "Last Run"
 msgstr ""
 
@@ -33455,7 +33460,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/userdb/user_attributes.py:180
-#: ../cmk/gui/wato/user_profile.py:65 ../cmk/gui/cee/reporting.py:825
+#: ../cmk/gui/wato/user_profile.py:65 ../cmk/gui/cee/reporting.py:834
 msgid "Left"
 msgstr ""
 
@@ -33499,7 +33504,7 @@ msgstr ""
 msgid "Legacy services (defined in main.mk)"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:737
+#: ../cmk/gui/cee/reporting.py:746
 msgid "Legal"
 msgstr ""
 
@@ -33545,7 +33550,7 @@ msgstr ""
 msgid "Let through notifications counting upto this number"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:736
+#: ../cmk/gui/cee/reporting.py:745
 msgid "Letter"
 msgstr ""
 
@@ -34391,7 +34396,7 @@ msgstr ""
 msgid "Limit the number of rows"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:774
+#: ../cmk/gui/cee/reporting.py:783
 msgid "Limit the number of rows in View tables"
 msgstr ""
 
@@ -34433,7 +34438,7 @@ msgstr ""
 msgid "Line number in log file"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:802
+#: ../cmk/gui/cee/reporting.py:811
 msgid "Line spacing"
 msgstr ""
 
@@ -34633,7 +34638,7 @@ msgstr ""
 msgid "Linux-User:"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:188
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:192
 msgid "List Grouping Patterns"
 msgstr ""
 
@@ -34670,7 +34675,7 @@ msgstr ""
 msgid "List of available NagVis maps"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:398
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:402
 msgid "List of expected logfiles"
 msgstr ""
 
@@ -35030,26 +35035,26 @@ msgstr ""
 msgid "Local server status"
 msgstr ""
 
-#: ../cmk/gui/config.py:1084
+#: ../cmk/gui/config.py:1096
 #, python-format
 msgid "Local site %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:240
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:244
 msgid "Local: Send events to local Event Console in same OMD site"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:246
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:250
 msgid "Local: Send events to local Event Console into unix socket"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:260
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:264
 msgid ""
 "Local: Spooling - Send events to local Event Console into given spool "
 "directory"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:253
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:257
 msgid "Local: Spooling - Send events to local event console in same OMD site"
 msgstr ""
 
@@ -35304,13 +35309,13 @@ msgstr ""
 msgid "Logentry class"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:156
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:160
 #: ../cmk/gui/wato/pages/pattern_editor.py:158 ../cmk/gui/logwatch.py:265
 #: ../cmk/gui/logwatch.py:273
 msgid "Logfile"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:167
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:171
 msgid "Logfile Grouping"
 msgstr ""
 
@@ -35495,7 +35500,7 @@ msgstr ""
 msgid "Logwatch"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:444
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:448
 msgid "Logwatch Event Console Forwarding"
 msgstr ""
 
@@ -36288,7 +36293,7 @@ msgstr ""
 msgid "Major release"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:161 ../cmk/gui/cee/reporting.py:2252
+#: ../cmk/gui/visuals.py:161 ../cmk/gui/cee/reporting.py:2232
 #, python-format
 msgid "Make %s visible and usable for other users."
 msgstr ""
@@ -36321,7 +36326,7 @@ msgstr ""
 msgid "Make own published %s override builtin %s for all users."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1841
+#: ../cmk/gui/cee/reporting.py:1821
 msgid "Make stored reports available for other users"
 msgstr ""
 
@@ -37418,7 +37423,7 @@ msgstr ""
 msgid "Maximum read wait time"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:464
+#: ../cmk/gui/cee/reporting.py:465
 #, python-format
 msgid ""
 "Maximum report inheritance of 10 templates reached. There could be a cycle "
@@ -37441,11 +37446,11 @@ msgstr ""
 msgid "Maximum size of all files on backup space"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:305
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:309
 msgid "Maximum spool duration"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:318
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:322
 msgid "Maximum spool size"
 msgstr ""
 
@@ -37847,7 +37852,7 @@ msgstr ""
 msgid "Messages"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:224
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:228
 msgid "Messages are handled by logwatch."
 msgstr ""
 
@@ -37859,11 +37864,11 @@ msgstr ""
 msgid "Messages in text log files"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:308
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:312
 msgid "Messages that are spooled longer than this time will be thrown away."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:294
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:298
 msgid ""
 "Messages that can not be forwarded, e.g. when the target Event Console is "
 "not running, can temporarily be stored locally. Forwarding is tried again on "
@@ -38154,7 +38159,7 @@ msgstr ""
 msgid "Minutes"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:829
+#: ../cmk/gui/cee/reporting.py:838
 msgid "Mirror margins"
 msgstr ""
 
@@ -38719,7 +38724,7 @@ msgstr ""
 msgid "Monitoring of container and container orchestration software"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:387
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:391
 msgid "Monitoring of forwarded logfiles"
 msgstr ""
 
@@ -38816,7 +38821,7 @@ msgstr ""
 msgid "Monthly"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2195
+#: ../cmk/gui/cee/reporting.py:2175
 msgid "Monthly Report"
 msgstr ""
 
@@ -39387,7 +39392,7 @@ msgid "Name of filesystem with quotas enabled"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/fileinfo-groups.py:38
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:176
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:180
 #: ../cmk/gui/plugins/wato/check_parameters/unsorted.py:141
 msgid "Name of group"
 msgstr ""
@@ -40087,7 +40092,7 @@ msgstr ""
 msgid "New rule: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2298
+#: ../cmk/gui/cee/reporting.py:2278
 msgid "New stored report"
 msgstr ""
 
@@ -40127,7 +40132,7 @@ msgstr ""
 msgid "Newest first"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1525
+#: ../cmk/gui/cee/reporting.py:1505
 msgid "Next Run"
 msgstr ""
 
@@ -40257,7 +40262,7 @@ msgstr ""
 msgid "No certificate"
 msgstr "Ajouter un certificat de CA"
 
-#: ../cmk/gui/cee/reporting.py:789
+#: ../cmk/gui/cee/reporting.py:798
 msgid "No colon, slash or backslash is allowed in the filename."
 msgstr ""
 
@@ -40350,7 +40355,7 @@ msgstr ""
 msgid "No explicit credentials"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:225
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:229
 msgid "No forwarding"
 msgstr ""
 
@@ -40501,7 +40506,7 @@ msgstr ""
 msgid "No replication with this site"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:450
+#: ../cmk/gui/cee/reporting.py:451
 #, python-format
 msgid "No report defined with the name '%s'."
 msgstr ""
@@ -40624,7 +40629,7 @@ msgstr ""
 msgid "No version limitation"
 msgstr ""
 
-#: ../cmk/gui/plugins/dashboard/view.py:160 ../cmk/gui/cee/reporting.py:2824
+#: ../cmk/gui/plugins/dashboard/view.py:160 ../cmk/gui/cee/reporting.py:2804
 #, python-format
 msgid "No view defined with the name '%s'."
 msgstr ""
@@ -40969,7 +40974,7 @@ msgstr ""
 msgid "Not activated"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3057
+#: ../cmk/gui/cee/reporting.py:3037
 msgid "Not all sites have been queried. Some information is missing."
 msgstr ""
 
@@ -42305,10 +42310,10 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/hostsystem_sensors.py:33
 #: ../cmk/gui/plugins/wato/check_parameters/veritas_vcs.py:29
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:59
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:99
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:111
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:123
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:135
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:103
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:115
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:127
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:139
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:133
 #: ../cmk/gui/plugins/wato/active_checks.py:357
 #: ../cmk/gui/plugins/wato/active_checks.py:752
@@ -43334,7 +43339,7 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:557
+#: ../cmk/gui/cee/reporting.py:558
 msgid "Options for report emails"
 msgstr ""
 
@@ -43880,8 +43885,8 @@ msgstr ""
 
 #: ../cmk/gui/gui_background_job.py:365 ../cmk/gui/gui_background_job.py:504
 #: ../cmk/gui/plugins/wato/notifications.py:1006 ../cmk/gui/visuals.py:611
-#: ../cmk/gui/cee/reporting.py:1495 ../cmk/gui/cee/reporting.py:1726
-#: ../cmk/gui/cee/reporting.py:2505 ../cmk/gui/pagetypes.py:1128
+#: ../cmk/gui/cee/reporting.py:1475 ../cmk/gui/cee/reporting.py:1706
+#: ../cmk/gui/cee/reporting.py:2485 ../cmk/gui/pagetypes.py:1128
 msgid "Owner"
 msgstr ""
 
@@ -44222,7 +44227,7 @@ msgid "Page not found"
 msgstr ""
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1538
-#: ../cmk/gui/cee/reporting.py:810
+#: ../cmk/gui/cee/reporting.py:819
 msgid "Page size"
 msgstr ""
 
@@ -44263,7 +44268,7 @@ msgstr ""
 msgid "PagerDuty Service Integration Key"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:993
+#: ../cmk/gui/cee/reporting.py:1002
 msgid "Pages"
 msgstr ""
 
@@ -44284,7 +44289,7 @@ msgstr ""
 msgid "Palo Alto Sessions"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:820
+#: ../cmk/gui/cee/reporting.py:829
 msgid "Paper margins"
 msgstr ""
 
@@ -44332,7 +44337,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/object_parameters.py:211
 #: ../cmk/gui/cee/plugins/reporting/utils.py:215
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:255
-#: ../cmk/gui/cee/reporting.py:996
+#: ../cmk/gui/cee/reporting.py:1005
 msgid "Parameters"
 msgstr ""
 
@@ -44569,7 +44574,7 @@ msgid "Patch release"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:437
-#: ../cmk/gui/wato/pages/groups.py:513 ../cmk/gui/cee/reporting.py:2506
+#: ../cmk/gui/wato/pages/groups.py:513 ../cmk/gui/cee/reporting.py:2486
 msgid "Path"
 msgstr ""
 
@@ -45206,7 +45211,7 @@ msgstr ""
 msgid "Performance options"
 msgstr ""
 
-#: ../cmk/gui/valuespec.py:6178 ../cmk/gui/cee/reporting.py:1516
+#: ../cmk/gui/valuespec.py:6178 ../cmk/gui/cee/reporting.py:1496
 msgid "Period"
 msgstr ""
 
@@ -45562,7 +45567,7 @@ msgid ""
 "option tells the vsphere agent to exclude placeholder vms in its output."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1210
+#: ../cmk/gui/cee/reporting.py:1203
 msgid "Placement"
 msgstr ""
 
@@ -45640,7 +45645,7 @@ msgstr ""
 msgid "Please choose a file to upload."
 msgstr "Choisissez une icône au format PNG s'il-vous-plaît."
 
-#: ../cmk/gui/cee/reporting.py:1585
+#: ../cmk/gui/cee/reporting.py:1565
 msgid "Please choose a report to schedule"
 msgstr ""
 
@@ -45838,7 +45843,7 @@ msgid ""
 "you want to monitor percentage values"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1714
+#: ../cmk/gui/cee/reporting.py:1694
 msgid ""
 "Please note: the time range selected here is relative to the time when the "
 "report is being created. For example if you create a weekly report at Monday "
@@ -45965,7 +45970,7 @@ msgid ""
 "with <tt>\\2</tt> and so on, for example <tt>\\1.example.org</tt>"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1881
+#: ../cmk/gui/cee/reporting.py:1861
 msgid "Please specify a relative path only using a-z, 0-9, -, _, and ."
 msgstr ""
 
@@ -46251,8 +46256,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3322
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3557
 #: ../cmk/gui/plugins/wato/check_parameters/threepar_ports.py:51
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:281
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:344
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:285
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:348
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:50
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:24
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:32
@@ -46355,7 +46360,7 @@ msgstr ""
 msgid "Ports to open"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:985 ../cmk/gui/cee/reporting.py:1219
+#: ../cmk/gui/cee/reporting.py:994 ../cmk/gui/cee/reporting.py:1212
 msgid "Position"
 msgstr ""
 
@@ -46622,20 +46627,20 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1960
+#: ../cmk/gui/cee/reporting.py:1940
 msgid "Preview generation finished."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1958
+#: ../cmk/gui/cee/reporting.py:1938
 msgid "Preview generation in progress..."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1953
+#: ../cmk/gui/cee/reporting.py:1933
 #, python-format
 msgid "Preview generation started in background job <a href=\"%s\">%s</a>"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1482
+#: ../cmk/gui/cee/reporting.py:1462
 msgid "Preview this report"
 msgstr ""
 
@@ -47100,7 +47105,7 @@ msgstr ""
 msgid "Properties"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1268
+#: ../cmk/gui/cee/reporting.py:1261
 #, python-format
 msgid "Properties for %s"
 msgstr ""
@@ -47255,7 +47260,7 @@ msgstr ""
 msgid "Public"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:160 ../cmk/gui/cee/reporting.py:2251
+#: ../cmk/gui/visuals.py:160 ../cmk/gui/cee/reporting.py:2231
 #, python-format
 msgid "Publish %s"
 msgstr ""
@@ -47273,7 +47278,7 @@ msgstr ""
 msgid "Publish to members of contact groups"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1840
+#: ../cmk/gui/cee/reporting.py:1820
 msgid "Publish to other users"
 msgstr ""
 
@@ -47318,7 +47323,7 @@ msgid "Put file to SFTP server"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:38
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:380
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:384
 msgid ""
 "Put the item names of the logfiles here. For example \"System$\" to select "
 "the service \"LOG System\". You can use regular expressions which must match "
@@ -47329,7 +47334,7 @@ msgstr ""
 msgid "Put the name of the database here, e.g. SATURN\\ARCSERVE_DB"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1214
+#: ../cmk/gui/cee/reporting.py:1207
 msgid "Put this element on"
 msgstr ""
 
@@ -48163,7 +48168,7 @@ msgstr ""
 msgid "Reclaimable memory"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:87
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:91
 msgid "Reclassify complete state"
 msgstr ""
 
@@ -48175,7 +48180,7 @@ msgstr ""
 msgid "Reclassify host state of this period"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:405
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:409
 msgid "Reclassify messages before forwarding them to the EC"
 msgstr ""
 
@@ -48498,8 +48503,8 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:321
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:766
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:985
-#: ../cmk/gui/cee/reporting.py:1087 ../cmk/gui/cee/reporting.py:1569
-#: ../cmk/gui/cee/reporting.py:2532 ../cmk/gui/pagetypes.py:1348
+#: ../cmk/gui/cee/reporting.py:1088 ../cmk/gui/cee/reporting.py:1549
+#: ../cmk/gui/cee/reporting.py:2512 ../cmk/gui/pagetypes.py:1348
 msgid "Related"
 msgstr ""
 
@@ -48680,7 +48685,7 @@ msgstr ""
 msgid "Remote site URL"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:267
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:271
 msgid "Remote: Send events to remote syslog host"
 msgstr ""
 
@@ -49109,17 +49114,17 @@ msgstr ""
 msgid "Replication synchronization"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:560
+#: ../cmk/gui/cee/reporting.py:561
 msgid "Reply-To: email address"
 msgstr ""
 
 #: ../cmk/gui/plugins/metrics/html_render.py:824
-#: ../cmk/gui/cee/reporting.py:1313 ../cmk/gui/cee/reporting.py:1321
-#: ../cmk/gui/cee/reporting.py:1498
+#: ../cmk/gui/cee/reporting.py:1312 ../cmk/gui/cee/reporting.py:1320
+#: ../cmk/gui/cee/reporting.py:1478
 msgid "Report"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:717
+#: ../cmk/gui/cee/reporting.py:726
 msgid "Report Properties"
 msgstr ""
 
@@ -49131,20 +49136,20 @@ msgid ""
 "$UNTIL_TIME$"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:177
+#: ../cmk/gui/cee/reporting.py:178
 msgid "Report generation"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2086
+#: ../cmk/gui/cee/reporting.py:2066
 msgid "Report generation complete."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2061
+#: ../cmk/gui/cee/reporting.py:2041
 #, python-format
 msgid "Report generation of %s / %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2068
+#: ../cmk/gui/cee/reporting.py:2048
 #, python-format
 msgid "Report generation started in background job <a href=\"%s\">%s</a>"
 msgstr ""
@@ -49169,25 +49174,25 @@ msgstr ""
 msgid "Report options"
 msgstr "Options de la règle"
 
-#: ../cmk/gui/cee/reporting.py:1946
+#: ../cmk/gui/cee/reporting.py:1926
 #, python-format
 msgid "Report preview generation of %s / %s"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:493
-#: ../cmk/gui/cee/reporting.py:3351
+#: ../cmk/gui/cee/reporting.py:3331
 msgid "Report properties"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1403 ../cmk/gui/cee/reporting.py:1785
+#: ../cmk/gui/cee/reporting.py:1402 ../cmk/gui/cee/reporting.py:1765
 msgid "Report scheduler"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1684
+#: ../cmk/gui/cee/reporting.py:1664
 msgid "Report to create"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1597
+#: ../cmk/gui/cee/reporting.py:1577
 msgid "Report to schedule"
 msgstr ""
 
@@ -49197,7 +49202,7 @@ msgid "Report usage"
 msgstr "Utilisation du CPU"
 
 #: ../cmk/gui/cee/plugins/sidebar/reporting.py:35
-#: ../cmk/gui/cee/plugins/wato/reporting.py:22 ../cmk/gui/cee/reporting.py:169
+#: ../cmk/gui/cee/plugins/wato/reporting.py:22 ../cmk/gui/cee/reporting.py:170
 msgid "Reporting"
 msgstr ""
 
@@ -49207,8 +49212,8 @@ msgstr ""
 
 #: ../cmk/gui/views.py:801 ../cmk/gui/plugins/views/availability.py:422
 #: ../cmk/gui/cee/plugins/reporting/utils.py:57
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:452 ../cmk/gui/cee/reporting.py:675
-#: ../cmk/gui/cee/reporting.py:1013 ../cmk/gui/cee/reporting.py:2548
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:452 ../cmk/gui/cee/reporting.py:684
+#: ../cmk/gui/cee/reporting.py:1023 ../cmk/gui/cee/reporting.py:2528
 #: ../cmk/gui/pagetypes.py:1387 ../cmk/gui/pagetypes.py:1950
 msgid "Reports"
 msgstr ""
@@ -49490,7 +49495,7 @@ msgstr ""
 msgid "Restore job"
 msgstr "Restaurer le snapshot "
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:378
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:382
 msgid "Restrict Logfiles (Prefix matching regular expressions)"
 msgstr ""
 
@@ -49721,7 +49726,7 @@ msgid "Rewriting"
 msgstr ""
 
 #: ../cmk/gui/plugins/userdb/user_attributes.py:180
-#: ../cmk/gui/wato/user_profile.py:65 ../cmk/gui/cee/reporting.py:823
+#: ../cmk/gui/wato/user_profile.py:65 ../cmk/gui/cee/reporting.py:832
 msgid "Right"
 msgstr ""
 
@@ -50135,7 +50140,7 @@ msgstr ""
 msgid "Run plugins and local checks using non-system account"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1727
+#: ../cmk/gui/cee/reporting.py:1707
 msgid ""
 "Run report as this user. This either means that all objects are filtered "
 "with the permission of the selected user but also means that the generated "
@@ -50880,7 +50885,7 @@ msgstr ""
 msgid "Scan interval"
 msgstr ""
 
-#: ../cmk/gui/backup.py:718 ../cmk/gui/cee/reporting.py:1589
+#: ../cmk/gui/backup.py:718 ../cmk/gui/cee/reporting.py:1569
 msgid "Schedule"
 msgstr ""
 
@@ -50905,11 +50910,11 @@ msgstr ""
 msgid "Schedule execution"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1687
+#: ../cmk/gui/cee/reporting.py:1667
 msgid "Schedule title"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:596
+#: ../cmk/gui/cee/reporting.py:597
 msgid "Scheduled Checkmk Report $TITLE$.\n"
 msgstr ""
 
@@ -50935,12 +50940,12 @@ msgstr ""
 msgid "Scheduled downtimes"
 msgstr "Placer/Enlever des périodes de maintenance"
 
-#: ../cmk/gui/cee/reporting.py:1865
+#: ../cmk/gui/cee/reporting.py:1845
 msgid "Scheduled report title"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1452 ../cmk/gui/cee/reporting.py:1551
-#: ../cmk/gui/cee/reporting.py:2480
+#: ../cmk/gui/cee/reporting.py:1432 ../cmk/gui/cee/reporting.py:1531
+#: ../cmk/gui/cee/reporting.py:2460
 msgid "Scheduled reports"
 msgstr ""
 
@@ -50952,7 +50957,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/sidebar/reporting.py:75
-#: ../cmk/gui/cee/reporting.py:682
+#: ../cmk/gui/cee/reporting.py:691
 msgid "Scheduler"
 msgstr ""
 
@@ -50960,7 +50965,7 @@ msgstr ""
 msgid "Scheduler Job Name"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2083
+#: ../cmk/gui/cee/reporting.py:2063
 #, python-format
 msgid "Scheduling report in background failed: %s"
 msgstr ""
@@ -51458,7 +51463,7 @@ msgstr ""
 "WATO possède un module qui vous donne des indices afin de configurer votre "
 "installation Check_MK."
 
-#: ../cmk/gui/visuals.py:175 ../cmk/gui/cee/reporting.py:2257
+#: ../cmk/gui/visuals.py:175 ../cmk/gui/cee/reporting.py:2237
 #, python-format
 msgid "See user %s"
 msgstr ""
@@ -51573,11 +51578,11 @@ msgid ""
 "selection e.g. the attribute names used in LDAP queries will be altered."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:547
+#: ../cmk/gui/cee/reporting.py:548
 msgid "Select the type of content element"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:544
+#: ../cmk/gui/cee/reporting.py:545
 msgid "Select the type of fixed page element"
 msgstr ""
 
@@ -51706,15 +51711,15 @@ msgstr ""
 msgid "Send to remote Event Console via syslog"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1845 ../cmk/gui/cee/reporting.py:1847
+#: ../cmk/gui/cee/reporting.py:1825 ../cmk/gui/cee/reporting.py:1827
 msgid "Send via Email"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:271
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:275
 msgid "Send via TCP"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:334
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:338
 msgid "Send via UDP"
 msgstr ""
 
@@ -51793,7 +51798,7 @@ msgstr ""
 msgid "Sentinel"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:419
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:423
 msgid "Separate check"
 msgstr ""
 
@@ -52368,7 +52373,7 @@ msgstr ""
 msgid "Service recovers to OK"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3434
+#: ../cmk/gui/cee/reporting.py:3414
 #, fuzzy
 #| msgid "Remove obsolete services"
 msgid "Service report for multiple services"
@@ -55365,11 +55370,11 @@ msgstr ""
 msgid "Spool files of PNP4Nagios"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:291
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:295
 msgid "Spool messages that could not be sent"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:255
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:259
 msgid "Spool to Event Console"
 msgstr ""
 
@@ -56374,7 +56379,7 @@ msgstr ""
 msgid "Stateful sets"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:740
+#: ../cmk/gui/cee/reporting.py:749
 msgid "Statement"
 msgstr ""
 
@@ -56663,7 +56668,7 @@ msgstr ""
 msgid "Step"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1337
+#: ../cmk/gui/cee/reporting.py:1336
 #, python-format
 msgid "Step %d"
 msgstr ""
@@ -56797,11 +56802,11 @@ msgstr ""
 msgid "Store and share passwords for later use in checks."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1875
+#: ../cmk/gui/cee/reporting.py:1855
 msgid "Store in sub directory"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1856 ../cmk/gui/cee/reporting.py:1858
+#: ../cmk/gui/cee/reporting.py:1836 ../cmk/gui/cee/reporting.py:1838
 msgid "Store locally"
 msgstr ""
 
@@ -56817,12 +56822,12 @@ msgstr ""
 msgid "Store size"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2293
+#: ../cmk/gui/cee/reporting.py:2273
 msgid "Stored report"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:689 ../cmk/gui/cee/reporting.py:2294
-#: ../cmk/gui/cee/reporting.py:2455 ../cmk/gui/cee/reporting.py:2520
+#: ../cmk/gui/cee/reporting.py:698 ../cmk/gui/cee/reporting.py:2274
+#: ../cmk/gui/cee/reporting.py:2435 ../cmk/gui/cee/reporting.py:2500
 msgid "Stored reports"
 msgstr ""
 
@@ -56927,7 +56932,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/valuespec.py:6222 ../cmk/gui/plugins/wato/active_checks.py:2034
-#: ../cmk/gui/wato/mkeventd.py:3470 ../cmk/gui/cee/reporting.py:563
+#: ../cmk/gui/wato/mkeventd.py:3470 ../cmk/gui/cee/reporting.py:564
 msgid "Subject"
 msgstr ""
 
@@ -57062,7 +57067,7 @@ msgstr ""
 msgid "Successfully sent %d commands."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2139
+#: ../cmk/gui/cee/reporting.py:2119
 msgid "Successfully stored the report"
 msgstr ""
 
@@ -57270,7 +57275,7 @@ msgstr ""
 msgid "Swap installed"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:830
+#: ../cmk/gui/cee/reporting.py:839
 msgid "Swap left and right margins on pages with even numbers"
 msgstr ""
 
@@ -57454,7 +57459,7 @@ msgstr ""
 msgid "Syslog facility for Event Console notifications"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:368
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:372
 msgid "Syslog facility for forwarded messages"
 msgstr ""
 
@@ -57839,7 +57844,7 @@ msgstr ""
 msgid "Tablespaces"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:739
+#: ../cmk/gui/cee/reporting.py:748
 msgid "Tabloid"
 msgstr ""
 
@@ -58609,7 +58614,7 @@ msgid ""
 "one."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1676
+#: ../cmk/gui/cee/reporting.py:1656
 msgid "The ID will be used do identify this schedule in URLs"
 msgstr ""
 
@@ -59193,7 +59198,7 @@ msgid ""
 "syntax simply subtracts one day from the reference time."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:193
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:197
 msgid ""
 "The check <tt>logwatch</tt> normally creates one service for each logfile. "
 "By defining grouping patterns you can switch to the check <tt>logwatch."
@@ -59426,7 +59431,7 @@ msgid ""
 "<tt>'</tt> <tt>|</tt> or <tt>$</tt>"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3208
+#: ../cmk/gui/cee/reporting.py:3188
 #, python-format
 msgid "The content element \"%s, %s\" cannot be rendered: %s"
 msgstr ""
@@ -59751,7 +59756,7 @@ msgstr ""
 msgid "The file does not seem to be a valid iCalendar file."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:586
+#: ../cmk/gui/cee/reporting.py:587
 msgid "The file extension has to be <tt>.pdf</tt>"
 msgstr ""
 
@@ -60760,7 +60765,7 @@ msgid ""
 "matching this facility."
 msgstr ""
 
-#: ../cmk/gui/config.py:358 ../cmk/gui/cee/ntop/connector.py:409
+#: ../cmk/gui/config.py:370 ../cmk/gui/cee/ntop/connector.py:409
 msgid ""
 "The ntopng username should be derived from 'ntopng Username' under the "
 "current's user settings (identity) but this is not set for the current user."
@@ -61143,21 +61148,17 @@ msgstr ""
 msgid "The replication will be triggered each this number of seconds"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:633
+#: ../cmk/gui/cee/reporting.py:634
 msgid ""
 "The report is used in the report scheduler. You first have to delete all "
 "schedules refering this report to be able to delete the report."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1445
-msgid "The report you are trying to preview does not exist."
-msgstr ""
-
-#: ../cmk/gui/cee/reporting.py:1985
+#: ../cmk/gui/cee/reporting.py:1965
 msgid "The report you are trying to preview has no valid filename"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1989
+#: ../cmk/gui/cee/reporting.py:1969
 msgid "The report you are trying to preview is not available"
 msgstr ""
 
@@ -61199,7 +61200,7 @@ msgstr ""
 msgid "The requested item %s does not exist"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:896 ../cmk/gui/cee/reporting.py:2112
+#: ../cmk/gui/cee/reporting.py:908 ../cmk/gui/cee/reporting.py:2092
 msgid "The requested report does not exist."
 msgstr ""
 
@@ -61212,7 +61213,7 @@ msgstr ""
 msgid "The requested rule pack does not exist."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1937
+#: ../cmk/gui/cee/reporting.py:1917
 msgid "The requested schedule does not exist."
 msgstr ""
 
@@ -61361,20 +61362,16 @@ msgstr ""
 msgid "The ruleset \"%s\" does not exist."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1635
+#: ../cmk/gui/cee/reporting.py:1615
 msgid "The schedule you are trying to clone does not exist."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1413
+#: ../cmk/gui/cee/reporting.py:1409
 msgid "The schedule you are trying to delete does not exist."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1626
+#: ../cmk/gui/cee/reporting.py:1606
 msgid "The schedule you are trying to edit does not exist."
-msgstr ""
-
-#: ../cmk/gui/cee/reporting.py:1424 ../cmk/gui/cee/reporting.py:1434
-msgid "The schedule you are trying to execute does not exist."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2691
@@ -61619,7 +61616,7 @@ msgstr ""
 msgid "The status of this site has not yet been determined."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2471
+#: ../cmk/gui/cee/reporting.py:2451
 msgid "The stored report you are trying to delete does not exist."
 msgstr ""
 
@@ -62964,7 +62961,7 @@ msgstr ""
 msgid "This defines one file grouping pattern."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:172
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:176
 msgid "This defines one logfile grouping pattern"
 msgstr ""
 
@@ -62984,7 +62981,7 @@ msgstr ""
 msgid "This element is currently not in its service period."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1487
+#: ../cmk/gui/cee/reporting.py:1467
 msgid "This entry is currently disabled."
 msgstr ""
 
@@ -63129,7 +63126,7 @@ msgid ""
 "is five times the normal check interval"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:855
+#: ../cmk/gui/cee/reporting.py:864
 msgid "This is a front matter Template"
 msgstr ""
 
@@ -63991,11 +63988,11 @@ msgid ""
 "group. This is a prefix match regular expression."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1132
+#: ../cmk/gui/cee/reporting.py:1134
 msgid "This report does not exist."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1142 ../cmk/gui/cee/reporting.py:1152
+#: ../cmk/gui/cee/reporting.py:1145
 msgid "This report element does not exist."
 msgstr ""
 
@@ -64019,7 +64016,7 @@ msgid ""
 "button at a view that is displaying one host."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:859
+#: ../cmk/gui/cee/reporting.py:868
 msgid ""
 "This report will be use only to describe the front matter of a report. It "
 "will be treated as a individual document and thus will not mix its elements "
@@ -64951,7 +64948,7 @@ msgid ""
 "in the command form."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:89
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:93
 msgid ""
 "This setting allows you to convert all incoming states to another state. The "
 "option is applied before the state conversion via regexes. So the regex "
@@ -65010,7 +65007,7 @@ msgid ""
 "grouped interfaces is different"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:803
+#: ../cmk/gui/cee/reporting.py:812
 #, python-format
 msgid ""
 "This setting controls the distance of text lines, in relation to the font "
@@ -65205,7 +65202,7 @@ msgid ""
 "of Multisite."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2580
+#: ../cmk/gui/cee/reporting.py:2560
 msgid "This stored report does not exist."
 msgstr ""
 
@@ -65232,7 +65229,7 @@ msgid ""
 "rest of the rows has not been fetched and rendered."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:856
+#: ../cmk/gui/cee/reporting.py:865
 msgid ""
 "This template is used for cover pages, table of contents and other elements "
 "of the front matter"
@@ -65582,7 +65579,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/activate_changes.py:340
 #: ../cmk/gui/wato/pages/audit_log.py:275
 #: ../cmk/gui/wato/pages/audit_log.py:499 ../cmk/gui/notifications.py:154
-#: ../cmk/gui/cee/reporting.py:1517
+#: ../cmk/gui/cee/reporting.py:1497
 msgid "Time"
 msgstr ""
 
@@ -65595,7 +65592,7 @@ msgstr ""
 msgid "Time MTR waits between sending pings"
 msgstr ""
 
-#: ../cmk/gui/availability.py:362 ../cmk/gui/cee/reporting.py:1509
+#: ../cmk/gui/availability.py:362 ../cmk/gui/cee/reporting.py:1489
 msgid "Time Range"
 msgstr ""
 
@@ -65693,7 +65690,7 @@ msgstr ""
 msgid "Time left until full"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1706
+#: ../cmk/gui/cee/reporting.py:1686
 msgid "Time of day to create report at"
 msgstr ""
 
@@ -65775,7 +65772,7 @@ msgstr ""
 msgid "Time range to consider"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1712
+#: ../cmk/gui/cee/reporting.py:1692
 msgid "Time range to create report for"
 msgstr ""
 
@@ -66032,7 +66029,7 @@ msgstr ""
 msgid "Timerange synchronization"
 msgstr "Synchronisation Automatique des Utilisateurs"
 
-#: ../cmk/gui/cee/reporting.py:796
+#: ../cmk/gui/cee/reporting.py:805
 msgid "Times"
 msgstr ""
 
@@ -66120,7 +66117,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/dcd.py:348
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:572
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:907
-#: ../cmk/gui/cee/reporting.py:1492 ../cmk/gui/cee/reporting.py:2504
+#: ../cmk/gui/cee/reporting.py:1472 ../cmk/gui/cee/reporting.py:2484
 #: ../cmk/gui/cee/sla.py:366 ../cmk/gui/pagetypes.py:158
 #: ../cmk/gui/pagetypes.py:1113
 msgid "Title"
@@ -66255,7 +66252,7 @@ msgstr ""
 msgid "Tooltip"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:822
+#: ../cmk/gui/cee/reporting.py:831
 msgid "Top"
 msgstr ""
 
@@ -67204,7 +67201,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_cache_age.py:28
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_retry_count.py:28
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_execution.py:28
-#: ../cmk/gui/cee/reporting.py:955 ../cmk/gui/cee/reporting.py:983
+#: ../cmk/gui/cee/reporting.py:974 ../cmk/gui/cee/reporting.py:992
 #: ../cmk/gui/cee/ntop/pages.py:1487
 msgid "Type"
 msgstr ""
@@ -67784,7 +67781,7 @@ msgid ""
 "render."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3190
+#: ../cmk/gui/cee/reporting.py:3170
 #, python-format
 msgid ""
 "Unable to render this element, because we miss some required context "
@@ -67996,7 +67993,7 @@ msgstr ""
 #: ../cmk/gui/visuals.py:832 ../cmk/gui/backup.py:756 ../cmk/gui/backup.py:766
 #: ../cmk/gui/backup.py:1231 ../cmk/gui/backup.py:1244
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:254
-#: ../cmk/gui/cee/reporting.py:1675 ../cmk/gui/pagetypes.py:149
+#: ../cmk/gui/cee/reporting.py:1655 ../cmk/gui/pagetypes.py:149
 msgid "Unique ID"
 msgstr ""
 
@@ -69483,7 +69480,7 @@ msgstr ""
 msgid "Use separate fetchers and checkers"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:753
+#: ../cmk/gui/cee/reporting.py:762
 msgid "Use settings and page layout from"
 msgstr ""
 
@@ -71189,15 +71186,15 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/hostsystem_sensors.py:34
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:58
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:98
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:110
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:122
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:134
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:102
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:114
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:126
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:138
 #: ../cmk/gui/plugins/wato/active_checks.py:356
 #: ../cmk/gui/plugins/wato/active_checks.py:751
 #: ../cmk/gui/plugins/wato/active_checks.py:783 ../cmk/gui/htmllib.py:1408
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:208
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1168 ../cmk/gui/cee/reporting.py:3055
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1168 ../cmk/gui/cee/reporting.py:3035
 #: ../cmk/utils/defines.py:23
 msgid "WARNING"
 msgstr ""
@@ -71380,7 +71377,7 @@ msgstr ""
 msgid "Warn if VM status value is not"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:388
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:392
 msgid "Warn if list of forwarded logfiles changes"
 msgstr ""
 
@@ -72578,7 +72575,7 @@ msgstr ""
 msgid "Wato"
 msgstr ""
 
-#: ../cmk/gui/config.py:821
+#: ../cmk/gui/config.py:833
 #, python-format
 msgid ""
 "We are sorry, but you lack the permission for this operation. If you do not "
@@ -72695,7 +72692,7 @@ msgstr ""
 msgid "Weekly"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2193
+#: ../cmk/gui/cee/reporting.py:2173
 msgid "Weekly Report"
 msgstr ""
 
@@ -72842,7 +72839,7 @@ msgid ""
 "permissions to the UNIX socket of the foreign site."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:784
+#: ../cmk/gui/cee/reporting.py:793
 msgid ""
 "When creating a report PDF then the browser will suggest to save the file "
 "with this filename. The extension should always be <tt>pdf</tt>."
@@ -72954,7 +72951,7 @@ msgid ""
 "mail is limited to the given number of characters."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:370
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:374
 msgid ""
 "When forwarding messages and no facility can be extracted from the message "
 "this facility is used."
@@ -73161,7 +73158,7 @@ msgid ""
 "you specify here."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:400
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:404
 msgid ""
 "When the monitoring of forwarded logfiles is enabled, the check verifies "
 "that all of the logfiles listed here are reported by the monitored system."
@@ -73174,7 +73171,7 @@ msgid ""
 "That means that the check is only critical if <b>all</b> packets are lost."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:321
+#: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:325
 msgid ""
 "When the total size of spooled messages exceeds this number, the oldest "
 "messages of the currently spooled messages is thrown away until the left "
@@ -73196,14 +73193,14 @@ msgid ""
 "an error message."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1859
+#: ../cmk/gui/cee/reporting.py:1839
 #, python-format
 msgid ""
 "When this is configured, the created reports will be stored below <tt>%s</"
 "tt> in your local site."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:754
+#: ../cmk/gui/cee/reporting.py:763
 msgid ""
 "When this item is unchecked the default template defined in global settings "
 "will be used. You can specify another report here to inherit from. All "
@@ -73500,7 +73497,7 @@ msgid "WiFi connection types"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/reporting/fixed_elements.py:49
-#: ../cmk/gui/cee/reporting.py:814
+#: ../cmk/gui/cee/reporting.py:823
 msgid "Width"
 msgstr ""
 
@@ -74305,7 +74302,7 @@ msgstr ""
 msgid "You are not permitted to edit this global setting."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/host_diagnose.py:359 ../cmk/gui/cee/reporting.py:2475
+#: ../cmk/gui/wato/pages/host_diagnose.py:359 ../cmk/gui/cee/reporting.py:2455
 #: ../cmk/gui/pagetypes.py:1044
 msgid "You are not permitted to perform this action."
 msgstr ""
@@ -74625,7 +74622,7 @@ msgid ""
 "You can not delete this target because it is used by these backup jobs: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1833
+#: ../cmk/gui/cee/reporting.py:1813
 msgid "You can not use \"public\" as first level of a custom path"
 msgstr ""
 
@@ -74763,7 +74760,7 @@ msgid ""
 "the host this check will be assigned to."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1876
+#: ../cmk/gui/cee/reporting.py:1856
 msgid ""
 "You can specify a relative path here. The report will be created in the "
 "given subdirectory. In case a directory does not exist, it will be created "
@@ -74889,7 +74886,7 @@ msgid ""
 "other timeperiods from this current timeperiod."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2174
+#: ../cmk/gui/cee/reporting.py:2154
 msgid ""
 "You can use report scheduler macros here: <ul><li><tt>$DATE$</tt>: The "
 "current date in <tt>%Y-%m-%d</tt> format</li><li><tt>$DATE_YEAR$</tt>: The "
@@ -75184,7 +75181,7 @@ msgid ""
 "which has hosts assigned in order to be able to receive emails."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:2612
+#: ../cmk/gui/cee/reporting.py:2592
 msgid ""
 "You have no mail transfer agent installed. <tt>/usr/sbin/sendmail</tt> is "
 "missing. Please install Postfix, Qmail, Nullmailer or Sendmail."
@@ -75328,7 +75325,7 @@ msgid ""
 "though."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1828
+#: ../cmk/gui/cee/reporting.py:1808
 msgid "You may only use paths relative to the report archive base directory"
 msgstr ""
 
@@ -75366,7 +75363,7 @@ msgstr ""
 msgid "You must specify at least one element."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:3361
+#: ../cmk/gui/cee/reporting.py:3341
 msgid ""
 "You need specify another report here that will be used as base for rendering "
 "this report element. The selected report will be added to the created "
@@ -75525,7 +75522,7 @@ msgstr ""
 msgid "Youngest age"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1290
+#: ../cmk/gui/cee/reporting.py:1289
 #, python-format
 msgid "Your %s element has been saved."
 msgstr ""
@@ -75668,7 +75665,7 @@ msgstr ""
 msgid "Your roles are <b>%s</b>."
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1777
+#: ../cmk/gui/cee/reporting.py:1757
 msgid "Your schedule task has been saved."
 msgstr ""
 
@@ -76506,7 +76503,7 @@ msgstr ""
 msgid "do not create gateway hosts"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1695
+#: ../cmk/gui/cee/reporting.py:1675
 msgid "do not create this report"
 msgstr ""
 
@@ -76537,7 +76534,7 @@ msgstr ""
 #: ../cmk/gui/plugins/visuals/inventory.py:224
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:233
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_dom.py:101
-#: ../cmk/gui/cee/reporting.py:522 ../cmk/utils/defines.py:125
+#: ../cmk/gui/cee/reporting.py:523 ../cmk/utils/defines.py:125
 msgid "down"
 msgstr ""
 
@@ -76742,7 +76739,7 @@ msgstr "Nouvelles entrées"
 msgid "fixed"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1113
+#: ../cmk/gui/cee/reporting.py:1114
 msgid "fixed page element"
 msgstr ""
 
@@ -77231,7 +77228,7 @@ msgstr ""
 msgid "latin1"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:527
+#: ../cmk/gui/cee/reporting.py:528
 msgid "left"
 msgstr ""
 
@@ -77683,11 +77680,11 @@ msgid ""
 "again later."
 msgstr ""
 
-#: ../cmk/gui/config.py:355
+#: ../cmk/gui/config.py:367
 msgid "ntopng integration is not activated under global settings."
 msgstr ""
 
-#: ../cmk/gui/config.py:351
+#: ../cmk/gui/config.py:363
 msgid "ntopng integration is only available in CEE"
 msgstr ""
 
@@ -78136,17 +78133,17 @@ msgid "repeat:"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/crash_reporting.py:314
-#: ../cmk/gui/cee/reporting.py:191
+#: ../cmk/gui/cee/reporting.py:192
 msgid "report"
 msgid_plural "reports"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../cmk/gui/cee/reporting.py:1120
+#: ../cmk/gui/cee/reporting.py:1121
 msgid "report element"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:195 ../cmk/gui/cee/reporting.py:372
+#: ../cmk/gui/cee/reporting.py:196 ../cmk/gui/cee/reporting.py:373
 msgid "reports"
 msgstr ""
 
@@ -78210,7 +78207,7 @@ msgstr ""
 msgid "reuses"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:532
+#: ../cmk/gui/cee/reporting.py:533
 msgid "right"
 msgstr ""
 
@@ -78228,7 +78225,7 @@ msgstr ""
 msgid "rpm"
 msgstr ""
 
-#: ../cmk/gui/cee/reporting.py:1702
+#: ../cmk/gui/cee/reporting.py:1682
 msgid "run as background job"
 msgstr ""
 
@@ -78660,7 +78657,7 @@ msgstr ""
 #: ../cmk/gui/plugins/visuals/inventory.py:224
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:232
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_dom.py:100
-#: ../cmk/gui/cee/reporting.py:517 ../cmk/utils/defines.py:124
+#: ../cmk/gui/cee/reporting.py:518 ../cmk/utils/defines.py:124
 msgid "up"
 msgstr ""
 
