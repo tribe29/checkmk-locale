@@ -90,7 +90,7 @@ msgstr " - Cassé"
 msgid " Activate this option"
 msgstr " Activer cette option"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1893
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1871
 msgid ""
 " An identifier of your choice. This identifier is used by the Check_MK "
 "checks to access and identify the single values. The identifier needs to be "
@@ -109,7 +109,7 @@ msgstr " Fini à: %s."
 msgid " Ignore this option"
 msgstr " Ignorer cette option"
 
-#: ../cmk/gui/wato/pages/folders.py:675
+#: ../cmk/gui/wato/pages/folders.py:677
 #, python-format
 msgid " Its directory is <tt>%s</tt>."
 msgstr " Le répertoire est  <tt>%s</tt>."
@@ -135,7 +135,7 @@ msgstr ""
 " Remarque : si aucun niveau de service n'est configuré pour un service, "
 "celui de l'hôte sera utilisé à la place (s'il est configuré)."
 
-#: ../cmk/gui/wato/pages/folders.py:679
+#: ../cmk/gui/wato/pages/folders.py:681
 #, python-format
 msgid " The folder contains <b>%d</b> hosts, which will also be deleted!"
 msgstr ""
@@ -706,12 +706,12 @@ msgstr ""
 msgid "%s finished after %s at %s."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:873
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:887
 #, python-format
 msgid "%s for %d hosts started (%s)..."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:870
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:884
 #, python-format
 msgid "%s for all hosts started..."
 msgstr ""
@@ -1067,7 +1067,7 @@ msgstr ""
 msgid "(no entry)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:715
+#: ../cmk/gui/wato/pages/folders.py:717
 msgid "(no hosts)"
 msgstr ""
 
@@ -1107,7 +1107,7 @@ msgstr ""
 msgid "(please select)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:951 ../cmk/gui/wato/pages/folders.py:1054
+#: ../cmk/gui/wato/pages/folders.py:953 ../cmk/gui/wato/pages/folders.py:1056
 msgid "(select target folder)"
 msgstr ""
 
@@ -1145,7 +1145,7 @@ msgstr ""
 msgid ", elapsed cache lifespan: %s"
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:490
+#: ../cmk/cee/dcd/connectors/utils.py:498
 msgid ", errors occured"
 msgstr ""
 
@@ -1241,7 +1241,7 @@ msgstr ""
 msgid "0.5 - 1.0 ms"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:711
+#: ../cmk/gui/wato/pages/folders.py:713
 msgid "1 Host"
 msgstr ""
 
@@ -1437,8 +1437,8 @@ msgstr "3Par CPG (espace utilisé et croissance)"
 msgid "3PAR Capacity (used space and growth)"
 msgstr "3Par Capacity (espace utilisé et croissance)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2240
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2288
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2218
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2266
 #, fuzzy
 #| msgid "LDAP Configuration"
 msgid "3PAR Configuration"
@@ -1508,11 +1508,11 @@ msgstr ""
 msgid "7 days back (this day last week)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2194
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2172
 msgid "7-segment display brightness"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2188
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2166
 msgid "7-segment display uid"
 msgstr ""
 
@@ -1754,7 +1754,7 @@ msgid ""
 "normal operation and thus stores it unencrypted<br>on the Check_MK server."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:706
+#: ../cmk/gui/wato/pages/folders.py:708
 #, python-format
 msgid "<i>%d more contact groups</i><br>"
 msgstr ""
@@ -1763,7 +1763,7 @@ msgstr ""
 msgid "<i>(No fallback email address configured!)</i>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2678
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2656
 msgid ""
 "<i>Gather all service instances and restrict by overall tags</i> means that "
 "if overall tags are stated above then all service instances are filtered by "
@@ -2497,7 +2497,7 @@ msgid ""
 "classified with by its rule ID."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2759
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2737
 msgid ""
 "A unique identifier that might be required when you assume a role in another "
 "account. If the administrator of the account to which the role belongs "
@@ -2615,7 +2615,7 @@ msgstr ""
 msgid "ALL"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1751
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1729
 msgid "ALLNET IP Sensoric Devices"
 msgstr ""
 
@@ -2639,7 +2639,7 @@ msgstr ""
 msgid "APC Symmetra Checks"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1714
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1692
 msgid "API Access Token"
 msgstr ""
 
@@ -2657,7 +2657,12 @@ msgid ""
 "or team integration api keys."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2020
+#: ../cmk/gui/watolib/tags.py:550 ../cmk/gui/watolib/tags.py:556
+#: ../cmk/utils/tags.py:581
+msgid "API integrations if configured, else Checkmk agent"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1998
 #: ../cmk/gui/plugins/wato/notifications.py:520
 msgid "API key"
 msgstr ""
@@ -2726,7 +2731,7 @@ msgstr ""
 msgid "ASP Requests Rejected"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2689
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2667
 msgid "AWS Tags"
 msgstr ""
 
@@ -3172,7 +3177,7 @@ msgstr ""
 msgid "Acknowledge all"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:587
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:591
 #, fuzzy, python-format
 #| msgid "Acknowledge %s"
 msgid "Acknowledge last %s result"
@@ -3285,7 +3290,7 @@ msgstr "Erreur d'authentification"
 #: ../cmk/gui/wato/pages/icons.py:152 ../cmk/gui/wato/pages/users.py:339
 #: ../cmk/gui/wato/pages/tags.py:336 ../cmk/gui/wato/pages/tags.py:383
 #: ../cmk/gui/wato/pages/tags.py:497 ../cmk/gui/wato/pages/tags.py:545
-#: ../cmk/gui/wato/pages/rulesets.py:910 ../cmk/gui/wato/pages/folders.py:817
+#: ../cmk/gui/wato/pages/rulesets.py:910 ../cmk/gui/wato/pages/folders.py:819
 #: ../cmk/gui/wato/pages/activate_changes.py:386
 #: ../cmk/gui/wato/pages/audit_log.py:82
 #: ../cmk/gui/wato/pages/analyze_configuration.py:161
@@ -3323,9 +3328,9 @@ msgstr ""
 msgid "Actions when cancelling"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2262
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2305
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2333
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2240
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2283
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2311
 msgid "Activate"
 msgstr ""
 
@@ -3407,11 +3412,11 @@ msgid ""
 "set of monitored logs, see logname for that"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1678
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1656
 msgid "Activate monitoring of host via a HTTP connect to the HiveManager"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1702
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1680
 msgid "Activate monitoring of the HiveManagerNG cloud."
 msgstr ""
 
@@ -3437,7 +3442,7 @@ msgstr ""
 msgid "Activate total bandwidth metric (sum of in and out)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1188
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1202
 msgid "Activate update only on the selected hosts"
 msgstr ""
 
@@ -3684,10 +3689,6 @@ msgstr ""
 msgid "Actual traffic"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/metrics/forecasts.py:467
-msgid "Adaptable"
-msgstr ""
-
 #: ../cmk/gui/dashboard.py:822 ../cmk/gui/wato/pages/groups.py:88
 msgid "Add"
 msgstr ""
@@ -3796,15 +3797,11 @@ msgstr ""
 msgid "Add a first row with column titles"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:577
-msgid "Add a new host to the monitoring (agent must be installed)"
-msgstr ""
-
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2232
 msgid "Add additional folder"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1514
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1528
 #, fuzzy
 #| msgid "Agent Signature Keys"
 msgid "Add agent signature key"
@@ -3826,15 +3823,6 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:335
 msgid "Add all metrics of this graph to"
-msgstr ""
-
-#: ../cmk/gui/plugins/visuals/filters.py:3148
-#, python-format
-msgid ""
-"Add all your Checkmk servers as monitored hosts to Checkmk to render this "
-"graph. Specifically, we are missing the 'Site [SITE] statistics' services of "
-"the following sites: %s. Either the corresponding Checkmk servers are not "
-"monitored at all, or you filtered them out by applying site filters."
 msgstr ""
 
 #: ../cmk/gui/wato/pages/custom_attributes.py:437
@@ -3952,7 +3940,7 @@ msgstr "Ajouter un description de service"
 msgid "Add exclusion"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2579
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2557
 #: ../cmk/gui/plugins/wato/utils/__init__.py:446
 msgid "Add expression"
 msgstr ""
@@ -3965,6 +3953,13 @@ msgstr ""
 msgid "Add filter"
 msgstr ""
 
+#: ../cmk/gui/wato/pages/folders.py:388 ../cmk/gui/wato/pages/folders.py:599
+#: ../cmk/gui/wato/pages/folders.py:1212
+#, fuzzy
+#| msgid "Add & remove folders"
+msgid "Add folder"
+msgstr "Ajouter & supprimer des dossiers"
+
 #: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:153
 #: ../cmk/gui/wato/pages/groups.py:91
 #, fuzzy
@@ -3972,7 +3967,7 @@ msgstr ""
 msgid "Add group"
 msgstr "groupe d'hôtes"
 
-#: ../cmk/gui/wato/pages/folders.py:229
+#: ../cmk/gui/wato/pages/folders.py:229 ../cmk/gui/wato/pages/hosts.py:581
 #, fuzzy
 #| msgid "Add host name"
 msgid "Add host"
@@ -3989,6 +3984,10 @@ msgstr "Ajouter un nom d'hôte"
 #| msgid "host groups"
 msgid "Add host group"
 msgstr "groupe d'hôtes"
+
+#: ../cmk/gui/wato/pages/folders.py:574
+msgid "Add host to the monitoring"
+msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:166
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_postgres.py:61
@@ -4110,7 +4109,7 @@ msgstr ""
 msgid "Add new element"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2594
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2572
 msgid "Add new group"
 msgstr ""
 
@@ -4128,11 +4127,11 @@ msgid "Add new metric"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:517
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2589
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2567
 msgid "Add new pattern"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3415
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3393
 msgid "Add new project"
 msgstr ""
 
@@ -4145,7 +4144,7 @@ msgstr ""
 msgid "Add new scalar"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2667
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2645
 msgid "Add new tag"
 msgstr ""
 
@@ -4232,11 +4231,11 @@ msgstr ""
 msgid "Add renaming"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2390
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2368
 msgid "Add resource group"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2414
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2392
 msgid "Add resource tag"
 msgstr ""
 
@@ -4302,12 +4301,6 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:165
 msgid "Add state configuration"
 msgstr ""
-
-#: ../cmk/gui/wato/pages/folders.py:388
-#, fuzzy
-#| msgid "Add & remove folders"
-msgid "Add subfolder"
-msgstr "Ajouter & supprimer des dossiers"
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1899
 #, fuzzy
@@ -4533,7 +4526,7 @@ msgstr ""
 msgid "Additional note that will be added while creating the alert."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2608
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2586
 msgid "Additional options"
 msgstr ""
 
@@ -4549,7 +4542,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:528
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:913
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1846
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1824
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:280
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:343
 #: ../cmk/gui/plugins/wato/active_checks.py:2186
@@ -4589,7 +4582,7 @@ msgstr ""
 msgid "Address matching"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1848
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1826
 msgid ""
 "Addresses are specified with a dot notation, where number before the dot "
 "specify the byte to fetch and the number after the dot specifies the bit to "
@@ -4696,11 +4689,11 @@ msgstr ""
 msgid "Advanced: Disable SSL/TLS hostname extension support (SNI)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1677
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1655
 msgid "Aerohive HiveManager"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1701
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1679
 msgid "Aerohive HiveManager NG"
 msgstr ""
 
@@ -4757,7 +4750,7 @@ msgid ""
 "you should provide combined reasonable values for both parameters."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1132
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1146
 msgid ""
 "After creating a rule that deploys the agent updater you need to bake "
 "agents. On all hosts that should do automatic updates you need to install "
@@ -4922,12 +4915,12 @@ msgstr ""
 msgid "Agent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:555
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:559
 #, python-format
 msgid "Agent %s currently running in <a href=\"%s\">background job</a>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:565
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:569
 #, python-format
 msgid "Agent %s successful"
 msgstr ""
@@ -4992,18 +4985,18 @@ msgstr "Fichier de l'agent"
 msgid "Agent bakery"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:255
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:866
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:259
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:880
 msgid "Agent baking"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:867
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:881
 #, fuzzy
 #| msgid "Agents and Plugins"
 msgid "Agent baking and signing"
 msgstr "Agents et Plugins"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:884
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:898
 msgid "Agent baking finished."
 msgstr ""
 
@@ -5025,7 +5018,7 @@ msgstr ""
 msgid "Agent deployment status"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:814
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:828
 #, python-format
 msgid "Agent for %s (%s)"
 msgstr ""
@@ -5036,19 +5029,19 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1220
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4802
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:410
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:414
 #, fuzzy
 #| msgid "Agent files"
 msgid "Agent rules"
 msgstr "Fichier de l'agent"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1478
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1492
 #, fuzzy
 #| msgid "Agent Signature Keys"
 msgid "Agent signature keys"
 msgstr "Clefs de Signature de l'Agent"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1594
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1608
 msgid "Agent signing"
 msgstr ""
 
@@ -5066,7 +5059,7 @@ msgstr ""
 msgid "Agent updater (Linux, Windows, Solaris)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1009
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1023
 msgid "Agent updater ruleset"
 msgstr ""
 
@@ -5080,23 +5073,23 @@ msgstr ""
 msgid "Agent updates"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1155
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1169
 msgid "Agent updates are currently disabled"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1154
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1168
 msgid "Agent updates are enabled"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/download_agents.py:117
 #: ../cmk/gui/wato/pages/check_catalog.py:328
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:303
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:856
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:307
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:870
 #: ../cmk/utils/packaging.py:132
 msgid "Agents"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1167
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1181
 msgid ""
 "Agents will not accept packages that are not signed by at least one key that "
 "they accept."
@@ -5170,7 +5163,7 @@ msgstr ""
 msgid "Aggregation Properties"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2540
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2518
 msgid "Aggregation assignment"
 msgstr ""
 
@@ -5264,7 +5257,7 @@ msgstr ""
 msgid "Airflow levels"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3280
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3258
 msgid "Alarms"
 msgstr ""
 
@@ -5412,7 +5405,7 @@ msgid "Alerting depending on the number of used licenses is disabled"
 msgstr ""
 
 #: ../cmk/gui/plugins/visuals/filters.py:1594
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3077
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3055
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:234
 #: ../cmk/gui/cee/plugins/wato/cmc.py:575
 msgid "Alerts"
@@ -5727,7 +5720,7 @@ msgstr ""
 msgid "All online users"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:240
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:244
 #, python-format
 msgid "All package types are signed with the key '%s'"
 msgstr ""
@@ -6074,7 +6067,7 @@ msgstr ""
 msgid "Also bulk outside of timeperiod"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2026
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2004
 #, fuzzy
 #| msgid "Also contact Check_MK agent"
 msgid "Also contact Checkmk agent"
@@ -6182,12 +6175,12 @@ msgstr ""
 msgid "Always when an event is being cancelled"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2823
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2801
 msgid "Amazon S3 Glacier (Glacier)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2716
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2922
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2694
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2900
 msgid "Amazon Web Services (AWS)"
 msgstr ""
 
@@ -6265,7 +6258,7 @@ msgstr ""
 msgid "An error occurred during the last update"
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:449
+#: ../cmk/cee/dcd/connectors/utils.py:457
 msgid "An exception occured"
 msgstr ""
 
@@ -6490,19 +6483,19 @@ msgstr ""
 msgid "Apache webservers (Linux)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2074
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2052
 msgid "AppDynamics application name"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2069
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2047
 msgid "AppDynamics login password"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2065
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2043
 msgid "AppDynamics login username"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2059
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2037
 msgid "AppDynamics via REST API"
 msgstr ""
 
@@ -6565,7 +6558,7 @@ msgstr ""
 msgid "Application Load balancers"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2843
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2821
 msgid "Application and Network Load Balancing (ELBv2)"
 msgstr ""
 
@@ -6623,7 +6616,7 @@ msgstr ""
 msgid "Apply Lag Minimum Time"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1207
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1221
 #, fuzzy
 #| msgid "Predef. conditions"
 msgid "Apply conditions"
@@ -6753,7 +6746,7 @@ msgid ""
 "or don't need this key anymore."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1481
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1495
 msgid ""
 "Are you sure you want to delete this signature key?<br><br><b>Beware:</b> "
 "Deleting this key means that you will not be able to create signatures with "
@@ -6798,6 +6791,20 @@ msgstr ""
 
 #: ../cmk/gui/cee/ntop/pages.py:522
 msgid "As server"
+msgstr ""
+
+#: ../cmk/gui/plugins/visuals/filters.py:3152
+msgid ""
+"As soon as you add your Checkmk server to the monitoring, a graph showing "
+"the history of your host problems will appear here. "
+msgstr ""
+
+#: ../cmk/gui/plugins/visuals/filters.py:3155
+#, python-format
+msgid ""
+"As soon as you add your Checkmk server(s) to the monitoring, a graph showing "
+"the history of your host problems will appear here. Currently the following "
+"Checkmk sites are not monitored: %s. "
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/active_checks.py:775
@@ -6845,15 +6852,15 @@ msgstr ""
 msgid "Assign to group"
 msgstr "groupe d'hôtes"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2545
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2523
 msgid "Assign to the affected hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2543
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2521
 msgid "Assign to the querying host"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2571
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2549
 msgid "Assign via regular expressions"
 msgstr ""
 
@@ -6884,7 +6891,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2745
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2723
 msgid "Assume a different IAM role"
 msgstr ""
 
@@ -7091,7 +7098,7 @@ msgstr ""
 msgid "August"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:860
+#: ../cmk/gui/wato/pages/folders.py:862
 msgid "Auth"
 msgstr ""
 
@@ -7099,7 +7106,7 @@ msgstr ""
 msgid "Authenticate users by incoming HTTP requests"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3361
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3339
 #: ../cmk/gui/plugins/wato/active_checks.py:157
 #: ../cmk/gui/plugins/wato/active_checks.py:198
 #: ../cmk/gui/plugins/wato/active_checks.py:1315
@@ -7148,7 +7155,7 @@ msgstr ""
 msgid "Authentication failures within the last 5 minutes"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3191
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3169
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:91
 msgid "Authentication method"
 msgstr ""
@@ -7277,7 +7284,7 @@ msgstr ""
 msgid "Automatic activation"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:974
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:988
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:55
 msgid "Automatic agent updates"
 msgstr ""
@@ -7311,7 +7318,7 @@ msgstr ""
 msgid "Automatic takeover"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:430
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:434
 msgid "Automatic updates"
 msgstr ""
 
@@ -7371,7 +7378,7 @@ msgstr ""
 msgid "Automation"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2526
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2504
 #: ../cmk/gui/plugins/wato/active_checks.py:1747
 msgid "Automation Secret"
 msgstr ""
@@ -7384,7 +7391,7 @@ msgstr ""
 msgid "Automation User for connection to central site"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2525
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2503
 #: ../cmk/gui/plugins/wato/active_checks.py:1739
 msgid "Automation Username"
 msgstr ""
@@ -7483,7 +7490,7 @@ msgstr ""
 msgid "Available Spare"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:611
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:615
 msgid "Available agent configurations"
 msgstr ""
 
@@ -7734,7 +7741,7 @@ msgstr ""
 msgid "Average value"
 msgstr "moyenne"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3512
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3490
 msgid "Average value of the following numeric field: "
 msgstr ""
 
@@ -7886,7 +7893,7 @@ msgid "BI Aggregation Groups"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/bi.py:50 ../cmk/gui/plugins/visuals/infos.py:241
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2615
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2593
 #: ../cmk/gui/plugins/wato/bi_config.py:420
 msgid "BI Aggregations"
 msgstr ""
@@ -8038,7 +8045,7 @@ msgstr ""
 msgid "Background job"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:494
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:498
 msgid "Background job acknowledged"
 msgstr ""
 
@@ -8132,20 +8139,20 @@ msgstr ""
 msgid "Bad Requests Received"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:306
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:360
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:310
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:364
 msgid "Bake agents"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:539
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:543
 msgid "Bake and sign"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:346
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:350
 msgid "Bake and sign agents"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1129
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1143
 msgid "Baked agents"
 msgstr ""
 
@@ -8153,15 +8160,15 @@ msgstr ""
 msgid "Baked host specific agent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:261
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:265
 msgid "Baking Agents..."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:890
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:904
 msgid "Baking successful"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:888
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:902
 msgid "Baking successful with warnings, see details"
 msgstr ""
 
@@ -8279,7 +8286,6 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:180
 #: ../cmk/gui/plugins/wato/datasource_programs.py:700
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1656
 #, fuzzy
 #| msgid "Authentication error"
 msgid "Basic authentication"
@@ -8635,7 +8641,7 @@ msgstr ""
 msgid "Bucket name"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3351
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3329
 msgid "Bucket names"
 msgstr ""
 
@@ -8908,7 +8914,7 @@ msgstr ""
 msgid "By Service group"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1420
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1434
 msgid ""
 "By activating a matching entry here you can <b>restrict</b> the hosts that "
 "we should send updates to. <b>Note</b>: The properties from the hosts are "
@@ -9004,7 +9010,7 @@ msgid ""
 "matching rule will be monitored."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2593
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2571
 msgid "By aggregation groups"
 msgstr ""
 
@@ -9172,13 +9178,13 @@ msgid ""
 "mailboxes here, only those are monitored."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2456
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2434
 msgid ""
 "By default, all resources associated to the configured tenant ID will be "
 "monitored."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2469
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2447
 msgid ""
 "By default, data relating to a VM is sent to the group host corresponding to "
 "the resource group of the VM, the same way as for any other resource. If the "
@@ -9280,7 +9286,7 @@ msgid ""
 "timeperiod as well."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2588
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2566
 msgid "By regular expression"
 msgstr ""
 
@@ -9303,8 +9309,8 @@ msgid ""
 "documentation</a> for details."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1862
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1868
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1840
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1846
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:870
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_qos.py:34
 #: ../cmk/gui/plugins/wato/active_checks.py:1199
@@ -10498,11 +10504,11 @@ msgid_plural "Changed host labels: "
 msgstr[0] "Ajouter un alias d'hôte"
 msgstr[1] "Ajouter un alias d'hôte"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1049
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1063
 msgid "Changed host selection has been saved."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1071
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1085
 msgid "Changed host selection of agent updates"
 msgstr ""
 
@@ -10962,7 +10968,7 @@ msgid ""
 "check uses <tt>check_dns</tt> from the standard Nagios plugins."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2482
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2460
 msgid ""
 "Check this to turn off multiprocessing. Recommended for debugging purposes "
 "only."
@@ -11140,10 +11146,15 @@ msgid "Checkmk Windows agent service settings"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4524
-#: ../cmk/utils/tags.py:576
 #, fuzzy
 #| msgid "Check_MK Agent"
 msgid "Checkmk agent"
+msgstr "Agent Check_MK"
+
+#: ../cmk/utils/tags.py:576
+#, fuzzy
+#| msgid "Check_MK Agent"
+msgid "Checkmk agent / API integrations"
 msgstr "Agent Check_MK"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/super_server.py:19
@@ -11670,7 +11681,7 @@ msgstr ""
 msgid "Class"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1269
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1283
 msgid "Class of hosts"
 msgstr ""
 
@@ -11678,7 +11689,7 @@ msgstr ""
 msgid "Classes"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2833
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2811
 msgid "Classic Load Balancing (ELB)"
 msgstr ""
 
@@ -11763,15 +11774,15 @@ msgstr ""
 msgid "Client Contacted Services"
 msgstr "services sélectionnés"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1719
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1697
 msgid "Client ID"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2439
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2417
 msgid "Client ID / Application ID"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2444
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2422
 msgid "Client Secret"
 msgstr ""
 
@@ -11800,7 +11811,7 @@ msgstr ""
 msgid "Client requests received"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1723
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1701
 msgid "Client secret"
 msgstr ""
 
@@ -11937,11 +11948,11 @@ msgstr ""
 msgid "Cloud based environments"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2897
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2875
 msgid "CloudFront WAFs"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2863
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2841
 msgid "CloudWatch Alarms"
 msgstr ""
 
@@ -11981,7 +11992,7 @@ msgstr ""
 msgid "Cluster behaviour"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3002
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2980
 msgid "Cluster health"
 msgstr ""
 
@@ -12008,7 +12019,7 @@ msgstr ""
 msgid "Cluster roles"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3281
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3259
 msgid "Cluster statistics"
 msgstr ""
 
@@ -12016,7 +12027,7 @@ msgstr ""
 msgid "Cluster status"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3282
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3260
 msgid "Cluster traffic statistics"
 msgstr ""
 
@@ -12024,7 +12035,7 @@ msgstr ""
 msgid "Cluster type"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3004
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2982
 msgid "Cluster, Indices and Shard statistics"
 msgstr ""
 
@@ -12048,7 +12059,7 @@ msgstr ""
 msgid "Clusters: Prefered check result of local checks"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3602
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3580
 msgid "Clusterwide"
 msgstr ""
 
@@ -12556,7 +12567,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/predefined_conditions.py:137
 #: ../cmk/gui/wato/pages/notifications.py:306
 #: ../cmk/gui/wato/pages/notifications.py:1262
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1189
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1203
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:268 ../cmk/gui/cee/sla.py:1853
 msgid "Conditions"
 msgstr ""
@@ -12579,8 +12590,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/backup_domains.py:34
 #: ../cmk/gui/plugins/wato/backup_domains.py:48
 #: ../cmk/gui/wato/pages/parentscan.py:459
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:621
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:798
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:631
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:812
 msgid "Configuration"
 msgstr ""
 
@@ -12588,7 +12599,7 @@ msgstr ""
 msgid "Configuration connection"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:194
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:198
 msgid "Configuration description missing or unreadable"
 msgstr ""
 
@@ -12653,7 +12664,7 @@ msgstr ""
 msgid "Configuration of the Checkmk Hardware and Software Inventory System"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1110
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1124
 msgid "Configuration of update plugin"
 msgstr ""
 
@@ -12698,7 +12709,7 @@ msgstr ""
 msgid "Configure agent access related settings using rulesets"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:310
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:314
 #, fuzzy
 #| msgid "Configure sidebar"
 msgid "Configure agents"
@@ -12855,6 +12866,14 @@ msgid "Configure your ServiceNow URL here (eg. https://myservicenow.com)."
 msgstr ""
 "Configurez votre URL servicenow ici (par exemple, https://myservicenow.com)."
 
+#: ../cmk/gui/watolib/tags.py:546 ../cmk/utils/tags.py:586
+msgid "Configured API integrations and Checkmk agent"
+msgstr ""
+
+#: ../cmk/gui/watolib/tags.py:542 ../cmk/utils/tags.py:591
+msgid "Configured API integrations, no Checkmk agent"
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_stack.py:42
 msgid "Configured feature mismatch"
 msgstr ""
@@ -12948,8 +12967,8 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:436
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1064
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1589
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1758
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1945
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1736
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1923
 #: ../cmk/gui/plugins/wato/active_checks.py:234
 #: ../cmk/gui/plugins/wato/active_checks.py:2077
 #: ../cmk/gui/plugins/wato/active_checks.py:2126
@@ -12993,7 +13012,7 @@ msgstr ""
 msgid "Connect to remote sites"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2514
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2492
 msgid "Connect to site url"
 msgstr ""
 
@@ -13016,7 +13035,7 @@ msgid ""
 "up as a single service."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2513
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2491
 #: ../cmk/gui/watolib/sites.py:88 ../cmk/gui/cee/plugins/wato/dcd.py:191
 #: ../cmk/gui/cee/plugins/wato/dcd.py:192
 msgid "Connect to the local site"
@@ -13124,7 +13143,7 @@ msgstr "Paramètres de la Connexion LDAP"
 msgid "Connection time"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2092
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2070
 msgid "Connection timeout"
 msgstr ""
 
@@ -13266,7 +13285,7 @@ msgid "Contact"
 msgstr ""
 
 #: ../cmk/gui/wato/mkeventd.py:412 ../cmk/gui/wato/pages/users.py:974
-#: ../cmk/gui/wato/pages/folders.py:869
+#: ../cmk/gui/wato/pages/folders.py:871
 msgid "Contact Groups"
 msgstr ""
 
@@ -13332,7 +13351,7 @@ msgstr ""
 msgid "Contactgroup Membership"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:701
+#: ../cmk/gui/wato/pages/folders.py:703
 msgid "Contactgroups that have permission on this folder"
 msgstr ""
 
@@ -13630,7 +13649,7 @@ msgstr ""
 msgid "Cosmic"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2772
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2750
 msgid "Costs and usage (CE)"
 msgstr ""
 
@@ -13689,7 +13708,7 @@ msgstr ""
 msgid "Couchbase Total Node Operations"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3346
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3324
 msgid "Couchbase servers"
 msgstr ""
 
@@ -13774,7 +13793,7 @@ msgstr ""
 #: ../cmk/gui/plugins/metrics/unit.py:69
 #: ../cmk/gui/plugins/metrics/docker.py:60 ../cmk/gui/availability.py:1357
 #: ../cmk/gui/wato/pages/notifications.py:643
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1254
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1268
 msgid "Count"
 msgstr ""
 
@@ -13842,7 +13861,7 @@ msgstr ""
 msgid "Count, size and age of files - mk_filestat (Linux)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1837
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1815
 msgid "Counter"
 msgstr ""
 
@@ -13975,7 +13994,7 @@ msgid ""
 "contained in any other node of the aggregation."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:932
+#: ../cmk/gui/wato/pages/folders.py:934
 msgid "Create a clone of this host"
 msgstr ""
 
@@ -14078,6 +14097,12 @@ msgstr ""
 msgid "Create clone of %s"
 msgstr ""
 
+#: ../cmk/gui/wato/pages/folders.py:585 ../cmk/gui/wato/pages/hosts.py:616
+#, fuzzy
+#| msgid "Delete cluster"
+msgid "Create cluster"
+msgstr "Supprimer le cluster"
+
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:191
 #, fuzzy
 #| msgid "Create snapshot"
@@ -14131,18 +14156,6 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/tags.py:292
 msgid "Create new auxiliary tag"
-msgstr ""
-
-#: ../cmk/gui/wato/pages/folders.py:583 ../cmk/gui/wato/pages/hosts.py:616
-msgid "Create new cluster"
-msgstr ""
-
-#: ../cmk/gui/wato/pages/folders.py:597 ../cmk/gui/wato/pages/folders.py:1210
-msgid "Create new folder"
-msgstr ""
-
-#: ../cmk/gui/wato/pages/folders.py:574 ../cmk/gui/wato/pages/hosts.py:581
-msgid "Create new host"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/notifications.py:1551
@@ -15722,7 +15735,7 @@ msgstr ""
 msgid "Current state"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:598
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:602
 #, python-format
 msgid "Current status of %s process"
 msgstr ""
@@ -16027,7 +16040,7 @@ msgstr ""
 msgid "Custom path prefix"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3530
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3508
 msgid "Custom search query"
 msgstr ""
 
@@ -16293,7 +16306,7 @@ msgstr ""
 msgid "DB Connections"
 msgstr "Connecteur"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1830
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1808
 msgid "DB Number"
 msgstr ""
 
@@ -16719,12 +16732,6 @@ msgstr ""
 msgid "Data size"
 msgstr ""
 
-#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:577
-#: ../cmk/utils/tags.py:604 ../cmk/utils/tags.py:637 ../cmk/utils/tags.py:696
-#: ../cmk/utils/tags.py:701 ../cmk/utils/tags.py:706
-msgid "Data sources"
-msgstr ""
-
 #: ../cmk/gui/plugins/metrics/emcvnx.py:91
 msgid "Data targeted for higher tier"
 msgstr ""
@@ -16943,7 +16950,7 @@ msgstr ""
 msgid "Datastores"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1854
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1832
 msgid "Datatype"
 msgstr ""
 
@@ -16983,7 +16990,7 @@ msgstr ""
 msgid "Date/Time"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1828
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1806
 msgid "Datenbaustein"
 msgstr ""
 
@@ -17011,9 +17018,9 @@ msgstr ""
 msgid "Day rate"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2263
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2306
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2334
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2241
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2284
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2312
 msgid "Deactivate"
 msgstr ""
 
@@ -17161,7 +17168,7 @@ msgstr ""
 msgid "Default color"
 msgstr "%s : par défaut"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:233
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:237
 msgid "Default configuration"
 msgstr ""
 
@@ -17177,7 +17184,7 @@ msgstr ""
 msgid "Default is 389 for normal connections and 636 for SSL connections."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3196
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3174
 msgid "Default is Windows authentication"
 msgstr ""
 
@@ -17357,29 +17364,29 @@ msgid ""
 "(* and ?) are supported and will produce multiple services at once."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3278
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3256
 msgid "Defines what information to query."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2999
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2977
 msgid ""
 "Defines what information to query. Checks for Cluster, Indices and Shard "
 "statistics follow soon."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3599
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3577
 msgid ""
 "Defines what information to query. You can choose between the cluster, "
 "nodes, vhosts and queues."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3156
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3134
 msgid ""
 "Defines what information to query. You can choose between the instance "
 "state, job states, node states and the job queue."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3066
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3044
 msgid ""
 "Defines what information to query. You can choose to query license state and "
 "usage, Splunk system messages, Splunk jobs, shown in the job menu within "
@@ -17640,11 +17647,11 @@ msgstr ""
 msgid "Delete this entry"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:687
+#: ../cmk/gui/wato/pages/folders.py:689
 msgid "Delete this folder"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:938
+#: ../cmk/gui/wato/pages/folders.py:940
 msgid "Delete this host"
 msgstr ""
 
@@ -17757,7 +17764,7 @@ msgstr ""
 msgid "Deleted MIB %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1489
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1503
 #, python-format
 msgid "Deleted agent signature key '%s'"
 msgstr ""
@@ -18004,7 +18011,7 @@ msgstr ""
 msgid "Deploy Zorp plugin"
 msgstr "Déployer le plugin PostgreSQL"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:314
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:318
 #, fuzzy
 #| msgid "All agents"
 msgid "Deploy agents"
@@ -18392,7 +18399,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/audit_log.py:508
 #: ../cmk/gui/wato/pages/services.py:1403
 #: ../cmk/gui/wato/pages/global_settings.py:435
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1181
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1195
 #: ../cmk/gui/cee/sla.py:1761
 msgid "Details"
 msgstr ""
@@ -18514,7 +18521,7 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1966
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1944
 msgid "Devices to fetch information from"
 msgstr ""
 
@@ -18730,7 +18737,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:378
 #: ../cmk/gui/plugins/wato/datasource_programs.py:431
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1796
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1774
 #: ../cmk/gui/cee/plugins/wato/ntop.py:84
 msgid "Disable SSL certificate validation"
 msgstr ""
@@ -18863,7 +18870,7 @@ msgstr ""
 msgid "Disabled active checks"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1063
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1077
 msgid "Disabled agent updates"
 msgstr ""
 
@@ -19299,7 +19306,7 @@ msgstr ""
 msgid "Display name"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3300
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3278
 msgid "Display node details on"
 msgstr ""
 
@@ -19315,7 +19322,7 @@ msgstr ""
 msgid "Display range: Minimum must be strictly less than maximum"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3311
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3289
 msgid "Display sidecar details on"
 msgstr ""
 
@@ -19323,7 +19330,7 @@ msgstr ""
 msgid "Display snapshot summary on ESX hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3322
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3300
 msgid "Display source details on"
 msgstr ""
 
@@ -19335,7 +19342,7 @@ msgstr ""
 msgid "Display the host alias"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:917
+#: ../cmk/gui/wato/pages/folders.py:919
 msgid "Display the services of this host"
 msgstr ""
 
@@ -20031,11 +20038,11 @@ msgstr ""
 msgid "Do not translate SNMP traps"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2644
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2622
 msgid "Do not use 'aws:' prefix for the key."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2655
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2633
 msgid "Do not use 'aws:' prefix for the values."
 msgstr ""
 
@@ -20150,12 +20157,12 @@ msgstr ""
 msgid "Do you really want to delete the customer %s?"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:673
+#: ../cmk/gui/wato/pages/folders.py:675
 #, python-format
 msgid "Do you really want to delete the folder %s?"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:936 ../cmk/gui/wato/pages/hosts.py:477
+#: ../cmk/gui/wato/pages/folders.py:938 ../cmk/gui/wato/pages/hosts.py:477
 #, python-format
 msgid "Do you really want to delete the host <tt>%s</tt>?"
 msgstr ""
@@ -20526,7 +20533,7 @@ msgstr ""
 msgid "DotNet (.Net) runtime memory levels"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1856
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1834
 msgid "Double Integer (DINT)"
 msgstr ""
 
@@ -20545,17 +20552,17 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:642
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:651
 #, python-format
 msgid "Download %s package of agent for %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:758
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:772
 #, python-format
 msgid "Download Checkmk %s agent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:759
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:773
 #, python-format
 msgid "Download Checkmk Agent for host %s"
 msgstr ""
@@ -20569,7 +20576,7 @@ msgstr ""
 msgid "Download agent output"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1578
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1592
 msgid "Download agent signature key"
 msgstr ""
 
@@ -20873,7 +20880,7 @@ msgstr ""
 msgid "Dynamic levels - upper bound"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2879
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2857
 msgid "DynamoDB"
 msgstr ""
 
@@ -20886,7 +20893,7 @@ msgstr ""
 msgid "E.Type"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3480
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3458
 msgid "E.g. 'project = my_project and result = \"waiting for something\"'"
 msgstr ""
 
@@ -21047,7 +21054,7 @@ msgid ""
 "Each tag group will create one dropdown choice in the host configuration."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2642
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2620
 msgid "Each tag must be unique and cannot be used multiple times"
 msgstr ""
 
@@ -21065,7 +21072,7 @@ msgstr ""
 #: ../cmk/gui/plugins/sidebar/views.py:53
 #: ../cmk/gui/plugins/sidebar/nagvis_maps.py:120 ../cmk/gui/visuals.py:582
 #: ../cmk/gui/dashboard.py:804 ../cmk/gui/cee/plugins/sidebar/reporting.py:77
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1177
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1191
 #: ../cmk/gui/pagetypes.py:1109
 msgid "Edit"
 msgstr ""
@@ -21351,11 +21358,11 @@ msgstr "Statut du site"
 msgid "Edit tag group"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:665
+#: ../cmk/gui/wato/pages/folders.py:667
 msgid "Edit the properties of this folder"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:908
+#: ../cmk/gui/wato/pages/folders.py:910
 msgid "Edit the properties of this host"
 msgstr ""
 
@@ -21367,7 +21374,7 @@ msgstr ""
 msgid "Edit the rules in this pack"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:915
+#: ../cmk/gui/wato/pages/folders.py:917
 msgid "Edit the services of this host, do a service discovery"
 msgstr ""
 
@@ -21548,11 +21555,11 @@ msgstr ""
 msgid "Elapsed time"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2795
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2773
 msgid "Elastic Block Storage (EBS)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2785
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2763
 msgid "Elastic Compute Cloud (EC2)"
 msgstr ""
 
@@ -21560,7 +21567,7 @@ msgstr ""
 msgid "Elastic IP Addresses"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2961
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2939
 msgid "Elasticsearch"
 msgstr ""
 
@@ -21998,7 +22005,7 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1062
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1076
 msgid "Enabled agent updates"
 msgstr ""
 
@@ -22268,7 +22275,7 @@ msgid ""
 "of at least one contact group in order to be notified."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2008
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1986
 msgid "Enter address"
 msgstr ""
 
@@ -22286,7 +22293,7 @@ msgstr ""
 msgid "Enter the exit code as 10-digit, lower case hex value, e.g. 0x00000000."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3392
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3370
 msgid ""
 "Enter the full name of the project here. You can find the name in Jira "
 "within \"Projects\" - \"View all projects\" - column: \"Project\". This "
@@ -22317,7 +22324,7 @@ msgid ""
 "description)."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3405
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3383
 msgid "Enter the workflow name for the project here. E.g. \"in progress\"."
 msgstr ""
 
@@ -22803,14 +22810,14 @@ msgstr ""
 msgid "Eventlog:"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/icons/mkeventd.py:23
+#: ../cmk/gui/plugins/views/icons/mkeventd.py:25
 #: ../cmk/gui/plugins/views/mkeventd.py:1376
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:90 ../cmk/gui/mobile.py:150
 #: ../cmk/gui/cee/plugins/reporting/builtin.py:410
 msgid "Events"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/icons/mkeventd.py:102
+#: ../cmk/gui/plugins/views/icons/mkeventd.py:98
 #, python-format
 msgid "Events of Application \"%s\" on Host %s"
 msgstr ""
@@ -22819,7 +22826,7 @@ msgstr ""
 msgid "Events of Host"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/icons/mkeventd.py:98
+#: ../cmk/gui/plugins/views/icons/mkeventd.py:94
 #, python-format
 msgid "Events of Host %s"
 msgstr ""
@@ -23385,7 +23392,6 @@ msgstr ""
 msgid "Explanation for event action"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1646
 #: ../cmk/gui/plugins/wato/utils/__init__.py:576
 msgid "Explicit"
 msgstr ""
@@ -23416,7 +23422,7 @@ msgstr ""
 msgid "Explicit hosts"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:880
+#: ../cmk/gui/wato/pages/folders.py:882
 msgid "Explicit labels"
 msgstr ""
 
@@ -23472,7 +23478,7 @@ msgstr ""
 msgid "Explicitly set on hosts"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2382
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2360
 msgid "Explicitly specify resources"
 msgstr ""
 
@@ -23547,7 +23553,7 @@ msgstr ""
 msgid "External"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2756
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2734
 msgid "External ID (optional)"
 msgstr ""
 
@@ -23721,7 +23727,7 @@ msgstr ""
 msgid "Failed disk"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3283
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3261
 msgid "Failed index operations"
 msgstr ""
 
@@ -23759,7 +23765,7 @@ msgstr ""
 msgid "Failed to apply the cronjob config: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:520
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:524
 #, python-format
 msgid "Failed to bake the agents: %s"
 msgstr ""
@@ -23918,7 +23924,7 @@ msgid ""
 "Failed to read the previously uploaded CSV file. Please upload it again."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:206
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:210
 msgid "Failed to render value:"
 msgstr ""
 
@@ -24227,8 +24233,8 @@ msgstr ""
 msgid "Field"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3500
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3516
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3478
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3494
 #, fuzzy
 #| msgid "Child Host Name:"
 msgid "Field Name: "
@@ -24485,7 +24491,7 @@ msgstr ""
 msgid "Filter Host"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2597
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2575
 msgid "Filter aggregations"
 msgstr ""
 
@@ -24677,7 +24683,7 @@ msgstr ""
 msgid "Fix all"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1179
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1193
 msgid "Fix this"
 msgstr ""
 
@@ -24812,8 +24818,8 @@ msgstr ""
 #: ../cmk/gui/wato/pages/rulesets.py:1296
 #: ../cmk/gui/wato/pages/rulesets.py:1745
 #: ../cmk/gui/wato/pages/rulesets.py:1875 ../cmk/gui/wato/pages/folders.py:129
-#: ../cmk/gui/wato/pages/folders.py:132 ../cmk/gui/wato/pages/folders.py:892
-#: ../cmk/gui/wato/pages/folders.py:1102
+#: ../cmk/gui/wato/pages/folders.py:132 ../cmk/gui/wato/pages/folders.py:894
+#: ../cmk/gui/wato/pages/folders.py:1104
 #: ../cmk/gui/wato/pages/predefined_conditions.py:141
 #: ../cmk/gui/wato/pages/notifications.py:329
 msgid "Folder"
@@ -24850,7 +24856,7 @@ msgstr ""
 msgid "Folder path is missing"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1190
+#: ../cmk/gui/wato/pages/folders.py:1192
 msgid "Folder properties"
 msgstr ""
 
@@ -24864,7 +24870,7 @@ msgstr "(autre : %s)"
 msgid "Folders"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:601
+#: ../cmk/gui/wato/pages/folders.py:603
 msgid ""
 "Folders group your hosts, can inherit attributes and can have permissions."
 msgstr ""
@@ -25064,7 +25070,7 @@ msgid ""
 "the further remote calls."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1291
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1305
 msgid ""
 "For these hosts there is a new agent available that is not yet installed. "
 "This simply means that the target agent configuration hash does not match "
@@ -25113,7 +25119,7 @@ msgstr ""
 msgid "Forbid to see the whole tree"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2481
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2459
 msgid "Force agent to run in single thread"
 msgstr ""
 
@@ -25642,7 +25648,7 @@ msgstr "tous les services"
 msgid "Full stats"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1174
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1188
 msgid "Fullfilled Prerequisite"
 msgstr ""
 
@@ -25669,7 +25675,7 @@ msgstr ""
 msgid "GC runs rate"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2768
+#: ../cmk/gui/htmllib.py:2769
 msgid "GET/POST variables of this page"
 msgstr ""
 
@@ -25708,11 +25714,11 @@ msgstr ""
 msgid "Gateway route"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2868
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2846
 msgid "Gather all"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2687
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2665
 msgid "Gather all service instances and restrict by overall AWS tags"
 msgstr ""
 
@@ -25903,7 +25909,7 @@ msgstr ""
 msgid "Global notification rules"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2768
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2746
 msgid "Global services to monitor"
 msgstr ""
 
@@ -26128,7 +26134,7 @@ msgstr ""
 msgid "Graphs per notification (default: 5)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3223
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3201
 msgid "Graylog"
 msgstr ""
 
@@ -26156,7 +26162,7 @@ msgstr ""
 msgid "Graylog index failures"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3230
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3208
 msgid "Graylog instance to query"
 msgstr ""
 
@@ -26331,7 +26337,7 @@ msgstr ""
 msgid "Growth"
 msgstr ""
 
-#: ../cmk/gui/node_visualization.py:664
+#: ../cmk/gui/node_visualization.py:663
 #, python-format
 msgid "Growth interrupted %d/%d"
 msgstr ""
@@ -26396,11 +26402,11 @@ msgstr ""
 msgid "HP-UX Multipath Count"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2295
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2273
 msgid "HPE StoreOnce"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2322
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2300
 msgid "HPE StoreOnce via REST API 4.x"
 msgstr ""
 
@@ -26447,12 +26453,12 @@ msgstr ""
 msgid "HTTP Basic"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2132
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2110
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:87
 msgid "HTTP Basic Authentication"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2133
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2111
 #: ../cmk/gui/plugins/wato/active_checks.py:1768
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:88
 msgid "HTTP Digest"
@@ -26749,7 +26755,7 @@ msgstr ""
 msgid "Has title line"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:625
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:687
 msgid "Hash"
 msgstr ""
 
@@ -26770,7 +26776,7 @@ msgstr ""
 msgid "Headings"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3076
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3054
 #: ../cmk/gui/plugins/metrics/environment.py:85
 msgid "Health"
 msgstr ""
@@ -27002,7 +27008,7 @@ msgid ""
 "state. This is a filter at display level not query level."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2529
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2507
 #: ../cmk/gui/plugins/wato/active_checks.py:1753
 msgid ""
 "Here you can configured the credentials to be used. Keep in mind that the "
@@ -27110,14 +27116,14 @@ msgstr ""
 msgid "Here you can define which protocol to use, default is https."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3505
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3483
 msgid ""
 "Here you can define, how many search results should be processed. The max. "
 "internal limit of Jira is 1000 results. If you want to ignore any limit, set "
 "-1 here. Default is 50."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3489
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3467
 msgid ""
 "Here you can define, what search result should be used. You can show the "
 "number of search results (count) or the summed up or average values of a "
@@ -27204,7 +27210,7 @@ msgid ""
 "context help of the rulesets for details."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1371
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1385
 msgid ""
 "Here you can see all hosts that have sent a negative status to the "
 "deployment server."
@@ -27226,7 +27232,7 @@ msgid ""
 "will be used."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2001
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1979
 msgid "Here you can set a manual address if the server differs from the host"
 msgstr ""
 
@@ -27406,7 +27412,7 @@ msgid ""
 "message already carries a service level."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1342
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1356
 msgid ""
 "Here you get feedback about recent agent rollouts. If you e.g. restrict a "
 "new rollout to a known list of five hosts, then these five should appear "
@@ -27417,7 +27423,7 @@ msgstr ""
 msgid "Here you need to insert the original file or pathname"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1362
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1376
 msgid ""
 "Here you see hosts that have registered for updates but have no available "
 "agent. You need to bake agents again in order to create agents for them."
@@ -27552,6 +27558,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:799
 #: ../cmk/gui/plugins/wato/notifications.py:813
+#: ../cmk/gui/cee/plugins/metrics/forecasts.py:468
 msgid "High"
 msgstr ""
 
@@ -28306,7 +28313,7 @@ msgid "Host problems for NagStaMon"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/host_diagnose.py:95
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:781
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:795
 #, fuzzy
 #| msgid "Basic Properties"
 msgid "Host properties"
@@ -28506,7 +28513,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:490
 #: ../cmk/gui/plugins/sidebar/search.py:976 ../cmk/gui/wato/mkeventd.py:4202
 #: ../cmk/gui/wato/pages/bulk_import.py:460
-#: ../cmk/gui/wato/pages/folders.py:821
+#: ../cmk/gui/wato/pages/folders.py:823
 #: ../cmk/gui/wato/pages/host_diagnose.py:287
 #: ../cmk/gui/wato/pages/pattern_editor.py:156
 #: ../cmk/gui/wato/pages/search.py:100 ../cmk/gui/wato/pages/hosts.py:366
@@ -28573,7 +28580,7 @@ msgstr ""
 msgid "Hostname:"
 msgstr "Nom de l'Hôte : "
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2966
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2944
 msgid "Hostnames to query"
 msgstr ""
 
@@ -28599,15 +28606,15 @@ msgstr ""
 #: ../cmk/gui/wato/pages/host_rename.py:121
 #: ../cmk/gui/wato/pages/host_rename.py:424 ../cmk/gui/wato/pages/folders.py:71
 #: ../cmk/gui/wato/pages/folders.py:113 ../cmk/gui/wato/pages/folders.py:194
-#: ../cmk/gui/wato/pages/folders.py:713 ../cmk/gui/wato/pages/folders.py:755
+#: ../cmk/gui/wato/pages/folders.py:715 ../cmk/gui/wato/pages/folders.py:757
 #: ../cmk/gui/wato/pages/host_diagnose.py:122
 #: ../cmk/gui/wato/pages/bulk_edit.py:53
 #: ../cmk/gui/wato/pages/object_parameters.py:82
 #: ../cmk/gui/wato/pages/custom_attributes.py:568
 #: ../cmk/gui/wato/pages/hosts.py:303
 #: ../cmk/gui/cme/plugins/views/managed.py:329
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:667
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:673
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:677
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:684
 #: ../cmk/gui/cee/plugins/wato/cmc.py:842 ../cmk/gui/cee/ntop/pages.py:1289
 msgid "Hosts"
 msgstr ""
@@ -28712,19 +28719,19 @@ msgstr ""
 msgid "Hosts not using Inline-SNMP"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1319
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1333
 msgid "Hosts that contacted us during the last 24 hours"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1309
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1323
 msgid "Hosts that contacted us during the last 65 minutes"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1341
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1355
 msgid "Hosts that downloaded an agent during the last 65 minutes"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1300
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1314
 msgid "Hosts that have an up-to-date agent"
 msgstr ""
 
@@ -28732,11 +28739,11 @@ msgstr ""
 msgid "Hosts that have not been checked for too long."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1290
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1304
 msgid "Hosts that need an agent update"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1352
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1366
 msgid "Hosts that never downloaded an agent"
 msgstr ""
 
@@ -28758,11 +28765,11 @@ msgid ""
 "change"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1329
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1343
 msgid "Hosts whose last contact is more than 24 hours ago"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1370
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1384
 msgid "Hosts with an error"
 msgstr ""
 
@@ -28770,7 +28777,7 @@ msgstr ""
 msgid "Hosts with dynamic DNS lookup"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1361
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1375
 msgid "Hosts without a baked agent"
 msgstr ""
 
@@ -28815,17 +28822,17 @@ msgstr ""
 msgid "Hour of the day (0-23)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1881
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1859
 #: ../cmk/gui/availability.py:306
 msgid "Hours"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1879
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1857
 #: ../cmk/gui/plugins/metrics/application.py:120
 msgid "Hours of operation"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1880
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1858
 #: ../cmk/gui/plugins/metrics/application.py:126
 msgid "Hours since service"
 msgstr ""
@@ -28855,7 +28862,7 @@ msgid ""
 "look at already discovered checks for examples."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2660
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2638
 msgid ""
 "How to configure AWS tags please see https://docs.aws.amazon.com/AWSEC2/"
 "latest/UserGuide/Using_Tags.html"
@@ -28869,7 +28876,7 @@ msgstr ""
 msgid "How to notify"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2458
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2436
 #, python-format
 msgid ""
 "However, since Microsoft limits API calls to %s per hour (%s per minute), "
@@ -29435,7 +29442,7 @@ msgstr ""
 msgid "Icons"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1892
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1870
 msgid "Ident of the value"
 msgstr ""
 
@@ -29625,7 +29632,7 @@ msgid ""
 "count is reset to zero."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2698
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2676
 msgid ""
 "If limits are enabled all instances are fetched regardless of possibly "
 "configured restriction to names or tags"
@@ -30022,7 +30029,7 @@ msgid ""
 "to provide a regex which results in exactly one match group."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3268
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3246
 msgid ""
 "If you choose to query for failed index operations, use this option to set "
 "the timeframe in which failures should be covered. The check will output the "
@@ -30035,7 +30042,7 @@ msgid ""
 "status GUI. The replication is not affected by this, however."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2144
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2122
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:111
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:100
 msgid ""
@@ -30215,7 +30222,7 @@ msgid ""
 "crit/min/max values, too"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1310
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1324
 msgid ""
 "If you have selected 60 minutes as the interval for the update checks, then "
 "all hosts should be listed here."
@@ -30859,7 +30866,7 @@ msgstr ""
 msgid "In notification period"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1146
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1160
 msgid ""
 "In order for your agents to do automatic updates you first need to install "
 "an agent package that contains the updater. Then you need to run <tt>cmk-"
@@ -30919,7 +30926,7 @@ msgid ""
 "check types"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2814
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2792
 msgid ""
 "In order to monitor S3 request metrics you have to enable request metric "
 "monitoring in the AWS/S3 console. This is a paid feature"
@@ -31064,7 +31071,7 @@ msgstr ""
 msgid "Include Pattern"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2898
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2876
 msgid "Include WAFs in front of CloudFront resources in the monitoring"
 msgstr ""
 
@@ -31193,7 +31200,7 @@ msgstr "Acquitter les Werks Incompatibles"
 msgid "Incomplete Calls"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1885
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1863
 msgid "Increasing counter"
 msgstr ""
 
@@ -31310,7 +31317,7 @@ msgstr ""
 msgid "Information to be displayed in the email body"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3277
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3255
 msgid "Information to query"
 msgstr ""
 
@@ -31319,10 +31326,10 @@ msgstr ""
 msgid "Informational"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2998
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3065
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3155
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3598
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2976
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3043
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3133
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3576
 msgid "Informations to query"
 msgstr ""
 
@@ -31399,7 +31406,7 @@ msgstr ""
 msgid "Innovaphone Memory Usage"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1833
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1811
 #: ../cmk/gui/plugins/metrics/fc.py:30
 msgid "Input"
 msgstr ""
@@ -31590,7 +31597,7 @@ msgstr "Identifiant du Conteneur"
 msgid "Instance name"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3160
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3138
 msgid "Instance state"
 msgstr ""
 
@@ -31608,7 +31615,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:676
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:853
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2354
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2332
 #: ../cmk/gui/plugins/wato/check_parameters/solaris_services.py:36
 msgid "Instances"
 msgstr ""
@@ -31744,7 +31751,7 @@ msgstr ""
 msgid "Internal command name"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1150
+#: ../cmk/gui/wato/pages/folders.py:1152
 msgid "Internal directory name"
 msgstr ""
 
@@ -31912,7 +31919,7 @@ msgstr ""
 msgid "Invalid automation secret."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1023
+#: ../cmk/gui/wato/pages/folders.py:1025
 msgid "Invalid back URL provided."
 msgstr ""
 
@@ -32091,7 +32098,7 @@ msgid "Invalid parameter %r: %s"
 msgstr ""
 
 #: ../cmk/gui/key_mgmt.py:514
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1641
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1655
 msgid "Invalid pass phrase"
 msgstr ""
 
@@ -32593,7 +32600,7 @@ msgstr ""
 msgid "JMX monitoring of Java JVMs using Jolokia"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3479
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3457
 msgid "JQL query: "
 msgstr ""
 
@@ -32605,7 +32612,7 @@ msgstr ""
 msgid "JVM garbage collection levels"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3284
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3262
 msgid "JVM heap size"
 msgstr ""
 
@@ -32649,7 +32656,7 @@ msgstr ""
 msgid "Java pool size"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3116
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3094
 msgid "Jenkins instance to query."
 msgstr ""
 
@@ -32657,7 +32664,7 @@ msgstr ""
 msgid "Jenkins jobs"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3110
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3088
 msgid "Jenkins jobs and builds"
 msgstr ""
 
@@ -32673,11 +32680,11 @@ msgstr ""
 msgid "Jira custom service"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3430
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3408
 msgid "Jira instance to query"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3424
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3402
 msgid "Jira statistics"
 msgstr ""
 
@@ -32736,7 +32743,7 @@ msgstr ""
 msgid "Job score"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3161
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3139
 #, fuzzy
 #| msgid " State"
 msgid "Job state"
@@ -32753,7 +32760,7 @@ msgstr ""
 msgid "Job status"
 msgstr "Statut du site"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3075 ../cmk/gui/backup.py:423
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3053 ../cmk/gui/backup.py:423
 msgid "Jobs"
 msgstr ""
 
@@ -32765,7 +32772,7 @@ msgstr ""
 msgid "Joined column"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2161
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2139
 msgid "Jolokia"
 msgstr ""
 
@@ -32903,7 +32910,7 @@ msgstr "utiliser la configuration locale"
 msgid "Kernel stack"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2664
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2642
 #: ../cmk/gui/key_mgmt.py:211 ../cmk/gui/key_mgmt.py:299
 #: ../cmk/gui/key_mgmt.py:401 ../cmk/gui/key_mgmt.py:425
 msgid "Key"
@@ -32917,11 +32924,11 @@ msgstr ""
 msgid "Key pair will be generated when you save."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:696
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:710
 msgid "Key passphrase"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:692
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:706
 msgid "Key to sign with"
 msgstr ""
 
@@ -33310,7 +33317,7 @@ msgstr "utiliser la description"
 msgid "Last Updated"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:369
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:373
 msgid "Last bake result"
 msgstr ""
 
@@ -34257,11 +34264,11 @@ msgstr ""
 msgid "Libraries"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3072
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3050
 msgid "Licence state"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3073
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3051
 msgid "Licence usage"
 msgstr ""
 
@@ -34279,7 +34286,7 @@ msgstr ""
 msgid "License aggreement"
 msgstr "Gestion de l'utilisateur"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3285
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3263
 msgid "License state"
 msgstr ""
 
@@ -34350,8 +34357,8 @@ msgstr "durée maximale"
 msgid "Limit maximum number used cpus"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3504
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3520
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3482
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3498
 msgid "Limit number of processed search results"
 msgstr ""
 
@@ -34442,10 +34449,6 @@ msgstr ""
 
 #: ../cmk/gui/cee/reporting.py:811
 msgid "Line spacing"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/metrics/forecasts.py:465
-msgid "Linear"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:601
@@ -34632,7 +34635,7 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/download_agents.py:78
 #: ../cmk/gui/wato/pages/download_agents.py:248
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:448
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:452
 msgid "Linux, Solaris, AIX files"
 msgstr ""
 
@@ -35427,7 +35430,7 @@ msgstr ""
 msgid "Login Defaults"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2531
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2509
 #: ../cmk/gui/plugins/wato/active_checks.py:1755
 #: ../cmk/gui/wato/pages/sites.py:643
 msgid "Login credentials"
@@ -35454,7 +35457,7 @@ msgstr ""
 msgid "Login is not allowed on this site."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2130
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2108
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:85
 msgid "Login mode"
 msgstr ""
@@ -35469,7 +35472,6 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:171
 #: ../cmk/gui/plugins/wato/datasource_programs.py:691
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1637
 msgid "Login username"
 msgstr ""
 
@@ -35587,6 +35589,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:797
 #: ../cmk/gui/plugins/wato/notifications.py:811
+#: ../cmk/gui/cee/plugins/metrics/forecasts.py:466
 msgid "Low"
 msgstr ""
 
@@ -36427,8 +36430,10 @@ msgid "Managed Objects"
 msgstr ""
 
 #: ../cmk/gui/watolib/host_attributes.py:148
-msgid "Management Board"
-msgstr ""
+#, fuzzy
+#| msgid "Check plugin manual page"
+msgid "Management board"
+msgstr "Page de manuel du plugin de contrôle"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4299
 msgid "Management board SNMP using bulk walk (enforces SNMP v2c)"
@@ -36545,15 +36550,15 @@ msgstr ""
 msgid "Map channel state to service state"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2468
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2446
 msgid "Map data relating to VMs"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2475
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2453
 msgid "Map data to group host"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2476
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2454
 msgid "Map data to the VM itself"
 msgstr ""
 
@@ -36670,7 +36675,7 @@ msgstr ""
 msgid "Master election or mismatch checks in progress"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1153
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1167
 msgid "Master switch"
 msgstr ""
 
@@ -37356,7 +37361,7 @@ msgstr ""
 msgid "Maximum number of messages"
 msgstr ""
 
-#: ../cmk/gui/node_visualization.py:661
+#: ../cmk/gui/node_visualization.py:660
 #, python-format
 msgid "Maximum number of nodes exceeded %d/%d"
 msgstr ""
@@ -37588,6 +37593,10 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/metrics/forecasts.py:467
+msgid "Medium (default)"
+msgstr ""
+
 #: ../cmk/gui/plugins/userdb/user_attributes.py:219
 msgid "Mega menu icons"
 msgstr ""
@@ -37797,7 +37806,7 @@ msgstr ""
 msgid "Merge with open event"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1835
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1813
 msgid "Merker"
 msgstr ""
 
@@ -37826,7 +37835,7 @@ msgid "Message averaging"
 msgstr ""
 
 #: ../cmk/gui/plugins/visuals/filters.py:2855
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3286
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3264
 msgid "Message count"
 msgstr ""
 
@@ -37965,7 +37974,7 @@ msgstr ""
 msgid "Metrics with all zero values"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2420
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2398
 msgid "Microsoft Azure"
 msgstr ""
 
@@ -38190,7 +38199,7 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1176
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1190
 msgid "Missing Prerequisite"
 msgstr ""
 
@@ -38222,7 +38231,7 @@ msgstr ""
 msgid "Missing mandatory \"host\" parameter"
 msgstr ""
 
-#: ../cmk/gui/node_visualization.py:732
+#: ../cmk/gui/node_visualization.py:731
 #, python-format
 msgid "Missing mandatory topology keys: %r"
 msgstr ""
@@ -38276,7 +38285,7 @@ msgstr ""
 msgid "Missing spec parameter"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1225
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1239
 #, fuzzy
 #| msgid "Missing site"
 msgid "Missing test host name"
@@ -38550,7 +38559,7 @@ msgstr ""
 msgid "Monitor & Graph Lanes"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2896
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2874
 msgid "Monitor CloudFront WAFs"
 msgstr ""
 
@@ -38566,7 +38575,7 @@ msgstr ""
 msgid "Monitor and graph the lanes, if the port has multiple"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2771
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2749
 msgid "Monitor costs and usage"
 msgstr ""
 
@@ -38608,11 +38617,11 @@ msgstr ""
 msgid "Monitor namespaces matching"
 msgstr "Tous les agents"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2812
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2790
 msgid "Monitor request metrics"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2701
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2679
 msgid "Monitor service limits"
 msgstr ""
 
@@ -38628,7 +38637,7 @@ msgstr ""
 msgid "Monitor temporary Tablespace"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3462
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3440
 msgid ""
 "Monitor the number of issues for given projects and their workflows. This "
 "results in a service for each project with the number of issues per workflow."
@@ -38685,7 +38694,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/pattern_editor.py:111
 #: ../cmk/gui/wato/pages/check_catalog.py:473 ../cmk/gui/logwatch.py:218
 #: ../cmk/gui/logwatch.py:384
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:992
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1006
 #: ../cmk/gui/cee/ntop/pages.py:213 ../cmk/gui/pagetypes.py:1807
 msgid "Monitoring"
 msgstr ""
@@ -38701,6 +38710,14 @@ msgstr ""
 #: ../cmk/gui/wato/pages/hosts.py:448
 msgid "Monitoring agent"
 msgstr ""
+
+#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:577
+#: ../cmk/utils/tags.py:604 ../cmk/utils/tags.py:637 ../cmk/utils/tags.py:696
+#: ../cmk/utils/tags.py:701 ../cmk/utils/tags.py:706
+#, fuzzy
+#| msgid "Site status"
+msgid "Monitoring agents"
+msgstr "Statut du site"
 
 #: ../cmk/gui/plugins/wato/omd_configuration.py:103
 msgid "Monitoring core"
@@ -38890,7 +38907,7 @@ msgstr ""
 msgid "Mountpoints to never ignore"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:960
+#: ../cmk/gui/wato/pages/folders.py:962
 #, fuzzy
 #| msgid "Move:"
 msgid "Move"
@@ -38911,16 +38928,16 @@ msgstr "%s règle %s"
 msgid "Move self"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:733
+#: ../cmk/gui/wato/pages/folders.py:735
 #, python-format
 msgid "Move this %s to another folder"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2756
+#: ../cmk/gui/htmllib.py:2757
 msgid "Move this entry"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1050
+#: ../cmk/gui/wato/pages/folders.py:1052
 msgid "Move this folder to:"
 msgstr ""
 
@@ -38940,7 +38957,7 @@ msgstr ""
 msgid "Move this graph to the top"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1049
+#: ../cmk/gui/wato/pages/folders.py:1051
 msgid "Move this host to:"
 msgstr ""
 
@@ -38949,7 +38966,7 @@ msgstr ""
 msgid "Move to %s services"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:956
+#: ../cmk/gui/wato/pages/folders.py:958
 #, fuzzy
 #| msgid "Rule folder"
 msgid "Move to folder:"
@@ -39081,7 +39098,7 @@ msgstr ""
 msgid "Must be unique for every host. Defaults to command that is executed."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2553
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2531
 #: ../cmk/gui/plugins/wato/utils/__init__.py:420
 #: ../cmk/gui/wato/pages/host_rename.py:322
 msgid "Must contain at least one subgroup <tt>(...)</tt>"
@@ -39151,11 +39168,11 @@ msgstr ""
 msgid "NA"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2938
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2916
 msgid "NAS DB path"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2936
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2914
 msgid "NAS DB user name"
 msgstr ""
 
@@ -39461,7 +39478,7 @@ msgstr ""
 msgid "Name of the Application"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3351
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3329
 msgid "Name of the Buckets to monitor."
 msgstr ""
 
@@ -39481,7 +39498,7 @@ msgstr ""
 msgid "Name of the OMD site"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1915
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1893
 msgid "Name of the PLC"
 msgstr ""
 
@@ -39546,7 +39563,7 @@ msgstr ""
 msgid "Name of the form to populate and submit"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2143
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2121
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:109
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:41
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:99
@@ -39592,7 +39609,7 @@ msgstr ""
 msgid "Name of the process"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2377
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2355
 msgid "Name of the resource group"
 msgstr ""
 
@@ -39826,11 +39843,6 @@ msgstr ""
 msgid "Network Adapters"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1922
-#: ../cmk/gui/watolib/host_attributes.py:88
-msgid "Network Address"
-msgstr ""
-
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:570
 msgid "Network ID"
 msgstr ""
@@ -39855,6 +39867,13 @@ msgstr ""
 #: ../cmk/gui/plugins/views/icons/topology.py:21
 msgid "Network Topology"
 msgstr ""
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1900
+#: ../cmk/gui/watolib/host_attributes.py:88
+#, fuzzy
+#| msgid "Network Interfaces"
+msgid "Network address"
+msgstr "Interfaces réseau"
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:516
 msgid "Network address:"
@@ -40016,7 +40035,7 @@ msgstr ""
 msgid "New TLS Connections"
 msgstr "Créer une nouvelle Connexion LDAP"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1518
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1532
 #, python-format
 msgid "New agent signature key '%s' created"
 msgstr ""
@@ -40188,9 +40207,11 @@ msgstr ""
 msgid "No (Error: %s, Code: %d, Depth: %d)"
 msgstr ""
 
-#: ../cmk/gui/watolib/tags.py:542 ../cmk/utils/tags.py:591
-msgid "No Checkmk agent, all configured special agents"
-msgstr ""
+#: ../cmk/gui/watolib/tags.py:538 ../cmk/utils/tags.py:596
+#, fuzzy
+#| msgid "Also contact Check_MK agent"
+msgid "No API integrations, no Checkmk agent"
+msgstr "Contacter également l'agent Check_MK"
 
 #: ../cmk/gui/plugins/wato/check_parameters/proxmox_ve_vm_backup_status_params.py:47
 #, fuzzy
@@ -40242,10 +40263,6 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/views/sla.py:488
 msgid "No actual SLA computation"
-msgstr ""
-
-#: ../cmk/gui/watolib/tags.py:538 ../cmk/utils/tags.py:596
-msgid "No agent"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/utils/__init__.py:264
@@ -40599,7 +40616,7 @@ msgstr ""
 msgid "No such inventory tree."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1223
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1237
 #, fuzzy
 msgid "No test host"
 msgstr "%s ce site"
@@ -40624,7 +40641,7 @@ msgstr ""
 msgid "No users are defined yet."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1035
+#: ../cmk/gui/wato/pages/folders.py:1037
 msgid "No valid target folder."
 msgstr ""
 
@@ -40716,7 +40733,7 @@ msgstr ""
 msgid "Node port"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3162
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3140
 #, fuzzy
 #| msgid "Allowed states:"
 msgid "Node state"
@@ -40726,7 +40743,7 @@ msgstr "États autorisés :"
 msgid "Node state: Offline"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3003
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2981
 msgid "Node statistics"
 msgstr ""
 
@@ -40734,8 +40751,8 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:589
 #: ../cmk/gui/plugins/wato/datasource_programs.py:594
 #: ../cmk/gui/plugins/wato/datasource_programs.py:766
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3287
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3603
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3265
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3581
 #: ../cmk/gui/plugins/wato/bi_config.py:885
 #: ../cmk/gui/plugins/metrics/kubernets.py:30
 #: ../cmk/gui/plugins/metrics/elasticsearch.py:102
@@ -40802,6 +40819,10 @@ msgstr ""
 msgid "Noncritical events"
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/metrics/forecasts.py:465
+msgid "None (linear)"
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/notifications.py:1281
 msgid "None (silent)"
 msgstr ""
@@ -40817,7 +40838,7 @@ msgid "None of the rules in this pack matches"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/openapi/endpoints/agent.py:245
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1166
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1180
 msgid "None of your agent packages is signed"
 msgstr ""
 
@@ -40828,15 +40849,6 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_nodes.py:36
 #: ../cmk/gui/cee/ntop/pages.py:1325
 msgid "Normal"
-msgstr ""
-
-#: ../cmk/gui/watolib/tags.py:546 ../cmk/utils/tags.py:586
-msgid "Normal Checkmk agent, all configured special agents"
-msgstr ""
-
-#: ../cmk/gui/watolib/tags.py:550 ../cmk/gui/watolib/tags.py:556
-#: ../cmk/utils/tags.py:581
-msgid "Normal Checkmk agent, or special agent if configured"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/painters.py:2101
@@ -40969,7 +40981,7 @@ msgid ""
 "check always reports this information"
 msgstr ""
 
-#: ../cmk/gui/watolib/host_attributes.py:935
+#: ../cmk/gui/watolib/host_attributes.py:938
 msgid "Not"
 msgstr ""
 
@@ -41040,7 +41052,7 @@ msgstr ""
 msgid "Not runnable (Loaded but waiting for event)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1234
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1248
 msgid "Not selected"
 msgstr ""
 
@@ -41591,7 +41603,7 @@ msgstr ""
 msgid "Number of active sessions"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1145
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1159
 #, python-format
 msgid "Number of agents that have registered for updates: %d"
 msgstr ""
@@ -42056,7 +42068,7 @@ msgstr ""
 msgid "Number of rule groups"
 msgstr "Nombre de descripteurs de fichiers ouverts"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3494
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3472
 #, fuzzy
 #| msgid "Search results"
 msgid "Number of search results"
@@ -42175,11 +42187,11 @@ msgstr ""
 msgid "Number of tables"
 msgstr "Nom de l'Utilisateur"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1928
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1906
 msgid "Number of the Rack"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1932
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1910
 msgid "Number of the Slot"
 msgstr ""
 
@@ -42264,11 +42276,11 @@ msgstr ""
 msgid "Numeric value"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1710
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1688
 msgid "Numerical ID of the VHM, e.g. 102"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2209
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2187
 #: ../cmk/gui/plugins/wato/check_parameters/prism_container.py:67
 msgid "Nutanix Prism"
 msgstr ""
@@ -42935,7 +42947,7 @@ msgstr ""
 msgid "Only first 20 sorted results"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1380
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1394
 msgid ""
 "Only host are listed that are currently part of the active monitoring "
 "configuration and that have registered for updates."
@@ -43295,7 +43307,7 @@ msgstr ""
 msgid "Optional general information"
 msgstr "Ajouter des informations additionnelles"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2123
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2101
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:78
 msgid "Optional login (if required)"
 msgstr ""
@@ -43583,7 +43595,7 @@ msgstr "Autre contenu"
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1266
 #: ../cmk/gui/wato/pages/download_agents.py:85
 #: ../cmk/gui/wato/pages/download_agents.py:195
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:453
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:457
 #, fuzzy
 #| msgid "Other Settings"
 msgid "Other operating systems"
@@ -43686,7 +43698,7 @@ msgid "Outgoing Traffic Minimum"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/bi.py:403
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1834
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1812
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:629
 #: ../cmk/gui/plugins/metrics/fc.py:36 ../cmk/gui/backup.py:941
 #: ../cmk/gui/notifications.py:159
@@ -44029,7 +44041,7 @@ msgstr ""
 msgid "POP3 Server"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2779
+#: ../cmk/gui/htmllib.py:2780
 msgid "POST / GET Variables"
 msgstr ""
 
@@ -44080,7 +44092,7 @@ msgstr ""
 msgid "Package Version"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1685
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1699
 msgid ""
 "Package customized monitoring agents for Windows, Linux, Solaris and AIX."
 msgstr ""
@@ -44404,7 +44416,7 @@ msgstr ""
 msgid "Parameters:"
 msgstr ""
 
-#: ../cmk/gui/node_visualization.py:813
+#: ../cmk/gui/node_visualization.py:812
 msgid "Parent / Child topology"
 msgstr ""
 
@@ -44480,15 +44492,14 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1213
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1297
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1363
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1643
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1681
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1790
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2247
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2301
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2329
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2739
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2937
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3199
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1659
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1768
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2225
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2279
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2307
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2717
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2915
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3177
 #: ../cmk/gui/plugins/wato/active_checks.py:160
 #: ../cmk/gui/plugins/wato/active_checks.py:201
 #: ../cmk/gui/plugins/wato/active_checks.py:407
@@ -44536,20 +44547,20 @@ msgstr ""
 msgid "Password for login"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2129
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2217
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2107
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2195
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:84
 msgid "Password for this user"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:418
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2976
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3044
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3134
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3246
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3365
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3447
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3578
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2954
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3022
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3112
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3224
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3343
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3425
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3556
 #: ../cmk/gui/plugins/wato/active_checks.py:2430
 #: ../cmk/gui/plugins/wato/notifications.py:731
 msgid "Password of the user"
@@ -44624,7 +44635,7 @@ msgid "Paths"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:513
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2587
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2565
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:260
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:261
 #: ../cmk/gui/wato/pages/pattern_editor.py:271
@@ -45277,7 +45288,7 @@ msgstr ""
 msgid "Permission problem: Path not writable %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/groups.py:395 ../cmk/gui/wato/pages/folders.py:865
+#: ../cmk/gui/watolib/groups.py:395 ../cmk/gui/wato/pages/folders.py:867
 #: ../cmk/gui/wato/pages/groups.py:494 ../cmk/gui/wato/pages/roles.py:386
 msgid "Permissions"
 msgstr ""
@@ -45369,12 +45380,12 @@ msgstr ""
 msgid "Phase"
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:189
+#: ../cmk/cee/dcd/connectors/utils.py:191
 #, python-format
 msgid "Phase 1.1: Executing on site \"%s\""
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:195
+#: ../cmk/cee/dcd/connectors/utils.py:197
 #, python-format
 msgid "Phase 1.1: Fetching from site \"%s\""
 msgstr ""
@@ -45858,6 +45869,12 @@ msgstr ""
 msgid "Please provide a valid name"
 msgstr ""
 
+#: ../cmk/gui/plugins/visuals/filters.py:3148
+msgid ""
+"Please refer to the [cms_dashboards#host_problems|Checkmk user guide] for "
+"more details."
+msgstr ""
+
 #: ../cmk/gui/valuespec.py:5432 ../cmk/gui/valuespec.py:5437
 msgid "Please select a file."
 msgstr ""
@@ -46250,15 +46267,15 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:374
 #: ../cmk/gui/plugins/wato/datasource_programs.py:421
 #: ../cmk/gui/plugins/wato/datasource_programs.py:493
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2012
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2031
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2734
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2990
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3058
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3148
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3260
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3357
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3592
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1990
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2009
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2712
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2968
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3036
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3126
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3238
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3335
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3570
 #: ../cmk/gui/plugins/wato/check_parameters/threepar_ports.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:285
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:348
@@ -46310,16 +46327,16 @@ msgstr ""
 msgid "Port number for HTTPS connection to vSphere"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1938
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1916
 msgid "Port number for communicating with the PLC"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2253
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2231
 msgid "Port number that 3par is listening on. The default is 8080."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2085
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2182
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2063
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2160
 msgid "Port number that AppDynamics is listening on. The default is 8090."
 msgstr ""
 
@@ -46380,7 +46397,7 @@ msgstr ""
 msgid "Possible are 'user', 'operator', 'admin'"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2270
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2248
 msgid ""
 "Possible values are the following: cpgs, volumes, hosts, capacity, system, "
 "ports, remotecopy, hostsets, volumesets, vluns, flashcache, users, roles, "
@@ -46583,7 +46600,7 @@ msgstr ""
 msgid "Prepend namespace prefix for hosts"
 msgstr "Rechercher des hôtes"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1079
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1093
 msgid "Prerequisites"
 msgstr ""
 
@@ -47037,7 +47054,7 @@ msgstr ""
 msgid "Progress Info"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3391
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3369
 msgid "Project"
 msgstr ""
 
@@ -47125,13 +47142,13 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:115
 #: ../cmk/gui/plugins/wato/datasource_programs.py:702
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1356
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2147
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2981
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3049
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3139
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3251
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3452
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3583
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2125
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2959
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3027
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3117
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3229
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3430
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3561
 #: ../cmk/gui/plugins/wato/check_parameters/tcp_connections.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:48
 #: ../cmk/gui/plugins/wato/active_checks.py:2183
@@ -47242,7 +47259,7 @@ msgstr ""
 msgid "Proxy basic authorization"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2733
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2711
 msgid "Proxy host"
 msgstr ""
 
@@ -47250,7 +47267,7 @@ msgstr ""
 msgid "Proxy server address"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2731
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2709
 msgid "Proxy server details"
 msgstr ""
 
@@ -47447,7 +47464,7 @@ msgstr ""
 msgid "Queue depth"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3163
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3141
 msgid "Queue info"
 msgstr ""
 
@@ -47499,7 +47516,7 @@ msgid "Queued work requests"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:894
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3605
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3583
 #: ../cmk/gui/plugins/metrics/application.py:536
 msgid "Queues"
 msgstr ""
@@ -47749,7 +47766,7 @@ msgstr ""
 msgid "RX/TX"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3556
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3534
 msgid "RabbitMQ"
 msgstr ""
 
@@ -47761,7 +47778,7 @@ msgstr ""
 msgid "RabbitMQ cluster stats"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3561
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3539
 msgid "RabbitMQ instance to query"
 msgstr ""
 
@@ -47857,7 +47874,7 @@ msgstr ""
 msgid "Rate timewindow"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1864
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1842
 msgid "Raw Bytes (HEXSTR)"
 msgstr ""
 
@@ -48053,7 +48070,7 @@ msgstr ""
 msgid "Ready replicas"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1857
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1835
 msgid "Real Number (REAL)"
 msgstr ""
 
@@ -48233,7 +48250,7 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1727
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1705
 msgid "Redirect URL (has to be https)"
 msgstr ""
 
@@ -48353,7 +48370,7 @@ msgstr ""
 msgid "Region name"
 msgstr "Renommer %s"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2776
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2754
 msgid "Regions to use"
 msgstr ""
 
@@ -48362,7 +48379,7 @@ msgstr ""
 msgid "Registered"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1143
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1157
 msgid "Registered agents"
 msgstr ""
 
@@ -48390,7 +48407,7 @@ msgstr ""
 msgid "Registry Keys to search for software (Windows)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2552
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2530
 #: ../cmk/gui/plugins/wato/utils/__init__.py:419
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:31
 msgid "Regular expression"
@@ -48504,9 +48521,9 @@ msgstr ""
 #: ../cmk/gui/wato/pages/custom_attributes.py:452
 #: ../cmk/gui/wato/pages/global_settings.py:406 ../cmk/gui/logwatch.py:116
 #: ../cmk/gui/logwatch.py:215 ../cmk/gui/logwatch.py:381
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:321
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:766
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:985
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:325
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:780
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:999
 #: ../cmk/gui/cee/reporting.py:1088 ../cmk/gui/cee/reporting.py:1549
 #: ../cmk/gui/cee/reporting.py:2512 ../cmk/gui/pagetypes.py:1350
 msgid "Related"
@@ -48522,7 +48539,7 @@ msgstr "Tous les Tableaux de Bord"
 msgid "Related Views"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2853
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2831
 msgid "Relational Database Service (RDS)"
 msgstr ""
 
@@ -49033,7 +49050,7 @@ msgstr ""
 msgid "Replace with underscores"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2562
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2540
 #: ../cmk/gui/plugins/wato/utils/__init__.py:429
 #: ../cmk/gui/wato/pages/host_rename.py:330
 msgid "Replacement"
@@ -49243,7 +49260,7 @@ msgstr ""
 msgid "Request latency"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2813
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2791
 msgid "Request metrics"
 msgstr ""
 
@@ -49256,19 +49273,19 @@ msgstr ""
 msgid "Request wait time"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2962
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2940
 msgid "Requests data about Elasticsearch clusters, nodes and indices."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3557
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3535
 msgid "Requests data from a RabbitMQ instance."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3031
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3009
 msgid "Requests data from a Splunk instance."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3111
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3089
 msgid "Requests data from a jenkins instance."
 msgstr ""
 
@@ -49276,7 +49293,7 @@ msgstr ""
 msgid "Requests in Processing"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3224
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3202
 msgid "Requests node, cluster and indice data from a Graylog instance."
 msgstr ""
 
@@ -49523,7 +49540,7 @@ msgstr ""
 msgid "Restrict interface items"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2911
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2889
 msgid "Restrict monitoring services by one of these AWS tags"
 msgstr ""
 
@@ -49579,7 +49596,7 @@ msgstr ""
 msgid "Result"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:601
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:605
 #, python-format
 msgid "Result of last %s process"
 msgstr ""
@@ -49667,7 +49684,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1088
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1433
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1511
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2451
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2429
 msgid "Retrieve information about..."
 msgstr ""
 
@@ -49836,7 +49853,7 @@ msgstr ""
 msgid "Rows"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2038
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2016
 msgid "Ruckus Spot"
 msgstr ""
 
@@ -50093,11 +50110,11 @@ msgstr ""
 msgid "Run agent as non-root user (Linux)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2486
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2464
 msgid "Run agent in single thread"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2485
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2463
 msgid "Run agent multithreaded"
 msgstr ""
 
@@ -50715,16 +50732,16 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:379
 #: ../cmk/gui/plugins/wato/datasource_programs.py:432
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1797
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1775
 #: ../cmk/gui/cee/plugins/wato/ntop.py:85
 msgid "SSL certificate validation is disabled"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:149
 #: ../cmk/gui/plugins/wato/datasource_programs.py:568
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2260
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2303
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2331
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2238
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2281
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2309
 msgid "SSL certificate verification"
 msgstr ""
 
@@ -50780,8 +50797,8 @@ msgstr ""
 msgid "Safenet NTLS Links"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2350
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2367
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2328
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2345
 msgid "Salesforce"
 msgstr ""
 
@@ -51314,7 +51331,7 @@ msgstr ""
 msgid "Secondary Device"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1884
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1862
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:263
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1524
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1549
@@ -51341,11 +51358,11 @@ msgstr ""
 msgid "Seconds before connection times out"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1882
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1860
 msgid "Seconds of operation"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1883
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1861
 msgid "Seconds since service"
 msgstr ""
 
@@ -51597,7 +51614,7 @@ msgid "Select view"
 msgstr "services sélectionnés"
 
 #: ../cmk/gui/valuespec.py:3320
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1230
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1244
 msgid "Selected"
 msgstr ""
 
@@ -51611,15 +51628,15 @@ msgstr ""
 msgid "Selection"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2866
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2844
 msgid "Selection of alarms"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1418
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1432
 msgid "Selection of hosts to activate agent updates for"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2677
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2655
 msgid "Selection of service instances"
 msgstr ""
 
@@ -51843,7 +51860,7 @@ msgstr ""
 msgid "Server"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2000
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1978
 msgid "Server Address"
 msgstr ""
 
@@ -52163,7 +52180,7 @@ msgstr ""
 msgid "Service description format"
 msgstr "Ajouter un description de service"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3471
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3449
 #, fuzzy
 #| msgid "Add service description"
 msgid "Service description: "
@@ -52283,7 +52300,7 @@ msgstr ""
 msgid "Service level"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2700
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2678
 msgid "Service limits"
 msgstr ""
 
@@ -52586,7 +52603,7 @@ msgstr ""
 msgid "Services of host %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2781
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2759
 msgid "Services per region to monitor"
 msgstr ""
 
@@ -53139,9 +53156,9 @@ msgstr ""
 #: ../cmk/gui/wato/pages/global_settings.py:409 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:205
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:324
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:769
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:988
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:328
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:783
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1002
 #: ../cmk/gui/cee/ntop/pages.py:209 ../cmk/utils/werks.py:38
 msgid "Setup"
 msgstr ""
@@ -53256,7 +53273,7 @@ msgstr ""
 msgid "Should WATO restart or reload Nagios when activating changes"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1258
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1272
 msgid "Show"
 msgstr ""
 
@@ -53344,7 +53361,7 @@ msgstr ""
 msgid "Show all %s topics"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:669
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:679
 msgid "Show all hosts"
 msgstr ""
 
@@ -53523,7 +53540,7 @@ msgstr ""
 msgid "Show legend"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2663
+#: ../cmk/gui/htmllib.py:2664
 #, fuzzy
 #| msgid "Show in WATO host table"
 msgid "Show less"
@@ -53541,7 +53558,7 @@ msgstr ""
 msgid "Show metric"
 msgstr ""
 
-#: ../cmk/gui/visuals.py:881 ../cmk/gui/htmllib.py:2659
+#: ../cmk/gui/visuals.py:881 ../cmk/gui/htmllib.py:2660
 #: ../cmk/gui/pagetypes.py:387
 msgid "Show more"
 msgstr ""
@@ -53681,7 +53698,7 @@ msgstr ""
 msgid "Show the limits of values displayed"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1268
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1282
 msgid "Show the list of hosts in this category"
 msgstr ""
 
@@ -53846,11 +53863,11 @@ msgstr ""
 msgid "Sidecar name"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3288
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3266
 msgid "Sidecars"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1979
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1957
 msgid "Siemens PLC (SPS)"
 msgstr ""
 
@@ -53866,12 +53883,12 @@ msgstr ""
 msgid "Siemens PLC Flag state"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:537
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:541
 msgid "Sign"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:379
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:689
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:383
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:703
 msgid "Sign agents"
 msgstr ""
 
@@ -53887,12 +53904,12 @@ msgstr ""
 msgid "Signature algorithm"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:423
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1091
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:427
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1105
 msgid "Signature keys"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1466
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1480
 msgid "Signature keys for signing agents"
 msgstr ""
 
@@ -53900,7 +53917,7 @@ msgstr ""
 msgid "Signature keys the agent will accept"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1095
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1109
 msgid ""
 "Signatures are required for cryptographically signing your agents. That "
 "makes sure that the nobody can inject faked agents. Sigantures are mandatory "
@@ -53911,22 +53928,22 @@ msgstr ""
 msgid "Signatures of certificates in JAR files"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:629
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:805
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:636
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:819
 msgid "Signed"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1164
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1178
 msgid "Signed agents"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/openapi/endpoints/agent.py:90
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1624
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1638
 #, python-format
 msgid "Signed all agents with the key '%s'"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1600
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1614
 msgid "Signing Agents..."
 msgstr ""
 
@@ -53942,7 +53959,7 @@ msgstr ""
 msgid "Silently skip exceeding messages"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2805
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2783
 msgid "Simple Storage Service (S3)"
 msgstr ""
 
@@ -54002,7 +54019,7 @@ msgid ""
 "Single Aggregation for simple API calls. Contains the state and state output."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1858
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1836
 msgid "Single Bit (BOOL)"
 msgstr ""
 
@@ -54034,8 +54051,8 @@ msgstr ""
 msgid "Single peers or summary"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3401
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3409
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3379
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3387
 msgid "Single quotes are not allowed here."
 msgstr ""
 
@@ -54061,7 +54078,7 @@ msgstr ""
 msgid "Site"
 msgstr ""
 
-#: ../cmk/gui/node_visualization.py:857
+#: ../cmk/gui/node_visualization.py:856
 #, fuzzy, python-format
 #| msgid "Site status"
 msgid "Site %s"
@@ -54121,7 +54138,7 @@ msgstr ""
 msgid "Site certificate validity"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2519
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2497
 msgid "Site connection"
 msgstr ""
 
@@ -54228,8 +54245,8 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:99
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:350
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:436
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1861
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1867
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1839
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1845
 #: ../cmk/gui/plugins/wato/check_parameters/docker_node_disk_usage.py:42
 #: ../cmk/gui/plugins/metrics/docker.py:72 ../cmk/gui/backup.py:1037
 #: ../cmk/gui/wato/mkeventd.py:2713
@@ -54549,7 +54566,7 @@ msgid ""
 "threshold is logged to <b>var/log/web.log</b>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:245
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:249
 #, python-format
 msgid "Some but not all package types are signed with key '%s'"
 msgstr ""
@@ -54830,7 +54847,7 @@ msgstr ""
 msgid "Source name"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3289
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3267
 msgid "Sources"
 msgstr ""
 
@@ -55182,7 +55199,7 @@ msgid ""
 "host should be configured to allow Piggyback data."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1925
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1903
 msgid "Specify the hostname or IP address of the PLC to communicate with."
 msgstr ""
 
@@ -55203,7 +55220,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1918
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1896
 msgid ""
 "Specify the logical name, e.g. the hostname, of the PLC. This name is used "
 "to name the resulting services."
@@ -55336,7 +55353,7 @@ msgstr ""
 msgid "Speed of interface groups (Netapp only)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3030
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3008
 msgid "Splunk"
 msgstr ""
 
@@ -55366,7 +55383,7 @@ msgid ""
 "not declare explicitly that it has finished its work."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3036
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3014
 msgid "Splunk instance to query."
 msgstr ""
 
@@ -55653,7 +55670,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/notifications.py:715
 #: ../cmk/gui/wato/pages/notifications.py:718
 #: ../cmk/gui/cee/plugins/reporting/availability.py:125
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1172
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1186
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:205
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1465 ../cmk/gui/cee/sla.py:1944
 #: ../cmk/gui/cee/sla.py:1958
@@ -55709,7 +55726,7 @@ msgstr ""
 msgid "State during active system events"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1886
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1864
 msgid "State flag (on/off)"
 msgstr ""
 
@@ -56369,12 +56386,12 @@ msgstr ""
 msgid "State when software packages info is missing"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2605
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2583
 #: ../cmk/gui/plugins/wato/active_checks.py:1786
 msgid "State, if BI aggregate is acknowledged"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2603
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2581
 #: ../cmk/gui/plugins/wato/active_checks.py:1779
 msgid "State, if BI aggregate is in scheduled downtime"
 msgstr ""
@@ -56681,15 +56698,15 @@ msgstr ""
 msgid "Step (precision)"
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:446
+#: ../cmk/cee/dcd/connectors/utils.py:454
 msgid "Step has been finished"
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:434
+#: ../cmk/cee/dcd/connectors/utils.py:442
 msgid "Step has been initialized"
 msgstr ""
 
-#: ../cmk/cee/dcd/connectors/utils.py:437
+#: ../cmk/cee/dcd/connectors/utils.py:445
 msgid "Step has been started"
 msgstr ""
 
@@ -56845,7 +56862,7 @@ msgstr ""
 msgid "Stream rules"
 msgstr "Rechercher des règles : "
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3290
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3268
 #: ../cmk/gui/plugins/metrics/storage.py:62
 #: ../cmk/gui/plugins/metrics/application.py:476
 #: ../cmk/gui/plugins/metrics/network.py:1918
@@ -56876,7 +56893,7 @@ msgstr ""
 msgid "String"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1859
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1837
 msgid "String (STR)"
 msgstr ""
 
@@ -56994,7 +57011,7 @@ msgstr ""
 msgid "Subscription"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2429
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2407
 msgid "Subscription ID"
 msgstr ""
 
@@ -57048,7 +57065,7 @@ msgid ""
 "host."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:942
+#: ../cmk/gui/wato/pages/folders.py:944
 #, python-format
 msgid "Successfully deleted %d hosts"
 msgstr ""
@@ -57062,7 +57079,7 @@ msgstr ""
 msgid "Successfully logged into remote site %s."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:986
+#: ../cmk/gui/wato/pages/folders.py:988
 msgid "Successfully moved hosts to their original folder destinations."
 msgstr ""
 
@@ -57152,7 +57169,7 @@ msgstr ""
 msgid "Summed up values lower level"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3496
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3474
 msgid "Summed up values of the following numeric field:"
 msgstr ""
 
@@ -57207,10 +57224,6 @@ msgstr ""
 
 #: ../cmk/gui/plugins/metrics/aws.py:86
 msgid "Surge queue length"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/metrics/forecasts.py:466
-msgid "Susceptible"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/esx_vsphere_objects.py:58
@@ -57547,7 +57560,7 @@ msgstr ""
 msgid "System global targets"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3074
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3052
 msgid "System messages"
 msgstr ""
 
@@ -57646,7 +57659,7 @@ msgid "TCP Port for connection"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1043
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1937
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1915
 msgid "TCP Port number"
 msgstr ""
 
@@ -57695,8 +57708,8 @@ msgstr ""
 msgid "TCP port"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2117
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2212
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2095
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2190
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:62
 msgid "TCP port for connection"
 msgstr ""
@@ -57706,9 +57719,9 @@ msgid "TCP port for connection to Checkmk agent"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:107
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2084
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2181
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2252
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2062
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2159
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2230
 #: ../cmk/gui/plugins/wato/active_checks.py:228
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:283
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:50
@@ -57888,7 +57901,7 @@ msgstr ""
 msgid "Tag usage"
 msgstr "Utilisation du CPU"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2407
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2385
 msgid "Tag value"
 msgstr ""
 
@@ -57908,7 +57921,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3835
 #: ../cmk/gui/wato/pages/tags.py:128 ../cmk/gui/wato/pages/tags.py:341
 #: ../cmk/gui/wato/pages/tags.py:389 ../cmk/gui/wato/pages/tags.py:488
-#: ../cmk/gui/wato/pages/folders.py:420 ../cmk/gui/wato/pages/folders.py:874
+#: ../cmk/gui/wato/pages/folders.py:420 ../cmk/gui/wato/pages/folders.py:876
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:38
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:54
 #: ../cmk/utils/tags.py:343 ../cmk/utils/tags.py:348 ../cmk/utils/tags.py:357
@@ -58058,7 +58071,7 @@ msgid ""
 "has to wait between chunks of data it receives."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1878
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1856
 #: ../cmk/gui/plugins/wato/check_parameters/eaton_enviroment.py:23
 #: ../cmk/gui/plugins/wato/check_parameters/temperature.py:173
 #: ../cmk/gui/plugins/metrics/environment.py:43
@@ -58169,7 +58182,7 @@ msgstr ""
 msgid "Temporary filesystem mounted"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2434
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2412
 msgid "Tenant ID / Directory ID"
 msgstr ""
 
@@ -58178,8 +58191,8 @@ msgid "Terse"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/ldap.py:346 ../cmk/gui/wato/pages/host_diagnose.py:92
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1180
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1203
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1194
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1217
 msgid "Test"
 msgstr ""
 
@@ -58193,7 +58206,7 @@ msgstr "Ajouter ces groupes de contact à l'hôte"
 msgid "Test event generated and sent to Event Console."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1200
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1214
 #, fuzzy
 #| msgid "Hostname %s does not exist"
 msgid "Test hostname before activation"
@@ -58204,7 +58217,7 @@ msgid "Testing"
 msgstr ""
 
 #: ../cmk/gui/plugins/dashboard/static_text.py:45
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1887 ../cmk/gui/notify.py:196
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1865 ../cmk/gui/notify.py:196
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:106
 msgid "Text"
 msgstr ""
@@ -58330,7 +58343,7 @@ msgstr ""
 msgid "The <i>from</i> time must not be later then the <i>until</i> time."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2752
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2730
 msgid "The ARN of the IAM role to assume"
 msgstr ""
 
@@ -58349,11 +58362,11 @@ msgid ""
 "(Linux, Windows)</a>."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2754
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2732
 msgid "The Amazon Resource Name (ARN) of the role to assume."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1826
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1804
 msgid "The Area"
 msgstr ""
 
@@ -58535,7 +58548,7 @@ msgid ""
 "possibly disabled."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3305
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3283
 msgid "The Graylog node"
 msgstr ""
 
@@ -58905,7 +58918,7 @@ msgid ""
 "<i>Set execution mode for plugins and local checks</i>."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2720
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2698
 msgid "The access key ID for your AWS account"
 msgstr ""
 
@@ -59012,7 +59025,7 @@ msgid ""
 "from the states of the child nodes."
 msgstr ""
 
-#: ../cmk/utils/bi/bi_compiler.py:150
+#: ../cmk/utils/bi/bi_compiler.py:149
 #, python-format
 msgid ""
 "The aggregation titles are not unique. \"%s\" is created by aggregation <b>"
@@ -59415,7 +59428,7 @@ msgid ""
 "The configured value must match a tunnel reported by the monitored device."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1947
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1925
 msgid ""
 "The connect timeout in seconds when establishing a connection with the PLC."
 msgstr ""
@@ -59454,7 +59467,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:415
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3362
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3340
 msgid "The credentials for api calls with authentication."
 msgstr ""
 
@@ -59824,7 +59837,7 @@ msgid ""
 "in this exception:"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1279
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1293
 msgid ""
 "The following hosts could not be handled and are not included within the "
 "update status"
@@ -60018,6 +60031,11 @@ msgstr ""
 msgid "The host must be in one of the selected host groups"
 msgstr ""
 
+#: ../cmk/gui/wato/pages/folders.py:578
+msgid ""
+"The host must have the Checkmk agent or SNMP or an API integration prepared."
+msgstr ""
+
 #: ../cmk/gui/wato/pages/bulk_import.py:318
 msgid "The host name attribute needs to be assigned to a column."
 msgstr ""
@@ -60069,7 +60087,7 @@ msgstr ""
 msgid "The hostname of the expected node to hold this resource."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1330
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1344
 msgid ""
 "The hosts listed here have contacted the update server in that past and thus "
 "had been correctly registered then. But they do not ask for updates anymore. "
@@ -60082,7 +60100,7 @@ msgstr ""
 msgid "The icon type is %s, but should be str"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1818
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1796
 msgid "The ident of a value needs to be unique per valuetype."
 msgstr ""
 
@@ -60230,13 +60248,13 @@ msgstr ""
 msgid "The last "
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:576
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:580
 #, python-format
 msgid ""
 "The last %s operation did not finish. Please acknowledge this to proceed."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:572
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:576
 #, python-format
 msgid ""
 "The last %s operation ran into an exception. Please acknowledge this to "
@@ -60432,7 +60450,7 @@ msgid ""
 "in between."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2646
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2624
 msgid "The maximum key length is 128 characters."
 msgstr ""
 
@@ -60466,7 +60484,7 @@ msgstr ""
 msgid "The maximum number of messages per time interval"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2648
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2626
 msgid "The maximum number of tags per resource is 50."
 msgstr ""
 
@@ -60484,7 +60502,7 @@ msgid ""
 "host, not the hops in between."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2653
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2631
 msgid "The maximum value length is 256 characters."
 msgstr ""
 
@@ -60690,7 +60708,7 @@ msgstr ""
 msgid "The network timeout in seconds"
 msgstr "Le réseau doit contenir trois points."
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1759
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1737
 msgid ""
 "The network timeout in seconds when communicating via HTTP. The default is "
 "10 seconds."
@@ -60703,7 +60721,7 @@ msgid ""
 "applied to each API call."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2093
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2071
 msgid ""
 "The network timeout in seconds when communicating with AppDynamics.The "
 "default is 30 seconds."
@@ -60735,7 +60753,7 @@ msgid ""
 "WATO)"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3301
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3279
 msgid ""
 "The node details can be displayed either on the queried host or the Graylog "
 "node."
@@ -60970,7 +60988,7 @@ msgid ""
 "won't be able to authenticate with this password anymore."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3133
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3111
 msgid "The password or API key of the user."
 msgstr ""
 
@@ -61082,8 +61100,8 @@ msgstr ""
 msgid "The port on which the ntopng instance is reachable."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3359
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3594
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3337
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3572
 msgid "The port that is used for the api call."
 msgstr ""
 
@@ -61108,9 +61126,9 @@ msgstr ""
 msgid "The queried ESX system (vCenter / Host)"
 msgstr ""
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3282
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3293
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3304
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3315
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3326
 msgid "The queried Graylog host"
 msgstr ""
 
@@ -61231,7 +61249,7 @@ msgstr ""
 msgid "The requested user does not exist"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2400
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2378
 msgid "The resource tag"
 msgstr ""
 
@@ -61251,7 +61269,7 @@ msgstr ""
 msgid "The restore has been stopped."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3472
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3450
 msgid "The resulting service will get this entry as service description"
 msgstr ""
 
@@ -61378,7 +61396,7 @@ msgstr ""
 msgid "The schedule you are trying to edit does not exist."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2726
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2704
 msgid "The secret access key for your AWS account"
 msgstr ""
 
@@ -61459,7 +61477,7 @@ msgid ""
 "the last x path levels for naming."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:922
+#: ../cmk/gui/wato/pages/folders.py:924
 msgid ""
 "The service discovery of this host failed during a previous bulk service "
 "discovery."
@@ -61502,18 +61520,18 @@ msgid ""
 "notififcations. This is disabled by default."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3312
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3290
 msgid ""
 "The sidecar details can be displayed either on the queried host or the "
 "sidecar host."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3316
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3294
 msgid "The sidecar host"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1522
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1554
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1536
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1568
 msgid ""
 "The signature keys will be stored on disk encrypted with this passphrase. "
 "The phrase will not be stored anywhere. If it get's lost then you will not "
@@ -61572,13 +61590,13 @@ msgstr ""
 msgid "The source IP address does not match."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3323
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3301
 msgid ""
 "The source details can be displayed either on the queried host or the source "
 "host."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3327
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3305
 #, fuzzy
 #| msgid "Graphs for host"
 msgid "The source host"
@@ -61952,21 +61970,21 @@ msgstr ""
 msgid "The username returned by the %s connector is not of type string (%r)."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3240
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3218
 msgid ""
 "The username that should be used for accessing the Graylog API. Has to have "
 "read permissions at least."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3441
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3419
 msgid "The username that should be used for accessing the Jira API."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3572
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3550
 msgid "The username that should be used for accessing the RabbitMQ API."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3126
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3104
 msgid ""
 "The username that should be used for accessing the jenkins API. Has to have "
 "read permissions at least."
@@ -62253,19 +62271,19 @@ msgid ""
 "ruleset <a href=\"%s\">%s</a>."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1353
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1367
 msgid ""
 "These host have correctly registered for updates but, never downloaded an "
 "agent. (nor installed one)"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1320
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1334
 msgid ""
 "These hosts have at least once in the last 24 hours connected the update "
 "server and asked for an update."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1301
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1315
 msgid "These hosts have installed the correct version of their agent."
 msgstr ""
 
@@ -63085,13 +63103,13 @@ msgstr ""
 msgid "This host has a baked agent"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:793
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:807
 #, fuzzy
 #| msgid "This host is not configured."
 msgid "This host has no Checkmk agents."
 msgstr "Cet hôte n'est pas configuré."
 
-#: ../cmk/gui/wato/pages/folders.py:835
+#: ../cmk/gui/wato/pages/folders.py:837
 #, python-format
 msgid "This host is a cluster of %s"
 msgstr ""
@@ -63100,7 +63118,7 @@ msgstr ""
 msgid "This host is currently not being checked"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:830
+#: ../cmk/gui/wato/pages/folders.py:832
 msgid "This host is disabled"
 msgstr ""
 
@@ -63205,7 +63223,7 @@ msgstr ""
 msgid "This is rule pack can be packaged with the Extension Packages module."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2076
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2054
 msgid ""
 "This is the application name used in the URL. If you enter for example the "
 "application name <tt>foobar</tt>, this would result in the URL being used to "
@@ -63223,7 +63241,7 @@ msgid ""
 "updates in case of some problem."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:1151
+#: ../cmk/gui/wato/pages/folders.py:1153
 msgid ""
 "This is the name of subdirectory where the files and other folders will be "
 "created. You cannot change this later."
@@ -63236,7 +63254,7 @@ msgid ""
 "then this name must exactly match the common name of the server certificate."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2190
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2168
 msgid ""
 "This is the uid of the sensor you want to display in the 7-segment display, "
 "not the uid of the display itself. There is currently no support for "
@@ -64061,14 +64079,14 @@ msgid ""
 "configure your connection settings here."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2061
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2039
 msgid ""
 "This rule allows querying an AppDynamics server for information about Java "
 "applicationsvia the AppDynamics REST API. You can configure your connection "
 "settings here."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2162
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2140
 msgid "This rule allows querying the Jolokia web API."
 msgstr ""
 
@@ -64082,7 +64100,7 @@ msgstr ""
 msgid "This rule allows to override alert levels for the given sensor names."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3347
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3325
 msgid ""
 "This rule allows to select a Couchbase server to monitor as well as "
 "configure buckets for further checks"
@@ -64126,7 +64144,7 @@ msgid ""
 "rules are merged."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2617
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2595
 msgid ""
 "This rule allows you to check multiple BI aggregations from multiple sites "
 "at once. You can also assign aggregations to specific hosts through the "
@@ -64463,7 +64481,7 @@ msgstr ""
 msgid "This rule representation can be used for Web API calls."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1752
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1730
 msgid ""
 "This rule selects the ALLNET IP Sensoric agent, which fetches /xml/"
 "sensordata.xml from the device by HTTP and extracts the needed monitoring "
@@ -64482,7 +64500,7 @@ msgid ""
 "Agent which collects the data through the FreeIPMI resp. IPMItool command"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2039
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2017
 msgid ""
 "This rule selects the Agent Ruckus Spot agent instead of the normal Check_MK "
 "Agent which collects the data through the Ruckus Spot web interface"
@@ -64516,25 +64534,25 @@ msgid ""
 "version."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1980
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1958
 msgid ""
 "This rule selects the Siemens PLC agent instead of the normal Check_MK Agent "
 "and allows monitoring of Siemens PLC using the Snap7 API. You can configure "
 "your connection settings and values to fetch here."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1782
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1760
 msgid ""
 "This rule selects the UCS Bladecenter agent instead of the normal Check_MK "
 "Agent which collects the data through the UCS Bladecenter Web API"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3205
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3183
 msgid "This rule selects the Zerto special agent for an existing Checkmk host"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2351
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2365
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2329
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2343
 msgid "This rule selects the special agent for Salesforce."
 msgstr ""
 
@@ -64605,13 +64623,13 @@ msgid ""
 "tt>."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2296
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2274
 msgid ""
 "This rule set selects the special agent for HPE StoreOnce Applainces instead "
 "of the normal Check_MK agent and allows monitoring via Web API. "
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2323
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2301
 msgid ""
 "This rule set selects the special agent for HPE StoreOnce Appliances instead "
 "of the normal Check_MK agent and allows monitoring via REST API v4.x or "
@@ -65650,7 +65668,7 @@ msgstr ""
 msgid "Time drifted devices"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3267
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3245
 msgid "Time for coverage of failures"
 msgstr ""
 
@@ -65942,7 +65960,7 @@ msgstr ""
 msgid "Timemachine backup age"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3353
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3331
 #: ../cmk/gui/plugins/wato/active_checks.py:412
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:236
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_timeout.py:43
@@ -65974,7 +65992,7 @@ msgid ""
 "host-basis."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3355
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3333
 msgid "Timeout for requests in seconds."
 msgstr ""
 
@@ -66017,7 +66035,7 @@ msgid ""
 "the day."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1836
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1814
 msgid "Timer"
 msgstr ""
 
@@ -66086,7 +66104,7 @@ msgstr ""
 msgid "Timing settings for specific methods"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2178
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2156
 msgid "Tinkerforge"
 msgstr ""
 
@@ -66111,7 +66129,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:1608 ../cmk/gui/wato/mkeventd.py:3429
 #: ../cmk/gui/wato/pages/tags.py:340 ../cmk/gui/wato/pages/tags.py:388
 #: ../cmk/gui/wato/pages/tags.py:443 ../cmk/gui/wato/pages/tags.py:798
-#: ../cmk/gui/wato/pages/rulesets.py:1222 ../cmk/gui/wato/pages/folders.py:1140
+#: ../cmk/gui/wato/pages/rulesets.py:1222 ../cmk/gui/wato/pages/folders.py:1142
 #: ../cmk/gui/wato/pages/password_store.py:94
 #: ../cmk/gui/wato/pages/check_catalog.py:492
 #: ../cmk/gui/wato/pages/analyze_configuration.py:192
@@ -66169,7 +66187,7 @@ msgid ""
 "have not been downloaded yet: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2421
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2399
 msgid ""
 "To monitor Azure resources add this datasource to <b>one</b> host. The data "
 "will be transported using the piggyback mechanism, so make sure to create "
@@ -66748,7 +66766,7 @@ msgstr ""
 msgid "Total number of packets"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1379
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1393
 msgid "Total number of registered hosts"
 msgstr ""
 
@@ -67242,7 +67260,7 @@ msgstr ""
 msgid "Type of query"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3488
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3466
 msgid "Type of result"
 msgstr ""
 
@@ -67261,7 +67279,7 @@ msgid ""
 "sessions (summed over all session types)."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1875
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1853
 msgid "Type of the value"
 msgstr ""
 
@@ -67278,7 +67296,7 @@ msgstr ""
 msgid "U"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1781
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1759
 msgid "UCS Bladecenter"
 msgstr ""
 
@@ -67482,7 +67500,7 @@ msgid ""
 "is used by your local Browser."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2515
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2493
 msgid "URL of the remote site, for example https://10.3.1.2/testsite"
 msgstr ""
 
@@ -67495,7 +67513,7 @@ msgstr ""
 msgid "URL prefix for links to Checkmk"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1706
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1684
 msgid "URL to HiveManagerNG, e.g. https://cloud.aerohive.com"
 msgstr ""
 
@@ -67887,7 +67905,7 @@ msgstr ""
 msgid "Unblended costs"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1877
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1855
 msgid "Unclassified"
 msgstr ""
 
@@ -68268,7 +68286,7 @@ msgstr ""
 msgid "Update State"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1250
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1264
 msgid "Update Status"
 msgstr ""
 
@@ -68298,7 +68316,7 @@ msgstr ""
 msgid "Update site DNS cache"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1020
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1034
 #, fuzzy
 #| msgid "Site status"
 msgid "Update status"
@@ -68350,12 +68368,12 @@ msgstr ""
 msgid "Updates are expected at least every"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1236
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1250
 #, python-format
 msgid "Updates will be <b>disabled</b> for this host: %s"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1232
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1246
 msgid "Updates will be enabled for this host."
 msgstr ""
 
@@ -68392,7 +68410,7 @@ msgstr ""
 msgid "Upload SNMP MIBs"
 msgstr "Téléchargement de la MIB %s vers le serveur : %s"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1546
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1560
 msgid "Upload agent signature key"
 msgstr ""
 
@@ -68431,7 +68449,7 @@ msgstr ""
 msgid "Uploaded a custom GUI logo"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1550
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1564
 #, python-format
 msgid "Uploaded agent signature key '%s' created"
 msgstr ""
@@ -69075,7 +69093,7 @@ msgid ""
 "possible - though uncommon - to do a remote monitoring here."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2564
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2542
 #: ../cmk/gui/plugins/wato/utils/__init__.py:431
 msgid "Use <tt>\\1</tt>, <tt>\\2</tt> etc. to replace matched subgroups"
 msgstr ""
@@ -69086,13 +69104,13 @@ msgid ""
 "tt> to insert to original host name"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:586
-msgid ""
-"Use Check_MK clusters if an item can move from one host to another at runtime"
-msgstr ""
-
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/install_python.py:61
 msgid "Use Checkmk Python, if it has been installed"
+msgstr ""
+
+#: ../cmk/gui/wato/pages/folders.py:588
+msgid ""
+"Use Checkmk clusters if an item can move from one host to another at runtime."
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4459
@@ -69145,7 +69163,7 @@ msgstr ""
 msgid "Use Inline SNMP Backend"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3425
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3403
 msgid ""
 "Use Jira Query Language (JQL) to get statistics out of your Jira instance."
 msgstr ""
@@ -69213,7 +69231,7 @@ msgstr ""
 msgid "Use STARTTLS for the connection."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2749
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2727
 msgid "Use STS AssumeRole to assume a different IAM role"
 msgstr ""
 
@@ -69315,11 +69333,11 @@ msgstr ""
 msgid "Use environment variables from host"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2688
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2666
 msgid "Use explicit AWS service tags and overrule overall AWS tags"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2869
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2847
 msgid "Use explicit names"
 msgstr ""
 
@@ -69327,7 +69345,7 @@ msgstr ""
 msgid "Use explicit proxy settings"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2690
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2668
 msgid "Use explicit service names and ignore overall AWS tags"
 msgstr ""
 
@@ -69361,7 +69379,7 @@ msgstr ""
 msgid "Use graph title"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2005
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1983
 msgid "Use host address"
 msgstr ""
 
@@ -69533,7 +69551,7 @@ msgstr ""
 msgid "Use the alias as DNS name / IP address"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2522
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2500
 #: ../cmk/gui/plugins/wato/active_checks.py:1735
 msgid "Use the credentials of the 'automation' user"
 msgstr ""
@@ -69575,7 +69593,7 @@ msgstr ""
 msgid "Use the following color"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2523
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2501
 #: ../cmk/gui/plugins/wato/active_checks.py:1736
 msgid "Use the following credentials"
 msgstr ""
@@ -69710,33 +69728,33 @@ msgid ""
 "limit</a>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3262
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3240
 msgid ""
 "Use this option to query a port which is different from standard port 443."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3150
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3128
 msgid ""
 "Use this option to query a port which is different from standard port 8080."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3060
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3038
 msgid ""
 "Use this option to query a port which is different from standard port 8089."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2992
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2970
 #: ../cmk/gui/plugins/wato/active_checks.py:2447
 msgid ""
 "Use this option to query a port which is different from standard port 9200."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3037
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3015
 msgid ""
 "Use this option to set which host should be checked by the special agent."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2968
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2946
 msgid ""
 "Use this option to set which host should be checked by the special agent. If "
 "the connection to the first server fails, the next server will be queried "
@@ -69744,26 +69762,26 @@ msgid ""
 "response."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3231
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3209
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_graylog.com."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3117
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3095
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jenkins.com."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3431
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3409
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jira.com. If not set, the "
 "assigned host is used as instance."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3562
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3540
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_rabbitmq.com. If not set, the "
@@ -70039,11 +70057,11 @@ msgstr ""
 msgid "User ID"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2216
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2194
 msgid "User ID for web login"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2126
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2104
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:81
 msgid "User ID for web login (if login required)"
 msgstr ""
@@ -70169,20 +70187,20 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1209
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1293
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1362
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1680
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1786
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2243
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2300
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2328
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2736
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2974
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3042
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3125
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3197
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3239
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3364
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3440
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3571
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1658
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1764
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2221
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2278
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2306
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2714
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2952
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3020
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3103
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3175
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3217
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3342
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3418
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3549
 #: ../cmk/gui/plugins/wato/active_checks.py:159
 #: ../cmk/gui/plugins/wato/active_checks.py:200
 #: ../cmk/gui/plugins/wato/active_checks.py:406
@@ -70372,7 +70390,7 @@ msgstr ""
 msgid "VA"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3194
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3172
 #, fuzzy
 #| msgid "Authentication error"
 msgid "VCenter authentication"
@@ -70447,7 +70465,7 @@ msgstr ""
 msgid "VMware licenses"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2934
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2912
 msgid "VNX quotas and filesystems"
 msgstr ""
 
@@ -70549,20 +70567,20 @@ msgstr ""
 msgid "Value of {diff_path} changed from {val_t1} to {val_t2}."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2665
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2643
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:390
 msgid "Values"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2268
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2246
 msgid "Values to fetch"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1974
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1952
 msgid "Values to fetch from all devices"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1959
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1937
 msgid "Values to fetch from this device"
 msgstr ""
 
@@ -70700,7 +70718,7 @@ msgstr ""
 msgid "Vendor and Device ID"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2016
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1994
 msgid "Venue ID"
 msgstr ""
 
@@ -70831,7 +70849,7 @@ msgid "Vertical spacing"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:469
-msgid "Very voluble"
+msgid "Very high"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_vhosts.py:144
@@ -70840,7 +70858,7 @@ msgstr ""
 msgid "Vhost name"
 msgstr "Ajouter un nom d'hôte"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3604
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3582
 #, fuzzy
 #| msgid "host: "
 msgid "Vhosts"
@@ -70902,7 +70920,7 @@ msgstr ""
 msgid "View pending changes"
 msgstr "Il n'y a aucune modification en attente."
 
-#: ../cmk/gui/wato/pages/folders.py:910
+#: ../cmk/gui/wato/pages/folders.py:912
 msgid "View the rule based parameters of this host"
 msgstr ""
 
@@ -71074,10 +71092,6 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/pdu_gude.py:50
 msgid "Voltage on Power Channel"
-msgstr ""
-
-#: ../cmk/gui/cee/plugins/metrics/forecasts.py:468
-msgid "Voluble"
 msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/nimble_latency.py:24
@@ -72555,11 +72569,11 @@ msgstr ""
 msgid "Warning: This host has an invalid configuration!"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:824
+#: ../cmk/gui/wato/pages/folders.py:826
 msgid "Warning: This host has an invalid configuration: "
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:897
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:911
 msgid "Warnings occured:"
 msgstr ""
 
@@ -72617,7 +72631,7 @@ msgstr ""
 msgid "Web API communication"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2889
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2867
 msgid "Web Application Firewall (WAFV2)"
 msgstr ""
 
@@ -73658,7 +73672,7 @@ msgstr ""
 msgid "Windows Updates"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3193
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3171
 #, fuzzy
 #| msgid "Authentication error"
 msgid "Windows authentication"
@@ -73666,7 +73680,7 @@ msgstr "Erreur d'authentification"
 
 #: ../cmk/gui/wato/pages/download_agents.py:70
 #: ../cmk/gui/wato/pages/download_agents.py:232
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:443
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:447
 #, fuzzy
 #| msgid "Windows Plugins"
 msgid "Windows files"
@@ -73687,18 +73701,18 @@ msgid "Windows system time offset"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/download_agents.py:63
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:296
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1003
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1673
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:300
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1017
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1687
 msgid "Windows, Linux, Solaris, AIX"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:295
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:299
 #, python-format
 msgid "Windows, Linux, Solaris, AIX agents matching: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:1002
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:999
 msgid ""
 "With the help of labels you can flexibly group your hosts in order to refer "
 "to them later at other places in Check_MK, e.g. in rule chains. A label "
@@ -73707,7 +73721,7 @@ msgid ""
 "validation on the labels you use."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1156
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1170
 msgid ""
 "With the master switch you can immediately turn on or off the agent updates. "
 "When it is turned off then agents still can query their target configuration "
@@ -73868,7 +73882,7 @@ msgstr ""
 msgid "With this setting you can set links to documentations for each service"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2027
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2005
 msgid ""
 "With this setting, the special agent will also contact the Check_MK agent on "
 "the same system at the specified port."
@@ -73931,7 +73945,7 @@ msgstr ""
 msgid "Worker threads not created"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3404
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3382
 msgid "Workflows"
 msgstr ""
 
@@ -74363,7 +74377,7 @@ msgid ""
 "example.org</tt>. "
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2573
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2551
 msgid ""
 "You can add any number of expressions here which are executed succesively "
 "until the first match. Please specify a regular expression in the first "
@@ -75100,12 +75114,12 @@ msgstr ""
 msgid "You don't have the right to rename hosts"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1111
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1125
 #, python-format
 msgid "You have %d <a href=\"%s\">rules</a> for deploying the update plugin"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1131
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1145
 #, python-format
 msgid "You have %d baked agents containing the update plugin"
 msgstr ""
@@ -75144,7 +75158,7 @@ msgstr ""
 msgid "You have configured %d backup jobs"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1093
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1107
 #, python-format
 msgid ""
 "You have created %d <a href=\"%s\">signature keys</a> for signing agents"
@@ -75245,7 +75259,7 @@ msgid ""
 "\"%s\" target=\"main\">global settings</a>."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:855
+#: ../cmk/gui/wato/pages/folders.py:857
 msgid "You have permission to this host."
 msgstr ""
 
@@ -75276,7 +75290,7 @@ msgid "You have selected <b>%d</b> hosts for parent scan. "
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/openapi/endpoints/agent.py:244
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1165
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1179
 msgid "You have signed some or all agent packages"
 msgstr ""
 
@@ -75423,7 +75437,7 @@ msgid ""
 "You need to confirm that you want to overwrite the remote site configuration."
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1113
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1127
 #, python-format
 msgid ""
 "You need to create <a href=\"%s\">rules</a> where you configure that the "
@@ -75711,7 +75725,7 @@ msgstr ""
 msgid "ZFS storage pool status"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3204
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3182
 msgid "Zerto"
 msgstr ""
 
@@ -75943,7 +75957,7 @@ msgstr ""
 msgid "backup"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:529
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:533
 msgid "baking"
 msgstr ""
 
@@ -76680,7 +76694,7 @@ msgstr ""
 msgid "execute the action \"%s\""
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2406
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2384
 msgid "exists"
 msgstr ""
 
@@ -76696,7 +76710,7 @@ msgstr ""
 msgid "explicit host labels"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2388
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2366
 msgid "explicitly specified groups"
 msgstr ""
 
@@ -76760,7 +76774,7 @@ msgstr ""
 msgid "flexible with max. duration"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:727
+#: ../cmk/gui/wato/pages/folders.py:729
 msgid "folder"
 msgstr ""
 
@@ -76925,7 +76939,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/icons/builtin.py:1027
 #: ../cmk/gui/plugins/views/painters.py:4284
 #: ../cmk/gui/wato/pages/host_rename.py:168
-#: ../cmk/gui/wato/pages/folders.py:722 ../cmk/gui/wato/pages/folders.py:787
+#: ../cmk/gui/wato/pages/folders.py:724 ../cmk/gui/wato/pages/folders.py:789
 msgid "host"
 msgid_plural "hosts"
 msgstr[0] ""
@@ -76941,7 +76955,7 @@ msgstr "groupe d'hôtes"
 msgid "hostname will be ignored when agent_hash is given."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/folders.py:787 ../cmk/gui/cee/plugins/wato/cmc.py:1767
+#: ../cmk/gui/wato/pages/folders.py:789 ../cmk/gui/cee/plugins/wato/cmc.py:1767
 msgid "hosts"
 msgstr ""
 
@@ -77012,7 +77026,7 @@ msgstr ""
 msgid "iSCSI HBAs"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2528
+#: ../cmk/gui/htmllib.py:2529
 msgid "icon not found"
 msgstr ""
 
@@ -77154,7 +77168,7 @@ msgstr ""
 msgid "invalid:"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2407
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2385
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1913
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1970
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2117
@@ -77647,7 +77661,7 @@ msgstr ""
 msgid "not attempted"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:647
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:657
 msgid "not available"
 msgstr ""
 
@@ -77722,7 +77736,7 @@ msgstr ""
 #: ../cmk/gui/plugins/views/utils.py:352
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
 #: ../cmk/gui/wato/mkeventd.py:2480 ../cmk/gui/wato/pages/sites.py:1019
-#: ../cmk/gui/htmllib.py:2144
+#: ../cmk/gui/htmllib.py:2145
 msgid "off"
 msgstr ""
 
@@ -77739,7 +77753,7 @@ msgstr ""
 #: ../cmk/gui/valuespec.py:2451
 #: ../cmk/gui/plugins/sidebar/master_control.py:137
 #: ../cmk/gui/wato/mkeventd.py:2480 ../cmk/gui/wato/pages/sites.py:1019
-#: ../cmk/gui/htmllib.py:2144
+#: ../cmk/gui/htmllib.py:2145
 msgid "on"
 msgstr ""
 
@@ -78116,7 +78130,7 @@ msgstr ""
 msgid "regular expression, substring match"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2138
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2116
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:93
 msgid "relative URI under which Jolokia is visible"
 msgstr ""
@@ -78196,7 +78210,7 @@ msgstr ""
 msgid "reset"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2412
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2390
 msgid "resources matching tag based criteria"
 msgstr ""
 
@@ -78313,9 +78327,9 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/datasource_programs.py:440
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1072
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1595
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1763
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1951
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2097
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1741
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1929
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2075
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:74
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:75
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:84
@@ -78432,7 +78446,7 @@ msgstr ""
 msgid "set"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/bi.py:494 ../cmk/gui/wato/pages/folders.py:898
+#: ../cmk/gui/plugins/views/bi.py:494 ../cmk/gui/wato/pages/folders.py:900
 msgid "show all"
 msgstr ""
 
@@ -78440,11 +78454,11 @@ msgstr ""
 msgid "show errors"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2665
+#: ../cmk/gui/htmllib.py:2666
 msgid "show less"
 msgstr ""
 
-#: ../cmk/gui/htmllib.py:2661
+#: ../cmk/gui/htmllib.py:2662
 msgid "show more"
 msgstr ""
 
@@ -78452,7 +78466,7 @@ msgstr ""
 msgid "show only problems"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:533
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:537
 msgid "signing"
 msgstr ""
 
