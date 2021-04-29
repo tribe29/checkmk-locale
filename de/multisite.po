@@ -875,7 +875,7 @@ msgstr "%s Schreiben %s"
 msgid "%s: %s"
 msgstr "%s: %s"
 
-#: ../cmk/utils/man_pages.py:457
+#: ../cmk/utils/man_pages.py:458
 #, python-format
 msgid "%s: Cannot parse man page: %s"
 msgstr "%s: Kann Manpage nicht parsen: %s"
@@ -1595,6 +1595,19 @@ msgid ""
 msgstr ""
 "<b>Anmerkung:</b> Die angezeigten Ergebnisse sind unvollständig und geben "
 "nicht die Sortierordnung wieder."
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:33
+msgid ""
+"<b>Note</b>: Real-time check data is encrypted by default. Hence, an "
+"encryption secret is needed to enable the baked agent to send real-time "
+"check data. A secret can be provided by activating <a href=\"wato.py?"
+"mode=edit_configvar&varname=cmc_real_time_checks\">real-time checks on this "
+"site</a> (The agent bakery will use the configured secret as default for "
+"agents matching <i>this</i> rule), or by explicitly the agent rule for <a "
+"href=\"wato.py?mode=edit_ruleset&varname=agent_encryption\">encryption</a> "
+"(This secret will win over the default secret). If no secret is found, the "
+"agent bakery will fail to bake agents."
+msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:107
 msgid ""
@@ -8449,8 +8462,8 @@ msgstr "BMC-Schlüssel"
 msgid "BOUND"
 msgstr "BOUND"
 
-#: ../cmk/gui/plugins/wato/background_job.py:143 ../cmk/utils/man_pages.py:400
-#: ../cmk/utils/man_pages.py:419
+#: ../cmk/gui/plugins/wato/background_job.py:143 ../cmk/utils/man_pages.py:401
+#: ../cmk/utils/man_pages.py:420
 msgid "Back"
 msgstr "Zurück"
 
@@ -12221,7 +12234,7 @@ msgstr ""
 "Instanz auch ohne Monitoring-Kern betreiben. Dies könnte bei Instanzen "
 "nützlich sein, die nur eine Weboberfläche zur Verfügung stellen sollen."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:57
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:67
 #, fuzzy
 #| msgid ""
 #| "Choose the checks to send the monitoring data as Real-Time Checks for. "
@@ -13670,7 +13683,7 @@ msgstr ""
 "Konfigurieren Sie den Namen der HTTP-Request-Header-Variablen, die aus den "
 "eingehenden HTTP-Requests gelesen werden soll."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:66
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:76
 #, fuzzy
 #| msgid ""
 #| "Configure the port to send the Real-time data to. The Microcore needs to "
@@ -15094,7 +15107,7 @@ msgstr "Erzeuge zufällige Monitoringdaten"
 msgid "Create random secret"
 msgstr "Erzeuge Zufallspasswort"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:75
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:85
 #, fuzzy
 #| msgid "Perform real time checks for the following plugins"
 msgid "Create real-time data executing the following agent plugins"
@@ -23225,7 +23238,7 @@ msgstr "Engine-IDs (nur für SNMPv3 benötigt)"
 msgid "English"
 msgstr "Englisch"
 
-#: ../cmk/utils/man_pages.py:400
+#: ../cmk/utils/man_pages.py:401
 msgid "Enter"
 msgstr "OK"
 
@@ -34189,7 +34202,7 @@ msgstr "Ungültige Schlüssel: %s"
 msgid "Invalid login credentials."
 msgstr "Anmeldedaten sind ungültig."
 
-#: ../cmk/utils/man_pages.py:322
+#: ../cmk/utils/man_pages.py:323
 msgid "Invalid man page: Failed to get the title"
 msgstr "Ungültige Check-Manpage: Konnte Titel nicht auslesen"
 
@@ -38572,7 +38585,7 @@ msgid "Makes the icon appear in the column instead of the dropdown menu."
 msgstr ""
 "Lässt das Symbol direkt in der Spalte erzscheinen und nicht im Popupmenü"
 
-#: ../cmk/utils/man_pages.py:399 ../cmk/utils/man_pages.py:418
+#: ../cmk/utils/man_pages.py:400 ../cmk/utils/man_pages.py:419
 msgid "Man Page Browser"
 msgstr "Manpage Browser"
 
@@ -49968,7 +49981,7 @@ msgstr "Stilllegen"
 msgid "Quiet cache"
 msgstr "Keine Information über Cache"
 
-#: ../cmk/utils/man_pages.py:400
+#: ../cmk/utils/man_pages.py:401
 msgid "Quit"
 msgstr "Schließen"
 
@@ -53788,7 +53801,7 @@ msgstr "Sekundäres Gerät"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_cache_age.py:44
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:82
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:92
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:44
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:54
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/unix_plugins_cache_age.py:54
 msgid "Seconds"
 msgstr "Sekunden"
@@ -53848,7 +53861,7 @@ msgstr "Sektionen - Zu sammelnde Daten"
 msgid "Sections to exclude"
 msgstr "Ausgeschlossene Sektionen"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:56
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:66
 #, fuzzy
 #| msgid "Sections to exclude"
 msgid "Sections to send"
@@ -55836,7 +55849,7 @@ msgstr "Auf diesem Host Hardware/Software-Inventur zeigen"
 msgid "Show MK Livestatus error messages"
 msgstr "Zeige MK Livestatus Fehlermeldungen"
 
-#: ../cmk/utils/man_pages.py:419
+#: ../cmk/utils/man_pages.py:420
 msgid "Show Manpage"
 msgstr "Zeige Manpage"
 
@@ -62009,7 +62022,7 @@ msgstr ""
 "bequemer, da kein Agentenupdate notwendig ist, wenn die Regeln geändert "
 "werden sollen."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:36
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:46
 #, fuzzy
 #| msgid ""
 #| "The agent stops sending Real-Time Check data to the Monitoring Server "
@@ -64639,7 +64652,7 @@ msgstr ""
 "wird. Wenn es sich um ein Verzeichnis handelt, verarbeiten Sie rekursiv den "
 "gesamten Inhalt."
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:76
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:86
 #, fuzzy
 #| msgid "The plugins in this list are also executed as real time checks."
 msgid ""
@@ -70958,7 +70971,7 @@ msgstr "Alter der Timemachine-Sicherung"
 msgid "Timeout"
 msgstr "Timeout"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:35
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:45
 msgid "Timeout after last agent contact"
 msgstr "Timeout nach letztem Kontakt zum Agenten"
 
@@ -72352,7 +72365,7 @@ msgstr "UDP Echo"
 msgid "UDP packets"
 msgstr "UDP-Pakete"
 
-#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:64
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:74
 msgid "UDP port the Microcore is listening on"
 msgstr "UDP-Port, auf dem der Microcore horcht"
 
