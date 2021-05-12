@@ -2393,7 +2393,7 @@ msgstr ""
 "besonders für Plugins, diese Funktionalität in ihrem eigenen Regelset nicht "
 "bereitstellen."
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:387
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:404
 msgid "A combination of the instance, database and (logical) file name."
 msgstr ""
 "Eine Kombination aus Instanz, Datanbank und dem (logischen) Dateinamen."
@@ -2505,7 +2505,7 @@ msgstr ""
 "zeigt. Wenn das Speed-O-Meter eine Geschwindigkeit von 100 Prozent zeigt, "
 "dann werden alle Checks so ausgeführt wie im Check-Intervall konfiguriert."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:278
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:280
 msgid "A heading for the graphs"
 msgstr "Eine Überschrift für die Graphen"
 
@@ -3379,7 +3379,7 @@ msgstr "Absolute Schwellwerte für belegten 'heap space'"
 msgid "Absolute levels for used memory"
 msgstr "Absolute Schwellwerte für benutzten Arbeitsspeicher"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:359
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:376
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_qos.py:55
 msgid "Absolute levels in bits or bytes per second"
 msgstr "Schwellenwert in Bits oder Bytes pro Sek."
@@ -4273,7 +4273,7 @@ msgstr "Filter hinzufügen"
 msgid "Add folder"
 msgstr "Unterverzeichnis hinzufügen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:153
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:187
 #: ../cmk/gui/wato/pages/groups.py:91
 msgid "Add group"
 msgstr "Gruppe hinzufügen"
@@ -6814,7 +6814,7 @@ msgstr ""
 "den Bericht löschen zu können, entfernen Sie bitte zunächst diese "
 "Abhängigkeit."
 
-#: ../cmk/gui/userdb.py:431
+#: ../cmk/gui/userdb.py:434
 msgid "Another session is active"
 msgstr "Andere Sitzung aktiv"
 
@@ -6823,7 +6823,7 @@ msgstr "Andere Sitzung aktiv"
 msgid "Another synchronization job is already running: %s"
 msgstr "Eine andere Synchronisation läuft gerade: %s"
 
-#: ../cmk/gui/userdb.py:1269
+#: ../cmk/gui/userdb.py:1272
 #, python-format
 msgid "Another user synchronization is already running: %s"
 msgstr "Eine andere Usersynchronisation läuft gerade: %s"
@@ -8986,7 +8986,7 @@ msgstr "Lesezeichen"
 msgid "Bootloader"
 msgstr "Bootloader"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:256
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:258
 msgid "Border width"
 msgstr "Rahmenbreite"
 
@@ -9892,7 +9892,7 @@ msgstr ""
 "spezifischer Befehl festgelegt werden, der unabhängig vom Skript ausgeführt "
 "wird."
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:190
 msgid ""
 "By default, the filesystem checks (<tt>df</tt>, <tt>hr_fs</tt> and others) "
 "will create a single service for each filesystem. By defining grouping "
@@ -10660,7 +10660,7 @@ msgstr ""
 msgid "Cannot connect to site \"%s\": The site is not logged in"
 msgstr "Cannot access %s - You are not logged in."
 
-#: ../cmk/gui/pdf.py:1209
+#: ../cmk/gui/pdf.py:1398
 #, python-format
 msgid ""
 "Cannot create PNG from PDF: %s, Exit code is %d, command was \"%s\", PDF "
@@ -10897,7 +10897,7 @@ msgstr "Kann Datei \"%s\" nichyt lesen: %s"
 msgid "Cannot render graph: host %s, service %s not found."
 msgstr "Graph nicht darstellbar: Host %s, Service %s nicht gefunden."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:90
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:92
 #, python-format
 msgid ""
 "Cannot render graph: host %s, service %s not found.\n"
@@ -10906,7 +10906,7 @@ msgstr ""
 "Graph nicht darstellbar: Host %s, Service %s nicht gefunden.\n"
 "%s"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:75
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:77
 #, python-format
 msgid ""
 "Cannot render graph: host %s, service description or regex not found in "
@@ -12891,7 +12891,7 @@ msgstr "Farbe A3"
 msgid "Color A4"
 msgstr "Farbe A4"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:264
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:266
 msgid "Color gradient"
 msgstr "Farbverlauf"
 
@@ -12970,12 +12970,12 @@ msgstr "Bef. buf. max/gesamt"
 
 #: ../cmk/gui/dashboard.py:1140
 #: ../cmk/gui/cee/plugins/dashboard/combined_graph.py:27
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:558
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:560
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1164
 msgid "Combined graph"
 msgstr "Kombigraph"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:572
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:574
 #, python-format
 msgid "Combined graph for template %s"
 msgstr "Kombinierter Graph für Schablone %s"
@@ -15861,8 +15861,8 @@ msgstr "Kritischer Bereich"
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:263
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:288
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:299
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:357
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:364
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:374
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:381
 #: ../cmk/gui/plugins/wato/check_parameters/ceph_osds.py:29
 #: ../cmk/gui/plugins/wato/check_parameters/ceph_osds.py:37
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_nodes.py:72
@@ -16742,8 +16742,8 @@ msgstr "Angepasste Wartungszeiträume"
 msgid "Custom GUI design of %s"
 msgstr "Benutzerdefiniertes GUI-Design von %s"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:502
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:519
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:504
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:521
 msgid "Custom Graph"
 msgstr "Benutzergraph"
 
@@ -17128,7 +17128,7 @@ msgstr ""
 msgid "Customize timerange"
 msgstr "Zeitspanne festlegen"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:283
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:285
 msgid "Customize title"
 msgstr "Titel anpassen"
 
@@ -17780,12 +17780,12 @@ msgid "Dataguard statistics"
 msgstr "Dataguard-Statistiken"
 
 #: ../cmk/gui/views.py:1219 ../cmk/gui/views.py:1241 ../cmk/gui/views.py:1395
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:579
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:581
 msgid "Datasource"
 msgstr "Datenquelle"
 
 #: ../cmk/gui/cee/plugins/reporting/views.py:382
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:779
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:781
 #: ../cmk/gui/cee/plugins/reporting/availability.py:490
 #, python-format
 msgid "Datasource: %s"
@@ -20137,7 +20137,7 @@ msgstr "VM-Zustand <i>zusätzlich</i> anzeigen auf"
 msgid "Display a message if sites are not connected"
 msgstr "Zeige eine Nachricht wenn Sites nicht verbunden sind"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:293
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:295
 msgid "Display a simple message that the graph is missing"
 msgstr "Einfache Fehlermeldung anzeigen, dass der Graph fehlt"
 
@@ -22451,7 +22451,7 @@ msgstr "effektive Parameter"
 msgid "Either Containers, Images, Local Volumes or Build Cache"
 msgstr "Entweder Container, Images, lokale Volumes oder Build Caches."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:279
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:281
 msgid ""
 "Either a title is customized for all graphs of this element or per graph the "
 "related title is used as a header."
@@ -23406,7 +23406,7 @@ msgstr "Fehler bei der Erkennung von %s"
 msgid "Error during discovery of %s on site %s"
 msgstr "Fehler bei der Entdeckung von %s auf der Instanz %s"
 
-#: ../cmk/gui/userdb.py:1210
+#: ../cmk/gui/userdb.py:1213
 msgid "Error during saving"
 msgstr "Fehler beim Speichern"
 
@@ -24037,7 +24037,7 @@ msgstr "Folgende SIDs auslassen (falls vorhanden)"
 msgid "Exclude times out of notification period"
 msgstr "Zeiten außerhalb der Alarmierungsperiode ausschließen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:138
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:172
 #: ../cmk/gui/plugins/wato/inventory.py:224
 msgid "Exclusion patterns"
 msgstr "Ausschluss-Muster"
@@ -25409,15 +25409,11 @@ msgstr "Dateisystemknoten"
 msgid "Filesystem Writeback"
 msgstr "Dateisytem Writeback"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:33
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:65
 msgid "Filesystem discovery"
 msgstr "Dateisystem-Erkennung"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:43
-msgid "Filesystem grouping"
-msgstr "Dateisystem-Gruppierung"
-
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:154
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:188
 msgid "Filesystem grouping patterns"
 msgstr "Dateisystemgruppen"
 
@@ -25441,7 +25437,7 @@ msgstr "Größe und Nutzung des Dateisystems"
 msgid "Filesystem size and used space"
 msgstr "Dateisystemgröße und belegter Speicherplatz"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:56
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:87
 msgid "Filesystem types to ignore"
 msgstr "Zu ignorierende Dateisystemtypen"
 
@@ -25453,7 +25449,7 @@ msgstr "Dateisystembenutzung"
 msgid "Filesystems"
 msgstr "Dateisysteme"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:192
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:226
 msgid "Filesystems (used space and growth)"
 msgstr "Dateisysteme (genutzter Speicherplatz/Wachstum)"
 
@@ -25567,7 +25563,7 @@ msgstr "Zu sendende Zeichenkette"
 msgid "Finalizing"
 msgstr "Abschluss"
 
-#: ../cmk/gui/userdb.py:1327
+#: ../cmk/gui/userdb.py:1330
 msgid "Finalizing synchronization"
 msgstr "Finalisiere Synchronisation"
 
@@ -25659,11 +25655,11 @@ msgstr "1."
 msgid "First Seen"
 msgstr "Erstmals gesehen"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:309
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:311
 msgid "First day of last month"
 msgstr "Erster Tag des letzten Monats"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:308
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:310
 msgid "First day of this month"
 msgstr "Erster Tag dieses Monats"
 
@@ -25946,7 +25942,7 @@ msgstr ""
 "Bei Linux Multipathing ist das entweder die UUID (z.B. "
 "60a9800043346937686f456f59386741) oder der konfigurierte Alias."
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:180
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:214
 msgid ""
 "For Linux/UNIX systems, specify the mount point, for Windows systems the "
 "drive letter uppercase followed by a colon and a slash, e.g. <tt>C:/</tt>"
@@ -26274,7 +26270,7 @@ msgstr "Zustand WARN erzwingen, wenn Aggregation nicht OK ist"
 msgid "Force update of PNP meta information on restart / reload"
 msgstr "Aktualisierung der PNP-Metainformationen beim Neustart"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:110
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:112
 msgid "Forecast Graph"
 msgstr "Vorhersagegraph"
 
@@ -27132,13 +27128,13 @@ msgstr "Graph"
 msgid "Graph Options"
 msgstr "Graphoptionen"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:626
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:676
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:628
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:678
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:359
 msgid "Graph collection"
 msgstr "Graphensammlung"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:669
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:671
 #, python-format
 msgid "Graph collection '%s' does not exist"
 msgstr "Die Graphensammlung '%s' existiert nicht"
@@ -27161,7 +27157,7 @@ msgstr "Der Graph ist deaktiviert"
 msgid "Graph is visible"
 msgstr "Graph ist sichtbar"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:243
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:245
 msgid "Graph layout"
 msgstr "Graphenlayout"
 
@@ -27186,7 +27182,7 @@ msgstr ""
 "speichern Sie Ihren Graphen zuerst als benutzerdefinierten Graphen und fügen "
 "Sie diesen dann zum Dashboard hinzu."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:576
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:578
 msgid "Graph template"
 msgstr "Graphschablone"
 
@@ -27200,7 +27196,7 @@ msgid "Graph them anyway"
 msgstr "Trotzdem darstellen"
 
 #: ../cmk/gui/plugins/views/painters.py:112
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:304
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:306
 msgid "Graph time range"
 msgstr "Graphzeitbereich"
 
@@ -27390,7 +27386,7 @@ msgstr "Auftreten der Interfacegruppe"
 
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:165
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:460
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:118
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:152
 #: ../cmk/gui/plugins/wato/bi_config.py:1576
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:105
 msgid "Group name"
@@ -27418,6 +27414,12 @@ msgstr "Gruppen-DN"
 msgid "Grouping"
 msgstr "Gruppierung"
 
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:77
+#, fuzzy
+#| msgid "Grouping expression"
+msgid "Grouping applies to"
+msgstr "Regulärer Ausdruck zur Gruppierung"
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:109
 #, fuzzy
 #| msgid "Backup conditions"
@@ -27431,14 +27433,6 @@ msgstr "Regulärer Ausdruck zur Gruppierung"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1480
 msgid "Grouping of services in table views"
 msgstr "Gruppierung von Services in Tabellenansichten"
-
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:45
-msgid "Grouping pattern applies to mount point only"
-msgstr "Gruppierungsmuster wird nur auf Mountpunkt angewendet"
-
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:47
-msgid "Grouping pattern applies to volume name and mount point"
-msgstr "Das Gruppierungsmuster gilt für das Volume und den Einhängepunkt"
 
 #: ../cmk/gui/plugins/views/painters.py:1344
 #: ../cmk/gui/plugins/views/painters.py:2966
@@ -32729,7 +32723,7 @@ msgstr ""
 "als Fallback. Bei \"Für alle Verbindungen verwenden\" ignoriert der Agenten-"
 "Updater die von der Agenten-Bäckerei bereitgestellte Update-URL."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:288
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:290
 msgid "In case of an error"
 msgstr "Im Falle eines Fehlers"
 
@@ -33197,7 +33191,7 @@ msgstr ""
 msgid "Include unmonitored time"
 msgstr "Nicht überwachte Zeiträume einschließen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:122
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:156
 #: ../cmk/gui/plugins/wato/inventory.py:215
 msgid "Inclusion patterns"
 msgstr "Einschluss-Muster"
@@ -33654,7 +33648,7 @@ msgstr "Installierte, angehaltene und laufende Services"
 msgid "Instance"
 msgstr "Instanz"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:378
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:395
 msgid "Instance & tablespace name"
 msgstr "Instanz-/Tablespace-Name"
 
@@ -33692,7 +33686,7 @@ msgstr "Status der Instanz"
 msgid "Instance username"
 msgstr "Benutzername der Instanz"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:386
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:403
 msgid "Instance, database & file name"
 msgstr "Instanz, Datenbank und Dateiname"
 
@@ -34129,7 +34123,7 @@ msgstr "Ungültige Graph-Spezifikation"
 msgid "Invalid graph specification type \"%s\" given"
 msgstr "Ungültiger Graph-Spezifikations-Typ \"%s\" angegeben"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:389
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:391
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:380
 #, python-format
 msgid "Invalid graph type '%s'"
@@ -34701,6 +34695,10 @@ msgstr "Punkt"
 msgid "Item (used in service description)"
 msgstr "Item (wird im Servicenamen verwendet)"
 
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:69
+msgid "Item appaerance"
+msgstr ""
+
 #: ../cmk/gui/wato/pages/rulesets.py:1272
 msgid "Item match list"
 msgstr "Item-Liste"
@@ -34877,7 +34875,7 @@ msgstr "Job-Details"
 msgid "Job duration"
 msgstr "Jobdauer"
 
-#: ../cmk/gui/userdb.py:1374
+#: ../cmk/gui/userdb.py:1377
 #, fuzzy
 #| msgid "Job already finished"
 msgid "Job finished"
@@ -35458,7 +35456,7 @@ msgstr "Zuletzt Aktualisiert"
 msgid "Last bake result"
 msgstr "Letztes Back-Ergebnis"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:310
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:312
 msgid "Last day of last month"
 msgstr "Letzter Tag im Monat"
 
@@ -37778,7 +37776,7 @@ msgstr "Niedriger Wasserstand"
 msgid "Low: No sound/vibration but show popup"
 msgstr "Niedrig: kein Klang oder Vibration, aber Popup zeigen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:372
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:389
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:470
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1198
 msgid "Lower"
@@ -40167,7 +40165,7 @@ msgstr ""
 msgid "Metrics"
 msgstr "Metriken"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:341
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:343
 msgid "Metrics graph of a single service"
 msgstr "Graph eines einzelnen Services"
 
@@ -41107,7 +41105,7 @@ msgid "Mount options"
 msgstr "Mount Optionen"
 
 #: ../cmk/gui/plugins/wato/check_parameters/fs_mount_options.py:36
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:179
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:213
 msgid "Mount point"
 msgstr "Mount-Point"
 
@@ -41115,7 +41113,7 @@ msgstr "Mount-Point"
 msgid "Mountpoint"
 msgstr "Mountpunkt"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:68
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:99
 msgid "Mountpoints to never ignore"
 msgstr "Mountpoints, die nie ignoriert werden sollen"
 
@@ -41284,7 +41282,7 @@ msgstr "Mehrfache RRDs pro Host/Service (kompatibel mit PNP4Nagios)"
 msgid "Multiple WATO Folders"
 msgstr "Mehrere WATO-Ordner"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:707
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:709
 msgid "Multiple graphs"
 msgstr "Mehrere Graphen"
 
@@ -41637,10 +41635,6 @@ msgstr "Name des Managers"
 msgid "Name of manager or instance"
 msgstr "Manager- oder Instanzname"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:40
-msgid "Name of mount point"
-msgstr "Name des Mount-Points"
-
 #: ../cmk/gui/plugins/wato/check_parameters/elasticsearch_nodes.py:50
 msgid "Name of node"
 msgstr "Name des Knotens"
@@ -41830,10 +41824,6 @@ msgstr "Name der virtuellen Maschine und/oder<br>Typ der Garbagecollection"
 #: ../cmk/gui/plugins/wato/check_parameters/jvm_tp.py:25
 msgid "Name of the virtual machine and/or<br>threadpool"
 msgstr "Name der virtuellen Maschine und/oder<br>Threadpool"
-
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:41
-msgid "Name of volume and name of mount point"
-msgstr "Name des Volumes und Name des Einhängepunktes"
 
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:25
 msgid "Name or number of the port"
@@ -42567,7 +42557,7 @@ msgstr ""
 "zwischengespeicherten Informationen. Bitte führen Sie einen vollständigen "
 "Scan durch, wenn Sie den aktuellen Status ermitteln möchten."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:87
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:89
 #, python-format
 msgid "No graph available: %s"
 msgstr "Kein Graph verfügbar: %s"
@@ -44405,8 +44395,8 @@ msgstr "Nummer des Racks"
 msgid "Number of the Slot"
 msgstr "Nummer des Slots"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:465
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:785
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:467
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:787
 msgid "Number of the graph template"
 msgstr "Nummer der Graphen-Schablone"
 
@@ -47335,7 +47325,7 @@ msgstr "Prozentuale Schwellen"
 msgid "Percentual levels (in relation to policy speed)"
 msgstr "Prozentuale Schwellen (in Relation zur Port-Geschwindigkeit)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:352
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:369
 msgid "Percentual levels (in relation to port speed)"
 msgstr "Prozentuale Schwellen (in Relation zur Port-Geschwindigkeit)"
 
@@ -48974,7 +48964,7 @@ msgstr "Vorhersage"
 msgid "Prediction for %s - %s - %s"
 msgstr "Vorhersage für %s - %s - %s"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:366
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:383
 #: ../cmk/gui/plugins/wato/utils/__init__.py:892
 msgid "Predictive Levels (only on CMC)"
 msgstr "Vorhersageschwellwerte (nur mit CMC)"
@@ -49022,7 +49012,7 @@ msgid "Prerequisites"
 msgstr "Voraussetzungen"
 
 #: ../cmk/gui/cee/plugins/dashboard/combined_graph.py:58
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:585
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:587
 msgid "Presentation"
 msgstr "Darstellung"
 
@@ -50757,7 +50747,7 @@ msgstr "Check Konfiguration von Host [%s] mit %d Services erneuert"
 msgid "Regard required mirror space as free space"
 msgstr "Benötigten Mirror-Space als frei betrachten"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:70
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:101
 msgid ""
 "Regardless of filesystem type, these mountpoints will always be discovered."
 "Regular expressions are supported."
@@ -51398,7 +51388,7 @@ msgstr "Umbenennen von %s zu %s"
 msgid "Render URL contents in own frame"
 msgstr "URL-Inhalte in eigenem Rahmen anzeigen"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:292
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:294
 msgid "Render an error message into the document"
 msgstr "Eine Fehlermeldung direkt in das Dokument schreiben"
 
@@ -54655,10 +54645,6 @@ msgstr "ID des benutzerdefinierten Service Feldes"
 msgid "Service description"
 msgstr "Service-Beschreibung"
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:38
-msgid "Service description format"
-msgstr "Format der Servicebeschreibung"
-
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3450
 msgid "Service description: "
 msgstr "Servicebeschreibung: "
@@ -56488,7 +56474,7 @@ msgstr "Agenten signieren..."
 msgid "Silently ignore new or missing resources"
 msgstr "Neue oder fehlende Ressourcen stillschweigend ignorieren"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:294
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:296
 msgid "Silently ignore the problem, skip this graph"
 msgstr "Problem stillschweigend ignorieren, diesen Graphen auslassen"
 
@@ -56966,7 +56952,7 @@ msgstr "Slab (Verschiedene kleinere Caches)"
 msgid "Slave usage bytes across all pools"
 msgstr "Slave Byte Nutzung über alle Pools"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:266
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:268
 msgid ""
 "Slight gradient in the colors of the colored areas in the graphs. 0% turns "
 "off the gradient, 100% makes it the strongest possible."
@@ -57570,7 +57556,7 @@ msgstr ""
 "kein \"/\" voran oder hängen Sie es an. Verwenden Sie die Option "
 "\"Benutzerdefinierte URL\", wenn Sie eine komplexere API-URL angeben müssen."
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:50
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:83
 msgid ""
 "Specifies how the <a href='wato.py?"
 "mode=edit_ruleset&varname=filesystem_groups'>Filesystem grouping patterns</"
@@ -58082,7 +58068,7 @@ msgstr ""
 "Geben Sie die Namen der virtuellen Netzwerk-Gateways an, für welches die "
 "Regel gelten soll."
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:290
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:292
 msgid ""
 "Specify what we shall do if the selected graph is missing or cannot be "
 "retrieved."
@@ -60187,7 +60173,7 @@ msgstr "Sync-Plugins: Rollen"
 msgid "Synchronization job acknowledged"
 msgstr "Synchronisations-Job bestätigt"
 
-#: ../cmk/gui/userdb.py:1299 ../cmk/gui/watolib/host_label_sync.py:137
+#: ../cmk/gui/userdb.py:1302 ../cmk/gui/watolib/host_label_sync.py:137
 msgid "Synchronization started..."
 msgstr "Synchronisation gestartet..."
 
@@ -61697,7 +61683,7 @@ msgstr ""
 "festlegen, welchen Zustand ein bestimmter Knoten oder Dienst haben soll, "
 "wenn der MRP gestartet oder gestoppt wird."
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:379
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:396
 msgid "The MSSQL instance name and the tablespace name separated by a space."
 msgstr ""
 "Der MSSQL Instanzname und der Tablespacename getrennt durch ein Leerzeichen."
@@ -65695,11 +65681,11 @@ msgstr ""
 "Der Benutzer %s, welcher vom Netzwerkscan des Folders %s benutzt wurde, "
 "existiert nicht."
 
-#: ../cmk/gui/userdb.py:1302
+#: ../cmk/gui/userdb.py:1305
 msgid "The user synchronization completed successfully."
 msgstr "Der Benutzerabgleich wurde erfolgreich durchgeführt."
 
-#: ../cmk/gui/userdb.py:1304
+#: ../cmk/gui/userdb.py:1307
 msgid "The user synchronization failed."
 msgstr "Die Synchronisation ist fehlgeschlagen."
 
@@ -65719,7 +65705,7 @@ msgstr ""
 "Der Benutzer, der für die Anmeldung verwendet wird, muss mindestens die "
 "Rolle 'itil' in ServiceNow haben."
 
-#: ../cmk/gui/userdb.py:1166
+#: ../cmk/gui/userdb.py:1169
 #, python-format
 msgid "The username returned by the %s connector is not of type string (%r)."
 msgstr ""
@@ -69487,7 +69473,7 @@ msgstr ""
 "Mit diesem Regelsatz kann ausgewählt werden, welcher Python-Interpreter zur "
 "Ausführung von Python-Skripten verwendet werden soll."
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:341
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:351
 msgid "This ruleset allows to set parameters for space and inodes usage"
 msgstr ""
 "Dieser Regelsatz ermöglicht es, Parameter für die Verwendung von "
@@ -70816,7 +70802,7 @@ msgstr "Zeitbereich"
 msgid "Time range for temperature trend computation"
 msgstr "Zeitspanne für Temperatur-Trendberechnung"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:307
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:309
 msgid "Time range from report context"
 msgstr "Zeitbereich aus Berichtskontext"
 
@@ -73065,7 +73051,7 @@ msgstr[1] "Unentschiedene Services: "
 msgid "Undecided services (currently not monitored)"
 msgstr "Unentschiedene Services (aktuell nicht überwacht)"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:514
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:516
 #, python-format
 msgid "Undefined custom graph '%s'"
 msgstr "Undefinierter Benutzergraph '%s'"
@@ -73583,7 +73569,7 @@ msgstr "Neuer Agentensignaturschlüssel '%s' erzeugt"
 msgid "Uploaded backup key '%s'"
 msgstr "Sicherungsschlüssel '%s' hochgeladen"
 
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:371
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:388
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:471
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1199
 msgid "Upper"
@@ -74521,7 +74507,7 @@ msgstr "Globales Regel-Limit nutzen"
 msgid "Use globally configured proxy"
 msgstr "Verwendung eines global konfigurierten Proxy"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:284
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:286
 msgid "Use graph title"
 msgstr "Benutze Graphtitel"
 
@@ -74589,6 +74575,12 @@ msgid "Use most critical of your and device's levels"
 msgstr ""
 "Von den Geräteschwellwerten und den eigenen die am meisten kritischen "
 "verwenden"
+
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:71
+#, fuzzy
+#| msgid "Is mountpoint"
+msgid "Use mountpoint"
+msgstr "Ist ein Mount-Point"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2169
 msgid "Use new service descriptions"
@@ -75147,6 +75139,12 @@ msgstr ""
 "diesen Wert anzupassen. Alledings müßsen Sie darauf achten, dass das System "
 "den Speicherbedarf der Apache-Prozesse erfüllen kann."
 
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:72
+#, fuzzy
+#| msgid "Name of volume and name of mount point"
+msgid "Use volume name and mountpoint"
+msgstr "Name des Volumes und Name des Einhängepunktes"
+
 #: ../cmk/gui/plugins/wato/check_parameters/temperature.py:90
 msgid "Use your own levels if present, otherwise the device's"
 msgstr ""
@@ -75404,7 +75402,7 @@ msgstr "Benutzerpasswort"
 msgid "User profile"
 msgstr "Benutzerprofil"
 
-#: ../cmk/gui/userdb.py:1361
+#: ../cmk/gui/userdb.py:1364
 #, fuzzy
 #| msgid "User profile"
 msgid "User profile cleanup"
@@ -75431,7 +75429,7 @@ msgstr "Benutzerrollen sind anpassbare Sätze von Berechtigungen."
 msgid "User store key"
 msgstr "Benutzerschlüssel aus dem Speicher"
 
-#: ../cmk/gui/userdb.py:1284
+#: ../cmk/gui/userdb.py:1287
 msgid "User synchronization"
 msgstr "Automatischer Benutzerabgleich"
 
@@ -77279,8 +77277,8 @@ msgstr "Warnbereich"
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:259
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:287
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:294
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:356
-#: ../cmk/gui/plugins/wato/check_parameters/utils.py:363
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:373
+#: ../cmk/gui/plugins/wato/check_parameters/utils.py:380
 #: ../cmk/gui/plugins/wato/check_parameters/ceph_osds.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/ceph_osds.py:36
 #: ../cmk/gui/plugins/wato/check_parameters/graylog_nodes.py:71
@@ -79298,7 +79296,7 @@ msgstr "WiFi-Verbindungstypen"
 msgid "Width"
 msgstr "Breite"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:258
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:260
 msgid ""
 "Width of the black border around the whole graph. Enter 0 for no border here."
 msgstr ""
@@ -80929,7 +80927,7 @@ msgstr ""
 "auf die Sie  mit <tt>\\1</tt>, <tt>\\2</tt>, ... im Ersetzungstext verweisen "
 "können."
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:124
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:158
 msgid ""
 "You can specify one or several globbing patterns containing <tt>*</tt>, <tt>?"
 "</tt> and <tt>[...]</tt>, for example <tt>/spool/tmpspace*</tt>. The "
@@ -80948,7 +80946,7 @@ msgstr ""
 "abhängig von der Konfiguration in <a href='wato.py?"
 "mode=edit_ruleset&varname=inventory_df_rules'>Dateisystemerkennung</a>."
 
-#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:140
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:174
 msgid ""
 "You can specify one or several globbing patterns containing <tt>*</tt>, <tt>?"
 "</tt> and <tt>[...]</tt>, for example <tt>/spool/tmpspace*</tt>. The "
@@ -81272,6 +81270,14 @@ msgid ""
 "You cannot use expecting and delay at the same time in the same rule, sorry."
 msgstr ""
 "Ausnahme und Verzögerung zur selben Zeit ist für dieselbe Regel ungültig."
+
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:37
+#, fuzzy
+#| msgid "Grouping pattern applies to volume name and mount point"
+msgid ""
+"You cannot use mountpoint as item and grouping based on volume name and "
+"mountpoint."
+msgstr "Das Gruppierungsmuster gilt für das Volume und den Einhängepunkt"
 
 #: ../cmk/gui/watolib/sites.py:242
 msgid "You cannot use the site itself as site of the status host."
@@ -82085,12 +82091,12 @@ msgstr "Zypper-Aktualisierungen"
 msgid "Zypper normal and security updates (Linux)"
 msgstr "Normale und Sicherheitsupdates für Zypper (Linux)"
 
-#: ../cmk/gui/userdb.py:1323
+#: ../cmk/gui/userdb.py:1326
 #, python-format
 msgid "[%s] Exception: %s"
 msgstr "[%s] Ausnahme: %s"
 
-#: ../cmk/gui/userdb.py:1321
+#: ../cmk/gui/userdb.py:1324
 #, python-format
 msgid "[%s] Finished sync for connection"
 msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
@@ -82101,7 +82107,7 @@ msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
 msgid "[%s] Finished sync for site"
 msgstr "[%s] Synchronisation für Verbindung abgeschlossen"
 
-#: ../cmk/gui/userdb.py:1315
+#: ../cmk/gui/userdb.py:1318
 #, python-format
 msgid "[%s] Starting sync for connection"
 msgstr "[%s] Synchronisation für Verbindung gestartet"
@@ -82198,7 +82204,7 @@ msgstr "Alle Kontakte des alarmierten Objektes"
 msgid "all events disabled"
 msgstr "alle Ereignisse deaktiviert"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:446
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:448
 msgid "all graphs"
 msgstr "Alle Graphen"
 
@@ -83177,7 +83183,7 @@ msgstr "Global"
 msgid "graph"
 msgstr "Graph"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:444
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:446
 #, python-format
 msgid "graph number %d"
 msgstr "Graph Nummer %d"
@@ -83800,6 +83806,12 @@ msgstr "überwacht"
 msgid "month"
 msgstr "Monat"
 
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:79
+#, fuzzy
+#| msgid "Mountpoint"
+msgid "mountpoint only"
+msgstr "Mountpunkt"
+
 #: ../cmk/gui/plugins/wato/check_parameters/ntp.py:69
 #: ../cmk/gui/plugins/wato/check_parameters/ntp.py:75
 #: ../cmk/gui/plugins/wato/check_parameters/msx_info_store.py:36
@@ -84036,12 +84048,12 @@ msgstr "Objekte"
 msgid "of Service"
 msgstr "des Service"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:449
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:451
 #, python-format
 msgid "of service %s"
 msgstr "von Service %s"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:451
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:453
 msgid "of unspecified service"
 msgstr "von nicht spezifiziertem Service"
 
@@ -84070,12 +84082,12 @@ msgstr "Offline-Hosts"
 msgid "on"
 msgstr "an"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:454
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:456
 #, python-format
 msgid "on host %s"
 msgstr "auf Host %s"
 
-#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:456
+#: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:458
 msgid "on unspecified host"
 msgstr "auf nicht spezifiziertem Host"
 
@@ -85106,6 +85118,12 @@ msgstr "Ansichten"
 msgid "virus"
 msgstr ""
 
+#: ../cmk/gui/plugins/wato/check_parameters/filesystem.py:80
+#, fuzzy
+#| msgid "Name of volume and name of mount point"
+msgid "volume name and mountpoint"
+msgstr "Name des Volumes und Name des Einhängepunktes"
+
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_locks.py:92
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_locks.py:93
 msgid "waits/sec"
@@ -85315,6 +85333,18 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:114
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. Alle Rechte vorbehalten."
+
+#~ msgid "Filesystem grouping"
+#~ msgstr "Dateisystem-Gruppierung"
+
+#~ msgid "Grouping pattern applies to mount point only"
+#~ msgstr "Gruppierungsmuster wird nur auf Mountpunkt angewendet"
+
+#~ msgid "Name of mount point"
+#~ msgstr "Name des Mount-Points"
+
+#~ msgid "Service description format"
+#~ msgstr "Format der Servicebeschreibung"
 
 #~ msgid "Missing prediction information."
 #~ msgstr "Die Information für die Vorhersage fehlt."
