@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
 "Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-05-19 11:36+0000\n"
+"PO-Revision-Date: 2021-05-19 11:51+0000\n"
 "Last-Translator: Weblate Admin <marketing@tribe29.com>\n"
 "Language-Team: Spanish <https://translate.checkmk.com/projects/checkmk/"
 "software/es/>\n"
@@ -1501,7 +1501,7 @@ msgid ""
 "than one docker node."
 msgstr ""
 "<a "
-"href='wato.py?mode=edit_ruleset&varname=piggyback_translation'>Trraducciones "
+"href='wato.py?mode=edit_ruleset&varname=piggyback_translation'>Traducciones "
 "Piggyback </a> se realizan antes de que el conector piggyback cree hosts. "
 "Esto puede, por ejemplo, utilizarse en una configuración con varios nodos "
 "docker para prefijar contenedores con el nombre del nodo docker "
@@ -1512,58 +1512,68 @@ msgstr ""
 #: ../cmk/gui/plugins/views/commands.py:1291
 #, python-format
 msgid "<b>%%s of %s length</b>"
-msgstr ""
+msgstr "<b>%%s de %s longitud</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1142
 #, python-format
 msgid "<b>%s for the next %d minutes</b>"
-msgstr ""
+msgstr "<b>%s por los próximos %d minutos</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1282
 #, python-format
 msgid "<b>%s until 24:00:00</b>"
-msgstr ""
+msgstr "<b>%s hasta 24:00:00</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1284
 #, python-format
 msgid "<b>%s until end of month</b>"
-msgstr ""
+msgstr "<b>%s hasta fin de mes</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1285
 #, python-format
 msgid "<b>%s until end of year</b>"
-msgstr ""
+msgstr "<b>%s hasta fin de año</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1283
 #, python-format
 msgid "<b>%s until sunday night</b>"
-msgstr ""
+msgstr "<b>%s hasta domingo a la noche</b>"
 
 #: ../cmk/gui/wato/pages/host_rename.py:158
 msgid ""
 "<b>Do you really want to rename to following hosts? This involves a restart "
 "of the monitoring core!</b>"
 msgstr ""
+"<b>Usted realmente quiere renombrar los siguientes hosts? Esto generará un "
+"reinicio del núcleo de monitoreo!</b>"
 
 #: ../cmk/gui/wato/pages/rulesets.py:1943
 msgid "<b>Negate:</b> make rule apply for <b>all but</b> the above entries"
 msgstr ""
+"<b>Negar:</b> hacer que la regla se aplique a <b>todas menos</b> las "
+"entradas anteriores."
 
 #: ../cmk/gui/wato/pages/rulesets.py:1933
 msgid "<b>Negate:</b> make rule apply for <b>all but</b> the above hosts"
 msgstr ""
+"<b>Negar:</b> hacer que la regla se aplique a <b>todos menos</b> los hosts "
+"anteriores."
 
 #: ../cmk/gui/cee/plugins/wato/ntop.py:36
 msgid ""
 "<b>Note:</b> The ntopng integration is an add-on feature for which a "
 "subscription add-on has to be purchased separately."
 msgstr ""
+"<b>Nota:</b> La integración ntopng es una función complementaria para lo "
+"cual se debe comprar un complemento de suscripción por separado."
 
 #: ../cmk/gui/view_utils.py:128
 msgid ""
 "<b>Note:</b> the shown results are incomplete and do not reflect the sort "
 "order."
 msgstr ""
+"<b>Nota:</b> los resultados mostrados están incompletos y no reflejan el "
+"orden de clasificación."
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4621
 msgid ""
@@ -1585,6 +1595,17 @@ msgid ""
 "(This secret will win over the default secret). If no secret is found, the "
 "agent bakery will fail to bake agents."
 msgstr ""
+"<b>Nota</b>: Los datos de verificación en tiempo real están cifrados de "
+"forma predeterminada. Por lo tanto, se necesita una clave secreta de cifrado "
+"para permitir que el agente preparado envíe datos de verificación en tiempo "
+"real. Se puede proporcionar una clave secreta activando <a href=\"wato."
+"py?mode=edit_configvar&varname=cmc_real_time_checks\"> verificaciones en "
+"tiempo real en este sitio </a> (la panadería del agente usará el secreto "
+"configurado como predeterminado para los agentes que coincidan con < i> esta "
+"</i> regla), o explícitamente por la regla del agente para <a href=\"wato."
+"py?mode=edit_ruleset&varname=agent_encryption\"> cifrado </a> (este secreto "
+"prevalecerá sobre el secreto predeterminado). Si no se encuentra ningún "
+"secreto, la panadería del agente no horneará a los agentes."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:107
 msgid ""
@@ -1592,6 +1613,10 @@ msgid ""
 "3.4 installation (or newer) with installed python packages \"pyOpenSSL\", "
 "\"requests\" and \"PySocks\" is required on the target hosts."
 msgstr ""
+"<b>Nota<sup>3</sup>:</b> Para implementar este complemento en Solaris, se "
+"requiere una instalación de Python 3.4 (o más reciente) con los paquetes de "
+"Python instalados \"pyOpenSSL\", \"request\" y \"PySocks\" es requerido en "
+"los hosts de destino."
 
 #: ../cmk/gui/wato/pages/host_rename.py:529
 #, python-format
@@ -1600,11 +1625,14 @@ msgid ""
 "been started by using the address <tt>0.0.0.0</tt> for the while. Please "
 "update your DNS or configure an IP address for the affected host."
 msgstr ""
+"<b>ADVERTENCIA: </b>la búsqueda de dirección IP de <b>%s</b> ha fallado. El "
+"núcleo ha sido iniciado utilizando la dirección <tt>0.0.0.0</tt> por el "
+"momento. Actualice su DNS o configure una dirección IP para el host afectado."
 
 #: ../cmk/gui/werks.py:490
 #, python-format
 msgid "<b>Warning:</b> There are %d unacknowledged incompatible werks:"
-msgstr ""
+msgstr "<b>Advertencia:</b> Hay %d trabajos incompatibles no reconocidos:"
 
 #: ../cmk/gui/wato/pages/notifications.py:580
 #, python-format
@@ -1626,39 +1654,46 @@ msgid ""
 "please configure either the global setting or enable the fallback contact "
 "option for at least one of your users."
 msgstr ""
+"<b>Advertencia</b><br><br>Usted no ha configurado una <a href=\"%s\"> "
+"dirección de correo electrónico alternativa</a> ni ha habilitado la "
+"recepción de correos electrónicos alternativos para ningún usuario. Si su "
+"supervisión produce una notificación que no coincide con ninguna de sus "
+"reglas de notificación, la notificación no se enviará. Para evitarlo, "
+"configure la configuración global o habilite la opción de contacto "
+"alternativo para al menos uno de sus usuarios."
 
 #: ../cmk/gui/wsgi/applications/utils.py:90
 msgid "<b>You do not have any roles.</b>"
-msgstr ""
+msgstr "<b>Usted no tiene ningún rol.</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:724
 #, python-format
 msgid "<b>acknowledge the problems%s</b> of"
-msgstr ""
+msgstr "<b>reconozca los problemas%s</b> de"
 
 #: ../cmk/gui/plugins/views/commands.py:813
 msgid "<b>add a comment to</b>"
-msgstr ""
+msgstr "<b>Agregar un comentario a</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1456
 msgid "<b>add to you favorites</b>"
-msgstr ""
+msgstr "<b>agregar a sus favoritos</b>"
 
 #: ../cmk/gui/plugins/views/mkeventd.py:1231
 msgid "<b>archive</b>"
-msgstr ""
+msgstr "<b>archivar</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:360
 msgid "<b>clear the modified attributes</b> of"
-msgstr ""
+msgstr "<b>borrar los atributos modificados</b> de"
 
 #: ../cmk/gui/plugins/views/commands.py:254
 msgid "<b>disable active checks</b> for"
-msgstr ""
+msgstr "<b>deshabilitar comprobaciones activas</b> para"
 
 #: ../cmk/gui/plugins/views/commands.py:197
 msgid "<b>disable notifications</b> for"
-msgstr ""
+msgstr "<b>deshabilitar notificaciones</b> para"
 
 #: ../cmk/gui/plugins/views/commands.py:304
 msgid "<b>disable passive checks</b> for"
@@ -1670,7 +1705,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/commands.py:194
 msgid "<b>enable notifications</b> for"
-msgstr ""
+msgstr "<b>habilitar notificaciones</b> para"
 
 #: ../cmk/gui/plugins/views/commands.py:301
 msgid "<b>enable passive checks</b> for"
@@ -1680,38 +1715,41 @@ msgstr ""
 #, python-format
 msgid "<b>manually set check results to %s</b> for"
 msgstr ""
+"<b>establecer manualmente los resultados de la comprobación en%s</b> para"
 
 #: ../cmk/gui/plugins/views/commands.py:738
 msgid "<b>remove acknowledgements</b> from"
-msgstr ""
+msgstr "<b>eliminar reconocimientos</b> de"
 
 #: ../cmk/gui/plugins/views/commands.py:1051
 msgid "<b>remove all scheduled downtimes</b> of "
-msgstr ""
+msgstr "<b>eliminar todos los tiempos de inactividad programados</b> de "
 
 #: ../cmk/gui/plugins/views/commands.py:1458
 msgid "<b>remove from your favorites</b>"
-msgstr ""
+msgstr "<b>eliminar de sus favoritos</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:1145
 #, python-format
 msgid "<b>schedule a downtime from %s to %s</b>"
-msgstr ""
+msgstr "<b>programar un tiempo de inactividad de%s a%s</b>"
 
 #: ../cmk/gui/plugins/views/commands.py:574
 msgid "<b>send a custom notification</b> regarding"
-msgstr ""
+msgstr "<b>enviar una notificación personalizada</b> acerca de"
 
 #: ../cmk/gui/key_mgmt.py:178
 #, python-format
 msgid "<br><b>Note</b>: this key has created by user <b>%s</b>"
-msgstr ""
+msgstr "<br><b>Nota</b>: esta clave fue creada por el usuario<b>%s</b>"
 
 #: ../cmk/gui/watolib/snapshots.py:585
 msgid ""
 "<br>If there are permission problems, please ensure the site user has write "
 "permissions."
 msgstr ""
+"<br>Si hay problemas de permisos, asegúrese de que el usuario del sitio "
+"tenga permisos de escritura."
 
 #: ../cmk/gui/wato/pages/diagnostics.py:75
 msgid ""
@@ -1719,6 +1757,10 @@ msgid ""
 "files are marked with 'H'. Other files may include IP adresses, hostnames, "
 "usernames, mail adresses or phone numbers and are marked with 'M'."
 msgstr ""
+"<br>Nota: Algunos archivos pueden contener información muy sensible como "
+"contraseñas. Estos archivos fueron marcados con una 'H'. Otros archivos "
+"pueden incluir direcciones IP, nombres de Host, usuarios, direcciones de "
+"correo o números telefónicos y fueron marcados con 'M'."
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:863
 #, python-format
@@ -1726,6 +1768,8 @@ msgid ""
 "<br>Please add customer portal credentials and subscription details in the "
 "<a href=\"%s\">subscription settings<a>."
 msgstr ""
+"<br>Agregue las credenciales del portal del cliente y los detalles de la "
+"suscripción en el<a href=\"%s\">opciones de suscripción<a>."
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:871
 #, python-format
@@ -1733,12 +1777,17 @@ msgid ""
 "<br>Please add subscription details in the <a href=\"%s\">subscription "
 "settings<a>."
 msgstr ""
+"<br>Por favor agregue los detalles de suscripción en las <a href=\"%s\""
+">opciones de suscripción<a>."
 
 #: ../cmk/gui/valuespec.py:5346
 msgid ""
 "<br>Please note that Check_MK needs this password in clear<br>text during "
 "normal operation and thus stores it unencrypted<br>on the Check_MK server."
 msgstr ""
+"<br>Tenga en cuenta que Check_MK necesita esta contraseña en texto<br> sin "
+"cifrar durante el funcionamiento normal y, por lo tanto, la almacena sin "
+"cifrar<br> en el servidor Check_MK."
 
 #: ../cmk/gui/wato/pages/folders.py:707
 #, python-format
