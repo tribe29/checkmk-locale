@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
+"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
 "PO-Revision-Date: 2021-05-20 05:01+0000\n"
 "Last-Translator: Weblate Admin <marketing@tribe29.com>\n"
@@ -1150,7 +1150,8 @@ msgstr ", grupos de coincidencia de la coincidencia decisiva:% s"
 #: ../cmk/gui/plugins/views/icons/builtin.py:810
 #, python-format
 msgid ", no data has been received within the last %.1f check periods"
-msgstr ", no se han recibido datos en los últimos %.1f períodos de verificación"
+msgstr ""
+", no se han recibido datos en los últimos %.1f períodos de verificación"
 
 #: ../cmk/gui/wato/mkeventd.py:1590
 msgid ", the first match skips this rule pack"
@@ -1500,14 +1501,13 @@ msgid ""
 "collisions may occur if containers with the same name are present on more "
 "than one docker node."
 msgstr ""
-"<a "
-"href='wato.py?mode=edit_ruleset&varname=piggyback_translation'>Traducciones "
-"Piggyback </a> se realizan antes de que el conector piggyback cree hosts. "
-"Esto puede, por ejemplo, utilizarse en una configuración con varios nodos "
-"docker para prefijar contenedores con el nombre del nodo docker "
-"correspondiente. De lo contrario, pueden producirse colisiones de nombres si "
-"los contenedores con el mismo nombre están presentes en más de un nodo "
-"docker."
+"<a href='wato.py?"
+"mode=edit_ruleset&varname=piggyback_translation'>Traducciones Piggyback </a> "
+"se realizan antes de que el conector piggyback cree hosts. Esto puede, por "
+"ejemplo, utilizarse en una configuración con varios nodos docker para "
+"prefijar contenedores con el nombre del nodo docker correspondiente. De lo "
+"contrario, pueden producirse colisiones de nombres si los contenedores con "
+"el mismo nombre están presentes en más de un nodo docker."
 
 #: ../cmk/gui/plugins/views/commands.py:1291
 #, python-format
@@ -1598,12 +1598,12 @@ msgstr ""
 "<b>Nota</b>: Los datos de verificación en tiempo real están cifrados de "
 "forma predeterminada. Por lo tanto, se necesita una clave secreta de cifrado "
 "para permitir que el agente preparado envíe datos de verificación en tiempo "
-"real. Se puede proporcionar una clave secreta activando <a href=\"wato."
-"py?mode=edit_configvar&varname=cmc_real_time_checks\"> verificaciones en "
-"tiempo real en este sitio </a> (la panadería del agente usará el secreto "
+"real. Se puede proporcionar una clave secreta activando <a href=\"wato.py?"
+"mode=edit_configvar&varname=cmc_real_time_checks\"> verificaciones en tiempo "
+"real en este sitio </a> (la panadería del agente usará el secreto "
 "configurado como predeterminado para los agentes que coincidan con < i> esta "
-"</i> regla), o explícitamente por la regla del agente para <a href=\"wato."
-"py?mode=edit_ruleset&varname=agent_encryption\"> cifrado </a> (este secreto "
+"</i> regla), o explícitamente por la regla del agente para <a href=\"wato.py?"
+"mode=edit_ruleset&varname=agent_encryption\"> cifrado </a> (este secreto "
 "prevalecerá sobre el secreto predeterminado). Si no se encuentra ningún "
 "secreto, la panadería del agente no horneará a los agentes."
 
@@ -1777,8 +1777,8 @@ msgid ""
 "<br>Please add subscription details in the <a href=\"%s\">subscription "
 "settings<a>."
 msgstr ""
-"<br>Por favor agregue los detalles de suscripción en las <a href=\"%s\""
-">opciones de suscripción<a>."
+"<br>Por favor agregue los detalles de suscripción en las <a href=\"%s"
+"\">opciones de suscripción<a>."
 
 #: ../cmk/gui/valuespec.py:5346
 msgid ""
@@ -1797,8 +1797,8 @@ msgstr "<i>%d más grupos de contactos</i><br>"
 #: ../cmk/gui/plugins/wato/globals_notification.py:94
 msgid "<i>(No fallback email address configured!)</i>"
 msgstr ""
-"<i>(No hay ninguna dirección de correo electrónico de retorno "
-"configurada!)</i>"
+"<i>(No hay ninguna dirección de correo electrónico de retorno configurada!)</"
+"i>"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2655
 msgid ""
@@ -1932,11 +1932,12 @@ msgstr ""
 "información de estados recopilada en un sitio al sitio central. Desde "
 "Checkmk 1.6, es posible de forma nativa y muy recomendable cifrar este "
 "tráfico de Livestatus.</p> <p>Esto se puede habilitar usando la "
-"configuración global <a href=\"wato.py?mode=edit_configvar&varname="
-"site_livestatus_tcp\">Acceso a Livestatus a través de TCP</a>. Antes de "
-"habilitar esto, debe asegurarse de que todos sus clientes Livestatus puedan "
-"manejar la comunicación Livestatus cifrada con SSL. Mire esto <a href=\"werk."
-"py?werk=7017\">werk #7017</a> para mayor información.</p>"
+"configuración global <a href=\"wato.py?"
+"mode=edit_configvar&varname=site_livestatus_tcp\">Acceso a Livestatus a "
+"través de TCP</a>. Antes de habilitar esto, debe asegurarse de que todos sus "
+"clientes Livestatus puedan manejar la comunicación Livestatus cifrada con "
+"SSL. Mire esto <a href=\"werk.py?werk=7017\">werk #7017</a> para mayor "
+"información.</p>"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:147
 #, python-format
@@ -1993,16 +1994,16 @@ msgstr ""
 "tiempo, la latencia de las comprobaciones aumentará y los estados no estarán "
 "actualizados.</p><p>Acciones posibles:<ul><li>Verifique si puede disminuir "
 "los tiempos de espera de verificación</li><li>Compruebe qué controles / "
-"complementos están  <a href=\"view.py?view_name=service_check_durations\""
-">consumiendo la mayor parte del tiempo del proceso de ayudante</a></"
-"li><li>Aumenta el <a href=\"wato.py?mode=edit_configvar&varname="
-"cmc_checker_helpers\">número de inspectores Checkmk</a></li></ul></p><p>Pero "
-"debe tener cuidado de no configurar demasiados ayudantes de verificación "
-"Checkmk, porque consumen mucha memoria. Su sistema debe poder manejar la "
-"demanda de memoria para todos ellos a la vez. Un problema adicional es que "
-"los ayudantes de Checkmk se inicializan en paralelo durante el inicio del "
-"Microcore, lo que puede causar picos de carga cuando se tienen muchos "
-"procesos de ayuda de Checkmk configurados.</p>"
+"complementos están  <a href=\"view.py?view_name=service_check_durations"
+"\">consumiendo la mayor parte del tiempo del proceso de ayudante</a></"
+"li><li>Aumenta el <a href=\"wato.py?"
+"mode=edit_configvar&varname=cmc_checker_helpers\">número de inspectores "
+"Checkmk</a></li></ul></p><p>Pero debe tener cuidado de no configurar "
+"demasiados ayudantes de verificación Checkmk, porque consumen mucha memoria. "
+"Su sistema debe poder manejar la demanda de memoria para todos ellos a la "
+"vez. Un problema adicional es que los ayudantes de Checkmk se inicializan en "
+"paralelo durante el inicio del Microcore, lo que puede causar picos de carga "
+"cuando se tienen muchos procesos de ayuda de Checkmk configurados.</p>"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:706
 #, python-format
@@ -15019,6 +15020,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:86
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:743
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:67
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:33
 #: ../cmk/gui/plugins/wato/check_parameters/voltage.py:40
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:64
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:315
@@ -32008,7 +32010,7 @@ msgstr ""
 msgid "Job"
 msgstr ""
 
-#: ../cmk/gui/plugins/metrics/mssql.py:30
+#: ../cmk/gui/plugins/metrics/mssql.py:27
 msgid "Job Duration"
 msgstr ""
 
@@ -35289,6 +35291,10 @@ msgstr ""
 msgid "MSSQL Page Activity"
 msgstr ""
 
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:48
+msgid "MSSQL Page Life Expectancy"
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2240
 msgid "MSSQL SQL Stats"
 msgstr ""
@@ -37267,6 +37273,10 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/apc_ats_output.py:46
 msgid "Minimum Levels for load in percent"
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:30
+msgid "Minimum Page Life Expectancy"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:551
@@ -43160,6 +43170,10 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_page_activity.py:25
 msgid "Page Activity Levels"
+msgstr ""
+
+#: ../cmk/gui/plugins/metrics/mssql.py:33
+msgid "Page Life Expectancy"
 msgstr ""
 
 #: ../cmk/gui/plugins/metrics/network.py:967
@@ -61404,6 +61418,10 @@ msgid ""
 "Brightmail Scanner appliances."
 msgstr ""
 
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:25
+msgid "This check monitors MSSQL page life expectancies."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/plesk_backups.py:26
 msgid "This check monitors backups configured for domains in plesk."
 msgstr ""
@@ -70808,6 +70826,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:91
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:748
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:66
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/voltage.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:63
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:314

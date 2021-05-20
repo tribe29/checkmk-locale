@@ -16166,6 +16166,7 @@ msgstr "Kritisch op het gebruik van"
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:86
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:743
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:67
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:33
 #: ../cmk/gui/plugins/wato/check_parameters/voltage.py:40
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:64
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:315
@@ -34763,7 +34764,7 @@ msgstr "Jira workflow"
 msgid "Job"
 msgstr "Job"
 
-#: ../cmk/gui/plugins/metrics/mssql.py:30
+#: ../cmk/gui/plugins/metrics/mssql.py:27
 msgid "Job Duration"
 msgstr "Baan Duur"
 
@@ -38131,6 +38132,12 @@ msgstr "MSSQL Log en Gegevens Bestand Sgrootten"
 msgid "MSSQL Page Activity"
 msgstr "MSSQL Pagina Activiteit"
 
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:48
+#, fuzzy
+#| msgid "MSSQL Page Activity"
+msgid "MSSQL Page Life Expectancy"
+msgstr "MSSQL Pagina Activiteit"
+
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2240
 msgid "MSSQL SQL Stats"
 msgstr "MSSQL SQL Stats"
@@ -40174,6 +40181,10 @@ msgstr "Minimum Spanningsniveaus"
 #: ../cmk/gui/plugins/wato/check_parameters/apc_ats_output.py:46
 msgid "Minimum Levels for load in percent"
 msgstr "Minimumniveaus voor belasting in procenten"
+
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:30
+msgid "Minimum Page Life Expectancy"
+msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:551
 msgid "Minimum Required Checkmk version"
@@ -46345,6 +46356,12 @@ msgstr "Pagina-activiteit"
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_page_activity.py:25
 msgid "Page Activity Levels"
 msgstr "Pagina Activiteitenniveaus"
+
+#: ../cmk/gui/plugins/metrics/mssql.py:33
+#, fuzzy
+#| msgid "Page size to expect"
+msgid "Page Life Expectancy"
+msgstr "Te verwachten paginagrootte"
 
 #: ../cmk/gui/plugins/metrics/network.py:967
 msgid "Page Lookups"
@@ -66640,6 +66657,14 @@ msgstr ""
 "Deze controle wordt gebruikt om de succesvolle aflevering van e-mail via "
 "Symantec Brightmail Scanner appliances te controleren."
 
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:25
+#, fuzzy
+#| msgid "This check monitors count and age of mails in mailboxes."
+msgid "This check monitors MSSQL page life expectancies."
+msgstr ""
+"Deze controle controleert het aantal en de leeftijd van de mails in de "
+"mailboxen."
+
 #: ../cmk/gui/plugins/wato/check_parameters/plesk_backups.py:26
 msgid "This check monitors backups configured for domains in plesk."
 msgstr ""
@@ -77474,6 +77499,7 @@ msgstr "Waarschuwing bij gebruik van"
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:91
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:748
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:66
+#: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/voltage.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:63
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:314
