@@ -321,7 +321,7 @@ msgstr "# Services"
 msgid "%"
 msgstr "%"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:918
+#: ../cmk/gui/cee/plugins/wato/cmc.py:920
 msgid "% / min"
 msgstr "% / min"
 
@@ -682,7 +682,7 @@ msgstr "%s Pakete / %s%s"
 msgid "%s Preview of report finished"
 msgstr "%s Erstellung der Report Vorschau beendet"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:355
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:363
 #, python-format
 msgid "%s Properties"
 msgstr "%s Eigenschaften"
@@ -3543,7 +3543,8 @@ msgstr "Probleme quittieren"
 msgid "Acknowledge this test result for site %s"
 msgstr "Quittiere dieses Testresultat für die Instanz %s"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1467 ../cmk/gui/plugins/views/bi.py:252
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1469
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1522 ../cmk/gui/plugins/views/bi.py:252
 #: ../cmk/gui/plugins/views/painters.py:4551
 msgid "Acknowledged"
 msgstr "Quittiert"
@@ -3650,8 +3651,8 @@ msgstr "Aktion bei einem Fehler"
 #: ../cmk/gui/plugins/wato/bi_config.py:484
 #: ../cmk/gui/plugins/wato/bi_config.py:830
 #: ../cmk/gui/plugins/wato/bi_config.py:1905
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:260
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:336
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:268
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:344
 #: ../cmk/gui/plugins/wato/notifications.py:1144 ../cmk/gui/visuals.py:539
 #: ../cmk/gui/gui_background_job.py:374 ../cmk/gui/gui_background_job.py:501
 #: ../cmk/gui/notifications.py:180 ../cmk/gui/notifications.py:183
@@ -3825,7 +3826,7 @@ msgstr "Aktiviere Änderungen der Livestatus-Proxy-Konfiguration"
 
 #: ../cmk/gui/cee/reporting.py:1679
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:113
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:393
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:401
 msgid "Activation"
 msgstr "Aktivierung"
 
@@ -4039,7 +4040,7 @@ msgstr "Aktueller Traffic"
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:199 ../cmk/gui/visuals.py:488
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:207 ../cmk/gui/visuals.py:488
 #, python-format
 msgid "Add %s"
 msgstr "%s hinzufügen"
@@ -4199,7 +4200,8 @@ msgid "Add condition"
 msgstr "Bedingung hinzufügen"
 
 #: ../cmk/gui/wato/pages/sites.py:502 ../cmk/gui/wato/pages/ldap.py:87
-#: ../cmk/gui/wato/pages/ldap.py:90
+#: ../cmk/gui/wato/pages/ldap.py:90 ../cmk/gui/cee/plugins/wato/influxdb.py:141
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:144
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:217
 msgid "Add connection"
 msgstr "Verbindung hinzufügen"
@@ -4352,7 +4354,7 @@ msgstr "Metrik-Schwellwert hinzufügen"
 msgid "Add metric name"
 msgstr "Metrik-Name hinzufügen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:705
+#: ../cmk/gui/cee/plugins/wato/cmc.py:707
 msgid "Add micro seconds to timestamps in Logfiles"
 msgstr "Zeitstempel in Logdateien mit Mikrosekunden"
 
@@ -4379,7 +4381,7 @@ msgstr "Neue BI-Aggregation %s hinzufügen"
 msgid "Add new CA certificate or chain"
 msgstr "Neues CA-Zertifikat oder CA-Kette hinzufügen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1418
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1420
 msgid "Add new Graphite / InfluxDB connection"
 msgstr "Neue Graphite- / InfluxDB-Verbindung hinzufügen"
 
@@ -4758,7 +4760,7 @@ msgstr ""
 msgid "Added new BI pack %s"
 msgstr "Neues BI-Paket %s hinzugefügt"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:453
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:461
 #, python-format
 msgid "Added the %s '%s'"
 msgstr "%s '%s' hinzugefügt"
@@ -5096,7 +5098,7 @@ msgstr ""
 "Integrationsschlüssel, der diesem Dienst zugeordnet ist. Kopieren Sie diesen "
 "Wert hier her."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:876
+#: ../cmk/gui/cee/plugins/wato/cmc.py:878
 #, python-format
 msgid ""
 "After the configured time active host- and service checks are being "
@@ -5331,7 +5333,7 @@ msgstr "Agentenupdate sind für den Host %s abgeschaltet, weil er"
 msgid "Agent Version"
 msgstr "Agentenversion"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1301
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1302
 msgid "Agent access rules"
 msgstr "Zugriffsregeln des Agents"
 
@@ -5381,7 +5383,7 @@ msgid "Agent output"
 msgstr "Agentenausgabe"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:414
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1220
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1221
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4828
 msgid "Agent rules"
 msgstr "Agentenregeln"
@@ -5602,7 +5604,7 @@ msgstr "Schwellwerte für Luftströmung"
 msgid "Alarms"
 msgstr "Alarme"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:602
+#: ../cmk/gui/cee/plugins/wato/cmc.py:604
 msgid "Alert"
 msgstr "Alarm"
 
@@ -5747,7 +5749,7 @@ msgstr "Alarmiert"
 msgid "Alerting depending on the number of used licenses is disabled"
 msgstr "Alarmierung der Anzahl der Benutzen Lizenzen ist deaktiviert"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:573
+#: ../cmk/gui/cee/plugins/wato/cmc.py:575
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:234
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3054
 #: ../cmk/gui/plugins/visuals/filters.py:1593
@@ -6215,6 +6217,7 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/activate_changes.py:354
 #: ../cmk/gui/wato/pages/users.py:1147 ../cmk/gui/sidebar.py:858
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:220
 #: ../cmk/gui/plugins/sidebar/utils.py:317
 msgid "All sites"
 msgstr "Alle Instanzen"
@@ -6744,7 +6747,7 @@ msgstr "Analyse"
 
 #: ../cmk/gui/wato/pages/diagnostics.py:122
 #: ../cmk/gui/wato/pages/analyze_configuration.py:77
-#: ../cmk/gui/plugins/wato/builtin_modules.py:963
+#: ../cmk/gui/plugins/wato/builtin_modules.py:964
 msgid "Analyze configuration"
 msgstr "Konfiguration analysieren"
 
@@ -7205,7 +7208,7 @@ msgstr "Arrays (Kontroller)"
 msgid "Articles in the user guide"
 msgstr "Artikel im Benutzerhandbuch"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:283
+#: ../cmk/gui/cee/plugins/wato/cmc.py:285
 msgid "Artificial slowdown of logfile parsing (for testing!)"
 msgstr "Das Einlesen der Logdateien künstlich verzögern (zum Testen!)"
 
@@ -7416,7 +7419,7 @@ msgstr ""
 "Maximal so viele Alarme werden für das Zusammenfassen zurückgehalten. Ein "
 "Wert von 1 schaltet das Zusammenfassen faktisch aus."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:91
+#: ../cmk/gui/cee/plugins/wato/cmc.py:93
 msgid ""
 "At start the CMC creates a fixed number of worker processes that are used "
 "for executing classical active checks. This number is configured here. If "
@@ -7538,7 +7541,7 @@ msgstr "Von Hosts zu entfernende Attribute"
 #: ../cmk/gui/wato/pages/audit_log.py:79 ../cmk/gui/wato/pages/users.py:612
 #: ../cmk/gui/wato/pages/rulesets.py:1459
 #: ../cmk/gui/wato/pages/services.py:1355
-#: ../cmk/gui/plugins/wato/builtin_modules.py:893
+#: ../cmk/gui/plugins/wato/builtin_modules.py:894
 msgid "Audit log"
 msgstr "Auditlog"
 
@@ -7658,7 +7661,7 @@ msgstr "Authorisation"
 msgid "Authorization Error. Insufficent permissions for '%s'"
 msgstr "Authentifizierungsfehler. Unzureichende Berechtigung für '%s'"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:832
+#: ../cmk/gui/cee/plugins/wato/cmc.py:834
 msgid "Authorization settings"
 msgstr "Einstellungen zur Berechtigung"
 
@@ -7771,10 +7774,6 @@ msgstr "Seite automatisch aktualisieren"
 #, python-format
 msgid "Automatic page reload in %d seconds."
 msgstr "Seite wird in %d Sekunden neu geladen."
-
-#: ../cmk/gui/watolib/services.py:606
-msgid "Automatic refresh"
-msgstr "Automatische Aktualisierung"
 
 #: ../cmk/gui/wato/mkeventd.py:3252
 msgid "Automatic takeover"
@@ -7988,7 +7987,7 @@ msgstr "Verfügbarer temporärer Speicher"
 msgid "Available till"
 msgstr "Verfügbar bis"
 
-#: ../cmk/gui/availability.py:1572 ../cmk/gui/cee/plugins/wato/cmc.py:1521
+#: ../cmk/gui/availability.py:1572 ../cmk/gui/cee/plugins/wato/cmc.py:1579
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:137
 #: ../cmk/gui/cee/plugins/metrics/valuespecs.py:145
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:584
@@ -8588,7 +8587,7 @@ msgstr "Sicherungsdauer"
 msgid "Backup-ID"
 msgstr "Sicherungs-ID"
 
-#: ../cmk/gui/backup.py:573 ../cmk/gui/plugins/wato/builtin_modules.py:823
+#: ../cmk/gui/backup.py:573 ../cmk/gui/plugins/wato/builtin_modules.py:824
 msgid "Backups"
 msgstr "Backups"
 
@@ -9078,9 +9077,15 @@ msgstr "Gebrochen"
 msgid "Broken GUI extensions"
 msgstr "Defekte GUI-Erweiterungen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:414
+#: ../cmk/gui/plugins/wato/builtin_modules.py:415
 msgid "Browse the catalog of all check plugins, create static checks"
 msgstr "Den Katalog aller Checkplugins durchsuchen, statische Checks erstellen"
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:321
+#, fuzzy
+#| msgid "Buckets"
+msgid "Bucket"
+msgstr "Buckets"
 
 #: ../cmk/gui/plugins/metrics/couchbase.py:84
 msgid "Bucket memory"
@@ -9269,7 +9274,7 @@ msgstr "Zusammenfassen von bis zu"
 msgid "Bulk walk: Hosts using bulk walk (enforces SNMP v2c)"
 msgstr "Bulkwalk: Hosts mit SNMP-Bulkwalk (erzwingt SNMP v2c)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1057
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1059
 msgid "Bulk walk: Limit SNMP OID ranges"
 msgstr "Bulk-Walk: SNMP-OID-Bereiche einschränken"
 
@@ -10027,7 +10032,7 @@ msgstr "Gesendete Bytes"
 msgid "C"
 msgstr "C"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1399
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1401
 msgid "C-style name mangling"
 msgstr "Namensumwandlung à la C"
 
@@ -10436,7 +10441,7 @@ msgstr "KRIT Service von Host"
 msgid "CRIT at"
 msgstr "CRIT bei"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1172
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1174
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:206
 #: ../cmk/gui/plugins/wato/active_checks.py:353
 #: ../cmk/gui/plugins/wato/active_checks.py:748
@@ -10988,7 +10993,7 @@ msgstr "Gefüllte Papiermenge"
 msgid "Capacity remaining"
 msgstr "Verbleibende Kapazität"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:575
+#: ../cmk/gui/cee/plugins/wato/cmc.py:577
 msgid "Carbon connections"
 msgstr "Carbon-Verbindungen"
 
@@ -11022,7 +11027,7 @@ msgid "Catalog"
 msgstr "Katalog"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:73
-#: ../cmk/gui/plugins/wato/builtin_modules.py:402
+#: ../cmk/gui/plugins/wato/builtin_modules.py:403
 msgid "Catalog of check plugins"
 msgstr "Katalog der Checkplugins"
 
@@ -11449,7 +11454,7 @@ msgstr "Check Zustand des Brokers auf dem Primary: "
 msgid "Check TCP port connection"
 msgstr "Check TCP Port Verbindung"
 
-#: ../cmk/gui/crash_reporting.py:542 ../cmk/gui/cee/plugins/wato/cmc.py:1016
+#: ../cmk/gui/crash_reporting.py:542 ../cmk/gui/cee/plugins/wato/cmc.py:1018
 msgid "Check Type"
 msgstr "Checktyp"
 
@@ -11586,7 +11591,7 @@ msgstr "Ursprung des Services / Parameter"
 msgid "Check parameters"
 msgstr "Check-Parameter"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:272
+#: ../cmk/gui/plugins/wato/builtin_modules.py:273
 msgid "Check parameters and other configuration variables for hosts"
 msgstr "Check-Parameter und andere Konfigurationsvariablen für Hosts"
 
@@ -11610,7 +11615,7 @@ msgstr "Check Zeitraum für passive Checkmk Services"
 msgid "Check plugin"
 msgstr "Checkplugin"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:875
+#: ../cmk/gui/cee/plugins/wato/cmc.py:877
 msgid "Check plugin timeout"
 msgstr "Ablaufzeit für Checkplugin"
 
@@ -11696,7 +11701,7 @@ msgid ""
 msgstr ""
 "Auswählen um multiprocessing zu deaktivieren. Nur zum Debuggen empfohlen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:880
+#: ../cmk/gui/cee/plugins/wato/cmc.py:882
 msgid "Check timeout for services (Microcore)"
 msgstr "Checktimeout für Services (Microcore)"
 
@@ -11900,7 +11905,7 @@ msgstr "Checkmk Automatisierung"
 msgid "Checkmk automation %s %s"
 msgstr "Checkmk-Automatisierung %s %s"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:583
+#: ../cmk/gui/cee/plugins/wato/cmc.py:585
 msgid "Checkmk check helpers"
 msgstr "Checkmk-Check-Hilfsprozesse"
 
@@ -12658,7 +12663,7 @@ msgstr "Berichtsplan %s klonen"
 msgid "Clone stored report"
 msgstr "Gespeicherten Bericht klonen"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:278
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:286
 #, python-format
 msgid "Clone this %s"
 msgstr "Klone %s"
@@ -12870,7 +12875,7 @@ msgstr ""
 "Informationen über OS, Checkmk-Version und -Edition, Zeit, Core, Python-"
 "Version und -Pfade, Architektur sammeln"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1013
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1014
 msgid "Collect information of Checkmk sites for diagnostic analysis."
 msgstr "Informationen von Checkmk-Sites für die Diagnoseanalyse sammeln."
 
@@ -13102,7 +13107,7 @@ msgstr "Kommentarablaufzeit"
 msgid "Comment for activation of changes"
 msgstr "Kommentar für die Aktivierung von Änderungen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1723
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1781
 msgid "Comment for the downtime"
 msgstr "Kommentar für die Wartungszeit"
 
@@ -13433,11 +13438,11 @@ msgstr "Konfigurationserzeugung"
 msgid "Configuration of Checkmk's Business Intelligence component"
 msgstr "Konfiguration von Checkmk's Business Intelligence Modul"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1629
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1687
 msgid "Configuration of RRD databases of hosts"
 msgstr "Konfiguration der RRD-Datenbanken von Hosts"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1604
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1662
 msgid "Configuration of RRD databases of services"
 msgstr "Konfiguration der RRD-Datenbanken von Services"
 
@@ -13449,7 +13454,7 @@ msgstr "Einstellungen von Kunden"
 msgid "Configuration of individual Eventlogs"
 msgstr "Konfiguration von bestimmten Ereignisprotokollen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1232
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1233
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4832
 msgid "Configuration of monitoring agents for Linux, Windows and Unix"
 msgstr "Konfiguration von Monitoring-Agenten für Linux, Windows und Unix"
@@ -13481,7 +13486,7 @@ msgstr "Konfigurationsvariable:"
 msgid "Configure"
 msgstr "Konfiguriere"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1348
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1349
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4227
 msgid "Configure SNMP related settings using rulesets"
 msgstr "Konfigurieren Sie SNMP-bezogene Einstellungen mithilfe von Regelsätzen"
@@ -13498,7 +13503,7 @@ msgstr "Konfiguriere eine Logdatei Sektion"
 msgid "Configure access permissions to NagVis maps."
 msgstr "Zugangsberechtigungen für NagVis-Karten konfigurieren."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1313
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1314
 msgid "Configure agent access related settings using rulesets"
 msgstr ""
 "Konfigurieren von agentenzugriffsbezogenen Einstellungen mithilfe von "
@@ -13527,7 +13532,7 @@ msgstr ""
 msgid "Configure discovery of single interfaces"
 msgstr "Konfiguriere die Erkennung von Einzel-Interfaces"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1118
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1119
 msgid "Configure enforced checks without using service discovery"
 msgstr "Konfiguriere forcierte Checks, ohne die Service-Erkennung zu benutzen."
 
@@ -13550,7 +13555,7 @@ msgstr ""
 msgid "Configure levels for used space"
 msgstr "Prozentuale Schwellen für verbrauchten Speicherplatz"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:342
+#: ../cmk/gui/plugins/wato/builtin_modules.py:343
 msgid ""
 "Configure monitoring of networking services using classical nagios plugins "
 "(so called active checks)"
@@ -13821,7 +13826,11 @@ msgstr "Bestätige Merkmaländerung"
 msgid "Connect"
 msgstr "Verbindungsaufbau"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:624
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1454
+msgid "Connect Checkmk with your InfluxDB to send metrics."
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/builtin_modules.py:625
 msgid ""
 "Connect Checkmk with your LDAP or Active Directory to create users in "
 "Checkmk."
@@ -13860,6 +13869,7 @@ msgid "Connect directly, without Livestatus Proxy"
 msgstr "Direkte Verbindung, ohne Livestatus-Proxy"
 
 #: ../cmk/gui/wato/pages/sites.py:323
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:307
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1521
 msgid "Connect timeout"
 msgstr "Verbindungs-Timeout"
@@ -13945,6 +13955,8 @@ msgstr "Anzahl der verbundenen Clients"
 #: ../cmk/gui/wato/pages/ldap.py:359 ../cmk/gui/wato/pages/users.py:394
 #: ../cmk/gui/wato/pages/users.py:398 ../cmk/gui/watolib/sites.py:67
 #: ../cmk/gui/cee/plugins/wato/dcd.py:478
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1498
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:269
 msgid "Connection"
 msgstr "Verbindung"
 
@@ -14046,6 +14058,8 @@ msgstr "Verbindungstyp"
 #: ../cmk/gui/wato/pages/sites.py:496 ../cmk/gui/wato/pages/sites.py:499
 #: ../cmk/gui/wato/pages/sites.py:668 ../cmk/gui/wato/pages/sites.py:1384
 #: ../cmk/gui/wato/pages/ldap.py:84 ../cmk/gui/cee/plugins/wato/dcd.py:282
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:138
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:213
 #: ../cmk/gui/plugins/metrics/network.py:280
 #: ../cmk/gui/plugins/metrics/network.py:1683
 msgid "Connections"
@@ -14125,7 +14139,7 @@ msgstr "Zeiten berücksichtigen wo der Host unten ist"
 msgid "Consolidation function for the [graphing#rrds|RRD] data column"
 msgstr "Verbindungsfunktion für die [cms_graphing#rrds|RRD]  Datenreihe"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1516
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1574
 msgid "Consolidation functions"
 msgstr "Konsolidierungsfunktionen"
 
@@ -14187,7 +14201,7 @@ msgstr "Kontakgruppe (effektiv)"
 
 #: ../cmk/gui/wato/pages/groups.py:366 ../cmk/gui/wato/pages/users.py:442
 #: ../cmk/gui/wato/mkeventd.py:416
-#: ../cmk/gui/plugins/wato/builtin_modules.py:682
+#: ../cmk/gui/plugins/wato/builtin_modules.py:683
 #: ../cmk/gui/plugins/wato/bi_config.py:507
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2107
 #: ../cmk/gui/plugins/views/mkeventd.py:842
@@ -14214,7 +14228,7 @@ msgstr ""
 "Kontaktgruppe zuordnen, wird kein Überwachungskontakt für den Benutzer "
 "erstellt."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:694
+#: ../cmk/gui/plugins/wato/builtin_modules.py:695
 msgid "Contact groups are used to assign users to hosts and services"
 msgstr ""
 "Kontaktgruppen werden benutzt, um Benutzer zu Hosts/Services zuzuordnen."
@@ -14478,7 +14492,7 @@ msgstr "Kopie der bestehenden Ansicht"
 msgid "Copy rule: %s"
 msgstr "Regel kopieren: %s"
 
-#: ../cmk/gui/crash_reporting.py:416 ../cmk/gui/cee/plugins/wato/cmc.py:578
+#: ../cmk/gui/crash_reporting.py:416 ../cmk/gui/cee/plugins/wato/cmc.py:580
 msgid "Core"
 msgstr "Kern"
 
@@ -15178,11 +15192,11 @@ msgstr "Nutzer nur bei Login anlegen"
 msgid "Create view"
 msgstr "Erzeuge Ansicht"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:484
+#: ../cmk/gui/plugins/wato/builtin_modules.py:485
 msgid "Create your own host related attributes"
 msgstr "eigenes hostbezogenes Attribut erzeugen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:659
+#: ../cmk/gui/plugins/wato/builtin_modules.py:660
 msgid "Create your own user related attributes"
 msgstr "eigene benutzerbezogene Attribute erzeugen"
 
@@ -15393,7 +15407,7 @@ msgstr "Kritisch bei"
 msgid "Crit/Down"
 msgstr "Krit/Unten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:603
+#: ../cmk/gui/cee/plugins/wato/cmc.py:605
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:99
 #: ../cmk/gui/cee/plugins/dashboard/alert_statistics.py:149
 #: ../cmk/gui/cee/plugins/reporting/availability.py:389
@@ -16525,7 +16539,8 @@ msgstr "Kritscher Schwellwert für die Zeit seit dem letzten Update"
 msgid "Critical level is at least"
 msgstr "Kritische Schwelle ist mindestens"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1462
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1464
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1517
 msgid "Critical threshold"
 msgstr "Kritischer Schwellwert"
 
@@ -16852,7 +16867,7 @@ msgstr "Benutzergraphen"
 
 #: ../cmk/gui/wato/pages/custom_attributes.py:561
 #: ../cmk/gui/wato/pages/folders.py:425
-#: ../cmk/gui/plugins/wato/builtin_modules.py:472
+#: ../cmk/gui/plugins/wato/builtin_modules.py:473
 msgid "Custom host attributes"
 msgstr "Eigene Host-Attribute"
 
@@ -16861,7 +16876,7 @@ msgid "Custom host notes"
 msgstr "Spezifische Anmerkungen zu Hosts"
 
 #: ../cmk/gui/wato/pages/icons.py:53
-#: ../cmk/gui/plugins/wato/builtin_modules.py:928
+#: ../cmk/gui/plugins/wato/builtin_modules.py:929
 msgid "Custom icons"
 msgstr "Benutzericons"
 
@@ -16974,7 +16989,7 @@ msgid "Custom title"
 msgstr "Angepasster Titel"
 
 #: ../cmk/gui/wato/pages/custom_attributes.py:528
-#: ../cmk/gui/plugins/wato/builtin_modules.py:647
+#: ../cmk/gui/plugins/wato/builtin_modules.py:648
 msgid "Custom user attributes"
 msgstr "Benutzerattribute"
 
@@ -17441,7 +17456,7 @@ msgid "DNS successful responses"
 msgstr "Erfolgreiche DNS-Anworten"
 
 #: ../cmk/gui/availability.py:135 ../cmk/gui/availability.py:480
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1189 ../cmk/gui/valuespec.py:2723
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1191 ../cmk/gui/valuespec.py:2723
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1158
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1160
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1161
@@ -17916,7 +17931,7 @@ msgstr "Dead- und Waitlocks"
 msgid "Deadlocks"
 msgstr "Deadlocks"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:608 ../cmk/gui/valuespec.py:6310
+#: ../cmk/gui/cee/plugins/wato/cmc.py:610 ../cmk/gui/valuespec.py:6310
 msgid "Debug"
 msgstr "Debug"
 
@@ -17924,7 +17939,7 @@ msgstr "Debug"
 msgid "Debug Livestatus queries"
 msgstr "Debugge Livestatusanfragen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:680
+#: ../cmk/gui/cee/plugins/wato/cmc.py:682
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:281
 msgid "Debug mode"
 msgstr "Debugmodus"
@@ -17937,7 +17952,7 @@ msgstr "Debugge Regelausführung"
 msgid "Debugging (log every single action)"
 msgstr "Debugging (jede Aktion loggen)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:674
+#: ../cmk/gui/cee/plugins/wato/cmc.py:676
 msgid "Debugging of Checkmk helpers"
 msgstr "Debugging von Checkmk-Hilfsprozessen"
 
@@ -18094,7 +18109,7 @@ msgstr "Standardzeitbereich für Berichte"
 msgid "Default rule pack"
 msgstr "Standard-Regelpaket"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1123
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1125
 msgid "Default secret to decrypt the packets"
 msgstr "Voreinstellung des Geheimnis zum Entschlüsseln der Pakete"
 
@@ -18502,7 +18517,7 @@ msgstr "Lösche ausgewählte Benutzer"
 msgid "Delete the current logo"
 msgstr "Aktuelles Logo löschen"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:289
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:297
 #, python-format
 msgid "Delete this %s"
 msgstr "%s löschen"
@@ -19693,6 +19708,7 @@ msgid "Disable Notifications"
 msgstr "Alarme ausschalten"
 
 #: ../cmk/gui/cee/plugins/wato/ntop.py:84
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:302
 #: ../cmk/gui/plugins/wato/datasource_programs.py:376
 #: ../cmk/gui/plugins/wato/datasource_programs.py:429
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1773
@@ -19811,7 +19827,7 @@ msgstr "Deaktivierung"
 msgid "Disabled "
 msgstr "Deaktiviert"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:394
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:402
 #, python-format
 msgid "Disabled %s are kept in the configuration but are not active."
 msgstr ""
@@ -19982,11 +19998,11 @@ msgstr "Erkennung von leeren DHCP-Pools"
 msgid "Discovery of individual services"
 msgstr "Erkennung von einzelnen Services"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1071
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1072
 msgid "Discovery rules"
 msgstr "Erkennungsregeln"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1083
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1084
 msgid "Discovery settings"
 msgstr "Erkennungseinstellungen"
 
@@ -20466,11 +20482,11 @@ msgstr "DN für Anbindung"
 msgid "Distributed Monitoring"
 msgstr "Verteiltes Monitoring"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:788
+#: ../cmk/gui/plugins/wato/builtin_modules.py:789
 msgid "Distributed monitoring"
 msgstr "Verteiltes Monitoring"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:800
+#: ../cmk/gui/plugins/wato/builtin_modules.py:801
 msgid "Distributed monitoring using multiple Checkmk sites"
 msgstr "Verteiltes Monitoring mit Hilfe mehrerer Checkmk-Instanzen"
 
@@ -20968,7 +20984,7 @@ msgstr "Benötigten Mirrorspace nicht als frei betrachten"
 msgid "Do not remove anything"
 msgstr "Nichts entfernen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:733
+#: ../cmk/gui/cee/plugins/wato/cmc.py:735
 msgid "Do not rotate based on the time"
 msgstr "Nicht basierend auf der Zeit rotieren"
 
@@ -21214,7 +21230,7 @@ msgstr ""
 msgid "Do you really want to delete the user %s?"
 msgstr "Wollen Sie Benutzer %s wirklich löschen?"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:244
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:252
 #, python-format
 msgid "Do you really want to delete this %s?"
 msgstr "Wollen Sie diese %s wirklich löschen?"
@@ -21402,8 +21418,8 @@ msgstr "HTML nicht escapen (Gefährlich - bitte Kontexthilfe lesen)"
 msgid "Don't forget the instance: instance:dbname"
 msgstr "Vergessen Sie nicht den Instanznamen:  instance:dbname"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1102
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1103
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1104
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1105
 msgid "Don't handle Real-Time Checks"
 msgstr "Echtzeitchecks nicht verarbeiten"
 
@@ -21565,15 +21581,15 @@ msgstr "Diesen Bericht herunterladen"
 msgid "Downloaded Agent"
 msgstr "Heruntergeladener Agent"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1186
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1187
 msgid "Downloads Checkmk agent and plugins for Linux"
 msgstr "Checkmk-Agent für Host %s und Plugins für Linux herunterladen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1152
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1153
 msgid "Downloads Checkmk agent and plugins for Windows"
 msgstr "Checkmk Agent und Plugins für Windows herunterladen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1278
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1279
 msgid "Downloads Checkmk agents for other operating systems"
 msgstr "Checkmk-Agenten für andere Betriebssysteme herunterladen"
 
@@ -21583,7 +21599,7 @@ msgstr "Downstream-Leistung"
 
 #: ../cmk/gui/wato/pages/notifications.py:708 ../cmk/gui/availability.py:138
 #: ../cmk/gui/availability.py:153 ../cmk/gui/availability.py:167
-#: ../cmk/gui/availability.py:280 ../cmk/gui/cee/plugins/wato/cmc.py:581
+#: ../cmk/gui/availability.py:280 ../cmk/gui/cee/plugins/wato/cmc.py:583
 #: ../cmk/gui/cee/plugins/reporting/availability.py:411
 #: ../cmk/gui/plugins/views/availability.py:632
 #: ../cmk/gui/plugins/views/painters.py:3080
@@ -21663,7 +21679,7 @@ msgstr "Wartungszeit (Beginn)"
 msgid "Downtime stopped"
 msgstr "Wartungszeit angehalten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1734
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1792
 msgid "Downtime will not start anymore after"
 msgstr "Wartungszeit startet nicht mehr nach"
 
@@ -21742,7 +21758,7 @@ msgid "Duplicate tag ID \"%s\" in auxilary tags"
 msgstr "Doppelte Tag-ID \"%s\" in den Hilfsmerkmalen"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:427
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1744
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1802
 #: ../cmk/gui/cee/plugins/reporting/availability.py:125
 #: ../cmk/gui/cee/ntop/pages.py:967 ../cmk/gui/cee/ntop/pages.py:987
 #: ../cmk/gui/cee/sla.py:1939 ../cmk/gui/cee/sla.py:1957
@@ -22067,7 +22083,7 @@ msgstr "Bearbeiten"
 msgid "Edit %s"
 msgstr "%s bearbeiten"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:333
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:341
 #, python-format
 msgid "Edit %s: %s"
 msgstr "Bearbeiten %s: %s"
@@ -22339,7 +22355,7 @@ msgstr "Regeln in diesem Paket bearbeiten"
 msgid "Edit the services of this host, do a service discovery"
 msgstr "Die Services dieses Hosts bearbeiten, Serviceerkennung durchführen"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:269
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:277
 #, python-format
 msgid "Edit this %s"
 msgstr "Diese %s bearbeiten"
@@ -22458,7 +22474,7 @@ msgstr "Eigenschaften von Ordner %s bearbeitet"
 msgid "Edited rule in ruleset \"%s\" in folder \"%s\""
 msgstr "Regel in Regelsatz \"%s\" in Ordner \"%s\" editiert"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:467
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:475
 #, python-format
 msgid "Edited the %s '%s'"
 msgstr "%s '%s' editiert"
@@ -22685,7 +22701,7 @@ msgstr "Vorhandene Ansicht einbetten"
 msgid "Embedded image"
 msgstr "Eingefügtes Bild"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:601
+#: ../cmk/gui/cee/plugins/wato/cmc.py:603
 msgid "Emergency"
 msgstr "Notfall"
 
@@ -22781,11 +22797,11 @@ msgstr "Hostkeys automatisch akzeptieren"
 msgid "Enable automatic invalidation at"
 msgstr "Automatisch invalidieren um"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:798
+#: ../cmk/gui/cee/plugins/wato/cmc.py:800
 msgid "Enable core dumps"
 msgstr "Speicherabzüge aktivieren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:681
+#: ../cmk/gui/cee/plugins/wato/cmc.py:683
 msgid "Enable debug mode"
 msgstr "Debugmodus einschalten"
 
@@ -22819,7 +22835,7 @@ msgstr ""
 "GZIP-Komprimierung des Backups aktivieren. Alle Tar-Archive der Sicherung "
 "werden während der Sicherung mit GZIP gepackt."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1089
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1091
 msgid "Enable handling of Real-Time Checks"
 msgstr "Bearbeitung von Echtzeitchecks einschalten"
 
@@ -22827,7 +22843,7 @@ msgstr "Bearbeitung von Echtzeitchecks einschalten"
 msgid "Enable host notifications"
 msgstr "Hostalarme ein"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:299
+#: ../cmk/gui/cee/plugins/wato/cmc.py:301
 msgid "Enable in-memory cache for availability"
 msgstr "Caching für Verfügbarkeiten einschalten"
 
@@ -22855,7 +22871,7 @@ msgstr "Verarbeitung von passiven Checkergebnissen über NSCA einschalten"
 msgid "Enable new rule based notifications"
 msgstr "Regelbasierte Alarmierung einschalten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:630
+#: ../cmk/gui/cee/plugins/wato/cmc.py:632
 msgid "Enable notification logging"
 msgstr "Protokollierung der Alarme einschalten"
 
@@ -22909,7 +22925,7 @@ msgstr "Replikation von einem Master ein"
 msgid "Enable row shading"
 msgstr "Zeilenschattierung einschalten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:165
+#: ../cmk/gui/cee/plugins/wato/cmc.py:167
 msgid "Enable separate fetcher and checker helpers"
 msgstr "Aktiviere getrennte Fetcher und Checker Helper"
 
@@ -23247,7 +23263,7 @@ msgstr "\"Mehr anzeigen\" erzwingen"
 
 #: ../cmk/gui/wato/pages/services.py:1155 ../cmk/gui/watolib/search.py:415
 #: ../cmk/gui/watolib/rulespecs.py:191
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1106
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1107
 msgid "Enforced services"
 msgstr "Erzwungene Services"
 
@@ -23425,7 +23441,7 @@ msgstr "Ausgelaufene Objekte"
 msgid "Equal or more than"
 msgstr "Gleich oder mehr als"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:604 ../cmk/gui/valuespec.py:6306
+#: ../cmk/gui/cee/plugins/wato/cmc.py:606 ../cmk/gui/valuespec.py:6306
 #: ../cmk/gui/plugins/wato/bi_config.py:1352
 #: ../cmk/gui/plugins/sidebar/utils.py:269
 msgid "Error"
@@ -23932,7 +23948,7 @@ msgstr "Genauer Name der textuelle Beschreibung"
 msgid "Exact path of the node"
 msgstr "Exakter Pfad"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:905
+#: ../cmk/gui/plugins/wato/builtin_modules.py:906
 msgid "Examine the change history of the configuration"
 msgstr "Untersuche die Änderungshistorie der Konfiguration"
 
@@ -24328,7 +24344,7 @@ msgstr "Erwartete Anzahl Knoten"
 msgid "Expected number of open file descriptors"
 msgstr "Erwartete Anzahl Open File Descriptors"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:982
+#: ../cmk/gui/cee/plugins/wato/cmc.py:984
 msgid "Expected packet rate"
 msgstr "Erwartete Paketrate"
 
@@ -24530,7 +24546,7 @@ msgstr "Express-Servicecode"
 msgid "Extend downtimes by..."
 msgstr "Wartungszeit verlängern um..."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:940
+#: ../cmk/gui/plugins/wato/builtin_modules.py:941
 msgid "Extend the Checkmk GUI with your custom icons"
 msgstr "Erweitere die Checkmk GUI mit eigenen benutzerdefinierten Icons."
 
@@ -25161,7 +25177,7 @@ msgstr "Anfrage EOF"
 msgid "Fetch agent output"
 msgstr "Agentenausgabe abfragen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1054
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1056
 msgid "Fetch all available sub OIDs"
 msgstr "Holt alle verfügbaren Sub-OIDs."
 
@@ -25704,7 +25720,7 @@ msgstr "Erster Tag dieses Monats"
 msgid "First page"
 msgstr "Erste Seite"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1729
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1787
 msgid "First time the downtime starts"
 msgstr "Erster Startzeitpunkt der Wartungszeit"
 
@@ -25741,7 +25757,7 @@ msgstr "Seitenelemente"
 msgid "Fixed range"
 msgstr "Fester Bereich"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:994
+#: ../cmk/gui/cee/plugins/wato/cmc.py:996
 msgid "Fixed rate"
 msgstr "Feste Rate"
 
@@ -25762,11 +25778,11 @@ msgstr "Unstetig"
 msgid "Flap Detection"
 msgstr "Unstetigkeitserkennung"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:958
+#: ../cmk/gui/cee/plugins/wato/cmc.py:960
 msgid "Flap detection settings for hosts"
 msgstr "Unstetigkeitserkennnung für Hosts"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:945
+#: ../cmk/gui/cee/plugins/wato/cmc.py:947
 msgid "Flap detection settings for services"
 msgstr "Unstetigkeitserkennnung für Services"
 
@@ -25811,11 +25827,11 @@ msgstr ""
 "Version 1.6.0 entfernt. Eine Umstellung auf die regelbasierte Alarmierung "
 "wird empfohlen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1750
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1808
 msgid "Flexible downtime"
 msgstr "Flexible Wartung"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1751
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1809
 msgid "Flexible downtime duration:"
 msgstr "Flexible Wartungsdauer"
 
@@ -26095,7 +26111,7 @@ msgstr ""
 msgid "For example <tt>VMware vSphere 5 Standard</tt>"
 msgstr "Zum Beispiel <tt>VMware vSphere 5 Standard</tt>"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:232
+#: ../cmk/gui/cee/plugins/wato/cmc.py:234
 msgid ""
 "For running Check_MK based checks via the Micro Core keeps a pool of "
 "specialized helpers that speed up Check_MK by avoiding process creations. "
@@ -26108,7 +26124,7 @@ msgstr ""
 "dieses Vorrates wird hier eingestellt. Sie ist gleichbedeutend mit der "
 "maximalen Anzahl gleichzeiger Check_MK-Checks."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:116
+#: ../cmk/gui/cee/plugins/wato/cmc.py:118
 msgid ""
 "For running Check_MK based checks via the Micro Core keeps a pool of "
 "specialized helpers that speed up Check_MK by avoiding process creations. "
@@ -26121,7 +26137,7 @@ msgstr ""
 "Vorrates wird hier eingestellt. Sie ist gleichbedeutend mit der maximalen "
 "Anzahl gleichzeiger Echtzeitchecks."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:186
+#: ../cmk/gui/cee/plugins/wato/cmc.py:188
 msgid ""
 "For running Checkmk based checks the Microcore keeps a pool of specialized "
 "helper processes for fetching the needed information from the monitored "
@@ -26132,7 +26148,7 @@ msgstr ""
 "von den überwachten Systemen zu holen. Die Größe dieses Pools wird hier "
 "konfiguriert."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:209
+#: ../cmk/gui/cee/plugins/wato/cmc.py:211
 msgid ""
 "For running Checkmk based checks the Microcore keeps a pool of specialized "
 "helper processes for interpreting and evaluating the information gathered by "
@@ -26142,7 +26158,7 @@ msgstr ""
 "Pool von spezialisierten Hilfsprozessen vor, welche die von den "
 "Abfragehelfern gesammelten Informationen interpretieren und auswerten."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:367
+#: ../cmk/gui/cee/plugins/wato/cmc.py:369
 msgid ""
 "For sake of optimal performance Check_MK Micro Core keeps all current state "
 "data in the main memory of the core. Before a regular shut down this state "
@@ -26303,7 +26319,7 @@ msgstr "Zustand OK erzwingen"
 msgid "Force to be WARN, if aggregate is not OK"
 msgstr "Zustand WARN erzwingen, wenn Aggregation nicht OK ist"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1351
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1353
 msgid "Force update of PNP meta information on restart / reload"
 msgstr "Aktualisierung der PNP-Metainformationen beim Neustart"
 
@@ -26767,7 +26783,7 @@ msgstr "Eingefroren"
 msgid "Fujtsu storage CA port discovery"
 msgstr "Fujtsu storage CA Port Erkennung"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:656
+#: ../cmk/gui/cee/plugins/wato/cmc.py:658
 msgid "Full - Including RRA configuration"
 msgstr "Voll - Einschließlich RRA-Konfiguration"
 
@@ -26790,14 +26806,6 @@ msgstr "Vollständiger Name"
 #: ../cmk/gui/wato/pages/users.py:800
 msgid "Full name or alias of the user"
 msgstr "Vollständiger Name oder Alias des Benutzers"
-
-#: ../cmk/gui/watolib/services.py:602
-msgid "Full scan"
-msgstr "Vollständiger Scan"
-
-#: ../cmk/gui/wato/pages/services.py:1485
-msgid "Full service scan"
-msgstr "Komplette Service-Suche"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:96
 msgid "Full stats"
@@ -26910,7 +26918,7 @@ msgstr "Globale Berechtigungen"
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:374
 #: ../cmk/gui/pagetypes.py:147 ../cmk/gui/pagetypes.py:516
 #: ../cmk/gui/pagetypes.py:1279
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:354
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:362
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1395 ../cmk/gui/visuals.py:824
 msgid "General Properties"
 msgstr "Generelle Eigenschaften"
@@ -26952,7 +26960,7 @@ msgstr "Generelle Meldungen"
 msgid "Generate"
 msgstr "Erzeugen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:520
+#: ../cmk/gui/cee/plugins/wato/cmc.py:522
 msgid "Generate core config parallelized"
 msgstr "Parallele Erzeugung der Kernkonfiguration"
 
@@ -27081,11 +27089,11 @@ msgstr "Globale Einstellung"
 #: ../cmk/gui/wato/pages/global_settings.py:395
 #: ../cmk/gui/wato/pages/global_settings.py:568
 #: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:416
-#: ../cmk/gui/plugins/wato/builtin_modules.py:120
+#: ../cmk/gui/plugins/wato/builtin_modules.py:121
 msgid "Global settings"
 msgstr "Globale Einstellungen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:132
+#: ../cmk/gui/plugins/wato/builtin_modules.py:133
 msgid "Global settings for Checkmk, Multisite and the monitoring core."
 msgstr "Globale Einstellungen für Checkmk, Multisite und den Monitoring-Kern."
 
@@ -27693,7 +27701,7 @@ msgstr "HTTP-Request-Header-Variable"
 msgid "HTTP requests per second"
 msgstr "HTTP-Anfragen pro Sekunde"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:330
+#: ../cmk/gui/plugins/wato/builtin_modules.py:331
 #: ../cmk/gui/plugins/wato/active_checks.py:75
 msgid "HTTP, TCP, Email, ..."
 msgstr "HTTP, TCP, Email, ..."
@@ -27730,7 +27738,7 @@ msgstr "HW-Container"
 msgid "HW/SW inventory"
 msgstr "HW/SW-Inventur"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:295
+#: ../cmk/gui/plugins/wato/builtin_modules.py:296
 msgid "HW/SW inventory rules"
 msgstr "HW/SW-Inventur-Regeln"
 
@@ -27746,7 +27754,7 @@ msgstr "Halboffene Verbindungen"
 msgid "Handle Count (Windows only)"
 msgstr "Anzahl Handles (nur Windows)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1106
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1108
 msgid "Handle Real-Time Checks"
 msgstr "Echtzeitchecks verarbeiten"
 
@@ -28206,7 +28214,7 @@ msgstr "Hier können Sie den Verbindungstimeout in Sekunden konfigurieren."
 msgid "Here you can configure timeout settings."
 msgstr "Hier können Sie Timeout Einstellungen konfigurieren."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:651
+#: ../cmk/gui/cee/plugins/wato/cmc.py:653
 msgid ""
 "Here you can configure whether and how the creation of RRD files is being "
 "logged (in the log file var/log/cmc.log)"
@@ -28580,6 +28588,13 @@ msgstr ""
 "Hier sehen Sie alle Hosts, die eine negative Antwort an den Updateserver "
 "gesendet haben."
 
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1499
+#, python-format
+msgid ""
+"Here you can select an InfluxDB connection to use. If no choice is available "
+"you have to configure a <a href=\"%s\">%s</a> first."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:596
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:795
 msgid ""
@@ -28773,7 +28788,7 @@ msgstr ""
 "Privilegien hat, um alle Kommandos und Plugins auszuführen. Wenn Sie einen "
 "anderen Benutzer wählen, dann werden bestimmten Informationen fehlen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:675
+#: ../cmk/gui/cee/plugins/wato/cmc.py:677
 msgid "Here you can specify debugging options of the Check_MK check helpers."
 msgstr ""
 "Hier können Sie Optionen zum Debugging der Check_MK-Hilfsprozesse einstellen."
@@ -29091,11 +29106,11 @@ msgstr "Historie eines bestimmten Events"
 msgid "History entries of one specific host"
 msgstr "Historie eines bestimmten Hosts"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:724
+#: ../cmk/gui/cee/plugins/wato/cmc.py:726
 msgid "History log rotation: Regular interval of rotations"
 msgstr "Rotation der Historie: Regelmäßige Rotation"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:751
+#: ../cmk/gui/cee/plugins/wato/cmc.py:753
 msgid "History log rotation: Rotate by size (Limit of the size)"
 msgstr "Rotation der Historie: Nach Größe (limitierte Dateigröße)"
 
@@ -29153,7 +29168,7 @@ msgstr "Hop %d Paketumlaufzeit"
 msgid "Hop response times"
 msgstr "Antwortzeiten des Hops"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:340
+#: ../cmk/gui/cee/plugins/wato/cmc.py:342
 msgid "Horizon for timeperiod computation"
 msgstr "Horizont für die Berechnung der Zeitperioden"
 
@@ -29537,7 +29552,7 @@ msgid "Host graphs"
 msgstr "Hostgraphen"
 
 #: ../cmk/gui/wato/pages/groups.py:301 ../cmk/gui/wato/pages/groups.py:337
-#: ../cmk/gui/plugins/wato/builtin_modules.py:437
+#: ../cmk/gui/plugins/wato/builtin_modules.py:438
 #: ../cmk/gui/plugins/sidebar/groups.py:49
 #: ../cmk/gui/plugins/views/builtin.py:1485
 msgid "Host groups"
@@ -29664,7 +29679,7 @@ msgstr "Hostmatrix"
 msgid "Host memory usage"
 msgstr "Speicher-Nutzung des Hosts"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:260
+#: ../cmk/gui/plugins/wato/builtin_modules.py:261
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1267
 msgid "Host monitoring rules"
 msgstr "Monitoring-Regeln für Hosts"
@@ -29805,7 +29820,7 @@ msgstr "Hoststatus"
 msgid "Host state (first character)"
 msgstr "Hoststatus (1. Zeichen)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1182
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1184
 msgid "Host state translation"
 msgstr "Umschreiben von Host-Zuständen"
 
@@ -29858,7 +29873,7 @@ msgstr "Host-/Service-Kommentare"
 msgid "Host- or DNS name"
 msgstr "Host- oder DNS-Name"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:851
+#: ../cmk/gui/cee/plugins/wato/cmc.py:853
 msgid "Host-/Servicegroups"
 msgstr "Host-/Servicegruppen"
 
@@ -29949,7 +29964,7 @@ msgstr "Hostgruppen (zusammengeführt)"
 msgid "Hostname"
 msgstr "Hostname"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1378
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1380
 msgid "Hostname / IP address of Graphite server"
 msgstr "Hostname / IP-Adresse des Graphite-Servers"
 
@@ -30022,7 +30037,7 @@ msgstr "Zu übersetzende Hostnamen"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:677
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:684
 #: ../cmk/gui/cee/ntop/pages.py:1292
-#: ../cmk/gui/plugins/wato/builtin_modules.py:48
+#: ../cmk/gui/plugins/wato/builtin_modules.py:49
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:202
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:206
 #: ../cmk/gui/plugins/sidebar/wato.py:352
@@ -30528,7 +30543,8 @@ msgstr "ICMP-Pakete"
 #: ../cmk/gui/wato/pages/tags.py:385 ../cmk/gui/wato/mkeventd.py:1607
 #: ../cmk/gui/wato/mkeventd.py:1913 ../cmk/gui/werks.py:294
 #: ../cmk/gui/werks.py:545 ../cmk/gui/cee/reporting.py:1475
-#: ../cmk/gui/cee/plugins/wato/dcd.py:348 ../cmk/gui/pagetypes.py:1115
+#: ../cmk/gui/cee/plugins/wato/dcd.py:348
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:217 ../cmk/gui/pagetypes.py:1115
 #: ../cmk/gui/plugins/wato/bi_config.py:502
 #: ../cmk/gui/plugins/wato/bi_config.py:870
 #: ../cmk/gui/plugins/wato/bi_config.py:1925
@@ -31154,7 +31170,7 @@ msgstr ""
 "Wenn Limits aktiviert sind, werden alle Instanzen geholt, unabhängig von "
 "einer eventuell konfigurierten Einschränkung auf Namen oder Tags"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:984
+#: ../cmk/gui/cee/plugins/wato/cmc.py:986
 msgid ""
 "If no ICMP or TCP-SYN/RST packet is being seen from the target host for a "
 "certain amount of time then the host is considered down. This time is "
@@ -31847,7 +31863,7 @@ msgstr ""
 "die anzulegenden Hosts und nicht die Hosts, die Sie zur Überwachung "
 "eingerichtet haben, z. B. AWS."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:494
+#: ../cmk/gui/cee/plugins/wato/cmc.py:496
 msgid ""
 "If you enable a wait time then this number of PINGs will always be sent in "
 "one piece without waiting. This reduces the overhead."
@@ -32030,7 +32046,8 @@ msgstr ""
 "Ihrem opsgenie ein. Geben Sie eine absolute URL wie https://api.eu.opsgenie."
 "com an."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1471
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1473
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1526
 msgid ""
 "If you have one or more Graphite/InfluxDB connections defined, the values of "
 "all metrics are sent by default. You can use this ruleset to exclude or "
@@ -32080,7 +32097,7 @@ msgstr ""
 "im Homeverzeichnis des Benutzers. Dort werden diese Dateien dann automatisch "
 "gefunden und benutzt."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1568
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1626
 msgid ""
 "If you multiply the number of data points with the number of steps "
 "aggregated then you get the time range that is stored in this archive. Each "
@@ -32408,11 +32425,11 @@ msgstr "Ignorieren"
 msgid "Ignore SSL certificate errors"
 msgstr "Ignoriere SSL Zertifikatfehler"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:469
+#: ../cmk/gui/cee/plugins/wato/cmc.py:471
 msgid "Ignore TCP RST packets when determining host state"
 msgstr "TCP-RST-Pakete beim Feststellen des Hoststatus ignorieren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:468
+#: ../cmk/gui/cee/plugins/wato/cmc.py:470
 msgid "Ignore TCP Reset Packets"
 msgstr "TCP-Reset-Pakete ignorieren"
 
@@ -32429,7 +32446,7 @@ msgstr "Quittierte Ereignisse ignorieren"
 msgid "Ignore certificate errors (unsecure)"
 msgstr "Ignoriere SSL Zertifikatfehler (unsicher)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:272
+#: ../cmk/gui/cee/plugins/wato/cmc.py:274
 msgid "Ignore core restarts shorter than"
 msgstr "Neustarts des Kern ignorieren wenn kürzer als"
 
@@ -32566,7 +32583,7 @@ msgstr "Bildgröße"
 msgid "Images"
 msgstr "Bilder"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:398
+#: ../cmk/gui/cee/plugins/wato/cmc.py:400
 msgid "Immediately scheduled checks"
 msgstr "Sofort eingeplante Checks"
 
@@ -32604,7 +32621,7 @@ msgstr "iCalender-Datei importieren"
 msgid "Import iCalendar File to create a time period"
 msgstr "iCalender-Datei importieren, um eine Zeitperiode zu definieren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1672
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1730
 msgid "Import state from Nagios core"
 msgstr "Zustand von Nagios-Kern übernehmen"
 
@@ -32764,7 +32781,7 @@ msgstr ""
 msgid "In case of an error"
 msgstr "Im Falle eines Fehlers"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:799
+#: ../cmk/gui/cee/plugins/wato/cmc.py:801
 msgid ""
 "In case of an illegal exception the Micro Core can dump core. This helps "
 "post-mortem debugging but can create a file with several MB in size. The "
@@ -32842,7 +32859,7 @@ msgstr ""
 "Wenn Sie Attribute auf mehreren Hosts <i>zurücksetzen</i> wollen, müssen Sie "
 "die Funktion <i>Massen-Aufräumen</i> nutzen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1203
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1205
 msgid ""
 "In case you want to either map a state determined by a check to another "
 "state or want to rewrite the status detail of a check result, you can use "
@@ -32868,7 +32885,7 @@ msgstr ""
 "keine SNI Unterstützung wünschen, können sie es mit dieser Option "
 "deaktivieren."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:459
+#: ../cmk/gui/cee/plugins/wato/cmc.py:461
 msgid ""
 "In environments with a large number of hosts a single raw socket does not "
 "have enough buffer space to output the required ICMP bandwidth. For that "
@@ -32919,7 +32936,7 @@ msgstr ""
 "Dies wird auf dieser Seite gemacht. Jede Instanz wird durch ein graues "
 "Symbol repräsentiert, dass sich während der Synchronisation grün füllt."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:776
+#: ../cmk/gui/cee/plugins/wato/cmc.py:778
 msgid ""
 "In order to avoid large timeouts in case of oversized history logfiles the "
 "core limits the number of lines read from history logfiles. The limit is on "
@@ -32954,7 +32971,7 @@ msgstr ""
 "unteren Leveln. Wenn alle konfigurierten Level innerhalb einer Verbindung "
 "erreicht sind, wird der zugehörige Zustand gemeldet."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:341
+#: ../cmk/gui/cee/plugins/wato/cmc.py:343
 msgid ""
 "In order to keep the core simple, Check_MK pre-computes all transitions for "
 "all timeperiods in advance. Since that cannot be done until infinity you "
@@ -33023,7 +33040,7 @@ msgstr ""
 "empfohlen, die Update-Checks nicht öfter als einmal alle 10 Minuten "
 "durchzuführen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:318
+#: ../cmk/gui/cee/plugins/wato/cmc.py:320
 msgid ""
 "In order to speed up queries for historic data, the core keeps an in-memory "
 "cache of log file message. This number can be configured here. A larger "
@@ -33036,7 +33053,7 @@ msgstr ""
 "diese Zahl auf 0 setzen, werden die Zeilen aus bis zu einer Logdatei "
 "zeitweise im Speicher gehalten."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:990
+#: ../cmk/gui/cee/plugins/wato/cmc.py:992
 msgid "In relation to normal check interval"
 msgstr "Im Verhältnis zum normalen Checkintervall"
 
@@ -33073,7 +33090,7 @@ msgstr ""
 "sind. Mit dieser Einstellungen können Sie eine Interpretation einer "
 "bestimmten Einheit erzwingen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:725
+#: ../cmk/gui/cee/plugins/wato/cmc.py:727
 msgid ""
 "In the history file all events like notifications and alerts are saved. This "
 "file is being renamed and restarted on a regular basis, which can be "
@@ -33139,7 +33156,7 @@ msgstr ""
 msgid "In-memory area"
 msgstr "In-Memory Bereich"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:294
+#: ../cmk/gui/cee/plugins/wato/cmc.py:296
 msgid "In-memory cache for availability data"
 msgstr "Hauptspeicher-Cache für Verfügbarkeitsdaten"
 
@@ -33410,6 +33427,30 @@ msgstr "Unwirksame Regeln"
 msgid "Infections"
 msgstr "Infizierungen"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:83
+#, fuzzy
+#| msgid "DB Connections"
+msgid "InfluxDB Connection"
+msgstr "DB-Verbindungen"
+
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1442
+#, fuzzy
+#| msgid "DB Connections"
+msgid "InfluxDB Connections"
+msgstr "DB-Verbindungen"
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:131
+#, fuzzy
+#| msgid "Idle connections"
+msgid "InfluxDB connections"
+msgstr "Inaktive Verbindungen"
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:173
+#, fuzzy
+#| msgid "Exclude service groups"
+msgid "InfluxDB service rules"
+msgstr "Servicegruppen ausschließen"
+
 #: ../cmk/gui/plugins/views/mkeventd.py:980
 #: ../cmk/gui/plugins/views/painters.py:4571
 msgid "Info"
@@ -33438,7 +33479,7 @@ msgstr "Informationen, die im Rumpf der Email gezeigt werden sollen"
 msgid "Information to query"
 msgstr "Abzurufende Informationen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:607 ../cmk/gui/valuespec.py:6308
+#: ../cmk/gui/cee/plugins/wato/cmc.py:609 ../cmk/gui/valuespec.py:6308
 #: ../cmk/gui/plugins/visuals/filters.py:1592
 msgid "Informational"
 msgstr "Informell"
@@ -33470,7 +33511,7 @@ msgstr "Vererben vom Zeitbereich des Berichts (nur Reporting)"
 msgid "Inherited from "
 msgstr "Geerbt von "
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:389
+#: ../cmk/gui/cee/plugins/wato/cmc.py:391
 msgid "Initial Scheduling"
 msgstr "Erstmaliges Ausführen von Checks"
 
@@ -33787,7 +33828,7 @@ msgstr ""
 msgid "Integrate Nagios plugins"
 msgstr "Nagios-Plugins einbinden"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:378
+#: ../cmk/gui/plugins/wato/builtin_modules.py:379
 #, fuzzy
 #| msgid ""
 #| "Integrate [cms_active_checks#mrpe|custom nagios plugins] into the "
@@ -33804,7 +33845,7 @@ msgid "Integrate platforms using special agents, e.g. SAP R/3"
 msgstr "Integration von Plattformen mit speziellen Agenten, z.B. SAP R/3"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:201
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1383
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1384
 msgid "Integrate with VM, cloud or container platforms"
 msgstr "Integration mit VM-, Cloud- oder Container-Plattformen"
 
@@ -34701,6 +34742,12 @@ msgstr ""
 msgid "It is still in use by"
 msgstr "Noch in Verwendung von"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:191
+#, fuzzy
+#| msgid "It is still in use by"
+msgid "It is still in use by at least 1 rule in ruleset:"
+msgstr "Noch in Verwendung von"
+
 #: ../cmk/gui/wato/pages/rulesets.py:1990
 msgid "It's not allowed to use a leading \"!\" here."
 msgstr "Es ist nicht erlaubt, hier ein führendes \"!\" zu verwenden."
@@ -35198,7 +35245,7 @@ msgid "LDAP"
 msgstr "LDAP"
 
 #: ../cmk/gui/wato/pages/users.py:195
-#: ../cmk/gui/plugins/wato/builtin_modules.py:612
+#: ../cmk/gui/plugins/wato/builtin_modules.py:613
 msgid "LDAP & Active Directory"
 msgstr "LDAP & Active Directory"
 
@@ -36517,7 +36564,7 @@ msgstr "Nur eine Loginsitzung zur Zeit zulassen"
 msgid "Limit maximum number to"
 msgstr "Maximale Anzahl begrenzen auf"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:521
+#: ../cmk/gui/cee/plugins/wato/cmc.py:523
 msgid "Limit maximum number used cpus"
 msgstr "Maximale Anzahl genutzter CPUs begrenzen"
 
@@ -36538,7 +36585,7 @@ msgstr "Limitierung von Metadaten"
 msgid "Limit processed data"
 msgstr "Datenmenge begrenzen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:478
+#: ../cmk/gui/cee/plugins/wato/cmc.py:480
 msgid "Limit rate of PINGs"
 msgstr "PING-Rate begrenzen"
 
@@ -36766,7 +36813,7 @@ msgstr "Links zur Webseite, Dokumentation und Download von Checkmk"
 
 #: ../cmk/gui/cee/agent_bakery.py:51 ../cmk/gui/cee/agent_bakery.py:57
 #: ../cmk/gui/cee/agent_bakery.py:63
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1174
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1175
 msgid "Linux"
 msgstr "Linux"
 
@@ -36980,7 +37027,7 @@ msgstr ""
 msgid "Liveproxy Daemon"
 msgstr "Livestatus-Proxy-Daeamon"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:586 ../cmk/utils/werks.py:43
+#: ../cmk/gui/cee/plugins/wato/cmc.py:588 ../cmk/utils/werks.py:43
 msgid "Livestatus"
 msgstr "Livestatus"
 
@@ -37600,15 +37647,15 @@ msgstr "Logging"
 msgid "Logging Level"
 msgstr "Loglevel"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:650
+#: ../cmk/gui/cee/plugins/wato/cmc.py:652
 msgid "Logging of RRD creation"
 msgstr "Logging der Erzeugung von RRDs"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:561
+#: ../cmk/gui/cee/plugins/wato/cmc.py:563
 msgid "Logging of the core"
 msgstr "Logging des Kerns"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:629
+#: ../cmk/gui/cee/plugins/wato/cmc.py:631
 msgid "Logging of the notification mechanics"
 msgstr "Logging der Alarmierungslogik"
 
@@ -37760,11 +37807,11 @@ msgstr "Lookups/sek"
 msgid "Loop duration"
 msgstr "Dauer der Schleife"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:853
+#: ../cmk/gui/cee/plugins/wato/cmc.py:855
 msgid "Loose - Visible if at least one member is visible"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:844
+#: ../cmk/gui/cee/plugins/wato/cmc.py:846
 msgid "Loose - Visible if user is contact for the service or its host"
 msgstr ""
 
@@ -38530,7 +38577,7 @@ msgstr ""
 "%s für andere Mitglieder von Kontankgruppen sichtbar und nutzbar machen, zu "
 "denen der freigebende Benutzer nicht gehört."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:835
+#: ../cmk/gui/plugins/wato/builtin_modules.py:836
 msgid "Make backups of your whole site and restore previous backups."
 msgstr "Sichern Sie Ihre Instanzen und stellen diese wieder her."
 
@@ -38618,7 +38665,7 @@ msgstr "Manpage %s nicht gefunden."
 msgid "Manage"
 msgstr "Verwalten"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:307
+#: ../cmk/gui/plugins/wato/builtin_modules.py:308
 msgid "Manage Hard- and software inventory related rulesets"
 msgstr "Verwalten von Hard- und Softwareinventar-bezogenen Regelwerken"
 
@@ -38643,7 +38690,7 @@ msgstr ""
 msgid "Manage longer running tasks in the Checkmk GUI"
 msgstr "Länger laufende Prozesse der Checkmk-GUI verwalten"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:60
+#: ../cmk/gui/plugins/wato/builtin_modules.py:61
 msgid "Manage monitored hosts and services and the hosts' folder structure."
 msgstr "Hosts, Services und Ordnerstruktur verwalten"
 
@@ -38651,7 +38698,7 @@ msgstr "Hosts, Services und Ordnerstruktur verwalten"
 msgid "Manage the Dynamic configuration connections"
 msgstr "Verwalten der dynamischen Konfigurationsverbindungen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:554
+#: ../cmk/gui/plugins/wato/builtin_modules.py:555
 msgid "Manage users of the monitoring system."
 msgstr "Benutzer anlegen, ändern und löschen, Ändern von Passworten"
 
@@ -39301,8 +39348,9 @@ msgstr "Maximale Größe der größten Datei"
 msgid "Maximal size of smallest file"
 msgstr "Mazimale Größe der kleinsten Datei"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1464
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1520
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1466
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1519
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1578
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:139
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:186
 #: ../cmk/gui/cee/plugins/metrics/valuespecs.py:143
@@ -39442,27 +39490,27 @@ msgstr "Das maximale Cache-Alter muss größer als der Zeitraum sein."
 msgid "Maximum cache file age for clusters"
 msgstr "Maximales Cache-Dateialter für Cluster"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:208
+#: ../cmk/gui/cee/plugins/wato/cmc.py:210
 msgid "Maximum concurrent Checkmk checkers"
 msgstr "Maximale gleichzeitige Checkmk-Checkers"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:231
+#: ../cmk/gui/cee/plugins/wato/cmc.py:233
 msgid "Maximum concurrent Checkmk checks (deprecated)"
 msgstr "Maximale gleichzeitige Checkmk-Checks (deprecated)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:185
+#: ../cmk/gui/cee/plugins/wato/cmc.py:187
 msgid "Maximum concurrent Checkmk fetchers"
 msgstr "Maximale gleichzeitige Checkmk Fetcher"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:139
+#: ../cmk/gui/cee/plugins/wato/cmc.py:141
 msgid "Maximum concurrent Livestatus connections"
 msgstr "Maximale gleichzeitige Livestatusverbindungen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:115
+#: ../cmk/gui/cee/plugins/wato/cmc.py:117
 msgid "Maximum concurrent Real-Time checks"
 msgstr "Maximalzahl gleichzeitiger Echtzeitchecks"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:90
+#: ../cmk/gui/cee/plugins/wato/cmc.py:92
 msgid "Maximum concurrent active checks"
 msgstr "Maximalzahl gleichzeiger aktiver Checks"
 
@@ -39545,7 +39593,7 @@ msgstr ""
 msgid "Maximum number of bytes to receive"
 msgstr "Maximale Anazhl von Bytes (Empfang)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:317
+#: ../cmk/gui/cee/plugins/wato/cmc.py:319
 msgid "Maximum number of cached log messages"
 msgstr "Maximale Anzahl von gecachten Logmeldungen"
 
@@ -39589,7 +39637,7 @@ msgstr "Maximale Anzahl von Meldungen"
 msgid "Maximum number of nodes exceeded %d/%d"
 msgstr "Maximale Anzahl von Knoten überschritten %d/%d"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:775
+#: ../cmk/gui/cee/plugins/wato/cmc.py:777
 msgid "Maximum number of parsed lines per log file"
 msgstr "Maximale Anzahl Zeilen, die pro Datei gelesen werden"
 
@@ -40302,8 +40350,9 @@ msgstr "Minimale Größe der größten Datei"
 msgid "Minimal size of smallest file"
 msgstr "Minimale Größe der kleinsten Datei"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1463
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1519
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1465
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1518
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1577
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:138
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:186
 #: ../cmk/gui/cee/plugins/metrics/valuespecs.py:144
@@ -40939,7 +40988,7 @@ msgstr "Überwachte Services"
 msgid "Monitoring"
 msgstr "Monitoring"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:59
+#: ../cmk/gui/cee/plugins/wato/cmc.py:61
 msgid "Monitoring Core"
 msgstr "Kern"
 
@@ -40972,7 +41021,7 @@ msgid "Monitoring host this database should be mapped to"
 msgstr "Monitoring-Host, dem diese Datenbank zugeordnet werden soll"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:343
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1418
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1419
 msgid "Monitoring of applications such as processes, services or databases"
 msgstr "Überwachung von Anwendungen wie Prozesse, Dienste, Datenbanken"
 
@@ -41325,7 +41374,7 @@ msgstr "Multipathing"
 msgid "Multiple Hosts: Number of successful results"
 msgstr "Mehrfache Host: Anzahl der erfolgreichen Antworten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1511
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1569
 msgid "Multiple RRDs per host/service (compatible with PNP4Nagios)"
 msgstr "Mehrfache RRDs pro Host/Service (kompatibel mit PNP4Nagios)"
 
@@ -42235,7 +42284,7 @@ msgid "New"
 msgstr "Neu"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:285
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:332
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:340
 #, python-format
 msgid "New %s"
 msgstr "Neu %s"
@@ -42510,7 +42559,7 @@ msgstr "Befehle in dieser Ansicht nicht möglich"
 msgid "No configured rules are affected"
 msgstr "Es sind keine konfigurierten Regeln betroffen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1419
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1421
 msgid "No connections defined"
 msgstr "Keine Verbindungen definiert"
 
@@ -42677,7 +42726,7 @@ msgstr "Keine Schwellwerte"
 msgid "No levels set"
 msgstr "Keine Schwellwerte"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:654
+#: ../cmk/gui/cee/plugins/wato/cmc.py:656
 msgid "No logging"
 msgstr "Kein Loggen"
 
@@ -43171,7 +43220,7 @@ msgstr ""
 "der den summierten Datenverkehr der Mitglieder darstellt.  So gruppierte "
 "Schnittstellen tauchen nicht mehr einzeln als Services auf."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1754
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1812
 msgid ""
 "Normally the downtime has a fixed time range starting from the \"start time"
 "\" and ending after the expired duration (start time + duration). You may "
@@ -43187,7 +43236,7 @@ msgstr ""
 "ein Problemzustand erkannt wird. Die Wartung dauert so lange, wie Sie sie "
 "hier einstellen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:706
+#: ../cmk/gui/cee/plugins/wato/cmc.py:708
 msgid ""
 "Normally the resolution of the daemon logfile is in seconds. This option "
 "enable micro second precision."
@@ -43475,7 +43524,7 @@ msgstr "Es wurde nichts protokolliert"
 msgid "Nothing was changed."
 msgstr "Es hat sich nichts geändert."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:606
+#: ../cmk/gui/cee/plugins/wato/cmc.py:608
 msgid "Notice"
 msgstr "Hinweise"
 
@@ -43617,7 +43666,7 @@ msgstr "Alarmierungsskripte"
 msgid "Notification sort order for bulk notifications"
 msgstr "Sortierungsreihenfolge für Sammelalarme"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:588
+#: ../cmk/gui/cee/plugins/wato/cmc.py:590
 msgid "Notification system"
 msgstr "Alarmierungssystem"
 
@@ -43631,7 +43680,7 @@ msgstr "Zeitperiode für Alarme"
 #: ../cmk/gui/wato/pages/notifications.py:1180
 #: ../cmk/gui/wato/user_profile.py:567
 #: ../cmk/gui/plugins/wato/globals_notification.py:40
-#: ../cmk/gui/plugins/wato/builtin_modules.py:717
+#: ../cmk/gui/plugins/wato/builtin_modules.py:718
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3120
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3135
 #: ../cmk/gui/plugins/wato/notifications.py:275
@@ -43819,7 +43868,7 @@ msgstr "Anzahl von Deadlocks/Sek."
 msgid "Number of Documents"
 msgstr "Anzahl von Dokumenten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:457
+#: ../cmk/gui/cee/plugins/wato/cmc.py:459
 msgid "Number of ICMP sockets"
 msgstr "Anzahl von ICMP sockets"
 
@@ -44005,7 +44054,7 @@ msgstr "Anzahl von laufenden Sitzungen"
 msgid "Number of currently running sessions"
 msgstr "Anzahl der aktuell laufenden Sitzungen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1566
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1624
 msgid "Number of data points"
 msgstr "Anzahl der Datenpunkte"
 
@@ -44034,7 +44083,7 @@ msgstr "Anzahl der verworfenen Bits oder Bytes pro Sek."
 msgid "Number of elements to show in Quicksearch"
 msgstr "Anzahl von Elementen zur Anzeige in der Schnellsuche"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1042
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1044
 msgid "Number of entries"
 msgstr "Anzahl von Einträgen"
 
@@ -44435,7 +44484,7 @@ msgstr "Anzahl der Ersatzlplatten"
 msgid "Number of standby paths"
 msgstr "Anzahl von Pfaden im Standby"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1558
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1616
 msgid "Number of steps aggregated into one data point"
 msgstr "Anzahl der Schritte, die in einem Datenpunkt aggregiert sind"
 
@@ -44572,7 +44621,7 @@ msgstr "OFFLINE"
 #: ../cmk/gui/sites.py:398 ../cmk/gui/bi.py:515 ../cmk/gui/availability.py:147
 #: ../cmk/gui/availability.py:163 ../cmk/gui/availability.py:414
 #: ../cmk/gui/availability.py:425 ../cmk/gui/availability.py:436
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1164
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1166
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:208
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:97
 #: ../cmk/gui/cee/plugins/reporting/availability.py:385
@@ -44948,11 +44997,11 @@ msgstr "Älteste zuerst"
 msgid "Oldest message age"
 msgstr "Älteste Nachricht Alter"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:444
+#: ../cmk/gui/cee/plugins/wato/cmc.py:446
 msgid "Omit ICMP payload"
 msgstr "ICMP-Payload weglassen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:445
+#: ../cmk/gui/cee/plugins/wato/cmc.py:447
 msgid "Omit payload in ICMP packets"
 msgstr "ICMP-Pakete ohne Payload erzeugen"
 
@@ -45054,7 +45103,7 @@ msgstr ""
 msgid "One Month"
 msgstr "1 Monat"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1509
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1567
 msgid "One RRD per host/service (saves disk IO, only with CMC)"
 msgstr "Eine RRD pro Host/Service (spart Disk I/O, nur mit CMC)"
 
@@ -45197,7 +45246,7 @@ msgstr "Nur manuell ausführen"
 msgid "Only execute plugins with the following extensions:"
 msgstr "Nur Plugins mit den Folgenden Dateiendungen ausführen:"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1053
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1055
 msgid "Only fetch specific OIDs"
 msgstr "Nur bestimmte OIDs holen"
 
@@ -45597,7 +45646,7 @@ msgstr "Optionale Anmeldung (falls notwendig)"
 msgid "Optional parameters"
 msgstr "Optionale Parameter"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1391
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1393
 msgid "Optional variable prefix"
 msgstr "Optionaler Variablenpräfix"
 
@@ -45769,6 +45818,12 @@ msgstr "Oracle Tablespaces"
 msgid "Order"
 msgstr "Ordnung"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:315
+#, fuzzy
+#| msgid "Organization"
+msgid "Organisation"
+msgstr "Organisation"
+
 #: ../cmk/gui/wato/mkeventd.py:2712
 msgid "Organization"
 msgstr "Organisation"
@@ -45777,12 +45832,12 @@ msgstr "Organisation"
 msgid "Organization Name"
 msgstr "Name der Organisation"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:449
+#: ../cmk/gui/plugins/wato/builtin_modules.py:450
 msgid "Organize your hosts in groups independent of the tree structure."
 msgstr ""
 "Organisieren Sie Ihre Hosts unabhängig von der Baumstruktur in Gruppen."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:519
+#: ../cmk/gui/plugins/wato/builtin_modules.py:520
 msgid "Organize your services in groups"
 msgstr "Organisieren Sie Ihre Services in Gruppen"
 
@@ -45827,7 +45882,7 @@ msgstr "Andere"
 msgid "Other Dashboards"
 msgstr "Andere Übersichten"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:366
+#: ../cmk/gui/plugins/wato/builtin_modules.py:367
 msgid "Other Services"
 msgstr "Andere Services"
 
@@ -45850,7 +45905,7 @@ msgstr "Andere Hosts"
 
 #: ../cmk/gui/watolib/search.py:400
 #: ../cmk/gui/plugins/wato/datasource_programs.py:212
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1406
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1407
 msgid "Other integrations"
 msgstr "Andere Integrationen"
 
@@ -45867,7 +45922,7 @@ msgstr "Andere Latenz"
 #: ../cmk/gui/wato/pages/download_agents.py:85
 #: ../cmk/gui/wato/pages/download_agents.py:195
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:457
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1266
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1267
 msgid "Other operating systems"
 msgstr "Andere Betriebssysteme"
 
@@ -46304,7 +46359,7 @@ msgstr "PING und Host Check-Parameter"
 msgid "PLL lock voltages by freqency"
 msgstr "PLL Verriegelungsspannung nach Frequenz"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1330
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1332
 msgid ""
 "PNP4Nagios needs meta information about hosts and services. These "
 "information is stored in XML files. Updating these files for each new check "
@@ -46322,7 +46377,7 @@ msgstr ""
 "im Graphen angezeigt werden. Ein Wert von <tt>0</tt> schaltet die "
 "Verzögerung ab."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1353
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1355
 msgid ""
 "PNP4Nagios needs meta information about hosts and services. These "
 "information is stored in XML files. Updating these files for on restart or "
@@ -46645,7 +46700,7 @@ msgstr "Auslastung paralleler Verbindungen"
 msgid "Parallel pings to send"
 msgstr "Parallel zu sendende Pings"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:518
+#: ../cmk/gui/cee/plugins/wato/cmc.py:520
 msgid "Parallelize core config creation"
 msgstr "Parallelisiere die Erzeugung der Kernkonfiguration"
 
@@ -46907,7 +46962,7 @@ msgstr "Passwort:"
 
 #: ../cmk/gui/wato/pages/password_store.py:69
 #: ../cmk/gui/wato/pages/password_store.py:72
-#: ../cmk/gui/plugins/wato/builtin_modules.py:858
+#: ../cmk/gui/plugins/wato/builtin_modules.py:859
 msgid "Passwords"
 msgstr "Passworte"
 
@@ -46972,7 +47027,7 @@ msgstr "Pfade"
 msgid "Pattern"
 msgstr "Muster"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1215
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1217
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:214
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:62
 #: ../cmk/gui/plugins/wato/check_parameters/systemd_services_summary.py:55
@@ -47332,7 +47387,7 @@ msgstr "Prozentsatz von maximal verfügbaren Verbindungen"
 msgid "Percentage of maximum available idle connections"
 msgstr "Prozentualer Anteil der maximal verfügbaren Leerlaufverbindungen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1545
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1603
 msgid "Percentage of points below which an interval is <i>unknown</i>. "
 msgstr ""
 "Prozentsatz an Punkten unterhalb von denen ein Intervall als <i>unbekannt</"
@@ -48282,6 +48337,12 @@ msgid ""
 "more details."
 msgstr ""
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:109
+msgid ""
+"Please remove entry \"All sites\" from selected sites, if you want to select "
+"one or multiple sites."
+msgstr ""
+
 #: ../cmk/gui/valuespec.py:5458 ../cmk/gui/valuespec.py:5463
 msgid "Please select a file."
 msgstr "Bitte wählen Sie eine Datei."
@@ -48324,7 +48385,7 @@ msgstr ""
 msgid "Please select the destination folder"
 msgstr "Bitte Ziel-Ordner angeben"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1577
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1635
 msgid ""
 "Please select the levels of aggregations. The RRD will automatically "
 "compress metrics as they get older in order to create a good compromise "
@@ -48796,6 +48857,12 @@ msgstr "Portindex oder 'Total'"
 msgid "Port number"
 msgstr "Portnummer"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:294
+#, fuzzy
+#| msgid "Port number for HTTPS connection to vSphere"
+msgid "Port number for HTTPS connection to InfluxDB."
+msgstr "Portnummer für HTTPS-Verbindung zu vSphere"
+
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1042
 msgid "Port number for HTTPS connection to vSphere"
 msgstr "Portnummer für HTTPS-Verbindung zu vSphere"
@@ -49010,7 +49077,7 @@ msgstr "Vordefinierte Bedingung: <a href=\"%s\">%s</a>"
 #: ../cmk/gui/wato/pages/predefined_conditions.py:94
 #: ../cmk/gui/wato/pages/predefined_conditions.py:97
 #: ../cmk/gui/wato/pages/rulesets.py:525 ../cmk/gui/wato/pages/rulesets.py:1664
-#: ../cmk/gui/plugins/wato/builtin_modules.py:225
+#: ../cmk/gui/plugins/wato/builtin_modules.py:226
 msgid "Predefined conditions"
 msgstr "Vordefinierte Bedingungen"
 
@@ -50140,11 +50207,11 @@ msgstr "RPC-Backlog"
 msgid "RPM packaging"
 msgstr "RPM-Paketierung"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1575
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1633
 msgid "RRA configuration"
 msgstr "RRA-Konfiguration"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1498
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1556
 #, python-format
 msgid ""
 "RRA entry number %d: the number of steps must be greater than that of the "
@@ -50187,11 +50254,11 @@ msgstr ""
 "oder Jahr spezifizieren, sind dynamisch auf die entsprechenden "
 "Kalenderzeiträume zutreffend."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:590
+#: ../cmk/gui/cee/plugins/wato/cmc.py:592
 msgid "RRD processing"
 msgstr "RRD-Verarbeitung"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1506
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1564
 msgid "RRD storage format"
 msgstr "RRD-Speicherformat"
 
@@ -50450,7 +50517,7 @@ msgstr ""
 "Checkmk] in unserem Benutzerhandbuch."
 
 #: ../cmk/gui/wato/pages/read_only.py:92
-#: ../cmk/gui/plugins/wato/builtin_modules.py:155
+#: ../cmk/gui/plugins/wato/builtin_modules.py:156
 msgid "Read only mode"
 msgstr "Schreibschutz"
 
@@ -50718,7 +50785,7 @@ msgstr "Recovery-Bereich"
 msgid "Recurring"
 msgstr "Wiederkehren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1718
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1776
 #, python-format
 msgid "Recurring downtimes for %s"
 msgstr "Zyklische Wartungszeiten für %s"
@@ -50788,6 +50855,12 @@ msgstr "Referer"
 msgid "Refine search"
 msgstr "Suche verfeinern"
 
+#: ../cmk/gui/wato/pages/services.py:1485 ../cmk/gui/watolib/services.py:602
+#, fuzzy
+#| msgid "Refresh interval"
+msgid "Refresh"
+msgstr "Aktualisierungsintervall"
+
 #: ../cmk/gui/watolib/bulk_discovery.py:86
 msgid "Refresh all services (tabula rasa), add new host labels"
 msgstr "Alle Services auffrischen (tabula rasa), neue Hostlabel hinzufügen"
@@ -50834,7 +50907,7 @@ msgstr ""
 "Dies vermeidet Fehlalarme während Zeiten, in denen die vorhergesagten "
 "Schwellen sehr niedrig sein würden."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:752
+#: ../cmk/gui/cee/plugins/wato/cmc.py:754
 msgid ""
 "Regardless of the setting <i>Rotation of history log file</i> a rotation of "
 "the log file will be forced whenever its size exceeds the limit that is "
@@ -51021,8 +51094,8 @@ msgstr "Zurückgewiesene Sitzungen"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:325
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:780
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:999
-#: ../cmk/gui/pagetypes.py:1351 ../cmk/gui/notify.py:161
-#: ../cmk/gui/plugins/wato/background_job.py:126
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:158 ../cmk/gui/pagetypes.py:1351
+#: ../cmk/gui/notify.py:161 ../cmk/gui/plugins/wato/background_job.py:126
 #: ../cmk/gui/plugins/views/availability.py:398
 msgid "Related"
 msgstr "Zugehörig"
@@ -51132,7 +51205,7 @@ msgstr "Verbleibende Tage bis zum Ablauf der Windows-Lizenz"
 msgid "Remaining supply"
 msgstr "Verbleibendes Belieferung"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1207
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1209
 msgid "Remap states"
 msgstr "Zustände umschreiben"
 
@@ -51359,7 +51432,7 @@ msgstr "Das Regelpaket %s steht nicht mehr für den MKP-Export zur Verfügung"
 msgid "Removed tag group %s (%s)"
 msgstr "Die Tag-Gruppe %s (%s) wurde entfernt."
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:232
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:240
 #, python-format
 msgid "Removed the %s '%s'"
 msgstr "%s '%s' gelöscht"
@@ -51493,7 +51566,7 @@ msgstr "Wiederhole Abfrage - mehr Ergebnisse zulassen"
 msgid "Repeat query without limit."
 msgstr "Wiederhole Abfrage ohne Limit."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1739
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1797
 msgid "Repeat this downtime"
 msgstr "Diese Wartungszeit wiederholen"
 
@@ -51544,7 +51617,7 @@ msgstr ""
 msgid "Replace umlauts like \"&uuml;\" with \"ue\""
 msgstr "Umlaute wie \"&uuml;\" durch \"ue\" ersetzen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1220
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1222
 msgid "Replace with"
 msgstr "Ersetzen durch"
 
@@ -52297,7 +52370,7 @@ msgid "Roles"
 msgstr "Rollen"
 
 #: ../cmk/gui/wato/pages/roles.py:110
-#: ../cmk/gui/plugins/wato/builtin_modules.py:577
+#: ../cmk/gui/plugins/wato/builtin_modules.py:578
 msgid "Roles & permissions"
 msgstr "Rollen & Berechtigungen"
 
@@ -52305,19 +52378,19 @@ msgstr "Rollen & Berechtigungen"
 msgid "Room temperature (external thermal sensors)"
 msgstr "Raumtemperatur (externe thermische Sensoren)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:731
+#: ../cmk/gui/cee/plugins/wato/cmc.py:733
 msgid "Rotate every day at 00:00 local time"
 msgstr "Jeden Tag um 00:00 Ortszeit rotieren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:730
+#: ../cmk/gui/cee/plugins/wato/cmc.py:732
 msgid "Rotate every full hour"
 msgstr "Jede volle Stunde rotieren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:732
+#: ../cmk/gui/cee/plugins/wato/cmc.py:734
 msgid "Rotate every monday at 00:00 local time"
 msgstr "Jeden Montag um 00:00 Ortszeit rotieren"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:729
+#: ../cmk/gui/cee/plugins/wato/cmc.py:731
 msgid "Rotate once a minute (only for testing!)"
 msgstr "Jede Minute rotieren (nur zu Testzwecken)"
 
@@ -52490,7 +52563,7 @@ msgid "Rule packs"
 msgstr "Regelpakete"
 
 #: ../cmk/gui/wato/pages/rulesets.py:535
-#: ../cmk/gui/plugins/wato/builtin_modules.py:190
+#: ../cmk/gui/plugins/wato/builtin_modules.py:191
 msgid "Rule search"
 msgstr "Regelsuche"
 
@@ -52552,7 +52625,7 @@ msgid "Rules for automatic execution of scripts upon alerts"
 msgstr ""
 "Regeln für die automatische Ausführung von Skripten im Falle von Vorfällen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:729
+#: ../cmk/gui/plugins/wato/builtin_modules.py:730
 msgid "Rules for the notification of contacts about host and service problems"
 msgstr ""
 "Regeln für die Alarmierung von Kontakten über Host- und Serviceprobleme"
@@ -53104,7 +53177,7 @@ msgstr "SNMP-MIBs für Trap-Übersetzung"
 msgid "SNMP Management Board"
 msgstr "SNMP Management Board"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1022
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1024
 msgid "SNMP check for EMC Isilon quotas"
 msgstr "SNMP Check für EMC Isilon Quotas"
 
@@ -53125,19 +53198,19 @@ msgstr "SNMP-Zugangsdaten"
 msgid "SNMP credentials of monitored hosts"
 msgstr "SNMP-Zugangsdaten von überwachten Hosts"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1021
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1023
 msgid "SNMP interface check for LANCOM devices"
 msgstr "SNMP-Portüberwachung von LANCOM-Geräten"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1018
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1020
 msgid "SNMP interface check for TP-Link Switches"
 msgstr "SNMP-Portüberwachung von TP-Link-Switches"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1020
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1022
 msgid "SNMP interface check with 32 bit counters (v1)"
 msgstr "SNMP Portüberwachung mit 32-Bit-Zählern (v1)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1019
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1021
 msgid "SNMP interface check with 64 bit counters (using v2c)"
 msgstr "SNMP Portüberwachung mit 64-Bit-Zählern (verwendet v2c)"
 
@@ -53153,7 +53226,7 @@ msgstr ""
 "mit dieser Regelkette die Verwendung von SNMPv1 für diese Management Boards "
 "festgelegt werden."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1336
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1337
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4223
 msgid "SNMP rules"
 msgstr "SNMP Regeln"
@@ -53272,6 +53345,7 @@ msgid "SSL certificate validation"
 msgstr "SSL Zertifikats Überprüfung"
 
 #: ../cmk/gui/cee/plugins/wato/ntop.py:85
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:303
 #: ../cmk/gui/plugins/wato/datasource_programs.py:377
 #: ../cmk/gui/plugins/wato/datasource_programs.py:430
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1774
@@ -53483,7 +53557,8 @@ msgstr "Scheduled Jobs"
 msgid "Scheduled downtime"
 msgstr "Wartungszeit"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1466
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1468
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1521
 msgid "Scheduled downtime depth"
 msgstr "Geplante Ausfallzeittiefe"
 
@@ -53601,7 +53676,7 @@ msgstr "Suche %s"
 msgid "Search all entries one level below the base DN"
 msgstr "Alle Einträge eine Ebene unter Basis DN suchen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:202
+#: ../cmk/gui/plugins/wato/builtin_modules.py:203
 msgid "Search all rules and rulesets"
 msgstr "Suche nach allen Regeln und  Regelketten"
 
@@ -53866,6 +53941,7 @@ msgstr "Sekundäres Gerät"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:82
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:92
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:54
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:309
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1861
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:262
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1523
@@ -54014,7 +54090,7 @@ msgstr "Ereignisse in Seitenleisten Element 'Übersicht' sehen"
 msgid "See events not related to a known host"
 msgstr "Ereignisse sehen, die nicht einem bekannten Host zugeordnet sind"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:975
+#: ../cmk/gui/plugins/wato/builtin_modules.py:976
 msgid "See hints how to improve your Checkmk installation"
 msgstr "Hinweise zur Verbesserung der Checkmk-Installation sehen"
 
@@ -54082,6 +54158,12 @@ msgstr "Schnittstellentypen auswählen"
 #: ../cmk/gui/plugins/metrics/utils.py:1130
 msgid "Select metric"
 msgstr "Wähle Metrik"
+
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1512
+#, fuzzy
+#| msgid "Send metrics to Graphite / InfluxDB"
+msgid "Select metrics to send to InfluxDB"
+msgstr "Metriken zu Graphite / InfluxDB senden"
 
 #: ../cmk/gui/plugins/wato/notifications.py:1313
 msgid "Select sound"
@@ -54243,12 +54325,18 @@ msgstr "Ereignisse an lokale Eventkonsole über Unix Socket senden"
 msgid "Send events to remote syslog host"
 msgstr "Ereignisse an entfernten syslog-Host senden"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1412
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1414
 msgid "Send metrics to Graphite / InfluxDB"
 msgstr "Metriken zu Graphite / InfluxDB senden"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1457
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1459
 msgid "Send metrics to Graphite/InfluxDB"
+msgstr "Metriken zu Graphite / InfluxDB senden"
+
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1494
+#, fuzzy
+#| msgid "Send metrics to Graphite/InfluxDB"
+msgid "Send metrics to InfluxDB"
 msgstr "Metriken zu Graphite / InfluxDB senden"
 
 #: ../cmk/gui/mkeventd.py:142
@@ -54280,7 +54368,7 @@ msgstr "Senden der Anfrage"
 msgid "Send seperate notifications to every recipient"
 msgstr "Einzelne Alarme für jeden Empfänger versenden"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:492
+#: ../cmk/gui/cee/plugins/wato/cmc.py:494
 msgid "Send that many PINGs in one bulk:"
 msgstr "Sende viele PINGs auf einmal"
 
@@ -54651,7 +54739,7 @@ msgstr "Servicecheck Periode"
 msgid "Service check rate"
 msgstr "Servicecheckrate"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1141
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1143
 msgid "Service check timeout (Microcore)"
 msgstr "Servicecheck Timeout (Microcore)"
 
@@ -54791,7 +54879,7 @@ msgid "Service graphs of host"
 msgstr "Servicesgraphen von Host"
 
 #: ../cmk/gui/wato/pages/groups.py:305 ../cmk/gui/wato/pages/groups.py:333
-#: ../cmk/gui/plugins/wato/builtin_modules.py:507
+#: ../cmk/gui/plugins/wato/builtin_modules.py:508
 #: ../cmk/gui/plugins/sidebar/groups.py:67
 #: ../cmk/gui/plugins/views/builtin.py:1930
 msgid "Service groups"
@@ -54839,8 +54927,8 @@ msgid "Service limits"
 msgstr "Servicelimits"
 
 #: ../cmk/gui/watolib/search.py:401
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1036
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1048
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1037
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1049
 #: ../cmk/gui/plugins/wato/utils/__init__.py:718
 msgid "Service monitoring rules"
 msgstr "Regeln zur Serviceüberwachung"
@@ -54973,7 +55061,7 @@ msgstr "Service Status Prozentwert"
 msgid "Service state percentage display options"
 msgstr "Anzeigeoptionen für Service Status Prozentwert"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1161
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1163
 msgid "Service state translation"
 msgstr "Übersetzen von Service-Zuständen"
 
@@ -55046,7 +55134,7 @@ msgstr "Servicelevel"
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/wato/pages/rulesets.py:766 ../cmk/gui/wato/pages/rulesets.py:1833
 #: ../cmk/gui/wato/pages/services.py:1288 ../cmk/gui/mobile.py:150
-#: ../cmk/gui/views.py:1362 ../cmk/gui/cee/plugins/wato/cmc.py:841
+#: ../cmk/gui/views.py:1362 ../cmk/gui/cee/plugins/wato/cmc.py:843
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:614
 #: ../cmk/gui/plugins/wato/datasource_programs.py:593
 #: ../cmk/gui/plugins/wato/datasource_programs.py:765
@@ -55472,7 +55560,7 @@ msgstr "Zustand setzen auf"
 msgid "Set states of IPMI sensor status texts"
 msgstr "Lege Checkstatus von IPMI-Sensorstates fest"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:167
+#: ../cmk/gui/plugins/wato/builtin_modules.py:168
 msgid ""
 "Set the Checkmk configuration interface to read only mode for maintenance."
 msgstr ""
@@ -55488,6 +55576,12 @@ msgid "Set the according numbers to 0 if you want to disable alerting."
 msgstr ""
 "Bitte setzen Sie die Zahlen für die Schwellwerte auf 0, um diese jeweils zu "
 "deaktivieren."
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:322
+#, fuzzy
+#| msgid "Use the status of the service..."
+msgid "Set the bucket of the InfluxDB server."
+msgstr "Den Zustand verwenden von Service..."
 
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1476
 msgid ""
@@ -55535,6 +55629,12 @@ msgid ""
 msgstr ""
 "Setze den Monitoring-Status von Aufgaben, die nicht aktiviert sind (z.B. "
 "weil sie nach der Erkennung deaktiviert wurden)."
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:316
+#, fuzzy
+#| msgid "Use the status of the service..."
+msgid "Set the organisation of the InfluxDB server."
+msgstr "Den Zustand verwenden von Service..."
 
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:183
 msgid ""
@@ -55705,7 +55805,7 @@ msgstr "Einstellungen für die Verbindungen zu Checkmk/SNMP Agenten"
 msgid "Settings for Parent Scan"
 msgstr "Einstellungen für Parent Scan"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:971
+#: ../cmk/gui/cee/plugins/wato/cmc.py:973
 msgid "Settings for host checks via Smart PING"
 msgstr "Einstellungen für die Hostchecks via Smart-PING"
 
@@ -55755,8 +55855,8 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:328
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:783
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1002
-#: ../cmk/gui/cee/ntop/pages.py:212 ../cmk/gui/notify.py:164
-#: ../cmk/gui/plugins/wato/background_job.py:129
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:161 ../cmk/gui/cee/ntop/pages.py:212
+#: ../cmk/gui/notify.py:164 ../cmk/gui/plugins/wato/background_job.py:129
 #: ../cmk/gui/plugins/sidebar/wato.py:131
 #: ../cmk/gui/plugins/sidebar/wato.py:162 ../cmk/utils/werks.py:38
 msgid "Setup"
@@ -56814,6 +56914,12 @@ msgstr "Instanzübersicht"
 msgid "Site restore"
 msgstr "Wiederherstellung der Instanz"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:90
+#, fuzzy
+#| msgid "Site icon"
+msgid "Site restriction"
+msgstr "Instanz-Symbol"
+
 #: ../cmk/gui/wato/pages/global_settings.py:364
 msgid "Site setting and global setting are identical."
 msgstr "Die Instanz-Einstellungen und die globalen Einstellungen sind gleich."
@@ -56848,6 +56954,7 @@ msgstr "Instanzname"
 #: ../cmk/gui/wato/pages/global_settings.py:427
 #: ../cmk/gui/wato/pages/activate_changes.py:105
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:62
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:219
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:450
 msgid "Sites"
 msgstr "Instanzen"
@@ -57058,7 +57165,7 @@ msgstr "Kleinste Dateigröße unter"
 msgid "Smart PING (only with Checkmk Micro Core)"
 msgstr "Smart-PING (nur mit Checkmk Micro Core)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:973
+#: ../cmk/gui/cee/plugins/wato/cmc.py:975
 msgid ""
 "Smart PING is the default method for host checks when using the Check_MK "
 "Micro Core. The Core sends out ICMP echo requests (PING) at the rate "
@@ -57075,7 +57182,7 @@ msgstr ""
 msgid "Smarthosts"
 msgstr "Smarthosts"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:593
+#: ../cmk/gui/cee/plugins/wato/cmc.py:595
 msgid "Smartping"
 msgstr "Smartping"
 
@@ -57220,7 +57327,7 @@ msgstr ""
 "Einige Hosts senden Text mit nicht-ASCII Zeichen. Check_MK erwartet immer "
 "UTF-8. Andere Kodierungen können Sie hier einstellen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:480
+#: ../cmk/gui/cee/plugins/wato/cmc.py:482
 msgid ""
 "Some firewalls are not capable of dealing with a few thousand PING packets "
 "in one millisecond. With this setting you can force a small wait time "
@@ -57269,7 +57376,7 @@ msgstr ""
 "<i>some remaining</i>. Hier können Sie für diese Situtation einen Status "
 "definieren."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:471
+#: ../cmk/gui/cee/plugins/wato/cmc.py:473
 msgid ""
 "Some routers/firewalls send a TCP RST for a host which is known to be down, "
 "using the source IP of the host in question. Enabling this flag prevents "
@@ -57898,6 +58005,10 @@ msgstr "Spezifizieren Sie Zuordnungen von Remote-IPs zu Clusternamen."
 msgid "Specify matching conditions"
 msgstr "Übereinstimmende Bedingungen spezifizieren"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:91
+msgid "Specify one, multiple or all sites this connection should run on."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:71
 msgid "Specify queue names that the rule should apply to"
 msgstr "Geben Sie die Namen der Schlangen an, auf die diese Regel greifen soll"
@@ -57912,7 +58023,7 @@ msgstr ""
 msgid "Specify the LED, for example 'Rack Unit 1 0'."
 msgstr "Geben Sie die LED an, z.B. 'Rack Unit 1 0'."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1113
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1115
 msgid ""
 "Specify the UDP port to listen on for Real-Time Check packets. It needs to "
 "match the port configured in the <a href=\"wato.py?"
@@ -58087,6 +58198,12 @@ msgid ""
 msgstr ""
 "Geben Sie die Schwellwerte für den belegten Speicher an. Der belegte "
 "Speicher besteht aus verwendetem und vom Kernel reserviertem Speicher."
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:288
+#, fuzzy
+#| msgid "Specify the protocol used to connect to the management board."
+msgid "Specify the token to be used to connect to InfluxDB."
+msgstr "Bestimmen Sie das Protokoll für die Verbindung zum Management-Board."
 
 #: ../cmk/gui/plugins/wato/check_parameters/db2_backup.py:37
 msgid "Specify time since last successful backup"
@@ -58476,7 +58593,7 @@ msgstr "Aktualisierung der Website starten: %s"
 msgid "Starting up"
 msgstr "Starting up"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1038
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1040
 msgid "Starting with entry"
 msgstr "Beginnend beim Eintrage"
 
@@ -58494,7 +58611,8 @@ msgstr "Anfänglicher Überschuss im gemeinsamen Pool"
 #: ../cmk/gui/wato/pages/notifications.py:713
 #: ../cmk/gui/wato/pages/notifications.py:716 ../cmk/gui/wato/mkeventd.py:382
 #: ../cmk/gui/wato/mkeventd.py:1925 ../cmk/gui/wato/mkeventd.py:1943
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1465
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1467
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1520
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1186
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:204
 #: ../cmk/gui/cee/plugins/reporting/availability.py:125
@@ -58936,7 +59054,7 @@ msgstr "Status bei hartem Schreibefehler"
 msgid "State or Province Name"
 msgstr "Staat oder Provinz"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:366
+#: ../cmk/gui/cee/plugins/wato/cmc.py:368
 msgid "State retention interval"
 msgstr "Intervall für Statusspeicherung"
 
@@ -59547,7 +59665,7 @@ msgstr "Schritt"
 msgid "Step %d"
 msgstr "Schritt %d"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1529
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1587
 msgid "Step (precision)"
 msgstr "Schritt (Präzision)"
 
@@ -59672,7 +59790,7 @@ msgstr "Speicher, Dateisysteme und Dateien"
 msgid "Store"
 msgstr "Store"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:870
+#: ../cmk/gui/plugins/wato/builtin_modules.py:871
 msgid "Store and share passwords for later use in checks."
 msgstr "Passworte für Checks an zentraler Stelle speichern"
 
@@ -59732,13 +59850,13 @@ msgstr "Straßenname"
 msgid "Street number"
 msgstr "Hausnummer"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:854
+#: ../cmk/gui/cee/plugins/wato/cmc.py:856
 #, fuzzy
 #| msgid "Strict - Must be contact of all members"
 msgid "Strict - Visible if all members are visible"
 msgstr "Strikt - Muss Kontakt von allen Mitgliedern sein"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:845
+#: ../cmk/gui/cee/plugins/wato/cmc.py:847
 #, fuzzy
 #| msgid "Strict - Must be explicit contact of a service"
 msgid "Strict - Visible if user is contact for the service"
@@ -60065,7 +60183,7 @@ msgstr "Support"
 
 #: ../cmk/gui/wato/pages/diagnostics.py:104
 #: ../cmk/gui/wato/pages/analyze_configuration.py:90
-#: ../cmk/gui/plugins/wato/builtin_modules.py:998
+#: ../cmk/gui/plugins/wato/builtin_modules.py:999
 msgid "Support diagnostics"
 msgstr "Support-Diagnose"
 
@@ -60503,6 +60621,7 @@ msgstr "TCP Portnummer"
 msgid "TCP Port for connection"
 msgstr "TCP Port für Verbindung"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:293
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1041
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1914
 msgid "TCP Port number"
@@ -60578,7 +60697,7 @@ msgid "TCP port number to connect to. Usually either 139 or 445."
 msgstr ""
 "TCP Port für die Verbindung zum Server. Normalerweise entweder 139 oder 445."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1383
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1385
 msgid "TCP port of Carbon line receiver"
 msgstr "TCP-Port für den Empfang durch Carbone"
 
@@ -60711,6 +60830,10 @@ msgstr "Tablespaces"
 msgid "Tabloid"
 msgstr "Tabloid"
 
+#: ../cmk/gui/watolib/services.py:606
+msgid "Tabula rasa"
+msgstr ""
+
 #: ../cmk/gui/wato/pages/tags.py:503 ../cmk/gui/wato/pages/tags.py:547
 #: ../cmk/gui/wato/pages/tags.py:609
 msgid "Tag"
@@ -60758,7 +60881,7 @@ msgstr "Merkmal: %s"
 #: ../cmk/gui/wato/pages/tags.py:388 ../cmk/gui/wato/pages/tags.py:487
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:38
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:54
-#: ../cmk/gui/plugins/wato/builtin_modules.py:83
+#: ../cmk/gui/plugins/wato/builtin_modules.py:84
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3857
 #: ../cmk/gui/plugins/wato/notifications.py:1151
 #: ../cmk/gui/plugins/views/sorters.py:187 ../cmk/utils/tags.py:340
@@ -60786,7 +60909,7 @@ msgstr ""
 "von Benachrichtigungen für alle Hosts mit den Tags <b>Netzgerät</b> und "
 "<b>Test</b></i>."
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:97
+#: ../cmk/gui/plugins/wato/builtin_modules.py:98
 msgid "Tags can be used to classify hosts and services in a flexible way."
 msgstr ""
 "Mit Hilfe von Tags können Hosts und Services flexibel klassifiziert werden."
@@ -61041,7 +61164,7 @@ msgstr "temporäres Dateisystem gemountet"
 msgid "Tenant ID / Directory ID"
 msgstr "Tenant-ID / Verzeichnis-ID"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:655
+#: ../cmk/gui/cee/plugins/wato/cmc.py:657
 msgid "Terse"
 msgstr "Knapp"
 
@@ -61183,7 +61306,7 @@ msgstr ""
 msgid "The %s does not exist."
 msgstr "%s existiert nicht."
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:237
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:245
 #, python-format
 msgid "The %s has been deleted."
 msgstr "%s wurde gelöscht."
@@ -61300,7 +61423,7 @@ msgstr ""
 "auf die durchschnittliche Auslastung seit der letzten Überprüfung angewendet "
 "- in der Regel eine Minute."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1091
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1093
 msgid ""
 "The Check_MK Agent supports a feature called Real-Time Checks where it sends "
 "status updates of specific monitoring information more often than the "
@@ -61524,7 +61647,7 @@ msgstr ""
 msgid "The ID is already used by another role"
 msgstr "ID wird bereits von anderer Rolle verwendet"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:367
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:375
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2587
 msgid ""
 "The ID must be a unique text. It will be used as an internal key when "
@@ -62020,7 +62143,7 @@ msgstr ""
 "möglich"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:322
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:166
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:174
 #, python-format
 msgid "The action '%s' is not implemented"
 msgstr "Die Aktion'%s' ist nicht implementiert."
@@ -62544,7 +62667,7 @@ msgstr "Der Cluster muss zumindest einen Node haben"
 msgid "The color needs to be given in hex format."
 msgstr "Die Farbe muss im HEX-Format angegeben werden."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:447
+#: ../cmk/gui/cee/plugins/wato/cmc.py:449
 msgid ""
 "The command line <tt>ping</tt> command defaults to sending ICMP packets with "
 "a payload of 40 bytes. Together with the IP and ICMP header that sums up to "
@@ -63805,13 +63928,13 @@ msgstr ""
 "Das Log-Level für alle Logeinträge, die nicht anderen Kategorien zugeordnet "
 "sind."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:582
+#: ../cmk/gui/cee/plugins/wato/cmc.py:584
 msgid "The log level for downtime handling within the Checkmk Micro Core"
 msgstr ""
 "Der Loglevel für die Behandlung von geplanten Wartungszeiten im Checkmk "
 "Micro Core"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:579
+#: ../cmk/gui/cee/plugins/wato/cmc.py:581
 msgid ""
 "The log level for general stuff within the Check_MK Micro Core, basically "
 "everything which didn't fit elsewhere"
@@ -63819,7 +63942,7 @@ msgstr ""
 "Der Loglevel für allgemeine Dinge im Check_MK Micro Core, also alles, was "
 "nicht woanders eigeordnet werden konnte"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:576
+#: ../cmk/gui/cee/plugins/wato/cmc.py:578
 msgid ""
 "The log level for the communication between the Check_MK Micro Core and "
 "external Graphite/InfluxDB servers"
@@ -63827,7 +63950,7 @@ msgstr ""
 "Der Loglevel für die Kommunikation zwischen dem Check_MK Micro Core und "
 "externen Graphite/InfluxDB-Servern"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:591
+#: ../cmk/gui/cee/plugins/wato/cmc.py:593
 msgid ""
 "The log level for the communication between the Check_MK Micro Core and its "
 "RRD helper and the RRD cache daemon"
@@ -63835,7 +63958,7 @@ msgstr ""
 "Der Loglevel für die Kommunikation zwischen dem Check_MK Micro Core und "
 "seinem RRD Helper bzw. dem RRD Cache Daemon"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:584
+#: ../cmk/gui/cee/plugins/wato/cmc.py:586
 msgid ""
 "The log level for the communication of the Check_MK Micro Core with its "
 "check helpers"
@@ -63843,23 +63966,23 @@ msgstr ""
 "Der Loglevel für die Kommunikation zwischen dem Check_MK Micro Core und "
 "seinen Check Helpern"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:587
+#: ../cmk/gui/cee/plugins/wato/cmc.py:589
 msgid "The log level for the handling of Livestatus queries"
 msgstr ""
 "Der Loglevel für die Behandlung von Livestatus-Anfragen im Check_MK Micro "
 "Core"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:574
+#: ../cmk/gui/cee/plugins/wato/cmc.py:576
 msgid "The log level for the handling of alerts within the Checkmk Micro Core"
 msgstr "Der Loglevel für die Behandlung von Alarmen im Checkmk Micro Core"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:589
+#: ../cmk/gui/cee/plugins/wato/cmc.py:591
 msgid ""
 "The log level for the handling of notifications within the Checkmk Micro Core"
 msgstr ""
 "Der Loglevel für die Behandlung von Benachrichtigungen im Checkmk Micro Core"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:594
+#: ../cmk/gui/cee/plugins/wato/cmc.py:596
 msgid ""
 "The log level for the handling of smart pings within the Checkmk Micro Core"
 msgstr "Der Loglevel für die Behandlung von Smart-PINGs im Checkmk Micro Core"
@@ -63946,7 +64069,7 @@ msgstr "Die maximale Schlüssellänge beträgt 128 Zeichen."
 msgid "The maximum limit for the apply lag in <tt>v$dataguard_stats</tt>."
 msgstr "Die maximale Grenze für das Apply-Lag in <tt>v$dataguard_stats</tt>"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:141
+#: ../cmk/gui/cee/plugins/wato/cmc.py:143
 msgid ""
 "The maximum number of concurrent Livestatus connections is limited by this "
 "setting. Usually the default value should be fine. If you have a larger "
@@ -65347,7 +65470,7 @@ msgstr ""
 msgid "The sites the user is authorized to see in the GUI."
 msgstr "Die Instanzen, die der Nutzer sehen darf."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1560
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1618
 msgid ""
 "The size of one step is usually one minute (defined in this same rule set). "
 "If you use e.g. 10 here and keep the default setting of 60 seconds, then RRD "
@@ -65583,7 +65706,7 @@ msgstr "Der Text"
 msgid "The text entered here is handled as a regular expression pattern."
 msgstr "Der eingegebene Text wird als Regulärer Ausdruck behandelt."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1393
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1395
 msgid ""
 "The text entered here well be prefixed to the hostname. Ending the prefix "
 "with a period will create a separate folder in Graphite"
@@ -65675,7 +65798,7 @@ msgid "The title of an exported rule pack cannot be modified."
 msgstr ""
 "Der Titel eines exportierten Regelsatzes kann nicht modifiziert werden."
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:406
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:414
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2594
 #, python-format
 msgid "The title of the %s. It will be used as display name."
@@ -66429,7 +66552,7 @@ msgstr ""
 "Diese Services wurden nicht automatisch erkannt, sondern manuell hinzugefügt "
 "über eine Regel im WATO-Modul <i>Manuelle Checks</i>."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:390
+#: ../cmk/gui/cee/plugins/wato/cmc.py:392
 msgid ""
 "These settings control how the <i>initial</i> scheduling of new active "
 "checks should be done. If you just add a few new checks then those are "
@@ -66443,7 +66566,7 @@ msgstr ""
 "Intervall verteilt, um einen stoßartigen Verbrauch von Ressourcen zu "
 "vermeiden."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:833
+#: ../cmk/gui/cee/plugins/wato/cmc.py:835
 #, fuzzy
 #| msgid ""
 #| "These settings control under which circumstances a user is allowed to see "
@@ -66458,7 +66581,7 @@ msgstr ""
 "Host oder Service sehen darf. <b>Hinweis:</b> Das hat <b>keine</b> "
 "Auswirkung auf Alarme."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:890
+#: ../cmk/gui/cee/plugins/wato/cmc.py:892
 msgid ""
 "These settings tune, how sensitive the core is to state changes when it "
 "decides whether the state of an object is <b>flapping</b>. Each object keeps "
@@ -66509,9 +66632,9 @@ msgstr ""
 #: ../cmk/gui/wato/pages/notifications.py:1061
 #: ../cmk/gui/cee/plugins/wato/dcd.py:331
 #: ../cmk/gui/cee/plugins/wato/dcd.py:551
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:220
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:306
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:319
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:228
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:314
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:327
 #, python-format
 msgid "This %s does not exist."
 msgstr "Diese %s existiert nicht."
@@ -66551,7 +66674,7 @@ msgstr "Diese BI-Regel existiert nicht."
 msgid "This ID can not be used as custom attribute"
 msgstr "Diese ID kann nicht als benutzerdefiniertes Attribut verwendet werden."
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:442
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:450
 #: ../cmk/gui/cme/plugins/wato/managed.py:393
 msgid "This ID is already in use. Please choose another one."
 msgstr "Diese ID wird bereits verwendet. Bitte wählen Sie eine andere."
@@ -67037,7 +67160,7 @@ msgstr ""
 "verwaltet werden und in diesem Ordner enthalten sind - direkt oder in einem "
 "Unterordner."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1631
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1689
 msgid ""
 "This configures how many datapoints will be stored of the performance values "
 "of hosts. Note: hosts checked via Smart PING do not create any performance "
@@ -67047,7 +67170,7 @@ msgstr ""
 "gespeichert werden sollen. Hinweis: Hosts, die via Smart-PING geprüft "
 "werden, erzeugen keine Metriken."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1606
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1664
 msgid ""
 "This configures how many datapoints will be stored of the performance values "
 "of services. Please note, that these settings only apply for <i>new</i> "
@@ -67158,7 +67281,7 @@ msgstr "Das Ereignis hat den Ziel-Zähler noch nicht erreicht."
 msgid "This expression must match the value of the variable"
 msgstr "Dieser Ausdruck muss auf den Wert der Variable matchen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:524
+#: ../cmk/gui/cee/plugins/wato/cmc.py:526
 #, python-format
 msgid ""
 "This feature allows the distribution of the config generation workload over "
@@ -67308,7 +67431,7 @@ msgstr "Dieser Hostzustand ist veraltet"
 msgid "This id is already being used by another connection."
 msgstr "Diese ID wird bereits von einer anderen Verbindung verwendet."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:407
+#: ../cmk/gui/cee/plugins/wato/cmc.py:409
 msgid ""
 "This interval is applied to all new checks that go beyond the number of "
 "immediately scheduled checks. Note: the maximum delay is five times the "
@@ -67318,7 +67441,7 @@ msgstr ""
 "von sofort eingeplanten Checks hinausgehen. Hinweis: Die maximale "
 "Verzögerung ist das fünffache Checkintervall."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:417
+#: ../cmk/gui/cee/plugins/wato/cmc.py:419
 msgid ""
 "This interval is applied to all new non-Check_MK active checks that go "
 "beyond the number of immediately scheduled checks. Note: the maximum delay "
@@ -67412,7 +67535,7 @@ msgstr ""
 "Sie können diese Option nur im Falle von prozentualen Schwellwerten "
 "verwenden."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1547
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1605
 msgid ""
 "This is relevant during periods where the according check cannot be executed "
 "for any reason and thus no metrics data is being generated. The RRD "
@@ -67690,7 +67813,7 @@ msgstr "Dieser Name wird als Service-Beschreibung verwendet"
 msgid "This notification has been created at %s and is valid till %s."
 msgstr "Die Nachricht wurde %s erzeugt und ist gülitig bis %s."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:399
+#: ../cmk/gui/cee/plugins/wato/cmc.py:401
 msgid "This number of new checks is scheduled immediately"
 msgstr "Diese Anzahl von Checks wird sofort ausgeführt"
 
@@ -67872,7 +67995,7 @@ msgstr ""
 "Vorhandene Auswahlen bleiben nur für die maximale Lebensdauer am Server "
 "erhalten."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:295
+#: ../cmk/gui/cee/plugins/wato/cmc.py:297
 msgid ""
 "This option enables a new implementation of the Livestatus table "
 "<tt>statehist</tt> that makes use of a in-memory cache of state transitions "
@@ -67928,7 +68051,7 @@ msgstr ""
 "auftreten können, wenn Sie zu viele offene Ereignisse in der Event Console "
 "haben."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:285
+#: ../cmk/gui/cee/plugins/wato/cmc.py:287
 msgid ""
 "This option is just for testing. It will be removed in future. Do not use it "
 "unless you are told to do so!"
@@ -67969,7 +68092,7 @@ msgstr ""
 "Parsezeit begrenzen. Sie Stellt das Verhalten im Falle zu vieler neuer "
 "Einträge in einer Logdatei ein."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:237
+#: ../cmk/gui/cee/plugins/wato/cmc.py:239
 msgid ""
 "This option is only used in case you have disabled \"Use separate fetchers "
 "and checkers\"."
@@ -68052,7 +68175,7 @@ msgstr ""
 "zu den Instanzen und senkt so die Antwortzeit von Instanzen mit hohen "
 "Latenzzeiten."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:631
+#: ../cmk/gui/cee/plugins/wato/cmc.py:633
 msgid ""
 "This options creates additional log messages in various phases of the "
 "notification mechanics. Each time a notification is suppressed due to "
@@ -68078,7 +68201,7 @@ msgstr ""
 "<tt>etc/htpasswd</tt> von Hand editieren und das <tt>!</tt> vor Ihrem "
 "Passwort entfernen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:166
+#: ../cmk/gui/cee/plugins/wato/cmc.py:168
 msgid ""
 "This options enables the new 1.7 Checkmk helper model. It will be used "
 "during the 1.7 test phase to be able to toggle between the old and new model "
@@ -69322,7 +69445,7 @@ msgstr ""
 "usr/lib/check_mk_agent/plugins</tt> (UNIX) und im Unterordner <tt>plugins</"
 "tt> Ihres Agenteninstallationsordners (Windows)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1719
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1777
 #, python-format
 msgid ""
 "This rule set allows you to create downtimes for %s that are repeated on a "
@@ -69823,7 +69946,7 @@ msgstr ""
 msgid "This script will be executed using the BASH shell. "
 msgstr "Dieses Skript wird mit der BASH ausgeführt. "
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1126
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1128
 msgid ""
 "This secret is shared between the agent and the Check_MK server and used to "
 "decrypt the Real-Time packet contents. This can be overwritten per host "
@@ -69994,7 +70117,7 @@ msgstr ""
 "Einstellung von 1.2 bedeutet, dass der Zeilenabstand 120% der Schriftgröße "
 "beträgt."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1531
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1589
 msgid ""
 "This setting controls the resolution of the RRD in seconds. The smaller the "
 "step the more precise the timing will be, but the larger your RRD will be. "
@@ -70008,7 +70131,7 @@ msgstr ""
 "wählen, als das normale Checkintervall für einen Service. Der Standardwert "
 "ist 60 Sekunden - passend zum Standard-Checkintervall."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:562
+#: ../cmk/gui/cee/plugins/wato/cmc.py:564
 msgid ""
 "This setting decides which types of messages to log into the daemon log of "
 "the Check_MK Micro Core. The object history (service alerts, events, etc.) "
@@ -70761,11 +70884,11 @@ msgstr "Zeiteinstellungen für Signatur"
 msgid "Time allowed"
 msgstr "Zeitraum eingrenzen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:405
+#: ../cmk/gui/cee/plugins/wato/cmc.py:407
 msgid "Time between new checks of type Checkmk"
 msgstr "Zeit zwischen neuen Checks vom Typ Checkmk"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:415
+#: ../cmk/gui/cee/plugins/wato/cmc.py:417
 msgid "Time between new classical active checks"
 msgstr "Zeit zwischen neuen klassischen aktiven Checks"
 
@@ -70810,7 +70933,7 @@ msgstr "Zeitraum"
 msgid "Time horizon for repeated events"
 msgstr "Zeithorizont für periodische Termine"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:262
+#: ../cmk/gui/cee/plugins/wato/cmc.py:264
 msgid "Time horizon to keep in cache"
 msgstr "Zeithorizont, der gegacht werden soll"
 
@@ -70880,7 +71003,7 @@ msgstr "Zeitintervall für Zählvorgang"
 
 #: ../cmk/gui/wato/pages/timeperiods.py:85
 #: ../cmk/gui/wato/pages/timeperiods.py:92
-#: ../cmk/gui/plugins/wato/builtin_modules.py:752
+#: ../cmk/gui/plugins/wato/builtin_modules.py:753
 #: ../cmk/gui/plugins/wato/check_parameters/motion.py:33
 msgid "Time periods"
 msgstr "Zeitperioden"
@@ -71140,6 +71263,12 @@ msgstr "Timeout für Antworten"
 msgid "Timeout for the execution of alert handlers"
 msgstr "Timeout für die Ausführung der Alert Handler"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:308
+#, fuzzy
+#| msgid "Timeout for the initial connection to the LDAP server in seconds."
+msgid "Timeout for the initial connection to InfluxDB in seconds."
+msgstr "Timeout für die erste Verbindung zum LDAP Server in Sekunden."
+
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1522
 msgid "Timeout for the initial connection to the LDAP server in seconds."
 msgstr "Timeout für die erste Verbindung zum LDAP Server in Sekunden."
@@ -71161,7 +71290,7 @@ msgstr "Timeout für das Warten auf einen freien Kanal"
 msgid "Timeperiod"
 msgstr "Zeitperiode"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:765
+#: ../cmk/gui/plugins/wato/builtin_modules.py:766
 msgid ""
 "Timeperiods restrict notifications and other things to certain periods of "
 "the day."
@@ -71252,13 +71381,14 @@ msgstr "Tinkerforge"
 #: ../cmk/gui/cee/reporting.py:1478 ../cmk/gui/cee/reporting.py:2490
 #: ../cmk/gui/cee/plugins/wato/dcd.py:347
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:574
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:216
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:909 ../cmk/gui/cee/sla.py:366
 #: ../cmk/gui/pagetypes.py:158 ../cmk/gui/pagetypes.py:1118
 #: ../cmk/gui/plugins/wato/graphs.py:41
 #: ../cmk/gui/plugins/wato/bi_config.py:338
 #: ../cmk/gui/plugins/wato/bi_config.py:503
 #: ../cmk/gui/plugins/wato/bi_config.py:878
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:405
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:413
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1025
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1107
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1211
@@ -71414,6 +71544,7 @@ msgstr "Umschalten der Seitenleiste"
 msgid "Toggle the visibility of this metric"
 msgstr "Sichtbarkeit dieser Metrik umschalten"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:287
 #: ../cmk/gui/plugins/wato/datasource_programs.py:562
 msgid "Token"
 msgstr "Token"
@@ -72094,7 +72225,7 @@ msgstr "Übertragen: %d neue, %d geänderte und %d verschwundene Dateien"
 msgid "Transferredsize"
 msgstr "Übertragungsgröße"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1224
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1226
 msgid "Transform status output"
 msgstr "Status-Ausgabe umschreiben"
 
@@ -72304,11 +72435,11 @@ msgstr "Schleppboot"
 msgid "Tune forecast model - %s"
 msgstr "Prognosemodell abstimmen - %s"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:440
+#: ../cmk/gui/cee/plugins/wato/cmc.py:442
 msgid "Tuning of Smart PING"
 msgstr "Einstellungen für Smart PING"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:941
+#: ../cmk/gui/cee/plugins/wato/cmc.py:943
 msgid "Tuning of flap detection"
 msgstr "Unstetigkeitserkennung"
 
@@ -72488,7 +72619,7 @@ msgstr "UDP-Pakete"
 msgid "UDP port the Microcore is listening on"
 msgstr "UDP-Port, auf dem der Microcore horcht"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1111
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1113
 msgid "UDP port to listen to"
 msgstr "UDP-Port, auf dem gehorcht werden soll"
 
@@ -72520,7 +72651,7 @@ msgstr "UNKN"
 #: ../cmk/gui/wato/mkeventd.py:1939 ../cmk/gui/availability.py:150
 #: ../cmk/gui/availability.py:166 ../cmk/gui/availability.py:417
 #: ../cmk/gui/availability.py:428 ../cmk/gui/availability.py:439
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1176
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1178
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:148
 #: ../cmk/gui/valuespec.py:2714 ../cmk/gui/plugins/wato/utils/__init__.py:1186
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1189
@@ -72566,7 +72697,7 @@ msgstr "UNR."
 msgid "UNREACH"
 msgstr "UNREACH"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1193 ../cmk/gui/valuespec.py:2724
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1195 ../cmk/gui/valuespec.py:2724
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1159
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1161
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1162
@@ -72576,7 +72707,7 @@ msgid "UNREACHABLE"
 msgstr "UNREACHABLE"
 
 #: ../cmk/gui/availability.py:134 ../cmk/gui/availability.py:479
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1185 ../cmk/gui/valuespec.py:2722
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1187 ../cmk/gui/valuespec.py:2722
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1158
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1159
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1160
@@ -72610,6 +72741,8 @@ msgstr "URI (Seitenname)"
 msgid "URI to fetch (default is <tt>/</tt>)"
 msgstr "URI (Vorgabe ist <tt>/</tt>)"
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:218
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:281
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1027
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1114
 #: ../cmk/gui/plugins/dashboard/custom_url.py:47
@@ -72663,6 +72796,12 @@ msgstr "URL-Präfix für Links zu Checkmk"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1683
 msgid "URL to HiveManagerNG, e.g. https://cloud.aerohive.com"
+msgstr "URL zu HiveManagerNG, z.B. https://cloud.aerohive.com"
+
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:282
+#, fuzzy
+#| msgid "URL to HiveManagerNG, e.g. https://cloud.aerohive.com"
+msgid "URL to InfluxDB, e.g. https://my_influxdb.com"
 msgstr "URL zu HiveManagerNG, z.B. https://cloud.aerohive.com"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:86
@@ -73226,8 +73365,8 @@ msgstr ""
 #: ../cmk/gui/backup.py:1249 ../cmk/gui/cee/reporting.py:1661
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:254
 #: ../cmk/gui/pagetypes.py:150
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:366
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:378
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:374
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:386
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2585
 #: ../cmk/gui/visuals.py:832
 msgid "Unique ID"
@@ -73247,7 +73386,8 @@ msgstr "Name der Einheit"
 msgid "Unitrends backup and replication plugins (Linux)"
 msgstr "Unitrends Backup/Replikation (Linux)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1460
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1462
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1515
 msgid "Unity of measurement"
 msgstr "Maßeinheit"
 
@@ -73500,7 +73640,7 @@ msgstr "Updatestatus"
 msgid "Update Status"
 msgstr "Updatestatus"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1328
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1330
 msgid "Update delay for PNP meta information"
 msgstr "Verzögerte Aktualisierung von PNP-Metadaten"
 
@@ -74652,7 +74792,7 @@ msgstr ""
 "Unsicheres Nachrichtenformat für Kompatibilität mit 1.4.0p36 und 1.5.0p6 "
 "oder älter nutzen"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1400
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1402
 msgid "Use invertible C-style mangling"
 msgstr "Invertierbare Namensumwandlung à la C benutzen"
 
@@ -74745,7 +74885,7 @@ msgstr "PAM benutzen"
 msgid "Use port name as service name"
 msgstr "Portnamen als Servicenamen verwenden"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:237
+#: ../cmk/gui/plugins/wato/builtin_modules.py:238
 msgid ""
 "Use predefined conditions to centralize the coniditions of your rulesets."
 msgstr ""
@@ -74770,7 +74910,7 @@ msgstr "Proxy-Einstellungen aus der Prozessumgebung verwenden"
 msgid "Use sensor description (see help text)"
 msgstr "Alias/Beschreibung dieser Instanz"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:164
+#: ../cmk/gui/cee/plugins/wato/cmc.py:166
 msgid "Use separate fetchers and checkers"
 msgstr "Separate Fetchers und Checkers verwenden"
 
@@ -75187,7 +75327,7 @@ msgstr ""
 "Verwenden Sie diesen Regelsatz, um den automatischen Service-Neustart bei "
 "Absturz oder anderen internen Fehlern zu (de)aktivieren."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1297
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1299
 msgid ""
 "Use this ruleset to make the long output available in the monitoring history "
 "(which also makes it available for availability processing). Be aware: "
@@ -75550,7 +75690,7 @@ msgstr "Nutzerkontingente in Dateisystemen"
 msgid "User roles"
 msgstr "Benutzerrollen"
 
-#: ../cmk/gui/plugins/wato/builtin_modules.py:589
+#: ../cmk/gui/plugins/wato/builtin_modules.py:590
 msgid "User roles are configurable sets of permissions."
 msgstr "Benutzerrollen sind anpassbare Sätze von Berechtigungen."
 
@@ -75643,7 +75783,7 @@ msgstr "Benutzer:"
 #: ../cmk/gui/wato/pages/users.py:104
 #: ../cmk/gui/wato/pages/notifications.py:941
 #: ../cmk/gui/wato/pages/roles.py:234 ../cmk/gui/notify.py:151
-#: ../cmk/gui/notify.py:167 ../cmk/gui/plugins/wato/builtin_modules.py:542
+#: ../cmk/gui/notify.py:167 ../cmk/gui/plugins/wato/builtin_modules.py:543
 #: ../cmk/gui/plugins/wato/check_parameters/sap_dialog.py:36
 #: ../cmk/gui/plugins/wato/check_parameters/sap_dialog.py:37
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1397
@@ -75762,7 +75902,7 @@ msgstr ""
 "vollen DN der Gruppe an, z.B. <tt>CN=cmk-users,OU=groups,DC=example,DC=com</"
 "tt>."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1142
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1144
 msgid ""
 "Using this option you can override the globally configured setting for check "
 "timeouts for individual services."
@@ -75890,7 +76030,7 @@ msgstr "Zusammenfassung der VM-Schnappschüsse"
 
 #: ../cmk/gui/watolib/search.py:399
 #: ../cmk/gui/plugins/wato/datasource_programs.py:197
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1371
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1372
 msgid "VM, Cloud, Container"
 msgstr "VM, Cloud, Container"
 
@@ -76010,7 +76150,8 @@ msgstr "Gültigkeit veralteter Daten"
 #: ../cmk/gui/wato/pages/rulesets.py:1044
 #: ../cmk/gui/wato/pages/rulesets.py:1276
 #: ../cmk/gui/wato/pages/rulesets.py:1616 ../cmk/gui/wato/mkeventd.py:392
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1459
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1461
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1514
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:192
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:673
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:1002
@@ -76675,7 +76816,7 @@ msgstr "WARN bei"
 msgid "WARN/CRIT"
 msgstr "WARN/CRIT"
 
-#: ../cmk/gui/cee/reporting.py:3041 ../cmk/gui/cee/plugins/wato/cmc.py:1168
+#: ../cmk/gui/cee/reporting.py:3041 ../cmk/gui/cee/plugins/wato/cmc.py:1170
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:207
 #: ../cmk/gui/htmllib.py:1353 ../cmk/gui/plugins/wato/active_checks.py:354
 #: ../cmk/gui/plugins/wato/active_checks.py:749
@@ -76841,7 +76982,7 @@ msgstr "Wa"
 msgid "Wagner OxyReduct"
 msgstr "Wagner OsyReduct"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:486
+#: ../cmk/gui/cee/plugins/wato/cmc.py:488
 msgid "Wait time between PING bulks:"
 msgstr "Wartezeite zwischen Gruppen von PINGs:"
 
@@ -76925,7 +77066,7 @@ msgstr ""
 "warn/crit Schwellwerte für diverse Skype for Business (vormals Lync) "
 "Messwerte"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:605
+#: ../cmk/gui/cee/plugins/wato/cmc.py:607
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_logwatch.py:98
 #: ../cmk/gui/cee/plugins/dashboard/alert_statistics.py:151
 #: ../cmk/gui/cee/plugins/reporting/availability.py:387
@@ -78057,7 +78198,8 @@ msgstr "Warnungschwellen für die Zeitversatz"
 msgid "Warning starts with"
 msgstr "Warnung beginnt mit"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1461
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1463
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1516
 msgid "Warning threshold"
 msgstr "Warnungs-Schwellwert"
 
@@ -78480,7 +78622,7 @@ msgstr ""
 "Symbol ein, welches auf den entsprechenden Regelsatz für die Parameter des "
 "Services verweist - falls der Benutzer die notwendigen Rechte besitzt."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:682
+#: ../cmk/gui/cee/plugins/wato/cmc.py:684
 msgid ""
 "When enabled all exceptions occuring during the helper execution will raise "
 "through and directly result in termination of the helper process."
@@ -78623,7 +78765,7 @@ msgstr ""
 "Zukunft berücksichtigt. Die Auswahl einer anderen vorhandenen Zeitperiode "
 "greift aber auch in die Vergangenheit zurück."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:274
+#: ../cmk/gui/cee/plugins/wato/cmc.py:276
 msgid ""
 "When it comes to the computation of unmonitored time spans, core stops and "
 "starts that last shorter then this period will be ignored. A time of 0 will "
@@ -78681,7 +78823,7 @@ msgstr ""
 "werden jedoch die beschriebenen \"verlorenen Updates\"-Probleme nicht "
 "verhindert."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1058
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1060
 msgid ""
 "When performing walks on an OID during checking, Check_MK fetches all sub "
 "OIDs regardless whether these values are needed or not. For example, if you "
@@ -78766,7 +78908,7 @@ msgstr ""
 "der folgende Sylog-Kanal verwendet. Eindeutige Kanäle erleichtern die "
 "Erstellung von Regeln."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1402
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1404
 msgid ""
 "When sending performance data to Graphite, the host/service/variable part "
 "needs to be mangled. The result of the default mangling is more readable (it "
@@ -78781,7 +78923,7 @@ msgstr ""
 "oktalen Escape-Sequenzen von C ('\\ooo'), so daß die einzelnen Teile "
 "rekonstruierbar sind."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1674
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1732
 msgid ""
 "When switching from the Nagios core to CMC with <tt>omd config</tt> with "
 "this option enabled, then during the configuration generation for the CMC "
@@ -79100,7 +79242,7 @@ msgstr ""
 "eines Hosts. Damit zeigt der Discovery-Check den neuen Zustand ohne "
 "Verzögerung sofort korrekt an."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1414
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1416
 msgid ""
 "When this option is enabled then all performance data (check metrics) will "
 "<i>in addition</i> be sent to an external Graphite (Carbon) installation of "
@@ -79472,7 +79614,7 @@ msgid "Will wait for {sleep_time} seconds and retry"
 msgstr "Wartet für {sleep_time} Sekunden und versucht es erneut"
 
 #: ../cmk/gui/cee/agent_bakery.py:87
-#: ../cmk/gui/plugins/wato/builtin_modules.py:1140
+#: ../cmk/gui/plugins/wato/builtin_modules.py:1141
 msgid "Windows"
 msgstr "Windows"
 
@@ -80054,11 +80196,11 @@ msgstr "Schreibepufferauslastung"
 msgid "Write latency"
 msgstr "Schreibelatenz"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1292
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1294
 msgid "Write long output of hosts to monitoring history"
 msgstr "Mehrzeiligen Ausgabe von Hosts in Monitoring-Historie schreiben"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1290
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1292
 msgid "Write long output of services to monitoring history"
 msgstr "Mehrzeiligen Ausgabe von Services in Monitoring-Historie schreiben"
 
@@ -80272,7 +80414,7 @@ msgstr "Sie können Änderungen anderer Benutzer nicht anwenden."
 msgid "You are not allowed to change the sidebar."
 msgstr "Sie dürfen die Seitenleiste nicht verändern."
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:225
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:233
 #, python-format
 msgid "You are not allowed to delete this %s."
 msgstr "Sie dürfen diese %s nicht löschen."
@@ -80288,7 +80430,7 @@ msgstr "Sie dürfen %s nicht bearbeiten."
 msgid "You are not allowed to edit dashboards."
 msgstr "Sie dürfen Übersichten nicht bearbeiten."
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:447
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:455
 #, python-format
 msgid "You are not allowed to edit this %s."
 msgstr "Sie dürfen diese %s nicht bearbeiten."
@@ -81058,7 +81200,7 @@ msgstr ""
 "Hosts\" auf zwei, um sicherzustellen, dass diese VMs nicht auf demselben "
 "Host laufen."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1225
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1227
 msgid ""
 "You can specify multiple pairs of matching regexes and strings to replace "
 "the matched string with. You can use match groups in the regular expression "
@@ -81318,6 +81460,12 @@ msgstr ""
 "Dieses Hilfs-Merkmal können Sie nicht löschen. Es wird von dieser Merkmal-"
 "Gruppe <b>%s</b> verwendet."
 
+#: ../cmk/gui/cee/plugins/wato/influxdb.py:190
+#, fuzzy
+#| msgid "You cannot delete this timeperiod."
+msgid "You cannot delete this connection."
+msgstr "Dieses Zeitintervall können Sie nicht löschen."
+
 #: ../cmk/gui/wato/pages/sites.py:560 ../cmk/gui/watolib/sites.py:330
 #, python-format
 msgid ""
@@ -81386,7 +81534,7 @@ msgid ""
 "appearance' or 'Grouping'"
 msgstr ""
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:263
+#: ../cmk/gui/cee/plugins/wato/cmc.py:265
 msgid "You cannot query for time ranges that are before the horizon."
 msgstr "Sie können keine Zeitbereiche abfragen, die vor dem Horizont liegen."
 
@@ -82421,8 +82569,8 @@ msgstr "apt-get dist-upgrade"
 msgid "apt-get upgrade"
 msgstr "apt-get upgrade"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:991
-#: ../cmk/gui/cee/plugins/wato/cmc.py:995
+#: ../cmk/gui/cee/plugins/wato/cmc.py:993
+#: ../cmk/gui/cee/plugins/wato/cmc.py:997
 msgid "at least one packet every"
 msgstr "mindestens ein Paket pro"
 
@@ -82611,6 +82759,7 @@ msgstr "Konfiguration"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:239
 #: ../cmk/gui/cee/plugins/wato/dcd.py:285
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1503
 msgid "connection"
 msgstr "Verbindung"
 
@@ -82854,14 +83003,14 @@ msgstr "Übersicht"
 msgid "dashboards"
 msgstr "Übersichten"
 
-#: ../cmk/gui/wato/mkeventd.py:640 ../cmk/gui/cee/plugins/wato/cmc.py:1705
+#: ../cmk/gui/wato/mkeventd.py:640 ../cmk/gui/cee/plugins/wato/cmc.py:1763
 #: ../cmk/gui/cee/plugins/dashboard/bar_chart_dashlet.py:67
 #: ../cmk/gui/valuespec.py:3738
 msgid "day"
 msgstr "Tag"
 
 #: ../cmk/gui/wato/pages/audit_log.py:469 ../cmk/gui/wato/mkeventd.py:3721
-#: ../cmk/gui/cee/plugins/wato/cmc.py:349 ../cmk/gui/valuespec.py:356
+#: ../cmk/gui/cee/plugins/wato/cmc.py:351 ../cmk/gui/valuespec.py:356
 #: ../cmk/gui/valuespec.py:385 ../cmk/gui/plugins/wato/utils/__init__.py:910
 #: ../cmk/gui/plugins/wato/active_checks.py:373
 #: ../cmk/gui/plugins/wato/active_checks.py:374
@@ -82889,7 +83038,7 @@ msgstr "Tage"
 msgid "deadlocks/sec"
 msgstr "Stillstand/Sek"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:921
+#: ../cmk/gui/cee/plugins/wato/cmc.py:923
 msgid "decay"
 msgstr "Abklingen"
 
@@ -82960,7 +83109,7 @@ msgid "disable this site"
 msgstr "diese Instanz deaktivieren"
 
 #: ../cmk/gui/wato/pages/users.py:399 ../cmk/gui/wato/pages/users.py:469
-#: ../cmk/gui/sites.py:402 ../cmk/gui/cee/plugins/wato/cmc.py:300
+#: ../cmk/gui/sites.py:402 ../cmk/gui/cee/plugins/wato/cmc.py:302
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:340
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_db2.py:39
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:139
@@ -83000,7 +83149,7 @@ msgstr "Entdeckung erfolgreich"
 msgid "display all important updates verbosely"
 msgstr "Alle wichtigen Updates vollständig auflisten"
 
-#: ../cmk/gui/plugins/wato/utils/simple_modes.py:396
+#: ../cmk/gui/plugins/wato/utils/simple_modes.py:404
 #, python-format
 msgid "do not activate this %s"
 msgstr "diese %s nicht aktivieren"
@@ -83116,8 +83265,8 @@ msgstr "diese Instanz aktivieren"
 msgid "end"
 msgstr "Ende"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1033
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1048
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1035
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1050
 msgid "entries"
 msgstr "Einträge"
 
@@ -83284,7 +83433,7 @@ msgstr "nur erzwungene Kommandos"
 msgid "forecast trend only"
 msgstr "nur Prognosetrend"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1708
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1766
 msgid "fourth week"
 msgstr "vierte Woche"
 
@@ -83306,11 +83455,11 @@ msgstr "freier Platz"
 msgid "from"
 msgstr "von"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1030
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1032
 msgid "from the beginning"
 msgstr "vom Anfang"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1046 ../cmk/gui/valuespec.py:6177
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1048 ../cmk/gui/valuespec.py:6177
 msgid "from the end"
 msgstr "vom Ende"
 
@@ -83396,7 +83545,7 @@ msgstr "blende Variablen-Namen aus"
 msgid "hierarchy"
 msgstr "Hierarchie"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:909
+#: ../cmk/gui/cee/plugins/wato/cmc.py:911
 msgid "high threshold"
 msgstr "obere Schwelle"
 
@@ -83425,7 +83574,7 @@ msgstr "Host Tags"
 msgid "hostname will be ignored when agent_hash is given."
 msgstr "hostname wird ignoriert, wenn agent_hash angegeben wird."
 
-#: ../cmk/gui/wato/pages/folders.py:788 ../cmk/gui/cee/plugins/wato/cmc.py:1767
+#: ../cmk/gui/wato/pages/folders.py:788 ../cmk/gui/cee/plugins/wato/cmc.py:1825
 msgid "hosts"
 msgstr "Hosts"
 
@@ -83449,7 +83598,7 @@ msgstr "Hosts sind aktiv und haben keine Serviceprobleme"
 msgid "hosts are up but have services in warning state"
 msgstr "Hosts sind aktiv, haben aber Services im Warnzustand"
 
-#: ../cmk/gui/wato/mkeventd.py:672 ../cmk/gui/cee/plugins/wato/cmc.py:1704
+#: ../cmk/gui/wato/mkeventd.py:672 ../cmk/gui/cee/plugins/wato/cmc.py:1762
 #: ../cmk/gui/cee/plugins/dashboard/bar_chart_dashlet.py:67
 #: ../cmk/gui/valuespec.py:3743
 msgid "hour"
@@ -83765,7 +83914,7 @@ msgstr "Anmeldung ist aktiviert"
 msgid "login as role"
 msgstr "Anmeldung als Rolle"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:904
+#: ../cmk/gui/cee/plugins/wato/cmc.py:906
 msgid "low threshold"
 msgstr "untere Schwelle"
 
@@ -84001,7 +84150,7 @@ msgstr "Mountpunkt"
 msgid "ms"
 msgstr "ms"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:287
+#: ../cmk/gui/cee/plugins/wato/cmc.py:289
 msgid "ms / entry"
 msgstr "ms / Eintrag"
 
@@ -84589,7 +84738,7 @@ msgstr "radial"
 msgid "range"
 msgstr "Zeitspanne"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1035
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1037
 msgid "range in the middle"
 msgstr "Bereich in der Mitte"
 
@@ -84741,15 +84890,15 @@ msgstr "Läuft"
 msgid "s"
 msgstr "s"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1711
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1769
 msgid "same day of the month"
 msgstr "Gleicher Tag im Monat"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1709
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1767
 msgid "same nth weekday (from beginning)"
 msgstr "gleicher n-ter Wochentag (von Beginn an)"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1710
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1768
 msgid "same nth weekday (from end)"
 msgstr "gleicher n-ter Wochentag (vom Ende aus)"
 
@@ -84769,7 +84918,7 @@ msgstr "Sofortige Wartungszeit eintragen"
 #: ../cmk/gui/wato/mkeventd.py:3269 ../cmk/gui/availability.py:520
 #: ../cmk/gui/watolib/sites.py:460 ../cmk/gui/watolib/sites.py:465
 #: ../cmk/gui/watolib/sites.py:475 ../cmk/gui/watolib/sites.py:481
-#: ../cmk/gui/watolib/sites.py:488 ../cmk/gui/cee/plugins/wato/cmc.py:996
+#: ../cmk/gui/watolib/sites.py:488 ../cmk/gui/cee/plugins/wato/cmc.py:998
 #: ../cmk/gui/valuespec.py:3745 ../cmk/gui/plugins/wato/active_checks.py:347
 #: ../cmk/gui/plugins/wato/active_checks.py:550
 #: ../cmk/gui/plugins/wato/active_checks.py:551
@@ -84793,11 +84942,11 @@ msgstr "Sofortige Wartungszeit eintragen"
 msgid "sec"
 msgstr "Sek"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1538
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1596
 msgid "sec."
 msgstr "sec."
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1707
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1765
 msgid "second week"
 msgstr "zweite Woche"
 
@@ -84873,7 +85022,7 @@ msgstr[1] "Services"
 msgid "service in %s state"
 msgstr "Service im Zustand %s"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:1784
+#: ../cmk/gui/cee/plugins/wato/cmc.py:1842
 #: ../cmk/gui/cee/plugins/dashboard/site_overview.py:492
 #: ../cmk/gui/plugins/wato/check_parameters/msoffice.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/msoffice.py:67
@@ -85087,7 +85236,7 @@ msgstr "Ausfälle/Sek"
 msgid "times"
 msgstr "mal"
 
-#: ../cmk/gui/cee/plugins/wato/cmc.py:993
+#: ../cmk/gui/cee/plugins/wato/cmc.py:995
 msgid "times the interval"
 msgstr "mal das Interval"
 
@@ -85389,7 +85538,7 @@ msgstr "Warnung wenn älter als"
 msgid "was closed"
 msgstr "wurde geschlossen"
 
-#: ../cmk/gui/wato/mkeventd.py:624 ../cmk/gui/cee/plugins/wato/cmc.py:1706
+#: ../cmk/gui/wato/mkeventd.py:624 ../cmk/gui/cee/plugins/wato/cmc.py:1764
 msgid "week"
 msgstr "Woche"
 
@@ -85479,6 +85628,15 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. Alle Rechte vorbehalten."
+
+#~ msgid "Automatic refresh"
+#~ msgstr "Automatische Aktualisierung"
+
+#~ msgid "Full scan"
+#~ msgstr "Vollständiger Scan"
+
+#~ msgid "Full service scan"
+#~ msgstr "Komplette Service-Suche"
 
 #~ msgid "The value must be of type str or unicode, but it has type %s"
 #~ msgstr "Der Wert muss vom Typ str oder unicode sein - ist aber %s"
