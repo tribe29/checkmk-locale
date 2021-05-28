@@ -1682,7 +1682,7 @@ msgstr "<b>conhecer os problemas%s</b> de"
 msgid "<b>add a comment to</b>"
 msgstr "<b>add um comentário para</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1456
+#: ../cmk/gui/plugins/views/commands.py:1460
 msgid "<b>add to you favorites</b>"
 msgstr "<b>add para os seus favoritos</b>"
 
@@ -1731,7 +1731,7 @@ msgstr "<b>remove reconhecimentos</b> de"
 msgid "<b>remove all scheduled downtimes</b> of "
 msgstr "<b>d>disponibilizar todos os tempos de paragem programados</b> de "
 
-#: ../cmk/gui/plugins/views/commands.py:1458
+#: ../cmk/gui/plugins/views/commands.py:1462
 msgid "<b>remove from your favorites</b>"
 msgstr "<b>remove dos seus favoritos</b>"
 
@@ -2543,13 +2543,13 @@ msgstr ""
 msgid "A large clock showing the current time of the web server"
 msgstr "Um relógio grande mostrando a hora atual do servidor web"
 
-#: ../cmk/gui/plugins/views/inventory.py:1352
+#: ../cmk/gui/plugins/views/inventory.py:1356
 msgid "A list of all hosts with some CPU related inventory data"
 msgstr ""
 "Uma lista de todos os anfitriões com alguns dados de inventário relacionados "
 "com a CPU"
 
-#: ../cmk/gui/plugins/views/inventory.py:1400
+#: ../cmk/gui/plugins/views/inventory.py:1404
 msgid ""
 "A list of all hosts with statistics about total, used and free networking "
 "interfaces"
@@ -2845,12 +2845,12 @@ msgstr "Um usuário com o id \"%s\" não existe."
 msgid "A value in seconds"
 msgstr "Um valor em segundos"
 
-#: ../cmk/gui/plugins/views/inventory.py:1076
+#: ../cmk/gui/plugins/views/inventory.py:1080
 #, python-format
 msgid "A view for searching in the inventory data for %s"
 msgstr "Uma visão para pesquisar nos dados do inventário por %s"
 
-#: ../cmk/gui/plugins/views/inventory.py:1105
+#: ../cmk/gui/plugins/views/inventory.py:1109
 #, python-format
 msgid "A view for the %s of one host"
 msgstr "Uma visão para as %s de um anfitrião"
@@ -2976,15 +2976,15 @@ msgstr "APC Symmetra Verificações"
 msgid "API Access Token"
 msgstr "Token de Acesso API"
 
-#: ../cmk/gui/plugins/wato/notifications.py:430
+#: ../cmk/gui/plugins/wato/notifications.py:452
 msgid "API Endpoint from PagerDuty V2"
 msgstr "API Endpoint do PagerDuty V2"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1238
+#: ../cmk/gui/plugins/wato/notifications.py:1284
 msgid "API Key"
 msgstr "Chave API"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1036
+#: ../cmk/gui/plugins/wato/notifications.py:1082
 msgid ""
 "API Key to use. Depending on your opsgenie subscription you can use global "
 "or team integration api keys."
@@ -2998,15 +2998,15 @@ msgid "API integrations if configured, else Checkmk agent"
 msgstr "Integrações de API se configuradas, caso contrário, agente Checkmk"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1997
-#: ../cmk/gui/plugins/wato/notifications.py:527
+#: ../cmk/gui/plugins/wato/notifications.py:565
 msgid "API key"
 msgstr "chave API"
 
-#: ../cmk/gui/plugins/wato/notifications.py:524
+#: ../cmk/gui/plugins/wato/notifications.py:562
 msgid "API key for iLert alert server"
 msgstr "Chave API para o servidor de alerta iLert"
 
-#: ../cmk/gui/plugins/wato/notifications.py:530
+#: ../cmk/gui/plugins/wato/notifications.py:568
 msgid "API key from password store"
 msgstr "Chave API da loja de senhas"
 
@@ -3638,7 +3638,7 @@ msgstr "Ação sobre Erro"
 #: ../cmk/gui/plugins/wato/bi_config.py:1912
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:268
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:344
-#: ../cmk/gui/plugins/wato/notifications.py:1144 ../cmk/gui/visuals.py:539
+#: ../cmk/gui/plugins/wato/notifications.py:1190 ../cmk/gui/visuals.py:539
 #: ../cmk/gui/gui_background_job.py:374 ../cmk/gui/gui_background_job.py:501
 #: ../cmk/gui/notifications.py:180 ../cmk/gui/notifications.py:183
 msgid "Actions"
@@ -3771,7 +3771,7 @@ msgstr "Ativar apenas serviços correspondentes"
 msgid "Activate pending changes"
 msgstr "Ativar mudanças pendentes"
 
-#: ../cmk/gui/plugins/wato/notifications.py:693
+#: ../cmk/gui/plugins/wato/notifications.py:739
 msgid "Activate resolution with following resolution transition ID"
 msgstr "Ativar resolução com o seguinte ID de transição de resolução"
 
@@ -4650,7 +4650,7 @@ msgstr "Adicione a"
 msgid "Add to %s"
 msgstr "Adicionar a %s"
 
-#: ../cmk/gui/plugins/views/commands.py:1448
+#: ../cmk/gui/plugins/views/commands.py:1452
 msgid "Add to Favorites"
 msgstr "Adicionar aos Favoritos"
 
@@ -4784,11 +4784,11 @@ msgstr "Contexto adicional"
 msgid "Additional header lines"
 msgstr "Linhas de cabeçalho adicionais"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1088
+#: ../cmk/gui/plugins/wato/notifications.py:1134
 msgid "Additional note that will be added while closing the alert."
 msgstr "Nota adicional que será adicionada enquanto se fecha o alerta."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1082
+#: ../cmk/gui/plugins/wato/notifications.py:1128
 msgid "Additional note that will be added while creating the alert."
 msgstr "Nota adicional que será adicionada durante a criação do alerta."
 
@@ -5068,7 +5068,7 @@ msgstr ""
 "automáticas você precisa instalar tal agente de cozimento que contenha o "
 "plugin. Isso precisa ser feito manualmente (pela última vez)."
 
-#: ../cmk/gui/plugins/wato/notifications.py:422
+#: ../cmk/gui/plugins/wato/notifications.py:444
 msgid ""
 "After setting up a new Service in PagerDuty you will receive an Integration "
 "key associated with that service. Copy that value here."
@@ -5764,7 +5764,7 @@ msgstr "Alias"
 msgid "Alias for created gateway hosts"
 msgstr "Alias para anfitriões de gateway criados"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1320
+#: ../cmk/gui/plugins/wato/notifications.py:1366
 msgid "Alien Alarm (long)"
 msgstr "Alarme de Alienígenas (longo)"
 
@@ -7764,7 +7764,7 @@ msgstr "Retorno automático"
 msgid "Automatic page reload"
 msgstr "Recarga automática da página"
 
-#: ../cmk/gui/htmllib.py:1467
+#: ../cmk/gui/htmllib.py:1463
 #, python-format
 msgid "Automatic page reload in %d seconds."
 msgstr "Recarga automática da página em %d segundos."
@@ -8534,12 +8534,12 @@ msgstr "Visão geral dos empregos de base"
 msgid "Background shading for rows"
 msgstr "Sombreamento de fundo para filas"
 
-#: ../cmk/gui/plugins/views/inventory.py:1173
+#: ../cmk/gui/plugins/views/inventory.py:1177
 msgid "Backplane"
 msgstr "Plano traseiro"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:188
-#: ../cmk/gui/plugins/views/inventory.py:1174
+#: ../cmk/gui/plugins/views/inventory.py:1178
 msgid "Backplanes"
 msgstr "Aviões traseiros"
 
@@ -8679,7 +8679,7 @@ msgstr "Barracuda: Fila de correio"
 msgid "Base DN"
 msgstr "DN base"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1217
+#: ../cmk/gui/plugins/wato/notifications.py:1263
 msgid "Base OID"
 msgstr "OID de base"
 
@@ -8835,7 +8835,7 @@ msgstr "O maior buffer de entrada de nível inferior"
 msgid "Biggest input buffer upper level"
 msgstr "O maior buffer de entrada do nível superior"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1321
+#: ../cmk/gui/plugins/wato/notifications.py:1367
 msgid "Bike"
 msgstr "Bicicleta"
 
@@ -8950,15 +8950,15 @@ msgstr "Corpo"
 msgid "Body for report mail"
 msgstr "Corpo para relatório de correspondência"
 
-#: ../cmk/gui/plugins/wato/notifications.py:471
+#: ../cmk/gui/plugins/wato/notifications.py:509
 msgid "Body head for both host and service notifications"
 msgstr "Cabeça do corpo para as notificações de serviço e do anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:482
+#: ../cmk/gui/plugins/wato/notifications.py:520
 msgid "Body tail for host notifications"
 msgstr "Cauda do corpo para notificações do anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:494
+#: ../cmk/gui/plugins/wato/notifications.py:532
 msgid "Body tail for service notifications"
 msgstr "Cauda do corpo para notificações de serviço"
 
@@ -9139,7 +9139,7 @@ msgstr "Hitratios de Bufferpool"
 msgid "Bug fix"
 msgstr "Correção de erros"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1322
+#: ../cmk/gui/plugins/wato/notifications.py:1368
 msgid "Bugle"
 msgstr "Bugle"
 
@@ -9151,7 +9151,7 @@ msgstr "Construir Cache"
 msgid "Build duration"
 msgstr "Duração da construção"
 
-#: ../cmk/gui/watolib/search.py:431
+#: ../cmk/gui/watolib/search.py:436
 msgid "Building of search index started"
 msgstr "Início da construção do índice de busca"
 
@@ -10166,7 +10166,7 @@ msgstr "tempo de ociosidade da CPU"
 msgid "CPU in percent"
 msgstr "CPU em percentagem"
 
-#: ../cmk/gui/plugins/views/inventory.py:1351
+#: ../cmk/gui/plugins/views/inventory.py:1355
 msgid "CPU inventory of all hosts"
 msgstr "Inventário de CPU de todos os hosts"
 
@@ -10551,11 +10551,11 @@ msgstr "Chamar as pernas"
 msgid "Call with the following parameters:"
 msgstr "Chamada com os seguintes parâmetros:"
 
-#: ../cmk/gui/plugins/wato/notifications.py:766
+#: ../cmk/gui/plugins/wato/notifications.py:812
 msgid "Caller ID"
 msgstr "Identificação de chamada"
 
-#: ../cmk/gui/plugins/wato/notifications.py:768
+#: ../cmk/gui/plugins/wato/notifications.py:814
 msgid ""
 "Caller is the user on behalf of whom the incident is being reported within "
 "ServiceNow. Please enter the name of the caller here. It is recommended to "
@@ -10616,10 +10616,10 @@ msgstr "Cancelar notificações para este tipo de plugin"
 msgid "Cancel previous notifications"
 msgstr "Cancelar notificações anteriores"
 
-#: ../cmk/gui/plugins/wato/notifications.py:878
-#: ../cmk/gui/plugins/wato/notifications.py:919
-#: ../cmk/gui/plugins/wato/notifications.py:961
-#: ../cmk/gui/plugins/wato/notifications.py:996
+#: ../cmk/gui/plugins/wato/notifications.py:924
+#: ../cmk/gui/plugins/wato/notifications.py:965
+#: ../cmk/gui/plugins/wato/notifications.py:1007
+#: ../cmk/gui/plugins/wato/notifications.py:1042
 msgid "Canceled"
 msgstr "Cancelado"
 
@@ -10802,8 +10802,8 @@ msgstr "Não pode carregar %s a partir de %s: %s"
 msgid "Cannot load %s: %s"
 msgstr "Não pode carregar %s: %s"
 
-#: ../cmk/gui/plugins/views/inventory.py:1459
-#: ../cmk/gui/plugins/views/inventory.py:1955
+#: ../cmk/gui/plugins/views/inventory.py:1463
+#: ../cmk/gui/plugins/views/inventory.py:1963
 #, python-format
 msgid ""
 "Cannot load HW/SW inventory history entries %s. Please remove the corrupted "
@@ -10812,9 +10812,9 @@ msgstr ""
 "Não é possível carregar entradas do histórico de inventário HW/SW %s. Por "
 "favor, remova os arquivos corrompidos."
 
-#: ../cmk/gui/plugins/views/inventory.py:862
-#: ../cmk/gui/plugins/views/inventory.py:941
-#: ../cmk/gui/plugins/views/inventory.py:1968
+#: ../cmk/gui/plugins/views/inventory.py:866
+#: ../cmk/gui/plugins/views/inventory.py:945
+#: ../cmk/gui/plugins/views/inventory.py:1981
 #, python-format
 msgid "Cannot load HW/SW inventory tree %s. Please remove the corrupted file."
 msgstr ""
@@ -11000,7 +11000,7 @@ msgstr "Insensível a maiúsculas e minúsculas"
 msgid "Case translation"
 msgstr "Tradução do caso"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1323
+#: ../cmk/gui/plugins/wato/notifications.py:1369
 msgid "Cash Register"
 msgstr "Caixa Registadora"
 
@@ -11281,7 +11281,7 @@ msgid "Changes since last dump"
 msgstr "Mudanças desde a última lixeira"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:889
-#: ../cmk/gui/plugins/views/inventory.py:1269
+#: ../cmk/gui/plugins/views/inventory.py:1273
 msgid "Channel"
 msgstr "Canal"
 
@@ -11315,8 +11315,8 @@ msgstr "Personagens"
 #: ../cmk/gui/plugins/wato/check_parameters/ucs_bladecenter_chassis_voltage.py:75
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:33
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:166
-#: ../cmk/gui/plugins/views/inventory.py:1167
-#: ../cmk/gui/plugins/views/inventory.py:1168
+#: ../cmk/gui/plugins/views/inventory.py:1171
+#: ../cmk/gui/plugins/views/inventory.py:1172
 msgid "Chassis"
 msgstr "Chassi"
 
@@ -11941,7 +11941,7 @@ msgstr ""
 msgid "Checkmk helper usage"
 msgstr "Checkmk utilização do helper"
 
-#: ../cmk/gui/plugins/views/inventory.py:1179
+#: ../cmk/gui/plugins/views/inventory.py:1183
 msgid "Checkmk site"
 msgstr "Site Checkmk"
 
@@ -11953,7 +11953,7 @@ msgstr "Checkmk objetos locais"
 msgid "Checkmk site performance and settings"
 msgstr "Checkmk desempenho e configurações do site"
 
-#: ../cmk/gui/plugins/views/inventory.py:1180
+#: ../cmk/gui/plugins/views/inventory.py:1184
 msgid "Checkmk sites"
 msgstr "Sites Checkmk"
 
@@ -11961,11 +11961,11 @@ msgstr "Sites Checkmk"
 msgid "Checkmk specific"
 msgstr "Checkmk específico"
 
-#: ../cmk/gui/plugins/views/inventory.py:1185
+#: ../cmk/gui/plugins/views/inventory.py:1189
 msgid "Checkmk version"
 msgstr "Versão Checkmk"
 
-#: ../cmk/gui/plugins/views/inventory.py:1186
+#: ../cmk/gui/plugins/views/inventory.py:1190
 msgid "Checkmk versions"
 msgstr "Versões Checkmk"
 
@@ -12447,7 +12447,7 @@ msgstr "Aulas"
 msgid "Classic Load Balancing (ELB)"
 msgstr "Balanceamento de carga clássico (ELB)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1324
+#: ../cmk/gui/plugins/wato/notifications.py:1370
 msgid "Classical"
 msgstr "Clássico"
 
@@ -12497,7 +12497,7 @@ msgstr "Atributos claramente modificados"
 msgid "Cleared audit log."
 msgstr "Registo de auditoria limpo."
 
-#: ../cmk/gui/htmllib.py:1468
+#: ../cmk/gui/htmllib.py:1464
 msgid "Click for instant reload."
 msgstr "Clique para recarga instantânea."
 
@@ -12572,7 +12572,7 @@ msgstr "Segredo do cliente"
 msgid "Clients pending on a blocking call"
 msgstr "Clientes pendentes em uma chamada de bloqueio"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1325
+#: ../cmk/gui/plugins/wato/notifications.py:1371
 msgid "Climb (long)"
 msgstr "Subir (longo)"
 
@@ -12677,10 +12677,10 @@ msgstr ""
 "padrão, o número de bytes lidos não é limitado. Esta configuração só é usada "
 "se você espera cordas na resposta."
 
-#: ../cmk/gui/plugins/wato/notifications.py:877
-#: ../cmk/gui/plugins/wato/notifications.py:918
-#: ../cmk/gui/plugins/wato/notifications.py:960
-#: ../cmk/gui/plugins/wato/notifications.py:995
+#: ../cmk/gui/plugins/wato/notifications.py:923
+#: ../cmk/gui/plugins/wato/notifications.py:964
+#: ../cmk/gui/plugins/wato/notifications.py:1006
+#: ../cmk/gui/plugins/wato/notifications.py:1041
 msgid "Closed"
 msgstr "Fechado"
 
@@ -13576,7 +13576,7 @@ msgstr ""
 "Check_MK irá então consultar este domínio para o controlador de domínio mais "
 "próximo com o qual se deve comunicar."
 
-#: ../cmk/gui/plugins/wato/notifications.py:588
+#: ../cmk/gui/plugins/wato/notifications.py:634
 msgid "Configure the JIRA URL here."
 msgstr "Configure o URL do JIRA aqui."
 
@@ -13586,7 +13586,7 @@ msgstr ""
 "Configure o actualizador de agentes para se ligar através de um servidor "
 "proxy."
 
-#: ../cmk/gui/plugins/wato/notifications.py:656
+#: ../cmk/gui/plugins/wato/notifications.py:702
 msgid ""
 "Configure the base URL for the Monitoring Web-GUI here. Include the site "
 "name. Used for link to check_mk out of jira."
@@ -13632,9 +13632,13 @@ msgstr ""
 "correspondências sensíveis a maiúsculas e minúsculas, <tt>!</tt> para "
 "negação e <tt>~~</tt> para correspondências regex."
 
-#: ../cmk/gui/wato/pages/users.py:1184
+#: ../cmk/gui/wato/pages/users.py:1185
+#, fuzzy, python-format
+#| msgid ""
+#| "Configure the language to be used by the user in the user interface here."
 msgid ""
-"Configure the language to be used by the user in the user interface here."
+"Configure the language of the user interface. Feel free to contribute to the "
+"translations on %s."
 msgstr ""
 "Configure aqui o idioma a ser usado pelo usuário na interface do usuário."
 
@@ -13672,11 +13676,11 @@ msgstr ""
 msgid "Configure the target mode for the system."
 msgstr "Configurar o modo de destino para o sistema."
 
-#: ../cmk/gui/plugins/wato/notifications.py:600
+#: ../cmk/gui/plugins/wato/notifications.py:646
 msgid "Configure the user name here."
 msgstr "Configure o nome do usuário aqui."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1251
+#: ../cmk/gui/plugins/wato/notifications.py:1297
 msgid ""
 "Configure the user or group to receive the notifications by providing the "
 "user or group key here. The key can be obtained from the Pushover website."
@@ -13685,7 +13689,7 @@ msgstr ""
 "chave do usuário ou grupo aqui. A chave pode ser obtida a partir do site "
 "Pushover."
 
-#: ../cmk/gui/plugins/wato/notifications.py:733
+#: ../cmk/gui/plugins/wato/notifications.py:779
 msgid "Configure your ServiceNow URL here (eg. https://myservicenow.com)."
 msgstr "Configure o seu ServiceNow URL aqui (ex. https://myservicenow.com)."
 
@@ -13922,7 +13926,7 @@ msgstr "Ligação"
 msgid "Connection ID"
 msgstr "ID de conexão"
 
-#: ../cmk/gui/watolib/search.py:439
+#: ../cmk/gui/watolib/search.py:444
 #, python-brace-format
 msgid ""
 "Connection attempt {n_attempts} / {n_attempts_redis_connection} to Redis "
@@ -14496,7 +14500,7 @@ msgstr "Corrompido"
 msgid "Corrupted files in Spool"
 msgstr "Arquivos corrompidos no Spool"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1326
+#: ../cmk/gui/plugins/wato/notifications.py:1372
 msgid "Cosmic"
 msgstr "Cósmico"
 
@@ -15047,18 +15051,18 @@ msgstr "Criar nós com base em uma pesquisa de serviços"
 
 #: ../cmk/gui/plugins/wato/notifications.py:207
 #: ../cmk/gui/plugins/wato/notifications.py:306
-#: ../cmk/gui/plugins/wato/notifications.py:344
-#: ../cmk/gui/plugins/wato/notifications.py:378
-#: ../cmk/gui/plugins/wato/notifications.py:415
-#: ../cmk/gui/plugins/wato/notifications.py:445
-#: ../cmk/gui/plugins/wato/notifications.py:506
-#: ../cmk/gui/plugins/wato/notifications.py:519
-#: ../cmk/gui/plugins/wato/notifications.py:580
-#: ../cmk/gui/plugins/wato/notifications.py:726
-#: ../cmk/gui/plugins/wato/notifications.py:1029
-#: ../cmk/gui/plugins/wato/notifications.py:1176
-#: ../cmk/gui/plugins/wato/notifications.py:1205
-#: ../cmk/gui/plugins/wato/notifications.py:1233
+#: ../cmk/gui/plugins/wato/notifications.py:351
+#: ../cmk/gui/plugins/wato/notifications.py:392
+#: ../cmk/gui/plugins/wato/notifications.py:437
+#: ../cmk/gui/plugins/wato/notifications.py:475
+#: ../cmk/gui/plugins/wato/notifications.py:544
+#: ../cmk/gui/plugins/wato/notifications.py:557
+#: ../cmk/gui/plugins/wato/notifications.py:626
+#: ../cmk/gui/plugins/wato/notifications.py:772
+#: ../cmk/gui/plugins/wato/notifications.py:1075
+#: ../cmk/gui/plugins/wato/notifications.py:1222
+#: ../cmk/gui/plugins/wato/notifications.py:1251
+#: ../cmk/gui/plugins/wato/notifications.py:1279
 msgid "Create notification with the following parameters"
 msgstr "Criar nota com os seguintes parâmetros"
 
@@ -16782,7 +16786,7 @@ msgstr "Endereço de servidor URL personalizado"
 msgid "Custom action"
 msgstr "Ação personalizada"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1145
+#: ../cmk/gui/plugins/wato/notifications.py:1191
 msgid "Custom actions that will be available for the alert."
 msgstr "Ações personalizadas que estarão disponíveis para o alerta."
 
@@ -16845,11 +16849,11 @@ msgstr "Ícones personalizados ou ações para hosts em status GUI"
 msgid "Custom icons or actions for services in status GUI"
 msgstr "Ícones personalizados ou ações para serviços em status GUI"
 
-#: ../cmk/gui/plugins/wato/notifications.py:546
+#: ../cmk/gui/plugins/wato/notifications.py:592
 msgid "Custom incident summary for host alerts"
 msgstr "Resumo de incidentes personalizados para alertas do host"
 
-#: ../cmk/gui/plugins/wato/notifications.py:553
+#: ../cmk/gui/plugins/wato/notifications.py:599
 msgid "Custom incident summary for service alerts"
 msgstr "Resumo de incidentes personalizados para alertas de serviço"
 
@@ -17828,7 +17832,7 @@ msgid "Date range"
 msgstr "Intervalo de datas"
 
 #: ../cmk/gui/wato/pages/notifications.py:692
-#: ../cmk/gui/plugins/views/inventory.py:1514
+#: ../cmk/gui/plugins/views/inventory.py:1518
 msgid "Date/Time"
 msgstr "Data/Hora"
 
@@ -17867,7 +17871,7 @@ msgid "Deactivate"
 msgstr "Desativar"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1051
-#: ../cmk/gui/plugins/wato/notifications.py:759
+#: ../cmk/gui/plugins/wato/notifications.py:805
 msgid "Deactivated"
 msgstr "Desativado"
 
@@ -17961,7 +17965,7 @@ msgstr "Deduplicação tamanho restante"
 msgid "Deduplication shared capacity"
 msgstr "Capacidade compartilhada de deduplicação"
 
-#: ../cmk/gui/plugins/views/inventory.py:505
+#: ../cmk/gui/plugins/views/inventory.py:509
 msgid "Default"
 msgstr "Predefinição"
 
@@ -19144,7 +19148,7 @@ msgstr ""
 msgid "Deprecated choice, please re-select"
 msgstr "Escolha desvalorizada, favor selecionar novamente"
 
-#: ../cmk/gui/watolib/search.py:420 ../cmk/gui/watolib/rulespecs.py:1262
+#: ../cmk/gui/watolib/search.py:425 ../cmk/gui/watolib/rulespecs.py:1262
 msgid "Deprecated rulesets"
 msgstr "Conjuntos de regras depreciadas"
 
@@ -19182,7 +19186,7 @@ msgstr "Descendente"
 msgid "Description"
 msgstr "Descrição"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1094
+#: ../cmk/gui/plugins/wato/notifications.py:1140
 msgid ""
 "Description field of host alert that is generally used to provide a detailed "
 "information about the alert."
@@ -19190,7 +19194,7 @@ msgstr ""
 "Campo de descrição do alerta do hospedeiro que geralmente é usado para "
 "fornecer informações detalhadas sobre o alerta."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1103
+#: ../cmk/gui/plugins/wato/notifications.py:1149
 msgid ""
 "Description field of service alert that is generally used to provide a "
 "detailed information about the alert."
@@ -19198,19 +19202,19 @@ msgstr ""
 "Descrição campo de alerta de serviço que geralmente é usado para fornecer "
 "uma informação detalhada sobre o alerta."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1093
+#: ../cmk/gui/plugins/wato/notifications.py:1139
 msgid "Description for host alerts"
 msgstr "Descrição dos alertas do hospedeiro"
 
-#: ../cmk/gui/plugins/wato/notifications.py:794
+#: ../cmk/gui/plugins/wato/notifications.py:840
 msgid "Description for host incidents"
 msgstr "Descrição dos incidentes com o anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1102
+#: ../cmk/gui/plugins/wato/notifications.py:1148
 msgid "Description for service alerts"
 msgstr "Descrição para alertas de serviço"
 
-#: ../cmk/gui/plugins/wato/notifications.py:807
+#: ../cmk/gui/plugins/wato/notifications.py:853
 msgid "Description for service incidents"
 msgstr "Descrição para incidentes de serviço"
 
@@ -19257,7 +19261,7 @@ msgstr "Nome do Grupo de Trabalho"
 msgid "Destination"
 msgstr "Destino"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1209
+#: ../cmk/gui/plugins/wato/notifications.py:1255
 msgid "Destination IP"
 msgstr "IP de destino"
 
@@ -19644,8 +19648,20 @@ msgstr "Notificações de Desactivação"
 msgid "Disable SSL certificate validation"
 msgstr "Desactivar a validação do certificado SSL"
 
-#: ../cmk/gui/plugins/wato/notifications.py:593
-#: ../cmk/gui/plugins/wato/notifications.py:594
+#: ../cmk/gui/plugins/wato/notifications.py:330
+#: ../cmk/gui/plugins/wato/notifications.py:331
+#: ../cmk/gui/plugins/wato/notifications.py:374
+#: ../cmk/gui/plugins/wato/notifications.py:375
+#: ../cmk/gui/plugins/wato/notifications.py:418
+#: ../cmk/gui/plugins/wato/notifications.py:419
+#: ../cmk/gui/plugins/wato/notifications.py:456
+#: ../cmk/gui/plugins/wato/notifications.py:457
+#: ../cmk/gui/plugins/wato/notifications.py:488
+#: ../cmk/gui/plugins/wato/notifications.py:489
+#: ../cmk/gui/plugins/wato/notifications.py:574
+#: ../cmk/gui/plugins/wato/notifications.py:575
+#: ../cmk/gui/plugins/wato/notifications.py:639
+#: ../cmk/gui/plugins/wato/notifications.py:640
 msgid "Disable SSL certificate verification"
 msgstr "Desactivar a verificação do certificado SSL"
 
@@ -21230,13 +21246,13 @@ msgid "Docker Disk Usage Count"
 msgstr "Contagem de utilização do disco de doca"
 
 #: ../cmk/gui/plugins/views/builtin.py:4300
-#: ../cmk/gui/plugins/views/inventory.py:1148
-#: ../cmk/gui/plugins/views/inventory.py:1149
+#: ../cmk/gui/plugins/views/inventory.py:1152
+#: ../cmk/gui/plugins/views/inventory.py:1153
 msgid "Docker containers"
 msgstr "Docker contentores"
 
-#: ../cmk/gui/plugins/views/inventory.py:1142
-#: ../cmk/gui/plugins/views/inventory.py:1143
+#: ../cmk/gui/plugins/views/inventory.py:1146
+#: ../cmk/gui/plugins/views/inventory.py:1147
 msgid "Docker images"
 msgstr "Imagens do Docker"
 
@@ -21307,7 +21323,7 @@ msgstr "Não termina com \"%s\"."
 msgid "Does not match any service"
 msgstr "Não corresponde a nenhum serviço"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1043
+#: ../cmk/gui/plugins/wato/notifications.py:1089
 msgid "Domain (only used for european accounts)"
 msgstr "Domínio (usado apenas para contas europeias)"
 
@@ -21319,10 +21335,10 @@ msgstr "Domino Nomes de Fila de Correio"
 msgid "Don't activate services matching"
 msgstr "Não activar serviços correspondentes"
 
-#: ../cmk/gui/plugins/wato/notifications.py:872
-#: ../cmk/gui/plugins/wato/notifications.py:913
-#: ../cmk/gui/plugins/wato/notifications.py:955
-#: ../cmk/gui/plugins/wato/notifications.py:990
+#: ../cmk/gui/plugins/wato/notifications.py:918
+#: ../cmk/gui/plugins/wato/notifications.py:959
+#: ../cmk/gui/plugins/wato/notifications.py:1001
+#: ../cmk/gui/plugins/wato/notifications.py:1036
 msgid "Don't change state"
 msgstr "Não mude de estado"
 
@@ -21830,7 +21846,7 @@ msgstr "Classificação dos pools de armazenamento EMC VNX"
 msgid "EMC VNX storage systems"
 msgstr "Sistemas de armazenamento EMC VNX"
 
-#: ../cmk/gui/htmllib.py:1183
+#: ../cmk/gui/htmllib.py:1179
 msgid "ERROR"
 msgstr "ERROR"
 
@@ -22621,7 +22637,7 @@ msgstr "Imagem embutida"
 msgid "Emergency"
 msgstr "Emergência"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1285
+#: ../cmk/gui/plugins/wato/notifications.py:1331
 msgid "Emergency: Repeat push notification in intervalls till expire time."
 msgstr "Emergência: Repetir a notificação em intervalos até expirar o tempo."
 
@@ -23175,7 +23191,7 @@ msgstr "Aplicar os IDs de usuário em minúsculas."
 msgid "Enforce show more"
 msgstr "Força de execução mostra mais"
 
-#: ../cmk/gui/wato/pages/services.py:1155 ../cmk/gui/watolib/search.py:417
+#: ../cmk/gui/wato/pages/services.py:1155 ../cmk/gui/watolib/search.py:422
 #: ../cmk/gui/watolib/rulespecs.py:191
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1106
 msgid "Enforced services"
@@ -23320,7 +23336,7 @@ msgstr "Capacidade titulada consumida"
 msgid "Entitlement"
 msgstr "Direito"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1158
+#: ../cmk/gui/plugins/wato/notifications.py:1204
 msgid "Entity"
 msgstr "Entidade"
 
@@ -23569,7 +23585,7 @@ msgid "Event Console enabled"
 msgstr "Console de eventos ativado"
 
 #: ../cmk/gui/wato/mkeventd.py:1244 ../cmk/gui/wato/mkeventd.py:4478
-#: ../cmk/gui/watolib/search.py:413
+#: ../cmk/gui/watolib/search.py:418
 msgid "Event Console rule packages"
 msgstr "Pacotes de regras de consola de eventos"
 
@@ -23578,11 +23594,11 @@ msgid "Event Console rule packs"
 msgstr "Pacotes de regras do console de eventos"
 
 #: ../cmk/gui/wato/mkeventd.py:4110 ../cmk/gui/wato/mkeventd.py:4152
-#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:414
+#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:419
 msgid "Event Console rules"
 msgstr "Regras do Console de Eventos"
 
-#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:415
+#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:420
 msgid "Event Console settings"
 msgstr "Configurações do console de eventos"
 
@@ -24297,7 +24313,7 @@ msgstr "Expirar eventos que estão no estado <i>conhecido</i>"
 msgid "Expire events that are in the state <i>open</i>"
 msgstr "Expirar eventos que estão no estado <i>open</i>"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1289
+#: ../cmk/gui/plugins/wato/notifications.py:1335
 msgid "Expire time"
 msgstr "Expirar o tempo"
 
@@ -25032,11 +25048,11 @@ msgstr "Notificações de recuo"
 msgid "Fallback template (%s): Unknown ID %s"
 msgstr "Modelo fallback (%s): ID desconhecido %s"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1328
+#: ../cmk/gui/plugins/wato/notifications.py:1374
 msgid "Falling"
 msgstr "Caindo"
 
-#: ../cmk/gui/plugins/views/inventory.py:1203
+#: ../cmk/gui/plugins/views/inventory.py:1207
 msgid "Fan"
 msgstr "Fã"
 
@@ -25056,7 +25072,7 @@ msgid "Fan speed of hardware devices (in percent)"
 msgstr "Velocidade do ventilador de dispositivos de hardware (em porcentagem)"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:254
-#: ../cmk/gui/plugins/views/inventory.py:1204
+#: ../cmk/gui/plugins/views/inventory.py:1208
 msgid "Fans"
 msgstr "Fãs"
 
@@ -25064,7 +25080,7 @@ msgstr "Fãs"
 msgid "Favorite entry of user"
 msgstr "Entrada favorita do usuário"
 
-#: ../cmk/gui/plugins/views/commands.py:1433
+#: ../cmk/gui/plugins/views/commands.py:1437
 msgid "Favorites"
 msgstr "Favoritos"
 
@@ -26724,7 +26740,7 @@ msgstr "Corridas de GC"
 msgid "GC runs rate"
 msgstr "Taxa de execução GC"
 
-#: ../cmk/gui/htmllib.py:2465
+#: ../cmk/gui/htmllib.py:2461
 msgid "GET/POST variables of this page"
 msgstr "Variáveis GET/POST desta página"
 
@@ -26741,7 +26757,7 @@ msgstr "desenho GUI"
 msgid "GUI extensions"
 msgstr "Extensões GUI"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1329
+#: ../cmk/gui/plugins/wato/notifications.py:1375
 msgid "Gamelan"
 msgstr "Gamelan"
 
@@ -26759,7 +26775,7 @@ msgstr "Resposta de automatização de Garbled: <pre>%s</pre>"
 msgid "Gateway"
 msgstr "Porta de entrada"
 
-#: ../cmk/gui/plugins/views/inventory.py:522
+#: ../cmk/gui/plugins/views/inventory.py:526
 msgid "Gateway route"
 msgstr "rota de entrada"
 
@@ -26975,7 +26991,7 @@ msgstr "Ambiente global"
 
 #: ../cmk/gui/wato/pages/global_settings.py:395
 #: ../cmk/gui/wato/pages/global_settings.py:568
-#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:418
+#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:423
 #: ../cmk/gui/plugins/wato/builtin_modules.py:120
 msgid "Global settings"
 msgstr "Configurações globais"
@@ -27606,11 +27622,11 @@ msgstr ""
 "usar HTTP, os dados confidenciais que estão contidos nos agentes de "
 "cozimento podem ser espiados (como senhas de plugins)."
 
-#: ../cmk/gui/plugins/views/inventory.py:1191
+#: ../cmk/gui/plugins/views/inventory.py:1195
 msgid "HW container"
 msgstr "contentor HW"
 
-#: ../cmk/gui/plugins/views/inventory.py:1192
+#: ../cmk/gui/plugins/views/inventory.py:1196
 msgid "HW containers"
 msgstr "contentores HW"
 
@@ -27773,7 +27789,7 @@ msgstr "Erros irrecuperáveis do disco rígido"
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../cmk/gui/plugins/views/inventory.py:303
+#: ../cmk/gui/plugins/views/inventory.py:307
 msgid "Hardware & Software Tree"
 msgstr "Árvore de Hardware & Software"
 
@@ -27949,8 +27965,8 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/notifications.py:126
 #: ../cmk/gui/plugins/wato/notifications.py:134
-#: ../cmk/gui/plugins/wato/notifications.py:671
-#: ../cmk/gui/plugins/wato/notifications.py:679
+#: ../cmk/gui/plugins/wato/notifications.py:717
+#: ../cmk/gui/plugins/wato/notifications.py:725
 msgid ""
 "Here you are allowed to use all macros that are defined in the notification "
 "context."
@@ -28083,12 +28099,12 @@ msgstr ""
 "o Console de Eventos quando você encaminhar notificações para ele e "
 "substituirá a configuração da regra correspondente."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1011
+#: ../cmk/gui/plugins/wato/notifications.py:1057
 msgid "Here you can configure timeout settings in seconds."
 msgstr ""
 "Aqui você pode configurar as configurações de tempo limite em segundos."
 
-#: ../cmk/gui/plugins/wato/notifications.py:701
+#: ../cmk/gui/plugins/wato/notifications.py:747
 msgid "Here you can configure timeout settings."
 msgstr "Aqui você pode configurar as configurações de tempo limite."
 
@@ -28215,7 +28231,7 @@ msgstr ""
 "individuais. Por razões de desempenho, a Média da CPU não será aplicada aos "
 "níveis de processos individuais."
 
-#: ../cmk/gui/plugins/wato/notifications.py:937
+#: ../cmk/gui/plugins/wato/notifications.py:983
 msgid ""
 "Here you can define the state of the incident in case of a downtime of the "
 "affected host or service."
@@ -28223,7 +28239,7 @@ msgstr ""
 "Aqui você pode definir o estado do incidente em caso de inatividade do host "
 "ou serviço afetado."
 
-#: ../cmk/gui/plugins/wato/notifications.py:894
+#: ../cmk/gui/plugins/wato/notifications.py:940
 msgid ""
 "Here you can define the state of the incident in case of a recovery of the "
 "affected host or service problem."
@@ -28231,7 +28247,7 @@ msgstr ""
 "Aqui você pode definir o estado do incidente no caso de uma recuperação do "
 "hospedeiro ou problema de serviço afetado."
 
-#: ../cmk/gui/plugins/wato/notifications.py:851
+#: ../cmk/gui/plugins/wato/notifications.py:897
 msgid ""
 "Here you can define the state of the incident in case of an acknowledgement "
 "of the affected host or service problem."
@@ -28239,7 +28255,7 @@ msgstr ""
 "Aqui você pode definir o estado do incidente no caso de um reconhecimento do "
 "anfitrião ou problema de serviço afetado."
 
-#: ../cmk/gui/plugins/wato/notifications.py:859
+#: ../cmk/gui/plugins/wato/notifications.py:905
 msgid ""
 "Here you can define the state of the incident in case of an acknowledgement "
 "of the host or service problem."
@@ -28247,7 +28263,7 @@ msgstr ""
 "Aqui você pode definir o estado do incidente no caso de um reconhecimento do "
 "anfitrião ou problema de serviço."
 
-#: ../cmk/gui/plugins/wato/notifications.py:977
+#: ../cmk/gui/plugins/wato/notifications.py:1023
 msgid ""
 "Here you can define the state of the incident in case of an ending "
 "acknowledgement of the host or service problem."
@@ -28487,7 +28503,7 @@ msgstr ""
 "alteração lá estará imediatamente ativa, enquanto que uma alteração nesta "
 "regra requer uma redescoberta dos serviços."
 
-#: ../cmk/gui/plugins/wato/notifications.py:687
+#: ../cmk/gui/plugins/wato/notifications.py:733
 msgid ""
 "Here you can set a custom label for new issues. If not set, 'monitoring' "
 "will be used."
@@ -28910,12 +28926,12 @@ msgid "Hierarchical layout"
 msgstr "Layout hierárquico"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:468
-#: ../cmk/gui/plugins/wato/notifications.py:830
-#: ../cmk/gui/plugins/wato/notifications.py:844
+#: ../cmk/gui/plugins/wato/notifications.py:876
+#: ../cmk/gui/plugins/wato/notifications.py:890
 msgid "High"
 msgstr "Alto"
 
-#: ../cmk/gui/plugins/wato/notifications.py:537
+#: ../cmk/gui/plugins/wato/notifications.py:583
 msgid "High (with escalation)"
 msgstr "Alto (com escalonamento)"
 
@@ -28932,7 +28948,7 @@ msgstr "Alta utilização em "
 msgid "High watermark"
 msgstr "Marca de água alta"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1301
+#: ../cmk/gui/plugins/wato/notifications.py:1347
 msgid "High: Push notification alerts bypass quiet hours"
 msgstr "Alto: Alertas de notificação push contornam as horas de silêncio"
 
@@ -29373,7 +29389,7 @@ msgstr "Atributo personalizado do anfitrião"
 msgid "Host custom attributes"
 msgstr "Atributos personalizados do anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:633
+#: ../cmk/gui/plugins/wato/notifications.py:679
 msgid "Host custom field ID"
 msgstr "ID de campo personalizado do host"
 
@@ -29920,7 +29936,7 @@ msgstr "Nomes de anfitriões a resolver"
 #: ../cmk/gui/wato/pages/folders.py:714 ../cmk/gui/wato/pages/folders.py:756
 #: ../cmk/gui/wato/pages/host_rename.py:120
 #: ../cmk/gui/wato/pages/host_rename.py:423
-#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:400
+#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:405
 #: ../cmk/gui/watolib/hosts_and_folders.py:3269 ../cmk/gui/views.py:1364
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:677
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:684
@@ -30326,12 +30342,12 @@ msgid "IBM MQ (Linux)"
 msgstr "IBM MQ (Linux)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_channels.py:74
-#: ../cmk/gui/plugins/views/inventory.py:1270
+#: ../cmk/gui/plugins/views/inventory.py:1274
 msgid "IBM MQ Channels"
 msgstr "Canais IBM MQ"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_managers.py:84
-#: ../cmk/gui/plugins/views/inventory.py:1268
+#: ../cmk/gui/plugins/views/inventory.py:1272
 msgid "IBM MQ Managers"
 msgstr "Gerentes IBM MQ"
 
@@ -30340,7 +30356,7 @@ msgid "IBM MQ Plugin"
 msgstr "Plugin IBM MQ Plugin"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:150
-#: ../cmk/gui/plugins/views/inventory.py:1272
+#: ../cmk/gui/plugins/views/inventory.py:1276
 msgid "IBM MQ Queues"
 msgstr "Filas de MQ IBM"
 
@@ -30551,11 +30567,11 @@ msgstr "Endereço IP"
 msgid "IP Address of Host"
 msgstr "Endereço IP do Host"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1188
+#: ../cmk/gui/plugins/wato/notifications.py:1234
 msgid "IP Address of remote Event Console"
 msgstr "Endereço IP do Console de Eventos Remoto"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1210
+#: ../cmk/gui/plugins/wato/notifications.py:1256
 msgid "IP Address of the Spectrum server receiving the SNMP trap"
 msgstr "Endereço IP do servidor Spectrum que recebe a armadilha SNMP"
 
@@ -30687,7 +30703,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2365
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4196
-#: ../cmk/gui/plugins/views/inventory.py:512
+#: ../cmk/gui/plugins/views/inventory.py:516
 #: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:689
 msgid "IPv4"
 msgstr "IPv4"
@@ -30725,7 +30741,7 @@ msgstr "IPv4/IPv6 dual-stack"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2366
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4197
-#: ../cmk/gui/plugins/views/inventory.py:514
+#: ../cmk/gui/plugins/views/inventory.py:518
 #: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:695
 msgid "IPv6"
 msgstr "IPv6"
@@ -31939,7 +31955,7 @@ msgstr ""
 "necessário adicionar as variáveis <tt>NOTIFY_HOST_FOO</tt> e "
 "<tt>NOTIFY_SERVICE_FOO</tt>."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1044
+#: ../cmk/gui/plugins/wato/notifications.py:1090
 msgid ""
 "If you have an european account, please set the domain of your opsgenie. "
 "Specify an absolute URL like https://api.eu.opsgenie.com."
@@ -32079,7 +32095,7 @@ msgstr ""
 "que você especificar aqui. Isto pode salvá-lo contra relatórios de mil "
 "páginas em casos de uma especificação de filtro inválida ou semelhante."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1189
+#: ../cmk/gui/plugins/wato/notifications.py:1235
 msgid ""
 "If you set this parameter then the notifications will be sent via syslog/UDP "
 "(port 514) to a remote Event Console or syslog server."
@@ -32158,7 +32174,7 @@ msgstr ""
 "período de nota (pode-se pensar no período de nota como o 'tempo de "
 "serviço')."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1261
+#: ../cmk/gui/plugins/wato/notifications.py:1307
 msgid ""
 "If you specify an URL prefix here, then several parts of the email body are "
 "armed with hyperlinks to your Check_MK GUI, so that the recipient of the "
@@ -32439,7 +32455,13 @@ msgstr "Ignorar a versão"
 msgid "Ignore these levels"
 msgstr "Ignorem estes níveis."
 
-#: ../cmk/gui/plugins/wato/notifications.py:595
+#: ../cmk/gui/plugins/wato/notifications.py:332
+#: ../cmk/gui/plugins/wato/notifications.py:376
+#: ../cmk/gui/plugins/wato/notifications.py:420
+#: ../cmk/gui/plugins/wato/notifications.py:458
+#: ../cmk/gui/plugins/wato/notifications.py:490
+#: ../cmk/gui/plugins/wato/notifications.py:576
+#: ../cmk/gui/plugins/wato/notifications.py:641
 msgid "Ignore unverified HTTPS request warnings. Use with caution."
 msgstr "Ignorar avisos de solicitação HTTPS não verificados. Use com cautela."
 
@@ -32494,7 +32516,7 @@ msgstr "Verificações imediatamente programadas"
 msgid "Immediately toggle this setting"
 msgstr "Alternar imediatamente esta configuração"
 
-#: ../cmk/gui/plugins/wato/notifications.py:836
+#: ../cmk/gui/plugins/wato/notifications.py:882
 msgid "Impact"
 msgstr "Impacto"
 
@@ -32586,10 +32608,10 @@ msgstr ""
 "não é usado pelas verificações do status do evento nem pela Multisite, "
 "portanto, propomos não permitir comandos via TCP."
 
-#: ../cmk/gui/plugins/wato/notifications.py:874
-#: ../cmk/gui/plugins/wato/notifications.py:915
-#: ../cmk/gui/plugins/wato/notifications.py:957
-#: ../cmk/gui/plugins/wato/notifications.py:992
+#: ../cmk/gui/plugins/wato/notifications.py:920
+#: ../cmk/gui/plugins/wato/notifications.py:961
+#: ../cmk/gui/plugins/wato/notifications.py:1003
+#: ../cmk/gui/plugins/wato/notifications.py:1038
 msgid "In Progress"
 msgstr "Em andamento"
 
@@ -33155,7 +33177,7 @@ msgstr "Incluir o tempo não monitorado"
 msgid "Inclusion patterns"
 msgstr "Padrões de inclusão"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1330
+#: ../cmk/gui/plugins/wato/notifications.py:1376
 msgid "Incoming"
 msgstr "Entrada"
 
@@ -33751,7 +33773,7 @@ msgstr "Integrar plataformas usando agentes especiais, por exemplo, SAP R/3"
 msgid "Integrate with VM, cloud or container platforms"
 msgstr "Integrar com VM, plataformas de nuvem ou contentores"
 
-#: ../cmk/gui/plugins/wato/notifications.py:424
+#: ../cmk/gui/plugins/wato/notifications.py:446
 msgid "Integration Key"
 msgstr "Chave de Integração"
 
@@ -33804,7 +33826,7 @@ msgstr "Tema da interface"
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1331
+#: ../cmk/gui/plugins/wato/notifications.py:1377
 msgid "Intermission"
 msgstr "Intervalo"
 
@@ -34189,7 +34211,7 @@ msgstr "Parâmetro inválido %r: %s"
 msgid "Invalid pass phrase"
 msgstr "Frase de passe inválida"
 
-#: ../cmk/gui/plugins/views/inventory.py:1989
+#: ../cmk/gui/plugins/views/inventory.py:2003
 #, python-format
 msgid "Invalid path in inventory tree: '%s' >> %s"
 msgstr "Caminho inválido na árvore de inventário: %s >> %s"
@@ -34414,15 +34436,15 @@ msgstr "Verificação inventariada"
 
 #: ../cmk/gui/pagetypes.py:1851
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:31
-#: ../cmk/gui/plugins/views/inventory.py:194
-#: ../cmk/gui/plugins/views/inventory.py:224
-#: ../cmk/gui/plugins/views/inventory.py:844
-#: ../cmk/gui/plugins/views/inventory.py:900
-#: ../cmk/gui/plugins/views/inventory.py:998
+#: ../cmk/gui/plugins/views/inventory.py:198
+#: ../cmk/gui/plugins/views/inventory.py:228
+#: ../cmk/gui/plugins/views/inventory.py:848
+#: ../cmk/gui/plugins/views/inventory.py:904
+#: ../cmk/gui/plugins/views/inventory.py:1002
 msgid "Inventory"
 msgstr "Inventário"
 
-#: ../cmk/gui/plugins/views/inventory.py:1511
+#: ../cmk/gui/plugins/views/inventory.py:1515
 msgid "Inventory Date/Time"
 msgstr "Data/Hora do Inventário"
 
@@ -34434,15 +34456,15 @@ msgstr "Histórico de Inventário"
 msgid "Inventory Historys"
 msgstr "Histórico de Estoques"
 
-#: ../cmk/gui/plugins/views/inventory.py:194
+#: ../cmk/gui/plugins/views/inventory.py:198
 msgid "Inventory Tree"
 msgstr "Árvore de Inventário"
 
-#: ../cmk/gui/plugins/views/inventory.py:1535
+#: ../cmk/gui/plugins/views/inventory.py:1539
 msgid "Inventory changes"
 msgstr "Modificações no inventário"
 
-#: ../cmk/gui/plugins/views/inventory.py:1624
+#: ../cmk/gui/plugins/views/inventory.py:1628
 msgid "Inventory history of host"
 msgstr "Histórico de inventário do anfitrião"
 
@@ -34450,11 +34472,11 @@ msgstr "Histórico de inventário do anfitrião"
 msgid "Inventory of Linux kernel configuration (sysctl)"
 msgstr "Inventário da configuração do kernel Linux (sysctl)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1302
+#: ../cmk/gui/plugins/views/inventory.py:1306
 msgid "Inventory of host"
 msgstr "Inventário do anfitrião"
 
-#: ../cmk/gui/plugins/views/inventory.py:1485
+#: ../cmk/gui/plugins/views/inventory.py:1489
 msgid "Inventory: History"
 msgstr "Inventário: História"
 
@@ -34533,7 +34555,7 @@ msgstr "Não está licenciado."
 msgid "Is up and available"
 msgstr "Está pronto e disponível"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1159
+#: ../cmk/gui/plugins/wato/notifications.py:1205
 msgid "Is used to specify which domain the alert is related to."
 msgstr "É usado para especificar a que domínio o alerta está relacionado."
 
@@ -34541,7 +34563,7 @@ msgstr "É usado para especificar a que domínio o alerta está relacionado."
 msgid "Is-Home state (Netapp only)"
 msgstr "Is-Home state (apenas Netapp)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:624
+#: ../cmk/gui/plugins/wato/notifications.py:670
 msgid "Issue type ID"
 msgstr "Identificação do tipo de emissão"
 
@@ -34723,7 +34745,7 @@ msgstr "Item {val_t2} adicionado."
 msgid "Items"
 msgstr "Itens"
 
-#: ../cmk/gui/plugins/wato/notifications.py:587
+#: ../cmk/gui/plugins/wato/notifications.py:633
 msgid "JIRA URL"
 msgstr "URL DO JIRA"
 
@@ -35025,11 +35047,11 @@ msgstr "Configuração do Kernel (sysctl)"
 msgid "Kernel Version"
 msgstr "Versão Kernel"
 
-#: ../cmk/gui/plugins/views/inventory.py:1278
+#: ../cmk/gui/plugins/views/inventory.py:1282
 msgid "Kernel configuration (sysctl)"
 msgstr "Configuração do Kernel (sysctl)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1279
+#: ../cmk/gui/plugins/views/inventory.py:1283
 msgid "Kernel configurations (sysctl)"
 msgstr "Configurações do Kernel (sysctl)"
 
@@ -35043,7 +35065,7 @@ msgstr "Pilha de miolo"
 msgid "Key"
 msgstr "Chave"
 
-#: ../cmk/gui/plugins/wato/notifications.py:425
+#: ../cmk/gui/plugins/wato/notifications.py:447
 msgid "Key from password store"
 msgstr "Chave da loja de senhas"
 
@@ -35286,7 +35308,7 @@ msgstr "LVM volumes (Linux)"
 msgid "LVM, Logical Volume Groups (Linux)"
 msgstr "LVM, Grupos de Volume Lógico (Linux)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:686
+#: ../cmk/gui/plugins/wato/notifications.py:732
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:498
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:525
 msgid "Label"
@@ -35559,7 +35581,7 @@ msgstr "Layout"
 msgid "Layout options"
 msgstr "Opções de layout"
 
-#: ../cmk/gui/plugins/wato/notifications.py:385
+#: ../cmk/gui/plugins/wato/notifications.py:399
 msgid ""
 "Learn how to setup a REST endpoint <a href=\"https://help.victorops.com/"
 "knowledge-base/victorops-restendpoint-integration/\" target=\"_blank\">here</"
@@ -37159,7 +37181,7 @@ msgstr ""
 msgid "Local port number"
 msgstr "Número da porta local"
 
-#: ../cmk/gui/plugins/views/inventory.py:521
+#: ../cmk/gui/plugins/views/inventory.py:525
 msgid "Local route"
 msgstr "Rota local"
 
@@ -37727,12 +37749,12 @@ msgid "Lotus Domino task discovery"
 msgstr "Descoberta da tarefa Lotus Domino"
 
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:466
-#: ../cmk/gui/plugins/wato/notifications.py:828
-#: ../cmk/gui/plugins/wato/notifications.py:842
+#: ../cmk/gui/plugins/wato/notifications.py:874
+#: ../cmk/gui/plugins/wato/notifications.py:888
 msgid "Low"
 msgstr "Baixo"
 
-#: ../cmk/gui/plugins/wato/notifications.py:538
+#: ../cmk/gui/plugins/wato/notifications.py:584
 msgid "Low (without escalation"
 msgstr "Baixo (sem escalonamento)"
 
@@ -37740,7 +37762,7 @@ msgstr "Baixo (sem escalonamento)"
 msgid "Low watermark"
 msgstr "Marca de água baixa"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1303
+#: ../cmk/gui/plugins/wato/notifications.py:1349
 msgid "Low: No sound/vibration but show popup"
 msgstr "Baixo: Sem som/vibração mas mostrar popup"
 
@@ -37953,7 +37975,7 @@ msgstr "Níveis mais baixos em número de ligações ponto a ponto"
 msgid "Lower warning level"
 msgstr "Nível de aviso inferior"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1304
+#: ../cmk/gui/plugins/wato/notifications.py:1350
 msgid "Lowest: No notification, update badge number"
 msgstr "O mais baixo: Sem notificação, atualizar número do crachá"
 
@@ -37985,8 +38007,8 @@ msgstr "endereço MAC"
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_cpu_memory.py:79
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:83
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:88
-#: ../cmk/gui/plugins/views/inventory.py:163
 #: ../cmk/gui/plugins/views/inventory.py:167
+#: ../cmk/gui/plugins/views/inventory.py:171
 msgid "MB"
 msgstr "MB"
 
@@ -38029,7 +38051,7 @@ msgstr "MDisks"
 msgid "MDisksGrps"
 msgstr "MDisksGrps"
 
-#: ../cmk/gui/htmllib.py:1177
+#: ../cmk/gui/htmllib.py:1173
 msgid "MESSAGE"
 msgstr "MENSAGEM"
 
@@ -38037,7 +38059,7 @@ msgstr "MENSAGEM"
 msgid "MGRs epoch levels and average"
 msgstr "MGRs níveis de época e média"
 
-#: ../cmk/gui/plugins/views/inventory.py:171
+#: ../cmk/gui/plugins/views/inventory.py:175
 msgid "MHz"
 msgstr "MHz"
 
@@ -38289,7 +38311,7 @@ msgstr ""
 msgid "Made rule pack %s available for MKP export"
 msgstr "Disponibilizado o pacote de regras %s para exportação MKP"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1332
+#: ../cmk/gui/plugins/wato/notifications.py:1378
 msgid "Magic"
 msgstr "Magia"
 
@@ -38608,7 +38630,7 @@ msgstr "Quadro de gestão SNMP usando o passeio a granel (reforça SNMP v2c)"
 msgid "Management board config"
 msgstr "Configuração do conselho de administração"
 
-#: ../cmk/gui/plugins/views/inventory.py:1267
+#: ../cmk/gui/plugins/views/inventory.py:1271
 msgid "Manager"
 msgstr "Gerente"
 
@@ -39464,7 +39486,7 @@ msgstr "Máximo de mensagens por intervalo de gravação"
 msgid "Maximum number of RPC requests per second"
 msgstr "Número máximo de pedidos RPC por segundo"
 
-#: ../cmk/gui/watolib/search.py:443
+#: ../cmk/gui/watolib/search.py:448
 msgid "Maximum number of allowed connection attempts reached, terminating"
 msgstr ""
 "Número máximo de tentativas de conexão permitidas atingidas, terminando"
@@ -39723,7 +39745,7 @@ msgstr "Tempo médio em fila para o último número médio de mensagens."
 msgid "Measurement unit"
 msgstr "Unidade de medida"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1333
+#: ../cmk/gui/plugins/wato/notifications.py:1379
 msgid "Mechanical"
 msgstr "Mecânica"
 
@@ -39762,8 +39784,8 @@ msgstr ""
 msgid "MediationServer - Load Call Failure Index"
 msgstr "MediationServer - Índice de Falha na Chamada de Carga"
 
-#: ../cmk/gui/plugins/wato/notifications.py:829
-#: ../cmk/gui/plugins/wato/notifications.py:843
+#: ../cmk/gui/plugins/wato/notifications.py:875
+#: ../cmk/gui/plugins/wato/notifications.py:889
 msgid "Medium"
 msgstr "Médio"
 
@@ -40013,11 +40035,11 @@ msgstr "Média de mensagens"
 msgid "Message count"
 msgstr "Contagem de mensagens"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1110
+#: ../cmk/gui/plugins/wato/notifications.py:1156
 msgid "Message for host alerts"
 msgstr "Mensagem para alertas do anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1121
+#: ../cmk/gui/plugins/wato/notifications.py:1167
 msgid "Message for service alerts"
 msgstr "Mensagem para alertas de serviço"
 
@@ -40381,7 +40403,7 @@ msgstr "Linha Espelhada"
 msgid "Mirrored Stacked"
 msgstr "Empilhados Espelhados"
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:419
+#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:424
 msgid "Miscellaneous"
 msgstr "Diversos"
 
@@ -40661,7 +40683,7 @@ msgid "Modify: Check VM Status (off: keep default)"
 msgstr "Modificar: Verificar o estado da VM (desligado: manter padrão)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/memory_percentage_used_multiitem.py:48
-#: ../cmk/gui/plugins/views/inventory.py:1215
+#: ../cmk/gui/plugins/views/inventory.py:1219
 msgid "Module"
 msgstr "Módulo"
 
@@ -40680,7 +40702,7 @@ msgid "Module name or empty"
 msgstr "Nome do módulo ou vazio"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:298
-#: ../cmk/gui/plugins/views/inventory.py:1216
+#: ../cmk/gui/plugins/views/inventory.py:1220
 msgid "Modules"
 msgstr "Módulos"
 
@@ -40873,7 +40895,7 @@ msgstr "Monitorização"
 msgid "Monitoring Core"
 msgstr "Núcleo de Monitorização"
 
-#: ../cmk/gui/plugins/wato/notifications.py:654
+#: ../cmk/gui/plugins/wato/notifications.py:700
 msgid "Monitoring URL"
 msgstr "URL de monitoramento"
 
@@ -41112,7 +41134,7 @@ msgstr "Mover-se"
 msgid "Move this %s to another folder"
 msgstr "Mover esta %s para outra pasta"
 
-#: ../cmk/gui/htmllib.py:2453
+#: ../cmk/gui/htmllib.py:2449
 msgid "Move this entry"
 msgstr "Mova esta entrada"
 
@@ -42034,7 +42056,7 @@ msgid "Network filesystem - overall status and usage (e.g. NFS)"
 msgstr ""
 "Sistema de ficheiros de rede - estado geral e utilização (por exemplo, NFS)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1135
+#: ../cmk/gui/plugins/views/inventory.py:1139
 msgid "Network interface"
 msgstr "Interface de rede"
 
@@ -42046,7 +42068,7 @@ msgstr "Interface de rede e descoberta de porta de comutação"
 msgid "Network interface groups"
 msgstr "Grupos de interface de rede"
 
-#: ../cmk/gui/plugins/views/inventory.py:1136
+#: ../cmk/gui/plugins/views/inventory.py:1140
 msgid "Network interfaces"
 msgstr "Interfaces de rede"
 
@@ -42099,8 +42121,8 @@ msgid "Networking"
 msgstr "Trabalho em rede"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:988
-#: ../cmk/gui/plugins/views/inventory.py:1273
-#: ../cmk/gui/plugins/views/inventory.py:1274
+#: ../cmk/gui/plugins/views/inventory.py:1277
+#: ../cmk/gui/plugins/views/inventory.py:1278
 msgid "Networking Tunnels"
 msgstr "Túneis em rede"
 
@@ -42142,10 +42164,10 @@ msgid "Never use piggyback data"
 msgstr "Nunca utilize dados piggyback"
 
 #: ../cmk/gui/wato/pages/services.py:536
-#: ../cmk/gui/plugins/wato/notifications.py:873
-#: ../cmk/gui/plugins/wato/notifications.py:914
-#: ../cmk/gui/plugins/wato/notifications.py:956
-#: ../cmk/gui/plugins/wato/notifications.py:991
+#: ../cmk/gui/plugins/wato/notifications.py:919
+#: ../cmk/gui/plugins/wato/notifications.py:960
+#: ../cmk/gui/plugins/wato/notifications.py:1002
+#: ../cmk/gui/plugins/wato/notifications.py:1037
 #: ../cmk/gui/plugins/visuals/filters.py:2340
 msgid "New"
 msgstr "Novo"
@@ -42322,14 +42344,14 @@ msgstr "Níveis de IO ágeis"
 #: ../cmk/gui/backup.py:1046 ../cmk/gui/wato/pages/sites.py:1266
 #: ../cmk/gui/logwatch.py:78 ../cmk/gui/logwatch.py:168
 #: ../cmk/gui/logwatch.py:285 ../cmk/gui/crash_reporting.py:533
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:396 ../cmk/gui/htmllib.py:1603
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:396 ../cmk/gui/htmllib.py:1599
 #: ../cmk/gui/plugins/wato/bi_config.py:504
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:78
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:87
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:96
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:105
-#: ../cmk/gui/plugins/views/inventory.py:549
+#: ../cmk/gui/plugins/views/inventory.py:553
 #: ../cmk/gui/plugins/views/availability.py:1090
 msgid "No"
 msgstr "Não"
@@ -42757,7 +42779,7 @@ msgstr ""
 "Não existe essa árvore de inventário de anfitriões %s. Você também pode não "
 "ter acesso a esse hospedeiro."
 
-#: ../cmk/gui/plugins/views/inventory.py:1978
+#: ../cmk/gui/plugins/views/inventory.py:1992
 msgid "No such inventory tree."
 msgstr "Não há tal árvore de inventário."
 
@@ -42960,7 +42982,7 @@ msgstr "Eventos não-críticos"
 msgid "None (linear)"
 msgstr "Nenhum (linear)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1319
+#: ../cmk/gui/plugins/wato/notifications.py:1365
 msgid "None (silent)"
 msgstr "Nenhum (silêncio)"
 
@@ -43028,7 +43050,7 @@ msgstr "Login de usuário normal com senha"
 msgid "Normal/retry check interval"
 msgstr "Intervalo de verificação normal/entrada"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1302
+#: ../cmk/gui/plugins/wato/notifications.py:1348
 msgid "Normal: Regular push notification (default)"
 msgstr "Normal: Notificação push regular (padrão)"
 
@@ -43266,11 +43288,11 @@ msgstr "Não suportado"
 msgid "Not yet monitored"
 msgstr "Ainda não monitorado"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1087
+#: ../cmk/gui/plugins/wato/notifications.py:1133
 msgid "Note while closing"
 msgstr "Nota durante o fechamento"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1081
+#: ../cmk/gui/plugins/wato/notifications.py:1127
 msgid "Note while creating"
 msgstr "Nota durante a criação de"
 
@@ -43487,7 +43509,7 @@ msgstr "Plugins de notificação"
 msgid "Notification postponement reason"
 msgstr "Motivo do adiamento da notificação"
 
-#: ../cmk/gui/plugins/wato/notifications.py:541
+#: ../cmk/gui/plugins/wato/notifications.py:587
 msgid ""
 "Notification priority (This will override the priority configured in the "
 "alert source)"
@@ -44869,10 +44891,10 @@ msgstr "Omitir carga útil em pacotes ICMP"
 msgid "Omit rows where all columns are identical"
 msgstr "Omitir linhas em que todas as colunas sejam idênticas"
 
-#: ../cmk/gui/plugins/wato/notifications.py:875
-#: ../cmk/gui/plugins/wato/notifications.py:916
-#: ../cmk/gui/plugins/wato/notifications.py:958
-#: ../cmk/gui/plugins/wato/notifications.py:993
+#: ../cmk/gui/plugins/wato/notifications.py:921
+#: ../cmk/gui/plugins/wato/notifications.py:962
+#: ../cmk/gui/plugins/wato/notifications.py:1004
+#: ../cmk/gui/plugins/wato/notifications.py:1039
 msgid "On Hold"
 msgstr "Em espera"
 
@@ -45335,7 +45357,7 @@ msgstr "Abra esta Agregação"
 msgid "Open this site's local web user interface"
 msgstr "Abra a interface do usuário local deste site"
 
-#: ../cmk/gui/plugins/views/inventory.py:1798
+#: ../cmk/gui/plugins/views/inventory.py:1807
 msgid "Open this table for filtering / sorting"
 msgstr "Abra esta tabela para filtragem / triagem"
 
@@ -45588,8 +45610,8 @@ msgstr "Comutadores de Registo Oracle"
 msgid "Oracle Long Active Sessions"
 msgstr "Sessões Oracle Longas Ativas"
 
-#: ../cmk/gui/plugins/views/inventory.py:1258
-#: ../cmk/gui/plugins/views/inventory.py:1259
+#: ../cmk/gui/plugins/views/inventory.py:1262
+#: ../cmk/gui/plugins/views/inventory.py:1263
 msgid "Oracle PGA performance"
 msgstr "Desempenho do Oracle PGA"
 
@@ -45613,8 +45635,8 @@ msgstr "Área de Recuperação Oracle"
 msgid "Oracle Recovery Status"
 msgstr "Estado da Recuperação Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1252
-#: ../cmk/gui/plugins/views/inventory.py:1253
+#: ../cmk/gui/plugins/views/inventory.py:1256
+#: ../cmk/gui/plugins/views/inventory.py:1257
 msgid "Oracle SGA performance"
 msgstr "Desempenho do Oracle SGA"
 
@@ -45634,19 +45656,19 @@ msgstr "Mesas Oracle"
 msgid "Oracle Undo Retention"
 msgstr "Retenção de Desfazer Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1240
+#: ../cmk/gui/plugins/views/inventory.py:1244
 msgid "Oracle dataguard statistic"
 msgstr "Estatísticas do dataguard do Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1241
+#: ../cmk/gui/plugins/views/inventory.py:1245
 msgid "Oracle dataguard statistics"
 msgstr "Estatísticas do dataguard da Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1228
+#: ../cmk/gui/plugins/views/inventory.py:1232
 msgid "Oracle instance"
 msgstr "exemplo Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1229
+#: ../cmk/gui/plugins/views/inventory.py:1233
 msgid "Oracle instances"
 msgstr "instâncias Oracle"
 
@@ -45654,27 +45676,27 @@ msgstr "instâncias Oracle"
 msgid "Oracle performance discovery"
 msgstr "Descoberta do desempenho da Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1234
+#: ../cmk/gui/plugins/views/inventory.py:1238
 msgid "Oracle recovery area"
 msgstr "área de recuperação Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1235
+#: ../cmk/gui/plugins/views/inventory.py:1239
 msgid "Oracle recovery areas"
 msgstr "Áreas de recuperação Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1264
+#: ../cmk/gui/plugins/views/inventory.py:1268
 msgid "Oracle system parameter"
 msgstr "parâmetro do sistema Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1265
+#: ../cmk/gui/plugins/views/inventory.py:1269
 msgid "Oracle system parameters"
 msgstr "parâmetros do sistema Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1246
+#: ../cmk/gui/plugins/views/inventory.py:1250
 msgid "Oracle tablespace"
 msgstr "Espaço de tabela Oracle"
 
-#: ../cmk/gui/plugins/views/inventory.py:1247
+#: ../cmk/gui/plugins/views/inventory.py:1251
 msgid "Oracle tablespaces"
 msgstr "Espaços de mesa Oracle"
 
@@ -45756,11 +45778,11 @@ msgid "Other components"
 msgstr "Outros componentes"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:122
-#: ../cmk/gui/plugins/views/inventory.py:1156
+#: ../cmk/gui/plugins/views/inventory.py:1160
 msgid "Other entities"
 msgstr "Outras entidades"
 
-#: ../cmk/gui/plugins/views/inventory.py:1155
+#: ../cmk/gui/plugins/views/inventory.py:1159
 msgid "Other entity"
 msgstr "Outra entidade"
 
@@ -45768,7 +45790,7 @@ msgstr "Outra entidade"
 msgid "Other hosts"
 msgstr "Outros anfitriões"
 
-#: ../cmk/gui/watolib/search.py:402
+#: ../cmk/gui/watolib/search.py:407
 #: ../cmk/gui/plugins/wato/datasource_programs.py:212
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1406
 msgid "Other integrations"
@@ -46121,7 +46143,7 @@ msgstr "Propriedade de outros utilizadores"
 
 #: ../cmk/gui/cee/reporting.py:1481 ../cmk/gui/cee/reporting.py:1712
 #: ../cmk/gui/cee/reporting.py:2491 ../cmk/gui/pagetypes.py:1133
-#: ../cmk/gui/plugins/wato/notifications.py:1054 ../cmk/gui/visuals.py:611
+#: ../cmk/gui/plugins/wato/notifications.py:1100 ../cmk/gui/visuals.py:611
 #: ../cmk/gui/gui_background_job.py:365 ../cmk/gui/gui_background_job.py:506
 msgid "Owner"
 msgstr "Proprietário"
@@ -46139,23 +46161,23 @@ msgstr "Proprietário do evento"
 msgid "P"
 msgstr "P"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1071
+#: ../cmk/gui/plugins/wato/notifications.py:1117
 msgid "P1 - Critical"
 msgstr "P1 - Crítico"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1072
+#: ../cmk/gui/plugins/wato/notifications.py:1118
 msgid "P2 - High"
 msgstr "P2 - Alta"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1073
+#: ../cmk/gui/plugins/wato/notifications.py:1119
 msgid "P3 - Moderate"
 msgstr "P3 - Moderado"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1074
+#: ../cmk/gui/plugins/wato/notifications.py:1120
 msgid "P4 - Low"
 msgstr "P4 - Baixo"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1075
+#: ../cmk/gui/plugins/wato/notifications.py:1121
 msgid "P5 - Informational"
 msgstr "P5 - Informativo"
 
@@ -46274,7 +46296,7 @@ msgstr "POP3"
 msgid "POP3 Server"
 msgstr "Servidor POP3"
 
-#: ../cmk/gui/htmllib.py:2476
+#: ../cmk/gui/htmllib.py:2472
 msgid "POST / GET Variables"
 msgstr "Variáveis POST / GET"
 
@@ -46519,7 +46541,7 @@ msgstr "Pager"
 msgid "Pager address"
 msgstr "Endereço do Pager"
 
-#: ../cmk/gui/plugins/wato/notifications.py:421
+#: ../cmk/gui/plugins/wato/notifications.py:443
 msgid "PagerDuty Service Integration Key"
 msgstr "Chave de Integração do Serviço PagerDuty"
 
@@ -46781,7 +46803,7 @@ msgstr "Frase de passagem"
 #: ../cmk/gui/plugins/wato/active_checks.py:1505
 #: ../cmk/gui/plugins/wato/active_checks.py:1588
 #: ../cmk/gui/plugins/wato/active_checks.py:2067
-#: ../cmk/gui/plugins/wato/notifications.py:606
+#: ../cmk/gui/plugins/wato/notifications.py:652
 msgid "Password"
 msgstr "Senha"
 
@@ -46818,7 +46840,7 @@ msgstr "Senha para este usuário"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3424
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3555
 #: ../cmk/gui/plugins/wato/active_checks.py:2428
-#: ../cmk/gui/plugins/wato/notifications.py:747
+#: ../cmk/gui/plugins/wato/notifications.py:793
 msgid "Password of the user"
 msgstr "Senha do usuário"
 
@@ -47573,7 +47595,7 @@ msgstr "Grupos de Contacto Permitidos"
 msgid "Permitted HW/SW inventory paths"
 msgstr "Caminhos de inventário HW/SW permitidos"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1334
+#: ../cmk/gui/plugins/wato/notifications.py:1380
 msgid "Persistent (long)"
 msgstr "Persistente (longo)"
 
@@ -47759,7 +47781,7 @@ msgstr "Processadores físicos consumidos"
 msgid "Physical state of port"
 msgstr "Estado físico do porto"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1335
+#: ../cmk/gui/plugins/wato/notifications.py:1381
 msgid "Piano Bar"
 msgstr "Piano Bar"
 
@@ -48142,10 +48164,10 @@ msgstr ""
 "modificação é ativada apenas durante um inventário. Isto é devido à natureza "
 "das regras de inventário."
 
-#: ../cmk/gui/plugins/wato/notifications.py:867
-#: ../cmk/gui/plugins/wato/notifications.py:908
-#: ../cmk/gui/plugins/wato/notifications.py:950
-#: ../cmk/gui/plugins/wato/notifications.py:985
+#: ../cmk/gui/plugins/wato/notifications.py:913
+#: ../cmk/gui/plugins/wato/notifications.py:954
+#: ../cmk/gui/plugins/wato/notifications.py:996
+#: ../cmk/gui/plugins/wato/notifications.py:1031
 msgid ""
 "Please note that the mapping to the numeric ServiceNow state may be changed "
 "at your system and can differ from our definitions. In this case use the "
@@ -48496,7 +48518,7 @@ msgstr ""
 "Utilize apenas a-z, A-Z, 0-9, espaço, sublinhado, ponto, hífen e barra para "
 "a descrição do seu serviço"
 
-#: ../cmk/gui/plugins/wato/notifications.py:753
+#: ../cmk/gui/plugins/wato/notifications.py:799
 msgid ""
 "Please use this option if you have multiple sites in a distributed setup "
 "which send their notifications to the same ServiceNow instance. The site ID "
@@ -48879,11 +48901,11 @@ msgstr "Nome da fonte de alimentação"
 msgid "Power Usage"
 msgstr "Uso de energia"
 
-#: ../cmk/gui/plugins/views/inventory.py:1198
+#: ../cmk/gui/plugins/views/inventory.py:1202
 msgid "Power supplies"
 msgstr "Fontes de alimentação"
 
-#: ../cmk/gui/plugins/views/inventory.py:1197
+#: ../cmk/gui/plugins/views/inventory.py:1201
 msgid "Power supply"
 msgstr "Fonte de alimentação"
 
@@ -49165,12 +49187,12 @@ msgstr "Prio"
 
 #: ../cmk/gui/wato/mkeventd.py:1954
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/unix_plugins_cache_age.py:32
-#: ../cmk/gui/plugins/wato/notifications.py:1069
-#: ../cmk/gui/plugins/wato/notifications.py:1282
+#: ../cmk/gui/plugins/wato/notifications.py:1115
+#: ../cmk/gui/plugins/wato/notifications.py:1328
 msgid "Priority"
 msgstr "Prioridade"
 
-#: ../cmk/gui/plugins/wato/notifications.py:661
+#: ../cmk/gui/plugins/wato/notifications.py:707
 msgid "Priority ID"
 msgstr "Identificação prioritária"
 
@@ -49434,7 +49456,7 @@ msgstr "Informações de progresso"
 msgid "Project"
 msgstr "Projeto"
 
-#: ../cmk/gui/plugins/wato/notifications.py:615
+#: ../cmk/gui/plugins/wato/notifications.py:661
 msgid "Project ID"
 msgstr "Identificação do projeto"
 
@@ -49705,11 +49727,11 @@ msgstr "Pulse Secure usuários"
 msgid "Push configuration to this site"
 msgstr "Empurre a configuração para este site"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1336
+#: ../cmk/gui/plugins/wato/notifications.py:1382
 msgid "Pushover"
 msgstr "Pushover"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1327
+#: ../cmk/gui/plugins/wato/notifications.py:1373
 msgid "Pushover Echo (long)"
 msgstr "Pushover Echo (longo)"
 
@@ -49818,7 +49840,7 @@ msgid "Query or SQL statement"
 msgstr "Consulta ou instrução SQL"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:899
-#: ../cmk/gui/plugins/views/inventory.py:1271
+#: ../cmk/gui/plugins/views/inventory.py:1275
 msgid "Queue"
 msgstr "Fila"
 
@@ -50017,7 +50039,7 @@ msgstr "GUI interativa REST API"
 msgid "REST API: Use HTTP ETags for optimistic locking"
 msgstr "REST API: Use ETags HTTP para bloqueio otimista"
 
-#: ../cmk/gui/plugins/wato/notifications.py:389
+#: ../cmk/gui/plugins/wato/notifications.py:403
 msgid "REST Endpoint URL"
 msgstr "URL do Endpoint REST"
 
@@ -50463,7 +50485,7 @@ msgstr "Número Real (REAL)"
 msgid "Reason: %s"
 msgstr "Motivo: %s"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1291
+#: ../cmk/gui/plugins/wato/notifications.py:1337
 msgid "Receipt"
 msgstr "Recibo"
 
@@ -50991,7 +51013,7 @@ msgstr "Fiabilidade"
 msgid "Reload"
 msgstr "Recarregar"
 
-#: ../cmk/gui/htmllib.py:1430
+#: ../cmk/gui/htmllib.py:1426
 msgid "Reloading..."
 msgstr "Recarregando..."
 
@@ -51126,7 +51148,7 @@ msgid "Remote: Send events to remote syslog host"
 msgstr "Remoto: Enviar eventos para o host remoto do syslog"
 
 #: ../cmk/gui/plugins/views/commands.py:1350
-#: ../cmk/gui/plugins/views/commands.py:1386
+#: ../cmk/gui/plugins/views/commands.py:1390
 msgid "Remove"
 msgstr "Remover"
 
@@ -51174,7 +51196,7 @@ msgstr "Remover arquivos e subdiretórios gerenciados pelo agente Checkmk"
 msgid "Remove filter"
 msgstr "Remover filtro"
 
-#: ../cmk/gui/plugins/views/commands.py:1449
+#: ../cmk/gui/plugins/views/commands.py:1453
 msgid "Remove from Favorites"
 msgstr "Remover dos Favoritos"
 
@@ -51220,7 +51242,7 @@ msgstr "Remover este pacote de regras do módulo Pacotes de Extensão"
 msgid "Remove vanished services"
 msgstr "Remover serviços desaparecidos"
 
-#: ../cmk/gui/plugins/views/inventory.py:1562
+#: ../cmk/gui/plugins/views/inventory.py:1566
 msgid "Removed"
 msgstr "Removido"
 
@@ -51239,7 +51261,7 @@ msgstr "Removido o tag auxiliar %s (%s)"
 msgid "Removed disabled extension package %s"
 msgstr "Removido pacote de extensão para deficientes %s"
 
-#: ../cmk/gui/plugins/views/inventory.py:1559
+#: ../cmk/gui/plugins/views/inventory.py:1563
 msgid "Removed entries"
 msgstr "Entradas removidas"
 
@@ -51611,7 +51633,7 @@ msgstr "Relatório do Anfitrião"
 msgid "Report of Host Performance Graphs"
 msgstr "Relatório de gráficos de desempenho do host"
 
-#: ../cmk/gui/plugins/views/inventory.py:197
+#: ../cmk/gui/plugins/views/inventory.py:201
 msgid "Report options"
 msgstr "Opções de relatório"
 
@@ -51846,10 +51868,10 @@ msgstr "Uso de memória residente"
 msgid "Resident size"
 msgstr "Tamanho do residente"
 
-#: ../cmk/gui/plugins/wato/notifications.py:876
-#: ../cmk/gui/plugins/wato/notifications.py:917
-#: ../cmk/gui/plugins/wato/notifications.py:959
-#: ../cmk/gui/plugins/wato/notifications.py:994
+#: ../cmk/gui/plugins/wato/notifications.py:922
+#: ../cmk/gui/plugins/wato/notifications.py:963
+#: ../cmk/gui/plugins/wato/notifications.py:1005
+#: ../cmk/gui/plugins/wato/notifications.py:1040
 msgid "Resolved"
 msgstr "Resolvido"
 
@@ -51895,7 +51917,7 @@ msgstr "Tempo limite de resposta"
 msgid "Response timeout for a single query"
 msgstr "Tempo limite de resposta para uma única consulta"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1134
+#: ../cmk/gui/plugins/wato/notifications.py:1180
 msgid "Responsible teams"
 msgstr "Equipas responsáveis"
 
@@ -52130,7 +52152,7 @@ msgstr "Intervalo de verificação de novo para verificações de serviço"
 msgid "Retry this test"
 msgstr "Tente novamente este teste"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1288
+#: ../cmk/gui/plugins/wato/notifications.py:1334
 msgid "Retry time"
 msgstr "Tempo de tentativas"
 
@@ -52971,11 +52993,11 @@ msgstr "SNMP"
 msgid "SNMP Agent Simulator"
 msgstr "Simulador de Agente SNMP"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1213
+#: ../cmk/gui/plugins/wato/notifications.py:1259
 msgid "SNMP Community"
 msgstr "Comunidade SNMP"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1214
+#: ../cmk/gui/plugins/wato/notifications.py:1260
 msgid "SNMP Community for the SNMP trap"
 msgstr "Comunidade SNMP para a armadilha SNMP"
 
@@ -53488,7 +53510,7 @@ msgstr "Scripts para integrar plugis Nagios"
 msgid "Search"
 msgstr "Pesquisa"
 
-#: ../cmk/gui/plugins/views/inventory.py:1075
+#: ../cmk/gui/plugins/views/inventory.py:1079
 #, python-format
 msgid "Search %s"
 msgstr "Pesquisar %s"
@@ -53618,19 +53640,19 @@ msgstr "Pesquisar na Configuração"
 msgid "Search in this folder"
 msgstr "Pesquisar nesta pasta"
 
-#: ../cmk/gui/watolib/search.py:497 ../cmk/gui/watolib/search.py:503
+#: ../cmk/gui/watolib/search.py:502 ../cmk/gui/watolib/search.py:508
 msgid "Search index"
 msgstr "Índice de pesquisa"
 
-#: ../cmk/gui/watolib/search.py:474
+#: ../cmk/gui/watolib/search.py:479
 msgid "Search index not found, re-building from scratch"
 msgstr "Índice de pesquisa não encontrado, reconstruindo a partir do zero"
 
-#: ../cmk/gui/watolib/search.py:447
+#: ../cmk/gui/watolib/search.py:452
 msgid "Search index successfully built"
 msgstr "Índice de pesquisa construído com sucesso"
 
-#: ../cmk/gui/watolib/search.py:479
+#: ../cmk/gui/watolib/search.py:484
 msgid "Search index successfully updated"
 msgstr "Índice de pesquisa actualizado com sucesso"
 
@@ -53881,8 +53903,8 @@ msgstr ""
 "knowledgecenter/en/SSFKSJ_9.2.0/com.ibm.mq.explorer.doc/e_status_queue.html) "
 "para explicações detalhadas sobre estes parâmetros."
 
-#: ../cmk/gui/plugins/wato/notifications.py:823
-#: ../cmk/gui/plugins/wato/notifications.py:837
+#: ../cmk/gui/plugins/wato/notifications.py:869
+#: ../cmk/gui/plugins/wato/notifications.py:883
 msgid ""
 "See <a href=\"https://docs.servicenow.com/bundle/helsinki-it-service-"
 "management/page/product/incident-management/reference/"
@@ -53894,7 +53916,7 @@ msgstr ""
 "r_PrioritizationOfIncidents.html\" target=\"_blank\">ServiceNow Incident</a> "
 "para mais informações."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1315
+#: ../cmk/gui/plugins/wato/notifications.py:1361
 msgid ""
 "See <a href=\"https://pushover.net/api#sounds\" target=\"_blank\">Pushover "
 "sounds</a> for more information and trying out available sounds."
@@ -53991,7 +54013,7 @@ msgstr "Selecione a métrica"
 msgid "Select metrics to send to InfluxDB"
 msgstr "Enviar métricas para Graphite / InfluxDB"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1313
+#: ../cmk/gui/plugins/wato/notifications.py:1359
 msgid "Select sound"
 msgstr "Selecione o som"
 
@@ -54224,7 +54246,7 @@ msgid "Sends Timed-Out"
 msgstr "Envio de Timed-Out"
 
 #: ../cmk/gui/plugins/wato/check_parameters/switch_contact.py:36
-#: ../cmk/gui/plugins/views/inventory.py:1209
+#: ../cmk/gui/plugins/views/inventory.py:1213
 msgid "Sensor"
 msgstr "Sensor"
 
@@ -54266,7 +54288,7 @@ msgid "Sensor threshold"
 msgstr "Limiar do sensor"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:276
-#: ../cmk/gui/plugins/views/inventory.py:1210
+#: ../cmk/gui/plugins/views/inventory.py:1214
 msgid "Sensors"
 msgstr "Sensores"
 
@@ -54605,7 +54627,7 @@ msgstr "Atributo de serviço personalizado"
 msgid "Service custom attributes"
 msgstr "Atributos de serviço personalizados"
 
-#: ../cmk/gui/plugins/wato/notifications.py:639
+#: ../cmk/gui/plugins/wato/notifications.py:685
 msgid "Service custom field ID"
 msgstr "Serviço de identificação de campo personalizado"
 
@@ -54640,7 +54662,7 @@ msgstr "Descrição dos serviços"
 msgid "Service discovery"
 msgstr "Descoberta de serviços"
 
-#: ../cmk/gui/watolib/search.py:404
+#: ../cmk/gui/watolib/search.py:409
 #: ../cmk/gui/plugins/wato/utils/__init__.py:736
 msgid "Service discovery rules"
 msgstr "Regras de descoberta de serviços"
@@ -54746,7 +54768,7 @@ msgstr "Nível de serviço"
 msgid "Service limits"
 msgstr "Limites de serviço"
 
-#: ../cmk/gui/watolib/search.py:403
+#: ../cmk/gui/watolib/search.py:408
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1036
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1048
 #: ../cmk/gui/plugins/wato/utils/__init__.py:718
@@ -54932,7 +54954,7 @@ msgstr "Nível de serviço"
 msgid "Service: "
 msgstr "Serviço: "
 
-#: ../cmk/gui/plugins/wato/notifications.py:731
+#: ../cmk/gui/plugins/wato/notifications.py:777
 msgid "ServiceNow URL"
 msgstr "ServiçoAgora URL"
 
@@ -55294,11 +55316,11 @@ msgstr ""
 msgid "Set maximum age"
 msgstr "Definir idade máxima"
 
-#: ../cmk/gui/plugins/wato/notifications.py:700
+#: ../cmk/gui/plugins/wato/notifications.py:746
 msgid "Set optional timeout for connections to JIRA"
 msgstr "Definir tempo limite opcional para ligações ao JIRA"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1010
+#: ../cmk/gui/plugins/wato/notifications.py:1056
 msgid "Set optional timeout for connections to ServiceNow"
 msgstr "Definir timeout opcional para conexões ao ServiceNow"
 
@@ -55635,15 +55657,15 @@ msgstr "Configurações para a varredura dos pais"
 msgid "Settings for host checks via Smart PING"
 msgstr "Configurações para verificações do host via Smart PING"
 
-#: ../cmk/gui/plugins/wato/notifications.py:850
+#: ../cmk/gui/plugins/wato/notifications.py:896
 msgid "Settings for incident state in case of acknowledgement"
 msgstr "Configurações para o estado do incidente em caso de reconhecimento"
 
-#: ../cmk/gui/plugins/wato/notifications.py:936
+#: ../cmk/gui/plugins/wato/notifications.py:982
 msgid "Settings for incident state in case of downtime"
 msgstr "Configurações para o estado do incidente em caso de tempo parado"
 
-#: ../cmk/gui/plugins/wato/notifications.py:892
+#: ../cmk/gui/plugins/wato/notifications.py:938
 msgid "Settings for incident state in case of recovery"
 msgstr "Configurações para o estado do incidente em caso de recuperação"
 
@@ -55675,7 +55697,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:2446 ../cmk/gui/wato/mkeventd.py:2626
 #: ../cmk/gui/wato/mkeventd.py:2790 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
-#: ../cmk/gui/watolib/search.py:399 ../cmk/gui/views.py:2856
+#: ../cmk/gui/watolib/search.py:404 ../cmk/gui/views.py:2856
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:205
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:328
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:783
@@ -55784,11 +55806,11 @@ msgstr "Curta - Use os primeiros 12 caracteres do ID do container portuário"
 msgid "Short Time Intervals"
 msgstr "Intervalos de tempo curtos"
 
-#: ../cmk/gui/plugins/wato/notifications.py:779
+#: ../cmk/gui/plugins/wato/notifications.py:825
 msgid "Short description for host incidents"
 msgstr "Breve descrição dos incidentes com o anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:787
+#: ../cmk/gui/plugins/wato/notifications.py:833
 msgid "Short description for service incidents"
 msgstr "Breve descrição dos incidentes de serviço"
 
@@ -56032,7 +56054,7 @@ msgstr "Mostrar informações de"
 msgid "Show inline help"
 msgstr "Mostrar ajuda em linha"
 
-#: ../cmk/gui/plugins/views/inventory.py:291
+#: ../cmk/gui/plugins/views/inventory.py:295
 msgid "Show internal tree paths"
 msgstr "Mostrar caminhos internos em árvore"
 
@@ -56053,7 +56075,7 @@ msgstr "Mostrar resultado da última mudança de nome"
 msgid "Show legend"
 msgstr "Mostrar lenda"
 
-#: ../cmk/gui/htmllib.py:2360
+#: ../cmk/gui/htmllib.py:2356
 msgid "Show less"
 msgstr "Mostrar menos"
 
@@ -56069,7 +56091,7 @@ msgstr "Mostrar margem ao redor do gráfico"
 msgid "Show metric"
 msgstr "Mostrar métrica"
 
-#: ../cmk/gui/pagetypes.py:387 ../cmk/gui/htmllib.py:2356
+#: ../cmk/gui/pagetypes.py:387 ../cmk/gui/htmllib.py:2352
 #: ../cmk/gui/visuals.py:881
 msgid "Show more"
 msgstr "Mostrar mais"
@@ -56595,7 +56617,7 @@ msgstr "Agregações de Anfitrião Único"
 msgid "Single-request consumption"
 msgstr "Consumo por solicitação única"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1337
+#: ../cmk/gui/plugins/wato/notifications.py:1383
 msgid "Siren"
 msgstr "Sirene"
 
@@ -56679,7 +56701,7 @@ msgstr "Ligação ao local"
 msgid "Site connectivity"
 msgstr "Conectividade do site"
 
-#: ../cmk/gui/plugins/wato/notifications.py:645
+#: ../cmk/gui/plugins/wato/notifications.py:691
 msgid "Site custom field ID"
 msgstr "Identificação de campo personalizada do local"
 
@@ -57044,11 +57066,11 @@ msgstr "Limite de consulta suave"
 msgid "Software"
 msgstr "Software"
 
-#: ../cmk/gui/plugins/views/inventory.py:1129
+#: ../cmk/gui/plugins/views/inventory.py:1133
 msgid "Software package"
 msgstr "Pacote de software"
 
-#: ../cmk/gui/plugins/views/inventory.py:1130
+#: ../cmk/gui/plugins/views/inventory.py:1134
 msgid "Software packages"
 msgstr "Pacotes de software"
 
@@ -57441,7 +57463,7 @@ msgid "Sorting"
 msgstr "Classificação"
 
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:574
-#: ../cmk/gui/plugins/wato/notifications.py:1062
+#: ../cmk/gui/plugins/wato/notifications.py:1108
 msgid "Source"
 msgstr "Fonte"
 
@@ -57457,7 +57479,7 @@ msgstr "Nome NAT de origem"
 msgid "Source Path"
 msgstr "Caminho da Fonte"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1063
+#: ../cmk/gui/plugins/wato/notifications.py:1109
 msgid ""
 "Source field of the alert. Default value is IP address of the incoming "
 "request."
@@ -57473,7 +57495,7 @@ msgstr "Nome da fonte"
 msgid "Sources"
 msgstr "Fontes"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1338
+#: ../cmk/gui/plugins/wato/notifications.py:1384
 msgid "Space Alarm"
 msgstr "Alarme Espacial"
 
@@ -58213,7 +58235,7 @@ msgstr "Latência Sproc"
 msgid "Sqlnet Send timeout"
 msgstr "Sqlnet Tempo limite de envio"
 
-#: ../cmk/gui/plugins/views/inventory.py:1221
+#: ../cmk/gui/plugins/views/inventory.py:1225
 msgid "Stack"
 msgstr "Pilha"
 
@@ -58226,7 +58248,7 @@ msgid "Stacked Area"
 msgstr "Área Empilhada"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:326
-#: ../cmk/gui/plugins/views/inventory.py:1222
+#: ../cmk/gui/plugins/views/inventory.py:1226
 msgid "Stacks"
 msgstr "Pilhas"
 
@@ -58806,58 +58828,58 @@ msgstr "Estado de um serviço"
 msgid "State of event changed by user"
 msgstr "Estado do evento alterado pelo usuário"
 
-#: ../cmk/gui/plugins/wato/notifications.py:857
+#: ../cmk/gui/plugins/wato/notifications.py:903
 msgid "State of incident if acknowledgement is set"
 msgstr "Estado do incidente, se o reconhecimento for estabelecido"
 
-#: ../cmk/gui/plugins/wato/notifications.py:884
+#: ../cmk/gui/plugins/wato/notifications.py:930
 msgid "State of incident if acknowledgement is set (as integer)"
 msgstr ""
 "Estado do incidente se o reconhecimento for definido (como número inteiro)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:864
+#: ../cmk/gui/plugins/wato/notifications.py:910
 msgid "State of incident if acknowledgement is set (predefined)"
 msgstr ""
 "Estado do incidente se o reconhecimento estiver definido (pré-definido)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:975
+#: ../cmk/gui/plugins/wato/notifications.py:1021
 msgid "State of incident if downtime expires"
 msgstr "Estado do incidente se o tempo de inactividade expirar"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1002
+#: ../cmk/gui/plugins/wato/notifications.py:1048
 msgid "State of incident if downtime expires (as integer)"
 msgstr ""
 "Estado do incidente se o tempo de inactividade expirar (como número inteiro)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:982
+#: ../cmk/gui/plugins/wato/notifications.py:1028
 msgid "State of incident if downtime expires (predefined)"
 msgstr "Estado do incidente se o tempo de paragem expirar (pré-definido)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:943
+#: ../cmk/gui/plugins/wato/notifications.py:989
 msgid "State of incident if downtime is set"
 msgstr "Estado do incidente se o tempo de paragem estiver definido"
 
-#: ../cmk/gui/plugins/wato/notifications.py:967
+#: ../cmk/gui/plugins/wato/notifications.py:1013
 msgid "State of incident if downtime is set (as integer)"
 msgstr ""
 "Estado do incidente se o tempo de paragem estiver definido (como número "
 "inteiro)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:947
+#: ../cmk/gui/plugins/wato/notifications.py:993
 msgid "State of incident if downtime is set (predefined)"
 msgstr ""
 "Estado do incidente se o tempo de paragem estiver definido (pré-definido)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:901
+#: ../cmk/gui/plugins/wato/notifications.py:947
 msgid "State of incident if recovery is set"
 msgstr "Estado do incidente, se a recuperação estiver definida"
 
-#: ../cmk/gui/plugins/wato/notifications.py:925
+#: ../cmk/gui/plugins/wato/notifications.py:971
 msgid "State of incident if recovery is set (as integer)"
 msgstr ""
 "Estado do incidente se a recuperação for definida (como número inteiro)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:905
+#: ../cmk/gui/plugins/wato/notifications.py:951
 msgid "State of incident if recovery is set (predefined)"
 msgstr "Estado do incidente se a recuperação estiver definida (pré-definida)"
 
@@ -59945,11 +59967,11 @@ msgid "Summary (Previously named: Status details or plugin output)"
 msgstr ""
 "Resumo (Anteriormente designado: Detalhes de status ou saída do plugin)"
 
-#: ../cmk/gui/plugins/wato/notifications.py:670
+#: ../cmk/gui/plugins/wato/notifications.py:716
 msgid "Summary for host notifications"
 msgstr "Resumo das notificações do anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:678
+#: ../cmk/gui/plugins/wato/notifications.py:724
 msgid "Summary for service notifications"
 msgstr "Resumo das notificações de serviço"
 
@@ -60128,7 +60150,7 @@ msgstr "estado de contato do interruptor"
 msgid "Switch number"
 msgstr "número de comutação"
 
-#: ../cmk/gui/plugins/views/inventory.py:1398
+#: ../cmk/gui/plugins/views/inventory.py:1402
 msgid "Switch port statistics"
 msgstr "Estatísticas da porta de interruptor"
 
@@ -60248,7 +60270,7 @@ msgstr "Atualizações de Sinologia"
 msgid "Syslog Facility"
 msgstr "Facilidade Syslog"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1180
+#: ../cmk/gui/plugins/wato/notifications.py:1226
 msgid "Syslog Facility to use"
 msgstr "Facilidade Syslog a utilizar"
 
@@ -60704,7 +60726,7 @@ msgstr "Tag: %s"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_site_object_counts.py:54
 #: ../cmk/gui/plugins/wato/builtin_modules.py:83
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3857
-#: ../cmk/gui/plugins/wato/notifications.py:1151
+#: ../cmk/gui/plugins/wato/notifications.py:1197
 #: ../cmk/gui/plugins/views/sorters.py:187 ../cmk/utils/tags.py:340
 #: ../cmk/utils/tags.py:345 ../cmk/utils/tags.py:354 ../cmk/utils/tags.py:390
 msgid "Tags"
@@ -60742,7 +60764,7 @@ msgstr ""
 msgid "Tags of the Host"
 msgstr "Tags do Anfitrião"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1152
+#: ../cmk/gui/plugins/wato/notifications.py:1198
 msgid "Tags of the alert."
 msgstr "Tags do alerta."
 
@@ -60840,11 +60862,11 @@ msgstr "Estado da tarefa: Preso"
 msgid "Tasks"
 msgstr "Tarefas"
 
-#: ../cmk/gui/plugins/wato/notifications.py:450
+#: ../cmk/gui/plugins/wato/notifications.py:480
 msgid "Team Secret"
 msgstr "Segredo da Equipe"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1135
+#: ../cmk/gui/plugins/wato/notifications.py:1181
 msgid ""
 "Team names which will be responsible for the alert. If the API Key belongs "
 "to a team integration, this field will be overwritten with the owner team."
@@ -61058,14 +61080,14 @@ msgstr ""
 msgid "Text output"
 msgstr "Saída de texto"
 
-#: ../cmk/gui/plugins/wato/notifications.py:795
+#: ../cmk/gui/plugins/wato/notifications.py:841
 msgid ""
 "Text that should be set in field <tt>Description</tt> for host notifications."
 msgstr ""
 "Texto que deve ser definido no campo <tt>Descrição</tt> para notificações do "
 "host."
 
-#: ../cmk/gui/plugins/wato/notifications.py:808
+#: ../cmk/gui/plugins/wato/notifications.py:854
 msgid ""
 "Text that should be set in field <tt>Description</tt> for service "
 "notifications."
@@ -61073,7 +61095,7 @@ msgstr ""
 "Texto que deve ser definido no campo <tt>Descrição</tt> para notificações de "
 "serviço."
 
-#: ../cmk/gui/plugins/wato/notifications.py:780
+#: ../cmk/gui/plugins/wato/notifications.py:826
 msgid ""
 "Text that should be set in field <tt>Short description</tt> for host "
 "notifications."
@@ -61081,7 +61103,7 @@ msgstr ""
 "Texto que deve ser definido no campo <tt>Curta descrição</tt> para "
 "notificações do host."
 
-#: ../cmk/gui/plugins/wato/notifications.py:788
+#: ../cmk/gui/plugins/wato/notifications.py:834
 msgid ""
 "Text that should be set in field <tt>Short description</tt> for service "
 "notifications."
@@ -61814,7 +61836,7 @@ msgstr ""
 "exemplo, '/index.html')."
 
 #: ../cmk/gui/plugins/wato/notifications.py:187
-#: ../cmk/gui/plugins/wato/notifications.py:1267
+#: ../cmk/gui/plugins/wato/notifications.py:1313
 msgid ""
 "The URL must begin with <tt>http</tt> or <tt>https</tt> and end with <tt>/"
 "check_mk/</tt>."
@@ -61822,7 +61844,7 @@ msgstr ""
 "A URL deve começar com <tt>http</tt> ou <tt>https</tt> e terminar com <tt>/"
 "check_mk/</tt>."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1048
+#: ../cmk/gui/plugins/wato/notifications.py:1094
 msgid "The URL must begin with <tt>https</tt>."
 msgstr "O URL deve começar com <tt>https</tt>."
 
@@ -61910,7 +61932,7 @@ msgstr ""
 "os usuários que têm permissão para definir o modo somente leitura podem "
 "desativá-lo novamente quando outro usuário permitido ativá-lo antes."
 
-#: ../cmk/gui/plugins/wato/notifications.py:393
+#: ../cmk/gui/plugins/wato/notifications.py:407
 msgid ""
 "The Webhook-URL must begin with <tt>https://alert.victorops.com/"
 "integrations</tt>"
@@ -62239,7 +62261,7 @@ msgstr ""
 "backups. Se você criptografar um backup, você precisará da parte da chave "
 "privada junto com a frase-chave para descriptografar o backup."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1218
+#: ../cmk/gui/plugins/wato/notifications.py:1264
 msgid "The base OID for the trap content"
 msgstr "O OID base para o conteúdo da armadilha"
 
@@ -62487,7 +62509,7 @@ msgid "The comment which is automatically sent with an adhoc downtime"
 msgstr ""
 "O comentário que é enviado automaticamente com um tempo de paragem adhoc"
 
-#: ../cmk/gui/plugins/views/inventory.py:1303
+#: ../cmk/gui/plugins/views/inventory.py:1307
 msgid "The complete hardware- and software inventory of a host"
 msgstr "O inventário completo de hardware e software de um host"
 
@@ -63333,7 +63355,7 @@ msgstr ""
 "actualização (tempo de modificação) seja feita há mais tempo do que a idade "
 "configurada."
 
-#: ../cmk/gui/plugins/views/inventory.py:1625
+#: ../cmk/gui/plugins/views/inventory.py:1629
 msgid "The history for changes in hardware- and software inventory of a host"
 msgstr ""
 "O histórico de mudanças no inventário de hardware e software de um host"
@@ -64261,7 +64283,7 @@ msgstr ""
 "conexão. Isto porque o TCP não retransmite por si só e não perde nenhum dado "
 "desde que a conexão seja válida."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1181
+#: ../cmk/gui/plugins/wato/notifications.py:1227
 msgid ""
 "The notifications will be converted into syslog messages with the facility "
 "that you choose here. In the Event Console you can later create a rule "
@@ -64333,7 +64355,7 @@ msgstr ""
 "especialmente combinado com um curto intervalo, irá usar muitos descritores "
 "de arquivo no host rodando este plugin."
 
-#: ../cmk/gui/plugins/wato/notifications.py:646
+#: ../cmk/gui/plugins/wato/notifications.py:692
 msgid ""
 "The numerical ID of the JIRA custom field for sites. Please use this option "
 "if you have multiple sites in a distributed setup which send their "
@@ -64343,16 +64365,16 @@ msgstr ""
 "esta opção se tiver vários locais numa configuração distribuída que enviem "
 "as suas notificações para a mesma instância JIRA."
 
-#: ../cmk/gui/plugins/wato/notifications.py:634
+#: ../cmk/gui/plugins/wato/notifications.py:680
 msgid "The numerical JIRA custom field ID for host problems."
 msgstr ""
 "O ID de campo numérico JIRA personalizado para problemas de alojamento."
 
-#: ../cmk/gui/plugins/wato/notifications.py:640
+#: ../cmk/gui/plugins/wato/notifications.py:686
 msgid "The numerical JIRA custom field ID for service problems."
 msgstr "O ID de campo numérico JIRA personalizado para problemas de serviço."
 
-#: ../cmk/gui/plugins/wato/notifications.py:626
+#: ../cmk/gui/plugins/wato/notifications.py:672
 msgid ""
 "The numerical JIRA issue type ID. If not set, it will be retrieved from a "
 "custom user attribute named <tt>jiraissuetype</tt>. If that is not set, the "
@@ -64362,7 +64384,7 @@ msgstr ""
 "ele será recuperado de um atributo personalizado do usuário chamado "
 "<tt>jiraissuetype</tt>. Se isso não estiver definido, a notificação falhará."
 
-#: ../cmk/gui/plugins/wato/notifications.py:663
+#: ../cmk/gui/plugins/wato/notifications.py:709
 msgid ""
 "The numerical JIRA priority ID. If not set, it will be retrieved from a "
 "custom user attribute named <tt>jirapriority</tt>. If that is not set, the "
@@ -64373,7 +64395,7 @@ msgstr ""
 "<tt>jirapriority</tt>. Se isso não estiver definido, a prioridade padrão "
 "será usada."
 
-#: ../cmk/gui/plugins/wato/notifications.py:617
+#: ../cmk/gui/plugins/wato/notifications.py:663
 msgid ""
 "The numerical JIRA project ID. If not set, it will be retrieved from a "
 "custom user attribute named <tt>jiraproject</tt>. If that is not set, the "
@@ -64383,7 +64405,7 @@ msgstr ""
 "de um atributo de usuário personalizado chamado <tt>jiraproject</tt>. Se "
 "isso não estiver definido, a notificação falhará."
 
-#: ../cmk/gui/plugins/wato/notifications.py:694
+#: ../cmk/gui/plugins/wato/notifications.py:740
 msgid ""
 "The numerical JIRA resolution transition ID. 11 - 'To Do', 21 - 'In "
 "Progress', 31 - 'Done'"
@@ -64734,7 +64756,7 @@ msgid "The read only mode is enabled until it is turned of manually. "
 msgstr ""
 "O modo somente leitura é habilitado até que seja girado de manualmente. "
 
-#: ../cmk/gui/plugins/wato/notifications.py:1293
+#: ../cmk/gui/plugins/wato/notifications.py:1339
 msgid ""
 "The receipt can be used to periodically poll receipts API to get the status "
 "of the notification. See <a href=\"https://pushover.net/api#receipt\" target="
@@ -65460,7 +65482,7 @@ msgstr "O alvo foi eliminado."
 msgid "The target rule is no longer available"
 msgstr "A regra de destino não está mais disponível"
 
-#: ../cmk/gui/plugins/wato/notifications.py:451
+#: ../cmk/gui/plugins/wato/notifications.py:481
 msgid ""
 "The team secret of your SIGNL4 team. That is the last part of your webhook "
 "URL: https://connect.signl4.com/webhook/<team_secret>"
@@ -65708,7 +65730,7 @@ msgstr ""
 "O usuário para o qual você está tentando editar as regras de notificação não "
 "existe."
 
-#: ../cmk/gui/plugins/wato/notifications.py:740
+#: ../cmk/gui/plugins/wato/notifications.py:786
 msgid ""
 "The user, used for login, has to have at least the role 'itil' in ServiceNow."
 msgstr ""
@@ -66398,7 +66420,7 @@ msgstr ""
 "ou via <a href=\"wato.py?mode=edit_ruleset&varname=cmc_service_flap_settings"
 "\">service</a> rules."
 
-#: ../cmk/gui/htmllib.py:1195
+#: ../cmk/gui/htmllib.py:1191
 #, python-format
 msgid ""
 "These texts may be localized depending on the users' language. You can "
@@ -72186,7 +72208,7 @@ msgstr "Tente encaixar o texto no espaço disponível."
 msgid "Tuesday"
 msgstr "terça-feira"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1339
+#: ../cmk/gui/plugins/wato/notifications.py:1385
 msgid "Tug Boat"
 msgstr "Rebocador de Barco"
 
@@ -72517,8 +72539,8 @@ msgid "URL from host to remote site"
 msgstr "URL do host para o site remoto"
 
 #: ../cmk/gui/plugins/wato/notifications.py:321
-#: ../cmk/gui/plugins/wato/notifications.py:357
-#: ../cmk/gui/plugins/wato/notifications.py:395
+#: ../cmk/gui/plugins/wato/notifications.py:364
+#: ../cmk/gui/plugins/wato/notifications.py:409
 msgid "URL from password store"
 msgstr "URL da loja de senhas"
 
@@ -72549,7 +72571,7 @@ msgid "URL prefix"
 msgstr "prefixo URL"
 
 #: ../cmk/gui/plugins/wato/notifications.py:172
-#: ../cmk/gui/plugins/wato/notifications.py:1260
+#: ../cmk/gui/plugins/wato/notifications.py:1306
 msgid "URL prefix for links to Checkmk"
 msgstr "Prefixo URL para links para Checkmk"
 
@@ -73183,11 +73205,11 @@ msgid "Unknown date"
 msgstr "Data desconhecida"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:144
-#: ../cmk/gui/plugins/views/inventory.py:1162
+#: ../cmk/gui/plugins/views/inventory.py:1166
 msgid "Unknown entities"
 msgstr "Entidades desconhecidas"
 
-#: ../cmk/gui/plugins/views/inventory.py:1161
+#: ../cmk/gui/plugins/views/inventory.py:1165
 msgid "Unknown entity"
 msgstr "Entidade desconhecida"
 
@@ -73301,7 +73323,7 @@ msgstr "Não registado"
 msgid "Unspecified."
 msgstr "Não especificado."
 
-#: ../cmk/gui/htmllib.py:1096
+#: ../cmk/gui/htmllib.py:1095
 #, python-format
 msgid "Unsupported context type '%s'"
 msgstr "Contexto não suportado tipo '%s"
@@ -73363,7 +73385,7 @@ msgstr "Espaço não utilizado"
 msgid "Up"
 msgstr "Para cima"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1340
+#: ../cmk/gui/plugins/wato/notifications.py:1386
 msgid "Up Down (long)"
 msgstr "Para cima Para baixo (longo)"
 
@@ -73474,7 +73496,7 @@ msgstr "As actualizações serão <b>disabled</b> para este anfitrião: %s"
 msgid "Updates will be enabled for this host."
 msgstr "As actualizações serão activadas para este anfitrião."
 
-#: ../cmk/gui/watolib/search.py:471
+#: ../cmk/gui/watolib/search.py:476
 msgid "Updating of search index started"
 msgstr "Atualização do índice de pesquisa iniciada"
 
@@ -74175,7 +74197,7 @@ msgstr ""
 msgid "Upturn toner levels"
 msgstr "Níveis de toner de retorno"
 
-#: ../cmk/gui/plugins/wato/notifications.py:822
+#: ../cmk/gui/plugins/wato/notifications.py:868
 msgid "Urgency"
 msgstr "Urgência"
 
@@ -74650,7 +74672,7 @@ msgstr "Use buscadores e verificadores separados"
 msgid "Use settings and page layout from"
 msgstr "Use as configurações e o layout da página de"
 
-#: ../cmk/gui/plugins/views/inventory.py:201
+#: ../cmk/gui/plugins/views/inventory.py:205
 msgid "Use short title in reports header"
 msgstr "Usar título breve no cabeçalho dos relatórios"
 
@@ -74658,11 +74680,11 @@ msgstr "Usar título breve no cabeçalho dos relatórios"
 msgid "Use single quotes, escape contained quotes with backslash"
 msgstr "Use aspas simples, aspas de fuga contidas com contrabarra"
 
-#: ../cmk/gui/plugins/wato/notifications.py:760
+#: ../cmk/gui/plugins/wato/notifications.py:806
 msgid "Use site ID"
 msgstr "Use o ID do site"
 
-#: ../cmk/gui/plugins/wato/notifications.py:752
+#: ../cmk/gui/plugins/wato/notifications.py:798
 msgid "Use site ID prefix"
 msgstr "Use o prefixo de identificação do local"
 
@@ -75300,7 +75322,7 @@ msgstr "Espaço de armazenamento usado"
 msgid "User"
 msgstr "Utilizador"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1250
+#: ../cmk/gui/plugins/wato/notifications.py:1296
 msgid "User / Group Key"
 msgstr "Usuário / Chave de Grupo"
 
@@ -75339,7 +75361,7 @@ msgstr "Interface do usuário"
 msgid "User Management"
 msgstr "Gestão de usuários"
 
-#: ../cmk/gui/plugins/wato/notifications.py:599
+#: ../cmk/gui/plugins/wato/notifications.py:645
 msgid "User Name"
 msgstr "Nome do usuário"
 
@@ -75485,7 +75507,7 @@ msgstr "Usuário:"
 #: ../cmk/gui/plugins/wato/active_checks.py:2066
 #: ../cmk/gui/plugins/wato/active_checks.py:2376
 #: ../cmk/gui/plugins/wato/active_checks.py:2426
-#: ../cmk/gui/plugins/wato/notifications.py:739
+#: ../cmk/gui/plugins/wato/notifications.py:785
 msgid "Username"
 msgstr "Nome de usuário"
 
@@ -75742,7 +75764,7 @@ msgstr "nome da VM"
 msgid "VM snapshot summary"
 msgstr "Resumo do VM snapshot"
 
-#: ../cmk/gui/watolib/search.py:401
+#: ../cmk/gui/watolib/search.py:406
 #: ../cmk/gui/plugins/wato/datasource_programs.py:197
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1371
 msgid "VM, Cloud, Container"
@@ -76184,11 +76206,11 @@ msgstr "Nome do fantasma"
 msgid "Vhosts"
 msgstr "Vhosts"
 
-#: ../cmk/gui/plugins/wato/notifications.py:1341
+#: ../cmk/gui/plugins/wato/notifications.py:1387
 msgid "Vibrate only"
 msgstr "Vibrar apenas"
 
-#: ../cmk/gui/plugins/wato/notifications.py:383
+#: ../cmk/gui/plugins/wato/notifications.py:397
 msgid "VictorOPS REST Endpoint"
 msgstr "VictorOPS REST Endpoint"
 
@@ -76384,7 +76406,7 @@ msgstr "Vlan"
 msgid "VoIP"
 msgstr "VoIP"
 
-#: ../cmk/gui/plugins/views/inventory.py:175
+#: ../cmk/gui/plugins/views/inventory.py:179
 msgid "Volt"
 msgstr "Volt"
 
@@ -76529,7 +76551,7 @@ msgstr "ADVERTÊNCIA/CRIT"
 
 #: ../cmk/gui/cee/reporting.py:3041 ../cmk/gui/cee/plugins/wato/cmc.py:1170
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:207
-#: ../cmk/gui/htmllib.py:1180 ../cmk/gui/plugins/wato/active_checks.py:354
+#: ../cmk/gui/htmllib.py:1176 ../cmk/gui/plugins/wato/active_checks.py:354
 #: ../cmk/gui/plugins/wato/active_checks.py:749
 #: ../cmk/gui/plugins/wato/active_checks.py:781
 #: ../cmk/gui/plugins/wato/check_parameters/hostsystem_sensors.py:34
@@ -78012,11 +78034,11 @@ msgid "Web gateway statistics"
 msgstr "Estatísticas da Web gateway"
 
 #: ../cmk/gui/plugins/wato/notifications.py:319
-#: ../cmk/gui/plugins/wato/notifications.py:355
+#: ../cmk/gui/plugins/wato/notifications.py:362
 msgid "Webhook URL"
 msgstr "URL do Gancho da Web"
 
-#: ../cmk/gui/plugins/wato/notifications.py:351
+#: ../cmk/gui/plugins/wato/notifications.py:358
 msgid ""
 "Webhook URL. Setup Cisco Webex Teams Webhook <a href=\"https://apphub.webex."
 "com/messaging/applications/incoming-webhooks-cisco-systems-38054\" target="
@@ -78043,7 +78065,7 @@ msgstr ""
 "também pode ser coletada na Loja de Senhas da Checkmk."
 
 #: ../cmk/gui/plugins/wato/notifications.py:311
-#: ../cmk/gui/plugins/wato/notifications.py:349
+#: ../cmk/gui/plugins/wato/notifications.py:356
 msgid "Webhook-URL"
 msgstr "Webhook-URL"
 
@@ -79331,7 +79353,7 @@ msgstr ""
 msgid "Will create child nodes representing the state of services."
 msgstr "Irá criar nós de criança representando o estado dos serviços."
 
-#: ../cmk/gui/watolib/search.py:445
+#: ../cmk/gui/watolib/search.py:450
 #, python-brace-format
 msgid "Will wait for {sleep_time} seconds and retry"
 msgstr "Vai esperar por {sleep_time} segundos e tentar novamente"
@@ -80049,7 +80071,7 @@ msgstr "Ano"
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:86
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:95
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:104
-#: ../cmk/gui/plugins/views/inventory.py:549
+#: ../cmk/gui/plugins/views/inventory.py:553
 #: ../cmk/gui/plugins/views/availability.py:1090
 msgid "Yes"
 msgstr "Sim"
@@ -80225,7 +80247,7 @@ msgstr "Você não está autorizado a realizar esta ação."
 msgid "You are required to change your password before proceeding."
 msgstr "Você é obrigado a mudar sua senha antes de prosseguir."
 
-#: ../cmk/gui/htmllib.py:1056
+#: ../cmk/gui/htmllib.py:1055
 msgid ""
 "You are trying to Checkmk together with a threaded Apache multiprocessing "
 "module (MPM). Check_MK is only working with the prefork module. Please "
@@ -81766,7 +81788,7 @@ msgstr "Você precisa fornecer um arquivo chave."
 msgid "You need to provide a text."
 msgstr "Você precisa de fornecer um texto."
 
-#: ../cmk/gui/plugins/wato/notifications.py:1240
+#: ../cmk/gui/plugins/wato/notifications.py:1286
 msgid ""
 "You need to provide a valid API key to be able to send push notifications "
 "using Pushover. Register and login to <a href=\"https://www.pushover.net\" "
@@ -81782,7 +81804,7 @@ msgstr ""
 msgid "You need to provide a valid key id."
 msgstr "Você precisa fornecer uma identificação de chave válida."
 
-#: ../cmk/gui/plugins/wato/notifications.py:608
+#: ../cmk/gui/plugins/wato/notifications.py:654
 msgid "You need to provide a valid password to be able to send notifications."
 msgstr "Você precisa fornecer uma senha válida para poder enviar notificações."
 
@@ -82404,11 +82426,11 @@ msgstr "especificação do cartucho"
 msgid "change the state"
 msgstr "alterar o estado"
 
-#: ../cmk/gui/plugins/views/inventory.py:1602
+#: ../cmk/gui/plugins/views/inventory.py:1606
 msgid "changed"
 msgstr "alterado"
 
-#: ../cmk/gui/plugins/views/inventory.py:1599
+#: ../cmk/gui/plugins/views/inventory.py:1603
 msgid "changed entries"
 msgstr "entradas modificadas"
 
@@ -82442,6 +82464,14 @@ msgstr "colapsou"
 #: ../cmk/gui/plugins/views/painters.py:4066
 msgid "command"
 msgstr "comando"
+
+#: ../cmk/gui/plugins/views/commands.py:1387
+#, fuzzy
+#| msgid "Comment"
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "Comente"
+msgstr[1] "Comente"
 
 #: ../cmk/gui/plugins/views/bi.py:477
 msgid "complete"
@@ -82724,7 +82754,7 @@ msgstr "dia"
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:72
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:47
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:48
-#: ../cmk/gui/plugins/views/inventory.py:584
+#: ../cmk/gui/plugins/views/inventory.py:588
 #: ../cmk/gui/plugins/visuals/utils.py:359
 msgid "days"
 msgstr "dias"
@@ -83133,7 +83163,7 @@ msgstr "tendência prevista apenas"
 msgid "fourth week"
 msgstr "quarta semana"
 
-#: ../cmk/gui/plugins/views/inventory.py:488
+#: ../cmk/gui/plugins/views/inventory.py:492
 #: ../cmk/gui/plugins/visuals/inventory.py:253
 msgid "free"
 msgstr "grátis"
@@ -83327,7 +83357,7 @@ msgstr "iCalendar"
 msgid "iCalendar File"
 msgstr "Arquivo do iCalendar"
 
-#: ../cmk/gui/plugins/wato/notifications.py:523
+#: ../cmk/gui/plugins/wato/notifications.py:561
 msgid "iLert alert source API key"
 msgstr "Chave de API de alerta do iLert"
 
@@ -83339,7 +83369,7 @@ msgstr "iSCSI"
 msgid "iSCSI HBAs"
 msgstr "iSCSI HBAs"
 
-#: ../cmk/gui/htmllib.py:2254
+#: ../cmk/gui/htmllib.py:2250
 msgid "icon not found"
 msgstr "ícone não encontrado"
 
@@ -83492,7 +83522,7 @@ msgstr "é"
 msgid "is "
 msgstr "é "
 
-#: ../cmk/gui/plugins/views/inventory.py:494
+#: ../cmk/gui/plugins/views/inventory.py:498
 msgid "is clustered"
 msgstr "está agrupado"
 
@@ -83506,7 +83536,7 @@ msgstr "não é"
 msgid "is not "
 msgstr "não é "
 
-#: ../cmk/gui/plugins/views/inventory.py:494
+#: ../cmk/gui/plugins/views/inventory.py:498
 msgid "is not clustered"
 msgstr "não está agrupado"
 
@@ -83868,11 +83898,11 @@ msgstr "n/d"
 msgid "negate"
 msgstr "negar"
 
-#: ../cmk/gui/plugins/views/inventory.py:1582
+#: ../cmk/gui/plugins/views/inventory.py:1586
 msgid "new"
 msgstr "novo"
 
-#: ../cmk/gui/plugins/views/inventory.py:1579
+#: ../cmk/gui/plugins/views/inventory.py:1583
 msgid "new entries"
 msgstr "entradas novas"
 
@@ -84048,7 +84078,7 @@ msgstr "de serviço não especificado"
 
 #: ../cmk/gui/wato/pages/sites.py:1016 ../cmk/gui/wato/mkeventd.py:2480
 #: ../cmk/gui/views.py:1429 ../cmk/gui/valuespec.py:2297
-#: ../cmk/gui/htmllib.py:1872 ../cmk/gui/plugins/sidebar/master_control.py:139
+#: ../cmk/gui/htmllib.py:1868 ../cmk/gui/plugins/sidebar/master_control.py:139
 #: ../cmk/gui/plugins/views/utils.py:353
 msgid "off"
 msgstr "em"
@@ -84064,7 +84094,7 @@ msgid "offline hosts"
 msgstr "anfitriões off-line"
 
 #: ../cmk/gui/wato/pages/sites.py:1016 ../cmk/gui/wato/mkeventd.py:2480
-#: ../cmk/gui/valuespec.py:2296 ../cmk/gui/htmllib.py:1872
+#: ../cmk/gui/valuespec.py:2296 ../cmk/gui/htmllib.py:1868
 #: ../cmk/gui/plugins/sidebar/master_control.py:139
 msgid "on"
 msgstr "em"
@@ -84459,9 +84489,14 @@ msgstr ""
 
 #: ../cmk/gui/plugins/views/crash_reporting.py:324
 #: ../cmk/gui/plugins/views/commands.py:1355
-#: ../cmk/gui/plugins/views/commands.py:1399
 msgid "remove"
 msgstr "remover"
+
+#: ../cmk/gui/plugins/views/commands.py:1386
+#, fuzzy, python-format
+#| msgid " the following %d crash %s"
+msgid "remove the following %d %s?"
+msgstr " as seguintes %d crash %s"
 
 #: ../cmk/gui/views.py:1431
 msgid "repeat every 20'th row"
@@ -84681,7 +84716,7 @@ msgstr "segunda semana"
 msgid "seconds"
 msgstr "segundos"
 
-#: ../cmk/gui/valuespec.py:359 ../cmk/gui/plugins/views/inventory.py:178
+#: ../cmk/gui/valuespec.py:359 ../cmk/gui/plugins/views/inventory.py:182
 msgid "secs"
 msgstr "segs"
 
@@ -84774,11 +84809,11 @@ msgstr "mostrar tudo"
 msgid "show errors"
 msgstr "cometer erros"
 
-#: ../cmk/gui/htmllib.py:2362
+#: ../cmk/gui/htmllib.py:2358
 msgid "show less"
 msgstr "mostrar menos"
 
-#: ../cmk/gui/htmllib.py:2358
+#: ../cmk/gui/htmllib.py:2354
 msgid "show more"
 msgstr "mostrar mais"
 
@@ -84958,7 +84993,7 @@ msgstr "ao porto:"
 msgid "to:"
 msgstr "para:"
 
-#: ../cmk/gui/valuespec.py:3552 ../cmk/gui/plugins/views/inventory.py:581
+#: ../cmk/gui/valuespec.py:3552 ../cmk/gui/plugins/views/inventory.py:585
 msgid "today"
 msgstr "hoje"
 
@@ -84985,7 +85020,7 @@ msgstr "dois níveis"
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:290
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:217
-#: ../cmk/gui/plugins/views/inventory.py:481 ../cmk/utils/defines.py:127
+#: ../cmk/gui/plugins/views/inventory.py:485 ../cmk/utils/defines.py:127
 msgid "unknown"
 msgstr "desconhecido"
 
@@ -85041,7 +85076,7 @@ msgstr "utilizar o nome da porta"
 
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:76
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_transactionlogs.py:56
-#: ../cmk/gui/plugins/views/inventory.py:488
+#: ../cmk/gui/plugins/views/inventory.py:492
 #: ../cmk/gui/plugins/visuals/inventory.py:253
 msgid "used"
 msgstr "usado"
@@ -85307,7 +85342,7 @@ msgstr "anos"
 msgid "yes"
 msgstr "sim"
 
-#: ../cmk/gui/valuespec.py:3588 ../cmk/gui/plugins/views/inventory.py:583
+#: ../cmk/gui/valuespec.py:3588 ../cmk/gui/plugins/views/inventory.py:587
 msgid "yesterday"
 msgstr "ontem"
 
