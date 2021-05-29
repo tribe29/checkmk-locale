@@ -4,10 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
+"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
-"PO-Revision-Date: 2021-05-28 10:47+0000\n"
-"Last-Translator: Yoshihiro Ishikawa <yoshihiro_i@jtc-i.co.jp>\n"
+"PO-Revision-Date: 2021-05-29 06:00+0000\n"
+"Last-Translator: Martin Hirschvogel <martin.hirschvogel@tribe29.com>\n"
 "Language-Team: Japanese <https://translate.checkmk.com/projects/checkmk/"
 "software/ja/>\n"
 "Language: ja\n"
@@ -553,7 +553,7 @@ msgstr ""
 msgid "%d open incompatible werks"
 msgstr "%d互換性のないwerksを開く"
 
-#: ../cmk/gui/wato/pages/rulesets.py:897 ../cmk/gui/wato/pages/services.py:483
+#: ../cmk/gui/wato/pages/rulesets.py:897 ../cmk/gui/wato/pages/services.py:499
 #: ../cmk/gui/table.py:397
 #, python-format
 msgid "%d rows"
@@ -691,13 +691,13 @@ msgstr "%s 作成されたダンプファイルを取得します"
 msgid "%s by host"
 msgstr "ホスト別の %s"
 
-#: ../cmk/gui/wato/pages/services.py:329
+#: ../cmk/gui/wato/pages/services.py:345
 #, python-format
 msgid ""
 "%s failed after %s: %s (see <tt>var/log/web.log</tt> for further information)"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:339
+#: ../cmk/gui/wato/pages/services.py:355
 #, python-format
 msgid "%s finished after %s at %s."
 msgstr "%s は %s で %s の後に終了しました。"
@@ -835,7 +835,7 @@ msgstr "%sレート"
 msgid "%s read %s"
 msgstr "%s 読み取り%s"
 
-#: ../cmk/gui/wato/pages/services.py:326
+#: ../cmk/gui/wato/pages/services.py:342
 #, python-format
 msgid "%s running for %s"
 msgstr "%s は %sで実行されています"
@@ -850,7 +850,7 @@ msgstr "%s この顧客"
 msgid "%s traffic"
 msgstr "%sトラフィック"
 
-#: ../cmk/gui/wato/pages/services.py:335
+#: ../cmk/gui/wato/pages/services.py:351
 #, python-format
 msgid "%s was stopped after %s at %s."
 msgstr "%s は %s後に%で停止しました"
@@ -1233,7 +1233,7 @@ msgstr "1ホスト"
 msgid "1 change"
 msgstr "1つの変更"
 
-#: ../cmk/gui/wato/pages/rulesets.py:897 ../cmk/gui/wato/pages/services.py:483
+#: ../cmk/gui/wato/pages/rulesets.py:897 ../cmk/gui/wato/pages/services.py:499
 #: ../cmk/gui/table.py:397
 msgid "1 row"
 msgstr "1行"
@@ -3483,7 +3483,7 @@ msgstr "エラー時のアクション"
 #: ../cmk/gui/wato/pages/icons.py:152 ../cmk/gui/wato/pages/timeperiods.py:305
 #: ../cmk/gui/wato/pages/bulk_import.py:103
 #: ../cmk/gui/wato/pages/bulk_import.py:106
-#: ../cmk/gui/wato/pages/rulesets.py:928 ../cmk/gui/wato/pages/services.py:1281
+#: ../cmk/gui/wato/pages/rulesets.py:928 ../cmk/gui/wato/pages/services.py:1297
 #: ../cmk/gui/wato/pages/notifications.py:247
 #: ../cmk/gui/wato/pages/analyze_configuration.py:162
 #: ../cmk/gui/wato/pages/roles.py:204 ../cmk/gui/wato/mkeventd.py:458
@@ -3702,7 +3702,7 @@ msgstr "自動エージェント更新のアクティブ化"
 msgid "Activation status"
 msgstr "アクティベーションステータス"
 
-#: ../cmk/gui/wato/pages/services.py:551
+#: ../cmk/gui/wato/pages/services.py:567
 #: ../cmk/gui/cee/plugins/reporting/utils.py:303
 #: ../cmk/gui/cee/ntop/pages.py:535 ../cmk/gui/cee/ntop/pages.py:560
 #: ../cmk/gui/plugins/wato/check_parameters/websphere_mq_instance.py:32
@@ -3800,7 +3800,7 @@ msgstr "アクティブおよび非アクティブメモリ"
 msgid "Active check"
 msgstr "アクティブチェック"
 
-#: ../cmk/gui/wato/pages/services.py:1146
+#: ../cmk/gui/wato/pages/services.py:1162
 #: ../cmk/gui/plugins/views/commands.py:235
 msgid "Active checks"
 msgstr "アクティブチェック"
@@ -3999,7 +3999,7 @@ msgstr "集計を追加"
 msgid "Add alert handler rule"
 msgstr "アラートハンドラールールを追加する"
 
-#: ../cmk/gui/wato/pages/services.py:1542
+#: ../cmk/gui/wato/pages/services.py:1558
 msgid "Add all detected but not yet monitored services to the monitoring."
 msgstr "検出されたがまだ監視されていないすべてのサービスを監視に追加します"
 
@@ -4200,7 +4200,7 @@ msgstr "メトリック名を追加します"
 msgid "Add micro seconds to timestamps in Logfiles"
 msgstr "ログファイルのタイムスタンプにマイクロ秒を追加する"
 
-#: ../cmk/gui/wato/pages/services.py:1529
+#: ../cmk/gui/wato/pages/services.py:1545
 msgid "Add missing, remove vanished"
 msgstr "不足しているものを追加し、消えたものを削除します"
 
@@ -6946,8 +6946,10 @@ msgid ""
 "the key. Already deployed agents might not be able to update anymore. You "
 "might need to update all agents manually!"
 msgstr ""
-"この署名キーを削除してもよろしいですか?<br><br><b>注意:</b>このキーを削除すると、そのキーで署名を作成できなくなります。すでにデプロイされ"
-"ているエージェントは、更新できなくなる可能性があります。すべてのエージェントを手動で更新する必要がある場合があります。"
+"この署名キーを削除してもよろしいですか?<br><br><b>注意:</b>このキーを削除する"
+"と、そのキーで署名を作成できなくなります。すでにデプロイされているエージェン"
+"トは、更新できなくなる可能性があります。すべてのエージェントを手動で更新する"
+"必要がある場合があります。"
 
 #: ../cmk/gui/wato/pages/host_rename.py:473
 #, python-format
@@ -7296,7 +7298,7 @@ msgstr "ホストから削除する属性"
 #: ../cmk/gui/wato/pages/folders.py:412 ../cmk/gui/wato/pages/audit_log.py:72
 #: ../cmk/gui/wato/pages/audit_log.py:79 ../cmk/gui/wato/pages/users.py:610
 #: ../cmk/gui/wato/pages/rulesets.py:1459
-#: ../cmk/gui/wato/pages/services.py:1355
+#: ../cmk/gui/wato/pages/services.py:1371
 #: ../cmk/gui/plugins/wato/builtin_modules.py:893
 msgid "Audit log"
 msgstr "監査ログ"
@@ -8540,7 +8542,7 @@ msgstr "新しいページで子レポートを開始します"
 msgid "Beginner's guide: Adding the first hosts"
 msgstr "ビギナーガイド:最初のホストを追加"
 
-#: ../cmk/gui/wato/pages/services.py:1414
+#: ../cmk/gui/wato/pages/services.py:1430
 msgid "Beginner's guide: Configuring services"
 msgstr "ビギナーズガイド: サービスの設定"
 
@@ -8822,7 +8824,7 @@ msgstr "すべてのチェックプラグインのカタログを参照し、静
 
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:392
 msgid "Bucket"
-msgstr "Requests;AWS/S3バケットリクエスト;"
+msgstr "バケット"
 
 #: ../cmk/gui/plugins/metrics/couchbase.py:84
 msgid "Bucket memory"
@@ -10798,7 +10800,7 @@ msgid "Change the default user interface theme of your Checkmk installation"
 msgstr ""
 "Checkmkインストールのデフォルトのユーザーインターフェイステーマを変更します"
 
-#: ../cmk/gui/wato/pages/services.py:546
+#: ../cmk/gui/wato/pages/services.py:562
 msgid "Changed"
 msgstr ""
 
@@ -10828,7 +10830,7 @@ msgstr "アラートハンドラルール%dを変更しました"
 msgid "Changed global configuration variable %s to %s."
 msgstr "グローバル構成変数 %s を %s に変更しました。"
 
-#: ../cmk/gui/wato/pages/services.py:716
+#: ../cmk/gui/wato/pages/services.py:732
 msgid "Changed host label: "
 msgid_plural "Changed host labels: "
 msgstr[0] ""
@@ -11028,7 +11030,7 @@ msgstr "この期間内にピギーバックされたホストのMKステータ�
 msgid "Check Parameter"
 msgstr "パラメータを確認してください"
 
-#: ../cmk/gui/wato/pages/services.py:589
+#: ../cmk/gui/wato/pages/services.py:605
 msgid "Check Plugin"
 msgstr ""
 
@@ -11200,7 +11202,7 @@ msgstr "リストされているメールボックスのみを確認してくだ
 msgid "Check origin and parameters"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:831
+#: ../cmk/gui/wato/pages/services.py:847
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:123
 msgid "Check parameters"
 msgstr "パラメータを確認してください"
@@ -11225,7 +11227,7 @@ msgstr "ホストのチェック期間"
 msgid "Check period for passive Checkmk services"
 msgstr "パッシブCheckmkサービスのチェック期間"
 
-#: ../cmk/gui/wato/pages/services.py:839
+#: ../cmk/gui/wato/pages/services.py:855
 msgid "Check plugin"
 msgstr "プラグインを確認してください"
 
@@ -12388,8 +12390,8 @@ msgstr "クラスター、インデックス、シャードの統計"
 msgid "Clustered"
 msgstr "クラスター化"
 
-#: ../cmk/gui/wato/pages/hosts.py:441 ../cmk/gui/wato/pages/services.py:607
-#: ../cmk/gui/wato/pages/services.py:1367
+#: ../cmk/gui/wato/pages/hosts.py:441 ../cmk/gui/wato/pages/services.py:623
+#: ../cmk/gui/wato/pages/services.py:1383
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3804
 msgid "Clustered services"
 msgstr "クラスター化されたサービス"
@@ -13525,7 +13527,7 @@ msgstr "各サイトの接続状態とサイト接続を有効または無効に
 msgid "Connection status"
 msgstr "接続状態"
 
-#: ../cmk/gui/wato/pages/hosts.py:403 ../cmk/gui/wato/pages/services.py:1336
+#: ../cmk/gui/wato/pages/hosts.py:403 ../cmk/gui/wato/pages/services.py:1352
 #: ../cmk/gui/views.py:2889
 msgid "Connection tests"
 msgstr "接続テスト"
@@ -14131,7 +14133,7 @@ msgstr ""
 msgid "Could not determine current theme."
 msgstr "現在のテーマを特定できませんでした"
 
-#: ../cmk/gui/wato/pages/services.py:604
+#: ../cmk/gui/wato/pages/services.py:620
 #, python-format
 msgid ""
 "Could not find any service for your cluster. You first need to specify which "
@@ -15250,12 +15252,12 @@ msgstr "重要な領域"
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_vpn_sessions.py:45
 #: ../cmk/gui/plugins/wato/check_parameters/mcafee_web_gateway_misc.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/mcafee_web_gateway_misc.py:36
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:27
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:33
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:55
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:63
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:71
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:94
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:29
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:35
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:58
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:66
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:74
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:98
 #: ../cmk/gui/plugins/wato/check_parameters/hivemanager_ng_devices.py:30
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_mem.py:34
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_mem.py:46
@@ -16309,7 +16311,7 @@ msgstr "アラートで使用できるカスタムアクション。"
 msgid "Custom attributes"
 msgstr "カスタム属性"
 
-#: ../cmk/gui/wato/pages/services.py:1173
+#: ../cmk/gui/wato/pages/services.py:1189
 msgid "Custom checks (defined via rule)"
 msgstr ""
 
@@ -17438,11 +17440,11 @@ msgstr "デシベルミリボルト"
 msgid "Decibel-milliwatts"
 msgstr "デシベルミリワット"
 
-#: ../cmk/gui/wato/pages/services.py:1552
+#: ../cmk/gui/wato/pages/services.py:1568
 msgid "Declare disabled services as undecided"
 msgstr "無効になっているサービスを未決定として宣言する"
 
-#: ../cmk/gui/wato/pages/services.py:1546
+#: ../cmk/gui/wato/pages/services.py:1562
 msgid "Declare monitored services as undecided"
 msgstr "監視対象サービスを未決定として宣言する"
 
@@ -18769,7 +18771,7 @@ msgstr "各オブジェクトのイベントの詳細なタイムライン"
 #: ../cmk/gui/wato/pages/audit_log.py:183
 #: ../cmk/gui/wato/pages/audit_log.py:293
 #: ../cmk/gui/wato/pages/audit_log.py:507
-#: ../cmk/gui/wato/pages/services.py:1403 ../cmk/gui/crash_reporting.py:478
+#: ../cmk/gui/wato/pages/services.py:1419 ../cmk/gui/crash_reporting.py:478
 #: ../cmk/gui/crash_reporting.py:539 ../cmk/gui/crash_reporting.py:577
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1195
 #: ../cmk/gui/cee/sla.py:1762 ../cmk/gui/plugins/views/painters.py:494
@@ -19168,7 +19170,7 @@ msgstr "ステータスGUIで無効にする"
 msgid "Disable locking"
 msgstr "ロックを無効にする"
 
-#: ../cmk/gui/wato/pages/services.py:1548
+#: ../cmk/gui/wato/pages/services.py:1564
 msgid "Disable monitored services"
 msgstr "監視対象サービスを無効にする"
 
@@ -19220,11 +19222,11 @@ msgstr "このテストを無効にする"
 msgid "Disable timespecific parameters"
 msgstr "時間固有のパラメータを無効にする"
 
-#: ../cmk/gui/wato/pages/services.py:1544
+#: ../cmk/gui/wato/pages/services.py:1560
 msgid "Disable undecided services"
 msgstr "未決定のサービスを無効にする"
 
-#: ../cmk/gui/wato/pages/services.py:1556
+#: ../cmk/gui/wato/pages/services.py:1572
 msgid "Disable vanished services"
 msgstr "消失したサービスを無効にする"
 
@@ -19245,7 +19247,7 @@ msgstr "無効 "
 msgid "Disabled %s are kept in the configuration but are not active."
 msgstr "無効にされた %sは構成に保持されますが、アクティブではありません。"
 
-#: ../cmk/gui/wato/pages/services.py:1207
+#: ../cmk/gui/wato/pages/services.py:1223
 msgid "Disabled active checks"
 msgstr "アクティブチェックを無効にしました"
 
@@ -19257,16 +19259,16 @@ msgstr "無効化されたエージェントの更新"
 msgid "Disabled alerts"
 msgstr "無効なアラート"
 
-#: ../cmk/gui/wato/pages/services.py:1386
+#: ../cmk/gui/wato/pages/services.py:1402
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3496
 msgid "Disabled checks"
 msgstr "無効なチェック"
 
-#: ../cmk/gui/wato/pages/services.py:1198
+#: ../cmk/gui/wato/pages/services.py:1214
 msgid "Disabled clustered services (located on cluster host)"
 msgstr "無効化されたクラスター化サービス(クラスターホスト上にあります)"
 
-#: ../cmk/gui/wato/pages/services.py:1218
+#: ../cmk/gui/wato/pages/services.py:1234
 msgid "Disabled custom checks (defined via rule)"
 msgstr "無効なカスタムチェック(ルールで定義)"
 
@@ -19274,7 +19276,7 @@ msgstr "無効なカスタムチェック(ルールで定義)"
 msgid "Disabled extensions"
 msgstr "無効にされた拡張機能"
 
-#: ../cmk/gui/wato/pages/services.py:1230
+#: ../cmk/gui/wato/pages/services.py:1246
 msgid "Disabled legacy services (defined in main.mk)"
 msgstr "無効にされたレガシーサービス(main.mkで定義)"
 
@@ -19307,8 +19309,8 @@ msgstr "無効なセクション(Linuxエージェント)"
 msgid "Disabled sections (Windows agent)"
 msgstr "無効なセクション(Windowsエージェント)"
 
-#: ../cmk/gui/wato/pages/services.py:1138
-#: ../cmk/gui/wato/pages/services.py:1375
+#: ../cmk/gui/wato/pages/services.py:1154
+#: ../cmk/gui/wato/pages/services.py:1391
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3490
 msgid "Disabled services"
 msgstr "無効なサービス"
@@ -19358,16 +19360,16 @@ msgstr "プラグインによって発見されました"
 msgid "Discovered host label synchronization"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:509
+#: ../cmk/gui/wato/pages/services.py:525
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:491
 msgid "Discovered host labels"
 msgstr "検出されたホストラベル"
 
-#: ../cmk/gui/wato/pages/services.py:835
+#: ../cmk/gui/wato/pages/services.py:851
 msgid "Discovered labels"
 msgstr "発見されたラベル"
 
-#: ../cmk/gui/wato/pages/services.py:596
+#: ../cmk/gui/wato/pages/services.py:612
 msgid "Discovered no service yet."
 msgstr "まだサービスを発見していません。"
 
@@ -19376,7 +19378,7 @@ msgid "Discovered process name"
 msgstr "検出されたプロセス名"
 
 #: ../cmk/gui/wato/pages/bulk_discovery.py:96
-#: ../cmk/gui/wato/pages/services.py:1284
+#: ../cmk/gui/wato/pages/services.py:1300
 msgid "Discovery"
 msgstr "発見"
 
@@ -21507,11 +21509,11 @@ msgstr "ビューの編集"
 msgid "Edit alert handler rule %d"
 msgstr "アラートハンドラルール %d を編集します"
 
-#: ../cmk/gui/wato/pages/services.py:1073
+#: ../cmk/gui/wato/pages/services.py:1089
 msgid "Edit and analyze the check parameters of this service"
 msgstr "このサービスのチェックパラメータを編集および分析します"
 
-#: ../cmk/gui/wato/pages/services.py:1083
+#: ../cmk/gui/wato/pages/services.py:1099
 msgid "Edit and analyze the disabled services rules"
 msgstr ""
 
@@ -21859,7 +21861,7 @@ msgstr "版"
 msgid "Effective labels"
 msgstr "効果的なラベル"
 
-#: ../cmk/gui/wato/pages/hosts.py:411 ../cmk/gui/wato/pages/services.py:1344
+#: ../cmk/gui/wato/pages/hosts.py:411 ../cmk/gui/wato/pages/services.py:1360
 #: ../cmk/gui/views.py:2901
 msgid "Effective parameters"
 msgstr "有効なパラメータ"
@@ -22619,7 +22621,7 @@ msgstr "小文字のユーザーIDを適用します。"
 msgid "Enforce show more"
 msgstr "もっと表示を強制する"
 
-#: ../cmk/gui/wato/pages/services.py:1155 ../cmk/gui/watolib/search.py:422
+#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:422
 #: ../cmk/gui/watolib/rulespecs.py:191
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1106
 msgid "Enforced services"
@@ -24767,7 +24769,7 @@ msgstr "ファイラーディスクレベル(NetApp、IBM SVC)"
 
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:502
 msgid "Files"
-msgstr "Age;遅延ファイルの経過時間;"
+msgstr "ファイル"
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:857
 msgid "Filesystem"
@@ -24813,7 +24815,7 @@ msgstr "ファイルシステムのサイズと使用スペース"
 msgid "Filesystem types to ignore"
 msgstr "無視するファイルシステムの種類"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:91
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:95
 msgid "Filesystem usage"
 msgstr "ファイルシステムの使用法"
 
@@ -25050,7 +25052,7 @@ msgstr "適合と予測 %s "
 msgid "Fix affected folders, hosts and rules."
 msgstr "影響を受けるフォルダ、ホスト、およびルールを修正します。"
 
-#: ../cmk/gui/wato/pages/services.py:723
+#: ../cmk/gui/wato/pages/services.py:739
 msgid "Fix all"
 msgstr "すべて修正"
 
@@ -25514,7 +25516,7 @@ msgstr "この %sの場合"
 #: ../cmk/gui/wato/pages/hosts.py:308
 #: ../cmk/gui/wato/pages/object_parameters.py:85
 #: ../cmk/gui/wato/pages/host_rename.py:426
-#: ../cmk/gui/wato/pages/services.py:1302
+#: ../cmk/gui/wato/pages/services.py:1318
 msgid "For this host"
 msgstr "このホストの場合"
 
@@ -25832,7 +25834,7 @@ msgstr "一致する行が見つかりませんでした。別の検索語を試
 msgid "Found no rule packs."
 msgstr "ルールパックが見つかりませんでした。"
 
-#: ../cmk/gui/wato/pages/services.py:346
+#: ../cmk/gui/wato/pages/services.py:362
 msgid "Found no services yet. To retry please execute a full scan."
 msgstr ""
 "まだサービスが見つかりません。再試行するには、フルスキャンを実行してくださ"
@@ -28325,7 +28327,7 @@ msgstr "水平方向の間隔"
 #: ../cmk/gui/wato/pages/host_rename.py:399
 #: ../cmk/gui/wato/pages/rulesets.py:1093
 #: ../cmk/gui/wato/pages/rulesets.py:2078
-#: ../cmk/gui/wato/pages/services.py:1299
+#: ../cmk/gui/wato/pages/services.py:1315
 #: ../cmk/gui/wato/pages/notifications.py:328
 #: ../cmk/gui/wato/pages/notifications.py:718 ../cmk/gui/availability.py:1558
 #: ../cmk/gui/crash_reporting.py:542
@@ -28359,7 +28361,7 @@ msgid "Host %s already exists in the folder %s"
 msgstr "ホスト %s はすでにフォルダ %s に存在します"
 
 #: ../cmk/gui/wato/pages/fetch_agent_output.py:60
-#: ../cmk/gui/wato/pages/services.py:176
+#: ../cmk/gui/wato/pages/services.py:177
 #: ../cmk/gui/watolib/host_label_sync.py:65
 #, python-format
 msgid ""
@@ -28752,7 +28754,7 @@ msgstr "ホストがフラッピングしています"
 msgid "Host is in downtime"
 msgstr "ホストがダウンタイム中"
 
-#: ../cmk/gui/wato/pages/services.py:172
+#: ../cmk/gui/wato/pages/services.py:173
 msgid "Host is missing"
 msgstr "ホストがありません"
 
@@ -28772,8 +28774,8 @@ msgid "Host label"
 msgstr "ホストラベル"
 
 #: ../cmk/gui/wato/pages/rulesets.py:1761
-#: ../cmk/gui/wato/pages/rulesets.py:1897 ../cmk/gui/wato/pages/services.py:569
-#: ../cmk/gui/wato/pages/services.py:588 ../cmk/gui/wato/pages/services.py:1292
+#: ../cmk/gui/wato/pages/rulesets.py:1897 ../cmk/gui/wato/pages/services.py:585
+#: ../cmk/gui/wato/pages/services.py:604 ../cmk/gui/wato/pages/services.py:1308
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3901
 #: ../cmk/gui/plugins/sidebar/search.py:1198
 #: ../cmk/gui/plugins/views/sorters.py:217
@@ -32481,7 +32483,7 @@ msgstr "Checkmkの初期化されたGIT"
 msgid "Initializing"
 msgstr "初期化中"
 
-#: ../cmk/gui/wato/pages/services.py:313
+#: ../cmk/gui/wato/pages/services.py:329
 msgid "Initializing discovery..."
 msgstr "発見を初期化しています..."
 
@@ -33049,7 +33051,7 @@ msgstr "無効なコール:スナップショットがありません。"
 msgid "Invalid certificate file: %s"
 msgstr "無効な証明書ファイル: %s"
 
-#: ../cmk/gui/wato/pages/services.py:893
+#: ../cmk/gui/wato/pages/services.py:909
 msgid "Invalid check parameter"
 msgstr "チェックパラメータが無効です"
 
@@ -33851,7 +33853,7 @@ msgstr "ジョブタイトル"
 msgid "Job already finished"
 msgstr "ジョブはもう終わりました"
 
-#: ../cmk/gui/wato/pages/services.py:352
+#: ../cmk/gui/wato/pages/services.py:368
 msgid "Job details"
 msgstr "ジョブの詳細"
 
@@ -34089,15 +34091,15 @@ msgstr "Kube-state-metrics"
 msgid "Kubernetes"
 msgstr "Kubernetes"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:106
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:110
 msgid "Kubernetes Namespaced pods Filesystem usage"
 msgstr "KubernetesネームスペースPodファイルシステムの使用法"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:44
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:46
 msgid "Kubernetes Namespaced pods cpu usage"
 msgstr "Kubernetes名前空間PodのCPU使用率"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:83
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:86
 msgid "Kubernetes Namespaced pods memory usage"
 msgstr "Kubernetes名前空間Podのメモリ使用量"
 
@@ -34612,7 +34614,7 @@ msgstr "検出されたレガシー動作監視器: %r"
 msgid "Legacy run"
 msgstr "レガシーラン"
 
-#: ../cmk/gui/wato/pages/services.py:1165
+#: ../cmk/gui/wato/pages/services.py:1181
 msgid "Legacy services (defined in main.mk)"
 msgstr "レガシーサービス(main.mkで定義)"
 
@@ -36012,7 +36014,7 @@ msgstr "\"%s\" の読み込みに失敗しました: %s"
 msgid "Loading maps..."
 msgstr "マップを読み込んでいます..."
 
-#: ../cmk/gui/wato/pages/services.py:149
+#: ../cmk/gui/wato/pages/services.py:150
 msgid "Loading..."
 msgstr "読み込んでいます..."
 
@@ -39661,7 +39663,7 @@ msgstr "ポートが複数ある場合は、レーンを監視してグラフ化
 msgid "Monitor costs and usage"
 msgstr "コストと使用状況を監視する"
 
-#: ../cmk/gui/wato/pages/services.py:1550
+#: ../cmk/gui/wato/pages/services.py:1566
 msgid "Monitor disabled services"
 msgstr "無効になっているサービスを監視する"
 
@@ -39725,7 +39727,7 @@ msgstr ""
 msgid "Monitor the performance of the Event Console"
 msgstr "イベントコンソールのパフォーマンスを監視する"
 
-#: ../cmk/gui/wato/pages/services.py:1541
+#: ../cmk/gui/wato/pages/services.py:1557
 msgid "Monitor undecided services"
 msgstr "未決定のサービスを監視する"
 
@@ -39741,7 +39743,7 @@ msgstr "Checkmkエージェントを介して監視する"
 msgid "Monitor via SNMP"
 msgstr "SNMP経由で監視する"
 
-#: ../cmk/gui/wato/pages/services.py:1181
+#: ../cmk/gui/wato/pages/services.py:1197
 msgid "Monitored clustered services (located on cluster host)"
 msgstr "監視されたクラスター化されたサービス(クラスターホスト上にあります)"
 
@@ -39758,7 +39760,7 @@ msgstr "監視対象のジョブ"
 msgid "Monitored on site"
 msgstr "サイトで監視"
 
-#: ../cmk/gui/wato/pages/services.py:1130
+#: ../cmk/gui/wato/pages/services.py:1146
 #: ../cmk/gui/plugins/metrics/checkmk.py:74
 msgid "Monitored services"
 msgstr "監視対象サービス"
@@ -40042,7 +40044,7 @@ msgstr "このグラフを一番上に移動します"
 msgid "Move this host to:"
 msgstr "このホストを次の場所に移動します。"
 
-#: ../cmk/gui/wato/pages/services.py:1013
+#: ../cmk/gui/wato/pages/services.py:1029
 #, python-format
 msgid "Move to %s services"
 msgstr "%sサービスに移動"
@@ -41039,7 +41041,7 @@ msgstr "それより新しいファイルは絶対に削除しないでくださ
 msgid "Never use piggyback data"
 msgstr "ピギーバックデータは絶対に使用しないでください"
 
-#: ../cmk/gui/wato/pages/services.py:536
+#: ../cmk/gui/wato/pages/services.py:552
 #: ../cmk/gui/plugins/wato/notifications.py:919
 #: ../cmk/gui/plugins/wato/notifications.py:960
 #: ../cmk/gui/plugins/wato/notifications.py:1002
@@ -41128,7 +41130,7 @@ msgstr "新しい予測グラフ..."
 msgid "New graph"
 msgstr "新しいグラフ"
 
-#: ../cmk/gui/wato/pages/services.py:707
+#: ../cmk/gui/wato/pages/services.py:723
 msgid "New host label: "
 msgid_plural "New host labels: "
 msgstr[0] ""
@@ -41351,7 +41353,7 @@ msgstr "データなし"
 msgid "No data available"
 msgstr "データなし"
 
-#: ../cmk/gui/wato/pages/services.py:344
+#: ../cmk/gui/wato/pages/services.py:360
 msgid "No data for discovery available. Please perform a full scan."
 msgstr ""
 "利用可能な発見のためのデータがありません。フルスキャンを実行してください。"
@@ -41380,7 +41382,7 @@ msgstr ""
 "タイプ '%s'のクラッシュの詳細レンダラーは利用できません。詳細構造は次のとおり"
 "です。"
 
-#: ../cmk/gui/wato/pages/services.py:315
+#: ../cmk/gui/wato/pages/services.py:331
 msgid "No discovery information available. Please perform a full scan."
 msgstr "利用可能な発見情報はありません。フルスキャンを実行してください。"
 
@@ -41406,7 +41408,7 @@ msgstr "明示的な資格情報はありません"
 msgid "No forwarding"
 msgstr "転送なし"
 
-#: ../cmk/gui/wato/pages/services.py:316
+#: ../cmk/gui/wato/pages/services.py:332
 msgid ""
 "No fresh discovery information available. Using latest cached information. "
 "Please perform a full scan in case you want to discover the current state."
@@ -43614,7 +43616,7 @@ msgstr "OSNレーザー減衰"
 #: ../cmk/gui/wato/pages/audit_log.py:436
 #: ../cmk/gui/wato/pages/audit_log.py:500
 msgid "Object"
-msgstr "Returned;SELECTオブジェクトが返されました;"
+msgstr "オブジェクト"
 
 #: ../cmk/gui/wato/pages/audit_log.py:281
 #: ../cmk/gui/wato/pages/audit_log.py:433
@@ -45461,7 +45463,7 @@ msgstr ""
 msgid "Parameters of"
 msgstr "のパラメータ"
 
-#: ../cmk/gui/wato/pages/services.py:895
+#: ../cmk/gui/wato/pages/services.py:911
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:147
 msgid "Parameters:"
 msgstr "パラメーター:"
@@ -48208,7 +48210,7 @@ msgstr "顕著な変化"
 #: ../cmk/gui/wato/pages/custom_attributes.py:502
 #: ../cmk/gui/wato/pages/sites.py:690 ../cmk/gui/wato/pages/folders.py:379
 #: ../cmk/gui/wato/pages/users.py:341 ../cmk/gui/wato/pages/timeperiods.py:330
-#: ../cmk/gui/wato/pages/services.py:1328 ../cmk/gui/wato/pages/roles.py:211
+#: ../cmk/gui/wato/pages/services.py:1344 ../cmk/gui/wato/pages/roles.py:211
 #: ../cmk/gui/key_mgmt.py:264 ../cmk/gui/key_mgmt.py:385
 #: ../cmk/gui/key_mgmt.py:480
 #: ../cmk/gui/cee/plugins/dashboard/alert_statistics.py:209
@@ -49397,7 +49399,7 @@ msgstr "リファラー"
 msgid "Refine search"
 msgstr "検索を絞り込む"
 
-#: ../cmk/gui/wato/pages/services.py:1485 ../cmk/gui/watolib/services.py:602
+#: ../cmk/gui/wato/pages/services.py:1501 ../cmk/gui/watolib/services.py:602
 msgid "Refresh"
 msgstr ""
 
@@ -49832,7 +49834,7 @@ msgstr "承認を削除する"
 msgid "Remove all"
 msgstr "すべて削除する"
 
-#: ../cmk/gui/wato/pages/services.py:1496
+#: ../cmk/gui/wato/pages/services.py:1512
 msgid "Remove all and find new"
 msgstr "すべて削除して新しいものを見つける"
 
@@ -49878,7 +49880,7 @@ msgstr "ラベル条件を削除します"
 msgid "Remove only matching vanished services"
 msgstr "一致する消失したサービスのみを削除します"
 
-#: ../cmk/gui/wato/pages/services.py:1029
+#: ../cmk/gui/wato/pages/services.py:1045
 msgid "Remove service"
 msgstr "サービスを削除する"
 
@@ -49906,7 +49908,7 @@ msgstr ""
 msgid "Remove this rule pack from the Extension Packages module"
 msgstr "このルールパックを拡張パッケージモジュールから削除します"
 
-#: ../cmk/gui/wato/pages/services.py:1554
+#: ../cmk/gui/wato/pages/services.py:1570
 #: ../cmk/gui/watolib/bulk_discovery.py:83
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3652
 msgid "Remove vanished services"
@@ -50517,7 +50519,7 @@ msgstr "ルールパック %s のルールをMKP経由で提供されたもの�
 msgid "Resident items ratio"
 msgstr "レジデント項目比率"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:52
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:55
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_mem.py:26
 msgid "Resident memory usage"
 msgstr "常駐メモリ使用量"
@@ -52070,7 +52072,7 @@ msgstr ""
 #: ../cmk/gui/cee/reporting.py:690
 #: ../cmk/gui/cee/plugins/sidebar/reporting.py:75
 msgid "Scheduler"
-msgstr "Job;Oracleスケジューラジョブ;"
+msgstr "スケジューラ"
 
 #: ../cmk/gui/plugins/wato/check_parameters/oracle_jobs.py:30
 msgid "Scheduler Job Name"
@@ -52973,7 +52975,7 @@ msgstr "サーバーのパフォーマンス"
 msgid "Server timezone"
 msgstr "サーバーのタイムゾーン"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2081 ../cmk/gui/wato/pages/services.py:819
+#: ../cmk/gui/wato/pages/rulesets.py:2081 ../cmk/gui/wato/pages/services.py:835
 #: ../cmk/gui/wato/pages/notifications.py:719 ../cmk/gui/availability.py:1563
 #: ../cmk/gui/watolib/rulespecs.py:473 ../cmk/gui/watolib/rulespecs.py:1009
 #: ../cmk/gui/cee/plugins/reporting/availability.py:50
@@ -53257,7 +53259,7 @@ msgstr "サービスの説明: "
 msgid "Service descriptions"
 msgstr "サービスの説明"
 
-#: ../cmk/gui/wato/pages/services.py:319 ../cmk/gui/watolib/services.py:580
+#: ../cmk/gui/wato/pages/services.py:335 ../cmk/gui/watolib/services.py:580
 #: ../cmk/gui/watolib/services.py:588 ../cmk/gui/cee/plugins/wato/dcd.py:700
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2634
 #: ../cmk/gui/plugins/views/datasources.py:437
@@ -53581,7 +53583,7 @@ msgstr "サービスレベル"
 
 #: ../cmk/gui/wato/pages/object_parameters.py:92
 #: ../cmk/gui/wato/pages/rulesets.py:766 ../cmk/gui/wato/pages/rulesets.py:1833
-#: ../cmk/gui/wato/pages/services.py:1288 ../cmk/gui/views.py:1362
+#: ../cmk/gui/wato/pages/services.py:1304 ../cmk/gui/views.py:1362
 #: ../cmk/gui/cee/plugins/wato/cmc.py:843
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:614
 #: ../cmk/gui/plugins/wato/datasource_programs.py:593
@@ -53657,7 +53659,7 @@ msgstr ""
 msgid "Services of host"
 msgstr "ホストのサービス"
 
-#: ../cmk/gui/wato/pages/services.py:130
+#: ../cmk/gui/wato/pages/services.py:131
 #, python-format
 msgid "Services of host %s"
 msgstr "ホスト %sのサービス"
@@ -53690,7 +53692,7 @@ msgstr ""
 "構成されたチェック間隔に従って、あまりにも長い間チェックされていないサービ"
 "ス。"
 
-#: ../cmk/gui/wato/pages/services.py:695
+#: ../cmk/gui/wato/pages/services.py:711
 msgid "Services/Host labels to fix"
 msgstr "修正するサービス/ホストラベル"
 
@@ -54193,8 +54195,8 @@ msgid ""
 "might also consider using averaging."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1309
-#: ../cmk/gui/wato/pages/services.py:1312 ../cmk/gui/wato/mkeventd.py:3003
+#: ../cmk/gui/wato/pages/services.py:1325
+#: ../cmk/gui/wato/pages/services.py:1328 ../cmk/gui/wato/mkeventd.py:3003
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:542
 msgid "Settings"
 msgstr "設定"
@@ -54497,11 +54499,11 @@ msgstr "分析を表示"
 msgid "Show bulks"
 msgstr "バルクを表示"
 
-#: ../cmk/gui/wato/pages/services.py:1421
+#: ../cmk/gui/wato/pages/services.py:1437
 msgid "Show check parameters"
 msgstr "チェックパラメータを表示する"
 
-#: ../cmk/gui/wato/pages/services.py:1436 ../cmk/gui/views.py:962
+#: ../cmk/gui/wato/pages/services.py:1452 ../cmk/gui/views.py:962
 msgid "Show checkboxes"
 msgstr "チェックボックスを表示する"
 
@@ -54541,7 +54543,7 @@ msgstr "詳細を表示"
 msgid "Show details about livestatus encryption"
 msgstr "ライブステータス暗号化に関する詳細を表示する"
 
-#: ../cmk/gui/wato/pages/services.py:1455
+#: ../cmk/gui/wato/pages/services.py:1471
 msgid "Show discovered service labels"
 msgstr ""
 
@@ -54702,7 +54704,7 @@ msgstr "1時間あたりの表示"
 msgid "Show pin"
 msgstr "ピンを表示"
 
-#: ../cmk/gui/wato/pages/services.py:1470
+#: ../cmk/gui/wato/pages/services.py:1486
 msgid "Show plugin names"
 msgstr "プラグイン名を表示する"
 
@@ -56905,7 +56907,7 @@ msgstr "共有プールの起動オーバーヘッド"
 #: ../cmk/gui/backup.py:485 ../cmk/gui/backup.py:922
 #: ../cmk/gui/wato/pages/ldap.py:347
 #: ../cmk/gui/wato/pages/pattern_editor.py:270
-#: ../cmk/gui/wato/pages/users.py:410 ../cmk/gui/wato/pages/services.py:818
+#: ../cmk/gui/wato/pages/users.py:410 ../cmk/gui/wato/pages/services.py:834
 #: ../cmk/gui/wato/pages/notifications.py:705
 #: ../cmk/gui/wato/pages/notifications.py:707
 #: ../cmk/gui/wato/pages/notifications.py:710
@@ -57747,7 +57749,7 @@ msgid "Statistics Interval"
 msgstr "統計間隔"
 
 #: ../cmk/gui/wato/pages/activate_changes.py:427
-#: ../cmk/gui/wato/pages/services.py:560 ../cmk/gui/wato/mkeventd.py:2995
+#: ../cmk/gui/wato/pages/services.py:576 ../cmk/gui/wato/mkeventd.py:2995
 #: ../cmk/gui/cee/plugins/wato/dcd.py:353
 #: ../cmk/gui/cee/plugins/wato/dcd.py:423
 #: ../cmk/gui/cee/plugins/wato/dcd.py:596 ../cmk/gui/cee/ntop/pages.py:1319
@@ -57783,7 +57785,7 @@ msgstr "ステータス接続"
 msgid "Status data inventory"
 msgstr "ステータスデータインベントリ"
 
-#: ../cmk/gui/wato/pages/services.py:820
+#: ../cmk/gui/wato/pages/services.py:836
 msgid "Status detail"
 msgstr "ステータスの詳細"
 
@@ -57991,7 +57993,7 @@ msgstr "新しいイベントの作成を停止します"
 msgid "Stop creating new events, create overflow event"
 msgstr "新しいイベントの作成を停止し、オーバーフローイベントを作成します"
 
-#: ../cmk/gui/wato/pages/services.py:1506
+#: ../cmk/gui/wato/pages/services.py:1522
 msgid "Stop job"
 msgstr "実行を止める"
 
@@ -58542,7 +58544,7 @@ msgstr "インストールされたスワップ"
 msgid "Swap left and right margins on pages with even numbers"
 msgstr "偶数ページの左右の余白を入れ替えます"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:60
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:63
 msgid "Swap memory usage"
 msgstr "スワップメモリ使用量"
 
@@ -58755,7 +58757,7 @@ msgstr "システム"
 msgid "System Authentication"
 msgstr "システム認証"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:25
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:27
 msgid "System CPU usage"
 msgstr "システムのCPU使用率"
 
@@ -59736,7 +59738,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/super_server.py:21
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The Checkmk agent does not listen on its own for incoming network "
 "connections on Linux systems. By default it makes use of so called super "
@@ -59750,10 +59752,16 @@ msgid ""
 "activated if the super server is compatible to a possibly configured IP "
 "restriction ruleset. See ruleset \"%s\"."
 msgstr ""
-"Checkmkエージェントは、Linuxシステムの着信ネットワーク接続を単独でリッスンしません。デフォルトでは、ネットワーク上でリッスンし、Checkmk"
-"エージェントなどのアプリケーションに着信要求をディスパッチするいわゆるスーパーサーバーを利用します。ベイク処理されたエージェントパッケージには、syste"
-"mdとxinetdのサービス構成が付属しており、systemdを優先します。特定のスーパーサーバーを選択する場合は、このルールを構成できます。オプションで"
-"、サービスのインストールを完全に無効にします。たとえば、SSH経由でエージェントに接続する場合などです。"
+"Checkmkエージェントは、Linuxシステムの着信ネットワーク接続を単独でリッスンし"
+"ません。デフォルトでは、ネットワーク上でリッスンし、Checkmkエージェントなどの"
+"アプリケーションに着信要求をディスパッチするいわゆるスーパーサーバーを利用し"
+"ます。ベイク処理されたエージェントパッケージには、systemdとxinetdのサービス構"
+"成が付属しており、systemdを優先します。特定のスーパーサーバーを選択する場合"
+"は、このルールを構成できます。オプションで、サービスのインストールを完全に無"
+"効にします。たとえば、SSH経由でエージェントに接続する場合などです。\n"
+"Please note: The configured/determined service configuration will only get "
+"activated if the super server is compatible to a possibly configured IP "
+"restriction ruleset. See ruleset \"%s\"."
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:971
 msgid "The Checkmk agent is queried via the ESX datasource program"
@@ -61123,7 +61131,7 @@ msgstr "デバイスによって提供されるインターフェースの説明
 msgid "The directory %s does not exist or is not a directory."
 msgstr "ディレクトリ%sが存在しないか、ディレクトリではありません。"
 
-#: ../cmk/gui/wato/pages/services.py:305
+#: ../cmk/gui/wato/pages/services.py:321
 msgid "The discovered host labels have been updated."
 msgstr "検出されたホストラベルが更新されました。"
 
@@ -64212,7 +64220,7 @@ msgid ""
 "in dollar signs. E.g. $CUSTOMER_MACRO$"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1140
+#: ../cmk/gui/wato/pages/services.py:1156
 msgid ""
 "These services are being discovered but have been disabled by creating a "
 "rule in the rule set <i>Disabled services</i> or <i>Disabled checks</i>."
@@ -64220,7 +64228,7 @@ msgstr ""
 "これらのサービスは検出されていますが、ルールセット<i>無効なサービス</i>または"
 "<i>無効なチェック</i>でルールを作成することにより無効になっています。"
 
-#: ../cmk/gui/wato/pages/services.py:1175
+#: ../cmk/gui/wato/pages/services.py:1191
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call a classical check plugin, that you have installed yourself."
@@ -64228,7 +64236,7 @@ msgstr ""
 "これらのサービスは、Check_MkエージェントまたはCheck_MK-SNMP engineを使用しま"
 "せんが、インストールした従来のチェックプラグインをアクティブに呼び出します。"
 
-#: ../cmk/gui/wato/pages/services.py:1220
+#: ../cmk/gui/wato/pages/services.py:1236
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call a classical check plugin, that you have installed yourself. "
@@ -64236,7 +64244,7 @@ msgid ""
 "<i>Disabled services</i> oder <i>Disabled checks</i>."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1148
+#: ../cmk/gui/wato/pages/services.py:1164
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call classical check plugins. They have been added by a rule in the "
@@ -64247,7 +64255,7 @@ msgstr ""
 "ション<i>アクティブチェック</i>のルールによって、またはCheck_MKによって暗黙的"
 "に追加されています。"
 
-#: ../cmk/gui/wato/pages/services.py:1209
+#: ../cmk/gui/wato/pages/services.py:1225
 msgid ""
 "These services do not use the Check_MK agent or Check_MK-SNMP engine but "
 "actively call classical check plugins. They have been added by a rule in the "
@@ -64256,7 +64264,7 @@ msgid ""
 "oder <i>Disabled checks</i>."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1111
+#: ../cmk/gui/wato/pages/services.py:1127
 msgid ""
 "These services had been added to the monitoring by a previous discovery but "
 "the actual items that are monitored are not present anymore. This might be "
@@ -64271,20 +64279,20 @@ msgstr ""
 "が実際に監視に関連しなくなった場合は、監視で不明なサービスを回避するためにそ"
 "れらを削除する必要があります。"
 
-#: ../cmk/gui/wato/pages/services.py:1132
+#: ../cmk/gui/wato/pages/services.py:1148
 msgid ""
 "These services had been found by a discovery and are currently configured to "
 "be monitored."
 msgstr ""
 "これらのサービスは検出によって検出され、現在監視するように設定されています。"
 
-#: ../cmk/gui/wato/pages/services.py:1167
+#: ../cmk/gui/wato/pages/services.py:1183
 msgid ""
 "These services have been configured by the deprecated variable "
 "<tt>legacy_checks</tt> in <tt>main.mk</tt> or a similar configuration file."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1232
+#: ../cmk/gui/wato/pages/services.py:1248
 msgid ""
 "These services have been configured by the deprecated variable "
 "<tt>legacy_checks</tt> in <tt>main.mk</tt> or a similar configuration file. "
@@ -64296,7 +64304,7 @@ msgstr ""
 "ト<i>無効なサービス</i>または<i>無効なチェック</i>でルールを作成することによ"
 "り無効になっています。"
 
-#: ../cmk/gui/wato/pages/services.py:1101
+#: ../cmk/gui/wato/pages/services.py:1117
 msgid ""
 "These services have been found by the service discovery but are not yet "
 "added to the monitoring. You should either decide to monitor them or to "
@@ -64308,14 +64316,14 @@ msgstr ""
 "それらが単なる過渡的なものであると確信している場合は、それらが消えるまでその"
 "ままにしておきます。"
 
-#: ../cmk/gui/wato/pages/services.py:1200
+#: ../cmk/gui/wato/pages/services.py:1216
 msgid ""
 "These services have been found on this host and have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i> but disabled via "
 "<i>Disabled services</i> or <i>Disabled checks</i>."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/services.py:1123
+#: ../cmk/gui/wato/pages/services.py:1139
 msgid ""
 "These services have been found on this host and have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i> but disappeared "
@@ -64325,7 +64333,7 @@ msgstr ""
 "i>のルールによってクラスターホストにマップされましたが、このホストから消えま"
 "した。"
 
-#: ../cmk/gui/wato/pages/services.py:1190
+#: ../cmk/gui/wato/pages/services.py:1206
 msgid ""
 "These services have been found on this host and have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i>, but are not yet "
@@ -64336,7 +64344,7 @@ msgstr ""
 "ルールによってクラスターホストにマップされていますが、アクティブな監視にはま"
 "だ追加されていません。それらを追加するか、完全に無効にしてください。"
 
-#: ../cmk/gui/wato/pages/services.py:1182
+#: ../cmk/gui/wato/pages/services.py:1198
 msgid ""
 "These services have been found on this host but have been mapped to a "
 "cluster host by a rule in the set <i>Clustered services</i>."
@@ -64344,7 +64352,7 @@ msgstr ""
 "これらのサービスはこのホストで見つかりましたが、セット<i>クラスター化された"
 "サービス</ i>のルールによってクラスターホストにマップされています。"
 
-#: ../cmk/gui/wato/pages/services.py:1157
+#: ../cmk/gui/wato/pages/services.py:1173
 msgid ""
 "These services have not been found by the discovery but have been added "
 "manually by a Setup rule <i>Enforced services</i>."
@@ -68696,7 +68704,7 @@ msgid "Timespan or Duration in seconds"
 msgstr "タイムスパンまたは期間(秒単位)"
 
 #: ../cmk/gui/wato/pages/object_parameters.py:413
-#: ../cmk/gui/wato/pages/services.py:880
+#: ../cmk/gui/wato/pages/services.py:896
 #, python-format
 msgid "Timespecific parameters computed at %s"
 msgstr "%s で計算された時間固有のパラメーター"
@@ -69198,7 +69206,7 @@ msgstr "総ライセンス"
 msgid "Total log file size: Absolute upper levels"
 msgstr "ログファイルの合計サイズ: 絶対上位レベル"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:68
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:71
 msgid "Total memory usage"
 msgstr "合計メモリ使用量"
 
@@ -70587,16 +70595,16 @@ msgstr "メモリ内の非圧縮サイズ"
 msgid "Uncorrectable codewords"
 msgstr "修正不可能なコードワード"
 
-#: ../cmk/gui/wato/pages/services.py:1188
+#: ../cmk/gui/wato/pages/services.py:1204
 msgid "Undecided clustered services"
 msgstr "未定のクラスター化されたサービス"
 
-#: ../cmk/gui/wato/pages/services.py:699
+#: ../cmk/gui/wato/pages/services.py:715
 msgid "Undecided service: "
 msgid_plural "Undecided services: "
 msgstr[0] ""
 
-#: ../cmk/gui/wato/pages/services.py:1099
+#: ../cmk/gui/wato/pages/services.py:1115
 msgid "Undecided services (currently not monitored)"
 msgstr "未定のサービス(現在監視されていません)"
 
@@ -70615,7 +70623,7 @@ msgstr "辞書の未定義のキー '%s'。許可されるのは%sです。"
 msgid "Undefined operator '%s' in graph expression"
 msgstr "グラフ式の未定義の演算子 '%s'"
 
-#: ../cmk/gui/wato/pages/services.py:1415
+#: ../cmk/gui/wato/pages/services.py:1431
 msgid "Understanding and configuring services"
 msgstr "サービスの理解と構成"
 
@@ -70954,7 +70962,7 @@ msgstr "最新状況"
 msgid "Update delay for PNP meta information"
 msgstr "PNPメタ情報の更新遅延"
 
-#: ../cmk/gui/wato/pages/services.py:1579
+#: ../cmk/gui/wato/pages/services.py:1595
 msgid "Update host labels"
 msgstr "ホストラベルを更新する"
 
@@ -70990,7 +70998,7 @@ msgstr "変換を更新"
 msgid "Updated attributes: "
 msgstr "更新された属性: "
 
-#: ../cmk/gui/wato/pages/services.py:454
+#: ../cmk/gui/wato/pages/services.py:470
 #, python-format
 msgid "Updated discovered host labels of '%s' with %d labels"
 msgstr "%s' の検出されたホストラベルを %d ラベルで更新しました"
@@ -72815,7 +72823,7 @@ msgstr "ユーザーエージェント"
 msgid "User Base-DN"
 msgstr "ユーザーベース-DN"
 
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:31
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:33
 msgid "User CPU usage"
 msgstr "ユーザーのCPU使用率"
 
@@ -73388,30 +73396,30 @@ msgstr "すべてのデバイスからフェッチする値"
 msgid "Values to fetch from this device"
 msgstr "このデバイスからフェッチする値"
 
-#: ../cmk/gui/wato/pages/services.py:541
+#: ../cmk/gui/wato/pages/services.py:557
 #: ../cmk/gui/plugins/visuals/filters.py:2339
 msgid "Vanished"
 msgstr "消えた"
 
-#: ../cmk/gui/wato/pages/services.py:1121
+#: ../cmk/gui/wato/pages/services.py:1137
 msgid "Vanished clustered services (located on cluster host)"
 msgstr "消失したクラスター化サービス(クラスターホスト上にあります)"
 
-#: ../cmk/gui/wato/pages/services.py:711
+#: ../cmk/gui/wato/pages/services.py:727
 msgid "Vanished host label: "
 msgid_plural "Vanished host labels: "
 msgstr[0] ""
 
-#: ../cmk/gui/wato/pages/services.py:703
+#: ../cmk/gui/wato/pages/services.py:719
 msgid "Vanished service: "
 msgid_plural "Vanished services: "
 msgstr[0] ""
 
-#: ../cmk/gui/wato/pages/services.py:1109
+#: ../cmk/gui/wato/pages/services.py:1125
 msgid "Vanished services (monitored, but no longer exist)"
 msgstr "消滅したサービス(監視されていますが、存在しません)"
 
-#: ../cmk/gui/wato/pages/services.py:894
+#: ../cmk/gui/wato/pages/services.py:910
 msgid "Variable"
 msgstr "変数"
 
@@ -73690,7 +73698,7 @@ msgstr ""
 msgid "View and edit the details of this package"
 msgstr "このパッケージの詳細を表示および編集する"
 
-#: ../cmk/gui/wato/pages/services.py:1048
+#: ../cmk/gui/wato/pages/services.py:1064
 msgid "View and edit the parameters for this service"
 msgstr "このサービスのパラメーターを表示および編集します"
 
@@ -74624,12 +74632,12 @@ msgstr "警告エリア"
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_vpn_sessions.py:41
 #: ../cmk/gui/plugins/wato/check_parameters/mcafee_web_gateway_misc.py:27
 #: ../cmk/gui/plugins/wato/check_parameters/mcafee_web_gateway_misc.py:35
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:26
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:32
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:54
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:62
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:70
-#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:93
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:28
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:34
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:57
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:65
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:73
+#: ../cmk/gui/plugins/wato/check_parameters/k8s_pods_cm.py:97
 #: ../cmk/gui/plugins/wato/check_parameters/hivemanager_ng_devices.py:29
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_mem.py:33
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_mem.py:45
@@ -77135,7 +77143,7 @@ msgstr "最悪の状態、 %d ノード、 %sに制限"
 
 #: ../cmk/gui/plugins/wato/check_parameters/netapp_fcportio.py:33
 msgid "Write"
-msgstr "Latency;ディスク書き込みレイテンシ;"
+msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/nfsiostats.py:126
 msgid "Write Avg RTT (ms)"
@@ -77528,12 +77536,12 @@ msgstr ""
 
 #: ../cmk/gui/wato/pages/hosts.py:291 ../cmk/gui/wato/pages/hosts.py:518
 #: ../cmk/gui/wato/pages/host_rename.py:386
-#: ../cmk/gui/wato/pages/services.py:101 ../cmk/gui/wato/pages/services.py:219
-#: ../cmk/gui/wato/pages/services.py:1250
+#: ../cmk/gui/wato/pages/services.py:102 ../cmk/gui/wato/pages/services.py:235
+#: ../cmk/gui/wato/pages/services.py:1266
 msgid "You called this page with an invalid host name."
 msgstr "無効なホスト名でこのページを呼び出しました。"
 
-#: ../cmk/gui/wato/pages/services.py:1245
+#: ../cmk/gui/wato/pages/services.py:1261
 msgid "You called this page with an invalid site."
 msgstr "無効なサイトでこのページを呼び出しました。"
 
