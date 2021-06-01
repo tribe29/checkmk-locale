@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Checkmk user interface translation 0.1\n"
-"Report-Msgid-Bugs-To: faye.tandog@tribe29.com\n"
+"Report-Msgid-Bugs-To: feedback@checkmk.com\n"
 "POT-Creation-Date: 2011-05-13 09:42+0200\n"
 "PO-Revision-Date: 2021-05-31 12:57+0000\n"
 "Last-Translator: Jörg Herbel <joerg.herbel@tribe29.com>\n"
@@ -2392,7 +2392,7 @@ msgid "A combination of the instance, database and (logical) file name."
 msgstr ""
 "Uma combinação da instância, banco de dados e nome do arquivo (lógico)."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:87
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:86
 msgid "A comment or description of this host"
 msgstr "Um comentário ou descrição deste anfitrião"
 
@@ -2557,7 +2557,7 @@ msgstr ""
 "Uma lista de todos os hosts com estatísticas sobre as interfaces de rede "
 "totais, usadas e gratuitas"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:535
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:531
 msgid ""
 "A list of regular expressions which are matched against the found IP "
 "addresses to exclude them. The matched addresses are excluded."
@@ -2993,7 +2993,7 @@ msgstr ""
 "chaves api globais ou de integração de equipe."
 
 #: ../cmk/gui/watolib/tags.py:559 ../cmk/gui/watolib/tags.py:565
-#: ../cmk/utils/tags.py:584
+#: ../cmk/utils/tags.py:590
 msgid "API integrations if configured, else Checkmk agent"
 msgstr "Integrações de API se configuradas, caso contrário, agente Checkmk"
 
@@ -4072,7 +4072,7 @@ msgstr "Adicionar Condição"
 msgid "Add Contact Group"
 msgstr "Adicionar Grupo de Contato"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:55
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:71
 msgid "Add Counter"
 msgstr "Adicionar contador"
 
@@ -4367,8 +4367,8 @@ msgstr "Adicionar novo certificado ou corrente CA"
 msgid "Add new Graphite / InfluxDB connection"
 msgstr "Adicionar nova conexão Graphite / InfluxDB"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:403
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:410
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:414
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:421
 msgid "Add new IP range"
 msgstr "Adicionar nova faixa de IP"
 
@@ -4727,7 +4727,7 @@ msgstr ""
 "Adicionado CA com impressão digital %s às autoridades certificadoras de "
 "confiança"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:497
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:493
 msgid ""
 "Added hosts will be created as \"offline\" host by default. You can change "
 "this option to activate monitoring of new hosts after next activation of the "
@@ -4760,11 +4760,11 @@ msgstr "Adicionado: %s"
 msgid "Additional Host Names"
 msgstr "Nomes de anfitriões adicionais"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:199
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:198
 msgid "Additional IPv4 addresses"
 msgstr "Endereços IPv4 adicionais"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:235
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:234
 msgid "Additional IPv6 addresses"
 msgstr "Endereços IPv6 adicionais"
 
@@ -4804,18 +4804,18 @@ msgstr "Regras adicionais para os casos anómalos"
 msgid "Additive: Effects of seasonality are added to the trend."
 msgstr "Aditivo: Os efeitos da sazonalidade são acrescentados à tendência."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:658
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:654
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1823
 #: ../cmk/gui/plugins/wato/active_checks.py:2184
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:278
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:341
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:528
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:913
-#: ../cmk/utils/tags.py:688 ../cmk/utils/tags.py:694
+#: ../cmk/utils/tags.py:694 ../cmk/utils/tags.py:700
 msgid "Address"
 msgstr "Endereço"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:659
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:655
 msgid ""
 "Address (IPv4 or IPv6) or dns name under which the management board can be "
 "reached. If this is not set, the same address as that of the host will be "
@@ -5751,7 +5751,7 @@ msgstr "Algoritmo"
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:292
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:356
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:378
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:84
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:83
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:2197
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:941
 #: ../cmk/gui/plugins/views/painters.py:2465
@@ -6535,7 +6535,7 @@ msgstr "Mostrar sempre todas as filas"
 msgid "Always show the checkboxes"
 msgstr "Mostrar sempre as caixas de seleção"
 
-#: ../cmk/utils/tags.py:627
+#: ../cmk/utils/tags.py:633
 msgid "Always use and expect piggyback data"
 msgstr "Usar e esperar sempre dados piggyback"
 
@@ -8654,7 +8654,7 @@ msgid "Bank (30 day) month"
 msgstr "Banco (30 dias) mês"
 
 #: ../cmk/gui/wato/mkeventd.py:567 ../cmk/gui/plugins/metrics/unit.py:262
-#: ../cmk/utils/tags.py:690
+#: ../cmk/utils/tags.py:696
 msgid "Bar"
 msgstr "Bar"
 
@@ -9151,7 +9151,7 @@ msgstr "Construir Cache"
 msgid "Build duration"
 msgstr "Duração da construção"
 
-#: ../cmk/gui/watolib/search.py:436
+#: ../cmk/gui/watolib/search.py:437
 msgid "Building of search index started"
 msgstr "Início da construção do índice de busca"
 
@@ -9638,7 +9638,7 @@ msgstr ""
 "relatórios de crash. Caso isso falhe por algum motivo, os relatórios de "
 "falhas podem ser enviados por e-mail para o endereço configurado aqui."
 
-#: ../cmk/utils/tags.py:609
+#: ../cmk/utils/tags.py:615
 msgid ""
 "By default every host has the piggyback data source <b>Use piggyback data "
 "from other hosts if present</b>. In this case the <tt>Check_MK</tt> service "
@@ -10594,7 +10594,7 @@ msgstr "Não consegue avaliar a pesquisa"
 msgid "Can not start activation: %s"
 msgstr "Não pode iniciar a ativação: %s"
 
-#: ../cmk/utils/tags.py:530
+#: ../cmk/utils/tags.py:536
 msgid "Can not use an empty tag ID with a single choice."
 msgstr ""
 "Não pode usar uma identificação de etiqueta vazia com uma única escolha."
@@ -11861,7 +11861,7 @@ msgstr "Checkmk configurações de serviço do agente Windows"
 msgid "Checkmk agent"
 msgstr "agente Checkmk"
 
-#: ../cmk/utils/tags.py:579
+#: ../cmk/utils/tags.py:585
 msgid "Checkmk agent / API integrations"
 msgstr "Agentes Checkmk / integrações de API"
 
@@ -13693,11 +13693,11 @@ msgstr ""
 msgid "Configure your ServiceNow URL here (eg. https://myservicenow.com)."
 msgstr "Configure o seu ServiceNow URL aqui (ex. https://myservicenow.com)."
 
-#: ../cmk/gui/watolib/tags.py:555 ../cmk/utils/tags.py:589
+#: ../cmk/gui/watolib/tags.py:555 ../cmk/utils/tags.py:595
 msgid "Configured API integrations and Checkmk agent"
 msgstr "Integrações de API configuradas e agente Checkmk"
 
-#: ../cmk/gui/watolib/tags.py:551 ../cmk/utils/tags.py:594
+#: ../cmk/gui/watolib/tags.py:551 ../cmk/utils/tags.py:600
 msgid "Configured API integrations, no Checkmk agent"
 msgstr "Integrações de API configuradas, sem agente Checkmk"
 
@@ -13922,11 +13922,11 @@ msgstr "Clientes conectados"
 msgid "Connection"
 msgstr "Ligação"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:854
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:850
 msgid "Connection ID"
 msgstr "ID de conexão"
 
-#: ../cmk/gui/watolib/search.py:444
+#: ../cmk/gui/watolib/search.py:445
 #, python-brace-format
 msgid ""
 "Connection attempt {n_attempts} / {n_attempts_redis_connection} to Redis "
@@ -15157,17 +15157,17 @@ msgid "Create your own user related attributes"
 msgstr "Crie seus próprios atributos relacionados ao usuário"
 
 #: ../cmk/gui/key_mgmt.py:192 ../cmk/gui/cee/reporting.py:2493
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:979
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:975
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:902
 msgid "Created"
 msgstr "Criado em"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:947
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:943
 msgid "Created at"
 msgstr "Criado em"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:964
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:971
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:960
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:967
 msgid "Created by"
 msgstr "Criado por"
 
@@ -16020,7 +16020,7 @@ msgstr "Área crítica"
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:41
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:58
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:85
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:104
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:142
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:147
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:159
@@ -19148,7 +19148,7 @@ msgstr ""
 msgid "Deprecated choice, please re-select"
 msgstr "Escolha desvalorizada, favor selecionar novamente"
 
-#: ../cmk/gui/watolib/search.py:425 ../cmk/gui/watolib/rulespecs.py:1262
+#: ../cmk/gui/watolib/search.py:426 ../cmk/gui/watolib/rulespecs.py:1262
 msgid "Deprecated rulesets"
 msgstr "Conjuntos de regras depreciadas"
 
@@ -21788,8 +21788,8 @@ msgstr "Níveis dinâmicos - limite superior"
 msgid "DynamoDB"
 msgstr "DynamoDB"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:84
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:85
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:103
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:104
 msgid "E-Mails"
 msgstr "E-Mails"
 
@@ -23191,7 +23191,7 @@ msgstr "Aplicar os IDs de usuário em minúsculas."
 msgid "Enforce show more"
 msgstr "Força de execução mostra mais"
 
-#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:422
+#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:423
 #: ../cmk/gui/watolib/rulespecs.py:191
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1106
 msgid "Enforced services"
@@ -23400,7 +23400,7 @@ msgstr "Erro durante a sincronização"
 msgid "Error executing GIT command <tt>%s</tt>:<br><br>%s"
 msgstr "Erro ao executar o comando GIT <tt>%s</tt>:<br>>br>%s"
 
-#: ../cmk/gui/hooks.py:85
+#: ../cmk/gui/hooks.py:86
 msgid "Error executing hook"
 msgstr "Erro ao executar o gancho"
 
@@ -23585,7 +23585,7 @@ msgid "Event Console enabled"
 msgstr "Console de eventos ativado"
 
 #: ../cmk/gui/wato/mkeventd.py:1244 ../cmk/gui/wato/mkeventd.py:4478
-#: ../cmk/gui/watolib/search.py:418
+#: ../cmk/gui/watolib/search.py:419
 msgid "Event Console rule packages"
 msgstr "Pacotes de regras de consola de eventos"
 
@@ -23594,11 +23594,11 @@ msgid "Event Console rule packs"
 msgstr "Pacotes de regras do console de eventos"
 
 #: ../cmk/gui/wato/mkeventd.py:4110 ../cmk/gui/wato/mkeventd.py:4152
-#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:419
+#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:420
 msgid "Event Console rules"
 msgstr "Regras do Console de Eventos"
 
-#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:420
+#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:421
 msgid "Event Console settings"
 msgstr "Configurações do console de eventos"
 
@@ -24071,7 +24071,7 @@ msgstr "Executar manualmente"
 msgid "Execute plugins in general"
 msgstr "Executar plugins em geral"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:458
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:469
 msgid ""
 "Execute the network scan in the Check_MK user context of the choosen user. "
 "This user needs the permission to add new hosts to this folder."
@@ -24338,11 +24338,11 @@ msgstr "Explicito"
 msgid "Explicit %s mapping"
 msgstr "Mapeamento explícito de %s"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:526
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:522
 msgid "Explicit List of IP Addresses"
 msgstr "Lista explícita de endereços IP"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:70
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:89
 msgid "Explicit Queue Names"
 msgstr "Nomes explícitos das filas"
 
@@ -24623,7 +24623,7 @@ msgstr "Fahrenheit"
 #: ../cmk/gui/backup.py:479 ../cmk/gui/backup.py:915
 #: ../cmk/gui/wato/pages/ldap.py:344
 #: ../cmk/gui/watolib/activate_changes.py:1394
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:625
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:621
 msgid "Failed"
 msgstr "Falha"
 
@@ -25561,7 +25561,7 @@ msgid "Fingerprint: %s"
 msgstr "Impressão digital: %s"
 
 #: ../cmk/gui/backup.py:481 ../cmk/gui/backup.py:917 ../cmk/gui/backup.py:1040
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:593
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:589
 msgid "Finished"
 msgstr "Concluído"
 
@@ -25999,7 +25999,7 @@ msgstr ""
 "Para descarregar relatórios de utilização de licenças deve adicionar "
 "detalhes de subscrição."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:388
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:399
 msgid ""
 "For each folder an automatic network scan can be configured. It will try to "
 "detect new hosts in the configured IP ranges by sending pings to each IP "
@@ -26658,7 +26658,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/dashboard/event_bar_chart_dashlet.py:151
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:411 ../cmk/gui/valuespec.py:4108
 #: ../cmk/gui/valuespec.py:4119
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:509
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:505
 #: ../cmk/gui/plugins/userdb/user_attributes.py:75
 #: ../cmk/gui/plugins/visuals/filters.py:1418
 msgid "From:"
@@ -26991,7 +26991,7 @@ msgstr "Ambiente global"
 
 #: ../cmk/gui/wato/pages/global_settings.py:395
 #: ../cmk/gui/wato/pages/global_settings.py:568
-#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:423
+#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:424
 #: ../cmk/gui/plugins/wato/builtin_modules.py:120
 msgid "Global settings"
 msgstr "Configurações globais"
@@ -28615,7 +28615,7 @@ msgstr ""
 "Aqui você pode especificar uma descrição do serviço. Se este parâmetro não "
 "estiver definido, o serviço é nomeado <tt>TCP Port [NÚMERO DO PORTO]</tt>"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:200
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:199
 msgid ""
 "Here you can specify additional IPv4 addresses. These can be used in some "
 "active checks like ICMP."
@@ -28623,7 +28623,7 @@ msgstr ""
 "Aqui você pode especificar endereços IPv4 adicionais. Estes podem ser usados "
 "em algumas verificações ativas como ICMP."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:236
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:235
 msgid ""
 "Here you can specify additional IPv6 addresses. These can be used in some "
 "active checks like ICMP."
@@ -29936,7 +29936,7 @@ msgstr "Nomes de anfitriões a resolver"
 #: ../cmk/gui/wato/pages/folders.py:714 ../cmk/gui/wato/pages/folders.py:756
 #: ../cmk/gui/wato/pages/host_rename.py:120
 #: ../cmk/gui/wato/pages/host_rename.py:423
-#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:405
+#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:406
 #: ../cmk/gui/watolib/hosts_and_folders.py:3269 ../cmk/gui/views.py:1364
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:677
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:684
@@ -30579,7 +30579,7 @@ msgstr "Endereço IP do servidor Spectrum que recebe a armadilha SNMP"
 msgid "IP Addresses"
 msgstr "Endereços IP"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:514
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:510
 msgid "IP Network"
 msgstr "Rede IP"
 
@@ -30595,7 +30595,7 @@ msgstr "Prefixo IP"
 msgid "IP address"
 msgstr "endereço IP"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:891 ../cmk/utils/tags.py:657
+#: ../cmk/gui/plugins/wato/active_checks.py:891 ../cmk/utils/tags.py:663
 msgid "IP address family"
 msgstr "família de endereços IP"
 
@@ -30607,11 +30607,11 @@ msgstr "Endereço IP ou FQDN do servidor web da JVM"
 msgid "IP addresses"
 msgstr "endereços IP"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:409
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:420
 msgid "IP ranges to exclude"
 msgstr "Intervalos de IP a excluir"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:402
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:413
 msgid "IP ranges to scan"
 msgstr "Intervalos de IP a digitalizar"
 
@@ -30623,7 +30623,7 @@ msgstr "Endereço IP do ponto final do túnel"
 msgid "IP-Address or Name of Tunnel Endpoint"
 msgstr "Endereço IP ou Nome do Ponto Final do Túnel"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:506
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:502
 msgid "IP-Range"
 msgstr "Gama IP"
 
@@ -30639,7 +30639,7 @@ msgstr "IDs do semáforo IPC"
 msgid "IPC semaphores"
 msgstr "semáforos IPC"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:691
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:687
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4253
 msgid "IPMI"
 msgstr "IPMI"
@@ -30652,7 +30652,7 @@ msgstr "Conselho de Administração do IPMI"
 msgid "IPMI Sensors via Freeipmi or IPMItool"
 msgstr "Sensores IPMI via Freeipmi ou IPMItool"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:755
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:751
 #: ../cmk/gui/plugins/wato/utils/__init__.py:350
 msgid "IPMI credentials"
 msgstr "credenciais do IPMI"
@@ -30704,7 +30704,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/active_checks.py:2365
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4196
 #: ../cmk/gui/plugins/views/inventory.py:516
-#: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:689
+#: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:695
 msgid "IPv4"
 msgstr "IPv4"
 
@@ -30721,13 +30721,13 @@ msgstr "Sub-rede IPv4"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:45
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:92
 #: ../cmk/gui/valuespec.py:1192
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:113
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:112
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:576
 #: ../cmk/gui/plugins/views/painters.py:2505
 msgid "IPv4 address"
 msgstr "endereço IPv4"
 
-#: ../cmk/utils/tags.py:662
+#: ../cmk/utils/tags.py:668
 msgid "IPv4 only"
 msgstr "IPv4 apenas"
 
@@ -30735,18 +30735,18 @@ msgstr "IPv4 apenas"
 msgid "IPv4/IPv6 address"
 msgstr "Endereço IPv4/IPv6"
 
-#: ../cmk/utils/tags.py:672
+#: ../cmk/utils/tags.py:678
 msgid "IPv4/IPv6 dual-stack"
 msgstr "IPv4/IPv6 dual-stack"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2366
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4197
 #: ../cmk/gui/plugins/views/inventory.py:518
-#: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:695
+#: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:701
 msgid "IPv6"
 msgstr "IPv6"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:151
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:150
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:384
 msgid "IPv6 Address"
 msgstr "Endereço IPv6"
@@ -30769,7 +30769,7 @@ msgstr "Sub-rede IPv6"
 msgid "IPv6 address"
 msgstr "endereço IPv6"
 
-#: ../cmk/utils/tags.py:667
+#: ../cmk/utils/tags.py:673
 msgid "IPv6 only"
 msgstr "IPv6 apenas"
 
@@ -32724,7 +32724,7 @@ msgstr ""
 msgid "In case of an overflow..."
 msgstr "No caso de um transbordamento..."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:114
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:113
 msgid ""
 "In case the name of the host is not resolvable via <tt>/etc/hosts</tt> or "
 "DNS by your monitoring server, you can specify an explicit IP address or a "
@@ -32750,7 +32750,7 @@ msgstr ""
 "que o host for verificado. Check_MKs DNS cache NÃO será consultado. Use isto "
 "apenas para hosts com endereços IP dinâmicos."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:152
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:151
 msgid ""
 "In case the name of the host is not resolvable via <tt>/etc/hosts</tt> or "
 "DNS by your monitoring server, you can specify an explicit IPv6 address or a "
@@ -35322,7 +35322,7 @@ msgstr "Rótulo com cor de status"
 msgid "Labelling Options"
 msgstr "Opções de Rotulagem"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:990
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:986
 msgid "Labels"
 msgstr "Etiquetas"
 
@@ -35443,7 +35443,7 @@ msgstr "Último OK"
 msgid "Last Run"
 msgstr "Última corrida"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:632
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:628
 msgid "Last Scan Result"
 msgstr "Resultado da Última Varredura"
 
@@ -36512,7 +36512,7 @@ msgid "Limit the amount of data sent to the monitoring server"
 msgstr ""
 "Limitar a quantidade de dados enviados para o servidor de monitoramento"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:426
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:437
 msgid "Limit the execution of the scan to this time range."
 msgstr "Limite a execução da varredura a este intervalo de tempo."
 
@@ -36830,7 +36830,7 @@ msgstr ""
 "Lista de arquivos instalados, desembalados e opcionais abaixo de OMD_ROOT/"
 "local. Isto também inclui informações sobre os MKPs instalados."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:531
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:527
 msgid "List of patterns to exclude"
 msgstr "Lista de padrões a excluir"
 
@@ -37277,11 +37277,11 @@ msgstr "Tensões de bloqueio para TX PLL"
 msgid "Locked"
 msgstr "Fechado"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:903
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:899
 msgid "Locked attributes"
 msgstr "Atributos bloqueados"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:856
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:852
 msgid "Locked by"
 msgstr "Bloqueado por"
 
@@ -38114,7 +38114,7 @@ msgstr "Latência da base de dados MS Exchange (Windows)"
 msgid "MS Exchange Information Store"
 msgstr "MS Exchange Information Store"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:108
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:125
 msgid "MS Exchange Message Queues"
 msgstr "Filas de troca de mensagens MS"
 
@@ -38126,7 +38126,7 @@ msgstr "MS Exchange Acesso cliente RPC"
 msgid "MS Exchange counters (various)"
 msgstr "Balcões MS Exchange (vários)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:49
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:65
 msgid "MS Exchange message queues discovery"
 msgstr "Descoberta das filas de mensagens do MS Exchange"
 
@@ -39297,7 +39297,7 @@ msgstr "Níveis máximos de tensão"
 msgid "Maximum Levels for load in percent"
 msgstr "Níveis máximos de carga em percentagem"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:82
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:101
 msgid "Maximum Number of E-Mails in Queue"
 msgstr "Número máximo de E-Mails em Fila"
 
@@ -39486,7 +39486,7 @@ msgstr "Máximo de mensagens por intervalo de gravação"
 msgid "Maximum number of RPC requests per second"
 msgstr "Número máximo de pedidos RPC por segundo"
 
-#: ../cmk/gui/watolib/search.py:448
+#: ../cmk/gui/watolib/search.py:449
 msgid "Maximum number of allowed connection attempts reached, terminating"
 msgstr ""
 "Número máximo de tentativas de conexão permitidas atingidas, terminando"
@@ -40403,7 +40403,7 @@ msgstr "Linha Espelhada"
 msgid "Mirrored Stacked"
 msgstr "Empilhados Espelhados"
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:424
+#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:425
 msgid "Miscellaneous"
 msgstr "Diversos"
 
@@ -40850,11 +40850,11 @@ msgstr "Monitorar serviços indecisos"
 msgid "Monitor user quotas"
 msgstr "Monitorar quotas de usuários"
 
-#: ../cmk/utils/tags.py:705
+#: ../cmk/utils/tags.py:711
 msgid "Monitor via Checkmk Agent"
 msgstr "Monitor via Checkmk Agent"
 
-#: ../cmk/utils/tags.py:700
+#: ../cmk/utils/tags.py:706
 msgid "Monitor via SNMP"
 msgstr "Monitor via SNMP"
 
@@ -40871,7 +40871,7 @@ msgid "Monitored jobs"
 msgstr "Trabalhos supervisionados"
 
 #: ../cmk/gui/wato/pages/bulk_import.py:462
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:783
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:779
 msgid "Monitored on site"
 msgstr "Monitorado no local"
 
@@ -40903,9 +40903,9 @@ msgstr "URL de monitoramento"
 msgid "Monitoring agent"
 msgstr "Agente de monitoramento"
 
-#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:580
-#: ../cmk/utils/tags.py:607 ../cmk/utils/tags.py:640 ../cmk/utils/tags.py:699
-#: ../cmk/utils/tags.py:704 ../cmk/utils/tags.py:709
+#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:586
+#: ../cmk/utils/tags.py:613 ../cmk/utils/tags.py:646 ../cmk/utils/tags.py:705
+#: ../cmk/utils/tags.py:710 ../cmk/utils/tags.py:715
 msgid "Monitoring agents"
 msgstr "Agentes de monitorização"
 
@@ -41553,11 +41553,8 @@ msgstr "Nome do Canal"
 msgid "Name of Checkmk site of update server"
 msgstr "Nome do site Checkmk do servidor de atualização"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:38
-msgid "Name of Counter"
-msgstr "Nome do Contador"
-
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:147
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:52
 msgid "Name of Queue"
 msgstr "Nome da Fila de espera"
 
@@ -41659,10 +41656,6 @@ msgstr "Nome da Aplicação"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3328
 msgid "Name of the Buckets to monitor."
 msgstr "Nome dos baldes a monitorizar."
-
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:39
-msgid "Name of the Counter to be monitored."
-msgstr "Nome do Contador a ser monitorado."
 
 #: ../cmk/gui/plugins/wato/check_parameters/openhardwaremonitor_smart.py:25
 msgid "Name of the Hard Disk as reported by OHM: hdd0, hdd1, ..."
@@ -41991,7 +41984,7 @@ msgstr "Descoberta da unidade de fornecimento de energia Netapp"
 msgid "Netapp systemtime"
 msgstr "Netapp systemtime"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:519
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:515
 msgid "Netmask"
 msgstr "Máscara de rede"
 
@@ -42034,7 +42027,7 @@ msgid "Network Load balancers"
 msgstr "Equilibradores de carga de rede"
 
 #: ../cmk/gui/watolib/host_attributes.py:133
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:387
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:398
 msgid "Network Scan"
 msgstr "Varredura de rede"
 
@@ -42047,7 +42040,7 @@ msgstr "Topologia de rede"
 msgid "Network address"
 msgstr "Endereço da rede"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:517
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:513
 msgid "Network address:"
 msgstr "Endereço da rede:"
 
@@ -42159,7 +42152,7 @@ msgstr "Nunca fez login"
 msgid "Never remove files newer than"
 msgstr "Nunca remova arquivos mais novos do que"
 
-#: ../cmk/utils/tags.py:632
+#: ../cmk/utils/tags.py:638
 msgid "Never use piggyback data"
 msgstr "Nunca utilize dados piggyback"
 
@@ -42361,7 +42354,7 @@ msgstr "Não"
 msgid "No (Error: %s, Code: %d, Depth: %d)"
 msgstr "Não (Erro: %s, Código: %d, Profundidade: %d)"
 
-#: ../cmk/gui/watolib/tags.py:547 ../cmk/utils/tags.py:599
+#: ../cmk/gui/watolib/tags.py:547 ../cmk/utils/tags.py:605
 msgid "No API integrations, no Checkmk agent"
 msgstr "Sem integrações de API, sem agente Checkmk"
 
@@ -42378,11 +42371,11 @@ msgstr "Sem Contexto"
 msgid "No Forecast graph with the name <tt>%s</tt>"
 msgstr "Não Previsão gráfica com o nome <tt>%s</tt>"
 
-#: ../cmk/utils/tags.py:677
+#: ../cmk/utils/tags.py:683
 msgid "No IP"
 msgstr "Sem IP"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:404
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:415
 msgid "No IP range configured"
 msgstr "Sem intervalo de IP configurado"
 
@@ -42390,7 +42383,7 @@ msgstr "Sem intervalo de IP configurado"
 msgid "No Levels"
 msgstr "Sem Níveis"
 
-#: ../cmk/utils/tags.py:643
+#: ../cmk/utils/tags.py:649
 msgid "No SNMP"
 msgstr "Sem SNMP"
 
@@ -42521,11 +42514,11 @@ msgstr "Nenhuma entrada"
 msgid "No entries."
 msgstr "Nenhuma entrada."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:411
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:422
 msgid "No exclude range configured"
 msgstr "Sem intervalo de exclusão configurado"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:727
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:723
 #: ../cmk/gui/plugins/wato/utils/__init__.py:244
 msgid "No explicit credentials"
 msgstr "Sem credenciais explícitas"
@@ -42624,7 +42617,7 @@ msgid "No longer able to stop job. Background job just finished."
 msgstr ""
 "Já não consigo parar o trabalho. O trabalho de fundo acabou de terminar."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:689
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:685
 msgid "No management board"
 msgstr "Nenhum conselho de administração"
 
@@ -42717,15 +42710,15 @@ msgstr ""
 "Nenhum conjunto de regras <b>Estado em caso de erro de endereço restrito</b> "
 "está configurado"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:581
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:577
 msgid "No scan has been started yet."
 msgstr "Ainda não foi iniciada nenhuma varredura."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:597
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:593
 msgid "No scan has finished yet."
 msgstr "Nenhuma varredura foi concluída ainda."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:634
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:630
 msgid "No scan performed yet."
 msgstr "Ainda não foi feito nenhum scan."
 
@@ -43219,7 +43212,7 @@ msgstr "Não aplicável"
 msgid "Not authenticated"
 msgstr "Não autenticado"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:394
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:405
 msgid "Not configured."
 msgstr "Não configurado."
 
@@ -43235,8 +43228,8 @@ msgstr "Não ativado"
 msgid "Not executed in OMD environment!"
 msgstr "Não executado em ambiente OMD!"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:863
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:904
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:859
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:900
 msgid "Not locked"
 msgstr "Não bloqueado"
 
@@ -44838,8 +44831,8 @@ msgstr "Sequências fora de linha"
 msgid "Offline to spare ratio"
 msgstr "Relação off-line para reserva"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:44
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:90
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:57
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:109
 msgid "Offset"
 msgstr "Offset"
 
@@ -45209,7 +45202,7 @@ msgstr ""
 msgid "Only needed if you have multiple MySQL Instances on one server"
 msgstr "Só é necessário se você tiver várias Instâncias MySQL em um servidor"
 
-#: ../cmk/utils/tags.py:533
+#: ../cmk/utils/tags.py:539
 msgid "Only one tag may be empty."
 msgstr "Apenas uma etiqueta pode estar vazia."
 
@@ -45217,7 +45210,7 @@ msgstr "Apenas uma etiqueta pode estar vazia."
 msgid "Only percent"
 msgstr "Apenas por cento"
 
-#: ../cmk/utils/tags.py:710
+#: ../cmk/utils/tags.py:716
 msgid "Only ping this device"
 msgstr "Apenas pingar este dispositivo"
 
@@ -45790,7 +45783,7 @@ msgstr "Outra entidade"
 msgid "Other hosts"
 msgstr "Outros anfitriões"
 
-#: ../cmk/gui/watolib/search.py:407
+#: ../cmk/gui/watolib/search.py:408
 #: ../cmk/gui/plugins/wato/datasource_programs.py:212
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1406
 msgid "Other integrations"
@@ -45931,7 +45924,7 @@ msgstr "Tráfego de Saída Máximo"
 msgid "Outgoing Traffic Minimum"
 msgstr "Tráfego de Saída Mínimo"
 
-#: ../cmk/gui/backup.py:943 ../cmk/gui/plugins/wato/builtin_attributes.py:630
+#: ../cmk/gui/backup.py:943 ../cmk/gui/plugins/wato/builtin_attributes.py:626
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1811
 #: ../cmk/gui/plugins/metrics/fc.py:36 ../cmk/gui/plugins/views/bi.py:403
 #: ../cmk/gui/notifications.py:160
@@ -46586,7 +46579,7 @@ msgstr "Ligações paralelas"
 msgid "Parallel connections load"
 msgstr "Carga das ligações paralelas"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:448
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:459
 msgid "Parallel pings to send"
 msgstr "Pings paralelos para enviar"
 
@@ -46710,12 +46703,12 @@ msgid "Parent scan finished"
 msgstr "Pais scan terminado"
 
 #: ../cmk/gui/wato/pages/parentscan.py:225
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:298
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:297
 #: ../cmk/gui/plugins/views/painters.py:2919
 msgid "Parents"
 msgstr "Pais"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:299
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:298
 msgid ""
 "Parents are used to configure the reachability of hosts by the monitoring "
 "server. A host is considered to be <b>unreachable</b> if all of its parents "
@@ -47083,7 +47076,7 @@ msgstr ""
 "quando você tem uma instalação com mais de vários hosts. Não ative a opção "
 "\"check execution\" quando você tiver mais de ~10 hosts em um site."
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:51
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:67
 msgid ""
 "Per default the offsets of all Windows performance counters are "
 "preconfigured in the check. If the format of your counters object is not "
@@ -47786,7 +47779,7 @@ msgid "Piano Bar"
 msgstr "Piano Bar"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4742
-#: ../cmk/utils/tags.py:606
+#: ../cmk/utils/tags.py:612
 msgid "Piggyback"
 msgstr "Piggyback"
 
@@ -48383,7 +48376,7 @@ msgstr "Por favor, especifique um segredo de pelo menos 10 caracteres."
 msgid "Please specify a tag ID"
 msgstr "Por favor, especifique uma identificação da etiqueta"
 
-#: ../cmk/utils/tags.py:520
+#: ../cmk/utils/tags.py:526
 #, python-format
 msgid "Please specify a title for your tag group \"%s\"."
 msgstr "Por favor especifique um título para o seu grupo de etiquetas \"%s\"."
@@ -48397,7 +48390,7 @@ msgstr "Por favor, especifique um título."
 msgid "Please specify a value for %s"
 msgstr "Por favor especifique um valor para %s"
 
-#: ../cmk/utils/tags.py:500
+#: ../cmk/utils/tags.py:506
 msgid "Please specify an ID for your tag group."
 msgstr ""
 "Por favor, especifique uma identificação para o seu grupo de etiquetas."
@@ -48441,7 +48434,7 @@ msgstr ""
 "Por favor, especifique pelo menos um serviço regex. Desativar a opção se "
 "você quiser permitir todos os serviços."
 
-#: ../cmk/utils/tags.py:544
+#: ../cmk/utils/tags.py:550
 msgid "Please specify at least one tag."
 msgstr "Por favor, especifique pelo menos uma etiqueta."
 
@@ -49434,7 +49427,7 @@ msgstr "Perfil alterado (sincronização falhou: %s)"
 msgid "Profile requests"
 msgstr "Pedidos de perfil"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:853
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:849
 #: ../cmk/gui/plugins/views/painters.py:4316
 #: ../cmk/gui/plugins/visuals/filters.py:1595
 msgid "Program"
@@ -49544,7 +49537,7 @@ msgstr "Proporção de um hospedeiro saudável"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:46
 #: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:660
 #: ../cmk/gui/cee/ntop/pages.py:1408
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:686
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:682
 #: ../cmk/gui/plugins/wato/datasource_programs.py:113
 #: ../cmk/gui/plugins/wato/datasource_programs.py:700
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1354
@@ -49878,6 +49871,12 @@ msgstr "Gerente de fila estado"
 #: ../cmk/gui/plugins/wato/check_parameters/fortisandbox_queues.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_queues.py:121
 msgid "Queue name"
+msgstr "Nome da fila"
+
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:44
+#, fuzzy
+#| msgid "Queue name"
+msgid "Queue names"
 msgstr "Nome da fila"
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:66
@@ -52572,7 +52571,7 @@ msgid "Run agent multithreaded"
 msgstr "Agente de execução multi-tarefa"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:74
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:457
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:468
 msgid "Run as"
 msgstr "Funciona como"
 
@@ -52982,10 +52981,10 @@ msgstr "Porta TCP SMTP para ligação a"
 msgid "SMTP commands to execute."
 msgstr "Comandos SMTP a executar."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:690
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:686
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4252
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4733
-#: ../cmk/utils/tags.py:639
+#: ../cmk/utils/tags.py:645
 msgid "SNMP"
 msgstr "SNMP"
 
@@ -53083,11 +53082,11 @@ msgstr "SNMP processamento de armadilhas"
 msgid "SNMP traps not configured"
 msgstr "SNMP armadilhas não configuradas"
 
-#: ../cmk/utils/tags.py:651
+#: ../cmk/utils/tags.py:657
 msgid "SNMP v1"
 msgstr "SNMP v1"
 
-#: ../cmk/utils/tags.py:647
+#: ../cmk/utils/tags.py:653
 msgid "SNMP v2 or v3"
 msgstr "SNMP v2 ou v3"
 
@@ -53355,7 +53354,7 @@ msgstr "Escala à largura da página"
 msgid "Scan all hosts"
 msgstr "Verificar todos os anfitriões"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:416
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:427
 msgid "Scan interval"
 msgstr "Intervalo de varredura"
 
@@ -53640,19 +53639,19 @@ msgstr "Pesquisar na Configuração"
 msgid "Search in this folder"
 msgstr "Pesquisar nesta pasta"
 
-#: ../cmk/gui/watolib/search.py:502 ../cmk/gui/watolib/search.py:508
+#: ../cmk/gui/watolib/search.py:503 ../cmk/gui/watolib/search.py:509
 msgid "Search index"
 msgstr "Índice de pesquisa"
 
-#: ../cmk/gui/watolib/search.py:479
+#: ../cmk/gui/watolib/search.py:480
 msgid "Search index not found, re-building from scratch"
 msgstr "Índice de pesquisa não encontrado, reconstruindo a partir do zero"
 
-#: ../cmk/gui/watolib/search.py:452
+#: ../cmk/gui/watolib/search.py:453
 msgid "Search index successfully built"
 msgstr "Índice de pesquisa construído com sucesso"
 
-#: ../cmk/gui/watolib/search.py:484
+#: ../cmk/gui/watolib/search.py:485
 msgid "Search index successfully updated"
 msgstr "Índice de pesquisa actualizado com sucesso"
 
@@ -54662,7 +54661,7 @@ msgstr "Descrição dos serviços"
 msgid "Service discovery"
 msgstr "Descoberta de serviços"
 
-#: ../cmk/gui/watolib/search.py:409
+#: ../cmk/gui/watolib/search.py:410
 #: ../cmk/gui/plugins/wato/utils/__init__.py:736
 msgid "Service discovery rules"
 msgstr "Regras de descoberta de serviços"
@@ -54768,7 +54767,7 @@ msgstr "Nível de serviço"
 msgid "Service limits"
 msgstr "Limites de serviço"
 
-#: ../cmk/gui/watolib/search.py:408
+#: ../cmk/gui/watolib/search.py:409
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1036
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1048
 #: ../cmk/gui/plugins/wato/utils/__init__.py:718
@@ -55122,7 +55121,7 @@ msgstr "Tempo limite da sessão:"
 msgid "Session type"
 msgstr "Tipo de sessão"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:437
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:448
 msgid "Set IPv4 address"
 msgstr "Definir endereço IPv4"
 
@@ -55130,7 +55129,7 @@ msgstr "Definir endereço IPv4"
 #: ../cmk/gui/plugins/wato/check_parameters/msx_database.py:31
 #: ../cmk/gui/plugins/wato/check_parameters/msx_info_store.py:31
 #: ../cmk/gui/plugins/wato/check_parameters/msx_rpcclientaccess.py:24
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:78
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:97
 msgid "Set Levels"
 msgstr "Definir níveis"
 
@@ -55215,7 +55214,7 @@ msgstr "Condições definidas"
 msgid "Set connection timeout"
 msgstr "Definir o tempo limite de conexão"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:496
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:492
 msgid "Set criticality host tag"
 msgstr "Definir a etiqueta de criticidade do anfitrião"
 
@@ -55467,7 +55466,7 @@ msgstr "Definir o nível de registro para Windows Agent"
 msgid "Set the maximum and minimum length for the queue size"
 msgstr "Defina o comprimento máximo e mínimo para o tamanho da fila"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:449
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:460
 msgid "Set the maximum number of concurrent pings sent to target IP addresses."
 msgstr ""
 "Defina o número máximo de pings simultâneos enviados para os endereços IP de "
@@ -55697,7 +55696,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:2446 ../cmk/gui/wato/mkeventd.py:2626
 #: ../cmk/gui/wato/mkeventd.py:2790 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
-#: ../cmk/gui/watolib/search.py:404 ../cmk/gui/views.py:2856
+#: ../cmk/gui/watolib/search.py:405 ../cmk/gui/views.py:2856
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:205
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:328
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:783
@@ -57256,11 +57255,11 @@ msgstr ""
 "Algumas etiquetas que são usadas nas regras foram removidas por você. O que "
 "devemos fazer com essas regras?"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:968
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:964
 msgid "Someone before 1.6"
 msgstr "Alguém antes de 1.6"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:951
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:947
 msgid "Sometime before 1.6"
 msgstr "Algum tempo antes de 1,6"
 
@@ -57860,7 +57859,7 @@ msgstr "Especificar as condições de correspondência"
 msgid "Specify one, multiple or all sites this connection should run on."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:71
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:90
 msgid "Specify queue names that the rule should apply to"
 msgstr "Especificar os nomes das filas a que a regra se deve aplicar"
 
@@ -58017,11 +58016,11 @@ msgstr ""
 "</tt> corresponde a qualquer caractere em seq</li>>>tt>[!seq] </tt> "
 "corresponde a qualquer caractere não em seq</li></ul>"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:687
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:683
 msgid "Specify the protocol used to connect to the management board."
 msgstr "Especifique o protocolo utilizado para se ligar ao quadro de gestão."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:784
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:780
 msgid "Specify the site that should monitor this host."
 msgstr "Especifique o site que deve monitorar esse host."
 
@@ -58392,7 +58391,7 @@ msgstr "Horário de início"
 
 #: ../cmk/gui/backup.py:222 ../cmk/gui/watolib/activate_changes.py:1483
 #: ../cmk/gui/cee/plugins/wato/dcd.py:392
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:577
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:573
 #: ../cmk/gui/gui_background_job.py:364 ../cmk/gui/gui_background_job.py:505
 msgid "Started"
 msgstr "Iniciado em"
@@ -58467,7 +58466,7 @@ msgstr "Despesas gerais de arranque em piscina partilhada"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:204
 #: ../cmk/gui/cee/plugins/reporting/availability.py:124
 #: ../cmk/gui/cee/sla.py:1945 ../cmk/gui/cee/sla.py:1959
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:613
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:609
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:70
 #: ../cmk/gui/plugins/wato/check_parameters/emcvnx_disks.py:30
 #: ../cmk/gui/plugins/wato/check_parameters/emcvnx_disks.py:44
@@ -59855,7 +59854,7 @@ msgstr "Definições de subscrição"
 msgid "Substitution"
 msgstr "Substituição"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:621
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:617
 msgid "Succeeded"
 msgstr "Conseguido"
 
@@ -60702,7 +60701,7 @@ msgstr "Identificação do grupo de etiquetas"
 msgid "Tag groups"
 msgstr "Grupos de etiquetas"
 
-#: ../cmk/utils/tags.py:546
+#: ../cmk/utils/tags.py:552
 msgid "Tag groups with only one choice must have a tag ID."
 msgstr "Grupos de etiquetas com apenas uma opção devem ter um ID de etiqueta."
 
@@ -60727,12 +60726,12 @@ msgstr "Tag: %s"
 #: ../cmk/gui/plugins/wato/builtin_modules.py:83
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3857
 #: ../cmk/gui/plugins/wato/notifications.py:1197
-#: ../cmk/gui/plugins/views/sorters.py:187 ../cmk/utils/tags.py:340
-#: ../cmk/utils/tags.py:345 ../cmk/utils/tags.py:354 ../cmk/utils/tags.py:390
+#: ../cmk/gui/plugins/views/sorters.py:187 ../cmk/utils/tags.py:346
+#: ../cmk/utils/tags.py:351 ../cmk/utils/tags.py:360 ../cmk/utils/tags.py:396
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: ../cmk/utils/tags.py:541
+#: ../cmk/utils/tags.py:547
 #, python-format
 msgid "Tags IDs must be unique. You've used \"%s\" twice."
 msgstr ""
@@ -62599,7 +62598,7 @@ msgstr ""
 msgid "The configured site is not known to this site."
 msgstr "O site configurado não é conhecido por este site."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:785
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:781
 msgid ""
 "The configured site is not known to this site. In case you are configuring "
 "in a distributed slave, this may be a host monitored by another site. If you "
@@ -63378,7 +63377,7 @@ msgstr ""
 msgid "The host could not be found on any active site."
 msgstr "O anfitrião não pôde ser encontrado em nenhum site ativo."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:857
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:853
 msgid ""
 "The host is (partially) managed by an automatic data source like the Dynamic "
 "Configuration."
@@ -64433,9 +64432,12 @@ msgstr "A compensação em s em que um estado crítico é desencadeado."
 msgid "The offset in s at which a warning state is triggered."
 msgstr "O offset em s em que um estado de alerta é desencadeado."
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:45
-msgid "The offset of the information relative to counter base"
-msgstr "A compensação da informação relativa à base do contador"
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:59
+msgid ""
+"The offset of the information relative to counter base. You can get a "
+"detailed list of available counters in a windows shell with the command "
+"'lodctr /s:counters.txt'."
+msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/docsis_cm_status.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/docsis_channels_downstream.py:27
@@ -64492,7 +64494,7 @@ msgstr "O parâmetro \"%s\" não é um URL válido."
 msgid "The parameter \"%s\" is not an integer."
 msgstr "O parâmetro \"%s\" não é um número inteiro."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:345
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:344
 #, python-format
 msgid ""
 "The parent '%s' is monitored on site '%s' while the host itself is monitored "
@@ -65459,17 +65461,17 @@ msgstr ""
 msgid "The tag ID \"%s\" does already exist in the list of auxiliary tags."
 msgstr "O ID da etiqueta \"%s\" já existe na lista de etiquetas auxiliares."
 
-#: ../cmk/utils/tags.py:483
+#: ../cmk/utils/tags.py:489
 #, python-format
 msgid "The tag ID \"%s\" is used twice."
 msgstr "A etiqueta ID \"%s\" é usada duas vezes."
 
-#: ../cmk/utils/tags.py:505
+#: ../cmk/utils/tags.py:511
 #, python-format
 msgid "The tag group \"%s\" is reserved for internal use."
 msgstr "O grupo de etiquetas \"%s\" é reservado para uso interno."
 
-#: ../cmk/utils/tags.py:478
+#: ../cmk/utils/tags.py:484
 #, python-format
 msgid "The tag group ID \"%s\" is used twice."
 msgstr "O ID do grupo de etiquetas \"%s\" é usado duas vezes."
@@ -68054,6 +68056,13 @@ msgstr "Esta página com navegação"
 #: ../cmk/gui/page_menu.py:288
 msgid "This page without navigation"
 msgstr "Esta página sem navegação"
+
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:111
+msgid ""
+"This parameter should only be used for enforced services, otherwise it will "
+"be determined by the discovery rule <i>Microsoft Exchange Queues Discovery</"
+"i>."
+msgstr ""
 
 #: ../cmk/gui/wato/pages/password_store.py:83
 msgid ""
@@ -70668,7 +70677,7 @@ msgstr "Configurações de tempo para Fullscan"
 msgid "Time Settings for Signature"
 msgstr "Configurações de Tempo para Assinatura"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:425
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:436
 msgid "Time allowed"
 msgstr "Tempo permitido"
 
@@ -71290,7 +71299,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:412
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:433 ../cmk/gui/valuespec.py:4109
 #: ../cmk/gui/valuespec.py:4123
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:510
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:506
 #: ../cmk/gui/plugins/userdb/user_attributes.py:76
 #: ../cmk/gui/plugins/visuals/filters.py:1420
 msgid "To:"
@@ -72024,7 +72033,7 @@ msgstr "Transformação em métrica selecionada"
 msgid "Transformed the user tag group \"%s\" to builtin."
 msgstr "Transformou o grupo de tags do usuário \"%s\" para construir."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:464
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:475
 msgid "Translate Hostnames"
 msgstr "Traduzir Hostnames"
 
@@ -73248,7 +73257,7 @@ msgstr "Site desconhecido (%s)"
 msgid "Unknown tag %s"
 msgstr "Tag desconhecido %s"
 
-#: ../cmk/utils/tags.py:463
+#: ../cmk/utils/tags.py:469
 #, python-format
 msgid "Unknown tag group \"%s\""
 msgstr "Grupo de etiquetas desconhecido \"%s\"."
@@ -73496,7 +73505,7 @@ msgstr "As actualizações serão <b>disabled</b> para este anfitrião: %s"
 msgid "Updates will be enabled for this host."
 msgstr "As actualizações serão activadas para este anfitrião."
 
-#: ../cmk/gui/watolib/search.py:476
+#: ../cmk/gui/watolib/search.py:477
 msgid "Updating of search index started"
 msgstr "Atualização do índice de pesquisa iniciada"
 
@@ -74625,7 +74634,7 @@ msgstr "Usar outro nome de anfitrião"
 msgid "Use persistent connections"
 msgstr "Use conexões persistentes"
 
-#: ../cmk/utils/tags.py:622
+#: ../cmk/utils/tags.py:628
 msgid "Use piggyback data from other hosts if present"
 msgstr "Usar dados piggyback de outros hospedeiros, se presentes"
 
@@ -74889,16 +74898,6 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1254
 msgid "Use this metric for a forecast graph..."
 msgstr "Use esta métrica para um gráfico de previsão..."
-
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:92
-msgid ""
-"Use this only if you want to overwrite the postion of the information in the "
-"agent output. Also refer to the rule <i>Microsoft Exchange Queues Discovery</"
-"i> "
-msgstr ""
-"Usar isso somente se desejar sobregravar a posiç³o das informaç³es na saída "
-"do agente. Consultar também a regra <i>Microsoft Exchange Queues Discovery</"
-"i> "
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2606
 msgid ""
@@ -75565,7 +75564,7 @@ msgstr "Regra de notificação dos utilizadores"
 msgid "Using predefined condition"
 msgstr "Usando condição pré-definida"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:265
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:264
 #, python-format
 msgid ""
 "Using this option you can configure the community which should be used when "
@@ -75764,7 +75763,7 @@ msgstr "nome da VM"
 msgid "VM snapshot summary"
 msgstr "Resumo do VM snapshot"
 
-#: ../cmk/gui/watolib/search.py:406
+#: ../cmk/gui/watolib/search.py:407
 #: ../cmk/gui/plugins/wato/datasource_programs.py:197
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1371
 msgid "VM, Cloud, Container"
@@ -77464,7 +77463,7 @@ msgstr "Área de aviso"
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:40
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:50
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:57
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:84
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:103
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:141
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:146
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:158
@@ -79291,7 +79290,7 @@ msgstr ""
 "Se este site deve ou não ser iniciado durante a inicialização do servidor "
 "Check_MK."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:438
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:449
 msgid ""
 "Whether or not to configure the found IP address as the IPv4 address of the "
 "found hosts."
@@ -79353,7 +79352,7 @@ msgstr ""
 msgid "Will create child nodes representing the state of services."
 msgstr "Irá criar nós de criança representando o estado dos serviços."
 
-#: ../cmk/gui/watolib/search.py:450
+#: ../cmk/gui/watolib/search.py:451
 #, python-brace-format
 msgid "Will wait for {sleep_time} seconds and retry"
 msgstr "Vai esperar por {sleep_time} segundos e tentar novamente"
@@ -79500,7 +79499,7 @@ msgstr "Windows, Linux, Solaris, AIX"
 msgid "Windows, Linux, Solaris, AIX agents matching: %s"
 msgstr "Correspondência de agentes Windows, Linux, Solaris, AIX: %s"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:1000
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:996
 msgid ""
 "With the help of labels you can flexibly group your hosts in order to refer "
 "to them later at other places in Check_MK, e.g. in rule chains. A label "
@@ -81317,13 +81316,13 @@ msgstr "Você não pode usar o site em si como site do status de host."
 msgid "You cannot use weekday names (%s) in exceptions"
 msgstr "Não é possível usar nomes de dias da semana (%s) em exceções"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:334
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:333
 msgid "You configured the host to be it's own parent, which is not allowed."
 msgstr ""
 "Você configurou o anfitrião para ser o seu próprio pai, o que não é "
 "permitido."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:340
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:339
 #, python-format
 msgid "You defined the non-existing host '%s' as a parent."
 msgstr "Você definiu o hospedeiro inexistente '%s' como um pai."
@@ -85353,6 +85352,24 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. Todos os direitos reservados."
+
+#~ msgid "Name of Counter"
+#~ msgstr "Nome do Contador"
+
+#~ msgid "Name of the Counter to be monitored."
+#~ msgstr "Nome do Contador a ser monitorado."
+
+#~ msgid "The offset of the information relative to counter base"
+#~ msgstr "A compensação da informação relativa à base do contador"
+
+#~ msgid ""
+#~ "Use this only if you want to overwrite the postion of the information in "
+#~ "the agent output. Also refer to the rule <i>Microsoft Exchange Queues "
+#~ "Discovery</i> "
+#~ msgstr ""
+#~ "Usar isso somente se desejar sobregravar a posiç³o das informaç³es na "
+#~ "saída do agente. Consultar também a regra <i>Microsoft Exchange Queues "
+#~ "Discovery</i> "
 
 #~ msgid "Problems (all)"
 #~ msgstr "Problemas (todos)"

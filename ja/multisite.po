@@ -2298,7 +2298,7 @@ msgstr ""
 msgid "A combination of the instance, database and (logical) file name."
 msgstr "インスタンス、データベース、および(論理)ファイル名の組み合わせ。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:87
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:86
 msgid "A comment or description of this host"
 msgstr "このホストのコメントまたは説明"
 
@@ -2454,7 +2454,7 @@ msgstr ""
 "合計、使用済み、および無料のネットワークインターフェイスに関する統計を含むす"
 "べてのホストのリスト"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:535
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:531
 msgid ""
 "A list of regular expressions which are matched against the found IP "
 "addresses to exclude them. The matched addresses are excluded."
@@ -2861,7 +2861,7 @@ msgstr ""
 "合APIキーを使用できます。"
 
 #: ../cmk/gui/watolib/tags.py:559 ../cmk/gui/watolib/tags.py:565
-#: ../cmk/utils/tags.py:584
+#: ../cmk/utils/tags.py:590
 msgid "API integrations if configured, else Checkmk agent"
 msgstr ""
 
@@ -3935,7 +3935,7 @@ msgstr "条件を追加"
 msgid "Add Contact Group"
 msgstr "連絡先グループを追加"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:55
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:71
 msgid "Add Counter"
 msgstr "カウンターを追加"
 
@@ -4227,8 +4227,8 @@ msgstr "新しいCA証明書またはチェーンを追加します"
 msgid "Add new Graphite / InfluxDB connection"
 msgstr "新しいGraphite / InfluxDB接続を追加します"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:403
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:410
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:414
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:421
 msgid "Add new IP range"
 msgstr "新しいIP範囲を追加する"
 
@@ -4581,7 +4581,7 @@ msgstr "%d ランダムホストを追加しました。"
 msgid "Added CA with fingerprint %s to trusted certificate authorities"
 msgstr "信頼できる認証局にフィンガープリント %s のCAを追加しました"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:497
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:493
 msgid ""
 "Added hosts will be created as \"offline\" host by default. You can change "
 "this option to activate monitoring of new hosts after next activation of the "
@@ -4614,11 +4614,11 @@ msgstr "追加: %s"
 msgid "Additional Host Names"
 msgstr "追加のホスト名"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:199
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:198
 msgid "Additional IPv4 addresses"
 msgstr "追加のIPv4アドレス"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:235
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:234
 msgid "Additional IPv6 addresses"
 msgstr "追加のIPv6アドレス"
 
@@ -4658,18 +4658,18 @@ msgstr "外れ値の追加ルール"
 msgid "Additive: Effects of seasonality are added to the trend."
 msgstr "添加:季節性の影響がトレンドに追加されます。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:658
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:654
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1823
 #: ../cmk/gui/plugins/wato/active_checks.py:2184
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:278
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:341
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:528
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:913
-#: ../cmk/utils/tags.py:688 ../cmk/utils/tags.py:694
+#: ../cmk/utils/tags.py:694 ../cmk/utils/tags.py:700
 msgid "Address"
 msgstr "アドレス"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:659
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:655
 msgid ""
 "Address (IPv4 or IPv6) or dns name under which the management board can be "
 "reached. If this is not set, the same address as that of the host will be "
@@ -5577,7 +5577,7 @@ msgstr "アルゴリズム"
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:292
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:356
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:378
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:84
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:83
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:2197
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:941
 #: ../cmk/gui/plugins/views/painters.py:2465
@@ -6327,7 +6327,7 @@ msgstr "常にすべての行を表示する"
 msgid "Always show the checkboxes"
 msgstr "チェックボックスを常に表示する"
 
-#: ../cmk/utils/tags.py:627
+#: ../cmk/utils/tags.py:633
 msgid "Always use and expect piggyback data"
 msgstr "常にピギーバックデータを使用し、期待する"
 
@@ -8403,7 +8403,7 @@ msgid "Bank (30 day) month"
 msgstr "銀行(30日)月"
 
 #: ../cmk/gui/wato/mkeventd.py:567 ../cmk/gui/plugins/metrics/unit.py:262
-#: ../cmk/utils/tags.py:690
+#: ../cmk/utils/tags.py:696
 msgid "Bar"
 msgstr "バー"
 
@@ -8896,7 +8896,7 @@ msgstr ""
 msgid "Build duration"
 msgstr "ビルド期間"
 
-#: ../cmk/gui/watolib/search.py:436
+#: ../cmk/gui/watolib/search.py:437
 msgid "Building of search index started"
 msgstr "検索インデックスの構築を開始"
 
@@ -9350,7 +9350,7 @@ msgstr ""
 "す。これが何らかの理由で失敗した場合、クラッシュレポートはここで設定されたア"
 "ドレスにメールで送信できます。"
 
-#: ../cmk/utils/tags.py:609
+#: ../cmk/utils/tags.py:615
 msgid ""
 "By default every host has the piggyback data source <b>Use piggyback data "
 "from other hosts if present</b>. In this case the <tt>Check_MK</tt> service "
@@ -10255,7 +10255,7 @@ msgstr "検索を評価できません"
 msgid "Can not start activation: %s"
 msgstr "アクティベーションを開始できません: %s"
 
-#: ../cmk/utils/tags.py:530
+#: ../cmk/utils/tags.py:536
 msgid "Can not use an empty tag ID with a single choice."
 msgstr "単一の選択肢で空のタグIDを使用することはできません。"
 
@@ -11493,7 +11493,7 @@ msgstr "Checkmk Windowsエージェントサービス設定"
 msgid "Checkmk agent"
 msgstr "Checkmkエージェント"
 
-#: ../cmk/utils/tags.py:579
+#: ../cmk/utils/tags.py:585
 msgid "Checkmk agent / API integrations"
 msgstr ""
 
@@ -13252,11 +13252,11 @@ msgstr ""
 msgid "Configure your ServiceNow URL here (eg. https://myservicenow.com)."
 msgstr "ここでServiceNow URLを構成します(例 https://myservicenow.com)。"
 
-#: ../cmk/gui/watolib/tags.py:555 ../cmk/utils/tags.py:589
+#: ../cmk/gui/watolib/tags.py:555 ../cmk/utils/tags.py:595
 msgid "Configured API integrations and Checkmk agent"
 msgstr ""
 
-#: ../cmk/gui/watolib/tags.py:551 ../cmk/utils/tags.py:594
+#: ../cmk/gui/watolib/tags.py:551 ../cmk/utils/tags.py:600
 msgid "Configured API integrations, no Checkmk agent"
 msgstr ""
 
@@ -13469,11 +13469,11 @@ msgstr ""
 msgid "Connection"
 msgstr "接続"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:854
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:850
 msgid "Connection ID"
 msgstr "接続ID"
 
-#: ../cmk/gui/watolib/search.py:444
+#: ../cmk/gui/watolib/search.py:445
 #, python-brace-format
 msgid ""
 "Connection attempt {n_attempts} / {n_attempts_redis_connection} to Redis "
@@ -14684,17 +14684,17 @@ msgid "Create your own user related attributes"
 msgstr "独自のユーザー関連属性を作成する"
 
 #: ../cmk/gui/key_mgmt.py:192 ../cmk/gui/cee/reporting.py:2493
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:979
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:975
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:902
 msgid "Created"
 msgstr "作成した"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:947
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:943
 msgid "Created at"
 msgstr "作成"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:964
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:971
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:960
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:967
 msgid "Created by"
 msgstr "によって作成された"
 
@@ -15541,7 +15541,7 @@ msgstr "重要な領域"
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:41
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:58
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:85
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:104
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:142
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:147
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:159
@@ -18632,7 +18632,7 @@ msgstr ""
 msgid "Deprecated choice, please re-select"
 msgstr "非推奨の選択、再選択してください"
 
-#: ../cmk/gui/watolib/search.py:425 ../cmk/gui/watolib/rulespecs.py:1262
+#: ../cmk/gui/watolib/search.py:426 ../cmk/gui/watolib/rulespecs.py:1262
 msgid "Deprecated rulesets"
 msgstr "非推奨のルールセット"
 
@@ -21232,8 +21232,8 @@ msgstr "動的レベル - 上限"
 msgid "DynamoDB"
 msgstr "DynamoDB"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:84
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:85
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:103
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:104
 msgid "E-Mails"
 msgstr "Eメール"
 
@@ -22621,7 +22621,7 @@ msgstr "小文字のユーザーIDを適用します。"
 msgid "Enforce show more"
 msgstr "もっと表示を強制する"
 
-#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:422
+#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:423
 #: ../cmk/gui/watolib/rulespecs.py:191
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1106
 msgid "Enforced services"
@@ -22821,7 +22821,7 @@ msgstr "同期中のエラー"
 msgid "Error executing GIT command <tt>%s</tt>:<br><br>%s"
 msgstr "GITコマンドの実行中にエラー<tt>%s </ tt>:<br> <br>%s"
 
-#: ../cmk/gui/hooks.py:85
+#: ../cmk/gui/hooks.py:86
 msgid "Error executing hook"
 msgstr "フックの実行中にエラーが発生しました"
 
@@ -23006,7 +23006,7 @@ msgid "Event Console enabled"
 msgstr "イベントコンソールが有効"
 
 #: ../cmk/gui/wato/mkeventd.py:1244 ../cmk/gui/wato/mkeventd.py:4478
-#: ../cmk/gui/watolib/search.py:418
+#: ../cmk/gui/watolib/search.py:419
 msgid "Event Console rule packages"
 msgstr "イベントコンソールルールパッケージ"
 
@@ -23015,11 +23015,11 @@ msgid "Event Console rule packs"
 msgstr "イベントコンソールルールパック"
 
 #: ../cmk/gui/wato/mkeventd.py:4110 ../cmk/gui/wato/mkeventd.py:4152
-#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:419
+#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:420
 msgid "Event Console rules"
 msgstr "イベントコンソールのルール"
 
-#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:420
+#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:421
 msgid "Event Console settings"
 msgstr "イベントコンソールの設定"
 
@@ -23490,7 +23490,7 @@ msgstr "手動で実行する"
 msgid "Execute plugins in general"
 msgstr "一般的にプラグインを実行します"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:458
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:469
 msgid ""
 "Execute the network scan in the Check_MK user context of the choosen user. "
 "This user needs the permission to add new hosts to this folder."
@@ -23756,11 +23756,11 @@ msgstr "明示的"
 msgid "Explicit %s mapping"
 msgstr "明示的な%sマッピング"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:526
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:522
 msgid "Explicit List of IP Addresses"
 msgstr "IPアドレスの明示的なリスト"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:70
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:89
 msgid "Explicit Queue Names"
 msgstr "明示的なキュー名"
 
@@ -24039,7 +24039,7 @@ msgstr "華氏"
 #: ../cmk/gui/backup.py:479 ../cmk/gui/backup.py:915
 #: ../cmk/gui/wato/pages/ldap.py:344
 #: ../cmk/gui/watolib/activate_changes.py:1394
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:625
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:621
 msgid "Failed"
 msgstr "失敗しました"
 
@@ -24965,7 +24965,7 @@ msgid "Fingerprint: %s"
 msgstr "フィンガープリント: %s"
 
 #: ../cmk/gui/backup.py:481 ../cmk/gui/backup.py:917 ../cmk/gui/backup.py:1040
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:593
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:589
 msgid "Finished"
 msgstr "終了しました"
 
@@ -25394,7 +25394,7 @@ msgstr ""
 "ライセンス使用状況レポートをダウンロードするには、サブスクリプションの詳細を"
 "追加する必要があります。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:388
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:399
 msgid ""
 "For each folder an automatic network scan can be configured. It will try to "
 "detect new hosts in the configured IP ranges by sending pings to each IP "
@@ -26021,7 +26021,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/dashboard/event_bar_chart_dashlet.py:151
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:411 ../cmk/gui/valuespec.py:4108
 #: ../cmk/gui/valuespec.py:4119
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:509
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:505
 #: ../cmk/gui/plugins/userdb/user_attributes.py:75
 #: ../cmk/gui/plugins/visuals/filters.py:1418
 msgid "From:"
@@ -26349,7 +26349,7 @@ msgstr "グローバル設定"
 
 #: ../cmk/gui/wato/pages/global_settings.py:395
 #: ../cmk/gui/wato/pages/global_settings.py:568
-#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:423
+#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:424
 #: ../cmk/gui/plugins/wato/builtin_modules.py:120
 msgid "Global settings"
 msgstr "全体設定"
@@ -27888,7 +27888,7 @@ msgstr ""
 "ここで、サービスの説明を指定できます。このパラメータが設定されていない場合、"
 "サービスの名前は<tt>TCP Port [PORT NUMBER]</tt>になります。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:200
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:199
 msgid ""
 "Here you can specify additional IPv4 addresses. These can be used in some "
 "active checks like ICMP."
@@ -27896,7 +27896,7 @@ msgstr ""
 "ここで、追加のIPv4アドレスを指定できます。これらは、ICMPなどの一部のアクティ"
 "ブチェックで使用できます。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:236
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:235
 msgid ""
 "Here you can specify additional IPv6 addresses. These can be used in some "
 "active checks like ICMP."
@@ -29174,7 +29174,7 @@ msgstr "解決するホスト名"
 #: ../cmk/gui/wato/pages/folders.py:714 ../cmk/gui/wato/pages/folders.py:756
 #: ../cmk/gui/wato/pages/host_rename.py:120
 #: ../cmk/gui/wato/pages/host_rename.py:423
-#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:405
+#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:406
 #: ../cmk/gui/watolib/hosts_and_folders.py:3269 ../cmk/gui/views.py:1364
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:677
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:684
@@ -29805,7 +29805,7 @@ msgstr "SNMPトラップを受信するSpectrumサーバーのIPアドレス"
 msgid "IP Addresses"
 msgstr "IPアドレス"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:514
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:510
 msgid "IP Network"
 msgstr "IPネットワーク"
 
@@ -29821,7 +29821,7 @@ msgstr "IPプレフィックス"
 msgid "IP address"
 msgstr "IPアドレス"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:891 ../cmk/utils/tags.py:657
+#: ../cmk/gui/plugins/wato/active_checks.py:891 ../cmk/utils/tags.py:663
 msgid "IP address family"
 msgstr "IPアドレスファミリ"
 
@@ -29833,11 +29833,11 @@ msgstr "JVM WebサーバーのIPアドレスまたはFQDN"
 msgid "IP addresses"
 msgstr "IPアドレス"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:409
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:420
 msgid "IP ranges to exclude"
 msgstr "除外するIP範囲"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:402
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:413
 msgid "IP ranges to scan"
 msgstr "スキャンするIP範囲"
 
@@ -29849,7 +29849,7 @@ msgstr "トンネルエンドポイントのIPアドレス"
 msgid "IP-Address or Name of Tunnel Endpoint"
 msgstr "トンネルエンドポイントのIPアドレスまたは名前"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:506
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:502
 msgid "IP-Range"
 msgstr "IP範囲"
 
@@ -29865,7 +29865,7 @@ msgstr "IPCセマフォID"
 msgid "IPC semaphores"
 msgstr "IPCセマフォ"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:691
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:687
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4253
 msgid "IPMI"
 msgstr "IPMI"
@@ -29878,7 +29878,7 @@ msgstr "IPMIマネージメントボード"
 msgid "IPMI Sensors via Freeipmi or IPMItool"
 msgstr "FreeipmiまたはIPMItoolを介したIPMIセンサー"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:755
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:751
 #: ../cmk/gui/plugins/wato/utils/__init__.py:350
 msgid "IPMI credentials"
 msgstr "IPMI資格情報"
@@ -29927,7 +29927,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/active_checks.py:2365
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4196
 #: ../cmk/gui/plugins/views/inventory.py:516
-#: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:689
+#: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:695
 msgid "IPv4"
 msgstr "IPv4"
 
@@ -29944,13 +29944,13 @@ msgstr "IPv4サブネット"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:45
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:92
 #: ../cmk/gui/valuespec.py:1192
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:113
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:112
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:576
 #: ../cmk/gui/plugins/views/painters.py:2505
 msgid "IPv4 address"
 msgstr "IPv4アドレス"
 
-#: ../cmk/utils/tags.py:662
+#: ../cmk/utils/tags.py:668
 msgid "IPv4 only"
 msgstr "IPv4のみ"
 
@@ -29958,18 +29958,18 @@ msgstr "IPv4のみ"
 msgid "IPv4/IPv6 address"
 msgstr "IPv4 / IPv6アドレス"
 
-#: ../cmk/utils/tags.py:672
+#: ../cmk/utils/tags.py:678
 msgid "IPv4/IPv6 dual-stack"
 msgstr "IPv4/IPv6デュアルスタック"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2366
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4197
 #: ../cmk/gui/plugins/views/inventory.py:518
-#: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:695
+#: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:701
 msgid "IPv6"
 msgstr "IPv6"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:151
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:150
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:384
 msgid "IPv6 Address"
 msgstr "IPv6アドレス"
@@ -29992,7 +29992,7 @@ msgstr "IPv6サブネット"
 msgid "IPv6 address"
 msgstr "IPv6アドレス"
 
-#: ../cmk/utils/tags.py:667
+#: ../cmk/utils/tags.py:673
 msgid "IPv6 only"
 msgstr "IPv6のみ"
 
@@ -31790,7 +31790,7 @@ msgstr ""
 msgid "In case of an overflow..."
 msgstr "オーバーフローの場合..."
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:114
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:113
 msgid ""
 "In case the name of the host is not resolvable via <tt>/etc/hosts</tt> or "
 "DNS by your monitoring server, you can specify an explicit IP address or a "
@@ -31815,7 +31815,7 @@ msgstr ""
 "Check_MKsDNSキャッシュは照会されません。これは、動的IPアドレスを持つホストに"
 "のみ使用してください。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:152
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:151
 msgid ""
 "In case the name of the host is not resolvable via <tt>/etc/hosts</tt> or "
 "DNS by your monitoring server, you can specify an explicit IPv6 address or a "
@@ -34297,7 +34297,7 @@ msgstr "ステータスカラーのラベル"
 msgid "Labelling Options"
 msgstr "ラベル付けオプション"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:990
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:986
 msgid "Labels"
 msgstr "ラベル"
 
@@ -34418,7 +34418,7 @@ msgstr "最後にOK"
 msgid "Last Run"
 msgstr "前回の実行"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:632
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:628
 msgid "Last Scan Result"
 msgstr "最終スキャン結果"
 
@@ -35470,7 +35470,7 @@ msgstr "監視サーバーに送信されるコンテキストデータの量を
 msgid "Limit the amount of data sent to the monitoring server"
 msgstr "監視サーバーに送信されるデータの量を制限する"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:426
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:437
 msgid "Limit the execution of the scan to this time range."
 msgstr "スキャンの実行をこの時間範囲に制限します。"
 
@@ -35778,7 +35778,7 @@ msgid ""
 "includes information about installed MKPs."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:531
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:527
 msgid "List of patterns to exclude"
 msgstr "除外するパターンのリスト"
 
@@ -36215,11 +36215,11 @@ msgstr "TXPLLのロック電圧"
 msgid "Locked"
 msgstr "ロックされた"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:903
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:899
 msgid "Locked attributes"
 msgstr "ロックされた属性"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:856
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:852
 msgid "Locked by"
 msgstr "によってロックされています"
 
@@ -37039,7 +37039,7 @@ msgstr "MS Exchangeデータベースの待ち時間時間(Windows)"
 msgid "MS Exchange Information Store"
 msgstr "MS Exchange インフォメーションストア"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:108
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:125
 msgid "MS Exchange Message Queues"
 msgstr "MS Exchangeメッセージキュー"
 
@@ -37051,7 +37051,7 @@ msgstr "MS Exchange RPC クライアントアクセス"
 msgid "MS Exchange counters (various)"
 msgstr "MS Exchangeカウンター(さまざまな)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:49
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:65
 msgid "MS Exchange message queues discovery"
 msgstr "MS Exchangeメッセージキューの検出"
 
@@ -38201,7 +38201,7 @@ msgstr "電圧の最大レベル"
 msgid "Maximum Levels for load in percent"
 msgstr "負荷の最大レベル(パーセント)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:82
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:101
 msgid "Maximum Number of E-Mails in Queue"
 msgstr "キュー内の電子メールの最大数"
 
@@ -38389,7 +38389,7 @@ msgstr "保存間隔あたりの最大メッセージ数"
 msgid "Maximum number of RPC requests per second"
 msgstr "1秒あたりのRPCリクエストの最大数"
 
-#: ../cmk/gui/watolib/search.py:448
+#: ../cmk/gui/watolib/search.py:449
 msgid "Maximum number of allowed connection attempts reached, terminating"
 msgstr "許可された接続試行の最大数に達し、終了します"
 
@@ -39291,7 +39291,7 @@ msgstr "ミラーライン"
 msgid "Mirrored Stacked"
 msgstr "ミラーリングスタック"
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:424
+#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:425
 msgid "Miscellaneous"
 msgstr "その他"
 
@@ -39735,11 +39735,11 @@ msgstr "未決定のサービスを監視する"
 msgid "Monitor user quotas"
 msgstr "ユーザークォータを監視する"
 
-#: ../cmk/utils/tags.py:705
+#: ../cmk/utils/tags.py:711
 msgid "Monitor via Checkmk Agent"
 msgstr "Checkmkエージェントを介して監視する"
 
-#: ../cmk/utils/tags.py:700
+#: ../cmk/utils/tags.py:706
 msgid "Monitor via SNMP"
 msgstr "SNMP経由で監視する"
 
@@ -39756,7 +39756,7 @@ msgid "Monitored jobs"
 msgstr "監視対象のジョブ"
 
 #: ../cmk/gui/wato/pages/bulk_import.py:462
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:783
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:779
 msgid "Monitored on site"
 msgstr "サイトで監視"
 
@@ -39788,9 +39788,9 @@ msgstr "監視URL"
 msgid "Monitoring agent"
 msgstr "監視エージェント"
 
-#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:580
-#: ../cmk/utils/tags.py:607 ../cmk/utils/tags.py:640 ../cmk/utils/tags.py:699
-#: ../cmk/utils/tags.py:704 ../cmk/utils/tags.py:709
+#: ../cmk/gui/watolib/host_attributes.py:103 ../cmk/utils/tags.py:586
+#: ../cmk/utils/tags.py:613 ../cmk/utils/tags.py:646 ../cmk/utils/tags.py:705
+#: ../cmk/utils/tags.py:710 ../cmk/utils/tags.py:715
 msgid "Monitoring agents"
 msgstr ""
 
@@ -40435,11 +40435,8 @@ msgstr "チャンネル名"
 msgid "Name of Checkmk site of update server"
 msgstr "更新サーバーのCheckmkサイトの名前"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:38
-msgid "Name of Counter"
-msgstr "カウンター名"
-
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:147
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:52
 msgid "Name of Queue"
 msgstr "キューの名前"
 
@@ -40541,10 +40538,6 @@ msgstr "アプリケーションの名前"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3328
 msgid "Name of the Buckets to monitor."
 msgstr "監視するバケットの名前。"
-
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:39
-msgid "Name of the Counter to be monitored."
-msgstr "監視するカウンターの名前。"
 
 #: ../cmk/gui/plugins/wato/check_parameters/openhardwaremonitor_smart.py:25
 msgid "Name of the Hard Disk as reported by OHM: hdd0, hdd1, ..."
@@ -40871,7 +40864,7 @@ msgstr "Netapp電源ユニットの発見"
 msgid "Netapp systemtime"
 msgstr "Netappシステムタイム"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:519
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:515
 msgid "Netmask"
 msgstr "ネットマスク"
 
@@ -40914,7 +40907,7 @@ msgid "Network Load balancers"
 msgstr "ネットワークロードバランサー"
 
 #: ../cmk/gui/watolib/host_attributes.py:133
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:387
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:398
 msgid "Network Scan"
 msgstr "ネットワークスキャン"
 
@@ -40927,7 +40920,7 @@ msgstr "ネットワークトポロジー"
 msgid "Network address"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:517
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:513
 msgid "Network address:"
 msgstr "ネットワークアドレス:"
 
@@ -41037,7 +41030,7 @@ msgstr "ログインしたことはありません"
 msgid "Never remove files newer than"
 msgstr "それより新しいファイルは絶対に削除しないでください"
 
-#: ../cmk/utils/tags.py:632
+#: ../cmk/utils/tags.py:638
 msgid "Never use piggyback data"
 msgstr "ピギーバックデータは絶対に使用しないでください"
 
@@ -41238,7 +41231,7 @@ msgstr "No"
 msgid "No (Error: %s, Code: %d, Depth: %d)"
 msgstr "いいえ(エラー: %s、コード: %d、深さ: %d)"
 
-#: ../cmk/gui/watolib/tags.py:547 ../cmk/utils/tags.py:599
+#: ../cmk/gui/watolib/tags.py:547 ../cmk/utils/tags.py:605
 msgid "No API integrations, no Checkmk agent"
 msgstr ""
 
@@ -41255,11 +41248,11 @@ msgstr "コンテキストなし"
 msgid "No Forecast graph with the name <tt>%s</tt>"
 msgstr "<tt>%s </tt>という名前の予測グラフはありません"
 
-#: ../cmk/utils/tags.py:677
+#: ../cmk/utils/tags.py:683
 msgid "No IP"
 msgstr "IPなし"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:404
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:415
 msgid "No IP range configured"
 msgstr "IP範囲が構成されていません"
 
@@ -41267,7 +41260,7 @@ msgstr "IP範囲が構成されていません"
 msgid "No Levels"
 msgstr "レベルなし"
 
-#: ../cmk/utils/tags.py:643
+#: ../cmk/utils/tags.py:649
 msgid "No SNMP"
 msgstr "SNMPなし"
 
@@ -41395,11 +41388,11 @@ msgstr "エントリなし"
 msgid "No entries."
 msgstr "エントリはありません。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:411
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:422
 msgid "No exclude range configured"
 msgstr "除外範囲が構成されていません"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:727
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:723
 #: ../cmk/gui/plugins/wato/utils/__init__.py:244
 msgid "No explicit credentials"
 msgstr "明示的な資格情報はありません"
@@ -41497,7 +41490,7 @@ msgid "No longer able to stop job. Background job just finished."
 msgstr ""
 "仕事を止めることができなくなりました。バックグラウンドジョブが終了しました。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:689
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:685
 msgid "No management board"
 msgstr "マネージメントボードなし"
 
@@ -41590,15 +41583,15 @@ msgstr ""
 "ルールセット<b>アドレスの不一致が制限されている場合の状態</b>は構成されていま"
 "せん"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:581
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:577
 msgid "No scan has been started yet."
 msgstr "スキャンはまだ開始されていません。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:597
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:593
 msgid "No scan has finished yet."
 msgstr "スキャンはまだ終了していません"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:634
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:630
 msgid "No scan performed yet."
 msgstr "スキャンはまだ実行されていません。"
 
@@ -42072,7 +42065,7 @@ msgstr "適用できません"
 msgid "Not authenticated"
 msgstr "認証されていません"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:394
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:405
 msgid "Not configured."
 msgstr "構成されていません。"
 
@@ -42088,8 +42081,8 @@ msgstr "有効になっていません"
 msgid "Not executed in OMD environment!"
 msgstr "OMD環境では実行されません！"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:863
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:904
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:859
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:900
 msgid "Not locked"
 msgstr "ロックされていません"
 
@@ -43669,8 +43662,8 @@ msgstr "オフラインシーケンスアウト"
 msgid "Offline to spare ratio"
 msgstr "オフラインとスペアの比率"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:44
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:90
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:57
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:109
 msgid "Offset"
 msgstr "オフセット"
 
@@ -44022,7 +44015,7 @@ msgstr ""
 msgid "Only needed if you have multiple MySQL Instances on one server"
 msgstr "1つのサーバーに複数のMySQLインスタンスがある場合にのみ必要"
 
-#: ../cmk/utils/tags.py:533
+#: ../cmk/utils/tags.py:539
 msgid "Only one tag may be empty."
 msgstr "空にすることができるタグは1つだけです。"
 
@@ -44030,7 +44023,7 @@ msgstr "空にすることができるタグは1つだけです。"
 msgid "Only percent"
 msgstr "パーセントのみ"
 
-#: ../cmk/utils/tags.py:710
+#: ../cmk/utils/tags.py:716
 msgid "Only ping this device"
 msgstr "このデバイスにのみpingを実行します"
 
@@ -44591,7 +44584,7 @@ msgstr "その他のエンティティ"
 msgid "Other hosts"
 msgstr "他のホスト"
 
-#: ../cmk/gui/watolib/search.py:407
+#: ../cmk/gui/watolib/search.py:408
 #: ../cmk/gui/plugins/wato/datasource_programs.py:212
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1406
 msgid "Other integrations"
@@ -44724,7 +44717,7 @@ msgstr "発信トラフィックの最大値"
 msgid "Outgoing Traffic Minimum"
 msgstr "発信トラフィックの最小値"
 
-#: ../cmk/gui/backup.py:943 ../cmk/gui/plugins/wato/builtin_attributes.py:630
+#: ../cmk/gui/backup.py:943 ../cmk/gui/plugins/wato/builtin_attributes.py:626
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1811
 #: ../cmk/gui/plugins/metrics/fc.py:36 ../cmk/gui/plugins/views/bi.py:403
 #: ../cmk/gui/notifications.py:160
@@ -45370,7 +45363,7 @@ msgstr "並列接続"
 msgid "Parallel connections load"
 msgstr "並列接続の負荷"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:448
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:459
 msgid "Parallel pings to send"
 msgstr "送信する並列ping"
 
@@ -45492,12 +45485,12 @@ msgid "Parent scan finished"
 msgstr "親スキャンが終了しました"
 
 #: ../cmk/gui/wato/pages/parentscan.py:225
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:298
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:297
 #: ../cmk/gui/plugins/views/painters.py:2919
 msgid "Parents"
 msgstr "親"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:299
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:298
 msgid ""
 "Parents are used to configure the reachability of hosts by the monitoring "
 "server. A host is considered to be <b>unreachable</b> if all of its parents "
@@ -45848,7 +45841,7 @@ msgid ""
 "\"check execution\" option when you have more than ~10 hosts in a site."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:51
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:67
 msgid ""
 "Per default the offsets of all Windows performance counters are "
 "preconfigured in the check. If the format of your counters object is not "
@@ -46543,7 +46536,7 @@ msgid "Piano Bar"
 msgstr "ピアノバー"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4742
-#: ../cmk/utils/tags.py:606
+#: ../cmk/utils/tags.py:612
 msgid "Piggyback"
 msgstr "ピギーバック"
 
@@ -47094,7 +47087,7 @@ msgstr "10文字以上のシークレットを指定してください。"
 msgid "Please specify a tag ID"
 msgstr "タグIDを指定してください"
 
-#: ../cmk/utils/tags.py:520
+#: ../cmk/utils/tags.py:526
 #, python-format
 msgid "Please specify a title for your tag group \"%s\"."
 msgstr "タググループ \"%s\"のタイトルを指定してください。"
@@ -47108,7 +47101,7 @@ msgstr "タイトルを指定してください。"
 msgid "Please specify a value for %s"
 msgstr "%s の値を指定してください"
 
-#: ../cmk/utils/tags.py:500
+#: ../cmk/utils/tags.py:506
 msgid "Please specify an ID for your tag group."
 msgstr "タググループのIDを指定してください"
 
@@ -47148,7 +47141,7 @@ msgid ""
 "allow all services."
 msgstr ""
 
-#: ../cmk/utils/tags.py:544
+#: ../cmk/utils/tags.py:550
 msgid "Please specify at least one tag."
 msgstr "少なくとも1つのタグを指定してください。"
 
@@ -48130,7 +48123,7 @@ msgstr "プロファイルが変更されました(同期に失敗しました %
 msgid "Profile requests"
 msgstr "プロファイルリクエスト"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:853
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:849
 #: ../cmk/gui/plugins/views/painters.py:4316
 #: ../cmk/gui/plugins/visuals/filters.py:1595
 msgid "Program"
@@ -48240,7 +48233,7 @@ msgstr "ヘルシーなホストの割合"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:46
 #: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:660
 #: ../cmk/gui/cee/ntop/pages.py:1408
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:686
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:682
 #: ../cmk/gui/plugins/wato/datasource_programs.py:113
 #: ../cmk/gui/plugins/wato/datasource_programs.py:700
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1354
@@ -48571,6 +48564,12 @@ msgstr "キューマネージャーの状態"
 #: ../cmk/gui/plugins/wato/check_parameters/fortisandbox_queues.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_queues.py:121
 msgid "Queue name"
+msgstr "キュー名"
+
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:44
+#, fuzzy
+#| msgid "Queue name"
+msgid "Queue names"
 msgstr "キュー名"
 
 #: ../cmk/gui/plugins/metrics/ibm_mq.py:66
@@ -51211,7 +51210,7 @@ msgid "Run agent multithreaded"
 msgstr "エージェントをマルチスレッドで実行する"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:74
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:457
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:468
 msgid "Run as"
 msgstr "として実行"
 
@@ -51623,10 +51622,10 @@ msgstr "接続するSMTP TCPポート"
 msgid "SMTP commands to execute."
 msgstr "実行するSMTPコマンド。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:690
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:686
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4252
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4733
-#: ../cmk/utils/tags.py:639
+#: ../cmk/utils/tags.py:645
 msgid "SNMP"
 msgstr "SNMP"
 
@@ -51724,11 +51723,11 @@ msgstr "SNMPトラップ処理"
 msgid "SNMP traps not configured"
 msgstr "SNMPトラップが設定されていません"
 
-#: ../cmk/utils/tags.py:651
+#: ../cmk/utils/tags.py:657
 msgid "SNMP v1"
 msgstr "SNMP v1"
 
-#: ../cmk/utils/tags.py:647
+#: ../cmk/utils/tags.py:653
 msgid "SNMP v2 or v3"
 msgstr "SNMPv2またはv3"
 
@@ -51996,7 +51995,7 @@ msgstr "ページの幅に合わせて拡大縮小"
 msgid "Scan all hosts"
 msgstr "すべてのホストをスキャンします"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:416
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:427
 msgid "Scan interval"
 msgstr "スキャン間隔"
 
@@ -52265,19 +52264,19 @@ msgstr "セットアップで検索"
 msgid "Search in this folder"
 msgstr "このフォルダで検索"
 
-#: ../cmk/gui/watolib/search.py:502 ../cmk/gui/watolib/search.py:508
+#: ../cmk/gui/watolib/search.py:503 ../cmk/gui/watolib/search.py:509
 msgid "Search index"
 msgstr "検索インデックス"
 
-#: ../cmk/gui/watolib/search.py:479
+#: ../cmk/gui/watolib/search.py:480
 msgid "Search index not found, re-building from scratch"
 msgstr "検索インデックスが見つかりません、最初から再構築します"
 
-#: ../cmk/gui/watolib/search.py:452
+#: ../cmk/gui/watolib/search.py:453
 msgid "Search index successfully built"
 msgstr "検索インデックスが正常に構築されました"
 
-#: ../cmk/gui/watolib/search.py:484
+#: ../cmk/gui/watolib/search.py:485
 msgid "Search index successfully updated"
 msgstr "検索インデックスが正常に更新されました"
 
@@ -53266,7 +53265,7 @@ msgstr "サービスの説明"
 msgid "Service discovery"
 msgstr "サービスディスカバリ"
 
-#: ../cmk/gui/watolib/search.py:409
+#: ../cmk/gui/watolib/search.py:410
 #: ../cmk/gui/plugins/wato/utils/__init__.py:736
 msgid "Service discovery rules"
 msgstr "サービス検出ルール"
@@ -53369,7 +53368,7 @@ msgstr "サービスレベル"
 msgid "Service limits"
 msgstr "サービス制限"
 
-#: ../cmk/gui/watolib/search.py:408
+#: ../cmk/gui/watolib/search.py:409
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1036
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1048
 #: ../cmk/gui/plugins/wato/utils/__init__.py:718
@@ -53717,7 +53716,7 @@ msgstr "セッションタイムアウト:"
 msgid "Session type"
 msgstr "セッションタイプ"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:437
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:448
 msgid "Set IPv4 address"
 msgstr "IPv4アドレスを設定する"
 
@@ -53725,7 +53724,7 @@ msgstr "IPv4アドレスを設定する"
 #: ../cmk/gui/plugins/wato/check_parameters/msx_database.py:31
 #: ../cmk/gui/plugins/wato/check_parameters/msx_info_store.py:31
 #: ../cmk/gui/plugins/wato/check_parameters/msx_rpcclientaccess.py:24
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:78
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:97
 msgid "Set Levels"
 msgstr "レベルを設定する"
 
@@ -53810,7 +53809,7 @@ msgstr "条件を設定する"
 msgid "Set connection timeout"
 msgstr "接続タイムアウトを設定する"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:496
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:492
 msgid "Set criticality host tag"
 msgstr "重要度のホストタグを設定する"
 
@@ -54050,7 +54049,7 @@ msgstr "Windowsエージェントのログレベルを設定します"
 msgid "Set the maximum and minimum length for the queue size"
 msgstr "キューサイズの最大長と最小長を設定します"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:449
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:460
 msgid "Set the maximum number of concurrent pings sent to target IP addresses."
 msgstr ""
 
@@ -54253,7 +54252,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:2446 ../cmk/gui/wato/mkeventd.py:2626
 #: ../cmk/gui/wato/mkeventd.py:2790 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
-#: ../cmk/gui/watolib/search.py:404 ../cmk/gui/views.py:2856
+#: ../cmk/gui/watolib/search.py:405 ../cmk/gui/views.py:2856
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:205
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:328
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:783
@@ -55765,11 +55764,11 @@ msgid ""
 "with that rules?"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:968
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:964
 msgid "Someone before 1.6"
 msgstr "1.6より前の誰か"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:951
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:947
 msgid "Sometime before 1.6"
 msgstr "1.6より前のいつか"
 
@@ -56343,7 +56342,7 @@ msgstr "一致条件を指定する"
 msgid "Specify one, multiple or all sites this connection should run on."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:71
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:90
 msgid "Specify queue names that the rule should apply to"
 msgstr "ルールを適用するキュー名を指定します"
 
@@ -56487,11 +56486,11 @@ msgstr ""
 "li><li><tt>[seq]  </tt>はseq内の任意の文字に一致します</li><li><tt>[!seq] </"
 "tt>は任意の文字に一致しますシーケンスにない文字</li></ul>"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:687
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:683
 msgid "Specify the protocol used to connect to the management board."
 msgstr "管理ボードへの接続に使用するプロトコルを指定します。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:784
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:780
 msgid "Specify the site that should monitor this host."
 msgstr "このホストを監視するサイトを指定します。"
 
@@ -56845,7 +56844,7 @@ msgstr "始まる時間"
 
 #: ../cmk/gui/backup.py:222 ../cmk/gui/watolib/activate_changes.py:1483
 #: ../cmk/gui/cee/plugins/wato/dcd.py:392
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:577
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:573
 #: ../cmk/gui/gui_background_job.py:364 ../cmk/gui/gui_background_job.py:505
 msgid "Started"
 msgstr "開始"
@@ -56920,7 +56919,7 @@ msgstr "共有プールの起動オーバーヘッド"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:204
 #: ../cmk/gui/cee/plugins/reporting/availability.py:124
 #: ../cmk/gui/cee/sla.py:1945 ../cmk/gui/cee/sla.py:1959
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:613
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:609
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:70
 #: ../cmk/gui/plugins/wato/check_parameters/emcvnx_disks.py:30
 #: ../cmk/gui/plugins/wato/check_parameters/emcvnx_disks.py:44
@@ -58292,7 +58291,7 @@ msgstr "サブスクリプション設定"
 msgid "Substitution"
 msgstr "置換"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:621
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:617
 msgid "Succeeded"
 msgstr "成功"
 
@@ -59131,7 +59130,7 @@ msgstr "タググループID"
 msgid "Tag groups"
 msgstr "タググループ"
 
-#: ../cmk/utils/tags.py:546
+#: ../cmk/utils/tags.py:552
 msgid "Tag groups with only one choice must have a tag ID."
 msgstr ""
 
@@ -59156,12 +59155,12 @@ msgstr "タグ: %s"
 #: ../cmk/gui/plugins/wato/builtin_modules.py:83
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3857
 #: ../cmk/gui/plugins/wato/notifications.py:1197
-#: ../cmk/gui/plugins/views/sorters.py:187 ../cmk/utils/tags.py:340
-#: ../cmk/utils/tags.py:345 ../cmk/utils/tags.py:354 ../cmk/utils/tags.py:390
+#: ../cmk/gui/plugins/views/sorters.py:187 ../cmk/utils/tags.py:346
+#: ../cmk/utils/tags.py:351 ../cmk/utils/tags.py:360 ../cmk/utils/tags.py:396
 msgid "Tags"
 msgstr "タグ"
 
-#: ../cmk/utils/tags.py:541
+#: ../cmk/utils/tags.py:547
 #, python-format
 msgid "Tags IDs must be unique. You've used \"%s\" twice."
 msgstr "タグIDは一意である必要があります。\"%s\"を2回使用しました。"
@@ -60875,7 +60874,7 @@ msgstr ""
 msgid "The configured site is not known to this site."
 msgstr "構成されたサイトはこのサイトに認識されていません。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:785
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:781
 msgid ""
 "The configured site is not known to this site. In case you are configuring "
 "in a distributed slave, this may be a host monitored by another site. If you "
@@ -61591,7 +61590,7 @@ msgstr ""
 msgid "The host could not be found on any active site."
 msgstr "ホストがアクティブなサイトで見つかりませんでした。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:857
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:853
 msgid ""
 "The host is (partially) managed by an automatic data source like the Dynamic "
 "Configuration."
@@ -62568,9 +62567,12 @@ msgstr "クリティカル状態がトリガーされる秒単位のオフセッ
 msgid "The offset in s at which a warning state is triggered."
 msgstr "警告状態がトリガーされる秒単位のオフセット"
 
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:45
-msgid "The offset of the information relative to counter base"
-msgstr "カウンターベースに対する情報のオフセット"
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:59
+msgid ""
+"The offset of the information relative to counter base. You can get a "
+"detailed list of available counters in a windows shell with the command "
+"'lodctr /s:counters.txt'."
+msgstr ""
 
 #: ../cmk/gui/plugins/wato/check_parameters/docsis_cm_status.py:51
 #: ../cmk/gui/plugins/wato/check_parameters/docsis_channels_downstream.py:27
@@ -62623,7 +62625,7 @@ msgstr "パラメータ \"%s\" は有効なURLではありません"
 msgid "The parameter \"%s\" is not an integer."
 msgstr "パラメータ \"%s\" は整数ではありません"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:345
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:344
 #, python-format
 msgid ""
 "The parent '%s' is monitored on site '%s' while the host itself is monitored "
@@ -63506,17 +63508,17 @@ msgstr "タグ '%s' が複数回選択されています。タグは1回だけ�
 msgid "The tag ID \"%s\" does already exist in the list of auxiliary tags."
 msgstr "タグID \"%s\" は、補助タグのリストにすでに存在します。"
 
-#: ../cmk/utils/tags.py:483
+#: ../cmk/utils/tags.py:489
 #, python-format
 msgid "The tag ID \"%s\" is used twice."
 msgstr "タグID \"%s\" は2回使用されています。"
 
-#: ../cmk/utils/tags.py:505
+#: ../cmk/utils/tags.py:511
 #, python-format
 msgid "The tag group \"%s\" is reserved for internal use."
 msgstr "タググループ \"%s\" は内部使用のために予約されています。"
 
-#: ../cmk/utils/tags.py:478
+#: ../cmk/utils/tags.py:484
 #, python-format
 msgid "The tag group ID \"%s\" is used twice."
 msgstr "タググループID \"%s\"は2回使用されています。"
@@ -65896,6 +65898,13 @@ msgstr "ナビゲーションつきのこのページ"
 msgid "This page without navigation"
 msgstr "ナビゲーションなしのこのページ"
 
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:111
+msgid ""
+"This parameter should only be used for enforced services, otherwise it will "
+"be determined by the discovery rule <i>Microsoft Exchange Queues Discovery</"
+"i>."
+msgstr ""
+
 #: ../cmk/gui/wato/pages/password_store.py:83
 msgid ""
 "This password management module stores the passwords you use in your checks "
@@ -68257,7 +68266,7 @@ msgstr "フルスキャンの時間設定"
 msgid "Time Settings for Signature"
 msgstr "署名の時間設定"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:425
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:436
 msgid "Time allowed"
 msgstr "許可された時間"
 
@@ -68860,7 +68869,7 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:412
 #: ../cmk/gui/cee/plugins/metrics/forecasts.py:433 ../cmk/gui/valuespec.py:4109
 #: ../cmk/gui/valuespec.py:4123
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:510
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:506
 #: ../cmk/gui/plugins/userdb/user_attributes.py:76
 #: ../cmk/gui/plugins/visuals/filters.py:1420
 msgid "To:"
@@ -69591,7 +69600,7 @@ msgstr "選択したメトリックの変換"
 msgid "Transformed the user tag group \"%s\" to builtin."
 msgstr "ユーザータググループ\"%s\"をビルトインに変換しました"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:464
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:475
 msgid "Translate Hostnames"
 msgstr "ホスト名を翻訳する"
 
@@ -70797,7 +70806,7 @@ msgstr "不明なサイト(%s)"
 msgid "Unknown tag %s"
 msgstr "不明なタグ %s"
 
-#: ../cmk/utils/tags.py:463
+#: ../cmk/utils/tags.py:469
 #, python-format
 msgid "Unknown tag group \"%s\""
 msgstr "不明なタググループ \"%s\""
@@ -71044,7 +71053,7 @@ msgstr "このホストの更新は<b>無効</b>になります:%s"
 msgid "Updates will be enabled for this host."
 msgstr "このホストの更新が有効になります"
 
-#: ../cmk/gui/watolib/search.py:476
+#: ../cmk/gui/watolib/search.py:477
 msgid "Updating of search index started"
 msgstr "検索インデックスの更新を開始しました"
 
@@ -72156,7 +72165,7 @@ msgstr "他のホスト名を使用する"
 msgid "Use persistent connections"
 msgstr "持続的接続を使用する"
 
-#: ../cmk/utils/tags.py:622
+#: ../cmk/utils/tags.py:628
 msgid "Use piggyback data from other hosts if present"
 msgstr "存在する場合は、他のホストからのピギーバックデータを使用します"
 
@@ -72414,15 +72423,6 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:1254
 msgid "Use this metric for a forecast graph..."
 msgstr "このメトリックを予測グラフに使用します..."
-
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:92
-msgid ""
-"Use this only if you want to overwrite the postion of the information in the "
-"agent output. Also refer to the rule <i>Microsoft Exchange Queues Discovery</"
-"i> "
-msgstr ""
-"これは、エージェント出力の情報の位置を上書きする場合にのみ使用してください。"
-"ルール<i>Microsoft Exchange Queues Discovery</i>も参照してください。 "
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2606
 msgid ""
@@ -73050,7 +73050,7 @@ msgstr "ユーザーの通知ルール"
 msgid "Using predefined condition"
 msgstr "事前定義された条件の使用"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:265
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:264
 #, python-format
 msgid ""
 "Using this option you can configure the community which should be used when "
@@ -73229,7 +73229,7 @@ msgstr "VM名"
 msgid "VM snapshot summary"
 msgstr "VMスナップショットの概要"
 
-#: ../cmk/gui/watolib/search.py:406
+#: ../cmk/gui/watolib/search.py:407
 #: ../cmk/gui/plugins/wato/datasource_programs.py:197
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1371
 msgid "VM, Cloud, Container"
@@ -74921,7 +74921,7 @@ msgstr "警告エリア"
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:40
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:50
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_file_sizes.py:57
-#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:84
+#: ../cmk/gui/plugins/wato/check_parameters/msx_queues.py:103
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:141
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:146
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:158
@@ -76600,7 +76600,7 @@ msgid ""
 "server."
 msgstr "Check_MKサーバーの起動時にこのサイトを起動するかどうか。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:438
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:449
 msgid ""
 "Whether or not to configure the found IP address as the IPv4 address of the "
 "found hosts."
@@ -76657,7 +76657,7 @@ msgstr ""
 msgid "Will create child nodes representing the state of services."
 msgstr ""
 
-#: ../cmk/gui/watolib/search.py:450
+#: ../cmk/gui/watolib/search.py:451
 #, python-brace-format
 msgid "Will wait for {sleep_time} seconds and retry"
 msgstr "{sleep_time} 秒待ってから再試行します"
@@ -76804,7 +76804,7 @@ msgstr "Windows、Linux、Solaris、AIX"
 msgid "Windows, Linux, Solaris, AIX agents matching: %s"
 msgstr "一致するWindows、Linux、Solaris、AIXエージェント: %s"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:1000
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:996
 msgid ""
 "With the help of labels you can flexibly group your hosts in order to refer "
 "to them later at other places in Check_MK, e.g. in rule chains. A label "
@@ -78462,12 +78462,12 @@ msgstr "サイト自体をステータスホストのサイトとして使用す
 msgid "You cannot use weekday names (%s) in exceptions"
 msgstr "例外で平日の名前 (%s) を使用することはできません"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:334
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:333
 msgid "You configured the host to be it's own parent, which is not allowed."
 msgstr ""
 "ホストをそれ自身の親になるように構成しましたが、これは許可されていません。"
 
-#: ../cmk/gui/plugins/wato/builtin_attributes.py:340
+#: ../cmk/gui/plugins/wato/builtin_attributes.py:339
 #, python-format
 msgid "You defined the non-existing host '%s' as a parent."
 msgstr "存在しないホスト '%s'を親として定義しました。"
@@ -82433,3 +82433,20 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. All Rights Reserved."
+
+#~ msgid "Name of Counter"
+#~ msgstr "カウンター名"
+
+#~ msgid "Name of the Counter to be monitored."
+#~ msgstr "監視するカウンターの名前。"
+
+#~ msgid "The offset of the information relative to counter base"
+#~ msgstr "カウンターベースに対する情報のオフセット"
+
+#~ msgid ""
+#~ "Use this only if you want to overwrite the postion of the information in "
+#~ "the agent output. Also refer to the rule <i>Microsoft Exchange Queues "
+#~ "Discovery</i> "
+#~ msgstr ""
+#~ "これは、エージェント出力の情報の位置を上書きする場合にのみ使用してくださ"
+#~ "い。ルール<i>Microsoft Exchange Queues Discovery</i>も参照してください。 "
