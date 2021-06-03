@@ -924,7 +924,7 @@ msgstr "%sRound trip minimo"
 msgid "%sRound trip standard devation"
 msgstr "%sDeviazione standard del viaggio di andata e ritorno"
 
-#: ../cmk/gui/mobile.py:208
+#: ../cmk/gui/mobile.py:196
 msgid ""
 "&copy; <a target=\"_blank\" href=\"https://checkmk.com\">tribe29 GmbH</a>"
 msgstr ""
@@ -1091,7 +1091,7 @@ msgstr "(non supportato)"
 msgid "(nothing selected)"
 msgstr "(niente di selezionato)"
 
-#: ../cmk/gui/plugins/views/commands.py:984
+#: ../cmk/gui/plugins/views/commands.py:986
 msgid "(only works with the microcore)"
 msgstr "(funziona solo con il microcore)"
 
@@ -1511,32 +1511,32 @@ msgstr ""
 "corrispondente. Altrimenti potrebbero verificarsi collisioni di nome se i "
 "contenitori con lo stesso nome sono presenti su più di un nodo docker."
 
-#: ../cmk/gui/plugins/views/commands.py:1291
+#: ../cmk/gui/plugins/views/commands.py:1293
 #, python-format
 msgid "<b>%%s of %s length</b>"
 msgstr "<b>%%s di %s di lunghezza</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1142
+#: ../cmk/gui/plugins/views/commands.py:1144
 #, python-format
 msgid "<b>%s for the next %d minutes</b>"
 msgstr "<b>%s per i prossimi %d minuti</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1282
+#: ../cmk/gui/plugins/views/commands.py:1284
 #, python-format
 msgid "<b>%s until 24:00:00</b>"
 msgstr "<b>%s fino alle 24:00:00</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1284
+#: ../cmk/gui/plugins/views/commands.py:1286
 #, python-format
 msgid "<b>%s until end of month</b>"
 msgstr "<b>%s fino alla fine del mese</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1285
+#: ../cmk/gui/plugins/views/commands.py:1287
 #, python-format
 msgid "<b>%s until end of year</b>"
 msgstr "<b>%s fino alla fine dell'anno</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1283
+#: ../cmk/gui/plugins/views/commands.py:1285
 #, python-format
 msgid "<b>%s until sunday night</b>"
 msgstr "<b>%s fino a domenica sera</b>"
@@ -1687,7 +1687,7 @@ msgstr "<b>conoscere i problemi%s</b> di"
 msgid "<b>add a comment to</b>"
 msgstr "<b>aggiungere un commento a</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1460
+#: ../cmk/gui/plugins/views/commands.py:1462
 msgid "<b>add to you favorites</b>"
 msgstr "<b>aggiungere ai preferiti</b>"
 
@@ -1732,15 +1732,15 @@ msgstr "<b>impostare manualmente i risultati del controllo su %s</b> per"
 msgid "<b>remove acknowledgements</b> from"
 msgstr "<b>rimuovere i riconoscimenti</b> da"
 
-#: ../cmk/gui/plugins/views/commands.py:1051
+#: ../cmk/gui/plugins/views/commands.py:1053
 msgid "<b>remove all scheduled downtimes</b> of "
 msgstr "<b>rimuovi tutti i tempi di inattività programmati</b> di "
 
-#: ../cmk/gui/plugins/views/commands.py:1462
+#: ../cmk/gui/plugins/views/commands.py:1464
 msgid "<b>remove from your favorites</b>"
 msgstr "<b>rimuovi dai tuoi preferiti</b>"
 
-#: ../cmk/gui/plugins/views/commands.py:1145
+#: ../cmk/gui/plugins/views/commands.py:1147
 #, python-format
 msgid "<b>schedule a downtime from %s to %s</b>"
 msgstr "<b>programmare un tempo di inattività da %s a %s</b>"
@@ -4650,7 +4650,7 @@ msgstr "Aggiungi a"
 msgid "Add to %s"
 msgstr "Aggiungi a %s"
 
-#: ../cmk/gui/plugins/views/commands.py:1452
+#: ../cmk/gui/plugins/views/commands.py:1454
 msgid "Add to Favorites"
 msgstr "Aggiungi ai preferiti"
 
@@ -4897,7 +4897,7 @@ msgstr "Commento ad hoc"
 msgid "Adhoc downtime"
 msgstr "Tempo di inattività adhoc"
 
-#: ../cmk/gui/plugins/views/commands.py:947
+#: ../cmk/gui/plugins/views/commands.py:949
 #, python-format
 msgid "Adhoc for %d minutes"
 msgstr "Adhoc per %d minuti"
@@ -6446,7 +6446,7 @@ msgstr "Contatta anche l'agente Checkmk"
 msgid "Also search in subfolders"
 msgstr "Cerca anche nelle sottocartelle"
 
-#: ../cmk/gui/plugins/views/commands.py:967
+#: ../cmk/gui/plugins/views/commands.py:969
 msgid "Also set downtime on child hosts"
 msgstr "Impostare anche il tempo di inattività sugli host figli"
 
@@ -11849,7 +11849,7 @@ msgstr "Logo Checkmk"
 msgid "Checkmk Micro Core"
 msgstr "Checkmk Micro Core"
 
-#: ../cmk/gui/mobile.py:182 ../cmk/gui/mobile.py:218 ../cmk/gui/mobile.py:250
+#: ../cmk/gui/mobile.py:170 ../cmk/gui/mobile.py:206 ../cmk/gui/mobile.py:238
 msgid "Checkmk Mobile"
 msgstr "Checkmk Mobile"
 
@@ -12476,7 +12476,7 @@ msgstr "Classico"
 msgid "Classical check"
 msgstr "Controllo classico"
 
-#: ../cmk/gui/mobile.py:256
+#: ../cmk/gui/mobile.py:244
 msgid "Classical web GUI"
 msgstr "Classica interfaccia grafica web"
 
@@ -13041,7 +13041,7 @@ msgstr "Linea di comando:"
 msgid "Command to execute on remote host."
 msgstr "Comando da eseguire sull'host remoto."
 
-#: ../cmk/gui/mobile.py:339 ../cmk/gui/mobile.py:357 ../cmk/gui/views.py:844
+#: ../cmk/gui/mobile.py:327 ../cmk/gui/mobile.py:345 ../cmk/gui/views.py:844
 #: ../cmk/gui/plugins/visuals/filters.py:1598
 #: ../cmk/gui/plugins/visuals/infos.py:221
 msgid "Commands"
@@ -13062,7 +13062,7 @@ msgstr "Comandi su host e servizi"
 #: ../cmk/gui/plugins/views/commands.py:550
 #: ../cmk/gui/plugins/views/commands.py:654
 #: ../cmk/gui/plugins/views/commands.py:798
-#: ../cmk/gui/plugins/views/commands.py:919
+#: ../cmk/gui/plugins/views/commands.py:921
 #: ../cmk/gui/plugins/views/mkeventd.py:402
 #: ../cmk/gui/plugins/views/painters.py:3938
 #: ../cmk/gui/plugins/views/painters.py:4019
@@ -14311,7 +14311,7 @@ msgstr "Content-Type"
 msgid "Contents"
 msgstr "Contenuto"
 
-#: ../cmk/gui/mobile.py:346 ../cmk/gui/mobile.py:402 ../cmk/gui/logwatch.py:418
+#: ../cmk/gui/mobile.py:334 ../cmk/gui/mobile.py:390 ../cmk/gui/logwatch.py:418
 #: ../cmk/gui/cee/reporting.py:1499
 msgid "Context"
 msgstr "Contesto"
@@ -16947,7 +16947,7 @@ msgstr "Elementi della barra laterale personalizzata"
 msgid "Custom states"
 msgstr "Stati personalizzati"
 
-#: ../cmk/gui/plugins/views/commands.py:954
+#: ../cmk/gui/plugins/views/commands.py:956
 msgid "Custom time range"
 msgstr "Intervallo di tempo personalizzato"
 
@@ -21006,7 +21006,7 @@ msgstr "Notifica solo gli avvisi in questo periodo di tempo"
 msgid "Do status data inventory"
 msgstr "Fare l'inventario dei dati di stato"
 
-#: ../cmk/gui/plugins/views/commands.py:969
+#: ../cmk/gui/plugins/views/commands.py:971
 msgid "Do this recursively"
 msgstr "Fate questo ricorsivamente"
 
@@ -21014,7 +21014,7 @@ msgstr "Fate questo ricorsivamente"
 msgid "Do transfer context"
 msgstr "Trasferire il contesto"
 
-#: ../cmk/gui/mobile.py:473 ../cmk/gui/views.py:3180
+#: ../cmk/gui/mobile.py:461 ../cmk/gui/views.py:3180
 #, python-format
 msgid "Do you really want to %s"
 msgstr "Vuoi davvero %s"
@@ -21733,7 +21733,7 @@ msgstr "ID tag duplicato \"%s\" nei tag ausiliari"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:904
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1359
 #: ../cmk/gui/plugins/views/availability.py:597
-#: ../cmk/gui/plugins/views/commands.py:1189
+#: ../cmk/gui/plugins/views/commands.py:1191
 #: ../cmk/gui/plugins/views/painters.py:1081
 #: ../cmk/gui/plugins/views/painters.py:2065
 msgid "Duration"
@@ -23456,7 +23456,7 @@ msgstr "Voci del registro delle informazioni di errore"
 msgid "Error rate"
 msgstr "Tasso di errore"
 
-#: ../cmk/gui/mobile.py:396
+#: ../cmk/gui/mobile.py:384
 #, python-format
 msgid "Error showing view: %s"
 msgstr "Errore che mostra la vista: %s"
@@ -23580,7 +23580,7 @@ msgid "Event"
 msgstr "Evento"
 
 #: ../cmk/gui/wato/mkeventd.py:1256 ../cmk/gui/wato/mkeventd.py:3098
-#: ../cmk/gui/mobile.py:150 ../cmk/gui/mkeventd.py:130 ../cmk/gui/views.py:1354
+#: ../cmk/gui/mobile.py:138 ../cmk/gui/mkeventd.py:130 ../cmk/gui/views.py:1354
 #: ../cmk/gui/pagetypes.py:1832
 #: ../cmk/gui/plugins/wato/omd_configuration.py:169
 msgid "Event Console"
@@ -25128,7 +25128,7 @@ msgstr "Fan"
 msgid "Favorite entry of user"
 msgstr "Voce preferita dell'utente"
 
-#: ../cmk/gui/plugins/views/commands.py:1437
+#: ../cmk/gui/plugins/views/commands.py:1439
 msgid "Favorites"
 msgstr "Preferiti"
 
@@ -25479,7 +25479,7 @@ msgstr "Filesystem (volumi, unità)"
 msgid "Filesystems usage"
 msgstr "Uso dei file system"
 
-#: ../cmk/gui/wato/pages/audit_log.py:168 ../cmk/gui/mobile.py:337
+#: ../cmk/gui/wato/pages/audit_log.py:168 ../cmk/gui/mobile.py:325
 #: ../cmk/gui/node_visualization.py:199 ../cmk/gui/node_visualization.py:202
 #: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/views.py:934
 #: ../cmk/gui/views.py:942 ../cmk/gui/page_menu.py:739
@@ -25498,7 +25498,7 @@ msgstr "Filtra la selezione %s per nome dell'host: "
 msgid "Filter %s selection by service: "
 msgstr "Filtrare la selezione %s per servizio: "
 
-#: ../cmk/gui/mobile.py:350
+#: ../cmk/gui/mobile.py:338
 msgid "Filter / Search"
 msgstr "Filtro / Ricerca"
 
@@ -26635,7 +26635,7 @@ msgstr "Dispositivi Fritz!Box"
 #: ../cmk/gui/cee/sla.py:1701 ../cmk/gui/cee/sla.py:1933
 #: ../cmk/gui/cee/sla.py:1955 ../cmk/gui/plugins/views/availability.py:595
 #: ../cmk/gui/plugins/views/availability.py:1062
-#: ../cmk/gui/plugins/views/commands.py:1174
+#: ../cmk/gui/plugins/views/commands.py:1176
 #: ../cmk/gui/plugins/visuals/utils.py:384
 msgid "From"
 msgstr "Da"
@@ -26657,7 +26657,7 @@ msgstr "Dall'inizio"
 msgid "From left of the page"
 msgstr "Da sinistra della pagina"
 
-#: ../cmk/gui/plugins/views/commands.py:925
+#: ../cmk/gui/plugins/views/commands.py:927
 msgid "From now for"
 msgstr "Da ora per"
 
@@ -29025,7 +29025,7 @@ msgstr "Tempi storici di inattività del servizio"
 msgid "Historic messages"
 msgstr "Messaggi storici"
 
-#: ../cmk/gui/mobile.py:150 ../cmk/gui/pagetypes.py:1820
+#: ../cmk/gui/mobile.py:138 ../cmk/gui/pagetypes.py:1820
 #: ../cmk/gui/plugins/views/mobile.py:510
 #: ../cmk/gui/plugins/views/availability.py:463
 msgid "History"
@@ -37632,7 +37632,7 @@ msgid "Logical processor(s) utilization"
 msgstr "Utilizzo del/i processore/i logico/i"
 
 #: ../cmk/gui/wato/pages/sites.py:651 ../cmk/gui/wato/pages/sites.py:771
-#: ../cmk/gui/mobile.py:203 ../cmk/gui/login.py:545
+#: ../cmk/gui/mobile.py:191 ../cmk/gui/login.py:545
 msgid "Login"
 msgstr "Accesso"
 
@@ -37698,7 +37698,7 @@ msgid "Logo"
 msgstr "Logo"
 
 #: ../cmk/gui/wato/pages/sites.py:768 ../cmk/gui/wato/user_profile.py:111
-#: ../cmk/gui/mobile.py:267
+#: ../cmk/gui/mobile.py:255
 msgid "Logout"
 msgstr "Logout"
 
@@ -42487,7 +42487,7 @@ msgstr "Nessun certificato"
 msgid "No colon, slash or backslash is allowed in the filename."
 msgstr "Non sono ammessi due punti, slash o backslash nel nome del file."
 
-#: ../cmk/gui/mobile.py:461
+#: ../cmk/gui/mobile.py:449
 msgid "No commands are possible in this view"
 msgstr "Nessun comando è possibile in questa vista"
 
@@ -42619,7 +42619,7 @@ msgstr ""
 "Nessuna metrica storica registrata ma i dati sulle prestazioni sono "
 "disponibili. Forse l'elaborazione dei dati sulle prestazioni è disabilitata."
 
-#: ../cmk/gui/mobile.py:378
+#: ../cmk/gui/mobile.py:366
 msgid "No hosts/services found."
 msgstr "Nessun host/servizio trovato."
 
@@ -46187,7 +46187,7 @@ msgstr "Sovrascrittura da parte degli utenti"
 msgid "Oversubscribed"
 msgstr "Sovrabbondanza di iscrizioni"
 
-#: ../cmk/gui/wato/pages/roles.py:120 ../cmk/gui/mobile.py:150
+#: ../cmk/gui/wato/pages/roles.py:120 ../cmk/gui/mobile.py:138
 #: ../cmk/gui/pagetypes.py:1802 ../cmk/gui/plugins/dashboard/utils.py:930
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:55
 #: ../cmk/gui/cme/plugins/dashboard/managed.py:251
@@ -46911,7 +46911,7 @@ msgstr "Password dell'utente"
 msgid "Password policy for local accounts"
 msgstr "Politica delle password per gli account locali"
 
-#: ../cmk/gui/mobile.py:198
+#: ../cmk/gui/mobile.py:186
 msgid "Password:"
 msgstr "Password:"
 
@@ -48117,7 +48117,7 @@ msgstr ""
 msgid "Please enter a filename."
 msgstr "Inserisci un nome di file."
 
-#: ../cmk/gui/plugins/views/commands.py:1102
+#: ../cmk/gui/plugins/views/commands.py:1104
 msgid "Please enter a positive number of minutes."
 msgstr "Si prega di inserire un numero positivo di minuti."
 
@@ -49339,7 +49339,7 @@ msgstr ""
 "Problema durante il rendering dell'elemento %d del cruscotto di tipo %s: %s. "
 "Dai un'occhiata a <tt>var/log/web.log</tt> per ulteriori informazioni."
 
-#: ../cmk/gui/mobile.py:150 ../cmk/gui/pagetypes.py:1814
+#: ../cmk/gui/mobile.py:138 ../cmk/gui/pagetypes.py:1814
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:168
 #: ../cmk/gui/plugins/views/painters.py:4813
 msgid "Problems"
@@ -51041,7 +51041,7 @@ msgstr "Correlato"
 msgid "Related Dashboards"
 msgstr "Cruscotti correlati"
 
-#: ../cmk/gui/mobile.py:504
+#: ../cmk/gui/mobile.py:492
 msgid "Related Views"
 msgstr "Visualizzazioni correlate"
 
@@ -51086,7 +51086,7 @@ msgstr "Note di rilascio"
 msgid "Reliability"
 msgstr "Affidabilità"
 
-#: ../cmk/gui/mobile.py:221 ../cmk/gui/mobile.py:373
+#: ../cmk/gui/mobile.py:209 ../cmk/gui/mobile.py:361
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1710
 msgid "Reload"
 msgstr "Ricarica"
@@ -51226,8 +51226,8 @@ msgstr "URL del sito remoto"
 msgid "Remote: Send events to remote syslog host"
 msgstr "Remoto: Invia gli eventi all'host syslog remoto"
 
-#: ../cmk/gui/plugins/views/commands.py:1350
-#: ../cmk/gui/plugins/views/commands.py:1390
+#: ../cmk/gui/plugins/views/commands.py:1352
+#: ../cmk/gui/plugins/views/commands.py:1392
 msgid "Remove"
 msgstr "Rimuovi"
 
@@ -51239,7 +51239,7 @@ msgstr "Rimuovere la configurazione del firewall di Windows, se presente"
 msgid "Remove acknowledgement"
 msgstr "Rimuovere il riconoscimento"
 
-#: ../cmk/gui/plugins/views/commands.py:940
+#: ../cmk/gui/plugins/views/commands.py:942
 msgid "Remove all"
 msgstr "Rimuovere tutti"
 
@@ -51251,11 +51251,11 @@ msgstr "Rimuovi tutto e trova il nuovo"
 msgid "Remove all files and subdirectories"
 msgstr "Rimuovere tutti i file e le sottodirectory"
 
-#: ../cmk/gui/plugins/views/commands.py:1367
+#: ../cmk/gui/plugins/views/commands.py:1369
 msgid "Remove comments"
 msgstr "Rimuovere i commenti"
 
-#: ../cmk/gui/plugins/views/commands.py:1331
+#: ../cmk/gui/plugins/views/commands.py:1333
 msgid "Remove downtimes"
 msgstr "Rimuovere i tempi morti"
 
@@ -51275,7 +51275,7 @@ msgstr "Rimuovere i file e le sottodirectory gestiti dall'agente Checkmk"
 msgid "Remove filter"
 msgstr "Rimuovi filtro"
 
-#: ../cmk/gui/plugins/views/commands.py:1453
+#: ../cmk/gui/plugins/views/commands.py:1455
 msgid "Remove from Favorites"
 msgstr "Rimuovi dai preferiti"
 
@@ -51509,7 +51509,7 @@ msgstr "Ripeti la domanda senza limiti."
 msgid "Repeat this downtime"
 msgstr "Ripetere questo tempo di inattività"
 
-#: ../cmk/gui/plugins/views/commands.py:976
+#: ../cmk/gui/plugins/views/commands.py:978
 msgid "Repeat this downtime on a regular basis every"
 msgstr "Ripetere questo tempo di inattività su base regolare ogni"
 
@@ -52185,7 +52185,7 @@ msgstr "Stato risultante se lo stato è \"non sano\""
 msgid "Resulting state if the status is \"warmup\""
 msgstr "Stato risultante se lo stato è \"riscaldamento\""
 
-#: ../cmk/gui/mobile.py:336 ../cmk/gui/gui_background_job.py:510
+#: ../cmk/gui/mobile.py:324 ../cmk/gui/gui_background_job.py:510
 msgid "Results"
 msgstr "Risultati"
 
@@ -53450,7 +53450,7 @@ msgstr "Programma"
 msgid "Schedule downtime for %d %s"
 msgstr "Tempo di inattività programmato per %d %s"
 
-#: ../cmk/gui/plugins/views/commands.py:907
+#: ../cmk/gui/plugins/views/commands.py:911
 msgid "Schedule downtime on host"
 msgstr "Programmare il tempo di inattività sull'host"
 
@@ -59993,7 +59993,7 @@ msgstr "Accesso riuscito al sito remoto %s."
 msgid "Successfully moved hosts to their original folder destinations."
 msgstr "Ha spostato con successo gli host nelle loro destinazioni originali."
 
-#: ../cmk/gui/mobile.py:494 ../cmk/gui/views.py:3212
+#: ../cmk/gui/mobile.py:482 ../cmk/gui/views.py:3212
 #, python-format
 msgid "Successfully sent %d commands."
 msgstr "Inviati con successo %d comandi."
@@ -62517,7 +62517,7 @@ msgstr ""
 "Il controllo farà scattare un avvertimento o uno stato critico se la "
 "dimensione del database supera questi livelli."
 
-#: ../cmk/gui/plugins/views/commands.py:1039
+#: ../cmk/gui/plugins/views/commands.py:1041
 msgid ""
 "The checkbox for setting host downtimes does not work when removing "
 "downtimes."
@@ -73515,7 +73515,7 @@ msgstr "Formato immagine non supportato di \"%s\" (estensione file non valida)"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1363
 #: ../cmk/gui/plugins/views/availability.py:596
 #: ../cmk/gui/plugins/views/availability.py:1063
-#: ../cmk/gui/plugins/views/commands.py:1181
+#: ../cmk/gui/plugins/views/commands.py:1183
 #: ../cmk/gui/plugins/visuals/utils.py:384
 msgid "Until"
 msgstr "Fino a"
@@ -75685,7 +75685,7 @@ msgstr "Nome utente per il login"
 msgid "Username is unknown"
 msgstr "Il nome utente è sconosciuto"
 
-#: ../cmk/gui/mobile.py:194
+#: ../cmk/gui/mobile.py:182
 msgid "Username:"
 msgstr "Nome utente:"
 
@@ -78286,7 +78286,7 @@ msgstr "Tariffa settimanale"
 msgid "Welcome to Checkmk %s"
 msgstr "Benvenuto in Checkmk %s"
 
-#: ../cmk/gui/mobile.py:185
+#: ../cmk/gui/mobile.py:173
 msgid "Welcome to Checkmk Mobile."
 msgstr "Benvenuti a Checkmk Mobile."
 
@@ -81450,7 +81450,7 @@ msgstr "Non potete rinominare un host mentre avete delle modifiche in sospeso."
 msgid "You cannot save this rule."
 msgstr "Non è possibile salvare questa regola."
 
-#: ../cmk/gui/plugins/views/commands.py:1123
+#: ../cmk/gui/plugins/views/commands.py:1125
 msgid ""
 "You cannot set a downtime that ends in the past. This incident will be "
 "reported."
@@ -82028,7 +82028,7 @@ msgstr ""
 msgid "You need to specify levels of at least 0 bytes."
 msgstr "È necessario specificare livelli di almeno 0 byte."
 
-#: ../cmk/gui/plugins/views/commands.py:1086
+#: ../cmk/gui/plugins/views/commands.py:1088
 msgid "You need to supply a comment for your downtime."
 msgstr "È necessario fornire un commento per il tempo di inattività."
 
@@ -82103,7 +82103,7 @@ msgstr ""
 "checkmk.com/checkmk_support_contract.html\" target=\"_blank\">nostro sito "
 "web</a>."
 
-#: ../cmk/gui/plugins/views/commands.py:1127
+#: ../cmk/gui/plugins/views/commands.py:1129
 msgid "Your end date is before your start date."
 msgstr "La tua data di fine è prima della tua data di inizio."
 
@@ -82642,7 +82642,7 @@ msgstr "crollato"
 msgid "command"
 msgstr "comando"
 
-#: ../cmk/gui/plugins/views/commands.py:1387
+#: ../cmk/gui/plugins/views/commands.py:1389
 #, fuzzy
 #| msgid "Comment"
 msgid "comment"
@@ -83304,7 +83304,7 @@ msgstr "elemento di pagina fisso"
 msgid "flexible"
 msgstr "flessibile"
 
-#: ../cmk/gui/plugins/views/commands.py:961
+#: ../cmk/gui/plugins/views/commands.py:963
 msgid "flexible with max. duration"
 msgstr "flessibile con durata massima"
 
@@ -83962,7 +83962,7 @@ msgstr "minuto"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3382
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4969
 #: ../cmk/gui/plugins/views/commands.py:117
-#: ../cmk/gui/plugins/views/commands.py:932
+#: ../cmk/gui/plugins/views/commands.py:934
 msgid "minutes"
 msgstr "minuti"
 
@@ -84666,11 +84666,11 @@ msgstr ""
 "chiuda il socket"
 
 #: ../cmk/gui/plugins/views/crash_reporting.py:324
-#: ../cmk/gui/plugins/views/commands.py:1355
+#: ../cmk/gui/plugins/views/commands.py:1357
 msgid "remove"
 msgstr "rimuovere"
 
-#: ../cmk/gui/plugins/views/commands.py:1386
+#: ../cmk/gui/plugins/views/commands.py:1388
 #, fuzzy, python-format
 #| msgid " the following %d crash %s"
 msgid "remove the following %d %s?"
@@ -84805,12 +84805,12 @@ msgstr "stesso ennesimo giorno della settimana (dall'inizio)"
 msgid "same nth weekday (from end)"
 msgstr "stesso ennesimo giorno della settimana (dalla fine)"
 
-#: ../cmk/gui/plugins/views/commands.py:1135
+#: ../cmk/gui/plugins/views/commands.py:1137
 #, python-format
 msgid "schedule a periodic downtime every %s"
 msgstr "programma un tempo di inattività periodico ogni %s"
 
-#: ../cmk/gui/plugins/views/commands.py:1138
+#: ../cmk/gui/plugins/views/commands.py:1140
 msgid "schedule an immediate downtime"
 msgstr "programmare un tempo di inattività immediato"
 
@@ -85159,7 +85159,7 @@ msgstr "volte la deviazione standard al di sotto del valore previsto"
 
 #: ../cmk/gui/wato/pages/notifications.py:111 ../cmk/gui/watolib/users.py:304
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:111
-#: ../cmk/gui/plugins/views/commands.py:956
+#: ../cmk/gui/plugins/views/commands.py:958
 #: ../cmk/gui/plugins/visuals/inventory.py:99
 #: ../cmk/gui/plugins/visuals/inventory.py:148
 msgid "to"
@@ -85463,7 +85463,7 @@ msgstr "larghezza"
 msgid "with a timeout of"
 msgstr "con un timeout di"
 
-#: ../cmk/gui/plugins/views/commands.py:949
+#: ../cmk/gui/plugins/views/commands.py:951
 msgid "with comment"
 msgstr "con commento"
 
