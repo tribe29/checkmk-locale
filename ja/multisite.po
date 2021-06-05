@@ -90,7 +90,7 @@ msgstr " - Broken"
 msgid " Activate this option"
 msgstr " このオプションを有効にする"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1870
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1871
 msgid ""
 " An identifier of your choice. This identifier is used by the Check_MK "
 "checks to access and identify the single values. The identifier needs to be "
@@ -865,7 +865,7 @@ msgstr "%s 書き込み %s"
 msgid "%s: %s"
 msgstr "%s: %s"
 
-#: ../cmk/utils/man_pages.py:458
+#: ../cmk/utils/man_pages.py:459
 #, python-format
 msgid "%s: Cannot parse man page: %s"
 msgstr "%s: マニュアルページを解析できません: %s"
@@ -1397,8 +1397,8 @@ msgstr "3PAR CPG(使用済みスペースと成長)"
 msgid "3PAR Capacity (used space and growth)"
 msgstr "3PARの容量(使用済みスペースと拡張)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2217
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2265
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2218
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2266
 msgid "3PAR Configuration"
 msgstr "3PARの構成"
 
@@ -1462,11 +1462,11 @@ msgstr ""
 msgid "7 days back (this day last week)"
 msgstr "7日前(先週のこの日)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2171
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2172
 msgid "7-segment display brightness"
 msgstr "7セグメントディスプレイの明るさ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2165
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2166
 msgid "7-segment display uid"
 msgstr "7セグメントディスプレイuid"
 
@@ -1769,7 +1769,7 @@ msgstr "<i>%d以上の連絡先グループ</i><br>"
 msgid "<i>(No fallback email address configured!)</i>"
 msgstr "<i>(フォールバックメールアドレスは設定されていません!)</i>"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2655
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2656
 msgid ""
 "<i>Gather all service instances and restrict by overall tags</i> means that "
 "if overall tags are stated above then all service instances are filtered by "
@@ -2695,7 +2695,7 @@ msgstr ""
 "このルールの一意のID。各イベントは、ルールIDによって分類されたルールを記憶し"
 "ます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2736
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2737
 msgid ""
 "A unique identifier that might be required when you assume a role in another "
 "account. If the administrator of the account to which the role belongs "
@@ -2771,7 +2771,7 @@ msgstr "A5"
 msgid "ACME SBC health"
 msgstr "ACME SBCヘルス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1557
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1558
 msgid "ACME Session Border Controller"
 msgstr "ACMEセッションボーダーコントローラー"
 
@@ -2816,7 +2816,7 @@ msgstr "AIX HACMP リソースグループ"
 msgid "ALL"
 msgstr "すべて"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1728
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1729
 msgid "ALLNET IP Sensoric Devices"
 msgstr "ALLNET IP Sensoricデバイス"
 
@@ -2840,7 +2840,7 @@ msgstr "APCの消費電力"
 msgid "APC Symmetra Checks"
 msgstr "APC Symmetraチェック"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1691
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1692
 msgid "API Access Token"
 msgstr "APIアクセストークン"
 
@@ -2848,6 +2848,7 @@ msgstr "APIアクセストークン"
 msgid "API Endpoint from PagerDuty V2"
 msgstr "PagerDuty V2のAPIエンドポイント"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3372
 #: ../cmk/gui/plugins/wato/notifications.py:1274
 msgid "API Key"
 msgstr "APIキー"
@@ -2860,12 +2861,18 @@ msgstr ""
 "使用するAPIキー。opsgenieサブスクリプションに応じて、グローバルまたはチーム統"
 "合APIキーを使用できます。"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3386
+#, fuzzy
+#| msgid "Add host"
+msgid "API host"
+msgstr "ホストを追加"
+
 #: ../cmk/gui/watolib/tags.py:559 ../cmk/gui/watolib/tags.py:565
 #: ../cmk/utils/tags.py:590
 msgid "API integrations if configured, else Checkmk agent"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1997
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1998
 #: ../cmk/gui/plugins/wato/notifications.py:565
 msgid "API key"
 msgstr "APIキー"
@@ -2878,11 +2885,11 @@ msgstr "iLertアラートサーバーのAPIキー"
 msgid "API key from password store"
 msgstr "パスワードストアのAPIキー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:182
+#: ../cmk/gui/plugins/wato/datasource_programs.py:183
 msgid "API key/token"
 msgstr "APIキー/トークン"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:554
+#: ../cmk/gui/plugins/wato/datasource_programs.py:555
 msgid "API server endpoint"
 msgstr "APIサーバーエンドポイント"
 
@@ -2937,7 +2944,7 @@ msgstr ""
 msgid "ASP Requests Rejected"
 msgstr "ASPリクエストが拒否されました"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2666
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2667
 msgid "AWS Tags"
 msgstr "AWSタグ"
 
@@ -3273,8 +3280,8 @@ msgstr "絶対使用済みリースレベル"
 msgid "Absolute value"
 msgstr "絶対値"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1472
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1473
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1474
 msgid "Accept any SSH Host Key"
 msgstr "SSHホストキーを受け入れる"
 
@@ -3294,7 +3301,7 @@ msgstr "受け入れられた接続"
 msgid "Accepted connections per second"
 msgstr "1秒あたりに受け入れられる接続"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1476
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1477
 msgid ""
 "Accepts any SSH Host Key presented by the storage device. Please note: This "
 "might be a security issue because man-in-the-middle attacks are not "
@@ -3312,7 +3319,7 @@ msgstr ""
 msgid "Access"
 msgstr "アクセス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:333
+#: ../cmk/gui/plugins/wato/datasource_programs.py:334
 msgid "Access Checkmk Agent via TCP"
 msgstr "TCP経由でCheckmkエージェントにアクセスする"
 
@@ -3526,9 +3533,9 @@ msgstr "このイベントが発生したときに自動的に実行するアク
 msgid "Actions when cancelling"
 msgstr "キャンセル時のアクション"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2239
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2282
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2310
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2240
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2283
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2311
 msgid "Activate"
 msgstr "アクティベート"
 
@@ -3615,11 +3622,11 @@ msgstr ""
 "不十分で、速度が遅い可能性があります。注:これを設定しても、監視対象ログのデ"
 "フォルトセットは変更されません。ログ名を参照してください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1655
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1656
 msgid "Activate monitoring of host via a HTTP connect to the HiveManager"
 msgstr "HiveManagerへのHTTP接続を介してホストの監視をアクティブ化する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1679
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1680
 msgid "Activate monitoring of the HiveManagerNG cloud."
 msgstr "HiveManagerNGクラウドの監視をアクティブにします。"
 
@@ -4111,7 +4118,7 @@ msgstr "例外を追加"
 msgid "Add exclusion"
 msgstr "除外を追加"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2556
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2557
 #: ../cmk/gui/plugins/wato/utils/__init__.py:446
 msgid "Add expression"
 msgstr "式を追加する"
@@ -4232,15 +4239,15 @@ msgstr "新しいGraphite / InfluxDB接続を追加します"
 msgid "Add new IP range"
 msgstr "新しいIP範囲を追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:957
+#: ../cmk/gui/plugins/wato/datasource_programs.py:958
 msgid "Add new PromQL query"
 msgstr "新しいPromQLクエリを追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:876
+#: ../cmk/gui/plugins/wato/datasource_programs.py:877
 msgid "Add new Scrape Target"
 msgstr "新しいスクレープターゲットを追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:965
+#: ../cmk/gui/plugins/wato/datasource_programs.py:966
 msgid "Add new Service"
 msgstr "新しいサービスを追加する"
 
@@ -4257,7 +4264,7 @@ msgstr "新しい定数を追加する"
 msgid "Add new element"
 msgstr "新しい要素を追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2571
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2572
 msgid "Add new group"
 msgstr "新しいグループを追加する"
 
@@ -4274,12 +4281,12 @@ msgstr "新しいマッピングを追加する"
 msgid "Add new metric"
 msgstr "新しいメトリックを追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:515
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2566
+#: ../cmk/gui/plugins/wato/datasource_programs.py:516
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2567
 msgid "Add new pattern"
 msgstr "新しいパターンを追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3392
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3566
 msgid "Add new project"
 msgstr "新しいプロジェクトを追加する"
 
@@ -4292,7 +4299,7 @@ msgstr "新しい行を追加します"
 msgid "Add new scalar"
 msgstr "新しいスカラーを追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2644
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2645
 msgid "Add new tag"
 msgstr "新しいタグを追加する"
 
@@ -4374,11 +4381,11 @@ msgstr "リモートインスタンスを追加します"
 msgid "Add renaming"
 msgstr "名前の変更を追加"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2367
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2368
 msgid "Add resource group"
 msgstr "リソースグループを追加する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2391
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2392
 msgid "Add resource tag"
 msgstr "リソースタグを追加する"
 
@@ -4460,6 +4467,18 @@ msgstr "タグを追加する"
 #: ../cmk/gui/backup.py:1143 ../cmk/gui/backup.py:1146
 msgid "Add target"
 msgstr "ターゲットを追加"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3507
+#, fuzzy
+#| msgid "Owner of event"
+msgid "Add text of events"
+msgstr "イベントのオーナー"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3509
+msgid ""
+"Add text of events to data forwarded to the Event Console. Newline "
+"characters are replaced by '~'."
+msgstr ""
 
 #: ../cmk/gui/watolib/groups.py:466
 msgid "Add these contact groups to the host"
@@ -4646,7 +4665,7 @@ msgstr "アラートを閉じるときに追加される追加のメモ"
 msgid "Additional note that will be added while creating the alert."
 msgstr "アラートの作成中に追加される追加のメモ。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2585
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2586
 msgid "Additional options"
 msgstr "追加オプション"
 
@@ -4659,7 +4678,7 @@ msgid "Additive: Effects of seasonality are added to the trend."
 msgstr "添加:季節性の影響がトレンドに追加されます。"
 
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:654
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1823
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1824
 #: ../cmk/gui/plugins/wato/active_checks.py:2184
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:278
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:341
@@ -4702,7 +4721,7 @@ msgstr "家族の住所"
 msgid "Address matching"
 msgstr "アドレス照合"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1825
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1826
 msgid ""
 "Addresses are specified with a dot notation, where number before the dot "
 "specify the byte to fetch and the number after the dot specifies the bit to "
@@ -4818,11 +4837,11 @@ msgstr "Adva Optical Transport Laser Power"
 msgid "Advanced: Disable SSL/TLS hostname extension support (SNI)"
 msgstr "詳細:SSL / TLSホスト名拡張サポート(SNI)を無効にする"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1654
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1655
 msgid "Aerohive HiveManager"
 msgstr "Aerohive HiveManager"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1678
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1679
 msgid "Aerohive HiveManager NG"
 msgstr "Aerohive HiveManager NG"
 
@@ -4999,7 +5018,7 @@ msgstr "経過時間(秒)"
 msgid "Age filter specification must be of the format <operator><int>."
 msgstr "期間フィルターの指定は、<operator><int>の形式である必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:390
+#: ../cmk/gui/plugins/wato/datasource_programs.py:391
 msgid "Age in weeks of log data to fetch"
 msgstr "フェッチするログデータの週単位の経過時間"
 
@@ -5320,7 +5339,7 @@ msgstr "集約名"
 msgid "Aggregation Properties"
 msgstr "集約プロパティ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2517
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2518
 msgid "Aggregation assignment"
 msgstr "集計の割り当て"
 
@@ -5408,7 +5427,7 @@ msgstr ""
 msgid "Airflow levels"
 msgstr "気流レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3257
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3258
 msgid "Alarms"
 msgstr "アラーム"
 
@@ -5558,7 +5577,7 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/cmc.py:575
 #: ../cmk/gui/cee/plugins/dashboard/ntop_dashlets.py:234
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3054
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3055
 #: ../cmk/gui/plugins/visuals/filters.py:1594
 msgid "Alerts"
 msgstr "アラート"
@@ -6225,7 +6244,7 @@ msgstr ""
 msgid "Also bulk outside of timeperiod"
 msgstr "また、期間外のバルク"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2003
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2004
 msgid "Also contact Checkmk agent"
 msgstr "Checkmkエージェントにも連絡してください"
 
@@ -6339,12 +6358,12 @@ msgstr "常にルールのサービスレベルを使用する"
 msgid "Always when an event is being cancelled"
 msgstr "イベントがキャンセルされるときは常に"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2800
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2801
 msgid "Amazon S3 Glacier (Glacier)"
 msgstr "Amazon S3 Glacier (Glacier)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2693
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2899
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2694
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2900
 msgid "Amazon Web Services (AWS)"
 msgstr "Amazon Web Services (AWS)"
 
@@ -6626,7 +6645,7 @@ msgstr "アンチウイルスの最終更新期間"
 msgid "Apache ActiveMQ Queue lengths"
 msgstr "Apache ActiveMQ Queueの長さ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1364
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1365
 msgid "Apache ActiveMQ queues"
 msgstr "Apache ActiveMQキュー"
 
@@ -6672,19 +6691,19 @@ msgstr "Apacheのステータス"
 msgid "Apache webservers (Linux)"
 msgstr "Apache Webサーバー(Linux)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2051
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2052
 msgid "AppDynamics application name"
 msgstr "AppDynamicsアプリケーション名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2046
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2047
 msgid "AppDynamics login password"
 msgstr "AppDynamicsログインパスワード"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2042
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2043
 msgid "AppDynamics login username"
 msgstr "AppDynamicsログインユーザー名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2036
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2037
 msgid "AppDynamics via REST API"
 msgstr "RESTAPIを介したAppDynamics"
 
@@ -6725,6 +6744,12 @@ msgstr "アプリケーション(正規表現)"
 msgid "Application / Syslog-Tag"
 msgstr "アプリケーション/ Syslog-タグ"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3379
+#, fuzzy
+#| msgid "Application"
+msgid "Application Key"
+msgstr "アプリケーション"
+
 #: ../cmk/gui/plugins/metrics/aws.py:562
 msgid "Application Load Balancer Listeners"
 msgstr "アプリケーションロードバランサーリスナー"
@@ -6745,7 +6770,7 @@ msgstr "アプリケーションロードバランサー証明書"
 msgid "Application Load balancers"
 msgstr "アプリケーションロードバランサー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2820
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2821
 msgid "Application and Network Load Balancing (ELBv2)"
 msgstr "アプリケーションとネットワークの負荷分散(ELBv2)"
 
@@ -6758,7 +6783,7 @@ msgid "Application pending requests"
 msgstr "アプリケーション保留中のリクエスト"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:342 ../cmk/gui/pagetypes.py:1845
-#: ../cmk/gui/plugins/wato/datasource_programs.py:246
+#: ../cmk/gui/plugins/wato/datasource_programs.py:247
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:438
 msgid "Applications"
 msgstr "アプリケーション"
@@ -7033,7 +7058,7 @@ msgstr "SLA定義をサービスに割り当てます"
 msgid "Assign SLA to service"
 msgstr "SLAをサービスに割り当てる"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:896
+#: ../cmk/gui/plugins/wato/datasource_programs.py:897
 msgid "Assign service to following host"
 msgstr "次のホストにサービスを割り当てます"
 
@@ -7049,15 +7074,15 @@ msgstr "このオブジェクトを特定の顧客に割り当てます"
 msgid "Assign to group"
 msgstr "グループに割り当てる"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2522
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2523
 msgid "Assign to the affected hosts"
 msgstr "影響を受けるホストに割り当てます"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2520
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2521
 msgid "Assign to the querying host"
 msgstr "クエリを実行しているホストに割り当てます"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2548
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2549
 msgid "Assign via regular expressions"
 msgstr "正規表現で割り当てる"
 
@@ -7087,7 +7112,7 @@ msgid_plural ""
 "Overview. The %s sites are %s."
 msgstr[0] ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2722
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2723
 msgid "Assume a different IAM role"
 msgstr "別のIAMの役割を引き受ける"
 
@@ -7328,7 +7353,7 @@ msgstr "着信HTTPリクエストによるユーザーの認証"
 #: ../cmk/gui/wato/pages/users.py:408 ../cmk/gui/wato/pages/users.py:852
 #: ../cmk/gui/cee/plugins/wato/syncsmtp.py:41
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:155
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3338
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3339
 #: ../cmk/gui/plugins/wato/active_checks.py:155
 #: ../cmk/gui/plugins/wato/active_checks.py:196
 #: ../cmk/gui/plugins/wato/active_checks.py:1313
@@ -7375,7 +7400,7 @@ msgid "Authentication failures within the last 5 minutes"
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:91
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3168
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3169
 msgid "Authentication method"
 msgstr "認証方法"
 
@@ -7594,7 +7619,7 @@ msgstr "サービス構成を自動的に更新します"
 msgid "Automation"
 msgstr "オートメーション"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2503
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2504
 #: ../cmk/gui/plugins/wato/active_checks.py:1745
 msgid "Automation Secret"
 msgstr "自動化の秘密"
@@ -7607,7 +7632,7 @@ msgstr "自動化URL:"
 msgid "Automation User for connection to central site"
 msgstr "中央サイトに接続するための自動化ユーザー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2502
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2503
 #: ../cmk/gui/plugins/wato/active_checks.py:1737
 msgid "Automation Username"
 msgstr "自動化ユーザー名"
@@ -7954,7 +7979,7 @@ msgstr "コアあたりの平均使用率"
 msgid "Average value"
 msgstr "平均値"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3489
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3663
 msgid "Average value of the following numeric field: "
 msgstr "次の数値フィールドの平均値: "
 
@@ -8105,7 +8130,7 @@ msgstr "BI集計グループ"
 msgid "BI Aggregation Groups"
 msgstr "BIアグリゲーショングループ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2592
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2593
 #: ../cmk/gui/plugins/wato/bi_config.py:420 ../cmk/gui/plugins/views/bi.py:50
 #: ../cmk/gui/plugins/visuals/infos.py:242
 msgid "BI Aggregations"
@@ -8197,7 +8222,7 @@ msgstr "BIの視覚化"
 msgid "BIOS"
 msgstr "BIOS"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1234
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1235
 msgid "BMC key"
 msgstr "BMCキー"
 
@@ -8205,8 +8230,8 @@ msgstr "BMCキー"
 msgid "BOUND"
 msgstr "バウンド"
 
-#: ../cmk/gui/plugins/wato/background_job.py:143 ../cmk/utils/man_pages.py:401
-#: ../cmk/utils/man_pages.py:420
+#: ../cmk/gui/plugins/wato/background_job.py:143 ../cmk/utils/man_pages.py:402
+#: ../cmk/utils/man_pages.py:421
 msgid "Back"
 msgstr "バック"
 
@@ -8485,8 +8510,8 @@ msgstr "役割に基づく"
 msgid "Basic Layout"
 msgstr "基本レイアウト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:178
-#: ../cmk/gui/plugins/wato/datasource_programs.py:698
+#: ../cmk/gui/plugins/wato/datasource_programs.py:179
+#: ../cmk/gui/plugins/wato/datasource_programs.py:699
 msgid "Basic authentication"
 msgstr "基本認証"
 
@@ -8499,8 +8524,8 @@ msgstr "基本的なプロパティ"
 msgid "Basic settings"
 msgstr "基本設定"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:412
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1359
+#: ../cmk/gui/plugins/wato/datasource_programs.py:413
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1360
 msgid "BasicAuth settings (optional)"
 msgstr "BasicAuth設定(オプション)"
 
@@ -8746,7 +8771,7 @@ msgstr "ボーダー幅"
 msgid "Both"
 msgstr "両方"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:822
+#: ../cmk/gui/plugins/wato/datasource_programs.py:823
 msgid "Both - Display the information for both, pod and container, levels"
 msgstr "両方-Podとコンテナの両方のレベルの情報を表示します"
 
@@ -8836,7 +8861,7 @@ msgstr "バケットメモリ"
 msgid "Bucket name"
 msgstr "バケット名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3328
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3329
 msgid "Bucket names"
 msgstr "バケット名"
 
@@ -9238,11 +9263,11 @@ msgstr ""
 "されます。少なくとも1つのルールを追加するとすぐに、一致するルールを持つホスト"
 "のみが監視されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2570
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2571
 msgid "By aggregation groups"
 msgstr "集約グループ別"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1534
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1535
 msgid ""
 "By configuring this rule for a host - instead of the normal Check_MK agent "
 "random monitoring data will be created."
@@ -9420,7 +9445,7 @@ msgstr ""
 "前に変更する理由がある場合があります。たとえば、複数のエージェントを(異なる構"
 "成で)インストールできるようにするためです。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1131
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1132
 msgid ""
 "By default the snapshot summary service is displayed on the vCenter. Users "
 "who run an ESX host on its own or do not include their vCenter in the "
@@ -9474,7 +9499,7 @@ msgstr ""
 "デフォルトでは、すべてのメールボックスがこれらのパラメータでチェックされま"
 "す。ここでメールボックスを指定すると、それらだけが監視されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2433
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2434
 msgid ""
 "By default, all resources associated to the configured tenant ID will be "
 "monitored."
@@ -9482,7 +9507,7 @@ msgstr ""
 "デフォルトでは、構成されたテナントIDに関連付けられているすべてのリソースが監"
 "視されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2446
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2447
 msgid ""
 "By default, data relating to a VM is sent to the group host corresponding to "
 "the resource group of the VM, the same way as for any other resource. If the "
@@ -9609,7 +9634,7 @@ msgid ""
 msgstr ""
 "このオプションを有効にすると、通知は定義された期間外にもまとめられます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2565
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2566
 msgid "By regular expression"
 msgstr "正規表現による"
 
@@ -9641,8 +9666,8 @@ msgstr ""
 "イトの到達可能性状態として使用する必要があります。詳細については、<a "
 "target=_blank href='%s'>オンラインドキュメント</a>を参照してください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1839
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1845
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1840
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1846
 #: ../cmk/gui/plugins/wato/active_checks.py:1197
 #: ../cmk/gui/plugins/wato/active_checks.py:1198
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:870
@@ -9730,7 +9755,7 @@ msgstr "CAA - 不完全な呼び出し"
 msgid "CARA"
 msgstr "CARA"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:869
+#: ../cmk/gui/plugins/wato/datasource_programs.py:870
 msgid "CAdvisor"
 msgstr "CAdvisor"
 
@@ -9947,7 +9972,7 @@ msgstr "でのCPU使用率の警告"
 msgid "CPU used"
 msgstr "使用したCPU"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:856
+#: ../cmk/gui/plugins/wato/datasource_programs.py:857
 #: ../cmk/gui/plugins/metrics/cpu.py:239 ../cmk/gui/plugins/metrics/cpu.py:245
 #: ../cmk/gui/plugins/metrics/cpu.py:506 ../cmk/gui/plugins/metrics/cpu.py:519
 #: ../cmk/gui/plugins/metrics/cpu.py:544 ../cmk/gui/plugins/metrics/cpu.py:561
@@ -9960,7 +9985,7 @@ msgstr "使用したCPU"
 msgid "CPU utilization"
 msgstr "CPU使用率"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:733
+#: ../cmk/gui/plugins/wato/datasource_programs.py:734
 msgid "CPU utilization & Kernel performance"
 msgstr "CPU使用率とカーネルパフォーマンス"
 
@@ -11309,7 +11334,7 @@ msgstr ""
 "DNSサーバーによるIPアドレスへのホスト名の解決を確認してください。このチェック"
 "では、標準のNagiosプラグインの<tt>check_dns</tt>を使用します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2459
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2460
 msgid ""
 "Check this to turn off multiprocessing. Recommended for debugging purposes "
 "only."
@@ -11409,6 +11434,12 @@ msgstr "チェッカーヘルパー"
 #: ../cmk/gui/plugins/metrics/checkmk.py:394
 msgid "Checker helper usage"
 msgstr "チェッカーヘルパーの使用法"
+
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:117
+#, fuzzy
+#| msgid "Section of files to monitor"
+msgid "Checking of Datadog monitors"
+msgstr "監視するファイルのセクション"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:439
 #: ../cmk/gui/dashboard.py:886
@@ -11940,7 +11971,7 @@ msgstr "Ciscoメモリ使用量 (%s)"
 msgid "Cisco Nexus Supervisor Memory Usage"
 msgstr "Cisco Nexusスーパーバイザのメモリ使用量"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:441
+#: ../cmk/gui/plugins/wato/datasource_programs.py:442
 msgid "Cisco Prime"
 msgstr "Cisco Prime"
 
@@ -12040,7 +12071,7 @@ msgstr "ホストのクラス"
 msgid "Classes"
 msgstr "クラス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2810
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2811
 msgid "Classic Load Balancing (ELB)"
 msgstr "クラシックロードバランシング(ELB)"
 
@@ -12125,15 +12156,15 @@ msgstr "クライアント"
 msgid "Client Contacted Services"
 msgstr "クライアント連絡サービス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1696
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1697
 msgid "Client ID"
 msgstr "クライアントID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2416
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2417
 msgid "Client ID / Application ID"
 msgstr "クライアントID /アプリケーションID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2421
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2422
 msgid "Client Secret"
 msgstr "クライアントシークレット"
 
@@ -12162,7 +12193,7 @@ msgstr "クライアントは5Ghzバンドに接続します"
 msgid "Client requests received"
 msgstr "受け取ったクライアント要求"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1700
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1701
 msgid "Client secret"
 msgstr "Client secret"
 
@@ -12289,15 +12320,15 @@ msgstr "接続を閉じる"
 msgid "Cloud Based Environments"
 msgstr "クラウドベースの環境"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:261
+#: ../cmk/gui/plugins/wato/datasource_programs.py:262
 msgid "Cloud based environments"
 msgstr "クラウドベースの環境"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2874
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2875
 msgid "CloudFront WAFs"
 msgstr "CloudFront WAFs"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2840
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2841
 msgid "CloudWatch Alarms"
 msgstr "CloudWatchアラーム"
 
@@ -12306,7 +12337,7 @@ msgid "CloudWatch alarms"
 msgstr ""
 
 #: ../cmk/gui/wato/pages/host_rename.py:395
-#: ../cmk/gui/plugins/wato/datasource_programs.py:763
+#: ../cmk/gui/plugins/wato/datasource_programs.py:764
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info.py:31
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:487
 msgid "Cluster"
@@ -12340,7 +12371,7 @@ msgstr ""
 msgid "Cluster behaviour"
 msgstr "クラスターの動作"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2979
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2980
 msgid "Cluster health"
 msgstr "クラスターの状態"
 
@@ -12348,7 +12379,7 @@ msgstr "クラスターの状態"
 msgid "Cluster host"
 msgstr "クラスターホスト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:751
+#: ../cmk/gui/plugins/wato/datasource_programs.py:752
 msgid "Cluster name"
 msgstr "クラスター名"
 
@@ -12365,7 +12396,7 @@ msgstr "クラスターノードの定義"
 msgid "Cluster roles"
 msgstr "クラスターの役割"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3258
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3259
 msgid "Cluster statistics"
 msgstr "クラスター統計"
 
@@ -12373,7 +12404,7 @@ msgstr "クラスター統計"
 msgid "Cluster status"
 msgstr "クラスターステータス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3259
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3260
 msgid "Cluster traffic statistics"
 msgstr "クラスタートラフィック統計"
 
@@ -12381,7 +12412,7 @@ msgstr "クラスタートラフィック統計"
 msgid "Cluster type"
 msgstr "クラスタータイプ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2981
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2982
 msgid "Cluster, Indices and Shard statistics"
 msgstr "クラスター、インデックス、シャードの統計"
 
@@ -12405,7 +12436,7 @@ msgstr "重複するクラスターのクラスター化されたサービス"
 msgid "Clusters: Prefered check result of local checks"
 msgstr "クラスター: ローカルチェックの優先チェック結果"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3579
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3753
 msgid "Clusterwide"
 msgstr "クラスター全体"
 
@@ -12603,7 +12634,7 @@ msgid "Command line"
 msgstr "コマンドライン"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mrpe.py:67
-#: ../cmk/gui/plugins/wato/datasource_programs.py:332
+#: ../cmk/gui/plugins/wato/datasource_programs.py:333
 msgid "Command line to execute"
 msgstr "実行するコマンドライン"
 
@@ -13025,6 +13056,12 @@ msgstr "Linux、Windows、およびUnix用の監視エージェントの構成"
 msgid "Configuration of the Checkmk Hardware and Software Inventory System"
 msgstr "Checkmkハードウェアおよびソフトウェアインベントリシステムの構成"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3361
+#, fuzzy
+#| msgid "Configuration of update plugin"
+msgid "Configuration of the Datadog special agent."
+msgstr "更新プラグインの設定"
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1124
 msgid "Configuration of update plugin"
 msgstr "更新プラグインの設定"
@@ -13352,12 +13389,12 @@ msgstr ""
 "CheckmkをLDAPまたはActiveDirectoryに接続して、Checkmkでユーザーを作成します。"
 
 #: ../cmk/gui/wato/mkeventd.py:3243
-#: ../cmk/gui/plugins/wato/datasource_programs.py:381
-#: ../cmk/gui/plugins/wato/datasource_programs.py:434
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1062
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1587
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1735
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1922
+#: ../cmk/gui/plugins/wato/datasource_programs.py:382
+#: ../cmk/gui/plugins/wato/datasource_programs.py:435
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1063
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1588
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1736
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1923
 #: ../cmk/gui/plugins/wato/active_checks.py:232
 #: ../cmk/gui/plugins/wato/active_checks.py:2075
 #: ../cmk/gui/plugins/wato/active_checks.py:2124
@@ -13393,7 +13430,7 @@ msgstr "タイムアウトをイベントコンソールのステータスソケ
 msgid "Connect to"
 msgstr "接続します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1561
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1562
 msgid "Connect to ACME SBC"
 msgstr "ACME SBCに接続します"
 
@@ -13401,7 +13438,7 @@ msgstr "ACME SBCに接続します"
 msgid "Connect to remote sites"
 msgstr "リモートサイトに接続する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2491
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2492
 msgid "Connect to site url"
 msgstr "サイトのURLに接続する"
 
@@ -13432,7 +13469,7 @@ msgstr ""
 
 #: ../cmk/gui/watolib/sites.py:89 ../cmk/gui/cee/plugins/wato/dcd.py:190
 #: ../cmk/gui/cee/plugins/wato/dcd.py:191
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2490
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2491
 msgid "Connect to the local site"
 msgstr "ローカルサイトに接続する"
 
@@ -13505,7 +13542,7 @@ msgstr "接続が失われました"
 msgid "Connection name"
 msgstr "接続名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:100
+#: ../cmk/gui/plugins/wato/datasource_programs.py:101
 msgid "Connection option"
 msgstr "接続オプション"
 
@@ -13536,7 +13573,7 @@ msgstr "接続テスト"
 msgid "Connection time"
 msgstr "接続時間"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2069
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2070
 msgid "Connection timeout"
 msgstr "接続タイムアウト"
 
@@ -13767,7 +13804,7 @@ msgstr "連絡先"
 msgid "Container"
 msgstr "コンテナ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:794
+#: ../cmk/gui/plugins/wato/datasource_programs.py:795
 msgid "Container - Display the information on container level"
 msgstr "コンテナ - コンテナレベルで情報を表示します"
 
@@ -13780,7 +13817,7 @@ msgid "Container Name"
 msgstr "コンテナ名"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:347
-#: ../cmk/gui/plugins/wato/datasource_programs.py:275
+#: ../cmk/gui/plugins/wato/datasource_programs.py:276
 msgid "Containerization"
 msgstr "コンテナ化"
 
@@ -14043,7 +14080,7 @@ msgstr "スプール内の破損したファイル"
 msgid "Cosmic"
 msgstr "コズミック"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2749
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2750
 msgid "Costs and usage (CE)"
 msgstr "コストと使用量(CE)"
 
@@ -14100,7 +14137,7 @@ msgstr "Couchbase Total Bucket Operations"
 msgid "Couchbase Total Node Operations"
 msgstr "Couchbaseのトータルノードオペレーション"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3323
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3324
 msgid "Couchbase servers"
 msgstr "Couchbaseサーバー"
 
@@ -14263,7 +14300,7 @@ msgstr "ファイルの数、サイズ、および経過時間(Linux、Windows)"
 msgid "Count, size and age of files - mk_filestat (Linux)"
 msgstr "ファイルの数、サイズ、および経過時間 - mk_filestat (Linux)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1814
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1815
 msgid "Counter"
 msgstr "カウンター"
 
@@ -14603,8 +14640,8 @@ msgstr "次のパラメータを使用して通知を作成します"
 msgid "Create package"
 msgstr "パッケージを作成する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1533
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1536
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1534
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1537
 msgid "Create random monitoring data"
 msgstr "ランダムな監視データを作成する"
 
@@ -14951,7 +14988,7 @@ msgstr "重要な領域"
 
 #: ../cmk/gui/cee/plugins/metrics/historic.py:210
 #: ../cmk/gui/cee/plugins/sla/sla_computation.py:56
-#: ../cmk/gui/plugins/wato/datasource_programs.py:939
+#: ../cmk/gui/plugins/wato/datasource_programs.py:940
 #: ../cmk/gui/plugins/wato/utils/__init__.py:929
 #: ../cmk/gui/plugins/wato/utils/__init__.py:938
 #: ../cmk/gui/plugins/wato/utils/__init__.py:947
@@ -15715,7 +15752,7 @@ msgid "Critical at usage of"
 msgstr "の使用時に重要"
 
 #: ../cmk/gui/availability.py:254
-#: ../cmk/gui/plugins/wato/datasource_programs.py:932
+#: ../cmk/gui/plugins/wato/datasource_programs.py:933
 #: ../cmk/gui/plugins/wato/active_checks.py:685
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:86
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:743
@@ -16283,19 +16320,19 @@ msgstr "カスタムSQL"
 msgid "Custom Time Span:"
 msgstr "カスタムタイムスパン:"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:85
-#: ../cmk/gui/plugins/wato/datasource_programs.py:546
-#: ../cmk/gui/plugins/wato/datasource_programs.py:665
+#: ../cmk/gui/plugins/wato/datasource_programs.py:86
+#: ../cmk/gui/plugins/wato/datasource_programs.py:547
+#: ../cmk/gui/plugins/wato/datasource_programs.py:666
 #: ../cmk/gui/plugins/dashboard/custom_url.py:29
 msgid "Custom URL"
 msgstr "カスタムURL"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:122
+#: ../cmk/gui/plugins/wato/datasource_programs.py:123
 msgid "Custom URL prefix"
 msgstr "カスタムURLプレフィックス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:89
-#: ../cmk/gui/plugins/wato/datasource_programs.py:669
+#: ../cmk/gui/plugins/wato/datasource_programs.py:90
+#: ../cmk/gui/plugins/wato/datasource_programs.py:670
 msgid "Custom URL server address"
 msgstr "カスタムURLサーバーアドレス"
 
@@ -16378,7 +16415,7 @@ msgstr "サービスアラートのカスタムインシデントサマリー"
 msgid "Custom input state mapping"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:290
+#: ../cmk/gui/plugins/wato/datasource_programs.py:291
 msgid "Custom integrations"
 msgstr "カスタム統合"
 
@@ -16407,12 +16444,12 @@ msgstr "ユーザー %s のカスタム通知テーブル"
 msgid "Custom notification table of this user"
 msgstr "このユーザーのカスタム通知テーブル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:135
-#: ../cmk/gui/plugins/wato/datasource_programs.py:495
+#: ../cmk/gui/plugins/wato/datasource_programs.py:136
+#: ../cmk/gui/plugins/wato/datasource_programs.py:496
 msgid "Custom path prefix"
 msgstr "カスタムパスプレフィックス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3507
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3681
 msgid "Custom search query"
 msgstr "カスタム検索クエリ"
 
@@ -16651,7 +16688,7 @@ msgstr "ビューをカスタマイズする"
 msgid "Customized"
 msgstr "カスタマイズ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1150
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1151
 msgid "Cut everything after first space"
 msgstr "最初のスペースの後にすべてをカットします"
 
@@ -16663,7 +16700,7 @@ msgstr "DATAPROXY - スロットルされたサーバー接続"
 msgid "DB Connections"
 msgstr "DB接続"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1807
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1808
 msgid "DB Number"
 msgstr "DB番号"
 
@@ -16748,7 +16785,7 @@ msgstr "DB2メモリー使用量"
 msgid "DD.MM.YYYY"
 msgstr "DD.MM.YYYY"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:355
+#: ../cmk/gui/plugins/wato/datasource_programs.py:356
 msgid "DDN S2A"
 msgstr "DDN S2A"
 
@@ -16969,8 +17006,8 @@ msgstr "DRBDは次のように表示されます"
 msgid "DROP"
 msgstr "ドロップ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:598
-#: ../cmk/gui/plugins/wato/datasource_programs.py:767
+#: ../cmk/gui/plugins/wato/datasource_programs.py:599
+#: ../cmk/gui/plugins/wato/datasource_programs.py:768
 msgid "Daemon sets"
 msgstr "デーモンセット"
 
@@ -17269,6 +17306,30 @@ msgstr ""
 msgid "Datacenter %d"
 msgstr "データセンター %d"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3360
+#, fuzzy
+#| msgid "Data"
+msgid "Datadog"
+msgstr "データ"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3366
+#, fuzzy
+#| msgid "DB instances"
+msgid "Datadog instance"
+msgstr "DBインスタンス"
+
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:71
+#, fuzzy
+#| msgid "Do not monitor"
+msgid "Datadog monitor"
+msgstr "監視しない"
+
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:100
+#, fuzzy
+#| msgid "Escape HTML codes in service output"
+msgid "Datadog tags shown in service output"
+msgstr "サービス出力でHTMLコードをエスケープする"
+
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:76
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:78
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:79
@@ -17303,11 +17364,11 @@ msgstr "データソース: %s"
 msgid "Datastore Name"
 msgstr "データストア名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1078
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1079
 msgid "Datastores"
 msgstr "データストア"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1831
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1832
 msgid "Datatype"
 msgstr "データ・タイプ"
 
@@ -17347,7 +17408,7 @@ msgstr "日付範囲"
 msgid "Date/Time"
 msgstr "日付/時刻"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1805
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1806
 msgid "Datenbaustein"
 msgstr "ダテンバウスタイン"
 
@@ -17375,13 +17436,13 @@ msgstr "曜日(1-7、1は月曜日)"
 msgid "Day rate"
 msgstr "日割り"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2240
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2283
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2311
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2241
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2284
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2312
 msgid "Deactivate"
 msgstr "非アクティブ化"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1051
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1052
 #: ../cmk/gui/plugins/wato/notifications.py:795
 msgid "Deactivated"
 msgstr "非アクティブ化"
@@ -17539,7 +17600,7 @@ msgstr "デフォルトは22です。"
 msgid "Default is 389 for normal connections and 636 for SSL connections."
 msgstr "デフォルトは、通常の接続の場合は389、SSL接続の場合は636です。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3173
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3174
 msgid "Default is Windows authentication"
 msgstr "デフォルトはWindows認証です"
 
@@ -17733,11 +17794,11 @@ msgid ""
 "single input."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3255
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3256
 msgid "Defines what information to query."
 msgstr "クエリする情報を定義します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2976
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2977
 msgid ""
 "Defines what information to query. Checks for Cluster, Indices and Shard "
 "statistics follow soon."
@@ -17745,7 +17806,7 @@ msgstr ""
 "クエリする情報を定義します。クラスター、インデックス、シャードの統計のチェッ"
 "クがすぐに続きます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3576
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3750
 msgid ""
 "Defines what information to query. You can choose between the cluster, "
 "nodes, vhosts and queues."
@@ -17753,7 +17814,7 @@ msgstr ""
 "クエリする情報を定義します。クラスター、ノード、vhost、キューから選択できま"
 "す。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3133
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3134
 msgid ""
 "Defines what information to query. You can choose between the instance "
 "state, job states, node states and the job queue."
@@ -17761,7 +17822,7 @@ msgstr ""
 "クエリする情報を定義します。インスタンス状態、ジョブ状態、ノード状態、および"
 "ジョブキューから選択できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3043
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3044
 msgid ""
 "Defines what information to query. You can choose to query license state and "
 "usage, Splunk system messages, Splunk jobs, shown in the job menu within "
@@ -18603,7 +18664,7 @@ msgstr ""
 "ホスト %s のデプロイメントステータスが破損しています。Check_MK-Serverの %s に"
 "ある対応するファイルを削除し、ホスト %s を再登録することを検討してください"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:595
+#: ../cmk/gui/plugins/wato/datasource_programs.py:596
 msgid "Deployments"
 msgstr "展開"
 
@@ -18895,7 +18956,7 @@ msgstr "デバイスを利用できません"
 msgid "Devices"
 msgstr "デバイス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1943
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1944
 msgid "Devices to fetch information from"
 msgstr "情報をフェッチするデバイス"
 
@@ -19113,9 +19174,9 @@ msgstr "通知を無効にする"
 
 #: ../cmk/gui/cee/plugins/wato/ntop.py:84
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:373
-#: ../cmk/gui/plugins/wato/datasource_programs.py:376
-#: ../cmk/gui/plugins/wato/datasource_programs.py:429
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1773
+#: ../cmk/gui/plugins/wato/datasource_programs.py:377
+#: ../cmk/gui/plugins/wato/datasource_programs.py:430
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1774
 msgid "Disable SSL certificate validation"
 msgstr "SSL証明書の検証を無効にする"
 
@@ -19398,6 +19459,12 @@ msgstr "DiscoveryとCheckmkの設定"
 msgid "Discovery mode"
 msgstr "ディスカバリーモード"
 
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:55
+#, fuzzy
+#| msgid "Discovery of empty DHCP pools"
+msgid "Discovery of Datadog monitors"
+msgstr "空のDHCPプールの検出"
+
 #: ../cmk/gui/plugins/wato/check_parameters/win_dhcp_pools.py:34
 msgid "Discovery of empty DHCP pools"
 msgstr "空のDHCPプールの検出"
@@ -19431,8 +19498,8 @@ msgstr "ディスクI / O操作"
 msgid "Disk ID"
 msgstr "ディスクID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:731
-#: ../cmk/gui/plugins/wato/datasource_programs.py:855
+#: ../cmk/gui/plugins/wato/datasource_programs.py:732
+#: ../cmk/gui/plugins/wato/datasource_programs.py:856
 msgid "Disk IO"
 msgstr "ディスクIO"
 
@@ -19522,7 +19589,7 @@ msgstr "ディスク書き込みの待ち時間"
 msgid "Disk/Drive type"
 msgstr "ディスク/ドライブタイプ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1414
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1415
 #: ../cmk/gui/plugins/metrics/storage.py:896
 msgid "Disks"
 msgstr "ディスク"
@@ -19552,7 +19619,7 @@ msgstr "ホストのサービスを発見"
 msgid "Display"
 msgstr "表示"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1102
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1103
 msgid "Display ESX Host power state on"
 msgstr "ESXホストの電源状態をオンに表示"
 
@@ -19584,7 +19651,7 @@ msgstr "各要件のSLAサブ結果を表示する"
 msgid "Display SLA timerange and period in table header"
 msgstr "テーブルヘッダーにSLAの時間範囲と期間を表示する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1112
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1113
 msgid "Display VM power state <i>additionally</i> on"
 msgstr "VMの電源状態を<i>さらに</i>表示する"
 
@@ -19674,7 +19741,7 @@ msgstr "エントリの表示モード"
 msgid "Display name"
 msgstr "表示名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3277
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3278
 msgid "Display node details on"
 msgstr "にノードの詳細を表示する"
 
@@ -19690,15 +19757,15 @@ msgstr "すべてのトランザクションログの要約のみを表示しま
 msgid "Display range: Minimum must be strictly less than maximum"
 msgstr "表示範囲:最小値は厳密に最大値より小さくする必要があります"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3288
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3289
 msgid "Display sidecar details on"
 msgstr "サイドカーの詳細を表示する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1128
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1129
 msgid "Display snapshot summary on ESX hosts"
 msgstr "ESXホストでスナップショットの概要を表示する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3299
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3300
 msgid "Display source details on"
 msgstr "ソースの詳細を表示する"
 
@@ -19907,7 +19974,7 @@ msgstr "アクションをキャンセルする"
 msgid "Do hardware/software inventory"
 msgstr "ハードウェア/ソフトウェアのインベントリを行う"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1091
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1092
 msgid "Do no monitor placeholder VMs"
 msgstr "プレースホルダーVMsを監視しない"
 
@@ -20362,7 +20429,7 @@ msgstr "アクションを実行せず、このメッセージをドロップし
 msgid "Do not perform periodic service discovery check"
 msgstr "定期的なサービス検出チェックを実行しないでください"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1301
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1302
 msgid "Do not query volume performance counters"
 msgstr "ボリュームパフォーマンスカウンターを照会しないでください"
 
@@ -20402,11 +20469,11 @@ msgstr "コンテキストを転送しない"
 msgid "Do not translate SNMP traps"
 msgstr "SNMPトラップを変換しないでください"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2621
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2622
 msgid "Do not use 'aws:' prefix for the key."
 msgstr "キーに'aws:' プレフィックスを使用しないでください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2632
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2633
 msgid "Do not use 'aws:' prefix for the values."
 msgstr "値に\"aws:\"プレフィックスを使用しないでください。"
 
@@ -20849,12 +20916,12 @@ msgstr "\"失敗したアクション\"が存在する場合は表示または�
 msgid "Don't use HTTP header authentication"
 msgstr "HTTPヘッダー認証を使用しないでください"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:423
+#: ../cmk/gui/plugins/wato/datasource_programs.py:424
 msgid "Don't use TLS/SSL/Https (unsecure)"
 msgstr "TLS/SSL/Httpsを使用しないでください(安全ではありません)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:579
-#: ../cmk/gui/plugins/wato/datasource_programs.py:654
+#: ../cmk/gui/plugins/wato/datasource_programs.py:580
+#: ../cmk/gui/plugins/wato/datasource_programs.py:655
 msgid "Don't use a namespace prefix"
 msgstr "名前空間プレフィックスを使用しないでください"
 
@@ -20878,7 +20945,7 @@ msgstr "ドキュメントの本文を待たないでください"
 msgid "DotNet (.Net) runtime memory levels"
 msgstr "DotNet (.Net)ランタイムメモリレベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1833
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1834
 msgid "Double Integer (DINT)"
 msgstr "二重整数(DINT)"
 
@@ -21228,7 +21295,7 @@ msgstr "動的レベル - 下限"
 msgid "Dynamic levels - upper bound"
 msgstr "動的レベル - 上限"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2856
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2857
 msgid "DynamoDB"
 msgstr "DynamoDB"
 
@@ -21241,7 +21308,7 @@ msgstr "Eメール"
 msgid "E.Type"
 msgstr "E.Type"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3457
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3631
 msgid "E.g. 'project = my_project and result = \"waiting for something\"'"
 msgstr "例 'project = my_project and result = \"何かを待っています\"'"
 
@@ -21257,11 +21324,11 @@ msgstr "EMC ScaleIO"
 msgid "EMC VNX Enclosures"
 msgstr "EMC VNXエンクロージャ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1393
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1394
 msgid "EMC VNX admin user name"
 msgstr "EMC VNX管理者ユーザー名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1407
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1408
 msgid "EMC VNX admin user password"
 msgstr "EMC VNX管理者ユーザーのパスワード"
 
@@ -21285,7 +21352,7 @@ msgstr "EMC VNXストレージプールの対象層"
 msgid "EMC VNX storage pools tiering"
 msgstr "EMC VNXストレージプールの階層化"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1385
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1386
 msgid "EMC VNX storage systems"
 msgstr "EMC VNXストレージシステム"
 
@@ -21367,7 +21434,7 @@ msgstr ""
 msgid "Each attribute may be specified only once."
 msgstr "各属性は1回だけ指定できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:985
+#: ../cmk/gui/plugins/wato/datasource_programs.py:986
 msgid "Each metric must be unique for a service"
 msgstr "各メトリックは、サービスに対して一意である必要があります"
 
@@ -21424,7 +21491,7 @@ msgid ""
 msgstr ""
 "各タググループは、ホスト設定で1つのドロップダウンの選択肢を作成します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2619
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2620
 msgid "Each tag must be unique and cannot be used multiple times"
 msgstr "各タグは一意である必要があり、複数回使用することはできません"
 
@@ -21910,11 +21977,11 @@ msgstr ""
 msgid "Elapsed time"
 msgstr "経過時間"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2772
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2773
 msgid "Elastic Block Storage (EBS)"
 msgstr "Elastic Block Storage(EBS)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2762
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2763
 msgid "Elastic Compute Cloud (EC2)"
 msgstr "Elastic Compute Cloud(EC2)"
 
@@ -21922,7 +21989,7 @@ msgstr "Elastic Compute Cloud(EC2)"
 msgid "Elastic IP Addresses"
 msgstr "Elastic IPアドレス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2938
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2939
 msgid "Elasticsearch"
 msgstr "Elasticsearch"
 
@@ -22094,13 +22161,13 @@ msgstr "リモートサイトからの空の出力。"
 msgid "Empty response from web service"
 msgstr "Webサービスからの空の応答"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1235
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1236
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1237
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1238
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1239
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1241
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1357
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1240
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1242
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1358
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:90
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:101
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:162
@@ -22465,11 +22532,11 @@ msgstr "Enc-Outs"
 msgid "Enclosure ID"
 msgstr "エンクロージャーID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1498
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1499
 msgid "Enclosure Stats"
 msgstr "エンクロージャー統計"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1497
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1498
 msgid "Enclosures"
 msgstr "エンクロージャー"
 
@@ -22578,7 +22645,7 @@ msgstr "すぐに終了します"
 msgid "Ending pre-emptivley"
 msgstr "プリエンプティブリーの終了"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:597
+#: ../cmk/gui/plugins/wato/datasource_programs.py:598
 msgid "Endpoints"
 msgstr "エンドポイント"
 
@@ -22639,7 +22706,7 @@ msgstr "エンジンIDs(SNMPv3にのみ必要)"
 msgid "English"
 msgstr "English"
 
-#: ../cmk/utils/man_pages.py:401
+#: ../cmk/utils/man_pages.py:402
 msgid "Enter"
 msgstr "入る"
 
@@ -22651,7 +22718,7 @@ msgstr ""
 "通知するユーザーIDのリストをここに入力します。これらのユーザーは、通知を受け"
 "るために少なくとも1つの連絡先グループのメンバーである必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1985
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1986
 msgid "Enter address"
 msgstr "住所を入力してください"
 
@@ -22667,7 +22734,7 @@ msgstr "レイアウトモードに入る"
 msgid "Enter the exit code as 10-digit, lower case hex value, e.g. 0x00000000."
 msgstr "終了コードを10桁の小文字の16進値(0x00000000など)で入力します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3369
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3543
 msgid ""
 "Enter the full name of the project here. You can find the name in Jira "
 "within \"Projects\" - \"View all projects\" - column: \"Project\". This "
@@ -22705,7 +22772,7 @@ msgid ""
 "description)."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3382
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3556
 msgid "Enter the workflow name for the project here. E.g. \"in progress\"."
 msgstr "ここにプロジェクトのワークフロー名を入力します。例:\"進行中\"。"
 
@@ -22761,7 +22828,7 @@ msgstr "資格"
 msgid "Entity"
 msgstr "エンティティ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:787
+#: ../cmk/gui/plugins/wato/datasource_programs.py:788
 msgid "Entity level used to create Checkmk piggyback hosts"
 msgstr ""
 
@@ -23073,7 +23140,7 @@ msgstr "イベント ID"
 msgid "Event Icons"
 msgstr "イベントアイコン"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1494
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1495
 msgid "Event Log"
 msgstr "イベントログ"
 
@@ -23303,7 +23370,7 @@ msgstr "構成の変更履歴を調べます"
 msgid "Example Configurations"
 msgstr "構成例"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:924
+#: ../cmk/gui/plugins/wato/datasource_programs.py:925
 msgid "Example PromQL query: up{job=\"node_exporter\"}"
 msgstr "PromQLクエリの例: up{job=\"node_exporter\"}"
 
@@ -23819,7 +23886,7 @@ msgstr "明示的な垂直範囲"
 msgid "Explicit, ruleset, discovered"
 msgstr "明示的、ルールセット、発見"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:712
+#: ../cmk/gui/plugins/wato/datasource_programs.py:713
 msgid "Explicitly map Node Exporter host"
 msgstr "Node Exporterホストを明示的にマップします"
 
@@ -23831,7 +23898,7 @@ msgstr "フォルダに明示的に設定"
 msgid "Explicitly set on hosts"
 msgstr "ホストに明示的に設定"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2359
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2360
 msgid "Explicitly specify resources"
 msgstr "リソースを明示的に指定する"
 
@@ -23906,7 +23973,7 @@ msgstr "エクステント"
 msgid "External"
 msgstr "外部"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2733
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2734
 msgid "External ID (optional)"
 msgstr "外部ID(オプション)"
 
@@ -23966,7 +24033,7 @@ msgstr "ハードウェアデバイスのファン速度"
 msgid "FAULTED"
 msgstr "故障"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1495
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1496
 msgid "FC Ports"
 msgstr "FCポート"
 
@@ -24083,7 +24150,7 @@ msgstr "失敗した接続"
 msgid "Failed disk"
 msgstr "故障したディスク"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3260
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3261
 msgid "Failed index operations"
 msgstr "失敗したインデックス操作"
 
@@ -24510,6 +24577,19 @@ msgstr "利用可能なすべてのサブOIDを取得します"
 msgid "Fetch chunked"
 msgstr "チャンクをフェッチ"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3432
+#, fuzzy
+#| msgid "Fetch every"
+msgid "Fetch events"
+msgstr "すべてをフェッチ"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3433
+msgid ""
+"Fetch events from the event stream of your datadog instance. Fetched events "
+"will be forwared to the event console of the site where the special agent is "
+"executed."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4968
 msgid "Fetch every"
 msgstr "すべてをフェッチ"
@@ -24529,6 +24609,18 @@ msgstr "フェッチヘッド"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4943
 msgid "Fetch intervals for SNMP sections"
 msgstr "SNMPセクションのフェッチ間隔"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3397
+#, fuzzy
+#| msgid "monitor"
+msgid "Fetch monitors"
+msgstr "モニター"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3399
+msgid ""
+"Fetch monitors from your datadog instance. Fetched monitors will be "
+"discovered as services on the host where the special agent is executed."
+msgstr ""
 
 #: ../cmk/gui/plugins/metrics/varnish.py:80
 msgid "Fetch no body (1xx)"
@@ -24610,8 +24702,8 @@ msgstr "ファイバチャネルインターフェイス"
 msgid "Field"
 msgstr "フィールド"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3477
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3493
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3651
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3667
 msgid "Field Name: "
 msgstr "フィールド名: "
 
@@ -24771,7 +24863,7 @@ msgstr "ファイラーディスクレベル(NetApp、IBM SVC)"
 msgid "Files"
 msgstr "ファイル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:857
+#: ../cmk/gui/plugins/wato/datasource_programs.py:858
 msgid "Filesystem"
 msgstr "ファイルシステム"
 
@@ -24819,7 +24911,7 @@ msgstr "無視するファイルシステムの種類"
 msgid "Filesystem usage"
 msgstr "ファイルシステムの使用法"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:730
+#: ../cmk/gui/plugins/wato/datasource_programs.py:731
 msgid "Filesystems"
 msgstr "ファイルシステム"
 
@@ -24862,7 +24954,7 @@ msgstr "フィルタ/検索"
 msgid "Filter Host"
 msgstr "フィルターホスト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2574
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2575
 msgid "Filter aggregations"
 msgstr "集計をフィルタリングする"
 
@@ -25278,8 +25370,8 @@ msgstr "フォントサイズ"
 msgid "Foobar-Daemon"
 msgstr "Foobar-デーモン"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:801
-#: ../cmk/gui/plugins/wato/datasource_programs.py:830
+#: ../cmk/gui/plugins/wato/datasource_programs.py:802
+#: ../cmk/gui/plugins/wato/datasource_programs.py:831
 msgid ""
 "For Containers - Choose which identifier is used for the monitored "
 "containers. This will affect the name used for the piggyback host "
@@ -25344,7 +25436,7 @@ msgstr ""
 "ン、スラッシュ(<tt>C:/</tt>など)、Linux/UNIXではデバイス名(<tt>/dev/sdaなど)"
 "で指定されます。</ tt>)。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:326
+#: ../cmk/gui/plugins/wato/datasource_programs.py:327
 msgid ""
 "For agent based checks Check_MK allows you to specify an alternative program "
 "that should be called by Check_MK instead of connecting the agent via TCP. "
@@ -25524,7 +25616,7 @@ msgstr "このホストの場合"
 msgid "For this service"
 msgstr "このサービスの場合"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:775
+#: ../cmk/gui/plugins/wato/datasource_programs.py:776
 msgid ""
 "For your Kubernetes cluster select for which entity levels you would like to "
 "retrieve information about. Piggyback hosts for the respective entities will "
@@ -25533,8 +25625,8 @@ msgstr ""
 "Kubernetesクラスターについて、情報を取得するエンティティレベルを選択します。"
 "それぞれのエンティティのピギーバックホストが作成されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:739
-#: ../cmk/gui/plugins/wato/datasource_programs.py:865
+#: ../cmk/gui/plugins/wato/datasource_programs.py:740
+#: ../cmk/gui/plugins/wato/datasource_programs.py:866
 msgid ""
 "For your respective kernel select the hardware or OS entity you would like "
 "to retrieve information about."
@@ -25544,7 +25636,7 @@ msgstr ""
 msgid "Forbid to see the whole tree"
 msgstr "ツリー全体を表示することを禁止する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2458
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2459
 msgid "Force agent to run in single thread"
 msgstr "エージェントを強制的にシングルスレッドで実行する"
 
@@ -25940,7 +26032,7 @@ msgstr ""
 msgid "Friday"
 msgstr "金曜日"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1581
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1582
 msgid "Fritz!Box Devices"
 msgstr ""
 
@@ -26142,11 +26234,11 @@ msgstr "ゲートウェイ"
 msgid "Gateway route"
 msgstr "ゲートウェイルート"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2845
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2846
 msgid "Gather all"
 msgstr "すべてを集める"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2664
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2665
 msgid "Gather all service instances and restrict by overall AWS tags"
 msgstr "すべてのサービスインスタンスを収集し、AWSタグ全体で制限します"
 
@@ -26339,7 +26431,7 @@ msgstr "グローバル通知ルール"
 msgid "Global notification rules"
 msgstr "グローバル通知ルール"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2745
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2746
 msgid "Global services to monitor"
 msgstr "監視するグローバルサービス"
 
@@ -26561,7 +26653,7 @@ msgstr "説明付きのサービスのグラフ:"
 msgid "Graphs per notification (default: 5)"
 msgstr "通知ごとのグラフ(デフォルト: 5)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3200
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3201
 msgid "Graylog"
 msgstr "Graylog"
 
@@ -26589,7 +26681,7 @@ msgstr "グレイログクラスタートラフィック"
 msgid "Graylog index failures"
 msgstr "グレイログインデックスの失敗"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3207
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3208
 msgid "Graylog instance to query"
 msgstr "クエリするGraylogインスタンス"
 
@@ -26817,7 +26909,7 @@ msgstr "HH:MM:SS"
 msgid "HP MSA Power Supply Voltage Levels"
 msgstr "HPMSA電源電圧レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1190
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1191
 msgid "HP MSA via Web Interface"
 msgstr "Webインターフェイスを介したHP MSA"
 
@@ -26829,11 +26921,11 @@ msgstr "HPスイッチモジュールの状態"
 msgid "HP-UX Multipath Count"
 msgstr "HP-UXマルチパスカウント"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2272
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2273
 msgid "HPE StoreOnce"
 msgstr "HPE StoreOnce"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2299
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2300
 msgid "HPE StoreOnce via REST API 4.x"
 msgstr "REST API 4.xを介したHPE StoreOnce"
 
@@ -26880,12 +26972,12 @@ msgid "HTTP Basic"
 msgstr "HTTPベーシック"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:86
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2109
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2110
 msgid "HTTP Basic Authentication"
 msgstr "HTTP基本認証"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:87
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2110
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2111
 #: ../cmk/gui/plugins/wato/active_checks.py:1766
 msgid "HTTP Digest"
 msgstr "HTTPダイジェスト"
@@ -27131,7 +27223,7 @@ msgstr "ハードドライブのスピン再試行"
 msgid "Harddrive uncorrectable errors"
 msgstr "ハードドライブの修正不可能なエラー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:305
+#: ../cmk/gui/plugins/wato/datasource_programs.py:306
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:32
 msgid "Hardware"
 msgstr "ハードウェア"
@@ -27156,7 +27248,7 @@ msgstr "OpenHardwareMonitorを介したハードウェアセンサー"
 msgid "Hardware corrupted memory"
 msgstr "ハードウェアが破損したメモリ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1416
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1417
 msgid "Hardware status"
 msgstr "ハードウェアステータス"
 
@@ -27214,7 +27306,7 @@ msgstr ""
 msgid "Headings"
 msgstr "見出し"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3053
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3054
 #: ../cmk/gui/plugins/metrics/environment.py:85
 msgid "Health"
 msgstr "健康"
@@ -27439,7 +27531,7 @@ msgstr ""
 "ここで、RRDファイルの作成がログに記録されるかどうかとその方法を構成できます"
 "(ログファイルvar/log/cmc.logに)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1305
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1306
 msgid ""
 "Here you can configure whether the performance counters should get queried. "
 "This can save quite a lot of CPU load on larger systems."
@@ -27497,7 +27589,7 @@ msgstr ""
 "ここでは、状態に応じて表示されるサービスを構成できます。これは、クエリレベル"
 "ではなく表示レベルのフィルタです。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2506
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2507
 #: ../cmk/gui/plugins/wato/active_checks.py:1751
 msgid ""
 "Here you can configured the credentials to be used. Keep in mind that the "
@@ -27636,14 +27728,14 @@ msgstr ""
 msgid "Here you can define which protocol to use, default is https."
 msgstr "ここで、使用するプロトコルを定義できます。デフォルトはhttpsです。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3482
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3656
 msgid ""
 "Here you can define, how many search results should be processed. The max. "
 "internal limit of Jira is 1000 results. If you want to ignore any limit, set "
 "-1 here. Default is 50."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3466
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3640
 msgid ""
 "Here you can define, what search result should be used. You can show the "
 "number of search results (count) or the summed up or average values of a "
@@ -27789,7 +27881,7 @@ msgstr ""
 "ここで、新しい問題のカスタムラベルを設定できます。設定されていない場合、\"監"
 "視\"が使用されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1978
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1979
 msgid "Here you can set a manual address if the server differs from the host"
 msgstr "サーバーがホストと異なる場合は、ここで手動アドレスを設定できます"
 
@@ -28494,7 +28586,7 @@ msgstr "ホストのプロパティ"
 msgid "Host Status Grouping"
 msgstr "ホストステータスのグループ化"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1076
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1077
 msgid "Host Systems"
 msgstr "ホストシステム"
 
@@ -28818,8 +28910,8 @@ msgid "Host monitoring rules"
 msgstr "ホスト監視ルール"
 
 #: ../cmk/gui/wato/pages/rulesets.py:2135
-#: ../cmk/gui/plugins/wato/datasource_programs.py:83
-#: ../cmk/gui/plugins/wato/datasource_programs.py:664
+#: ../cmk/gui/plugins/wato/datasource_programs.py:84
+#: ../cmk/gui/plugins/wato/datasource_programs.py:665
 #: ../cmk/gui/plugins/metrics/valuespecs.py:77
 #: ../cmk/gui/plugins/views/sorters.py:116
 msgid "Host name"
@@ -28830,8 +28922,8 @@ msgid "Host name (as sent by syslog)"
 msgstr "ホスト名(syslogによって送信される)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:121
-#: ../cmk/gui/plugins/wato/datasource_programs.py:799
-#: ../cmk/gui/plugins/wato/datasource_programs.py:828
+#: ../cmk/gui/plugins/wato/datasource_programs.py:800
+#: ../cmk/gui/plugins/wato/datasource_programs.py:829
 msgid "Host name used for containers"
 msgstr "コンテナに使用されるホスト名"
 
@@ -29097,7 +29189,7 @@ msgstr "ホストグループ、統合"
 #: ../cmk/gui/wato/pages/bulk_import.py:460 ../cmk/gui/wato/mkeventd.py:4202
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap.py:62
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:1145
-#: ../cmk/gui/plugins/wato/datasource_programs.py:536
+#: ../cmk/gui/plugins/wato/datasource_programs.py:537
 #: ../cmk/gui/plugins/wato/active_checks.py:403
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:489
 #: ../cmk/gui/plugins/sidebar/search.py:981
@@ -29157,7 +29249,7 @@ msgstr "イベントコンソールのホスト名/ IPアドレス:"
 msgid "Hostname/IP address of Master Event Console:"
 msgstr "マスターイベントコンソールのホスト名/ IPアドレス:"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2943
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2944
 msgid "Hostnames to query"
 msgstr "クエリするホスト名"
 
@@ -29194,7 +29286,7 @@ msgstr "解決するホスト名"
 msgid "Hosts"
 msgstr "ホスト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1486
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1487
 msgid "Hosts Connected"
 msgstr "接続されているホスト"
 
@@ -29407,16 +29499,16 @@ msgid "Hour of the day (0-23)"
 msgstr "その日の時間(0-23)"
 
 #: ../cmk/gui/availability.py:306
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1858
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1859
 msgid "Hours"
 msgstr "時間"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1856
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1857
 #: ../cmk/gui/plugins/metrics/application.py:120
 msgid "Hours of operation"
 msgstr "営業時間"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1857
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1858
 #: ../cmk/gui/plugins/metrics/application.py:126
 msgid "Hours since service"
 msgstr "サービスからの時間"
@@ -29450,7 +29542,7 @@ msgstr ""
 "ディスクの名前の付け方は、使用しているハードウェアの種類によって異なります。"
 "例については、すでに検出されたチェックを参照してください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2637
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2638
 msgid ""
 "How to configure AWS tags please see https://docs.aws.amazon.com/AWSEC2/"
 "latest/UserGuide/Using_Tags.html"
@@ -29466,7 +29558,7 @@ msgstr "リダイレクトの処理方法"
 msgid "How to notify"
 msgstr "通知方法"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2435
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2436
 #, python-format
 msgid ""
 "However, since Microsoft limits API calls to %s per hour (%s per minute), "
@@ -29593,11 +29685,11 @@ msgstr "IBM MQキュー"
 msgid "IBM SVC / Storwize V3700 / V7000: Status and Usage of MDisksGrps"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1454
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1455
 msgid "IBM SVC / V7000 storage systems"
 msgstr "IBM SVC / V7000ストレージシステム"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1466
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1467
 msgid "IBM SVC / V7000 user name"
 msgstr ""
 
@@ -29774,7 +29866,7 @@ msgstr "INotifyレベル"
 msgid "INotify Operation"
 msgstr "INotify操作"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1490
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1491
 msgid "IO Groups"
 msgstr "IOグループ"
 
@@ -29783,8 +29875,8 @@ msgid "IO Latency"
 msgstr "IOレイテンシー"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/nginx_status.py:54
-#: ../cmk/gui/plugins/wato/datasource_programs.py:84
-#: ../cmk/gui/plugins/wato/datasource_programs.py:663
+#: ../cmk/gui/plugins/wato/datasource_programs.py:85
+#: ../cmk/gui/plugins/wato/datasource_programs.py:664
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:982
 msgid "IP Address"
 msgstr "IPアドレス"
@@ -29815,7 +29907,7 @@ msgstr "IPプレフィックス"
 
 #: ../cmk/gui/wato/pages/host_diagnose.py:154 ../cmk/gui/wato/mkeventd.py:4203
 #: ../cmk/gui/cee/ntop/pages.py:400
-#: ../cmk/gui/plugins/wato/datasource_programs.py:541
+#: ../cmk/gui/plugins/wato/datasource_programs.py:542
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:567
 #: ../cmk/gui/plugins/views/painters.py:2485
 msgid "IP address"
@@ -29874,7 +29966,7 @@ msgstr "IPMI"
 msgid "IPMI Management Board"
 msgstr "IPMIマネージメントボード"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1271
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1272
 msgid "IPMI Sensors via Freeipmi or IPMItool"
 msgstr "FreeipmiまたはIPMItoolを介したIPMIセンサー"
 
@@ -29883,11 +29975,11 @@ msgstr "FreeipmiまたはIPMItoolを介したIPMIセンサー"
 msgid "IPMI credentials"
 msgstr "IPMI資格情報"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1232
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1233
 msgid "IPMI driver"
 msgstr "IPMIドライバー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1233
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1234
 msgid "IPMI driver type"
 msgstr "IPMIドライバータイプ"
 
@@ -30033,7 +30125,7 @@ msgstr "ステータスGUIのサービスのアイコン画像"
 msgid "Icons"
 msgstr "アイコン"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1869
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1870
 msgid "Ident of the value"
 msgstr "値のID"
 
@@ -30099,8 +30191,8 @@ msgstr ""
 "できます。これにより、Checkmkサイトおよびエージェントの更新プロセス中に上記の"
 "警告を減らすことができます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:583
-#: ../cmk/gui/plugins/wato/datasource_programs.py:647
+#: ../cmk/gui/plugins/wato/datasource_programs.py:584
+#: ../cmk/gui/plugins/wato/datasource_programs.py:648
 msgid ""
 "If a cluster uses multiple namespaces you need to activate this option. "
 "Hosts for namespaced Kubernetes objects will then be prefixed with the name "
@@ -30270,7 +30362,7 @@ msgstr ""
 "されています。必要なカウントに達しない場合、カウントはゼロにリセットされま"
 "す。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2675
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2676
 msgid ""
 "If limits are enabled all instances are fetched regardless of possibly "
 "configured restriction to names or tags"
@@ -30296,7 +30388,7 @@ msgstr ""
 "明示的な時間範囲が指定されていない場合、レポートはデフォルトでこの範囲になり"
 "ます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:492
+#: ../cmk/gui/plugins/wato/datasource_programs.py:493
 msgid "If no port is given, a default value of 443 will be used."
 msgstr "ポートが指定されていない場合、デフォルト値の443が使用されます。"
 
@@ -30800,7 +30892,7 @@ msgstr ""
 "\"ホスト名の正規表現\"または\"ホストエイリアスの正規表現\"を選択する場合は、"
 "一致グループが1つだけになる正規表現を指定する必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3245
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3246
 msgid ""
 "If you choose to query for failed index operations, use this option to set "
 "the timeframe in which failures should be covered. The check will output the "
@@ -30820,7 +30912,7 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:111
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:99
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2121
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2122
 msgid ""
 "If you do not specify a name here, then the TCP port number will be used as "
 "an instance name."
@@ -31095,7 +31187,7 @@ msgstr ""
 "ているホストに表示されます。この場合、監視対象のすべてのデータベースのSIDは一"
 "意である必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1396
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1397
 msgid ""
 "If you leave user name and password empty, the special agent tries to "
 "authenticate against the EMC VNX device by Security Files. These need to be "
@@ -31403,7 +31495,7 @@ msgstr ""
 "は、このルールを使用してチェック結果に影響を与えることができます。最良または"
 "最悪の状態から選択できます。デフォルト設定は最悪の状態です。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:517
+#: ../cmk/gui/plugins/wato/datasource_programs.py:518
 msgid ""
 "If your cluster has multiple namespaces, you can specify a list of regex "
 "patterns. Only matching namespaces will be monitored. Note that this "
@@ -31441,8 +31533,8 @@ msgstr "TLSエラーを無視する"
 msgid "Ignore acknowledged events"
 msgstr "確認済みのイベントを無視する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:151
-#: ../cmk/gui/plugins/wato/datasource_programs.py:570
+#: ../cmk/gui/plugins/wato/datasource_programs.py:152
+#: ../cmk/gui/plugins/wato/datasource_programs.py:571
 msgid "Ignore certificate errors (unsecure)"
 msgstr "証明書エラーを無視する(安全でない)"
 
@@ -31990,7 +32082,7 @@ msgstr ""
 "フォルトで無効になっています。ここで、選択したチェックタイプの新しい説明に切"
 "り替えることができます"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2791
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2792
 msgid ""
 "In order to monitor S3 request metrics you have to enable request metric "
 "monitoring in the AWS/S3 console. This is a paid feature"
@@ -32164,7 +32256,7 @@ msgstr "インバウンドメッセージ"
 msgid "Include Pattern"
 msgstr "パターンを含める"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2875
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2876
 msgid "Include WAFs in front of CloudFront resources in the monitoring"
 msgstr "モニタリングでCloudFrontリソースの前にWAFを含める"
 
@@ -32291,7 +32383,7 @@ msgstr "互換性のないワーク"
 msgid "Incomplete Calls"
 msgstr "不完全な呼び出し"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1862
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1863
 msgid "Increasing counter"
 msgstr "増加するカウンター"
 
@@ -32369,7 +32461,7 @@ msgid ""
 "events state is set to UNKNOWN."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:325
+#: ../cmk/gui/plugins/wato/datasource_programs.py:326
 msgid "Individual program call instead of agent access"
 msgstr "エージェントアクセスの代わりに個別のプログラム呼び出し"
 
@@ -32427,7 +32519,7 @@ msgstr "docker system df'出力に類似した情報"
 msgid "Information to be displayed in the email body"
 msgstr "メール本文に表示される情報"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3254
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3255
 msgid "Information to query"
 msgstr "照会する情報"
 
@@ -32436,10 +32528,10 @@ msgstr "照会する情報"
 msgid "Informational"
 msgstr "情報"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2975
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3042
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3132
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3575
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2976
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3043
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3133
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3749
 msgid "Informations to query"
 msgstr "クエリする情報"
 
@@ -32451,7 +32543,7 @@ msgstr "Informix テーブルエクステント"
 msgid "Ingress"
 msgstr "イングレス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:594
+#: ../cmk/gui/plugins/wato/datasource_programs.py:595
 msgid "Ingresses"
 msgstr "イングレス"
 
@@ -32507,7 +32599,7 @@ msgstr "インライン-SNMP"
 msgid "Innovaphone Gateway: Current Temperature"
 msgstr "Innovaphone Gateway:現在の温度"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1628
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1629
 msgid "Innovaphone Gateways"
 msgstr "Innovaphoneゲートウェイ"
 
@@ -32516,7 +32608,7 @@ msgstr "Innovaphoneゲートウェイ"
 msgid "Innovaphone Memory Usage"
 msgstr "Innovaphoneのメモリ使用量"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1810
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1811
 #: ../cmk/gui/plugins/metrics/fc.py:30
 msgid "Input"
 msgstr "入力"
@@ -32705,7 +32797,7 @@ msgstr "インスタンス識別子とリージョン"
 msgid "Instance name"
 msgstr "インスタンス名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3137
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3138
 msgid "Instance state"
 msgstr "インスタンスの状態"
 
@@ -32721,7 +32813,7 @@ msgstr ""
 msgid "Instance, tablespace & backup type"
 msgstr "インスタンス、テーブルスペース、バックアップタイプ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2331
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2332
 #: ../cmk/gui/plugins/wato/check_parameters/solaris_services.py:36
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:676
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:853
@@ -32780,11 +32872,11 @@ msgid ""
 "active checks."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:216
+#: ../cmk/gui/plugins/wato/datasource_programs.py:217
 msgid "Integrate platforms using special agents, e.g. SAP R/3"
 msgstr "SAP R/3などの特別なエージェントを使用してプラットフォームを統合する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:201
+#: ../cmk/gui/plugins/wato/datasource_programs.py:202
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1383
 msgid "Integrate with VM, cloud or container platforms"
 msgstr "VM、クラウド、またはコンテナプラットフォームと統合する"
@@ -33181,7 +33273,7 @@ msgstr "無効なキー: %s"
 msgid "Invalid login credentials."
 msgstr "ログイン資格情報が無効です。"
 
-#: ../cmk/utils/man_pages.py:323
+#: ../cmk/utils/man_pages.py:324
 msgid "Invalid man page: Failed to get the title"
 msgstr "無効なマニュアルページ: タイトルの取得に失敗しました"
 
@@ -33733,7 +33825,7 @@ msgstr "JIRA URL"
 msgid "JMX monitoring of Java JVMs using Jolokia"
 msgstr "Jolokiaを使用したJava JVMのJMXモニタリング"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3456
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3630
 msgid "JQL query: "
 msgstr "JQLクエリ: "
 
@@ -33745,7 +33837,7 @@ msgstr "JVM実行キューカウント"
 msgid "JVM garbage collection levels"
 msgstr "JVMガベージコレクションレベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3261
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3262
 msgid "JVM heap size"
 msgstr "JVMヒープサイズ"
 
@@ -33789,7 +33881,7 @@ msgstr "1月"
 msgid "Java pool size"
 msgstr "Javaプールサイズ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3093
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3094
 msgid "Jenkins instance to query."
 msgstr "クエリするJenkinsインスタンス"
 
@@ -33797,7 +33889,7 @@ msgstr "クエリするJenkinsインスタンス"
 msgid "Jenkins jobs"
 msgstr "Jenkinsのジョブ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3087
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3088
 msgid "Jenkins jobs and builds"
 msgstr "Jenkinsのジョブとビルド"
 
@@ -33813,11 +33905,11 @@ msgstr "Jenkinsキュー"
 msgid "Jira custom service"
 msgstr "Jiraカスタムサービス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3407
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3581
 msgid "Jira instance to query"
 msgstr "クエリするJiraインスタンス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3401
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3575
 msgid "Jira statistics"
 msgstr "Jira統計"
 
@@ -33825,7 +33917,7 @@ msgstr "Jira統計"
 msgid "Jira workflow"
 msgstr "Jiraワークフロー"
 
-#: ../cmk/gui/backup.py:713 ../cmk/gui/plugins/wato/datasource_programs.py:600
+#: ../cmk/gui/backup.py:713 ../cmk/gui/plugins/wato/datasource_programs.py:601
 msgid "Job"
 msgstr "ジョブ"
 
@@ -33876,7 +33968,7 @@ msgstr "ジョブ名"
 msgid "Job score"
 msgstr "ジョブスコア"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3138
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3139
 msgid "Job state"
 msgstr "ジョブの状態"
 
@@ -33889,7 +33981,7 @@ msgstr "ジョブの状態: %s"
 msgid "Job status"
 msgstr "ジョブステータス"
 
-#: ../cmk/gui/backup.py:424 ../cmk/gui/plugins/wato/datasource_programs.py:3052
+#: ../cmk/gui/backup.py:424 ../cmk/gui/plugins/wato/datasource_programs.py:3053
 msgid "Jobs"
 msgstr "ジョブ"
 
@@ -33901,7 +33993,7 @@ msgstr "ランチャーサービスの失敗に参加する"
 msgid "Joined column"
 msgstr "結合された列"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2138
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2139
 msgid "Jolokia"
 msgstr "Jolokia"
 
@@ -34039,7 +34131,7 @@ msgstr "カーネルスタック"
 
 #: ../cmk/gui/key_mgmt.py:210 ../cmk/gui/key_mgmt.py:298
 #: ../cmk/gui/key_mgmt.py:400 ../cmk/gui/key_mgmt.py:424
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2641
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2642
 msgid "Key"
 msgstr "キー"
 
@@ -34079,15 +34171,15 @@ msgstr "キーワード"
 msgid "KiB out of sync"
 msgstr "KiB 同期していません"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:779
+#: ../cmk/gui/plugins/wato/datasource_programs.py:780
 msgid "Kube state metrics"
 msgstr "Kube stateメトリック"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:746
+#: ../cmk/gui/plugins/wato/datasource_programs.py:747
 msgid "Kube-state-metrics"
 msgstr "Kube-state-metrics"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:612
+#: ../cmk/gui/plugins/wato/datasource_programs.py:613
 msgid "Kubernetes"
 msgstr "Kubernetes"
 
@@ -35348,11 +35440,11 @@ msgstr "リベルビジネスシャドウ"
 msgid "Libraries"
 msgstr "ライブラリ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3049
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3050
 msgid "Licence state"
 msgstr "ライセンスの状態"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3050
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3051
 msgid "Licence usage"
 msgstr "ライセンスの使用法"
 
@@ -35360,7 +35452,7 @@ msgstr "ライセンスの使用法"
 msgid "License Feature"
 msgstr "ライセンス機能"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1080
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1081
 msgid "License Usage"
 msgstr "ライセンスの使用法"
 
@@ -35368,7 +35460,7 @@ msgstr "ライセンスの使用法"
 msgid "License aggreement"
 msgstr "ライセンス契約"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3262
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3263
 msgid "License state"
 msgstr "ライセンスの状態"
 
@@ -35383,7 +35475,7 @@ msgstr "ライセンスの使用法"
 msgid "Licenses"
 msgstr "ライセンス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1487
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1488
 msgid "Licensing Status"
 msgstr "ライセンスステータス"
 
@@ -35437,8 +35529,8 @@ msgstr "最大数を制限する"
 msgid "Limit maximum number used cpus"
 msgstr "使用されるCPUの最大数を制限する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3481
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3497
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3655
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3671
 msgid "Limit number of processed search results"
 msgstr "処理される検索結果の数を制限する"
 
@@ -36522,7 +36614,7 @@ msgid "Login Defaults"
 msgstr "ログインのデフォルト"
 
 #: ../cmk/gui/wato/pages/sites.py:640
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2508
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2509
 #: ../cmk/gui/plugins/wato/active_checks.py:1753
 msgid "Login credentials"
 msgstr "ログイン認証情報"
@@ -36549,7 +36641,7 @@ msgid "Login is not allowed on this site."
 msgstr "このサイトへのログインは許可されていません。"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:84
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2107
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2108
 msgid "Login mode"
 msgstr "ログインモード"
 
@@ -36561,8 +36653,8 @@ msgstr "ログイン可能"
 msgid "Login session idle timeout"
 msgstr "ログインセッションのアイドルタイムアウト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:169
-#: ../cmk/gui/plugins/wato/datasource_programs.py:689
+#: ../cmk/gui/plugins/wato/datasource_programs.py:170
+#: ../cmk/gui/plugins/wato/datasource_programs.py:690
 msgid "Login username"
 msgstr "ログインユーザー名"
 
@@ -36601,8 +36693,8 @@ msgid "Logwatch Event Console Forwarding"
 msgstr "Logwatchイベントコンソール転送"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:129
-#: ../cmk/gui/plugins/wato/datasource_programs.py:811
-#: ../cmk/gui/plugins/wato/datasource_programs.py:840
+#: ../cmk/gui/plugins/wato/datasource_programs.py:812
+#: ../cmk/gui/plugins/wato/datasource_programs.py:841
 msgid "Long - Use the full docker container ID"
 msgstr "長い - 完全なDockerコンテナIDを使用します"
 
@@ -36817,7 +36909,7 @@ msgstr "準備完了メッセージの総数の下位レベル"
 msgid "Lower level for total number of unacknowledged messages"
 msgstr "未確認メッセージの総数の下位レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:929
+#: ../cmk/gui/plugins/wato/datasource_programs.py:930
 #: ../cmk/gui/plugins/wato/check_parameters/varnish_cache_hit_ratio.py:25
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:99
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:123
@@ -36968,11 +37060,11 @@ msgstr "メガバイト/秒"
 msgid "MD5 (MD5-96)"
 msgstr "MD5(MD5-96)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1488
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1489
 msgid "MDisks"
 msgstr "MDisk"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1489
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1490
 msgid "MDisksGrps"
 msgstr "MDisksGrps"
 
@@ -37475,7 +37567,7 @@ msgstr "ビューをユーザーで並べ替え可能にする"
 msgid "Makes the icon appear in the column instead of the dropdown menu."
 msgstr "ドロップダウンメニューの代わりにアイコンを列に表示します。"
 
-#: ../cmk/utils/man_pages.py:400 ../cmk/utils/man_pages.py:419
+#: ../cmk/utils/man_pages.py:401 ../cmk/utils/man_pages.py:420
 msgid "Man Page Browser"
 msgstr "マンページブラウザー"
 
@@ -37641,15 +37733,15 @@ msgstr "自動縮小ステータスをマップします"
 msgid "Map channel state to service state"
 msgstr "チャネル状態をサービス状態にマップします"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2445
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2446
 msgid "Map data relating to VMs"
 msgstr "VMsに関連するマップデータ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2452
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2453
 msgid "Map data to group host"
 msgstr "データをグループホストにマップします"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2453
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2454
 msgid "Map data to the VM itself"
 msgstr "データをVM自体にマップします"
 
@@ -37677,6 +37769,12 @@ msgstr "マップマネージャーの状態"
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_managers.py:53
 msgid "Map manager state to service state"
 msgstr "マップマネージャーからサービス状態へ"
+
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:88
+#, fuzzy
+#| msgid "Map systemd states to monitoring states"
+msgid "Map monitor states to Checkmk monitoring states"
+msgstr "systemdの状態を監視状態にマップする"
 
 #: ../cmk/gui/plugins/wato/check_parameters/vnx_quotas.py:43
 msgid "Map mount point names"
@@ -38377,7 +38475,7 @@ msgstr "成功したクエリリクエストの最大レイテンシ"
 msgid "Maximum levels if using magic factor"
 msgstr "マジックファクターを使用する場合の最大レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:389
+#: ../cmk/gui/plugins/wato/datasource_programs.py:390
 msgid "Maximum log age"
 msgstr "最大ログ経過時間"
 
@@ -38721,8 +38819,8 @@ msgid "Members of the contact group:"
 msgstr "コンタクトグループのメンバー:"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/exclude_sections.py:40
-#: ../cmk/gui/plugins/wato/datasource_programs.py:732
-#: ../cmk/gui/plugins/wato/datasource_programs.py:859
+#: ../cmk/gui/plugins/wato/datasource_programs.py:733
+#: ../cmk/gui/plugins/wato/datasource_programs.py:860
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:43
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:375
 msgid "Memory"
@@ -38892,7 +38990,7 @@ msgstr "未確認の未確認イベントがある場合はマージします"
 msgid "Merge with open event"
 msgstr "オープンイベントとマージ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1812
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1813
 msgid "Merker"
 msgstr "マーカー"
 
@@ -38920,7 +39018,7 @@ msgstr "メッセージレート"
 msgid "Message averaging"
 msgstr "メッセージの平均化"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3263
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3264
 #: ../cmk/gui/plugins/visuals/filters.py:2858
 msgid "Message count"
 msgstr "メッセージ数"
@@ -39013,7 +39111,7 @@ msgstr "メトリック履歴"
 msgid "Metric aggregation"
 msgstr "メトリック集計"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:910
+#: ../cmk/gui/plugins/wato/datasource_programs.py:911
 #: ../cmk/gui/plugins/wato/check_parameters/prometheus_custom.py:27
 msgid "Metric label"
 msgstr "メトリックのラベル"
@@ -39067,7 +39165,7 @@ msgstr "すべてゼロの値を持つメトリック"
 msgid "MiB"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2397
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2398
 msgid "Microsoft Azure"
 msgstr "Microsoft Azure"
 
@@ -39275,7 +39373,7 @@ msgstr "ミラーマージン"
 msgid "Mirror the vertical axis"
 msgstr "垂直軸をミラーリングします"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1421
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1422
 msgid "Mirror views"
 msgstr "ミラービュー"
 
@@ -39450,7 +39548,7 @@ msgstr "モデル名"
 msgid "Model Name - LEGACY, don't use"
 msgstr "モデル名 - LEGACY、使用しないでください"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1418
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1419
 msgid "Model and revsion"
 msgstr "モデルと改訂"
 
@@ -39643,7 +39741,7 @@ msgstr "モニター"
 msgid "Monitor & Graph Lanes"
 msgstr "レーンの監視とグラフ化"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2873
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2874
 msgid "Monitor CloudFront WAFs"
 msgstr "CloudFront WAFを監視する"
 
@@ -39659,7 +39757,7 @@ msgstr "見つかったすべてのインスタンスを監視する"
 msgid "Monitor and graph the lanes, if the port has multiple"
 msgstr "ポートが複数ある場合は、レーンを監視してグラフ化します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2748
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2749
 msgid "Monitor costs and usage"
 msgstr "コストと使用状況を監視する"
 
@@ -39691,15 +39789,15 @@ msgstr "ホスト上の複数のJMXインスタンスを監視します"
 msgid "Monitor multiple instances on the host"
 msgstr "ホスト上の複数のインスタンスを監視する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:514
+#: ../cmk/gui/plugins/wato/datasource_programs.py:515
 msgid "Monitor namespaces matching"
 msgstr "一致するネームスペースを監視する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2789
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2790
 msgid "Monitor request metrics"
 msgstr "リクエストのメトリックを監視する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2678
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2679
 msgid "Monitor service limits"
 msgstr "サービス制限を監視する"
 
@@ -39715,7 +39813,7 @@ msgstr "フォルダ内の特定のファイルを監視する"
 msgid "Monitor temporary Tablespace"
 msgstr "テンポラリーテーブルスペースを監視する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3439
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3613
 msgid ""
 "Monitor the number of issues for given projects and their workflows. This "
 "results in a service for each project with the number of issues per workflow."
@@ -40179,7 +40277,7 @@ msgstr ""
 "す。"
 
 #: ../cmk/gui/wato/pages/host_rename.py:321
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2530
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2531
 #: ../cmk/gui/plugins/wato/utils/__init__.py:420
 msgid "Must contain at least one subgroup <tt>(...)</tt>"
 msgstr "少なくとも1つのサブグループ<tt>(...)</tt>が含まれている必要があります"
@@ -40240,11 +40338,11 @@ msgstr "N/A"
 msgid "NA"
 msgstr "NA"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2915
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2916
 msgid "NAS DB path"
 msgstr "NASDBパス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2913
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2914
 msgid "NAS DB user name"
 msgstr "NAS DBユーザー名"
 
@@ -40414,8 +40512,8 @@ msgid "Name"
 msgstr "名前"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:130
-#: ../cmk/gui/plugins/wato/datasource_programs.py:814
-#: ../cmk/gui/plugins/wato/datasource_programs.py:843
+#: ../cmk/gui/plugins/wato/datasource_programs.py:815
+#: ../cmk/gui/plugins/wato/datasource_programs.py:844
 msgid "Name - Use the name of the container"
 msgstr ""
 
@@ -40535,7 +40633,7 @@ msgstr "サービス名"
 msgid "Name of the Application"
 msgstr "アプリケーションの名前"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3328
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3329
 msgid "Name of the Buckets to monitor."
 msgstr "監視するバケットの名前。"
 
@@ -40551,7 +40649,7 @@ msgstr "MP LUNの名前"
 msgid "Name of the OMD site"
 msgstr "OMDサイトの名前"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1892
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1893
 msgid "Name of the PLC"
 msgstr "PLCの名前"
 
@@ -40615,7 +40713,7 @@ msgstr "入力して送信するフォームの名前"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:41
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/apache_status.py:109
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:98
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2120
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2121
 msgid "Name of the instance in the monitoring"
 msgstr "監視中のインスタンスの名前"
 
@@ -40656,7 +40754,7 @@ msgstr "プールの名前"
 msgid "Name of the process"
 msgstr "プロセスの名前"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2354
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2355
 msgid "Name of the resource group"
 msgstr "リソースグループの名前"
 
@@ -40735,7 +40833,7 @@ msgstr ""
 msgid "Namespace"
 msgstr "ネームスペース"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:577
+#: ../cmk/gui/plugins/wato/datasource_programs.py:578
 msgid "Namespace prefix for hosts"
 msgstr "ホストの名前空間プレフィックス"
 
@@ -40832,7 +40930,7 @@ msgstr "NetAppボリューム"
 msgid "NetApp snapvault discovery"
 msgstr "NetApp snapvaultディスカバリー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1309
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1310
 msgid "NetApp via WebAPI"
 msgstr "WebAPIを介したNetApp"
 
@@ -40877,7 +40975,7 @@ msgstr "Netscalerのメモリ使用量"
 msgid "Netscaler VServer States"
 msgstr "Netscaler VServerの状態"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:858
+#: ../cmk/gui/plugins/wato/datasource_programs.py:859
 msgid "Network"
 msgstr "ネットワーク"
 
@@ -40916,7 +41014,7 @@ msgid "Network Topology"
 msgstr "ネットワークトポロジー"
 
 #: ../cmk/gui/watolib/host_attributes.py:88
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1899
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1900
 msgid "Network address"
 msgstr ""
 
@@ -41698,11 +41796,11 @@ msgstr "No-TxCreditsエラー"
 msgid "Node"
 msgstr "ノード"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:707
+#: ../cmk/gui/plugins/wato/datasource_programs.py:708
 msgid "Node Exporter"
 msgstr "ノードエクスポータ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:743
+#: ../cmk/gui/plugins/wato/datasource_programs.py:744
 msgid "Node Exporter metrics"
 msgstr "ノードエクスポータのメトリック"
 
@@ -41719,7 +41817,7 @@ msgstr ""
 msgid "Node Path Matching"
 msgstr "ノードパスマッチング"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1491
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1492
 msgid "Node Stats"
 msgstr "ノード統計"
 
@@ -41762,7 +41860,7 @@ msgstr "ノードまたはバケット名"
 msgid "Node port"
 msgstr "ノードポート"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3139
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3140
 msgid "Node state"
 msgstr "ノードの状態"
 
@@ -41770,15 +41868,15 @@ msgstr "ノードの状態"
 msgid "Node state: Offline"
 msgstr "ノードの状態: オフライン"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2980
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2981
 msgid "Node statistics"
 msgstr "ノード統計"
 
 #: ../cmk/gui/wato/pages/hosts.py:243
-#: ../cmk/gui/plugins/wato/datasource_programs.py:592
-#: ../cmk/gui/plugins/wato/datasource_programs.py:764
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3264
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3580
+#: ../cmk/gui/plugins/wato/datasource_programs.py:593
+#: ../cmk/gui/plugins/wato/datasource_programs.py:765
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3265
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3754
 #: ../cmk/gui/plugins/wato/bi_config.py:886
 #: ../cmk/gui/plugins/metrics/kubernets.py:30
 #: ../cmk/gui/plugins/metrics/elasticsearch.py:102
@@ -43090,7 +43188,7 @@ msgstr "再試行回数(最初の通常の実行はカウントされません)"
 msgid "Number of rule groups"
 msgstr "ルールグループの数"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3471
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3645
 msgid "Number of search results"
 msgstr "検索結果の数"
 
@@ -43203,11 +43301,11 @@ msgstr "スタックしたタスクの数"
 msgid "Number of tables"
 msgstr "テーブルの数"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1905
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1906
 msgid "Number of the Rack"
 msgstr "ラックの数"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1909
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1910
 msgid "Number of the Slot"
 msgstr "スロットの数"
 
@@ -43290,11 +43388,11 @@ msgstr "作成する番号"
 msgid "Numeric value"
 msgstr "数値"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1687
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1688
 msgid "Numerical ID of the VHM, e.g. 102"
 msgstr "VHMの数値ID、例: 102"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2186
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2187
 #: ../cmk/gui/plugins/wato/check_parameters/prism_container.py:67
 msgid "Nutanix Prism"
 msgstr "ニュータニックスプリズム"
@@ -43316,7 +43414,7 @@ msgstr "O"
 msgid "O2 levels"
 msgstr "O2レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1237
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1238
 msgid "OEM data interpretation"
 msgstr "OEMデータの解釈"
 
@@ -43922,6 +44020,12 @@ msgstr "1日の次の時間帯にのみ確認してください"
 msgid "Only digits and dots are allowed in the version number."
 msgstr "バージョン番号には数字とドットのみを使用できます。"
 
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:41
+#, fuzzy
+#| msgid "Apply this rule only on the following sites"
+msgid "Only discover monitors in the following states"
+msgstr "このルールは、次のサイトにのみ適用してください"
+
 #: ../cmk/gui/watolib/bulk_discovery.py:87
 msgid "Only discover new host labels"
 msgstr "新しいホストラベルを検出するだけです"
@@ -44223,7 +44327,7 @@ msgid "Operating system control group information"
 msgstr "オペレーティングシステムの制御グループ情報"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:339
-#: ../cmk/gui/plugins/wato/datasource_programs.py:231
+#: ../cmk/gui/plugins/wato/datasource_programs.py:232
 msgid "Operating systems"
 msgstr "オペレーティングシステム"
 
@@ -44319,7 +44423,7 @@ msgid "Optional general information"
 msgstr "オプションの一般情報"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:77
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2100
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2101
 msgid "Optional login (if required)"
 msgstr "オプションのログイン(必要な場合)"
 
@@ -44585,7 +44689,7 @@ msgid "Other hosts"
 msgstr "他のホスト"
 
 #: ../cmk/gui/watolib/search.py:408
-#: ../cmk/gui/plugins/wato/datasource_programs.py:212
+#: ../cmk/gui/plugins/wato/datasource_programs.py:213
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1406
 msgid "Other integrations"
 msgstr "その他の統合"
@@ -44718,7 +44822,7 @@ msgid "Outgoing Traffic Minimum"
 msgstr "発信トラフィックの最小値"
 
 #: ../cmk/gui/backup.py:943 ../cmk/gui/plugins/wato/builtin_attributes.py:626
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1811
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1812
 #: ../cmk/gui/plugins/metrics/fc.py:36 ../cmk/gui/plugins/views/bi.py:403
 #: ../cmk/gui/notifications.py:160
 msgid "Output"
@@ -45550,22 +45654,22 @@ msgstr "パスフレーズ"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:49
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:66
 #: ../cmk/gui/cee/plugins/wato/ntop.py:94 ../cmk/gui/login.py:535
-#: ../cmk/gui/plugins/wato/datasource_programs.py:173
-#: ../cmk/gui/plugins/wato/datasource_programs.py:351
-#: ../cmk/gui/plugins/wato/datasource_programs.py:371
-#: ../cmk/gui/plugins/wato/datasource_programs.py:693
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1185
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1211
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1295
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1361
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1658
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1767
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2224
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2278
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2306
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2716
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2914
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3176
+#: ../cmk/gui/plugins/wato/datasource_programs.py:174
+#: ../cmk/gui/plugins/wato/datasource_programs.py:352
+#: ../cmk/gui/plugins/wato/datasource_programs.py:372
+#: ../cmk/gui/plugins/wato/datasource_programs.py:694
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1186
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1212
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1296
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1362
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1659
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1768
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2225
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2279
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2307
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2717
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2915
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3177
 #: ../cmk/gui/plugins/wato/utils/__init__.py:357
 #: ../cmk/gui/plugins/wato/active_checks.py:158
 #: ../cmk/gui/plugins/wato/active_checks.py:199
@@ -45599,19 +45703,19 @@ msgid "Password for login"
 msgstr "ログイン用のパスワード"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:83
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2106
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2194
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2107
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2195
 msgid "Password for this user"
 msgstr "このユーザーのパスワード"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:416
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2953
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3021
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3111
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3223
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3342
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3424
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3555
+#: ../cmk/gui/plugins/wato/datasource_programs.py:417
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2954
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3022
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3112
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3224
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3343
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3598
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3729
 #: ../cmk/gui/plugins/wato/active_checks.py:2428
 #: ../cmk/gui/plugins/wato/notifications.py:783
 msgid "Password of the user"
@@ -45685,8 +45789,8 @@ msgid "Paths"
 msgstr "パス"
 
 #: ../cmk/gui/wato/pages/pattern_editor.py:271
-#: ../cmk/gui/plugins/wato/datasource_programs.py:511
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2564
+#: ../cmk/gui/plugins/wato/datasource_programs.py:512
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2565
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:259
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:260
 msgid "Pattern"
@@ -45851,7 +45955,7 @@ msgstr ""
 "で事前構成されています。カウンターオブジェクトの形式に互換性がない場合は、カ"
 "ウンターオフセットを手動で調整できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:715
+#: ../cmk/gui/plugins/wato/datasource_programs.py:716
 msgid ""
 "Per default, Checkmk tries to map the underlying Checkmk host to the Node "
 "Exporter host which contains either the Checkmk hostname, host address or "
@@ -46215,7 +46319,7 @@ msgstr "毎回サービスディスカバリを実行する"
 msgid "Performance"
 msgstr "パフォーマンス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1079
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1080
 msgid "Performance Counters"
 msgstr "パフォーマンスカウンター"
 
@@ -46261,7 +46365,7 @@ msgstr "パフォーマンスデータの設定"
 msgid "Performance graph"
 msgstr "パフォーマンスグラフ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1303
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1304
 msgid "Performance improvements"
 msgstr "パフォーマンスの向上"
 
@@ -46487,7 +46591,7 @@ msgstr "物理CPU消費"
 msgid "Physical Components"
 msgstr "物理コンポーネント"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1500
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1501
 msgid "Physical Disks"
 msgstr "物理ディスク"
 
@@ -46556,7 +46660,7 @@ msgstr "他のホストのピギーバック情報"
 msgid "Piggyback information from other host"
 msgstr "他のホストからのピギーバック情報"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1138
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1139
 msgid "Piggyback name of virtual machines"
 msgstr "仮想マシンのピギーバック名"
 
@@ -46608,11 +46712,11 @@ msgstr "通常のIPアドレスにpingを実行します"
 msgid "Ping timeout"
 msgstr "Pingタイムアウト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1090
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1091
 msgid "Placeholder VMs"
 msgstr "プレースホルダーVM"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1096
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1097
 msgid ""
 "Placeholder VMs are created by the Site Recovery Manager(SRM) and act as "
 "backup virtual machines in case the default vm is unable to start. This "
@@ -46970,7 +47074,7 @@ msgstr "0〜100の数字を選択してください"
 msgid "Please select a service"
 msgstr "サービスを選択してください"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:639
+#: ../cmk/gui/plugins/wato/datasource_programs.py:640
 msgid "Please select at least one element"
 msgstr "少なくとも1つの要素を選択してください"
 
@@ -47149,7 +47253,7 @@ msgstr "少なくとも1つのタグを指定してください。"
 msgid "Please specify at least one time."
 msgstr "少なくとも1回は指定してください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:975
+#: ../cmk/gui/plugins/wato/datasource_programs.py:976
 #: ../cmk/gui/plugins/wato/check_parameters/prometheus_custom.py:88
 msgid "Please specify at least one type of levels"
 msgstr "レベルの種類を少なくとも1つ指定してください"
@@ -47182,7 +47286,7 @@ msgstr ""
 "ンベントリが実行されたホスト名に置き換えられます。相対パスを使用する場合、そ"
 "れは変数データ用のCheck_MKのディレクトリ(<tt>%s</tt>)に相対パスになります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1629
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1630
 msgid "Please specify the user and password needed to access the xml interface"
 msgstr ""
 "xmlインターフェースにアクセスするために必要なユーザーとパスワードを指定してく"
@@ -47318,7 +47422,7 @@ msgstr "root以外のユーザー向けのプラグイン、ローカルチェ�
 msgid "Pod"
 msgstr "ポッド"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:819
+#: ../cmk/gui/plugins/wato/datasource_programs.py:820
 msgid "Pod - Display the information for pod level"
 msgstr ""
 
@@ -47334,8 +47438,8 @@ msgstr "Podリクエスト"
 msgid "Pod resources"
 msgstr "Podリソース"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:596
-#: ../cmk/gui/plugins/wato/datasource_programs.py:766
+#: ../cmk/gui/plugins/wato/datasource_programs.py:597
+#: ../cmk/gui/plugins/wato/datasource_programs.py:767
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:25
 #: ../cmk/gui/plugins/metrics/kubernets.py:36
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:648
@@ -47372,19 +47476,19 @@ msgstr ""
 #: ../cmk/gui/cee/plugins/wato/syncsmtp.py:37
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/firewall.py:42
 #: ../cmk/gui/valuespec.py:1706
-#: ../cmk/gui/plugins/wato/datasource_programs.py:352
-#: ../cmk/gui/plugins/wato/datasource_programs.py:372
-#: ../cmk/gui/plugins/wato/datasource_programs.py:419
-#: ../cmk/gui/plugins/wato/datasource_programs.py:491
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1989
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2008
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2711
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2967
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3035
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3125
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3237
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3334
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3569
+#: ../cmk/gui/plugins/wato/datasource_programs.py:353
+#: ../cmk/gui/plugins/wato/datasource_programs.py:373
+#: ../cmk/gui/plugins/wato/datasource_programs.py:420
+#: ../cmk/gui/plugins/wato/datasource_programs.py:492
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1990
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2009
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2712
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2968
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3036
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3126
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3238
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3335
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3743
 #: ../cmk/gui/plugins/wato/active_checks.py:409
 #: ../cmk/gui/plugins/wato/active_checks.py:847
 #: ../cmk/gui/plugins/wato/active_checks.py:2188
@@ -47398,7 +47502,7 @@ msgstr ""
 msgid "Port"
 msgstr "ポート"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1352
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1353
 msgid "Port Number"
 msgstr "ポート番号"
 
@@ -47434,24 +47538,24 @@ msgstr "ポート番号"
 msgid "Port number for HTTPS connection to InfluxDB."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1042
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1043
 msgid "Port number for HTTPS connection to vSphere"
 msgstr "vSphereへのHTTPS接続のポート番号"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1915
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1916
 msgid "Port number for communicating with the PLC"
 msgstr "PLCと通信するためのポート番号"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2230
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2231
 msgid "Port number that 3par is listening on. The default is 8080."
 msgstr "3parがリッスンしているポート番号。デフォルトは8080です。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2062
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2159
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2063
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2160
 msgid "Port number that AppDynamics is listening on. The default is 8090."
 msgstr "AppDynamicsがリッスンしているポート番号。 デフォルトは8090です。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:106
+#: ../cmk/gui/plugins/wato/datasource_programs.py:107
 msgid "Port number that server is listening on."
 msgstr "サーバーが開けているポート番号。"
 
@@ -47504,11 +47608,11 @@ msgstr "正の一致(一致するホストをセットに追加)"
 msgid "Positive match (Add matching services to the set)"
 msgstr "ポジティブマッチ(マッチングサービスをセットに追加)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1217
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1218
 msgid "Possible are 'user', 'operator', 'admin'"
 msgstr "可能なのは[user]、[operator]、[admin]です。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2247
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2248
 msgid ""
 "Possible values are the following: cpgs, volumes, hosts, capacity, system, "
 "ports, remotecopy, hostsets, volumesets, vluns, flashcache, users, roles, "
@@ -47704,7 +47808,7 @@ msgstr "ピギーバックホスト名のプレフィックス"
 msgid "Prefix match"
 msgstr "プレフィックス一致"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:646
+#: ../cmk/gui/plugins/wato/datasource_programs.py:647
 msgid "Prepend namespace prefix for hosts"
 msgstr "ホストの名前スペースプレフィックスを付加する"
 
@@ -47905,7 +48009,7 @@ msgstr "プライベートメモリ"
 msgid "Private memory usage"
 msgstr "プライベートメモリの使用量"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1216
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1217
 msgid "Privilege Level"
 msgstr "特権レベル"
 
@@ -48141,7 +48245,7 @@ msgstr "進捗"
 msgid "Progress Info"
 msgstr "進捗情報"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3368
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3542
 msgid "Project"
 msgstr "プロジェクト"
 
@@ -48153,23 +48257,23 @@ msgstr "プロジェクトID"
 msgid "Project and workflow name"
 msgstr "プロジェクト名とワークフロー名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:956
+#: ../cmk/gui/plugins/wato/datasource_programs.py:957
 msgid "PromQL queries for Service"
 msgstr "サービスのPromQLクエリ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:906
+#: ../cmk/gui/plugins/wato/datasource_programs.py:907
 msgid "PromQL query"
 msgstr "PromQLクエリ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:921
+#: ../cmk/gui/plugins/wato/datasource_programs.py:922
 msgid "PromQL query (only single return value permitted)"
 msgstr "PromQLクエリ(単一の戻り値のみが許可されます)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:968
+#: ../cmk/gui/plugins/wato/datasource_programs.py:969
 msgid "Prometheus"
 msgstr "プロメテウス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:878
+#: ../cmk/gui/plugins/wato/datasource_programs.py:879
 msgid ""
 "Prometheus Scrape Targets (include Prometheus Exporters) to fetch "
 "information from"
@@ -48177,7 +48281,7 @@ msgstr ""
 "情報を取得するためのPrometheus スクレープターゲット(Prometheus Exportersを含"
 "む)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:680
+#: ../cmk/gui/plugins/wato/datasource_programs.py:681
 msgid "Prometheus connection option"
 msgstr "Prometheus接続オプション"
 
@@ -48189,7 +48293,7 @@ msgstr "プロメテウスカスタムサービス"
 msgid "Prometheus custom services"
 msgstr "プロメテウスカスタムサービス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:683
+#: ../cmk/gui/plugins/wato/datasource_programs.py:684
 msgid "Prometheus web port"
 msgstr "Prometheus Webポート"
 
@@ -48234,16 +48338,16 @@ msgstr "ヘルシーなホストの割合"
 #: ../cmk/gui/cee/plugins/wato/ntop.py:75 ../cmk/gui/cee/ntop/pages.py:660
 #: ../cmk/gui/cee/ntop/pages.py:1408
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:682
-#: ../cmk/gui/plugins/wato/datasource_programs.py:113
-#: ../cmk/gui/plugins/wato/datasource_programs.py:700
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1354
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2124
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2958
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3026
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3116
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3228
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3429
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3560
+#: ../cmk/gui/plugins/wato/datasource_programs.py:114
+#: ../cmk/gui/plugins/wato/datasource_programs.py:701
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1355
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2125
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2959
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3027
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3117
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3229
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3603
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3734
 #: ../cmk/gui/plugins/wato/active_checks.py:2181
 #: ../cmk/gui/plugins/wato/active_checks.py:2433
 #: ../cmk/gui/plugins/wato/check_parameters/tcp_connections.py:39
@@ -48262,6 +48366,10 @@ msgstr "サーバーのプロトコル"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/cmk_update_agent.py:166
 msgid "Protocol to use for fetching updates"
 msgstr "更新のフェッチに使用するプロトコル"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3367
+msgid "Provide API host and credentials for your Datadog instance here."
+msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/python_plugins.py:61
 msgid "Provide command for python script execution"
@@ -48306,7 +48414,7 @@ msgstr "プロビジョニングされたファイルシステムスペース"
 msgid "Provisioning Levels"
 msgstr "プロビジョニングレベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:395
+#: ../cmk/gui/plugins/wato/datasource_programs.py:396
 msgid "Proxmox VE"
 msgstr "Proxmox VE"
 
@@ -48342,7 +48450,7 @@ msgstr "プロキシURL"
 msgid "Proxy basic authorization"
 msgstr "プロキシの基本認証"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2710
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2711
 msgid "Proxy host"
 msgstr "プロキシホスト"
 
@@ -48350,7 +48458,7 @@ msgstr "プロキシホスト"
 msgid "Proxy server address"
 msgstr "プロキシサーバーアドレス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2708
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2709
 msgid "Proxy server details"
 msgstr "プロキシサーバーの詳細"
 
@@ -48496,11 +48604,11 @@ msgstr "検疫の使用"
 msgid "Queried Hostname or IP address"
 msgstr "照会されたホスト名またはIPアドレス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1035
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1036
 msgid "Queried host is a host system"
 msgstr "クエリされたホストはホストシステムです"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1036
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1037
 msgid "Queried host is the vCenter"
 msgstr "クエリされたホストはvCenterです"
 
@@ -48549,7 +48657,7 @@ msgstr "キュー名"
 msgid "Queue depth"
 msgstr "キューの深度"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3140
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3141
 msgid "Queue info"
 msgstr "キュー情報"
 
@@ -48600,7 +48708,7 @@ msgstr "キューにある通知"
 msgid "Queued work requests"
 msgstr "キューに入れられたリクエスト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3582
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3756
 #: ../cmk/gui/plugins/metrics/application.py:536
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:894
 msgid "Queues"
@@ -48638,11 +48746,11 @@ msgstr "クイック検索検索順序"
 msgid "Quiescing"
 msgstr "静止"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1235
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1236
 msgid "Quiet cache"
 msgstr "クワイエットキャッシュ"
 
-#: ../cmk/utils/man_pages.py:401
+#: ../cmk/utils/man_pages.py:402
 msgid "Quit"
 msgstr "終了する"
 
@@ -48658,11 +48766,11 @@ msgstr "R.State"
 msgid "RA"
 msgstr "RA"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1499
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1500
 msgid "RAID Arrays"
 msgstr "RAIDアレイ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1417
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1418
 msgid "RAID groups"
 msgstr "RAIDグループ"
 
@@ -48861,7 +48969,7 @@ msgstr "RX信号パワーレーン %d"
 msgid "RX/TX"
 msgstr "RX/TX"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3533
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3707
 msgid "RabbitMQ"
 msgstr "RabbitMQ"
 
@@ -48873,7 +48981,7 @@ msgstr "RabbitMQクラスターメッセージ"
 msgid "RabbitMQ cluster stats"
 msgstr "RabbitMQクラスター統計"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3538
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3712
 msgid "RabbitMQ instance to query"
 msgstr "クエリするRabbitMQインスタンス"
 
@@ -48965,7 +49073,7 @@ msgstr "変化率"
 msgid "Rate timewindow"
 msgstr "レートタイムウィンドウ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1841
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1842
 msgid "Raw Bytes (HEXSTR)"
 msgstr "Rawバイト(HEXSTR)"
 
@@ -49161,7 +49269,7 @@ msgstr "準備完了メッセージ"
 msgid "Ready replicas"
 msgstr "準備ができたレプリカ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1834
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1835
 msgid "Real Number (REAL)"
 msgstr "実数(REAL)"
 
@@ -49341,7 +49449,7 @@ msgstr "再帰"
 msgid "Red"
 msgstr "赤"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1704
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1705
 msgid "Redirect URL (has to be https)"
 msgstr "リダイレクトURL(httpsである必要があります)"
 
@@ -49465,7 +49573,7 @@ msgstr "ホスト名の正規表現"
 msgid "Region name"
 msgstr "リージョン名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2753
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2754
 msgid "Regions to use"
 msgstr ""
 
@@ -49503,7 +49611,7 @@ msgid "Registry Keys to search for software (Windows)"
 msgstr "ソフトウェアを検索するためのレジストリキー(Windows)"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_filestats.py:30
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2529
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2530
 #: ../cmk/gui/plugins/wato/utils/__init__.py:419
 msgid "Regular expression"
 msgstr "正規表現"
@@ -49636,7 +49744,7 @@ msgstr "関連ダッシュボード"
 msgid "Related Views"
 msgstr "関連ビュー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2830
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2831
 msgid "Relational Database Service (RDS)"
 msgstr "リレーショナルデータベースサービス(RDS)"
 
@@ -50144,12 +50252,12 @@ msgstr "\"&uuml;\"のようにumlautsを置き換えます \"ue\"で"
 msgid "Replace with"
 msgstr "と置換する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1151
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1152
 msgid "Replace with underscores"
 msgstr "アンダースコアに置き換えます"
 
 #: ../cmk/gui/wato/pages/host_rename.py:329
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2539
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2540
 #: ../cmk/gui/plugins/wato/utils/__init__.py:429
 msgid "Replacement"
 msgstr "置換"
@@ -50361,7 +50469,7 @@ msgstr ""
 msgid "Request latency"
 msgstr "リクエスト遅延"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2790
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2791
 msgid "Request metrics"
 msgstr "メトリックを要求する"
 
@@ -50374,19 +50482,19 @@ msgstr "リクエストレート"
 msgid "Request wait time"
 msgstr "待ち時間をリクエストする"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2939
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2940
 msgid "Requests data about Elasticsearch clusters, nodes and indices."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3534
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3708
 msgid "Requests data from a RabbitMQ instance."
 msgstr "RabbitMQインスタンスからデータを要求します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3008
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3009
 msgid "Requests data from a Splunk instance."
 msgstr "Splunkインスタンスからデータをリクエストします"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3088
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3089
 msgid "Requests data from a jenkins instance."
 msgstr "jenkinsインスタンスからデータをリクエストします。"
 
@@ -50394,7 +50502,7 @@ msgstr "jenkinsインスタンスからデータをリクエストします。"
 msgid "Requests in Processing"
 msgstr "処理中のリクエスト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3201
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3202
 msgid "Requests node, cluster and indice data from a Graylog instance."
 msgstr ""
 
@@ -50627,11 +50735,43 @@ msgstr "連絡先グループによる制限"
 msgid "Restrict by custom macros"
 msgstr "カスタムマクロによる制限"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3417
+#, fuzzy
+#| msgid "Restrict by contact groups"
+msgid "Restrict by monitor tags"
+msgstr "連絡先グループによる制限"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3405
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3440
+#, fuzzy
+#| msgid "Restrict by contact groups"
+msgid "Restrict by tags"
+msgstr "連絡先グループによる制限"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3441
+msgid ""
+"Restrict fetched events by tags (API field <tt>tags</tt>). Events must have "
+"all of the configured tags in order to be fetched."
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3419
+msgid ""
+"Restrict fetched monitors by service and/or custom tags (API field "
+"<tt>monitor_tags</tt>). Monitors must have all of the configured tags in "
+"order to be fetched."
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3407
+msgid ""
+"Restrict fetched monitors by tags (API field <tt>tags</tt>). Monitors must "
+"have all of the configured tags in order to be fetched."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:452
 msgid "Restrict interface items"
 msgstr "インターフェイスアイテムを制限する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2888
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2889
 msgid "Restrict monitoring services by one of these AWS tags"
 msgstr ""
 
@@ -50763,14 +50903,14 @@ msgstr "結果"
 msgid "Resumables"
 msgstr "再開可能"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:608
-#: ../cmk/gui/plugins/wato/datasource_programs.py:737
-#: ../cmk/gui/plugins/wato/datasource_programs.py:773
-#: ../cmk/gui/plugins/wato/datasource_programs.py:863
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1086
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1431
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1509
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2428
+#: ../cmk/gui/plugins/wato/datasource_programs.py:609
+#: ../cmk/gui/plugins/wato/datasource_programs.py:738
+#: ../cmk/gui/plugins/wato/datasource_programs.py:774
+#: ../cmk/gui/plugins/wato/datasource_programs.py:864
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1087
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1432
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1510
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2429
 msgid "Retrieve information about..."
 msgstr "関する情報を取得する..."
 
@@ -50944,7 +51084,7 @@ msgstr "ルート"
 msgid "Rows"
 msgstr "行"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2015
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2016
 msgid "Ruckus Spot"
 msgstr ""
 
@@ -51201,11 +51341,11 @@ msgstr "変更されたタグへの参照を含むルールを含むルールセ
 msgid "Run agent as non-root user (Linux)"
 msgstr "root以外のユーザーとしてエージェントを実行する(Linux)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2463
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2464
 msgid "Run agent in single thread"
 msgstr "シングルスレッドでエージェントを実行する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2462
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2463
 msgid "Run agent multithreaded"
 msgstr "エージェントをマルチスレッドで実行する"
 
@@ -51398,7 +51538,7 @@ msgstr "SAPの価値発見"
 msgid "SAP-Client"
 msgstr "SAPクライアント"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1496
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1497
 msgid "SAS Ports"
 msgstr "SASポート"
 
@@ -51410,7 +51550,7 @@ msgstr "SCTP"
 msgid "SDM template mismatch"
 msgstr "SDMテンプレートの不一致"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1236
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1237
 msgid "SDR cache recreate"
 msgstr "SDRキャッシュの再作成"
 
@@ -51819,7 +51959,7 @@ msgstr "SSL"
 msgid "SSL Encryption"
 msgstr "SSL暗号化"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1049
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1050
 msgid "SSL certificate checking"
 msgstr "SSL証明書のチェック"
 
@@ -51830,17 +51970,17 @@ msgstr "SSL証明書の検証"
 
 #: ../cmk/gui/cee/plugins/wato/ntop.py:85
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:374
-#: ../cmk/gui/plugins/wato/datasource_programs.py:377
-#: ../cmk/gui/plugins/wato/datasource_programs.py:430
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1774
+#: ../cmk/gui/plugins/wato/datasource_programs.py:378
+#: ../cmk/gui/plugins/wato/datasource_programs.py:431
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1775
 msgid "SSL certificate validation is disabled"
 msgstr "SSL証明書の検証が無効になっています"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:147
-#: ../cmk/gui/plugins/wato/datasource_programs.py:566
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2237
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2280
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2308
+#: ../cmk/gui/plugins/wato/datasource_programs.py:148
+#: ../cmk/gui/plugins/wato/datasource_programs.py:567
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2238
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2281
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2309
 msgid "SSL certificate verification"
 msgstr "SSL証明書の検証"
 
@@ -51896,8 +52036,8 @@ msgstr "SafenetNTLSクライアント"
 msgid "Safenet NTLS Links"
 msgstr "Safenet NTLS リンク"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2327
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2344
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2328
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2345
 msgid "Salesforce"
 msgstr "Salesforce"
 
@@ -52415,7 +52555,7 @@ msgstr "二次装置"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mtr.py:92
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/real_time_checks.py:54
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:380
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1861
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1862
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:262
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1523
 #: ../cmk/gui/plugins/userdb/ldap_connector.py:1548
@@ -52435,11 +52575,11 @@ msgstr "秒"
 msgid "Seconds before connection times out"
 msgstr "接続がタイムアウトするまでの秒数"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1859
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1860
 msgid "Seconds of operation"
 msgstr "操作の秒"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1860
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1861
 msgid "Seconds since service"
 msgstr "サービスからの秒数"
 
@@ -52718,7 +52858,7 @@ msgstr "選択したセクションはエージェントによって実行され
 msgid "Selection"
 msgstr "選択"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2843
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2844
 msgid "Selection of alarms"
 msgstr "アラームの選択"
 
@@ -52726,7 +52866,7 @@ msgstr "アラームの選択"
 msgid "Selection of hosts to activate agent updates for"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2654
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2655
 msgid "Selection of service instances"
 msgstr "サービスインスタンスの選択"
 
@@ -52882,11 +53022,11 @@ msgstr "存在する場合は、センサーの説明、存在しない場合は
 msgid "Sensor name"
 msgstr "センサー名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1238
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1239
 msgid "Sensor state"
 msgstr "センサーの状態"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1239
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1240
 msgid "Sensor threshold"
 msgstr "センサーのしきい値"
 
@@ -52950,11 +53090,11 @@ msgstr "シリアルナンバー"
 msgid "Server"
 msgstr "サーバー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1977
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1978
 msgid "Server Address"
 msgstr "サーバーアドレス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1350
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1351
 msgid "Server Name"
 msgstr "サーバーネーム"
 
@@ -53214,7 +53354,7 @@ msgstr "サービスの連絡先情報"
 msgid "Service contacts"
 msgstr "サービスの連絡先"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:964
+#: ../cmk/gui/plugins/wato/datasource_programs.py:965
 msgid "Service creation using PromQL queries"
 msgstr "PromQLクエリを使用したサービスの作成"
 
@@ -53250,7 +53390,7 @@ msgstr "サービスカスタムフィールドID"
 msgid "Service description"
 msgstr "サービスの説明"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3448
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3622
 msgid "Service description: "
 msgstr "サービスの説明: "
 
@@ -53361,10 +53501,17 @@ msgid "Service labels"
 msgstr "サービスラベル"
 
 #: ../cmk/gui/wato/pages/notifications.py:330 ../cmk/gui/wato/mkeventd.py:1221
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3489
 msgid "Service level"
 msgstr "サービスレベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2677
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3490
+#, fuzzy
+#| msgid "Directly forward to Event Console"
+msgid "Service level of forwarded events shown in Event Console."
+msgstr "イベントコンソールに直接転送する"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2678
 msgid "Service limits"
 msgstr "サービス制限"
 
@@ -53377,7 +53524,7 @@ msgstr "サービス監視ルール"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:512
 #: ../cmk/gui/wato/pages/rulesets.py:2196
-#: ../cmk/gui/plugins/wato/datasource_programs.py:891
+#: ../cmk/gui/plugins/wato/datasource_programs.py:892
 #: ../cmk/gui/plugins/wato/active_checks.py:1018
 #: ../cmk/gui/plugins/wato/check_parameters/solaris_services.py:49
 msgid "Service name"
@@ -53585,8 +53732,8 @@ msgstr "サービスレベル"
 #: ../cmk/gui/wato/pages/services.py:1304 ../cmk/gui/views.py:1362
 #: ../cmk/gui/cee/plugins/wato/cmc.py:843
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:614
-#: ../cmk/gui/plugins/wato/datasource_programs.py:593
-#: ../cmk/gui/plugins/wato/datasource_programs.py:765
+#: ../cmk/gui/plugins/wato/datasource_programs.py:594
+#: ../cmk/gui/plugins/wato/datasource_programs.py:766
 #: ../cmk/gui/plugins/wato/bi_config.py:414
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:215
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:219
@@ -53663,7 +53810,7 @@ msgstr "ホストのサービス"
 msgid "Services of host %s"
 msgstr "ホスト %sのサービス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2758
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2759
 msgid "Services per region to monitor"
 msgstr "監視する地域ごとのサービス"
 
@@ -54352,8 +54499,8 @@ msgid "Shared with"
 msgstr "と共有"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker.py:128
-#: ../cmk/gui/plugins/wato/datasource_programs.py:808
-#: ../cmk/gui/plugins/wato/datasource_programs.py:837
+#: ../cmk/gui/plugins/wato/datasource_programs.py:809
+#: ../cmk/gui/plugins/wato/datasource_programs.py:838
 msgid "Short - Use the first 12 characters of the docker container ID"
 msgstr "短い - DockerコンテナIDの最初の12文字を使用します"
 
@@ -54423,7 +54570,7 @@ msgstr "このホストのハードウェア/ソフトウェアインベント�
 msgid "Show MK Livestatus error messages"
 msgstr "MK Livestatusエラーメッセージを表示する"
 
-#: ../cmk/utils/man_pages.py:420
+#: ../cmk/utils/man_pages.py:421
 msgid "Show Manpage"
 msgstr "マンページを表示"
 
@@ -54954,11 +55101,11 @@ msgstr "サイドバーの位置"
 msgid "Sidecar name"
 msgstr "サイドカー名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3265
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3266
 msgid "Sidecars"
 msgstr "サイドカー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1956
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1957
 msgid "Siemens PLC (SPS)"
 msgstr "シーメンスPLC (SPS)"
 
@@ -55053,7 +55200,7 @@ msgstr "問題を黙って無視し、このグラフをスキップします"
 msgid "Silently skip exceeding messages"
 msgstr "超過メッセージをサイレントにスキップします"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2782
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2783
 msgid "Simple Storage Service (S3)"
 msgstr "シンプルストレージサービス(S3)"
 
@@ -55116,7 +55263,7 @@ msgid ""
 "Single Aggregation for simple API calls. Contains the state and state output."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1835
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1836
 msgid "Single Bit (BOOL)"
 msgstr "シングルビット(BOOL)"
 
@@ -55144,8 +55291,8 @@ msgstr "単一のメトリック"
 msgid "Single peers or summary"
 msgstr "シングルピアまたは要約"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3378
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3386
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3552
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3560
 msgid "Single quotes are not allowed here."
 msgstr "ここでは一重引用符は使用できません。"
 
@@ -55233,7 +55380,7 @@ msgstr ""
 msgid "Site certificate validity"
 msgstr "サイト証明書の有効性"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2496
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2497
 msgid "Site connection"
 msgstr "サイト接続"
 
@@ -55344,8 +55491,8 @@ msgstr "サイト"
 
 #: ../cmk/gui/backup.py:1041 ../cmk/gui/wato/mkeventd.py:2713
 #: ../cmk/gui/cee/plugins/reporting/utils.py:420
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1838
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1844
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1839
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1845
 #: ../cmk/gui/plugins/wato/check_parameters/docker_node_disk_usage.py:42
 #: ../cmk/gui/plugins/metrics/docker.py:72
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:99
@@ -55993,7 +56140,7 @@ msgstr "アラートのソースフィールド。デフォルト値は、着信
 msgid "Source name"
 msgstr "ソース名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3266
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3267
 msgid "Sources"
 msgstr "ソース"
 
@@ -56005,7 +56152,7 @@ msgstr "スペースアラーム"
 msgid "Space in the database that has not been reserved for database objects"
 msgstr "データベースオブジェクト用に予約されていないデータベース内のスペース"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1148
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1149
 msgid "Spaces in hostnames"
 msgstr "ホスト名のスペース"
 
@@ -56049,7 +56196,7 @@ msgstr "特定のサイト"
 msgid "Specific version"
 msgstr "特定のバージョン"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:496
+#: ../cmk/gui/plugins/wato/datasource_programs.py:497
 msgid ""
 "Specifies a URL path prefix, which is prepended to API calls to the "
 "Kubernetes API. This is a useful option for Rancher installations (more "
@@ -56061,7 +56208,7 @@ msgstr ""
 "ニュアルを参照してください)。このオプションがインストールに関係しない場合は、"
 "オフのままにしてください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:124
+#: ../cmk/gui/plugins/wato/datasource_programs.py:125
 msgid ""
 "Specifies a URL prefix which is prepended to the path in calls to the API. "
 "This is e.g. useful if you use the ip address or the hostname as base "
@@ -56074,7 +56221,7 @@ msgstr ""
 "なAPI URLを指定する必要がある場合は、カスタムURLオプションを使用してくださ"
 "い。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:136
+#: ../cmk/gui/plugins/wato/datasource_programs.py:137
 msgid ""
 "Specifies an URL path suffix which is appended to the path in calls to the "
 "API. This is e.g. useful if you use the ip address or the hostname as base "
@@ -56150,8 +56297,8 @@ msgstr "RPMパッケージタグの指定(Linux)"
 msgid "Specify URL prefix"
 msgstr "URLプレフィックスを指定します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:90
-#: ../cmk/gui/plugins/wato/datasource_programs.py:670
+#: ../cmk/gui/plugins/wato/datasource_programs.py:91
+#: ../cmk/gui/plugins/wato/datasource_programs.py:671
 msgid ""
 "Specify a custom URL to connect to your server. Do not include the protocol. "
 "This option overwrites all available options such as port and other URL "
@@ -56407,7 +56554,7 @@ msgstr ""
 "ポート番号は、<i> TCPを介したイベントステータスへのアクセス</i>でマスターに設"
 "定されているものと同じである必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:898
+#: ../cmk/gui/plugins/wato/datasource_programs.py:899
 msgid ""
 "Specify the host to which the resulting service will be assigned to. The "
 "host should be configured to allow Piggyback data."
@@ -56415,7 +56562,7 @@ msgstr ""
 "結果のサービスが割り当てられるホストを指定します。ホストは、ピギーバックデー"
 "タを許可するように構成する必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1902
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1903
 msgid "Specify the hostname or IP address of the PLC to communicate with."
 msgstr "通信するPLCのホスト名またはIPアドレスを指定します。"
 
@@ -56436,7 +56583,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1895
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1896
 msgid ""
 "Specify the logical name, e.g. the hostname, of the PLC. This name is used "
 "to name the resulting services."
@@ -56551,7 +56698,7 @@ msgstr ""
 "ソースルールとここの2か所で定義できます。ここでのルールセットは、データソース"
 "ルールで定義されたレベルよりも常に優先されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:946
+#: ../cmk/gui/plugins/wato/datasource_programs.py:947
 msgid ""
 "Specify upper and/or lower levels for the queried PromQL value. This option "
 "should be used for simple cases where levels are only required once. You "
@@ -56606,7 +56753,7 @@ msgstr "速度"
 msgid "Speed of interface groups (Netapp only)"
 msgstr "インターフェイスグループの速度(Netappのみ)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3007
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3008
 msgid "Splunk"
 msgstr "Splunk"
 
@@ -56636,7 +56783,7 @@ msgid ""
 "not declare explicitly that it has finished its work."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3013
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3014
 msgid "Splunk instance to query."
 msgstr "クエリするSplunkインスタンス"
 
@@ -56985,7 +57132,7 @@ msgstr "ホスト/サービスの状態変化"
 msgid "State during active system events"
 msgstr "アクティブなシステムイベント中の状態"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1863
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1864
 msgid "State flag (on/off)"
 msgstr "状態フラグ(on/off)"
 
@@ -57657,17 +57804,17 @@ msgstr "ソフトウェアの変更が検出されたときの状態"
 msgid "State when software packages info is missing"
 msgstr "ソフトウェアパッケージ情報が欠落している場合の状態"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2582
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2583
 #: ../cmk/gui/plugins/wato/active_checks.py:1784
 msgid "State, if BI aggregate is acknowledged"
 msgstr "状態、BIアグリゲートが確認された場合"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2580
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2581
 #: ../cmk/gui/plugins/wato/active_checks.py:1777
 msgid "State, if BI aggregate is in scheduled downtime"
 msgstr "BIアグリゲートがスケジュールされたダウンタイムにある場合の状態"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:599
+#: ../cmk/gui/plugins/wato/datasource_programs.py:600
 msgid "Stateful sets"
 msgstr "ステートフルセット"
 
@@ -58055,11 +58202,11 @@ msgstr "ストレージサイズ"
 msgid "Storage account name"
 msgstr "ストレージアカウント名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1422
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1423
 msgid "Storage pools"
 msgstr "ストレージプール"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1419
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1420
 msgid "Storage processor utilization"
 msgstr "ストレージプロセッサの使用率"
 
@@ -58118,7 +58265,7 @@ msgstr "まっすぐ"
 msgid "Stream rules"
 msgstr "ストリーム ルール"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3267
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3268
 #: ../cmk/gui/plugins/metrics/application.py:476
 #: ../cmk/gui/plugins/metrics/storage.py:62
 #: ../cmk/gui/plugins/metrics/network.py:1918
@@ -58149,7 +58296,7 @@ msgstr ""
 msgid "String"
 msgstr "ストリング"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1836
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1837
 msgid "String (STR)"
 msgstr "文字列(STR)"
 
@@ -58270,7 +58417,7 @@ msgstr "DBサブネットグループごとのサブネット"
 msgid "Subscription"
 msgstr "サブスクリプション"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2406
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2407
 msgid "Subscription ID"
 msgstr "サブスクリプションID"
 
@@ -58418,7 +58565,7 @@ msgstr "全センサーの概要"
 msgid "Summed up values lower level"
 msgstr "合計値の下位レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3473
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3647
 msgid "Summed up values of the following numeric field:"
 msgstr "次の数値フィールドの合計値:"
 
@@ -58465,7 +58612,7 @@ msgstr "サポート"
 msgid "Support diagnostics"
 msgstr "診断をサポートする"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1241
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1242
 msgid "Suppress not available sensors"
 msgstr "利用できないセンサーを抑制する"
 
@@ -58712,6 +58859,7 @@ msgid "Syslog application to cancel event"
 msgstr "イベントをキャンセルするSyslogアプリケーション"
 
 #: ../cmk/gui/wato/mkeventd.py:1215
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3469
 msgid "Syslog facility"
 msgstr "Syslogファシリティ"
 
@@ -58723,9 +58871,22 @@ msgstr "イベントコンソール通知用のSyslogファシリティ"
 msgid "Syslog facility for forwarded messages"
 msgstr "転送されたメッセージのSyslog機能"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3471
+#, fuzzy
+#| msgid "Syslog facility for forwarded messages"
+msgid "Syslog facility of forwarded events shown in Event Console."
+msgstr "転送されたメッセージのSyslog機能"
+
 #: ../cmk/gui/wato/mkeventd.py:1209
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3479
 msgid "Syslog priority"
 msgstr "Syslogの優先順位"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3481
+#, fuzzy
+#| msgid "Directly forward to Event Console"
+msgid "Syslog priority of forwarded events shown in Event Console."
+msgstr "イベントコンソールに直接転送する"
 
 #: ../cmk/gui/wato/mkeventd.py:861
 msgid "Syslog priority to cancel event"
@@ -58768,7 +58929,7 @@ msgstr "APX Inrowデバイスのシステムイベント"
 msgid "System ID"
 msgstr "システムID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1492
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1493
 msgid "System Info"
 msgstr "システム情報"
 
@@ -58792,7 +58953,7 @@ msgstr "システム番号"
 msgid "System Parameters"
 msgstr "システムパラメータ"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1493
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1494
 msgid "System Stats"
 msgstr "システム統計"
 
@@ -58801,7 +58962,7 @@ msgstr "システム統計"
 msgid "System global targets"
 msgstr "システムグローバルターゲット"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3051
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3052
 msgid "System messages"
 msgstr "システムメッセージ"
 
@@ -58894,8 +59055,8 @@ msgid "TCP Port for connection"
 msgstr "接続用のTCPポート"
 
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:364
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1041
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1914
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1042
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1915
 msgid "TCP Port number"
 msgstr "TCPポート番号"
 
@@ -58945,8 +59106,8 @@ msgid "TCP port"
 msgstr "TCPポート"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:61
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2094
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2189
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2095
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2190
 msgid "TCP port for connection"
 msgstr "接続用のTCPポート"
 
@@ -58956,10 +59117,10 @@ msgstr "Checkmkエージェントに接続するためのTCPポート"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_redis.py:50
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:283
-#: ../cmk/gui/plugins/wato/datasource_programs.py:105
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2061
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2158
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2229
+#: ../cmk/gui/plugins/wato/datasource_programs.py:106
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2062
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2159
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2230
 #: ../cmk/gui/plugins/wato/active_checks.py:226
 msgid "TCP port number"
 msgstr "TCPポート番号"
@@ -58984,7 +59145,7 @@ msgstr "TIME_WAIT"
 msgid "TLS Processed Bytes"
 msgstr "TLS処理されたバイト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:424
+#: ../cmk/gui/plugins/wato/datasource_programs.py:425
 msgid "TLS/SSL/Https disabled"
 msgstr "TLS/SSL/Httpsが無効になっています"
 
@@ -59138,7 +59299,7 @@ msgstr ""
 msgid "Tag usage"
 msgstr "タグの使用法"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2384
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2385
 msgid "Tag value"
 msgstr "タグ値"
 
@@ -59190,6 +59351,12 @@ msgstr "ホストのタグ"
 #: ../cmk/gui/plugins/wato/notifications.py:1188
 msgid "Tags of the alert."
 msgstr "アラートのタグ"
+
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3455
+#, fuzzy
+#| msgid "Host running Event Console"
+msgid "Tags shown in Event Console"
+msgstr "イベントコンソールを実行しているホスト"
 
 #: ../cmk/gui/wato/pages/tags.py:391
 msgid "Tags using this auxiliary tag"
@@ -59308,7 +59475,7 @@ msgstr ""
 "るようにjolokiaプラグインに指示します。この時間制限は、最初の接続と、プラグイ"
 "ンが受信するデータのチャンク間で待機する必要がある時間の両方に適用されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1855
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1856
 #: ../cmk/gui/plugins/wato/check_parameters/eaton_enviroment.py:23
 #: ../cmk/gui/plugins/wato/check_parameters/temperature.py:177
 #: ../cmk/gui/plugins/metrics/environment.py:43
@@ -59425,7 +59592,7 @@ msgstr "一時的に凍結"
 msgid "Temporary filesystem mounted"
 msgstr "一時ファイルシステムがマウントされました"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2411
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2412
 msgid "Tenant ID / Directory ID"
 msgstr "テナントID / ディレクトリID"
 
@@ -59451,12 +59618,12 @@ msgstr ""
 msgid "Test hostname before activation"
 msgstr "アクティベーション前にホスト名をテストする"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:320
+#: ../cmk/gui/plugins/wato/datasource_programs.py:321
 msgid "Testing"
 msgstr "テスト"
 
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:106
-#: ../cmk/gui/notify.py:196 ../cmk/gui/plugins/wato/datasource_programs.py:1864
+#: ../cmk/gui/notify.py:196 ../cmk/gui/plugins/wato/datasource_programs.py:1865
 #: ../cmk/gui/plugins/dashboard/static_text.py:45
 msgid "Text"
 msgstr "テキスト"
@@ -59586,7 +59753,7 @@ msgstr "削除しようとしている %s は存在しません"
 msgid "The <i>from</i> time must not be later then the <i>until</i> time."
 msgstr "<i>from</i>の時間は、<i>until</i>の時間より遅くてはなりません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2729
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2730
 msgid "The ARN of the IAM role to assume"
 msgstr ""
 
@@ -59605,11 +59772,11 @@ msgid ""
 "(Linux, Windows)</a>."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2731
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2732
 msgid "The Amazon Resource Name (ARN) of the role to assume."
 msgstr "引き受けるロールのAmazonリソース名(ARN)。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1803
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1804
 msgid "The Area"
 msgstr "エリア"
 
@@ -59807,8 +59974,8 @@ msgstr ""
 "tt> 必ず<tt>TRUE</tt>である必要があります。適用および転送ラグは、このルールで"
 "構成できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1105
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1120
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1106
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1121
 msgid "The ESX Host"
 msgstr "ESXホスト"
 
@@ -59845,7 +60012,7 @@ msgstr ""
 "イベントコンソールビュー '%s' はレンダリングできません。イベントコンソールが"
 "無効になっている可能性があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3282
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3283
 msgid "The Graylog node"
 msgstr "グレイログノード"
 
@@ -59964,7 +60131,7 @@ msgstr ""
 "名を持つビューを作成すると、ビューはそれをオーバーライドします(シャドウ処理し"
 "ます)。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1056
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1057
 msgid ""
 "The IP of the other hostname needs to be the same IP as the host address"
 msgstr "他のホスト名のIPは、ホストアドレスと同じIPである必要があります"
@@ -60223,7 +60390,7 @@ msgid ""
 "slash. Omit the <tt>/nagvis/</tt> from the prefix."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:556
+#: ../cmk/gui/plugins/wato/datasource_programs.py:557
 msgid ""
 "The URL that will be contacted for Kubernetes API calls. If the \"Hostname\" "
 "or the \"IP Address\" options are selected, the DNS hostname or IP address "
@@ -60259,8 +60426,8 @@ msgstr ""
 msgid "The User Base DN is not configured."
 msgstr "ユーザーベースDNが構成されていません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1106
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1121
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1107
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1122
 msgid "The Virtual Machine"
 msgstr "仮想マシン"
 
@@ -60306,7 +60473,7 @@ msgstr ""
 "および<i>プラグインとローカルチェックの実行モードの設定</i>を使用して変更でき"
 "ます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2697
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2698
 msgid "The access key ID for your AWS account"
 msgstr "AWSアカウントのアクセスキーID"
 
@@ -60923,7 +61090,7 @@ msgid ""
 "The configured value must match a tunnel reported by the monitored device."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1924
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1925
 msgid ""
 "The connect timeout in seconds when establishing a connection with the PLC."
 msgstr ""
@@ -60967,8 +61134,8 @@ msgstr ""
 "イベントの作成はこの期間までに遅れます。これは、否定的なルールによってキャン"
 "セルできるイベントに対してのみ意味があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:413
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3339
+#: ../cmk/gui/plugins/wato/datasource_programs.py:414
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3340
 msgid "The credentials for api calls with authentication."
 msgstr "認証付きのAPI呼び出しの資格情報。"
 
@@ -61681,7 +61848,7 @@ msgstr ""
 msgid "The icon type is %s, but should be str"
 msgstr "アイコンの種類は%sですが、strにする必要があります"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1795
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1796
 msgid "The ident of a value needs to be unique per valuetype."
 msgstr "値のIDは、値タイプごとに一意である必要があります。"
 
@@ -62054,7 +62221,7 @@ msgstr ""
 "秒)。このアラームはターゲットホストにのみ適用され、その間のホップには適用され"
 "ません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2623
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2624
 msgid "The maximum key length is 128 characters."
 msgstr "キーの最大長は128文字です。"
 
@@ -62095,7 +62262,7 @@ msgstr ""
 msgid "The maximum number of messages per time interval"
 msgstr "時間間隔あたりのメッセージの最大数"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2625
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2626
 msgid "The maximum number of tags per resource is 50."
 msgstr "リソースあたりのタグの最大数は50です"
 
@@ -62116,7 +62283,7 @@ msgid ""
 "host, not the hops in between."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2630
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2631
 msgid "The maximum value length is 256 characters."
 msgstr "最大値の長さは256文字です。"
 
@@ -62139,7 +62306,7 @@ msgstr ""
 msgid "The message text does not match the required pattern."
 msgstr "メッセージテキストが必要なパターンと一致しません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:913
+#: ../cmk/gui/plugins/wato/datasource_programs.py:914
 msgid ""
 "The metric label is displayed alongside the queried value in the status "
 "detail the resulting service. The metric name will be taken as label if "
@@ -62192,6 +62359,12 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/check_parameters/skype_proxy.py:25
 msgid "The name of the Data Proxy"
 msgstr "Data Proxyの名前"
+
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:72
+#, fuzzy
+#| msgid "The name of the Datastore"
+msgid "The name of the Datadog monitor."
+msgstr "データストアの名前"
 
 #: ../cmk/gui/plugins/wato/check_parameters/esx_vsphere_datastores.py:25
 msgid "The name of the Datastore"
@@ -62342,12 +62515,12 @@ msgstr ""
 msgid "The network scan found %d new hosts."
 msgstr "ネットワークスキャンにより、%d個の新しいホストが見つかりました"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:382
-#: ../cmk/gui/plugins/wato/datasource_programs.py:435
+#: ../cmk/gui/plugins/wato/datasource_programs.py:383
+#: ../cmk/gui/plugins/wato/datasource_programs.py:436
 msgid "The network timeout in seconds"
 msgstr "秒単位のネットワークタイムアウト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1736
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1737
 msgid ""
 "The network timeout in seconds when communicating via HTTP. The default is "
 "10 seconds."
@@ -62355,7 +62528,7 @@ msgstr ""
 "HTTP経由で通信する場合のネットワークタイムアウト(秒単位)。デフォルトは10秒で"
 "す。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1588
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1589
 msgid ""
 "The network timeout in seconds when communicating via UPNP. The default is "
 "10 seconds. Please note that this is not a total timeout, instead it is "
@@ -62365,7 +62538,7 @@ msgstr ""
 "す。これは完全なタイムアウトではなく、各API呼び出しに適用されることに注意して"
 "ください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2070
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2071
 msgid ""
 "The network timeout in seconds when communicating with AppDynamics.The "
 "default is 30 seconds."
@@ -62373,7 +62546,7 @@ msgstr ""
 "AppDynamicsと通信するときのネットワークタイムアウト(秒単位)。デフォルトは30秒"
 "です"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1064
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1065
 msgid ""
 "The network timeout in seconds when communicating with vSphere or to the "
 "Check_MK Agent. The default is 60 seconds. Please note that this is not a "
@@ -62403,7 +62576,7 @@ msgid ""
 msgstr ""
 "ノード<b>%s </b>は存在しません(WATOで構成されたホストである必要があります)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3278
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3279
 msgid ""
 "The node details can be displayed either on the queried host or the Graylog "
 "node."
@@ -62681,7 +62854,7 @@ msgstr ""
 "パスワードはチェックで使用される場合があります。パスワードを削除すると、"
 "チェックはこのパスワードで認証できなくなります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3110
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3111
 msgid "The password or API key of the user."
 msgstr "ユーザーのパスワードまたはAPIキー"
 
@@ -62817,8 +62990,8 @@ msgstr ""
 msgid "The port on which the ntopng instance is reachable."
 msgstr "ntopngインスタンスが到達可能なポート。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3336
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3571
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3337
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3745
 msgid "The port that is used for the api call."
 msgstr "API呼び出しに使用されるポート。"
 
@@ -62826,7 +62999,7 @@ msgstr "API呼び出しに使用されるポート。"
 msgid "The port the DBMS listens to"
 msgstr "DBMSがリッスンするポート"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1113
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1114
 msgid ""
 "The power state can be displayed additionally either on the ESX host or the "
 "VM. This will result in services for <i>both</i> the queried system and the "
@@ -62838,14 +63011,14 @@ msgstr ""
 msgid "The power supply sensor name as shown in the service"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1104
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1119
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1105
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1120
 msgid "The queried ESX system (vCenter / Host)"
 msgstr "照会されたESXシステム(vCenter /ホスト)"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3281
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3292
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3303
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3282
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3293
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3304
 msgid "The queried Graylog host"
 msgstr "照会されたGraylogホスト"
 
@@ -62970,7 +63143,7 @@ msgstr "リクエストされたサイトは存在しません"
 msgid "The requested user does not exist"
 msgstr "要求されたユーザーは存在しません"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2377
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2378
 msgid "The resource tag"
 msgstr "リソースタグ"
 
@@ -62993,11 +63166,11 @@ msgstr "復元が開始されました"
 msgid "The restore has been stopped."
 msgstr "復元が停止しました。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3449
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3623
 msgid "The resulting service will get this entry as service description"
 msgstr "結果のサービスは、このエントリをサービスの説明として取得します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:789
+#: ../cmk/gui/plugins/wato/datasource_programs.py:790
 msgid ""
 "The retrieved information from the cAdvisor will be aggregated according to "
 "the selected entity level. Resulting services will be allocated to the "
@@ -63132,7 +63305,7 @@ msgstr "削除しようとしているスケジュールが存在しません。
 msgid "The schedule you are trying to edit does not exist."
 msgstr "編集しようとしているスケジュールが存在しません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2703
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2704
 msgid "The secret access key for your AWS account"
 msgstr "AWSアカウントのシークレットアクセスキー"
 
@@ -63279,7 +63452,7 @@ msgstr ""
 "サイドバーは、保留中のポップアップ通知を定期的にチェックするように構成できま"
 "す。これはデフォルトで無効になっています。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3289
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3290
 msgid ""
 "The sidecar details can be displayed either on the queried host or the "
 "sidecar host."
@@ -63287,7 +63460,7 @@ msgstr ""
 "サイドカーの詳細は、照会されたホストまたはサイドカーホストのいずれかに表示で"
 "きます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3293
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3294
 msgid "The sidecar host"
 msgstr "サイドカーホスト"
 
@@ -63363,14 +63536,14 @@ msgstr ""
 msgid "The source IP address does not match."
 msgstr "送信元IPアドレスが一致しません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3300
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3301
 msgid ""
 "The source details can be displayed either on the queried host or the source "
 "host."
 msgstr ""
 "ソースの詳細は、照会されたホストまたはソースホストのいずれかに表示できます"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3304
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3305
 msgid "The source host"
 msgstr "ソースホスト"
 
@@ -63782,7 +63955,7 @@ msgstr ""
 msgid "The username returned by the %s connector is not of type string (%r)."
 msgstr "%sコネクタによって返されるユーザー名は文字列(%r)タイプではありません。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3217
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3218
 msgid ""
 "The username that should be used for accessing the Graylog API. Has to have "
 "read permissions at least."
@@ -63790,15 +63963,15 @@ msgstr ""
 "GraylogAPIへのアクセスに使用する必要があるユーザー名。少なくとも読み取り権限"
 "が必要です。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3418
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3592
 msgid "The username that should be used for accessing the Jira API."
 msgstr "Jira APIへのアクセスに使用する必要があるユーザー名。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3549
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3723
 msgid "The username that should be used for accessing the RabbitMQ API."
 msgstr "RabbitMQ APIへのアクセスに使用する必要のあるユーザー名。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3103
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3104
 msgid ""
 "The username that should be used for accessing the jenkins API. Has to have "
 "read permissions at least."
@@ -65260,7 +65433,7 @@ msgid "This is rule pack can be packaged with the Extension Packages module."
 msgstr ""
 "これは、拡張パッケージモジュールと一緒にパッケージ化できるルールパックです。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2053
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2054
 msgid ""
 "This is the application name used in the URL. If you enter for example the "
 "application name <tt>foobar</tt>, this would result in the URL being used to "
@@ -65299,7 +65472,7 @@ msgstr ""
 "前/アドレスです。<b>注</b>:HTTPSを使用している場合、この名前はサーバー証明書"
 "の一般名と完全に一致する必要があります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2167
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2168
 msgid ""
 "This is the uid of the sensor you want to display in the 7-segment display, "
 "not the uid of the display itself. There is currently no support for "
@@ -65577,6 +65750,21 @@ msgstr ""
 "ストのCPU負荷と転送されるデータの量が削減されます。ただし、関連する1つまたは"
 "複数のCheckmkサービスが存在しない場合があります。"
 
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3457
+msgid ""
+"This option allows you to configure which Datadog tags will be shown in the "
+"events forwarded to the Event Console. This is done by entering regular "
+"expressions matching one or more Datadog tags. Any matching tag will be "
+"added to the text of the corresponding event."
+msgstr ""
+
+#: ../cmk/gui/plugins/wato/check_parameters/datadog_monitors.py:101
+msgid ""
+"This option allows you to configure which Datadog tags will be shown in the "
+"service output. This is done by entering regular expressions matching one or "
+"more Datadog tags. Any matching tag will be displayed in the service output."
+msgstr ""
+
 #: ../cmk/gui/plugins/wato/bi_config.py:1220
 #, python-format
 msgid ""
@@ -65601,7 +65789,7 @@ msgid ""
 "that is not used on the local system yet."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:331
+#: ../cmk/gui/plugins/wato/datasource_programs.py:332
 #: ../cmk/gui/plugins/wato/active_checks.py:1613
 msgid ""
 "This option can only be used with the permission \"Can add or modify "
@@ -66326,7 +66514,7 @@ msgstr "この役割は存在しません"
 msgid "This rule"
 msgstr "このルール"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1558
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1559
 msgid ""
 "This rule activates an agent which connects to an ACME Session Border "
 "Controller (SBC). This agent uses SSH, so you have to exchange an SSH key to "
@@ -66342,7 +66530,7 @@ msgid ""
 "HW/SW inventory, which can quickly fill up the temporary file system."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1020
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1021
 msgid ""
 "This rule allows monitoring of VMWare ESX via the vSphere API. You can "
 "configure your connection settings here."
@@ -66350,7 +66538,7 @@ msgstr ""
 "このルールにより、vSphereAPIを介したVMWareESXの監視が可能になります。ここで接"
 "続設定を構成できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2038
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2039
 msgid ""
 "This rule allows querying an AppDynamics server for information about Java "
 "applicationsvia the AppDynamics REST API. You can configure your connection "
@@ -66359,7 +66547,7 @@ msgstr ""
 "このルールにより、AppDynamics REST APIを介してJavaアプリケーションに関する情"
 "報をAppDynamicsサーバーに照会できます。ここで接続設定を構成できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2139
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2140
 msgid "This rule allows querying the Jolokia web API."
 msgstr "このルールにより、Jolokia WebAPIにクエリを実行できます。"
 
@@ -66375,7 +66563,7 @@ msgid "This rule allows to override alert levels for the given sensor names."
 msgstr ""
 "このルールにより、指定されたセンサー名のアラートレベルを上書きできます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3324
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3325
 msgid ""
 "This rule allows to select a Couchbase server to monitor as well as "
 "configure buckets for further checks"
@@ -66439,7 +66627,7 @@ msgstr ""
 "(エージェントのインストールディレクトリ)を指します。複数のルールを適用できま"
 "す。これは、複数のルールのパッケージがマージされることを意味します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2594
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2595
 msgid ""
 "This rule allows you to check multiple BI aggregations from multiple sites "
 "at once. You can also assign aggregations to specific hosts through the "
@@ -66835,14 +67023,14 @@ msgstr "このルールパックは、MKP%sを介して提供されます。"
 msgid "This rule representation can be used for Web API calls."
 msgstr "このルール表現は、Web API呼び出しに使用できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1729
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1730
 msgid ""
 "This rule selects the ALLNET IP Sensoric agent, which fetches /xml/"
 "sensordata.xml from the device by HTTP and extracts the needed monitoring "
 "information from this file."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1191
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1192
 msgid ""
 "This rule selects the Agent HP MSA instead of the normal Check_MK Agent "
 "which collects the data through the HP MSA web interface"
@@ -66850,7 +67038,7 @@ msgstr ""
 "このルールは、HP MSAのWebインターフェイスを通じてデータを収集する通常の"
 "Check_MK Agentではなく、HP MSA Agentを選択します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1272
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1273
 msgid ""
 "This rule selects the Agent IPMI Sensors instead of the normal Check_MK "
 "Agent which collects the data through the FreeIPMI resp. IPMItool command"
@@ -66858,13 +67046,13 @@ msgstr ""
 "このルールは、FreeIPMI respを介してデータを収集する通常のCheck_MKエージェント"
 "の代わりに、Agent IPMIセンサーを選択します。IPMItoolコマンド"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2016
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2017
 msgid ""
 "This rule selects the Agent Ruckus Spot agent instead of the normal Check_MK "
 "Agent which collects the data through the Ruckus Spot web interface"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1386
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1387
 msgid ""
 "This rule selects the EMC VNX agent instead of the normal Check_MK Agent and "
 "allows monitoring of EMC VNX storage systems by calling naviseccli "
@@ -66876,7 +67064,7 @@ msgstr ""
 "り、EMCVNXストレージシステムの監視を可能にします。インストールされ、機能して"
 "いることを確認してください。ここで接続設定を構成できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1582
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1583
 msgid ""
 "This rule selects the Fritz!Box agent, which uses UPNP to gather information "
 "about configuration and connection status information."
@@ -66884,7 +67072,7 @@ msgstr ""
 "このルールは、UPNPを使用して構成および接続ステータス情報に関する情報を収集す"
 "るFritz!Boxエージェントを選択します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:614
+#: ../cmk/gui/plugins/wato/datasource_programs.py:615
 msgid ""
 "This rule selects the Kubernetes special agent for an existing Checkmk host. "
 "If you want to monitor multiple Kubernetes clusters we strongly recommend to "
@@ -66898,7 +67086,7 @@ msgid ""
 "version."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1957
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1958
 msgid ""
 "This rule selects the Siemens PLC agent instead of the normal Check_MK Agent "
 "and allows monitoring of Siemens PLC using the Snap7 API. You can configure "
@@ -66908,7 +67096,7 @@ msgstr ""
 "択し、Snap7 APIを使用してSiemens PLCを監視できるようにします。ここでフェッチ"
 "する接続設定と値を構成できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1759
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1760
 msgid ""
 "This rule selects the UCS Bladecenter agent instead of the normal Check_MK "
 "Agent which collects the data through the UCS Bladecenter Web API"
@@ -66916,12 +67104,12 @@ msgstr ""
 "このルールは、Check_MKエージェントの代わりにUCSBladecenterエージェントを選択"
 "します。UCS Bladecenter WebAPIを介してデータを収集します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3182
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3183
 msgid "This rule selects the Zerto special agent for an existing Checkmk host"
 msgstr "このルールは、既存のCheckmkホストのZerto特殊エージェントを選択します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2328
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2342
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2329
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2343
 msgid "This rule selects the special agent for Salesforce."
 msgstr "このルールは、Salesforceの特別なエージェントを選択します。"
 
@@ -66998,7 +67186,7 @@ msgstr ""
 "に入れられます。これは、連絡先オブジェクトまたは連絡先グループを転送しません"
 "が、自由なコメントフィールドです。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1456
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1457
 msgid ""
 "This rule set selects the <tt>ibmsvc</tt> agent instead of the normal "
 "Check_MK Agent and allows monitoring of IBM SVC / V7000 storage systems by "
@@ -67008,7 +67196,7 @@ msgid ""
 "the storage system as the user you gave below without password."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1311
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1312
 msgid ""
 "This rule set selects the NetApp special agent instead of the normal "
 "Check_MK Agent and allows monitoring via the NetApp Web API. To access the "
@@ -67024,7 +67212,7 @@ msgstr ""
 "エージェント自体は、<tt>~/share/check_mk/agents/special</tt>の下のサイトディ"
 "レクトリにあります。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2273
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2274
 msgid ""
 "This rule set selects the special agent for HPE StoreOnce Applainces instead "
 "of the normal Check_MK agent and allows monitoring via Web API. "
@@ -67032,7 +67220,7 @@ msgstr ""
 "このルールセットは、通常のCheck_MKエージェントの代わりにHPE StoreOnce "
 "Applaincesの特別なエージェントを選択し、Web APIを介した監視を可能にします。 "
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2300
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2301
 msgid ""
 "This rule set selects the special agent for HPE StoreOnce Appliances instead "
 "of the normal Check_MK agent and allows monitoring via REST API v4.x or "
@@ -68295,7 +68483,7 @@ msgstr "時間分散(ジッター)"
 msgid "Time drifted devices"
 msgstr "時間ドリフトデバイス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3244
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3245
 msgid "Time for coverage of failures"
 msgstr "障害をカバーする時間"
 
@@ -68589,7 +68777,7 @@ msgstr "タイムマシンのバックアップ経過日数"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/win_script_timeout.py:43
 #: ../cmk/gui/cee/plugins/wato/mknotifyd.py:236
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3330
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3331
 #: ../cmk/gui/plugins/wato/active_checks.py:410
 msgid "Timeout"
 msgstr "タイムアウト"
@@ -68626,7 +68814,7 @@ msgstr ""
 "トが出力を生成するために必要な時間を<b>制限しません</b>。このルールを使用し"
 "て、ホストごとにタイムアウトを指定できます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3332
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3333
 msgid "Timeout for requests in seconds."
 msgstr "リクエストのタイムアウト(秒単位)。"
 
@@ -68673,7 +68861,7 @@ msgid ""
 "the day."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1813
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1814
 msgid "Timer"
 msgstr "タイマー"
 
@@ -68738,7 +68926,7 @@ msgstr "SNMPアクセスのタイミング設定"
 msgid "Timing settings for specific methods"
 msgstr "特定のメソッドのタイミング設定"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2155
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2156
 msgid "Tinkerforge"
 msgstr "Tinkerforge"
 
@@ -68826,7 +69014,7 @@ msgid ""
 "have not been downloaded yet: %s"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2398
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2399
 msgid ""
 "To monitor Azure resources add this datasource to <b>one</b> host. The data "
 "will be transported using the piggyback mechanism, so make sure to create "
@@ -68912,7 +69100,7 @@ msgid "Toggle the visibility of this metric"
 msgstr "このメトリックの可視性を切り替えます"
 
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:358
-#: ../cmk/gui/plugins/wato/datasource_programs.py:562
+#: ../cmk/gui/plugins/wato/datasource_programs.py:563
 msgid "Token"
 msgstr "トークン"
 
@@ -69890,11 +70078,11 @@ msgstr "チェックの種類"
 msgid "Type of event action"
 msgstr "イベントアクションの種類"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1033
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1034
 msgid "Type of query"
 msgstr "クエリの種類"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3465
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3639
 msgid "Type of result"
 msgstr "結果の種類"
 
@@ -69916,7 +70104,7 @@ msgstr ""
 "は'Summary'のいずれかです。最後の項目は、セッションの総数(すべてのセッション"
 "タイプの合計)を示します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1852
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1853
 msgid "Type of the value"
 msgstr "値のタイプ"
 
@@ -69933,7 +70121,7 @@ msgstr "処理されているイベントの種類"
 msgid "U"
 msgstr "U"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1758
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1759
 msgid "UCS Bladecenter"
 msgstr "UCSブレードセンター"
 
@@ -70140,7 +70328,7 @@ msgstr ""
 "フェッチされますが、URLプレフィックスはローカルブラウザによって使用されること"
 "に注意してください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2492
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2493
 msgid "URL of the remote site, for example https://10.3.1.2/testsite"
 msgstr "リモートサイトのURL,例 https://10.3.1.2/testsite"
 
@@ -70153,7 +70341,7 @@ msgstr ""
 msgid "URL prefix for links to Checkmk"
 msgstr "CheckmkへのリンクのURLプレフィックス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1683
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1684
 msgid "URL to HiveManagerNG, e.g. https://cloud.aerohive.com"
 msgstr "HiveManagerNGへのURL(例: https://cloud.aerohive.com)"
 
@@ -70588,7 +70776,7 @@ msgstr "割り当てられていないシャード"
 msgid "Unblended costs"
 msgstr "混合されていないコスト"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1854
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1855
 msgid "Unclassified"
 msgstr "未分類"
 
@@ -71290,7 +71478,7 @@ msgstr "準備完了メッセージの総数の上位レベル"
 msgid "Upper level for total number of unacknowledged messages"
 msgstr "未確認メッセージの総数の上位レベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:936
+#: ../cmk/gui/plugins/wato/datasource_programs.py:937
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:107
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:131
 #: ../cmk/gui/plugins/wato/check_parameters/ipmi.py:163
@@ -71769,7 +71957,7 @@ msgid ""
 "possible - though uncommon - to do a remote monitoring here."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2541
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2542
 #: ../cmk/gui/plugins/wato/utils/__init__.py:431
 msgid "Use <tt>\\1</tt>, <tt>\\2</tt> etc. to replace matched subgroups"
 msgstr ""
@@ -71811,7 +71999,7 @@ msgstr "DNS解決を使用してアドレスを検索する"
 msgid "Use DNS to convert IP addresses into hostnames"
 msgstr "DNSを使用してIPアドレスをホスト名に変換します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1268
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1269
 msgid "Use FreeIPMI"
 msgstr "FreeIPMIを使用する"
 
@@ -71823,7 +72011,7 @@ msgstr "WATOに対するGITバージョン管理を使用する"
 msgid "Use Hard States"
 msgstr "ハードステートを使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1269
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1270
 msgid "Use IPMItool"
 msgstr "IPMItoolを使用する"
 
@@ -71841,7 +72029,7 @@ msgstr "インラインSNMPを使用する(非推奨)"
 msgid "Use Inline SNMP Backend"
 msgstr "インラインSNMPバックエンドを使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3402
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3576
 msgid ""
 "Use Jira Query Language (JQL) to get statistics out of your Jira instance."
 msgstr "Jiraクエリ言語(JQL)を使用して、Jiraインスタンスから統計を取得します。"
@@ -71861,7 +72049,7 @@ msgstr "LDAPS(SSL)を使用する"
 msgid "Use Livestatus Proxy Daemon"
 msgstr "Livestatusプロキシデーモンを使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1357
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1358
 msgid "Use Piggyback"
 msgstr "ピギーバックを使用する"
 
@@ -71911,7 +72099,7 @@ msgstr "接続にはSSL/HTTPSを使用します。"
 msgid "Use STARTTLS for the connection."
 msgstr "接続にはSTARTTLSを使用します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2726
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2727
 msgid "Use STS AssumeRole to assume a different IAM role"
 msgstr "STS AssumeRoleを使用して、別のIAMロールを引き受けます。"
 
@@ -71947,8 +72135,8 @@ msgstr ""
 msgid "Use a custom check plugin..."
 msgstr "カスタムチェックプラグインを使用してください…"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:580
-#: ../cmk/gui/plugins/wato/datasource_programs.py:653
+#: ../cmk/gui/plugins/wato/datasource_programs.py:581
+#: ../cmk/gui/plugins/wato/datasource_programs.py:654
 msgid "Use a namespace prefix"
 msgstr "名前空間プレフィックスを使用する"
 
@@ -72029,11 +72217,11 @@ msgstr "二重引用符を使用し、円記号で含まれている引用符を
 msgid "Use environment variables from host"
 msgstr "ホストからの環境変数を使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2665
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2666
 msgid "Use explicit AWS service tags and overrule overall AWS tags"
 msgstr "明示的なAWSサービスタグを使用し、AWSタグ全体を無効にします"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2846
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2847
 msgid "Use explicit names"
 msgstr "明示的な名前を使用する"
 
@@ -72041,7 +72229,7 @@ msgstr "明示的な名前を使用する"
 msgid "Use explicit proxy settings"
 msgstr "明示的なプロキシ設定を使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2667
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2668
 msgid "Use explicit service names and ignore overall AWS tags"
 msgstr "明示的なサービス名を使用し、AWSタグ全体を無視します"
 
@@ -72073,11 +72261,11 @@ msgstr "グローバルに設定されたプロキシを使用する"
 msgid "Use graph title"
 msgstr "グラフタイトルを使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1982
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1983
 msgid "Use host address"
 msgstr "ホストアドレスを使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1052
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1053
 msgid "Use hostname"
 msgstr "ホスト名を使用する"
 
@@ -72157,7 +72345,7 @@ msgstr "通常の状態を使用し、ダウンタイムを無視します"
 msgid "Use only lower case letters, digits, and underscores here."
 msgstr "ここでは、小文字、数字、およびアンダースコアのみを使用してください、"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1054
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1055
 msgid "Use other hostname"
 msgstr "他のホスト名を使用する"
 
@@ -72255,7 +72443,7 @@ msgstr "エージェントが実行されているマシンのFQDNを使用し�
 msgid "Use the Livestatus Proxy Daemon for your site"
 msgstr "サイトにLivestatusプロキシデーモンを使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1142
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1143
 msgid "Use the VMs hostname if set, otherwise fall back to ESX name"
 msgstr ""
 "設定されている場合はVMのホスト名を使用し、設定されていない場合はESX名にフォー"
@@ -72265,7 +72453,7 @@ msgstr ""
 msgid "Use the alias as DNS name / IP address"
 msgstr "DNS名/IPアドレスとしてエイリアスを使用します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2499
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2500
 #: ../cmk/gui/plugins/wato/active_checks.py:1733
 msgid "Use the credentials of the 'automation' user"
 msgstr ""
@@ -72307,7 +72495,7 @@ msgstr "次のIDを使用してください"
 msgid "Use the following color"
 msgstr "次の色を使用する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2500
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2501
 #: ../cmk/gui/plugins/wato/active_checks.py:1734
 msgid "Use the following credentials"
 msgstr "次の資格情報を使用します"
@@ -72332,7 +72520,7 @@ msgstr "メールの件名を使用する"
 msgid "Use the multipath alias as service name, if one is set"
 msgstr "マルチパスエイリアスが設定されている場合は、サービス名として使用します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1140
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1141
 msgid "Use the name specified in the ESX system"
 msgstr "ESXシステムで指定された名前を使用します"
 
@@ -72453,35 +72641,35 @@ msgid ""
 "limit</a>"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3239
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3240
 msgid ""
 "Use this option to query a port which is different from standard port 443."
 msgstr "このオプションを使用して、標準ポート443とは異なるポートを照会します。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3127
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3128
 msgid ""
 "Use this option to query a port which is different from standard port 8080."
 msgstr "このオプションを使用して、標準ポート8080とは異なるポートを照会します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3037
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3038
 msgid ""
 "Use this option to query a port which is different from standard port 8089."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2969
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2970
 #: ../cmk/gui/plugins/wato/active_checks.py:2445
 msgid ""
 "Use this option to query a port which is different from standard port 9200."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3014
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3015
 msgid ""
 "Use this option to set which host should be checked by the special agent."
 msgstr ""
 "このオプションを使用して、特別なエージェントがチェックするホストを設定しま"
 "す。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2945
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2946
 msgid ""
 "Use this option to set which host should be checked by the special agent. If "
 "the connection to the first server fails, the next server will be queried "
@@ -72493,13 +72681,13 @@ msgstr ""
 "バック)。このチェックでは、応答を送信した最初のホストからのデータのみが出力さ"
 "れます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3208
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3209
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_graylog.com."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3094
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3095
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jenkins.com."
@@ -72507,7 +72695,7 @@ msgstr ""
 "このオプションを使用して、特別なエージェントがチェックするインスタンスを設定"
 "します。ここにホスト名を追加してください。例 my_jenkins.com。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3408
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3582
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_jira.com. If not set, the "
@@ -72517,7 +72705,7 @@ msgstr ""
 "します。ここにホスト名を追加してください。例:my_jira.com。設定されていない場"
 "合、割り当てられたホストがインスタンスとして使用されます。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3539
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3713
 msgid ""
 "Use this option to set which instance should be checked by the special "
 "agent. Please add the hostname here, eg. my_rabbitmq.com. If not set, the "
@@ -72832,12 +73020,12 @@ msgstr "ユーザーのCPU使用率"
 msgid "User ID"
 msgstr "ユーザーID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2193
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2194
 msgid "User ID for web login"
 msgstr "Webログイン用のユーザーID"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:80
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2103
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2104
 msgid "User ID for web login (if login required)"
 msgstr "WebログインのユーザーID(ログインが必要な場合)"
 
@@ -72886,7 +73074,7 @@ msgstr "ユーザーインターフェイスのテーマ"
 msgid "User name"
 msgstr "ユーザー名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1468
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1469
 msgid "User name on the storage system. Read only permissions are sufficient."
 msgstr ""
 
@@ -72961,27 +73149,27 @@ msgstr "ユーザー:"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:35
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:31
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:45
-#: ../cmk/gui/login.py:532 ../cmk/gui/plugins/wato/datasource_programs.py:350
-#: ../cmk/gui/plugins/wato/datasource_programs.py:370
-#: ../cmk/gui/plugins/wato/datasource_programs.py:415
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1181
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1207
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1291
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1360
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1657
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1763
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2220
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2277
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2305
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2713
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2951
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3019
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3102
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3174
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3216
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3341
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3417
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3548
+#: ../cmk/gui/login.py:532 ../cmk/gui/plugins/wato/datasource_programs.py:351
+#: ../cmk/gui/plugins/wato/datasource_programs.py:371
+#: ../cmk/gui/plugins/wato/datasource_programs.py:416
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1182
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1208
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1292
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1361
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1658
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1764
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2221
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2278
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2306
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2714
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2952
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3020
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3103
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3175
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3217
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3342
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3591
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3722
 #: ../cmk/gui/plugins/wato/utils/__init__.py:353
 #: ../cmk/gui/plugins/wato/active_checks.py:157
 #: ../cmk/gui/plugins/wato/active_checks.py:198
@@ -73201,7 +73389,7 @@ msgstr "V$SYSTEM_PARAMETER"
 msgid "VA"
 msgstr "VA"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3171
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3172
 msgid "VCenter authentication"
 msgstr "VCenter認証"
 
@@ -73225,12 +73413,12 @@ msgstr "VMの配布"
 msgid "VM name"
 msgstr "VM名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1127
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1128
 msgid "VM snapshot summary"
 msgstr "VMスナップショットの概要"
 
 #: ../cmk/gui/watolib/search.py:407
-#: ../cmk/gui/plugins/wato/datasource_programs.py:197
+#: ../cmk/gui/plugins/wato/datasource_programs.py:198
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1371
 msgid "VM, Cloud, Container"
 msgstr "VM、クラウド、コンテナ"
@@ -73239,7 +73427,7 @@ msgstr "VM、クラウド、コンテナ"
 msgid "VMWare ESX host systems: Used space"
 msgstr "VMWare ESXホストシステム: 使用済みスペース"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1018
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1019
 msgid "VMWare ESX via vSphere"
 msgstr "vSphere経由のVMWare ESX"
 
@@ -73274,7 +73462,7 @@ msgstr ""
 msgid "VMware licenses"
 msgstr "VMwareライセンス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2911
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2912
 msgid "VNX quotas and filesystems"
 msgstr "VNXクォータとファイルシステム"
 
@@ -73379,20 +73567,20 @@ msgstr "値は、2つの要素を持つタプルである必要があります�
 msgid "Value of {diff_path} changed from {val_t1} to {val_t2}."
 msgstr "{diff_path} の値が{val_t1} から {val_t2}に変更されました。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2642
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2643
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:389
 msgid "Values"
 msgstr "値"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2245
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2246
 msgid "Values to fetch"
 msgstr "フェッチする値"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1951
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1952
 msgid "Values to fetch from all devices"
 msgstr "すべてのデバイスからフェッチする値"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1936
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1937
 msgid "Values to fetch from this device"
 msgstr "このデバイスからフェッチする値"
 
@@ -73524,7 +73712,7 @@ msgstr "ベンダー"
 msgid "Vendor and Device ID"
 msgstr "ベンダーとデバイスID"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1993
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1994
 msgid "Venue ID"
 msgstr "会場ID"
 
@@ -73548,8 +73736,8 @@ msgstr "サーバー証明書を確認する"
 msgid "Verify the Livestatus server certificate using the local site CA"
 msgstr "ローカルサイトのCAを使用してLivestatusサーバー証明書を確認します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:149
-#: ../cmk/gui/plugins/wato/datasource_programs.py:568
+#: ../cmk/gui/plugins/wato/datasource_programs.py:150
+#: ../cmk/gui/plugins/wato/datasource_programs.py:569
 msgid "Verify the certificate"
 msgstr "証明書を確認する"
 
@@ -73666,7 +73854,7 @@ msgstr ""
 msgid "Vhost name"
 msgstr "バーチャルホスト名"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3581
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3755
 msgid "Vhosts"
 msgstr "Vhosts"
 
@@ -73761,7 +73949,7 @@ msgstr "仮想マシン"
 msgid "Virtual Machine Snapshots"
 msgstr "仮想マシンのスナップショット"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1077
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1078
 msgid "Virtual Machines"
 msgstr "仮想マシン"
 
@@ -74330,7 +74518,7 @@ msgid "Warning area"
 msgstr "警告エリア"
 
 #: ../cmk/gui/cee/plugins/metrics/historic.py:209
-#: ../cmk/gui/plugins/wato/datasource_programs.py:938
+#: ../cmk/gui/plugins/wato/datasource_programs.py:939
 #: ../cmk/gui/plugins/wato/utils/__init__.py:926
 #: ../cmk/gui/plugins/wato/utils/__init__.py:935
 #: ../cmk/gui/plugins/wato/utils/__init__.py:944
@@ -75090,7 +75278,7 @@ msgid "Warning at usage of"
 msgstr "使用量の警告"
 
 #: ../cmk/gui/availability.py:252
-#: ../cmk/gui/plugins/wato/datasource_programs.py:931
+#: ../cmk/gui/plugins/wato/datasource_programs.py:932
 #: ../cmk/gui/plugins/wato/active_checks.py:684
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:91
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:748
@@ -75469,7 +75657,7 @@ msgstr "Web ACLキャパシティユニット(WCUs)"
 msgid "Web API communication"
 msgstr "WebAPI通信"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2866
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2867
 msgid "Web Application Firewall (WAFV2)"
 msgstr "Webアプリケーションファイアウォール(WAFV2)"
 
@@ -76770,7 +76958,7 @@ msgstr "Windowsターミナルサーバーセッション"
 msgid "Windows Updates"
 msgstr "Windows Updates"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3170
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3171
 msgid "Windows authentication"
 msgstr "Windows認証"
 
@@ -77029,7 +77217,7 @@ msgstr "この設定を使用すると、ホストのドキュメントへのリ
 msgid "With this setting you can set links to documentations for each service"
 msgstr "この設定を使用すると、各サービスのドキュメントへのリンクを設定できます"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2004
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2005
 msgid ""
 "With this setting, the special agent will also contact the Check_MK agent on "
 "the same system at the specified port."
@@ -77110,7 +77298,7 @@ msgstr "ワーカースレッドが制限されています"
 msgid "Worker threads not created"
 msgstr "ワーカースレッドが作成されていません"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3381
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3555
 msgid "Workflows"
 msgstr "ワークフロー"
 
@@ -77197,7 +77385,7 @@ msgstr "1秒あたりの書き込みブロック"
 msgid "Write bytes per operation"
 msgstr "操作ごとにバイトを書き込む"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1420
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1421
 msgid "Write cache state"
 msgstr "キャッシュ状態の書き込み"
 
@@ -77563,7 +77751,7 @@ msgid ""
 "example.org</tt>. "
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2550
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2551
 msgid ""
 "You can add any number of expressions here which are executed succesively "
 "until the first match. Please specify a regular expression in the first "
@@ -78185,7 +78373,7 @@ msgstr ""
 "成に応じて、マウントポイントまたはボリュームとマウントポイントの組み合わせの"
 "いずれかに一致することに注意してください。"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:880
+#: ../cmk/gui/plugins/wato/datasource_programs.py:881
 msgid ""
 "You can specify which Scrape Targets including Exporters are connected to "
 "your Prometheus instance. The Prometheus Special Agent will automatically "
@@ -78789,7 +78977,7 @@ msgstr "属性に役立つ説明を追加することをお勧めします。"
 msgid "You must not provide more than %d characters."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:754
+#: ../cmk/gui/plugins/wato/datasource_programs.py:755
 msgid ""
 "You must specify a name for your Kubernetes cluster. The provided name will "
 "be used to create a piggyback host for the cluster related services."
@@ -79176,7 +79364,7 @@ msgstr "ZFSメタデータ"
 msgid "ZFS storage pool status"
 msgstr "ZFSストレージプールのステータス"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:3181
+#: ../cmk/gui/plugins/wato/datasource_programs.py:3182
 msgid "Zerto"
 msgstr "Zerto"
 
@@ -79502,7 +79690,7 @@ msgstr "ビジーワーカー"
 msgid "bytes/s"
 msgstr "バイト/秒"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:782
+#: ../cmk/gui/plugins/wato/datasource_programs.py:783
 msgid "cAdvisor"
 msgstr "cAdvisor"
 
@@ -80140,7 +80328,7 @@ msgstr "除外"
 msgid "execute the action \"%s\""
 msgstr "アクション \"%s\"を実行します"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2383
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2384
 msgid "exists"
 msgstr "存在する"
 
@@ -80156,7 +80344,7 @@ msgstr "すべてを期待する"
 msgid "explicit host labels"
 msgstr "明示的なホストラベル"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2365
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2366
 msgid "explicitly specified groups"
 msgstr "明示的に指定されたグループ"
 
@@ -80450,7 +80638,7 @@ msgstr "iLertアラートソースAPIキー"
 msgid "iSCSI"
 msgstr "iSCSI"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1415
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1416
 msgid "iSCSI HBAs"
 msgstr "iSCSI HBA"
 
@@ -80463,7 +80651,7 @@ msgstr "アイコンが見つかりません"
 msgid "idle connections"
 msgstr "アイドル接続"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1093
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1094
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2111
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:780
 #: ../cmk/gui/plugins/wato/check_parameters/interfaces.py:809
@@ -80595,7 +80783,7 @@ msgid "invalid:"
 msgstr "無効:"
 
 #: ../cmk/gui/wato/pages/rulesets.py:2145
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2384
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2385
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1912
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1969
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2112
@@ -80899,7 +81087,7 @@ msgstr "mm"
 msgid "modify"
 msgstr "変更する"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1094
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1095
 msgid "monitor"
 msgstr "モニター"
 
@@ -81559,7 +81747,7 @@ msgid "regular expression, substring match"
 msgstr "正規表現、部分文字列の一致"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_jolokia.py:92
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2115
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2116
 msgid "relative URI under which Jolokia is visible"
 msgstr "Jolokiaが表示される相対URI"
 
@@ -81644,7 +81832,7 @@ msgstr "即時チェックのスケジュールを変更する"
 msgid "reset"
 msgstr "リセット"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2389
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2390
 msgid "resources matching tag based criteria"
 msgstr "タグベースの基準に一致するリソース"
 
@@ -81763,13 +81951,13 @@ msgstr "2週目"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mssql.py:92
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mssql.py:104
 #: ../cmk/gui/valuespec.py:388
-#: ../cmk/gui/plugins/wato/datasource_programs.py:385
-#: ../cmk/gui/plugins/wato/datasource_programs.py:438
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1070
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1593
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1740
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1928
-#: ../cmk/gui/plugins/wato/datasource_programs.py:2074
+#: ../cmk/gui/plugins/wato/datasource_programs.py:386
+#: ../cmk/gui/plugins/wato/datasource_programs.py:439
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1071
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1594
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1741
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1929
+#: ../cmk/gui/plugins/wato/datasource_programs.py:2075
 #: ../cmk/gui/plugins/wato/check_parameters/heartbeat_crm.py:83
 #: ../cmk/gui/plugins/wato/check_parameters/skype_sip.py:30
 #: ../cmk/gui/plugins/wato/check_parameters/skype_sip.py:31
@@ -82192,7 +82380,7 @@ msgstr "vBuckets"
 msgid "vSphere Servers"
 msgstr "vSphereサーバー"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1024
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1025
 msgid "vSphere User name"
 msgstr "vSphereユーザー名"
 
@@ -82200,7 +82388,7 @@ msgstr "vSphereユーザー名"
 msgid "vSphere VMs"
 msgstr "vSphere VMs"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:1028
+#: ../cmk/gui/plugins/wato/datasource_programs.py:1029
 msgid "vSphere secret"
 msgstr "vSphereシークレット"
 
@@ -82351,7 +82539,7 @@ msgstr "週"
 msgid "weekly"
 msgstr "毎週"
 
-#: ../cmk/gui/plugins/wato/datasource_programs.py:392
+#: ../cmk/gui/plugins/wato/datasource_programs.py:393
 msgid "weeks"
 msgstr "数週間"
 
