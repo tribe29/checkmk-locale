@@ -1667,7 +1667,7 @@ msgstr ""
 "aktivieren Sie bei mindestens bei einem Nutzer den Empfang von Fallback-E-"
 "Mails."
 
-#: ../cmk/gui/wsgi/applications/utils.py:89
+#: ../cmk/gui/wsgi/applications/utils.py:90
 msgid "<b>You do not have any roles.</b>"
 msgstr "<b>Sie haben keine Rollen.</b>"
 
@@ -2295,7 +2295,7 @@ msgstr ""
 "Dies ermöglicht es Dienste zu ignorieren von denen bekannt ist dass sie "
 "fehlschlagen werden. </p>"
 
-#: ../cmk/gui/wsgi/applications/utils.py:97
+#: ../cmk/gui/wsgi/applications/utils.py:98
 msgid ""
 "<p>You have been logged out. Please reload the page to re-authenticate.</p>"
 msgstr "<p>Sie wurden abgemeldet. Für Neunameldung Seite neu laden.</p>"
@@ -4238,9 +4238,9 @@ msgstr "Kontaktinformation zu Titel ergänzen"
 msgid "Add custom icon or action"
 msgstr "Benutzersymbol oder -aktion hinzufügen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:147
-#: ../cmk/gui/cme/plugins/wato/managed.py:150
-#: ../cmk/gui/cme/plugins/wato/managed.py:282
+#: ../cmk/gui/cme/plugins/wato/managed.py:171
+#: ../cmk/gui/cme/plugins/wato/managed.py:174
+#: ../cmk/gui/cme/plugins/wato/managed.py:304
 msgid "Add customer"
 msgstr "Kunde hinzufügen"
 
@@ -4341,7 +4341,7 @@ msgstr "Label-Bedingung hinzufügen"
 msgid "Add limits"
 msgstr "Schwellwerte hinzufügen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:374
+#: ../cmk/gui/cme/plugins/wato/managed.py:396
 msgid "Add macro"
 msgstr "Makro hinzufügen"
 
@@ -7795,7 +7795,7 @@ msgstr "Automatische Rückfall"
 msgid "Automatic page reload"
 msgstr "Seite automatisch aktualisieren"
 
-#: ../cmk/gui/htmllib.py:1463
+#: ../cmk/gui/htmllib.py:1418
 #, python-format
 msgid "Automatic page reload in %d seconds."
 msgstr "Seite wird in %d Sekunden neu geladen."
@@ -7849,7 +7849,7 @@ msgstr ""
 "Automatisch Check zur Serviceerkennung auslösen, wenn Servicekonfiguration "
 "geändert wurde"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2388
+#: ../cmk/gui/plugins/wato/active_checks.py:2389
 msgid "Automatically stores the host key with no manual input requirement"
 msgstr "Automatisches Hinterlegen des Host Schlüssel ohne manuelle Eingabe"
 
@@ -9188,7 +9188,7 @@ msgstr "Keine Information über Cache"
 msgid "Build duration"
 msgstr "Bauzeit"
 
-#: ../cmk/gui/watolib/search.py:437
+#: ../cmk/gui/watolib/search.py:438
 msgid "Building of search index started"
 msgstr "Bauen der Suchindex gestartet"
 
@@ -10723,7 +10723,7 @@ msgstr ""
 "Graphen mit Metriken unterschiedlicher Einheiten '%s' können nicht erstellt "
 "werden"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:346
+#: ../cmk/gui/cme/plugins/wato/managed.py:368
 msgid ""
 "Cannot define macros that overwrite default \"CUSTOMER_ID\" or "
 "\"CUSTOMER_NAME\""
@@ -10735,7 +10735,7 @@ msgstr ""
 msgid "Cannot delete job. Job cannot be stopped."
 msgstr "Kann Prozess nicht löschen. Der Prozess kann nicht gestoppt werden"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:232
+#: ../cmk/gui/cme/plugins/wato/managed.py:254
 #, python-format
 msgid ""
 "Cannot delete this customer because the site %s is still assigned to it."
@@ -10743,7 +10743,7 @@ msgstr ""
 "Sie können diese Kunden nicht löschen, da die Site %s ihm noch zugewiesen "
 "ist."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:235
+#: ../cmk/gui/cme/plugins/wato/managed.py:257
 #, python-format
 msgid ""
 "Cannot delete this customer because the sites %s are still assigned to it."
@@ -11188,8 +11188,8 @@ msgstr "Infotext in der Ausgabe des Checks ändern"
 msgid "Change log"
 msgstr "Änderungsprotokoll"
 
-#: ../cmk/gui/wato/user_profile.py:97 ../cmk/gui/wato/user_profile.py:368
-#: ../cmk/gui/wato/user_profile.py:661 ../cmk/gui/user_notify.py:61
+#: ../cmk/gui/wato/user_profile.py:98 ../cmk/gui/wato/user_profile.py:369
+#: ../cmk/gui/wato/user_profile.py:662 ../cmk/gui/user_notify.py:61
 msgid "Change password"
 msgstr "Passwort ändern"
 
@@ -11288,7 +11288,7 @@ msgstr "Position von Regel %s geändert"
 msgid "Changed position of rule pack %s"
 msgstr "Position von Regelpaket %s geändert"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:309
+#: ../cmk/gui/cme/plugins/wato/managed.py:331
 msgid "Changed properties of customer"
 msgstr "Eigenschaften von Kunde geändert"
 
@@ -12554,7 +12554,7 @@ msgstr "Lösche modifizierte Attribute"
 msgid "Cleared audit log."
 msgstr "Audit-Logdatei geleert."
 
-#: ../cmk/gui/htmllib.py:1464
+#: ../cmk/gui/htmllib.py:1419
 msgid "Click for instant reload."
 msgstr "Klicken Sie zum sofortigen Reload."
 
@@ -13429,7 +13429,7 @@ msgstr "Konfigurationsverbindung"
 msgid "Configuration description missing or unreadable"
 msgstr "Beschreibung der Konfiguration fehlt oder ist nicht lesbar"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:217
+#: ../cmk/gui/wsgi/applications/checkmk.py:219
 msgid "Configuration error"
 msgstr "Konfigurationsfehler"
 
@@ -13477,7 +13477,7 @@ msgstr "Konfiguration der RRD-Datenbanken von Hosts"
 msgid "Configuration of RRD databases of services"
 msgstr "Konfiguration der RRD-Datenbanken von Services"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:823
+#: ../cmk/gui/cme/plugins/wato/managed.py:844
 msgid "Configuration of customers"
 msgstr "Einstellungen von Kunden"
 
@@ -14005,7 +14005,7 @@ msgstr "Verbindung"
 msgid "Connection ID"
 msgstr "Verbindungs-ID"
 
-#: ../cmk/gui/watolib/search.py:445
+#: ../cmk/gui/watolib/search.py:446
 #, python-brace-format
 msgid ""
 "Connection attempt {n_attempts} / {n_attempts_redis_connection} to Redis "
@@ -14678,7 +14678,7 @@ msgstr ""
 "Typ der Manpage konnte nicht festgestellt werden: %s. Vielleicht fehlt der "
 "dazugehörige Check "
 
-#: ../cmk/gui/wato/user_profile.py:164
+#: ../cmk/gui/wato/user_profile.py:165
 msgid "Could not determine current theme."
 msgstr "Aktuelles Theme konnte nicht festgelegt werden"
 
@@ -16213,7 +16213,7 @@ msgstr "CRIT bei einer Benutzung von"
 msgid "Critical at a utilization of"
 msgstr "CRIT bei einer Benutzung von"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2503
+#: ../cmk/gui/plugins/wato/active_checks.py:2504
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_queue.py:71
 #: ../cmk/gui/plugins/wato/check_parameters/single_humidity.py:27
 #: ../cmk/gui/plugins/wato/check_parameters/filestats.py:42
@@ -16605,7 +16605,7 @@ msgstr "Strom"
 msgid "Current O2 percentage"
 msgstr "Aktueller O2-Prozentsatz"
 
-#: ../cmk/gui/wato/user_profile.py:462
+#: ../cmk/gui/wato/user_profile.py:463
 msgid "Current Password"
 msgstr "Aktuelles Passwort"
 
@@ -16812,7 +16812,7 @@ msgstr "Angepasste Aktion"
 msgid "Custom Downtime Timeranges"
 msgstr "Angepasste Wartungszeiträume"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:662
+#: ../cmk/gui/cme/plugins/wato/managed.py:684
 #, python-format
 msgid "Custom GUI design of %s"
 msgstr "Benutzerdefiniertes GUI-Design von %s"
@@ -17046,12 +17046,12 @@ msgstr "Individueller Check"
 #: ../cmk/gui/wato/pages/ldap.py:187 ../cmk/gui/wato/pages/users.py:388
 #: ../cmk/gui/wato/mkeventd.py:357 ../cmk/gui/wato/mkeventd.py:1611
 #: ../cmk/gui/wato/mkeventd.py:1916 ../cmk/gui/plugins/wato/bi_config.py:1935
-#: ../cmk/gui/cme/managed.py:93 ../cmk/gui/cme/plugins/wato/managed.py:144
-#: ../cmk/gui/cme/plugins/wato/managed.py:285
-#: ../cmk/gui/cme/plugins/wato/managed.py:437
-#: ../cmk/gui/cme/plugins/wato/managed.py:449
-#: ../cmk/gui/cme/plugins/wato/managed.py:456
-#: ../cmk/gui/cme/plugins/wato/managed.py:735
+#: ../cmk/gui/cme/managed.py:93 ../cmk/gui/cme/plugins/wato/managed.py:168
+#: ../cmk/gui/cme/plugins/wato/managed.py:307
+#: ../cmk/gui/cme/plugins/wato/managed.py:459
+#: ../cmk/gui/cme/plugins/wato/managed.py:471
+#: ../cmk/gui/cme/plugins/wato/managed.py:478
+#: ../cmk/gui/cme/plugins/wato/managed.py:756
 #: ../cmk/gui/cme/plugins/views/managed.py:75
 #: ../cmk/gui/cme/plugins/views/managed.py:131
 #: ../cmk/gui/cme/plugins/views/managed.py:171
@@ -17064,7 +17064,7 @@ msgstr "Kunde"
 msgid "Customer ID"
 msgstr "Kunden-ID"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:373
+#: ../cmk/gui/cme/plugins/wato/managed.py:395
 msgid "Customer Macros"
 msgstr "Kundenmakros"
 
@@ -17121,11 +17121,11 @@ msgstr "Kunde: Anzahl von Services mit Status WARN"
 msgid "Customer portal credentials"
 msgstr "Anmeldedaten für das Kundenportal"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:350
+#: ../cmk/gui/cme/plugins/wato/managed.py:372
 msgid "Customer properties"
 msgstr "Kundeneigenschaften"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:379
+#: ../cmk/gui/cme/plugins/wato/managed.py:401
 msgid "Customer report layout"
 msgstr "Layout des Kundenberichts"
 
@@ -17137,16 +17137,16 @@ msgstr "Kundenkürzel"
 msgid "Customer specific report layout"
 msgstr "Kundenspezifisches Report-Layout"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:137
-#: ../cmk/gui/cme/plugins/wato/managed.py:169
-#: ../cmk/gui/cme/plugins/wato/managed.py:811
+#: ../cmk/gui/cme/plugins/wato/managed.py:161
+#: ../cmk/gui/cme/plugins/wato/managed.py:192
+#: ../cmk/gui/cme/plugins/wato/managed.py:832
 #: ../cmk/gui/cme/plugins/sidebar/managed.py:34
 #: ../cmk/gui/cme/plugins/views/managed.py:495
 #: ../cmk/gui/cme/plugins/visuals/managed.py:58
 msgid "Customers"
 msgstr "Kunden"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:380
+#: ../cmk/gui/cme/plugins/wato/managed.py:402
 msgid ""
 "Customers may have their preferred report layout. This value does not "
 "immediately become the used report layout for a customer. It allows you "
@@ -17160,7 +17160,7 @@ msgstr ""
 "report layout\" zu konfigurieren. In diesem Fall wird der Report das hier "
 "spezifierte Layout als Layout für den Kunden verwenden."
 
-#: ../cmk/gui/pagetypes.py:1354 ../cmk/gui/cme/plugins/wato/managed.py:721
+#: ../cmk/gui/pagetypes.py:1354 ../cmk/gui/cme/plugins/wato/managed.py:743
 #: ../cmk/gui/dashboard.py:857
 msgid "Customize"
 msgstr "Anpassen"
@@ -17174,7 +17174,7 @@ msgstr "Die %s anpassen und benutzen"
 msgid "Customize Dashboards"
 msgstr "Dashboards anpassen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:490
+#: ../cmk/gui/cme/plugins/wato/managed.py:512
 msgid "Customize GUI design"
 msgstr "GUI-Desing anpassen"
 
@@ -17423,7 +17423,7 @@ msgid "DNS Hostname"
 msgstr "DNS Hostname"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1418
-#: ../cmk/gui/plugins/wato/active_checks.py:2349
+#: ../cmk/gui/plugins/wato/active_checks.py:2350
 msgid "DNS Hostname or IP address"
 msgstr "DNS Hostname/IP Adresse"
 
@@ -17448,7 +17448,7 @@ msgid "DNS failed queries"
 msgstr "fehlgeschlagen DNS Queries"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:694
-#: ../cmk/gui/plugins/wato/active_checks.py:2421
+#: ../cmk/gui/plugins/wato/active_checks.py:2422
 msgid "DNS hostname or IP address"
 msgstr "DNS Hostname oder IP Adresse"
 
@@ -17641,7 +17641,7 @@ msgstr "Datenverschiebung abgeschlossen"
 msgid "Data nodes"
 msgstr "Datenknoten"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:200
+#: ../cmk/gui/wsgi/applications/checkmk.py:202
 msgid "Data not found"
 msgstr "Daten nicht gefunden"
 
@@ -18128,7 +18128,7 @@ msgstr "Standardkonfiguration"
 msgid "Default credentials"
 msgstr "Standard-Zugangsdaten"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2357
+#: ../cmk/gui/plugins/wato/active_checks.py:2358
 msgid "Default is 22."
 msgstr "Default ist 22."
 
@@ -18522,7 +18522,7 @@ msgstr "Hintergrund-Prozess %s%s löschen?"
 msgid "Delete last alert handler rule"
 msgstr "Letzte Alerthandlerregel löschen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:609
+#: ../cmk/gui/cme/plugins/wato/managed.py:631
 msgid "Delete logo"
 msgstr "Logo löschen"
 
@@ -18578,7 +18578,7 @@ msgstr "Lösche ausgewählte MIBs"
 msgid "Delete selected users"
 msgstr "Lösche ausgewählte Benutzer"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:609
+#: ../cmk/gui/cme/plugins/wato/managed.py:631
 msgid "Delete the current logo"
 msgstr "Aktuelles Logo löschen"
 
@@ -18631,7 +18631,7 @@ msgstr "Diesen Sicherungs-Job löschen"
 msgid "Delete this backup target"
 msgstr "Dieses Sicherungsziel löschen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:201
+#: ../cmk/gui/cme/plugins/wato/managed.py:224
 msgid "Delete this customer"
 msgstr "Lösche Kunden"
 
@@ -18767,8 +18767,8 @@ msgstr "Agenten-Signaturschlüssel '%s' gelöscht"
 msgid "Deleted attribute %s"
 msgstr "Attribut %s gelöscht"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:539
-#: ../cmk/gui/cme/plugins/wato/managed.py:689
+#: ../cmk/gui/cme/plugins/wato/managed.py:561
+#: ../cmk/gui/cme/plugins/wato/managed.py:711
 msgid "Deleted custom GUI logo"
 msgstr "Angepasstes Logo gelöscht"
 
@@ -19275,7 +19275,7 @@ msgstr ""
 msgid "Deprecated choice, please re-select"
 msgstr "Veraltete Auswahl, bitte neu auswählen"
 
-#: ../cmk/gui/watolib/search.py:426 ../cmk/gui/watolib/rulespecs.py:1262
+#: ../cmk/gui/watolib/search.py:427 ../cmk/gui/watolib/rulespecs.py:1262
 msgid "Deprecated rulesets"
 msgstr "Veraltete Regelsätze"
 
@@ -19362,8 +19362,8 @@ msgstr "Beschreibungen"
 msgid "Deselect all checkboxes"
 msgstr "Alle Checkboxen abwählen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:497
-#: ../cmk/gui/cme/plugins/wato/managed.py:665
+#: ../cmk/gui/cme/plugins/wato/managed.py:519
+#: ../cmk/gui/cme/plugins/wato/managed.py:687
 msgid "Design"
 msgstr "Design"
 
@@ -19456,7 +19456,7 @@ msgstr ""
 "Bestimme hier, ob das Gruppeninterface als separater Service erstellt werden "
 "soll oder nicht. Im zweiten Fall verschwinden die Interfaceservices."
 
-#: ../cmk/gui/cme/managed_snapshots.py:235
+#: ../cmk/gui/cme/managed_snapshots.py:260
 #, python-format
 msgid ""
 "Determined %d generic files for each site. These files are not copied, if "
@@ -21214,7 +21214,7 @@ msgstr "Wollen Sie die Verbindung zu %s wirklich löschen?"
 msgid "Do you really want to delete the custom attribute \"%s\"?"
 msgstr "Wollen Sie das Attribut \"%s\" wirklich löschen?"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:199
+#: ../cmk/gui/cme/plugins/wato/managed.py:222
 #, python-format
 msgid "Do you really want to delete the customer %s?"
 msgstr "Wollen Sie Kunden %s wirklich löschen?"
@@ -21329,7 +21329,7 @@ msgstr "Wollen Sie den Sicherungs-Job wirklich löschen?"
 msgid "Do you really want to delete this target?"
 msgstr "Wollen Sie das Sicherungsziel wirklich löschen?"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:608
+#: ../cmk/gui/cme/plugins/wato/managed.py:630
 msgid "Do you really want to delete your logo?"
 msgstr "Wollen Sie wirklich Ihr aktuelles Logo löschen?"
 
@@ -21995,7 +21995,7 @@ msgstr "EMC VNX Speicherpoolstaffelung"
 msgid "EMC VNX storage systems"
 msgstr "EMC VNX-Speichersysteme"
 
-#: ../cmk/gui/htmllib.py:1179
+#: ../cmk/gui/htmllib.py:1146
 msgid "ERROR"
 msgstr "FEHLER"
 
@@ -22187,7 +22187,7 @@ msgstr "Übersichten bearbeiten"
 msgid "Edit Downtimes"
 msgstr "Wartungszeiten editieren"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:191
+#: ../cmk/gui/cme/plugins/wato/managed.py:214
 msgid "Edit GUI design for this customer"
 msgstr "Design der Oberfläche anpassen"
 
@@ -22267,7 +22267,7 @@ msgstr "Kontaktgruppe Bearbeiten"
 msgid "Edit custom graph"
 msgstr "Benutzergraph editieren"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:281
+#: ../cmk/gui/cme/plugins/wato/managed.py:303
 #, python-format
 msgid "Edit customer %s"
 msgstr "Kunde %s bearbeiten"
@@ -22338,8 +22338,8 @@ msgstr "Benachrichtigungsregel %d des Benutzers %s bearbeiten"
 msgid "Edit parameter rule set for this check type"
 msgstr "Parameter-Regelsatz für diesen Checktyp editieren"
 
-#: ../cmk/gui/wato/user_profile.py:104 ../cmk/gui/wato/user_profile.py:481
-#: ../cmk/gui/wato/user_profile.py:668 ../cmk/gui/user_notify.py:67
+#: ../cmk/gui/wato/user_profile.py:105 ../cmk/gui/wato/user_profile.py:482
+#: ../cmk/gui/wato/user_profile.py:669 ../cmk/gui/user_notify.py:67
 msgid "Edit profile"
 msgstr "Benutzerprofil bearbeiten"
 
@@ -22470,7 +22470,7 @@ msgstr "Diesen Sicherungs-Job bearbeiten"
 msgid "Edit this backup target"
 msgstr "Diese Sicherungsziel bearbeiten"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:181
+#: ../cmk/gui/cme/plugins/wato/managed.py:204
 msgid "Edit this customer"
 msgstr "Diesen Kunden bearbeiten"
 
@@ -22871,7 +22871,7 @@ msgstr "Adhoc-Wartungszeiten aktivieren"
 msgid "Enable automatic agent updates"
 msgstr "Automatische Agentupdates aktivieren"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2384
+#: ../cmk/gui/plugins/wato/active_checks.py:2385
 msgid "Enable automatic host key acceptance"
 msgstr "Hostkeys automatisch akzeptieren"
 
@@ -23343,7 +23343,7 @@ msgstr "Erzwinge kleinbuchstabige Benutzer IDs."
 msgid "Enforce show more"
 msgstr "\"Mehr anzeigen\" erzwingen"
 
-#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:423
+#: ../cmk/gui/wato/pages/services.py:1171 ../cmk/gui/watolib/search.py:424
 #: ../cmk/gui/watolib/rulespecs.py:191
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1106
 msgid "Enforced services"
@@ -23742,7 +23742,7 @@ msgid "Event Console enabled"
 msgstr "Event Console aktiviert"
 
 #: ../cmk/gui/wato/mkeventd.py:1244 ../cmk/gui/wato/mkeventd.py:4478
-#: ../cmk/gui/watolib/search.py:419
+#: ../cmk/gui/watolib/search.py:420
 msgid "Event Console rule packages"
 msgstr "Regelpakete der Event Console"
 
@@ -23751,11 +23751,11 @@ msgid "Event Console rule packs"
 msgstr "Regelpakete für die Event Console"
 
 #: ../cmk/gui/wato/mkeventd.py:4110 ../cmk/gui/wato/mkeventd.py:4152
-#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:420
+#: ../cmk/gui/wato/mkeventd.py:4513 ../cmk/gui/watolib/search.py:421
 msgid "Event Console rules"
 msgstr "Eventkonsolen-Regeln"
 
-#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:421
+#: ../cmk/gui/wato/mkeventd.py:4538 ../cmk/gui/watolib/search.py:422
 msgid "Event Console settings"
 msgstr "Eventkonsole Einstellungen"
 
@@ -24065,7 +24065,7 @@ msgstr "Ausnahme"
 msgid "Exception during element refresh (element '%s')"
 msgstr "Fehler beim Aktualisieren des Elements ('%s')"
 
-#: ../cmk/gui/cme/managed_snapshots.py:269
+#: ../cmk/gui/cme/managed_snapshots.py:294
 #, python-format
 msgid "Exception(s) caught during snapshot preparation: %s"
 msgstr "Bei der Snapshot-Erstellung abgefangene Ausnahme(n): %s"
@@ -25077,7 +25077,7 @@ msgstr ""
 "Fehlerbericht konnte nicht gesendet werden. Bitte laden Sie ihn von Hand "
 "herunter und senden ihn an <a href=\"%s\">%s</a>"
 
-#: ../cmk/gui/wato/user_profile.py:195
+#: ../cmk/gui/wato/user_profile.py:196
 msgid "Failed to set start URL"
 msgstr "Start-URL konnte nicht gesetzt werden"
 
@@ -25402,7 +25402,7 @@ msgstr "Feldname: "
 msgid "Field data size"
 msgstr "Größe der Felddaten"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2474
+#: ../cmk/gui/plugins/wato/active_checks.py:2475
 msgid "Fieldnames to query"
 msgstr "Abzurufende Felder"
 
@@ -26946,7 +26946,7 @@ msgstr "GC läuft"
 msgid "GC runs rate"
 msgstr "GC Laufrate"
 
-#: ../cmk/gui/htmllib.py:2461
+#: ../cmk/gui/htmllib.py:2416
 msgid "GET/POST variables of this page"
 msgstr "GET/POST-Variablen auf dieser Seite"
 
@@ -26954,8 +26954,8 @@ msgstr "GET/POST-Variablen auf dieser Seite"
 msgid "GUI"
 msgstr "GUI"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:715
-#: ../cmk/gui/cme/plugins/wato/managed.py:718
+#: ../cmk/gui/cme/plugins/wato/managed.py:737
+#: ../cmk/gui/cme/plugins/wato/managed.py:740
 msgid "GUI design"
 msgstr "GUI-Design"
 
@@ -27044,7 +27044,7 @@ msgstr "Globale Einstellungen"
 msgid "General display options"
 msgstr "Allgemeine Anzeigeoptionen"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:221
+#: ../cmk/gui/wsgi/applications/checkmk.py:223
 msgid "General error"
 msgstr "Genereller Fehler"
 
@@ -27196,7 +27196,7 @@ msgstr "Globale Einstellung"
 
 #: ../cmk/gui/wato/pages/global_settings.py:395
 #: ../cmk/gui/wato/pages/global_settings.py:568
-#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:424
+#: ../cmk/gui/wato/pages/sites.py:1398 ../cmk/gui/watolib/search.py:425
 #: ../cmk/gui/plugins/wato/builtin_modules.py:120
 msgid "Global settings"
 msgstr "Globale Einstellungen"
@@ -28261,7 +28261,7 @@ msgstr ""
 "gelten sollten. <b>Hinweis</b>: Das ist nur sinnvoll, wenn es sich um einen "
 "Konfigurations-Slave handelt."
 
-#: ../cmk/gui/wato/user_profile.py:570
+#: ../cmk/gui/wato/user_profile.py:571
 msgid ""
 "Here you can configure how you want to be notified about host and service "
 "problems and other monitoring events."
@@ -28424,7 +28424,7 @@ msgstr ""
 "Hier können Sie eine Obergrenze für die Laufzeit der letzten Ausführung des "
 "Jobs festlegen."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2476
+#: ../cmk/gui/plugins/wato/active_checks.py:2477
 msgid ""
 "Here you can define fieldnames that should be used in the search. Regexp "
 "query is allowed as described <a href=\"https://www.elastic.co/guide/en/"
@@ -28487,7 +28487,7 @@ msgstr ""
 "Hier können Sie den Status des Incidents im Falle eines auslaufenden "
 "Acknowledgements des Host- oder Serviceproblems definieren."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2489
+#: ../cmk/gui/plugins/wato/active_checks.py:2490
 msgid ""
 "Here you can define the timerange to query, eg. the last x minutes from now. "
 "The query will then check for the count of log messages in the defined "
@@ -28509,7 +28509,7 @@ msgstr ""
 "ihrer Werte in bestimmten Merkmalsgruppen. Jede Gruppe von Hostmerkmalen "
 "erzeugt eine Ebene im Baum."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2463
+#: ../cmk/gui/plugins/wato/active_checks.py:2464
 msgid ""
 "Here you can define what index should be queried for the defined search. You "
 "can query one or multiple indices. Without this option all indices are "
@@ -28520,7 +28520,7 @@ msgstr ""
 "Option werden alle Indizes abgefragt. Wenn Sie Ihre Suche beschleunigen "
 "möchten, verwenden Sie definierte Indizes."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2452
+#: ../cmk/gui/plugins/wato/active_checks.py:2453
 msgid ""
 "Here you can define what search pattern should be used. You can use Kibana "
 "query language as described <a href=\"https://www.elastic.co/guide/en/kibana/"
@@ -28534,7 +28534,7 @@ msgstr ""
 "verwenden. Verwenden Sie zur Optimierung der Suchgeschwindigkeit definierte "
 "Indizes und Felder, ansonsten werden alle Indizes und Felder durchsucht."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2413
+#: ../cmk/gui/plugins/wato/active_checks.py:2414
 msgid ""
 "Here you can define what service description (item) is used for the created "
 "service. The resulting item is always prefixed with 'Elasticsearch Query'."
@@ -28543,7 +28543,7 @@ msgstr ""
 "erzeugten Service verwendet wird. Dem resultierenden Item wird immer "
 "'Elasticsearch Query' vorangestellt."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2434
+#: ../cmk/gui/plugins/wato/active_checks.py:2435
 msgid "Here you can define which protocol to use, default is https."
 msgstr ""
 "Hier können Sie festlegen, welches Protokoll verwendet werden soll. Der "
@@ -30154,7 +30154,7 @@ msgstr "Zu übersetzende Hostnamen"
 #: ../cmk/gui/wato/pages/folders.py:714 ../cmk/gui/wato/pages/folders.py:756
 #: ../cmk/gui/wato/pages/host_rename.py:120
 #: ../cmk/gui/wato/pages/host_rename.py:423
-#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:406
+#: ../cmk/gui/wato/pages/bulk_import.py:92 ../cmk/gui/watolib/search.py:407
 #: ../cmk/gui/watolib/hosts_and_folders.py:3269 ../cmk/gui/views.py:1364
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:677
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:684
@@ -30684,9 +30684,9 @@ msgstr "ICMP-Pakete"
 #: ../cmk/gui/plugins/views/painters.py:1697
 #: ../cmk/gui/plugins/views/painters.py:3799
 #: ../cmk/gui/plugins/views/painters.py:3979 ../cmk/gui/visuals.py:589
-#: ../cmk/gui/cme/plugins/wato/managed.py:203
-#: ../cmk/gui/cme/plugins/wato/managed.py:329
-#: ../cmk/gui/cme/plugins/wato/managed.py:338
+#: ../cmk/gui/cme/plugins/wato/managed.py:226
+#: ../cmk/gui/cme/plugins/wato/managed.py:351
+#: ../cmk/gui/cme/plugins/wato/managed.py:360
 #: ../cmk/gui/gui_background_job.py:362
 msgid "ID"
 msgstr "ID"
@@ -30840,7 +30840,7 @@ msgstr "IP-Adresse oder Name des Tunnelendpunkts"
 msgid "IP-Range"
 msgstr "IP-Bereich"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2363
+#: ../cmk/gui/plugins/wato/active_checks.py:2364
 msgid "IP-Version"
 msgstr "IP Version"
 
@@ -30914,7 +30914,7 @@ msgstr ""
 "IPPROCS: Die Anzahl der Anwendungen, die derzeit mit der Warteschlange "
 "verbunden sind, um Nachrichten aus der Warteschlange zu erhalten."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2365
+#: ../cmk/gui/plugins/wato/active_checks.py:2366
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4196
 #: ../cmk/gui/plugins/views/inventory.py:516
 #: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:695
@@ -30952,7 +30952,7 @@ msgstr "IPv4/IPv6-Adresse"
 msgid "IPv4/IPv6 dual-stack"
 msgstr "IPv4/IPV6 Dual-Stack"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2366
+#: ../cmk/gui/plugins/wato/active_checks.py:2367
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4197
 #: ../cmk/gui/plugins/views/inventory.py:518
 #: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:701
@@ -31042,7 +31042,7 @@ msgstr ""
 msgid "Identity"
 msgstr "Identität"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2379
+#: ../cmk/gui/plugins/wato/active_checks.py:2380
 msgid "Identity of an authorized key"
 msgstr "Identität eines authorisierten Schlüssels"
 
@@ -32385,7 +32385,7 @@ msgstr ""
 "Check_MK zu sehen. Geben Sie eine absolute URL zu Check_MK an, bis "
 "einschließlich des <tt>.../check_mk/</tt>."
 
-#: ../cmk/gui/wsgi/applications/utils.py:92
+#: ../cmk/gui/wsgi/applications/utils.py:93
 msgid ""
 "If you think this is an error, please ask your administrator to check the "
 "permissions configuration."
@@ -33052,7 +33052,7 @@ msgstr ""
 "<tt>cmk-update-agent -v</tt> auf. Auf Linux müssen Sie dafür <tt>root</tt> "
 "sein. Auf Windows finden Sie das Skript im Unterverzeichnis <tt>plugins</tt>."
 
-#: ../cmk/gui/wato/user_profile.py:218
+#: ../cmk/gui/wato/user_profile.py:219
 msgid ""
 "In order to activate your changes available on all remote sites, your user "
 "profile needs to be replicated to the remote sites. This is done on this "
@@ -33514,7 +33514,7 @@ msgstr "Ungenutzter Indexbereich"
 msgid "Indices"
 msgstr "Indizes"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2462
+#: ../cmk/gui/plugins/wato/active_checks.py:2463
 msgid "Indices to query"
 msgstr "Abzurufende Indizes"
 
@@ -34020,7 +34020,7 @@ msgstr "In Ntop bekannte Netzwerkschnittstellen"
 msgid "Interface settings"
 msgstr "Einstellungen der Netzwerkschnittstellen"
 
-#: ../cmk/gui/wato/user_profile.py:76
+#: ../cmk/gui/wato/user_profile.py:77
 msgid "Interface theme"
 msgstr "Thema der Oberfläche"
 
@@ -34218,7 +34218,7 @@ msgstr ""
 msgid "Invalid automation command: %s."
 msgstr "Ungültiger Automatisierungsbefehl: %s."
 
-#: ../cmk/gui/login.py:341
+#: ../cmk/gui/login.py:342
 #, python-format
 msgid "Invalid automation secret for user %s"
 msgstr "Ungültiges Automatisierungspasswort für Benutzer %s"
@@ -34270,11 +34270,11 @@ msgstr "Ungültige Kombigraphdarstellung '%s'"
 msgid "Invalid configuration hash"
 msgstr "Ungültiger Konfigurationshashwert"
 
-#: ../cmk/gui/login.py:264
+#: ../cmk/gui/login.py:265
 msgid "Invalid credentials"
 msgstr "Anmeldedaten sind ungültig"
 
-#: ../cmk/gui/login.py:500
+#: ../cmk/gui/login.py:501
 msgid "Invalid credentials."
 msgstr "Anmeldedaten sind ungültig."
 
@@ -34376,7 +34376,7 @@ msgstr "Ungültiger Schlüssel: %s"
 msgid "Invalid key(s): %s"
 msgstr "Ungültige Schlüssel: %s"
 
-#: ../cmk/gui/login.py:437
+#: ../cmk/gui/login.py:438
 msgid "Invalid login credentials."
 msgstr "Anmeldedaten sind ungültig."
 
@@ -34575,7 +34575,7 @@ msgstr "Ungültige Transaktion"
 msgid "Invalid type specified."
 msgstr "Ungültiger Typ"
 
-#: ../cmk/gui/login.py:302
+#: ../cmk/gui/login.py:303
 msgid "Invalid user authentication"
 msgstr "Ungültige Benutzeranmeldung"
 
@@ -34584,7 +34584,7 @@ msgstr "Ungültige Benutzeranmeldung"
 msgid "Invalid user connection: %s"
 msgstr "Ungültige Benutzerverbindung: %s"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:203
+#: ../cmk/gui/wsgi/applications/checkmk.py:205
 #, fuzzy
 #| msgid "Invalid user Input"
 msgid "Invalid user input"
@@ -34924,7 +34924,7 @@ msgstr "Item-Speicher"
 msgid "Item name"
 msgstr "Itemname"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2412
+#: ../cmk/gui/plugins/wato/active_checks.py:2413
 msgid "Item suffix"
 msgstr "Item suffix"
 
@@ -35291,7 +35291,7 @@ msgstr "Passphrase des Schlüssels"
 msgid "Key to sign with"
 msgstr "Signaturschlüssel"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2379
+#: ../cmk/gui/plugins/wato/active_checks.py:2380
 msgid "Keyfile"
 msgstr "Schlüsseldatei"
 
@@ -35820,7 +35820,7 @@ msgstr ""
 "Lassen Sie dies leer bei Systemen ohne Module (die nur eine global "
 "Speicherbelegung haben)."
 
-#: ../cmk/gui/wato/user_profile.py:65 ../cmk/gui/cee/reporting.py:833
+#: ../cmk/gui/wato/user_profile.py:66 ../cmk/gui/cee/reporting.py:833
 #: ../cmk/gui/plugins/userdb/user_attributes.py:180
 msgid "Left"
 msgstr "Links"
@@ -37212,7 +37212,7 @@ msgstr "Der Livestatus-Netzwerkverkehr ist unverschlüsselt."
 msgid "Livestatus overflows"
 msgstr "Livestatus-Überläufe"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:209
+#: ../cmk/gui/wsgi/applications/checkmk.py:211
 msgid "Livestatus problem"
 msgstr "Livestatus Problem"
 
@@ -37804,7 +37804,7 @@ msgid "Logical processor(s) utilization"
 msgstr "Auslastung logischer Prozessoren"
 
 #: ../cmk/gui/wato/pages/sites.py:651 ../cmk/gui/wato/pages/sites.py:771
-#: ../cmk/gui/mobile.py:191 ../cmk/gui/login.py:545
+#: ../cmk/gui/mobile.py:191 ../cmk/gui/login.py:546
 msgid "Login"
 msgstr "Login"
 
@@ -37835,7 +37835,7 @@ msgstr "Anmeldung für ausgewählte Datenbanken"
 msgid "Login into site \"%s\""
 msgstr "An Instanz %s anmelden"
 
-#: ../cmk/gui/login.py:452
+#: ../cmk/gui/login.py:453
 msgid "Login is not allowed on this site."
 msgstr "Einloggen ist auf dieser Seite nicht erlaubt."
 
@@ -37865,11 +37865,11 @@ msgstr "Mit den folgenden Daten anmelden"
 msgid "Logins"
 msgstr "Logins"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:621
+#: ../cmk/gui/cme/plugins/wato/managed.py:643
 msgid "Logo"
 msgstr "Logo"
 
-#: ../cmk/gui/wato/pages/sites.py:768 ../cmk/gui/wato/user_profile.py:111
+#: ../cmk/gui/wato/pages/sites.py:768 ../cmk/gui/wato/user_profile.py:112
 #: ../cmk/gui/mobile.py:255
 msgid "Logout"
 msgstr "Abmelden"
@@ -38269,7 +38269,7 @@ msgstr "MDisks"
 msgid "MDisksGrps"
 msgstr "MDisksGrps"
 
-#: ../cmk/gui/htmllib.py:1173
+#: ../cmk/gui/htmllib.py:1140
 msgid "MESSAGE"
 msgstr "HINWEIS"
 
@@ -38515,11 +38515,11 @@ msgid "Macro Replacement"
 msgstr "Makroersetzung"
 
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:192
-#: ../cmk/gui/cme/plugins/wato/managed.py:363
+#: ../cmk/gui/cme/plugins/wato/managed.py:385
 msgid "Macro name"
 msgstr "Macroname"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:367
+#: ../cmk/gui/cme/plugins/wato/managed.py:389
 msgid ""
 "Macro names must start with \"CUSTOMER_\" prefix and consist of capitalized "
 "letters, digits or underscores."
@@ -39709,7 +39709,7 @@ msgstr "Maximale Meldungen pro Speicher-Intervall"
 msgid "Maximum number of RPC requests per second"
 msgstr "Maxmale Anzahl von RPCs pro Sekunde"
 
-#: ../cmk/gui/watolib/search.py:449
+#: ../cmk/gui/watolib/search.py:450
 msgid "Maximum number of allowed connection attempts reached, terminating"
 msgstr "Maximale Anzahl der erlaubten Verbindungsveruche erreicht. Beende."
 
@@ -40634,7 +40634,7 @@ msgstr "gespiegelte Linie"
 msgid "Mirrored Stacked"
 msgstr "gespiegelt gestapelt"
 
-#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:425
+#: ../cmk/gui/wato/pages/pattern_editor.py:299 ../cmk/gui/watolib/search.py:426
 msgid "Miscellaneous"
 msgstr "Sonstiges"
 
@@ -41372,7 +41372,7 @@ msgstr "Bewegt worden"
 msgid "Move this %s to another folder"
 msgstr "Diese(n) %s in einen anderen Ordner verschieben"
 
-#: ../cmk/gui/htmllib.py:2449
+#: ../cmk/gui/htmllib.py:2404
 msgid "Move this entry"
 msgstr "Diesen Eintrag verschieben"
 
@@ -41528,7 +41528,7 @@ msgstr "Mehrfache reguläre Ausdrücke"
 msgid "Multiplicative: Seasonality grows with the trend."
 msgstr "Multiplikativ: Die Saisonalität wächst mit dem Trend."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2344
+#: ../cmk/gui/plugins/wato/active_checks.py:2345
 msgid "Must be unique for every host. Defaults to command that is executed."
 msgstr ""
 "Muss für jeden Host eindeutig sein - Befehlsvorgaben, die ausgeführt werden."
@@ -41730,7 +41730,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/custom_attributes.py:505
 #: ../cmk/gui/wato/pages/icons.py:160 ../cmk/gui/wato/pages/timeperiods.py:311
 #: ../cmk/gui/wato/pages/rulesets.py:1235 ../cmk/gui/wato/pages/roles.py:217
-#: ../cmk/gui/wato/user_profile.py:559 ../cmk/gui/crash_reporting.py:342
+#: ../cmk/gui/wato/user_profile.py:560 ../cmk/gui/crash_reporting.py:342
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:290
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:354
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:376
@@ -41765,8 +41765,8 @@ msgstr ""
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:1004
 #: ../cmk/gui/plugins/views/painters.py:3563
 #: ../cmk/gui/plugins/views/painters.py:3751
-#: ../cmk/gui/cme/plugins/wato/managed.py:204
-#: ../cmk/gui/cme/plugins/wato/managed.py:355
+#: ../cmk/gui/cme/plugins/wato/managed.py:227
+#: ../cmk/gui/cme/plugins/wato/managed.py:377
 msgid "Name"
 msgstr "Name"
 
@@ -42424,11 +42424,11 @@ msgstr "Neue Aktione"
 msgid "New Connections"
 msgstr "Neue Verbindungen"
 
-#: ../cmk/gui/wato/user_profile.py:465
+#: ../cmk/gui/wato/user_profile.py:466
 msgid "New Password"
 msgstr "Neues Passwort"
 
-#: ../cmk/gui/wato/user_profile.py:468
+#: ../cmk/gui/wato/user_profile.py:469
 msgid "New Password Confirmation"
 msgstr "Neues Passwort bestätigen"
 
@@ -42582,7 +42582,7 @@ msgstr "Schwellwerte für Nimble IO"
 #: ../cmk/gui/backup.py:1046 ../cmk/gui/wato/pages/sites.py:1266
 #: ../cmk/gui/logwatch.py:78 ../cmk/gui/logwatch.py:168
 #: ../cmk/gui/logwatch.py:285 ../cmk/gui/crash_reporting.py:533
-#: ../cmk/gui/cee/plugins/wato/license_usage.py:396 ../cmk/gui/htmllib.py:1599
+#: ../cmk/gui/cee/plugins/wato/license_usage.py:396 ../cmk/gui/htmllib.py:1554
 #: ../cmk/gui/plugins/wato/bi_config.py:504
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:78
@@ -42911,7 +42911,7 @@ msgstr "Kein Monitoring-Kern"
 msgid "No object type"
 msgstr "Kein Objekttyp"
 
-#: ../cmk/gui/login.py:462
+#: ../cmk/gui/login.py:463
 msgid "No password given."
 msgstr "Kein Passwort eingegeben."
 
@@ -43043,7 +43043,7 @@ msgstr ""
 "erstellen möchten, dann müssen Sie Dateien in Ihrer Check_MK-Instanz "
 "unterhalb von <tt>%s/local</tt> erzeugen."
 
-#: ../cmk/gui/login.py:458
+#: ../cmk/gui/login.py:459
 msgid "No username given."
 msgstr "Keinen Benutzernamen eingegeben."
 
@@ -43458,7 +43458,7 @@ msgstr "Kein aktives Stackmitglied"
 msgid "Not applicable"
 msgstr "Nicht abwendbar"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:213
+#: ../cmk/gui/wsgi/applications/checkmk.py:215
 msgid "Not authenticated"
 msgstr "Nicht authentifiziert"
 
@@ -43483,8 +43483,8 @@ msgstr "Nicht in Instanz ausgeführt!"
 msgid "Not locked"
 msgstr "Nicht gesperrt"
 
-#: ../cmk/gui/wato/user_profile.py:229 ../cmk/gui/wato/user_profile.py:289
-#: ../cmk/gui/wato/user_profile.py:332
+#: ../cmk/gui/wato/user_profile.py:230 ../cmk/gui/wato/user_profile.py:290
+#: ../cmk/gui/wato/user_profile.py:333
 msgid "Not logged in."
 msgstr "Nicht angemeldet."
 
@@ -43775,7 +43775,7 @@ msgstr "Benachrichtigungsregel des Benutzers'%s'"
 #: ../cmk/gui/wato/pages/notifications.py:343
 #: ../cmk/gui/wato/pages/notifications.py:454
 #: ../cmk/gui/wato/pages/notifications.py:903
-#: ../cmk/gui/wato/user_profile.py:123 ../cmk/gui/wato/user_profile.py:676
+#: ../cmk/gui/wato/user_profile.py:124 ../cmk/gui/wato/user_profile.py:677
 #: ../cmk/gui/user_notify.py:74
 msgid "Notification rules"
 msgstr "Alarmierungsregeln"
@@ -43805,7 +43805,7 @@ msgstr "Zeitperiode für Alarme"
 #: ../cmk/gui/wato/pages/users.py:463 ../cmk/gui/wato/pages/users.py:1021
 #: ../cmk/gui/wato/pages/diagnostics.py:259
 #: ../cmk/gui/wato/pages/notifications.py:1180
-#: ../cmk/gui/wato/user_profile.py:568
+#: ../cmk/gui/wato/user_profile.py:569
 #: ../cmk/gui/plugins/wato/globals_notification.py:40
 #: ../cmk/gui/plugins/wato/builtin_modules.py:717
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3120
@@ -45774,7 +45774,7 @@ msgstr "Optionale Anmeldung (falls notwendig)"
 #: ../cmk/gui/plugins/wato/active_checks.py:1414
 #: ../cmk/gui/plugins/wato/active_checks.py:1757
 #: ../cmk/gui/plugins/wato/active_checks.py:1933
-#: ../cmk/gui/plugins/wato/active_checks.py:2338
+#: ../cmk/gui/plugins/wato/active_checks.py:2339
 msgid "Optional parameters"
 msgstr "Optionale Parameter"
 
@@ -46035,7 +46035,7 @@ msgstr "Andere Entität"
 msgid "Other hosts"
 msgstr "Andere Hosts"
 
-#: ../cmk/gui/watolib/search.py:408
+#: ../cmk/gui/watolib/search.py:409
 #: ../cmk/gui/plugins/wato/datasource_programs.py:213
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1406
 msgid "Other integrations"
@@ -46537,7 +46537,7 @@ msgstr "POP3"
 msgid "POP3 Server"
 msgstr "POP3-Server"
 
-#: ../cmk/gui/htmllib.py:2472
+#: ../cmk/gui/htmllib.py:2427
 msgid "POST / GET Variables"
 msgstr "POST- / GET-Variablen"
 
@@ -46740,8 +46740,8 @@ msgstr "Seiten-Schreibvorgänge"
 msgid "Page break"
 msgstr "Seitenumbruch"
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:101
 #: ../cmk/gui/wsgi/applications/checkmk.py:103
+#: ../cmk/gui/wsgi/applications/checkmk.py:105
 msgid "Page not found"
 msgstr "Seite nicht gefunden"
 
@@ -47016,7 +47016,7 @@ msgstr "Passphrase"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mssql.py:37
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:49
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:66
-#: ../cmk/gui/cee/plugins/wato/ntop.py:94 ../cmk/gui/login.py:535
+#: ../cmk/gui/cee/plugins/wato/ntop.py:94 ../cmk/gui/login.py:536
 #: ../cmk/gui/plugins/wato/datasource_programs.py:174
 #: ../cmk/gui/plugins/wato/datasource_programs.py:352
 #: ../cmk/gui/plugins/wato/datasource_programs.py:372
@@ -47079,7 +47079,7 @@ msgstr "Passwort für diesen Benutzer"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3343
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3598
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3729
-#: ../cmk/gui/plugins/wato/active_checks.py:2428
+#: ../cmk/gui/plugins/wato/active_checks.py:2429
 #: ../cmk/gui/plugins/wato/notifications.py:783
 msgid "Password of the user"
 msgstr "Passwort für diesen Benutzer"
@@ -47792,7 +47792,7 @@ msgstr "Permanent-Generation-Speicher"
 msgid "Permission"
 msgstr "Berechtigung"
 
-#: ../cmk/gui/logwatch.py:505 ../cmk/gui/wsgi/applications/checkmk.py:206
+#: ../cmk/gui/logwatch.py:505 ../cmk/gui/wsgi/applications/checkmk.py:208
 msgid "Permission denied"
 msgstr "Zugriff verweigert."
 
@@ -47895,7 +47895,7 @@ msgstr "Persönliche Einstellungen"
 msgid "Personal rules"
 msgstr "Persönliche Regeln"
 
-#: ../cmk/gui/wato/pages/users.py:1104 ../cmk/gui/wato/user_profile.py:557
+#: ../cmk/gui/wato/pages/users.py:1104 ../cmk/gui/wato/user_profile.py:558
 msgid "Personal settings"
 msgstr "Persönliche Einstellungen"
 
@@ -48945,7 +48945,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/active_checks.py:409
 #: ../cmk/gui/plugins/wato/active_checks.py:847
 #: ../cmk/gui/plugins/wato/active_checks.py:2188
-#: ../cmk/gui/plugins/wato/active_checks.py:2443
+#: ../cmk/gui/plugins/wato/active_checks.py:2444
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:50
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:283
 #: ../cmk/gui/plugins/wato/check_parameters/logwatch_ec.py:346
@@ -49633,7 +49633,7 @@ msgstr "Verarbeitete Bytes"
 msgid "Processes"
 msgstr "Prozesse"
 
-#: ../cmk/gui/cme/managed_snapshots.py:241
+#: ../cmk/gui/cme/managed_snapshots.py:266
 #, python-format
 msgid "Processing first site %s"
 msgstr "Bearbeitung der ersten Seite %s"
@@ -49646,7 +49646,7 @@ msgstr "Verarbeitung von Piggybacked-Host-Daten"
 msgid "Processing of incoming events"
 msgstr "Verarbeitung von eingehenden Ereignissen"
 
-#: ../cmk/gui/cme/managed_snapshots.py:254
+#: ../cmk/gui/cme/managed_snapshots.py:279
 #, python-format
 msgid "Processing remaining site in subprocesses %s"
 msgstr "Verarbeite verbliebene Site in Subprozessen %s"
@@ -49677,12 +49677,12 @@ msgstr "Prozessor Max. Kapazität"
 msgid "Product"
 msgstr "Produkt"
 
-#: ../cmk/gui/wato/user_profile.py:139 ../cmk/gui/wato/user_profile.py:298
-#: ../cmk/gui/wato/user_profile.py:342
+#: ../cmk/gui/wato/user_profile.py:140 ../cmk/gui/wato/user_profile.py:299
+#: ../cmk/gui/wato/user_profile.py:343
 msgid "Profile"
 msgstr "Profil"
 
-#: ../cmk/gui/wato/user_profile.py:264
+#: ../cmk/gui/wato/user_profile.py:265
 #, python-format
 msgid "Profile changed (sync failed: %s)"
 msgstr "Profile geändert (Sync gescheitert: %s)"
@@ -49813,7 +49813,7 @@ msgstr "Anteil von gesunden Hosts"
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3603
 #: ../cmk/gui/plugins/wato/datasource_programs.py:3734
 #: ../cmk/gui/plugins/wato/active_checks.py:2181
-#: ../cmk/gui/plugins/wato/active_checks.py:2433
+#: ../cmk/gui/plugins/wato/active_checks.py:2434
 #: ../cmk/gui/plugins/wato/check_parameters/tcp_connections.py:39
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_port.py:48
 msgid "Protocol"
@@ -50096,7 +50096,7 @@ msgstr "Ressource %s abfragen"
 msgid "Query Time Limit"
 msgstr "Zeitbegrenzung für Abfrage"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2407
+#: ../cmk/gui/plugins/wato/active_checks.py:2408
 msgid "Query elasticsearch logs"
 msgstr "Abfrage von Elasticsearch Logs"
 
@@ -50201,7 +50201,7 @@ msgstr "Schnellsuche"
 msgid "Quick setup"
 msgstr "Schnelle Einrichtung"
 
-#: ../cmk/gui/wato/user_profile.py:132
+#: ../cmk/gui/wato/user_profile.py:133
 msgid "Quick toggle"
 msgstr "Schneller Wechsel"
 
@@ -51217,7 +51217,7 @@ msgstr "Zurückgewiesene Sitzungen"
 #: ../cmk/gui/wato/mkeventd.py:1697 ../cmk/gui/wato/mkeventd.py:2053
 #: ../cmk/gui/wato/mkeventd.py:2187 ../cmk/gui/wato/mkeventd.py:2323
 #: ../cmk/gui/wato/mkeventd.py:2443 ../cmk/gui/wato/mkeventd.py:2623
-#: ../cmk/gui/wato/mkeventd.py:2787 ../cmk/gui/wato/user_profile.py:648
+#: ../cmk/gui/wato/mkeventd.py:2787 ../cmk/gui/wato/user_profile.py:649
 #: ../cmk/gui/logwatch.py:116 ../cmk/gui/logwatch.py:215
 #: ../cmk/gui/logwatch.py:381 ../cmk/gui/sidebar.py:797
 #: ../cmk/gui/user_notify.py:41 ../cmk/gui/crash_reporting.py:260
@@ -51286,7 +51286,7 @@ msgstr "Zuverlässigkeit"
 msgid "Reload"
 msgstr "Neu laden"
 
-#: ../cmk/gui/htmllib.py:1426
+#: ../cmk/gui/htmllib.py:1381
 msgid "Reloading..."
 msgstr "Neu laden ..."
 
@@ -51796,7 +51796,7 @@ msgstr "Erweiterungen replizieren"
 msgid "Replicate extensions (MKPs and files in <tt>~/local/</tt>)"
 msgstr "Erweiterungen replizieren (MKPs und Dateien in <tt>~/local/</tt>)"
 
-#: ../cmk/gui/wato/user_profile.py:352 ../cmk/gui/notifications.py:216
+#: ../cmk/gui/wato/user_profile.py:353 ../cmk/gui/notifications.py:216
 msgid "Replicate user profile"
 msgstr "Benutzerprofil replizieren"
 
@@ -51808,15 +51808,15 @@ msgstr "Replikations Partner"
 msgid "Replication Slot Disk Usage"
 msgstr "Verwendung des Replikations-Slots für die Festplatte"
 
-#: ../cmk/gui/wato/user_profile.py:223
+#: ../cmk/gui/wato/user_profile.py:224
 msgid "Replication States"
 msgstr "Zustand der Replikation"
 
-#: ../cmk/gui/wato/user_profile.py:628
+#: ../cmk/gui/wato/user_profile.py:629
 msgid "Replication completed successfully."
 msgstr "Replikation erfolgreich abgeschlossen."
 
-#: ../cmk/gui/wato/user_profile.py:247
+#: ../cmk/gui/wato/user_profile.py:248
 msgid "Replication in progress"
 msgstr "Replikation läuft gerade"
 
@@ -52487,7 +52487,7 @@ msgstr "Umschreibe Nachrichtentext"
 msgid "Rewriting"
 msgstr "Umschreibung"
 
-#: ../cmk/gui/wato/user_profile.py:65 ../cmk/gui/cee/reporting.py:831
+#: ../cmk/gui/wato/user_profile.py:66 ../cmk/gui/cee/reporting.py:831
 #: ../cmk/gui/plugins/userdb/user_attributes.py:180
 msgid "Right"
 msgstr "Rechts"
@@ -53470,7 +53470,7 @@ msgstr "SQL-Rekompilationen/sec"
 msgid "SQL-Server to connect to"
 msgstr "zu folgendem SQL-Server verbinden"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2356
+#: ../cmk/gui/plugins/wato/active_checks.py:2357
 msgid "SSH Port"
 msgstr "SSH-Port"
 
@@ -53486,7 +53486,7 @@ msgstr "SSH Daemon Konfiguration (Linux)"
 msgid "SSH key pair for remote login"
 msgstr "SSH-Schlüsselpaar für den Remotezugang"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2376
+#: ../cmk/gui/plugins/wato/active_checks.py:2377
 msgid "SSH user name on remote host"
 msgstr "SSH-Username auf dem entfernten Host"
 
@@ -53954,19 +53954,19 @@ msgstr "Suche in Setup"
 msgid "Search in this folder"
 msgstr "In diesem Ordner suchen"
 
-#: ../cmk/gui/watolib/search.py:503 ../cmk/gui/watolib/search.py:509
+#: ../cmk/gui/watolib/search.py:504 ../cmk/gui/watolib/search.py:510
 msgid "Search index"
 msgstr "Suchindex"
 
-#: ../cmk/gui/watolib/search.py:480
+#: ../cmk/gui/watolib/search.py:481
 msgid "Search index not found, re-building from scratch"
 msgstr "Suchindex wurde nicht gefunden, komplett neu bauen"
 
-#: ../cmk/gui/watolib/search.py:453
+#: ../cmk/gui/watolib/search.py:454
 msgid "Search index successfully built"
 msgstr "Suchindex erfolgreich erstellt"
 
-#: ../cmk/gui/watolib/search.py:485
+#: ../cmk/gui/watolib/search.py:486
 msgid "Search index successfully updated"
 msgstr "Suchindex erfolgreich aktualisiert"
 
@@ -53975,7 +53975,7 @@ msgstr "Suchindex erfolgreich aktualisiert"
 msgid "Search only the entry at the base DN"
 msgstr "Eintrag nur in Basis DN suchen"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2450
+#: ../cmk/gui/plugins/wato/active_checks.py:2451
 msgid "Search pattern"
 msgstr "Suchfilter"
 
@@ -54120,7 +54120,7 @@ msgstr "Sekunden"
 #: ../cmk/gui/plugins/wato/active_checks.py:1521
 #: ../cmk/gui/plugins/wato/active_checks.py:1772
 #: ../cmk/gui/plugins/wato/active_checks.py:1866
-#: ../cmk/gui/plugins/wato/active_checks.py:2371
+#: ../cmk/gui/plugins/wato/active_checks.py:2372
 msgid "Seconds before connection times out"
 msgstr "Wartezeit in Sekunden bis Verbindungsaus"
 
@@ -54741,7 +54741,7 @@ msgstr "Servicekosten pro Tag"
 #: ../cmk/gui/plugins/wato/active_checks.py:408
 #: ../cmk/gui/plugins/wato/active_checks.py:587
 #: ../cmk/gui/plugins/wato/active_checks.py:1923
-#: ../cmk/gui/plugins/wato/active_checks.py:2342
+#: ../cmk/gui/plugins/wato/active_checks.py:2343
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:75
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:495
 #: ../cmk/gui/plugins/sidebar/search.py:939
@@ -54983,7 +54983,7 @@ msgstr "Service-Beschreibungen"
 msgid "Service discovery"
 msgstr "Serviceerkennung"
 
-#: ../cmk/gui/watolib/search.py:410
+#: ../cmk/gui/watolib/search.py:411
 #: ../cmk/gui/plugins/wato/utils/__init__.py:736
 msgid "Service discovery rules"
 msgstr "Regeln zur Serviceerkennung"
@@ -55095,7 +55095,7 @@ msgstr "Leite direkt an Eventkonsole weiter"
 msgid "Service limits"
 msgstr "Servicelimits"
 
-#: ../cmk/gui/watolib/search.py:409
+#: ../cmk/gui/watolib/search.py:410
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1036
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1048
 #: ../cmk/gui/plugins/wato/utils/__init__.py:718
@@ -56032,7 +56032,7 @@ msgstr ""
 #: ../cmk/gui/wato/mkeventd.py:2446 ../cmk/gui/wato/mkeventd.py:2626
 #: ../cmk/gui/wato/mkeventd.py:2790 ../cmk/gui/logwatch.py:119
 #: ../cmk/gui/logwatch.py:228 ../cmk/gui/logwatch.py:394
-#: ../cmk/gui/watolib/search.py:405 ../cmk/gui/views.py:2856
+#: ../cmk/gui/watolib/search.py:406 ../cmk/gui/views.py:2856
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:205
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:328
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:783
@@ -56412,7 +56412,7 @@ msgstr "Letztes Umbenennungsergebnis anzeigen"
 msgid "Show legend"
 msgstr "Legende anzeigen"
 
-#: ../cmk/gui/htmllib.py:2356
+#: ../cmk/gui/htmllib.py:2311
 msgid "Show less"
 msgstr "Weniger anzeigen"
 
@@ -56428,7 +56428,7 @@ msgstr "Zeige Rand um den Graphen"
 msgid "Show metric"
 msgstr "Metrik anzeigen"
 
-#: ../cmk/gui/pagetypes.py:387 ../cmk/gui/htmllib.py:2352
+#: ../cmk/gui/pagetypes.py:387 ../cmk/gui/htmllib.py:2307
 #: ../cmk/gui/visuals.py:881
 msgid "Show more"
 msgstr "Mehr anzeigen"
@@ -56733,7 +56733,7 @@ msgstr "Seitenleiste-Elemente"
 msgid "Sidebar integration"
 msgstr "Integration in die Seitenleiste"
 
-#: ../cmk/gui/wato/user_profile.py:85
+#: ../cmk/gui/wato/user_profile.py:86
 #: ../cmk/gui/plugins/userdb/user_attributes.py:179
 msgid "Sidebar position"
 msgstr "Position der Seitenleiste"
@@ -57744,7 +57744,7 @@ msgstr ""
 msgid "Sorry, you lack the permission. Operation: %s, table: %s"
 msgstr "Sie haben leider keine Berechtigung. Operation: %s, Tabelle: %s"
 
-#: ../cmk/gui/wato/user_profile.py:446 ../cmk/gui/wato/user_profile.py:550
+#: ../cmk/gui/wato/user_profile.py:447 ../cmk/gui/wato/user_profile.py:551
 msgid "Sorry, your user account does not exist."
 msgstr "Ihr Benutzerkonto ist nicht vorhanden."
 
@@ -60205,7 +60205,7 @@ msgstr "Erfolg"
 msgid "Successfully baked agents"
 msgstr "Agenten erfolgreich gebacken"
 
-#: ../cmk/gui/wato/user_profile.py:417
+#: ../cmk/gui/wato/user_profile.py:418
 msgid "Successfully changed password."
 msgstr "Das Passwort wurde erfolgreich geändert."
 
@@ -60256,7 +60256,7 @@ msgstr "Der Lizenznutzungsbericht wurde erfolgreich übermittelt."
 msgid "Successfully updated IP addresses of %d hosts."
 msgstr "Die IP-Adressen von %d Hosts wurden erfolgreich aktualisiert."
 
-#: ../cmk/gui/wato/user_profile.py:527
+#: ../cmk/gui/wato/user_profile.py:528
 msgid "Successfully updated user profile."
 msgstr "Benutzerprofil erfolgreich aktualisiert."
 
@@ -61772,7 +61772,7 @@ msgstr ""
 "Die Serviceerkennung von Check_MK findet und konfiguriert automatisch alle "
 "zu überwachenden Services eines Hosts kann auch Host-Labels erkennen."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:221
+#: ../cmk/gui/cme/plugins/wato/managed.py:243
 msgid "The Customer has been deleted."
 msgstr "Der Kunde wurde gelöscht."
 
@@ -62689,7 +62689,7 @@ msgstr ""
 "Batterie-Kapazität in Prozent ab und unterhalb derer eine Warnung ausgelöst "
 "werden soll"
 
-#: ../cmk/gui/wato/user_profile.py:397
+#: ../cmk/gui/wato/user_profile.py:398
 msgid "The both new passwords do not match."
 msgstr "Die beiden neuen Passworte stimmen nicht überein."
 
@@ -63157,7 +63157,7 @@ msgid "The current monitoring state (including acknowledgements and downtimes)"
 msgstr ""
 "Der aktuelle Monitoringzustand (inklusive Quittierungen und Wartungszeiten)"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:227
+#: ../cmk/gui/cme/plugins/wato/managed.py:249
 #, python-format
 msgid "The customer ID %s does not exist."
 msgstr "Die Kunden-ID %s existiert nicht."
@@ -64202,11 +64202,11 @@ msgstr "Die Logdatei existiert in dieser Instanz nicht."
 msgid "The login is currently locked"
 msgstr "Dieses Konto ist aktuell gesperrt"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:536
+#: ../cmk/gui/cme/plugins/wato/managed.py:558
 msgid "The logo has been deleted."
 msgstr "Das Logo wurde gelöscht."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:555
+#: ../cmk/gui/cme/plugins/wato/managed.py:577
 msgid "The logo has been uploaded."
 msgstr "Das Logo wurde gelöscht."
 
@@ -64379,7 +64379,7 @@ msgstr ""
 "Die minimale Grenze für das Apply-Lag in <tt>v$dataguard_stats</tt>. Dies "
 "ist nur sinnvoll, wenn auch eine <i>maximale Grenze</i> konfiguriert wurde."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:416
+#: ../cmk/gui/cme/plugins/wato/managed.py:438
 msgid ""
 "The modification has been saved, but this customer has no users assigned. "
 "You need to create either a global user or assign at least one user to the "
@@ -64622,7 +64622,7 @@ msgstr ""
 "Standardwert ist 60 Sekunden. Beachten Sie, dass dies kein Gesamttimeout "
 "ist, sondern auf jede einzelne interne Abfrage angewendet wird."
 
-#: ../cmk/gui/wato/user_profile.py:391
+#: ../cmk/gui/wato/user_profile.py:392
 msgid "The new password must differ from your current one."
 msgstr "Das neue Passwort muss sich vom aktuellen unterscheiden."
 
@@ -65261,12 +65261,12 @@ msgid "The requested schedule does not exist."
 msgstr "Dieser Berichtsplan existiert nicht."
 
 #: ../cmk/gui/wato/pages/sites.py:139 ../cmk/gui/wato/pages/sites.py:168
-#: ../cmk/gui/wato/user_profile.py:612
+#: ../cmk/gui/wato/user_profile.py:613
 msgid "The requested site does not exist"
 msgstr "Die angeforderte Instanz existiert nicht"
 
 #: ../cmk/gui/wato/pages/notifications.py:806
-#: ../cmk/gui/wato/user_profile.py:634
+#: ../cmk/gui/wato/user_profile.py:635
 msgid "The requested user does not exist"
 msgstr "Der angefragte Benutzer existiert nicht"
 
@@ -65658,7 +65658,7 @@ msgstr ""
 "Die Instanz ist aktuell durch einen anderen Aktivierungsvorgang gesperrt. "
 "Bitte versuchen Sie es später erneut."
 
-#: ../cmk/gui/wato/user_profile.py:617
+#: ../cmk/gui/wato/user_profile.py:618
 msgid "The site is marked as dead. Not trying to replicate."
 msgstr ""
 "Die Instanz ist aktuell als tot markiert. Ich versuche daher keine "
@@ -66254,11 +66254,11 @@ msgstr "Der Wert dieser Regel ist ungültig. "
 msgid "The vault name"
 msgstr "Der Name des Tresors"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:590
+#: ../cmk/gui/cme/plugins/wato/managed.py:612
 msgid "The version of this site is not a Check_MK Managed Services Edition"
 msgstr "Die Version dieser Instanz ist keine Check_MK Managed Services Edition"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:118
+#: ../cmk/gui/cme/plugins/wato/managed.py:142
 msgid "The version of this site is not a Checkmk managed services edition"
 msgstr "Die Version dieser Instanz ist keine Checkmk Managed Services Edition"
 
@@ -66595,7 +66595,7 @@ msgstr ""
 "Diese Makros können mit beliebigen Textelementen kombiniert werden, z.B. "
 "\"irgendein Text <tt>$MACRO1$</tt> -- <tt>$MACRO2$</tt>\"."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:375
+#: ../cmk/gui/cme/plugins/wato/managed.py:397
 msgid ""
 "These macros can be used in reports by surrounding the namespaced macro name "
 "in dollar signs. E.g. $CUSTOMER_MACRO$"
@@ -66826,7 +66826,7 @@ msgstr ""
 "href=\"wato.py?mode=edit_ruleset&varname=cmc_service_flap_settings\">Service-"
 "Regel</a> konfiguriert werden."
 
-#: ../cmk/gui/htmllib.py:1191
+#: ../cmk/gui/htmllib.py:1158
 #, python-format
 msgid ""
 "These texts may be localized depending on the users' language. You can "
@@ -66891,7 +66891,7 @@ msgid "This ID can not be used as custom attribute"
 msgstr "Diese ID kann nicht als benutzerdefiniertes Attribut verwendet werden."
 
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:450
-#: ../cmk/gui/cme/plugins/wato/managed.py:393
+#: ../cmk/gui/cme/plugins/wato/managed.py:415
 msgid "This ID is already in use. Please choose another one."
 msgstr "Diese ID wird bereits verwendet. Bitte wählen Sie eine andere."
 
@@ -67438,8 +67438,8 @@ msgstr ""
 "Dieser Kunde existiert nicht mehr. Dieses Objekt kann nicht mehr genutzt "
 "oder editiert werden, bis Sie es einem existierenden Kunden zuweisen."
 
-#: ../cmk/gui/cme/managed.py:275 ../cmk/gui/cme/plugins/wato/managed.py:270
-#: ../cmk/gui/cme/plugins/wato/managed.py:659
+#: ../cmk/gui/cme/managed.py:275 ../cmk/gui/cme/plugins/wato/managed.py:292
+#: ../cmk/gui/cme/plugins/wato/managed.py:681
 msgid "This customer does not exist."
 msgstr "Dieser Kunde existiert nicht."
 
@@ -67996,7 +67996,7 @@ msgstr ""
 msgid "This name is already being used by another timeperiod."
 msgstr "Diese Bezeichnung wird bereits verwendet."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:402
+#: ../cmk/gui/cme/plugins/wato/managed.py:424
 msgid "This name is already used. Please choose another one."
 msgstr "Dieser Name wird bereits verwendet. Bitte wählen Sie einen andere."
 
@@ -68475,7 +68475,7 @@ msgstr "Diese Seite bietet keine Inline-Hilfe."
 msgid "This page does not support cluster hosts."
 msgstr "Diese Ansicht unterstützt keine Cluster-Hosts."
 
-#: ../cmk/gui/wsgi/applications/checkmk.py:116
+#: ../cmk/gui/wsgi/applications/checkmk.py:118
 msgid "This page was not found. Sorry."
 msgstr "Diese Seite konnte leider nicht gefunden werden."
 
@@ -70677,11 +70677,11 @@ msgstr "Dieser Benutzer hat keine Mailadresse konfiguriert."
 msgid "This username is already being used by another user."
 msgstr "Der Benutzername ist bereits in Verwendung."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:326
+#: ../cmk/gui/cme/plugins/wato/managed.py:348
 msgid "This value can be used in reports as $CUSTOMER_ID$"
 msgstr "Dieser Wert kann in Berichten als $CUSTOMER_ID$ verwendet werden"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:358
+#: ../cmk/gui/cme/plugins/wato/managed.py:380
 msgid "This value can be used in reports as $CUSTOMER_NAME$."
 msgstr "Dieser Wert kann in Berichten als $CUSTOMER_NAME$ verwendet werden."
 
@@ -70791,7 +70791,7 @@ msgstr "Diese Woche"
 msgid "This werk does not exist."
 msgstr "Dieses Werk existiert nicht."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2385
+#: ../cmk/gui/plugins/wato/active_checks.py:2386
 msgid ""
 "This will automatically accept hitherto-unseen keysbut will refuse "
 "connections for changed or invalid hostkeys"
@@ -71036,7 +71036,7 @@ msgstr "Schwellwerte für die Alarme pro Kontakt"
 msgid "Thresholds for quality of time"
 msgstr "Schwellwerte für die Zeitqualität"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2496
+#: ../cmk/gui/plugins/wato/active_checks.py:2497
 msgid "Thresholds on message count"
 msgstr "Grenzen für Nachrichtenanzahl"
 
@@ -71539,7 +71539,7 @@ msgid "Timer"
 msgstr "Timer"
 
 #: ../cmk/gui/cee/plugins/dashboard/single_metric.py:151
-#: ../cmk/gui/plugins/wato/active_checks.py:2487
+#: ../cmk/gui/plugins/wato/active_checks.py:2488
 #: ../cmk/gui/plugins/dashboard/graph.py:317
 msgid "Timerange"
 msgstr "Zeitbereich"
@@ -72740,8 +72740,10 @@ msgstr "Tx-Leistungspegel"
 msgid "Type"
 msgstr "Typ"
 
-#: ../cmk/gui/utils/output_funnel.py:47
-msgid "Type Error: html.write accepts str and unicode input objects only!"
+#: ../cmk/gui/htmllib.py:1041
+#, fuzzy
+#| msgid "Type Error: html.write accepts str and unicode input objects only!"
+msgid "Type Error: html.write accepts str input objects only!"
 msgstr ""
 "Type Error: Die Funktion html.write erwartet str oder unicode als "
 "Eingabeobjekte!"
@@ -73459,7 +73461,7 @@ msgstr ""
 msgid "Unable to upload icon: %s"
 msgstr "Fehler beim Hochladen des Symbols: %s"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:573
+#: ../cmk/gui/cme/plugins/wato/managed.py:595
 #, python-format
 msgid "Unable to upload image: %s"
 msgstr "Fehler beim Hochladen des Bilds: %s"
@@ -73792,7 +73794,7 @@ msgstr "Unregistriert"
 msgid "Unspecified."
 msgstr "Unspezifiziert."
 
-#: ../cmk/gui/htmllib.py:1095
+#: ../cmk/gui/htmllib.py:1062
 #, python-format
 msgid "Unsupported context type '%s'"
 msgstr "Nicht unterstützter Kontexttyp '%s'"
@@ -73965,15 +73967,15 @@ msgstr "Agentenupdates werden für diesen Host <b>abgeschaltet</b>: %s"
 msgid "Updates will be enabled for this host."
 msgstr "Agentenupdates werden für diesen Host aktiviert."
 
-#: ../cmk/gui/watolib/search.py:477
+#: ../cmk/gui/watolib/search.py:478
 msgid "Updating of search index started"
 msgstr "Aktualisierung des Suchindex gestartet"
 
 #: ../cmk/gui/wato/pages/icons.py:60 ../cmk/gui/wato/pages/bulk_import.py:96
 #: ../cmk/gui/wato/mkeventd.py:2782 ../cmk/gui/key_mgmt.py:302
 #: ../cmk/gui/plugins/metrics/aws.py:376
-#: ../cmk/gui/cme/plugins/wato/managed.py:501
-#: ../cmk/gui/cme/plugins/wato/managed.py:669
+#: ../cmk/gui/cme/plugins/wato/managed.py:523
+#: ../cmk/gui/cme/plugins/wato/managed.py:691
 msgid "Upload"
 msgstr "Hochladen"
 
@@ -74006,7 +74008,7 @@ msgstr "Agenten-Signaturschlüssel hochladen"
 msgid "Upload backup key"
 msgstr "Sicherungsschlüssel hochladen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:616
+#: ../cmk/gui/cme/plugins/wato/managed.py:638
 msgid "Upload custom logo"
 msgstr "Angepasstes Logo hochladen"
 
@@ -74032,8 +74034,8 @@ msgstr "Neues hochladen:"
 msgid "Upload package"
 msgstr "Paket hochladen"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:559
-#: ../cmk/gui/cme/plugins/wato/managed.py:695
+#: ../cmk/gui/cme/plugins/wato/managed.py:581
+#: ../cmk/gui/cme/plugins/wato/managed.py:717
 msgid "Uploaded a custom GUI logo"
 msgstr "Angepasstes Logo hochladen"
 
@@ -75442,7 +75444,7 @@ msgstr ""
 "Standardport 8089 unterscheidet."
 
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2970
-#: ../cmk/gui/plugins/wato/active_checks.py:2445
+#: ../cmk/gui/plugins/wato/active_checks.py:2446
 msgid ""
 "Use this option to query a port which is different from standard port 9200."
 msgstr ""
@@ -75790,7 +75792,7 @@ msgstr "Speicherbelegung"
 #: ../cmk/gui/wato/pages/audit_log.py:279
 #: ../cmk/gui/wato/pages/audit_log.py:440
 #: ../cmk/gui/wato/pages/audit_log.py:501 ../cmk/gui/wato/pages/users.py:583
-#: ../cmk/gui/wato/pages/timeperiods.py:192 ../cmk/gui/wato/user_profile.py:651
+#: ../cmk/gui/wato/pages/timeperiods.py:192 ../cmk/gui/wato/user_profile.py:652
 #: ../cmk/gui/watolib/groups.py:263 ../cmk/gui/user_notify.py:44
 #: ../cmk/gui/cee/plugins/wato/syncsmtp.py:48
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_oracle.py:97
@@ -75866,7 +75868,7 @@ msgstr "Benutzer-Agent"
 msgid "User interface"
 msgstr "Benutzerschnittstelle"
 
-#: ../cmk/gui/wato/user_profile.py:578
+#: ../cmk/gui/wato/user_profile.py:579
 msgid "User interface settings"
 msgstr "Einstellungen der Benutzeroberfläche"
 
@@ -75905,7 +75907,7 @@ msgstr "Benutzerprofil"
 msgid "User profile cleanup"
 msgstr "Benutzerprofil"
 
-#: ../cmk/gui/wato/user_profile.py:295 ../cmk/gui/wato/user_profile.py:339
+#: ../cmk/gui/wato/user_profile.py:296 ../cmk/gui/wato/user_profile.py:340
 msgid "User profiles can not be edited (WATO is disabled)."
 msgstr ""
 "Benuterprofile können mit WATO nicht geändert werden (WATO ist abgeschaltet)."
@@ -75957,7 +75959,7 @@ msgstr "Benutzer:"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_saprouter.py:35
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:31
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:45
-#: ../cmk/gui/login.py:532 ../cmk/gui/plugins/wato/datasource_programs.py:351
+#: ../cmk/gui/login.py:533 ../cmk/gui/plugins/wato/datasource_programs.py:351
 #: ../cmk/gui/plugins/wato/datasource_programs.py:371
 #: ../cmk/gui/plugins/wato/datasource_programs.py:416
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1182
@@ -75987,8 +75989,8 @@ msgstr "Benutzer:"
 #: ../cmk/gui/plugins/wato/active_checks.py:1500
 #: ../cmk/gui/plugins/wato/active_checks.py:1587
 #: ../cmk/gui/plugins/wato/active_checks.py:2066
-#: ../cmk/gui/plugins/wato/active_checks.py:2376
-#: ../cmk/gui/plugins/wato/active_checks.py:2426
+#: ../cmk/gui/plugins/wato/active_checks.py:2377
+#: ../cmk/gui/plugins/wato/active_checks.py:2427
 #: ../cmk/gui/plugins/wato/notifications.py:775
 msgid "Username"
 msgstr "Benutzer"
@@ -75997,7 +75999,7 @@ msgstr "Benutzer"
 msgid "Username for login"
 msgstr "Benutzername für Login"
 
-#: ../cmk/gui/login.py:261
+#: ../cmk/gui/login.py:262
 msgid "Username is unknown"
 msgstr "Benutzername ist unbekannt"
 
@@ -76256,7 +76258,7 @@ msgstr "VM-Name"
 msgid "VM snapshot summary"
 msgstr "Zusammenfassung der VM-Schnappschüsse"
 
-#: ../cmk/gui/watolib/search.py:407
+#: ../cmk/gui/watolib/search.py:408
 #: ../cmk/gui/plugins/wato/datasource_programs.py:198
 #: ../cmk/gui/plugins/wato/builtin_modules.py:1371
 msgid "VM, Cloud, Container"
@@ -77046,7 +77048,7 @@ msgstr "WARN/CRIT"
 
 #: ../cmk/gui/cee/reporting.py:3041 ../cmk/gui/cee/plugins/wato/cmc.py:1170
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_logwatch.py:207
-#: ../cmk/gui/htmllib.py:1176 ../cmk/gui/plugins/wato/active_checks.py:354
+#: ../cmk/gui/htmllib.py:1143 ../cmk/gui/plugins/wato/active_checks.py:354
 #: ../cmk/gui/plugins/wato/active_checks.py:749
 #: ../cmk/gui/plugins/wato/active_checks.py:781
 #: ../cmk/gui/plugins/wato/check_parameters/hostsystem_sensors.py:34
@@ -77234,7 +77236,7 @@ msgstr "Warte auf initialisierung des neuen Masters"
 msgid "Waiting for other switches to come online"
 msgstr "Warte auf andere Switche online zu gehen"
 
-#: ../cmk/gui/wato/user_profile.py:233
+#: ../cmk/gui/wato/user_profile.py:234
 msgid "Waiting for replication to start"
 msgstr "Warte auf den Beginn der Replikation"
 
@@ -78060,7 +78062,7 @@ msgstr "Warnung bei Verwendung von"
 msgid "Warning at a utilization of"
 msgstr "Warnung bei Verwendung von"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2499
+#: ../cmk/gui/plugins/wato/active_checks.py:2500
 #: ../cmk/gui/plugins/wato/check_parameters/jenkins_queue.py:70
 #: ../cmk/gui/plugins/wato/check_parameters/single_humidity.py:26
 #: ../cmk/gui/plugins/wato/check_parameters/filestats.py:41
@@ -79836,7 +79838,7 @@ msgstr ""
 "Erzeugt Child-Nodes, die den Status von Services betreffen. Hosts und "
 "zugehörige Services werden weiter unten spezifiziert."
 
-#: ../cmk/gui/watolib/search.py:451
+#: ../cmk/gui/watolib/search.py:452
 #, python-brace-format
 msgid "Will wait for {sleep_time} seconds and retry"
 msgstr "Wartet für {sleep_time} Sekunden und versucht es erneut"
@@ -80663,7 +80665,7 @@ msgstr "Sie dürfen Übersichten nicht bearbeiten."
 msgid "You are not allowed to edit this %s."
 msgstr "Sie dürfen diese %s nicht bearbeiten."
 
-#: ../cmk/gui/wato/user_profile.py:292 ../cmk/gui/wato/user_profile.py:336
+#: ../cmk/gui/wato/user_profile.py:293 ../cmk/gui/wato/user_profile.py:337
 msgid "You are not allowed to edit your user profile."
 msgstr "Sie dürfen Ihre Benutzer-Profil nicht bearbeiten."
 
@@ -80691,11 +80693,11 @@ msgstr "Sie haben keine Berechtigung für das Alarmierungsmodul."
 msgid "You are not allowed to use the setup."
 msgstr "Sie dürfen das Setup nicht verwenden."
 
-#: ../cmk/gui/wsgi/applications/utils.py:107
+#: ../cmk/gui/wsgi/applications/utils.py:108
 msgid "You are not authenticated."
 msgstr "Sie sind nicht authentifiziert."
 
-#: ../cmk/gui/wsgi/applications/utils.py:82
+#: ../cmk/gui/wsgi/applications/utils.py:83
 #, python-format
 msgid ""
 "You are not authorized to use the Check_MK GUI. Sorry. You are logged in as "
@@ -80725,11 +80727,11 @@ msgstr "Sie sind nicht berechtigt, diese globale Einstellung zu editieren."
 msgid "You are not permitted to perform this action."
 msgstr "Sie sind für diese Aktion nicht berechtigt."
 
-#: ../cmk/gui/wato/user_profile.py:442
+#: ../cmk/gui/wato/user_profile.py:443
 msgid "You are required to change your password before proceeding."
 msgstr "Bevor Sie weitermachen können, müssen Sie Ihr Passwort ändern."
 
-#: ../cmk/gui/htmllib.py:1055
+#: ../cmk/gui/htmllib.py:1013
 msgid ""
 "You are trying to Checkmk together with a threaded Apache multiprocessing "
 "module (MPM). Check_MK is only working with the prefork module. Please "
@@ -81122,7 +81124,7 @@ msgstr ""
 "anderen Konfiguration benutzt, wie z.B. für <i>das Login für ausgewählte "
 "Datenbanken</i> oder <i>Sektionen, die ausgeschlossen werden sollen</i>. "
 
-#: ../cmk/gui/wato/user_profile.py:454
+#: ../cmk/gui/wato/user_profile.py:455
 msgid ""
 "You can not change your password, because it is managed by another system."
 msgstr ""
@@ -81234,7 +81236,7 @@ msgstr ""
 "kann nützlich sein um den Grund für die aktivierten Konfigurationsänderungen "
 "zu hinterlegen."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2408
+#: ../cmk/gui/plugins/wato/active_checks.py:2409
 msgid "You can search indices for defined patterns in defined fieldnames."
 msgstr ""
 "Sie können Indizes nach definierten Mustern in definierten Feldnamen suchen."
@@ -81336,7 +81338,7 @@ msgid "You can simulate an event here and check out which rules are matching."
 msgstr ""
 "Sie können hier ein Ereignis simulieren und prüfen, welche Regeln zutreffen."
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2353
+#: ../cmk/gui/plugins/wato/active_checks.py:2354
 msgid ""
 "You can specify a hostname or IP address different from IP address of the "
 "host as configured in your host properties."
@@ -81355,7 +81357,7 @@ msgstr ""
 #: ../cmk/gui/plugins/wato/active_checks.py:132
 #: ../cmk/gui/plugins/wato/active_checks.py:173
 #: ../cmk/gui/plugins/wato/active_checks.py:2042
-#: ../cmk/gui/plugins/wato/active_checks.py:2422
+#: ../cmk/gui/plugins/wato/active_checks.py:2423
 msgid ""
 "You can specify a hostname or IP address different from the IP address of "
 "the host this check will be assigned to."
@@ -81493,7 +81495,7 @@ msgstr ""
 "\"Benutzerdefinierte PromQL-Abfrage\" unten erstellen, wenn einer der Scrape-"
 "Target-Typen hier nicht aufgeführt ist."
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:622
+#: ../cmk/gui/cme/plugins/wato/managed.py:644
 msgid ""
 "You can upload a <i>PNG</i> image here to replace the  default Check_MK Logo "
 "in the sidebar. The image needs to have a size of 271px width and 46px "
@@ -81631,7 +81633,7 @@ msgstr ""
 "einem Service passen, wird der Service zur ersten passenden Gruppe "
 "hinzugefügt."
 
-#: ../cmk/gui/login.py:572
+#: ../cmk/gui/login.py:573
 #, python-format
 msgid ""
 "You can use, modify and distribute Check_MK under the terms of the <a href="
@@ -82214,7 +82216,7 @@ msgstr ""
 "Sie müssen Mitglied in mindestens einer Kontaktgruppe sein, um eine "
 "vordefinierte Bedingung anlegen zu können."
 
-#: ../cmk/gui/wato/user_profile.py:388
+#: ../cmk/gui/wato/user_profile.py:389
 msgid "You need to change your password."
 msgstr "Sie müssen Ihr Kenntwort ändern."
 
@@ -82320,7 +82322,7 @@ msgstr "Geben Sie bitte mindestens %d Zeichen an."
 msgid "You need to provide timeperiod exceptions in YYYY-MM-DD format"
 msgstr "Sie müssen Zeitperiodenausnahmen im Format JJJJJ-MM-TT angeben"
 
-#: ../cmk/gui/wato/user_profile.py:385
+#: ../cmk/gui/wato/user_profile.py:386
 msgid "You need to provide your current password."
 msgstr "Geben Sie bitte Ihr aktuelles Passwort an."
 
@@ -82465,11 +82467,11 @@ msgstr "Ihre Eingabe entspricht nicht dem vorgeschriebenen Format."
 msgid "Your modifications affect some objects"
 msgstr "Ihre Veränderungen betreffen mehrere Objekte"
 
-#: ../cmk/gui/wato/user_profile.py:394
+#: ../cmk/gui/wato/user_profile.py:395
 msgid "Your old password is wrong."
 msgstr "Ihr altes Passwort ist falsch."
 
-#: ../cmk/gui/wato/user_profile.py:440
+#: ../cmk/gui/wato/user_profile.py:441
 msgid "Your password is too old, you need to choose a new password."
 msgstr "Ihr Passwort ist zu alt. Bitte wählen Sie ein neues Passwort."
 
@@ -82545,7 +82547,7 @@ msgstr ""
 "einen Fehler in der Software handelt, schicken Sie uns bitte einen Crash-"
 "Report."
 
-#: ../cmk/gui/wsgi/applications/utils.py:87
+#: ../cmk/gui/wsgi/applications/utils.py:88
 #, python-format
 msgid "Your roles are <b>%s</b>."
 msgstr "Ihre Rollen sind <b>%s</b>."
@@ -83879,7 +83881,7 @@ msgstr "iSCSI"
 msgid "iSCSI HBAs"
 msgstr "iSCSI HBAs"
 
-#: ../cmk/gui/htmllib.py:2250
+#: ../cmk/gui/htmllib.py:2205
 msgid "icon not found"
 msgstr "Icon nicht gefunden"
 
@@ -84130,8 +84132,8 @@ msgstr "Lockwaits/sec"
 msgid "log file %s on all hosts"
 msgstr "Logdatei %s auf allen Hosts"
 
-#: ../cmk/gui/plugins/wato/active_checks.py:2500
-#: ../cmk/gui/plugins/wato/active_checks.py:2504
+#: ../cmk/gui/plugins/wato/active_checks.py:2501
+#: ../cmk/gui/plugins/wato/active_checks.py:2505
 msgid "log messages"
 msgstr "Logmeldungen"
 
@@ -84592,7 +84594,7 @@ msgstr "von nicht spezifiziertem Service"
 
 #: ../cmk/gui/wato/pages/sites.py:1016 ../cmk/gui/wato/mkeventd.py:2480
 #: ../cmk/gui/views.py:1429 ../cmk/gui/valuespec.py:2297
-#: ../cmk/gui/htmllib.py:1868 ../cmk/gui/plugins/sidebar/master_control.py:139
+#: ../cmk/gui/htmllib.py:1823 ../cmk/gui/plugins/sidebar/master_control.py:139
 #: ../cmk/gui/plugins/views/utils.py:353
 msgid "off"
 msgstr "aus"
@@ -84608,7 +84610,7 @@ msgid "offline hosts"
 msgstr "Offline-Hosts"
 
 #: ../cmk/gui/wato/pages/sites.py:1016 ../cmk/gui/wato/mkeventd.py:2480
-#: ../cmk/gui/valuespec.py:2296 ../cmk/gui/htmllib.py:1868
+#: ../cmk/gui/valuespec.py:2296 ../cmk/gui/htmllib.py:1823
 #: ../cmk/gui/plugins/sidebar/master_control.py:139
 msgid "on"
 msgstr "an"
@@ -85176,7 +85178,7 @@ msgstr "Sofortige Wartungszeit eintragen"
 #: ../cmk/gui/plugins/wato/active_checks.py:2078
 #: ../cmk/gui/plugins/wato/active_checks.py:2127
 #: ../cmk/gui/plugins/wato/active_checks.py:2299
-#: ../cmk/gui/plugins/wato/active_checks.py:2372
+#: ../cmk/gui/plugins/wato/active_checks.py:2373
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4405
 #: ../cmk/gui/plugins/metrics/unit.py:88
 #: ../cmk/gui/plugins/visuals/utils.py:362
@@ -85325,11 +85327,11 @@ msgstr "Alle anzeigen"
 msgid "show errors"
 msgstr "Zeige Fehler"
 
-#: ../cmk/gui/htmllib.py:2358
+#: ../cmk/gui/htmllib.py:2313
 msgid "show less"
 msgstr "weniger anzeigen"
 
-#: ../cmk/gui/htmllib.py:2354
+#: ../cmk/gui/htmllib.py:2309
 msgid "show more"
 msgstr "mehr anzeigen"
 
@@ -85638,7 +85640,7 @@ msgstr "vSphere VMs"
 msgid "vSphere secret"
 msgstr "vSphere secret"
 
-#: ../cmk/gui/cme/plugins/wato/managed.py:370
+#: ../cmk/gui/cme/plugins/wato/managed.py:392
 msgid "value"
 msgstr "Wert"
 
