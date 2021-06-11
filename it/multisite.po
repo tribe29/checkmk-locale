@@ -2036,7 +2036,24 @@ msgstr ""
 "configurati.</p>"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:706
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "<p>The Checkmk Microcore uses Checkmk fetcher processes to obtain data "
+#| "about the Checkmk and Checkmk Discovery services of the hosts monitored "
+#| "with Checkmk. There should always be enough fetcher processes to handle "
+#| "the configured checks just in time.</p><p>In case the fetcher helper pool "
+#| "is 100% used, checks will not be executed in time, the check latency will "
+#| "grow and the states are not up to date.</p><p>Possible actions:"
+#| "<ul><li>Check whether or not you can decrease check timeouts</"
+#| "li><li>Check which checks / plugins are <a href=\"view.py?"
+#| "view_name=service_check_durations\">consuming most helper process time</"
+#| "a></li><li>Increase the <a href=\"wato.py?"
+#| "mode=edit_configvar&varname=cmc_cmk_helpers\">number of Checkmk helpers</"
+#| "a></li></ul></p><p>But you need to be careful that you don't configure "
+#| "too many Checkmk fetcher helpers, because they consume resources. An "
+#| "additional problem is that the Checkmk fetchers are initialized in "
+#| "parallel during startup of the Microcore, which may cause load peaks when "
+#| "having a lot of Checkmk helper processes configured.</p>"
 msgid ""
 "<p>The Checkmk Microcore uses Checkmk fetcher processes to obtain data about "
 "the Checkmk and Checkmk Discovery services of the hosts monitored with "
@@ -2047,12 +2064,12 @@ msgid ""
 "whether or not you can decrease check timeouts</li><li>Check which checks / "
 "plugins are <a href=\"view.py?view_name=service_check_durations\">consuming "
 "most helper process time</a></li><li>Increase the <a href=\"wato.py?"
-"mode=edit_configvar&varname=cmc_cmk_helpers\">number of Checkmk helpers</a></"
-"li></ul></p><p>But you need to be careful that you don't configure too many "
-"Checkmk fetcher helpers, because they consume resources. An additional "
-"problem is that the Checkmk fetchers are initialized in parallel during "
-"startup of the Microcore, which may cause load peaks when having a lot of "
-"Checkmk helper processes configured.</p>"
+"mode=edit_configvar&varname=cmc_fetcher_helpers\">number of Checkmk "
+"fetchers</a></li></ul></p><p>But you need to be careful that you don't "
+"configure too many Checkmk fetcher helpers, because they consume resources. "
+"An additional problem is that the Checkmk fetchers are initialized in "
+"parallel during startup of the Microcore, which may cause load peaks when "
+"having a lot of Checkmk helper processes configured.</p>"
 msgstr ""
 "<p>Il Checkmk Microcore utilizza i processi Checkmk fetcher per ottenere "
 "dati sui servizi Checkmk e Checkmk Discovery degli host monitorati con "
@@ -3245,7 +3262,7 @@ msgid "AWS/WAFV2 Web ACL Requests"
 msgstr "Richieste AWS/WAFV2 Web ACL"
 
 #: ../cmk/gui/wato/pages/sites.py:652 ../cmk/gui/pagetypes.py:1506
-#: ../cmk/gui/page_menu.py:459
+#: ../cmk/gui/page_menu.py:458
 msgid "Abort"
 msgstr "Abort"
 
@@ -3666,7 +3683,7 @@ msgstr "Azione in caso di errore"
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:489
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:237
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:946
-#: ../cmk/gui/pagetypes.py:1094 ../cmk/gui/page_menu.py:425
+#: ../cmk/gui/pagetypes.py:1094 ../cmk/gui/page_menu.py:424
 #: ../cmk/gui/plugins/wato/bi_config.py:484
 #: ../cmk/gui/plugins/wato/bi_config.py:830
 #: ../cmk/gui/plugins/wato/bi_config.py:1912
@@ -7052,7 +7069,7 @@ msgstr "Filtri applicati:"
 #: ../cmk/gui/wato/pages/audit_log.py:427 ../cmk/gui/werks.py:262
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:603
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:863
-#: ../cmk/gui/cee/plugins/metrics/forecasts.py:310 ../cmk/gui/page_menu.py:748
+#: ../cmk/gui/cee/plugins/metrics/forecasts.py:310 ../cmk/gui/page_menu.py:747
 #: ../cmk/gui/plugins/views/availability.py:176
 msgid "Apply"
 msgstr "Applica"
@@ -7253,7 +7270,7 @@ msgstr "Argomenti:"
 msgid "Arrays (Controllers)"
 msgstr "Array (Controllori)"
 
-#: ../cmk/gui/page_menu.py:336
+#: ../cmk/gui/page_menu.py:335
 msgid "Articles in the user guide"
 msgstr "Articoli nella guida utente"
 
@@ -13096,7 +13113,7 @@ msgstr "Linea di comando:"
 msgid "Command to execute on remote host."
 msgstr "Comando da eseguire sull'host remoto."
 
-#: ../cmk/gui/mobile.py:327 ../cmk/gui/mobile.py:345 ../cmk/gui/views.py:844
+#: ../cmk/gui/mobile.py:327 ../cmk/gui/mobile.py:345 ../cmk/gui/views.py:846
 #: ../cmk/gui/plugins/visuals/filters.py:1598
 #: ../cmk/gui/plugins/visuals/infos.py:221
 msgid "Commands"
@@ -14408,7 +14425,7 @@ msgstr "Informazioni di contesto su questa connessione"
 msgid "Context information about this rule"
 msgstr "Informazioni di contesto su questa regola"
 
-#: ../cmk/gui/page_menu.py:322
+#: ../cmk/gui/page_menu.py:321
 msgid "Context sensitive help"
 msgstr "Aiuto sensibile al contesto"
 
@@ -17604,7 +17621,7 @@ msgstr ""
 "Il tipo di dashlet %s non è stato trovato. Si prega di rimuoverlo dalla "
 "configurazione del dashboard."
 
-#: ../cmk/gui/views.py:797 ../cmk/gui/plugins/views/availability.py:417
+#: ../cmk/gui/views.py:799 ../cmk/gui/plugins/views/availability.py:417
 msgid "Data"
 msgstr "Dati"
 
@@ -19333,7 +19350,7 @@ msgstr "Descrizione senza prefisso del tipo"
 msgid "Descriptions"
 msgstr "Descrizioni"
 
-#: ../cmk/gui/page_menu.py:377
+#: ../cmk/gui/page_menu.py:376
 msgid "Deselect all checkboxes"
 msgstr "Deselezionare tutte le caselle di controllo"
 
@@ -20192,7 +20209,7 @@ msgid "Disovered services of the host"
 msgstr "Servizi scoperti dell'host"
 
 #: ../cmk/gui/cee/plugins/dashboard/event_bar_chart_dashlet.py:236
-#: ../cmk/gui/page_menu.py:282
+#: ../cmk/gui/page_menu.py:281
 msgid "Display"
 msgstr "Visualizza"
 
@@ -21787,7 +21804,7 @@ msgstr "Richieste di lavoro abbandonate"
 msgid "Dt."
 msgstr "Dt."
 
-#: ../cmk/gui/page_menu.py:360
+#: ../cmk/gui/page_menu.py:359
 msgid "Dummy"
 msgstr "Dummy"
 
@@ -24564,19 +24581,19 @@ msgid "Explicitly specify resources"
 msgstr "Specificare esplicitamente le risorse"
 
 #: ../cmk/gui/wato/pages/audit_log.py:97 ../cmk/gui/wato/pages/audit_log.py:100
-#: ../cmk/gui/views.py:794 ../cmk/gui/cee/plugins/metrics/graphs.py:447
+#: ../cmk/gui/views.py:796 ../cmk/gui/cee/plugins/metrics/graphs.py:447
 #: ../cmk/gui/plugins/sidebar/dashboards.py:42
 #: ../cmk/gui/plugins/sidebar/views.py:52
 #: ../cmk/gui/plugins/views/availability.py:414 ../cmk/gui/visuals.py:2043
 msgid "Export"
 msgstr "Esportazione"
 
-#: ../cmk/gui/wato/pages/audit_log.py:165 ../cmk/gui/views.py:885
+#: ../cmk/gui/wato/pages/audit_log.py:165 ../cmk/gui/views.py:887
 #: ../cmk/gui/plugins/views/availability.py:474
 msgid "Export CSV"
 msgstr "Esportazione CSV"
 
-#: ../cmk/gui/views.py:891
+#: ../cmk/gui/views.py:893
 msgid "Export JSON"
 msgstr "Esportare JSON"
 
@@ -25603,8 +25620,8 @@ msgstr "Uso dei file system"
 
 #: ../cmk/gui/wato/pages/audit_log.py:176 ../cmk/gui/mobile.py:325
 #: ../cmk/gui/node_visualization.py:199 ../cmk/gui/node_visualization.py:202
-#: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/views.py:934
-#: ../cmk/gui/views.py:942 ../cmk/gui/page_menu.py:739
+#: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/views.py:936
+#: ../cmk/gui/views.py:944 ../cmk/gui/page_menu.py:738
 #: ../cmk/gui/plugins/wato/bi_config.py:652 ../cmk/gui/dashboard.py:1012
 #: ../cmk/gui/dashboard.py:1015
 msgid "Filter"
@@ -26439,7 +26456,7 @@ msgstr "Parametrizzazione del modello di previsione"
 msgid "Form (Cookie) based"
 msgstr "Basato sul modulo (Cookie)"
 
-#: ../cmk/gui/views.py:926
+#: ../cmk/gui/views.py:928
 msgid "Format"
 msgstr "Formato"
 
@@ -27006,7 +27023,7 @@ msgstr "Spazio SSD per scopi generali"
 msgid "General Settings"
 msgstr "Impostazioni generali"
 
-#: ../cmk/gui/page_menu.py:285
+#: ../cmk/gui/page_menu.py:284
 msgid "General display options"
 msgstr "Opzioni generali di visualizzazione"
 
@@ -28092,7 +28109,7 @@ msgid "Height"
 msgstr "Altezza"
 
 #: ../cmk/gui/wato/pages/tags.py:449 ../cmk/gui/wato/pages/rulesets.py:1245
-#: ../cmk/gui/page_menu.py:319
+#: ../cmk/gui/page_menu.py:318
 msgid "Help"
 msgstr "Aiuto"
 
@@ -29054,7 +29071,7 @@ msgstr "Nascondi nel rapporto"
 msgid "Hide infotext"
 msgstr "Nascondi il testo informativo"
 
-#: ../cmk/gui/page_menu.py:316
+#: ../cmk/gui/page_menu.py:315
 msgid "Hide inline help"
 msgstr "Nascondi l'aiuto in linea"
 
@@ -37142,7 +37159,7 @@ msgstr "Crittografia Livestatus"
 msgid "Livestatus encryption of %s"
 msgstr "Crittografia dello stato civile di %s"
 
-#: ../cmk/gui/views.py:746
+#: ../cmk/gui/views.py:748
 msgid "Livestatus error"
 msgstr "Errore di Livestatus"
 
@@ -40866,7 +40883,7 @@ msgstr "Modificare"
 msgid "Modify builtin %s"
 msgstr "Modificare il componente %s"
 
-#: ../cmk/gui/views.py:952
+#: ../cmk/gui/views.py:954
 msgid "Modify display options"
 msgstr "Modificare le opzioni di visualizzazione"
 
@@ -45116,7 +45133,7 @@ msgstr "Su aggregazioni selezionate"
 msgid "On selected hosts"
 msgstr "Su host selezionati"
 
-#: ../cmk/gui/views.py:847
+#: ../cmk/gui/views.py:849
 msgid "On selected objects"
 msgstr "Sugli oggetti selezionati"
 
@@ -51911,7 +51928,7 @@ msgstr "Segnalare"
 msgid "Reporting & availability"
 msgstr "Rapporti e disponibilità"
 
-#: ../cmk/gui/views.py:801 ../cmk/gui/cee/reporting.py:683
+#: ../cmk/gui/views.py:803 ../cmk/gui/cee/reporting.py:683
 #: ../cmk/gui/cee/reporting.py:1025 ../cmk/gui/cee/reporting.py:2535
 #: ../cmk/gui/cee/plugins/reporting/utils.py:57
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:450 ../cmk/gui/pagetypes.py:1390
@@ -52050,7 +52067,7 @@ msgstr "Spazio riservato"
 
 #: ../cmk/gui/wato/pages/audit_log.py:428
 #: ../cmk/gui/wato/pages/rulesets.py:1161 ../cmk/gui/werks.py:263
-#: ../cmk/gui/page_menu.py:749 ../cmk/gui/plugins/views/availability.py:183
+#: ../cmk/gui/page_menu.py:748 ../cmk/gui/plugins/views/availability.py:183
 #: ../cmk/gui/plugins/views/utils.py:284 ../cmk/gui/visuals.py:1649
 msgid "Reset"
 msgstr "Azzerare"
@@ -53555,7 +53572,7 @@ msgstr "Avvisi di Sansymphony unacknowlegded"
 msgid "Saturday"
 msgstr "Sabato"
 
-#: ../cmk/gui/wato/pages/ldap.py:249 ../cmk/gui/page_menu.py:442
+#: ../cmk/gui/wato/pages/ldap.py:249 ../cmk/gui/page_menu.py:441
 #: ../cmk/gui/plugins/wato/bi_config.py:297
 #: ../cmk/gui/plugins/wato/bi_config.py:986
 msgid "Save"
@@ -53774,7 +53791,7 @@ msgstr "Script per integrare Nagios plugis"
 
 #: ../cmk/gui/wato/pages/search.py:46 ../cmk/gui/wato/pages/folders.py:205
 #: ../cmk/gui/wato/pages/rulesets.py:561 ../cmk/gui/wato/pages/rulesets.py:1152
-#: ../cmk/gui/wato/pages/rulesets.py:1156 ../cmk/gui/page_menu.py:726
+#: ../cmk/gui/wato/pages/rulesets.py:1156 ../cmk/gui/page_menu.py:725
 #: ../cmk/gui/plugins/sidebar/search.py:684
 msgid "Search"
 msgstr "Cerca"
@@ -54222,7 +54239,7 @@ msgstr "Seleziona sorgente di dati"
 msgid "Select a timeperiod"
 msgstr "Seleziona un periodo di tempo"
 
-#: ../cmk/gui/page_menu.py:377 ../cmk/gui/page_menu.py:388
+#: ../cmk/gui/page_menu.py:376 ../cmk/gui/page_menu.py:387
 msgid "Select all checkboxes"
 msgstr "Seleziona tutte le caselle di controllo"
 
@@ -54378,7 +54395,7 @@ msgstr "Le sezioni selezionate non saranno eseguite dall'agente."
 
 #: ../cmk/gui/wato/pages/parentscan.py:401
 #: ../cmk/gui/wato/pages/rulesets.py:1314
-#: ../cmk/gui/watolib/bulk_discovery.py:90 ../cmk/gui/page_menu.py:384
+#: ../cmk/gui/watolib/bulk_discovery.py:90 ../cmk/gui/page_menu.py:383
 msgid "Selection"
 msgstr "Selezione"
 
@@ -56229,7 +56246,7 @@ msgstr "Mostrare le masse"
 msgid "Show check parameters"
 msgstr "Mostra i parametri di controllo"
 
-#: ../cmk/gui/wato/pages/services.py:1452 ../cmk/gui/views.py:962
+#: ../cmk/gui/wato/pages/services.py:1452 ../cmk/gui/views.py:964
 msgid "Show checkboxes"
 msgstr "Mostra le caselle di controllo"
 
@@ -56336,7 +56353,7 @@ msgstr "Mostra le informazioni di un singolo %s"
 msgid "Show information of single"
 msgstr "Mostra le informazioni di un singolo"
 
-#: ../cmk/gui/page_menu.py:315
+#: ../cmk/gui/page_menu.py:314
 msgid "Show inline help"
 msgstr "Mostra aiuto in linea"
 
@@ -60210,7 +60227,7 @@ msgstr "Aggiornati con successo gli indirizzi IP di %d host."
 msgid "Successfully updated user profile."
 msgstr "Profilo utente aggiornato con successo."
 
-#: ../cmk/gui/page_menu.py:346
+#: ../cmk/gui/page_menu.py:345
 msgid "Suggested tutorial videos"
 msgstr "Video tutorial consigliati"
 
@@ -64735,7 +64752,7 @@ msgstr ""
 "L'ID numerico di transizione della risoluzione JIRA. 11 - 'Da fare', 21 - "
 "'In corso', 31 - 'Fatto'."
 
-#: ../cmk/gui/page_menu.py:339
+#: ../cmk/gui/page_menu.py:338
 msgid "The official Checkmk user guide"
 msgstr "La guida utente ufficiale di Checkmk"
 
@@ -68410,7 +68427,7 @@ msgstr ""
 "vacanze, quindi solo gli appuntamenti di un giorno intero sono gestiti da "
 "questa importazione."
 
-#: ../cmk/gui/page_menu.py:331
+#: ../cmk/gui/page_menu.py:330
 msgid "This page does not provide an inline help."
 msgstr "Questa pagina non fornisce un aiuto in linea."
 
@@ -68422,11 +68439,11 @@ msgstr "Questa pagina non supporta gli host cluster."
 msgid "This page was not found. Sorry."
 msgstr "Questa pagina non è stata trovata. Mi dispiace."
 
-#: ../cmk/gui/page_menu.py:296
+#: ../cmk/gui/page_menu.py:295
 msgid "This page with navigation"
 msgstr "Questa pagina con navigazione"
 
-#: ../cmk/gui/page_menu.py:288
+#: ../cmk/gui/page_menu.py:287
 msgid "This page without navigation"
 msgstr "Questa pagina senza navigazione"
 
@@ -70710,7 +70727,7 @@ msgid "This variable is configured in <a href=\"%s\">global settings</a>."
 msgstr ""
 "Questa variabile è configurata in <a href=\"%s\">impostazioni globali</a>."
 
-#: ../cmk/gui/views.py:904 ../cmk/gui/plugins/views/availability.py:488
+#: ../cmk/gui/views.py:906 ../cmk/gui/plugins/views/availability.py:488
 msgid "This view as PDF"
 msgstr "Questa vista come PDF"
 
@@ -71721,7 +71738,7 @@ msgstr "Nomi a ginocchiera"
 msgid "Toggle result details"
 msgstr "Allinea i dettagli del risultato"
 
-#: ../cmk/gui/page_menu.py:235
+#: ../cmk/gui/page_menu.py:234
 msgid "Toggle suggested actions"
 msgstr "Allinea le azioni suggerite"
 
@@ -73354,7 +73371,7 @@ msgstr ""
 "scheduler del report, al report o all'elemento del report o chiamare la "
 "creazione del report con le variabili HTTP mancanti."
 
-#: ../cmk/gui/views.py:696
+#: ../cmk/gui/views.py:698
 #, python-format
 msgid ""
 "Unable to render this view, because we miss some required context "
@@ -76671,7 +76688,7 @@ msgstr ""
 msgid "View changes"
 msgstr "Visualizza i cambiamenti"
 
-#: ../cmk/gui/views.py:918
+#: ../cmk/gui/views.py:920
 msgid "View layout"
 msgstr "Visualizza il layout"
 
@@ -76679,7 +76696,7 @@ msgstr "Visualizza il layout"
 msgid "View name"
 msgstr "Visualizza il nome"
 
-#: ../cmk/gui/page_menu.py:601
+#: ../cmk/gui/page_menu.py:600
 msgid "View pending changes"
 msgstr "Visualizza le modifiche in sospeso"
 
@@ -85019,11 +85036,11 @@ msgstr "riutilizza"
 msgid "right"
 msgstr "a destra"
 
-#: ../cmk/gui/views.py:714
+#: ../cmk/gui/views.py:716
 msgid "row"
 msgstr "riga"
 
-#: ../cmk/gui/views.py:714
+#: ../cmk/gui/views.py:716
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:532
 msgid "rows"
 msgstr "righe"
