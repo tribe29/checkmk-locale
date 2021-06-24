@@ -147,12 +147,12 @@ msgid ""
 "paragraph."
 msgstr " テキストは自動的に折り返されます。 空の行は新しい段落を開始します。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:732 ../cmk/gui/wato/pages/rulesets.py:1091
+#: ../cmk/gui/wato/pages/rulesets.py:729 ../cmk/gui/wato/pages/rulesets.py:1088
 #, python-format
 msgid " and %s '%s'"
 msgstr " および%s '%s'"
 
-#: ../cmk/gui/wato/pages/rulesets.py:987
+#: ../cmk/gui/wato/pages/rulesets.py:984
 #, python-format
 msgid " and the %s '%s'."
 msgstr " および %s '%s'"
@@ -162,7 +162,7 @@ msgstr " および %s '%s'"
 msgid " for a period of %s"
 msgstr " %s の期間"
 
-#: ../cmk/gui/wato/pages/rulesets.py:730
+#: ../cmk/gui/wato/pages/rulesets.py:727
 #, python-format
 msgid " for host %s"
 msgstr " ホスト %s　のため"
@@ -199,8 +199,8 @@ msgstr " の"
 msgid " of the following %d Event Console %s"
 msgstr " 次の %d イベントコンソール %s の"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2186
-#: ../cmk/gui/wato/pages/rulesets.py:2246
+#: ../cmk/gui/wato/pages/rulesets.py:2183
+#: ../cmk/gui/wato/pages/rulesets.py:2243
 #: ../cmk/gui/cee/plugins/reporting/utils.py:395
 msgid " or "
 msgstr " または "
@@ -574,7 +574,7 @@ msgstr ""
 msgid "%d open incompatible werks"
 msgstr "%d互換性のないwerksを開く"
 
-#: ../cmk/gui/wato/pages/rulesets.py:891 ../cmk/gui/wato/pages/services.py:503
+#: ../cmk/gui/wato/pages/rulesets.py:888 ../cmk/gui/wato/pages/services.py:503
 #: ../cmk/gui/table.py:397
 #, python-format
 msgid "%d rows"
@@ -784,7 +784,7 @@ msgstr "%sレイテンシ"
 msgid "%s latency %s"
 msgstr "%sレイテンシ%s"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2085
+#: ../cmk/gui/wato/pages/rulesets.py:2082
 #, python-format
 msgid "%s matching labels: %s"
 msgstr "%s 一致するラベル: %s"
@@ -1143,7 +1143,7 @@ msgstr "(未使用)"
 msgid ", but it is overruled by a match in a previous rule pack."
 msgstr "、ただし、以前のルールパックの一致によって無効にされます。"
 
-#: ../cmk/gui/plugins/views/utils.py:1583
+#: ../cmk/gui/plugins/views/utils.py:1584
 #, python-format
 msgid ", elapsed cache lifespan: %s"
 msgstr ",経過キャッシュ寿命: %s"
@@ -1252,7 +1252,7 @@ msgstr "1ホスト"
 msgid "1 change"
 msgstr "1つの変更"
 
-#: ../cmk/gui/wato/pages/rulesets.py:891 ../cmk/gui/wato/pages/services.py:503
+#: ../cmk/gui/wato/pages/rulesets.py:888 ../cmk/gui/wato/pages/services.py:503
 #: ../cmk/gui/table.py:397
 msgid "1 row"
 msgstr "1行"
@@ -1545,11 +1545,11 @@ msgstr "<b>年末までの%s </b>"
 msgid "<b>%s until sunday night</b>"
 msgstr "<b>日曜日の夜まで%s </b>"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1938
+#: ../cmk/gui/wato/pages/rulesets.py:1935
 msgid "<b>Negate:</b> make rule apply for <b>all but</b> the above entries"
 msgstr "<b>否定:</b>上記のエントリを除くすべてのエントリにルールを適用する</b>"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1928
+#: ../cmk/gui/wato/pages/rulesets.py:1925
 msgid "<b>Negate:</b> make rule apply for <b>all but</b> the above hosts"
 msgstr "<b>否定:</b>上記のホストを除く<b>すべて</b>にルールを適用する"
 
@@ -2448,11 +2448,11 @@ msgstr ""
 msgid "A large clock showing the current time of the web server"
 msgstr "Webサーバーの現在の時刻を示す大きな時計"
 
-#: ../cmk/gui/plugins/views/inventory.py:1362
+#: ../cmk/gui/plugins/views/inventory.py:1407
 msgid "A list of all hosts with some CPU related inventory data"
 msgstr "CPU関連のインベントリデータを含むすべてのホストのリスト"
 
-#: ../cmk/gui/plugins/views/inventory.py:1410
+#: ../cmk/gui/plugins/views/inventory.py:1455
 msgid ""
 "A list of all hosts with statistics about total, used and free networking "
 "interfaces"
@@ -2721,12 +2721,12 @@ msgstr "IDが\"%s\"のユーザーは存在しません。"
 msgid "A value in seconds"
 msgstr "秒単位の値"
 
-#: ../cmk/gui/plugins/views/inventory.py:1086
+#: ../cmk/gui/plugins/views/inventory.py:1131
 #, python-format
 msgid "A view for searching in the inventory data for %s"
 msgstr "インベントリデータで %sを検索するためのビュー"
 
-#: ../cmk/gui/plugins/views/inventory.py:1115
+#: ../cmk/gui/plugins/views/inventory.py:1160
 #, python-format
 msgid "A view for the %s of one host"
 msgstr "1つのホストの%sのビュー"
@@ -3495,7 +3495,7 @@ msgstr "エラー時のアクション"
 #: ../cmk/gui/wato/pages/icons.py:152 ../cmk/gui/wato/pages/timeperiods.py:305
 #: ../cmk/gui/wato/pages/bulk_import.py:103
 #: ../cmk/gui/wato/pages/bulk_import.py:106
-#: ../cmk/gui/wato/pages/rulesets.py:922 ../cmk/gui/wato/pages/services.py:1302
+#: ../cmk/gui/wato/pages/rulesets.py:919 ../cmk/gui/wato/pages/services.py:1302
 #: ../cmk/gui/wato/pages/notifications.py:248
 #: ../cmk/gui/wato/pages/analyze_configuration.py:162
 #: ../cmk/gui/wato/pages/roles.py:204 ../cmk/gui/wato/mkeventd.py:459
@@ -5855,7 +5855,7 @@ msgstr "サイトのすべてのホスト"
 msgid "All log files"
 msgstr "すべてのログファイル"
 
-#: ../cmk/gui/wato/pages/rulesets.py:854
+#: ../cmk/gui/wato/pages/rulesets.py:851
 msgid "All matching rules will add to the resulting list."
 msgstr "一致するすべてのルールが結果のリストに追加されます。"
 
@@ -6258,7 +6258,7 @@ msgstr "また、期間外のバルク"
 msgid "Also contact Checkmk agent"
 msgstr "Checkmkエージェントにも連絡してください"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1315
+#: ../cmk/gui/wato/pages/rulesets.py:1312
 msgid "Also search in subfolders"
 msgstr "サブフォルダも検索"
 
@@ -7331,7 +7331,7 @@ msgstr "ホストから削除する属性"
 #: ../cmk/gui/wato/pages/activate_changes.py:115
 #: ../cmk/gui/wato/pages/folders.py:412 ../cmk/gui/wato/pages/audit_log.py:80
 #: ../cmk/gui/wato/pages/audit_log.py:87 ../cmk/gui/wato/pages/users.py:612
-#: ../cmk/gui/wato/pages/rulesets.py:1454
+#: ../cmk/gui/wato/pages/rulesets.py:1451
 #: ../cmk/gui/wato/pages/services.py:1376
 #: ../cmk/gui/plugins/wato/builtin_modules.py:893
 msgid "Audit log"
@@ -8324,12 +8324,12 @@ msgstr "バックグラウンドジョブの概要"
 msgid "Background shading for rows"
 msgstr "行のバックグラウンドシェーディング"
 
-#: ../cmk/gui/plugins/views/inventory.py:1183
+#: ../cmk/gui/plugins/views/inventory.py:1228
 msgid "Backplane"
 msgstr "バックプレーン"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:188
-#: ../cmk/gui/plugins/views/inventory.py:1184
+#: ../cmk/gui/plugins/views/inventory.py:1229
 msgid "Backplanes"
 msgstr "バックプレーン"
 
@@ -9876,7 +9876,7 @@ msgstr "CPUアイドル時間"
 msgid "CPU in percent"
 msgstr "CPU(パーセント)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1361
+#: ../cmk/gui/plugins/views/inventory.py:1406
 msgid "CPU inventory of all hosts"
 msgstr ""
 
@@ -10200,7 +10200,7 @@ msgstr "キャッシュサイズ"
 msgid "Cache age for background checks"
 msgstr "バックグラウンドチェックのキャッシュ経過時間"
 
-#: ../cmk/gui/plugins/views/utils.py:1578
+#: ../cmk/gui/plugins/views/utils.py:1579
 #, python-format
 msgid "Cache generated %s ago, cache interval: %s"
 msgstr "%s前に生成されたキャッシュ、キャッシュ間隔: %s"
@@ -10408,7 +10408,7 @@ msgstr "サイト %s がまだ割り当てられているため、この顧客�
 msgid "Cannot display graph"
 msgstr "グラフを表示できません"
 
-#: ../cmk/gui/plugins/views/inventory.py:85
+#: ../cmk/gui/plugins/views/inventory.py:91
 #, python-format
 msgid ""
 "Cannot display inventory tree of host '%s': Found this host on multiple "
@@ -10491,8 +10491,8 @@ msgstr "%s を %sから読み込めません: %s"
 msgid "Cannot load %s: %s"
 msgstr "読み込めません %s: %s"
 
-#: ../cmk/gui/plugins/views/inventory.py:1469
-#: ../cmk/gui/plugins/views/inventory.py:1986
+#: ../cmk/gui/plugins/views/inventory.py:1514
+#: ../cmk/gui/plugins/views/inventory.py:2035
 #, python-format
 msgid ""
 "Cannot load HW/SW inventory history entries %s. Please remove the corrupted "
@@ -10501,9 +10501,9 @@ msgstr ""
 "HW/SWインベントリ履歴エントリ %s を読み込めません。破損したファイルを削除して"
 "ください。"
 
-#: ../cmk/gui/plugins/views/inventory.py:872
-#: ../cmk/gui/plugins/views/inventory.py:951
-#: ../cmk/gui/plugins/views/inventory.py:2004
+#: ../cmk/gui/plugins/views/inventory.py:896
+#: ../cmk/gui/plugins/views/inventory.py:984
+#: ../cmk/gui/plugins/views/inventory.py:2053
 #, python-format
 msgid "Cannot load HW/SW inventory tree %s. Please remove the corrupted file."
 msgstr ""
@@ -10842,6 +10842,7 @@ msgstr ""
 "Checkmkインストールのデフォルトのユーザーインターフェイステーマを変更します"
 
 #: ../cmk/gui/wato/pages/services.py:566
+#: ../cmk/gui/plugins/views/inventory.py:1657
 msgid "Changed"
 msgstr ""
 
@@ -10865,6 +10866,12 @@ msgstr "LDAP接続 %s を変更しました"
 #, python-format
 msgid "Changed alert handler rule %d"
 msgstr "アラートハンドラルール%dを変更しました"
+
+#: ../cmk/gui/plugins/views/inventory.py:1654
+#, fuzzy
+#| msgid "changed entries"
+msgid "Changed entries"
+msgstr "変更されたエントリ"
 
 #: ../cmk/gui/wato/pages/global_settings.py:294
 #, python-format
@@ -10932,7 +10939,7 @@ msgstr "カスタマーのプロパティを変更しました"
 msgid "Changed properties of installed extension package %s"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:1524
+#: ../cmk/gui/wato/pages/rulesets.py:1521
 #, python-format
 msgid ""
 "Changed properties of rule \"%s\", moved rule from folder \"%s\" to \"%s\""
@@ -10940,7 +10947,7 @@ msgstr ""
 "ルール \"%s\"のプロパティを変更し、ルールをフォルダ \"%s\"から \"%s\"に移動し"
 "ました"
 
-#: ../cmk/gui/watolib/rulesets.py:641
+#: ../cmk/gui/watolib/rulesets.py:660
 #, python-format
 msgid "Changed properties of rule #%d in ruleset \"%s\" in folder \"%s\""
 msgstr ""
@@ -10962,7 +10969,7 @@ msgid "Changes since last dump"
 msgstr ""
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:889
-#: ../cmk/gui/plugins/views/inventory.py:1279
+#: ../cmk/gui/plugins/views/inventory.py:1324
 msgid "Channel"
 msgstr "チャネル"
 
@@ -10996,8 +11003,8 @@ msgstr "キャラクター"
 #: ../cmk/gui/plugins/wato/check_parameters/ucs_bladecenter_chassis_voltage.py:75
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:33
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:166
-#: ../cmk/gui/plugins/views/inventory.py:1177
-#: ../cmk/gui/plugins/views/inventory.py:1178
+#: ../cmk/gui/plugins/views/inventory.py:1222
+#: ../cmk/gui/plugins/views/inventory.py:1223
 msgid "Chassis"
 msgstr "シャーシ"
 
@@ -11367,7 +11374,7 @@ msgstr "サービスのタイムアウトを確認する(Micro core)"
 msgid "Check type"
 msgstr "タイプを確認してください"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1831
+#: ../cmk/gui/wato/pages/rulesets.py:1828
 msgid "Check types"
 msgstr "タイプを確認する"
 
@@ -11611,7 +11618,7 @@ msgstr ""
 msgid "Checkmk helper usage"
 msgstr "Checkmkヘルパーの使用法"
 
-#: ../cmk/gui/plugins/views/inventory.py:1189
+#: ../cmk/gui/plugins/views/inventory.py:1234
 msgid "Checkmk site"
 msgstr "Checkmkサイト"
 
@@ -11623,7 +11630,7 @@ msgstr "Checkmkサイトオブジェクト"
 msgid "Checkmk site performance and settings"
 msgstr "Checkmkサイトのパフォーマンスと設定"
 
-#: ../cmk/gui/plugins/views/inventory.py:1190
+#: ../cmk/gui/plugins/views/inventory.py:1235
 msgid "Checkmk sites"
 msgstr "Checkmkサイト"
 
@@ -11631,11 +11638,11 @@ msgstr "Checkmkサイト"
 msgid "Checkmk specific"
 msgstr "Checkmk固有"
 
-#: ../cmk/gui/plugins/views/inventory.py:1195
+#: ../cmk/gui/plugins/views/inventory.py:1240
 msgid "Checkmk version"
 msgstr "Checkmkバージョン"
 
-#: ../cmk/gui/plugins/views/inventory.py:1196
+#: ../cmk/gui/plugins/views/inventory.py:1241
 msgid "Checkmk versions"
 msgstr "Checkmkバージョン"
 
@@ -12301,7 +12308,7 @@ msgstr "このスケジュールエントリのクローンを作成します"
 msgid "Clone topic"
 msgstr "クローントピック"
 
-#: ../cmk/gui/watolib/rulesets.py:483
+#: ../cmk/gui/watolib/rulesets.py:502
 #, python-format
 msgid "Cloned rule from rule %s in ruleset \"%s\" in folder \"%s\""
 msgstr "複製されたルール %s ルールセット内 \"%s\" フォルダ内 \"%s\""
@@ -12674,7 +12681,7 @@ msgstr "ホストとサービスのコマンド"
 
 #: ../cmk/gui/wato/pages/activate_changes.py:552
 #: ../cmk/gui/wato/pages/pattern_editor.py:273
-#: ../cmk/gui/wato/pages/rulesets.py:1266
+#: ../cmk/gui/wato/pages/rulesets.py:1263
 #: ../cmk/gui/watolib/activate_changes.py:816
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:496
 #: ../cmk/gui/valuespec.py:6350 ../cmk/gui/plugins/wato/bi_config.py:901
@@ -12959,14 +12966,14 @@ msgstr "表示されたデータに応じて範囲を計算します"
 msgid "Computing differences"
 msgstr "計算の違い"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1645
-#: ../cmk/gui/wato/pages/rulesets.py:1653
+#: ../cmk/gui/wato/pages/rulesets.py:1642
+#: ../cmk/gui/wato/pages/rulesets.py:1650
 msgid "Condition type"
 msgstr "条件タイプ"
 
 #: ../cmk/gui/wato/pages/predefined_conditions.py:137
-#: ../cmk/gui/wato/pages/rulesets.py:1034
-#: ../cmk/gui/wato/pages/rulesets.py:1641
+#: ../cmk/gui/wato/pages/rulesets.py:1031
+#: ../cmk/gui/wato/pages/rulesets.py:1638
 #: ../cmk/gui/wato/pages/notifications.py:305
 #: ../cmk/gui/wato/pages/notifications.py:1262
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/misc.py:1211
@@ -13352,7 +13359,7 @@ msgid ""
 msgstr ""
 
 #: ../cmk/gui/wato/pages/host_rename.py:352
-#: ../cmk/gui/plugins/views/utils.py:504 ../cmk/gui/notifications.py:186
+#: ../cmk/gui/plugins/views/utils.py:505 ../cmk/gui/notifications.py:186
 msgid "Confirm"
 msgstr "確認"
 
@@ -13910,7 +13917,7 @@ msgstr "コンテキスト情報"
 msgid "Context information about this connection"
 msgstr "この接続に関するコンテキスト情報"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1057
+#: ../cmk/gui/wato/pages/rulesets.py:1054
 #: ../cmk/gui/wato/pages/notifications.py:290 ../cmk/gui/wato/mkeventd.py:1978
 #: ../cmk/gui/bi.py:553 ../cmk/gui/cee/plugins/wato/alert_handling.py:260
 msgid "Context information about this rule"
@@ -14032,7 +14039,7 @@ msgstr "既存のビューをコピーする"
 msgid "Copy of existing view"
 msgstr "既存のビューのコピー"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2279
+#: ../cmk/gui/wato/pages/rulesets.py:2276
 #, python-format
 msgid "Copy rule: %s"
 msgstr "コピールール: %s"
@@ -14431,7 +14438,7 @@ msgstr "作成する"
 msgid "Create %s"
 msgstr "%sを作成"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1096
+#: ../cmk/gui/wato/pages/rulesets.py:1093
 #, python-format
 msgid "Create %s specific rule for: "
 msgstr "次の %s 固有のルールを作成します: "
@@ -14480,7 +14487,7 @@ msgstr "このグループのコピーを作成します"
 msgid "Create a copy of this notification rule"
 msgstr "この通知ルールのコピーを作成します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:945 ../cmk/gui/wato/mkeventd.py:1876
+#: ../cmk/gui/wato/pages/rulesets.py:942 ../cmk/gui/wato/mkeventd.py:1876
 #: ../cmk/gui/plugins/wato/bi_config.py:836
 msgid "Create a copy of this rule"
 msgstr "このルールのコピーを作成する"
@@ -14676,7 +14683,7 @@ msgstr ""
 msgid "Create regular time-schedule for this report"
 msgstr "このレポートの定期的なタイムスケジュールを作成します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1108
+#: ../cmk/gui/wato/pages/rulesets.py:1105
 msgid "Create rule in folder: "
 msgstr ""
 
@@ -14814,12 +14821,12 @@ msgstr "ユーザー %sの新しい通知ルールを作成しました"
 msgid "Created new role '%s'"
 msgstr "新しい役割 '%s'を作成しました"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2357
+#: ../cmk/gui/wato/pages/rulesets.py:2354
 #, python-format
 msgid "Created new rule #%d in ruleset \"%s\" in folder \"%s\""
 msgstr "新しいルールを作成 #%d ルールセット内 \"%s\" フォルダー内 \"%s\""
 
-#: ../cmk/gui/wato/pages/rulesets.py:2364
+#: ../cmk/gui/wato/pages/rulesets.py:2361
 #, python-format
 msgid "Created new rule in ruleset \"%s\" in folder \"%s\""
 msgstr "新しいルールを作成、ルールセット内 \"%s\"、 \"%s\"フォルダ内"
@@ -17419,7 +17426,7 @@ msgid "Date range"
 msgstr "日付範囲"
 
 #: ../cmk/gui/wato/pages/notifications.py:692
-#: ../cmk/gui/plugins/views/inventory.py:1524
+#: ../cmk/gui/plugins/views/inventory.py:1569
 msgid "Date/Time"
 msgstr "日付/時刻"
 
@@ -17552,7 +17559,7 @@ msgstr ""
 msgid "Deduplication shared capacity"
 msgstr "重複排除の共有容量"
 
-#: ../cmk/gui/plugins/views/inventory.py:515
+#: ../cmk/gui/plugins/views/inventory.py:537
 msgid "Default"
 msgstr "デフォルト"
 
@@ -17990,7 +17997,7 @@ msgstr "処理されたメッセージを削除する"
 msgid "Delete report schedule entry '%s'?"
 msgstr "レポートスケジュールエントリ '%s'を削除しますか？"
 
-#: ../cmk/gui/wato/pages/rulesets.py:952
+#: ../cmk/gui/wato/pages/rulesets.py:949
 #, python-format
 msgid "Delete rule #%d (ID: %s) of folder '%s'?"
 msgstr "フォルダ%sのルール#%d(ID: %s)を削除しますか?"
@@ -18121,7 +18128,7 @@ msgstr "この役割を削除する"
 msgid "Delete this row"
 msgstr "この行を削除します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:955 ../cmk/gui/wato/mkeventd.py:1878
+#: ../cmk/gui/wato/pages/rulesets.py:952 ../cmk/gui/wato/mkeventd.py:1878
 #: ../cmk/gui/plugins/wato/bi_config.py:859
 msgid "Delete this rule"
 msgstr "このルールを削除する"
@@ -18238,7 +18245,7 @@ msgstr "ユーザー%sの通知ルール%dを削除しました"
 msgid "Deleted role '%s'"
 msgstr "削除された役割 '%s'"
 
-#: ../cmk/gui/watolib/rulesets.py:657
+#: ../cmk/gui/watolib/rulesets.py:676
 #, python-format
 msgid "Deleted rule #%d in ruleset \"%s\" in folder \"%s\""
 msgstr "フォルダ[%s]のルールセット[%s]のルール＃%dを削除しました"
@@ -18683,7 +18690,7 @@ msgstr ""
 msgid "Deployments"
 msgstr "展開"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1246
+#: ../cmk/gui/wato/pages/rulesets.py:1243
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_docker_container_piggybacked.py:23
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/websphere_mq.py:19
 msgid "Deprecated"
@@ -18721,8 +18728,8 @@ msgid "Descending"
 msgstr "降順"
 
 #: ../cmk/gui/wato/pages/ldap.py:189 ../cmk/gui/wato/pages/check_catalog.py:506
-#: ../cmk/gui/wato/pages/rulesets.py:1054
-#: ../cmk/gui/wato/pages/rulesets.py:1261
+#: ../cmk/gui/wato/pages/rulesets.py:1051
+#: ../cmk/gui/wato/pages/rulesets.py:1258
 #: ../cmk/gui/wato/pages/notifications.py:286 ../cmk/gui/wato/mkeventd.py:1974
 #: ../cmk/gui/wato/mkeventd.py:3821 ../cmk/gui/key_mgmt.py:191
 #: ../cmk/gui/crash_reporting.py:585 ../cmk/gui/werks.py:307
@@ -18833,7 +18840,7 @@ msgstr "宛先アドレス"
 msgid "Destination email address"
 msgstr "宛先電子メールアドレス"
 
-#: ../cmk/gui/wato/pages/rulesets.py:334
+#: ../cmk/gui/wato/pages/rulesets.py:331
 msgid "Detailed search"
 msgstr "詳細検索"
 
@@ -19307,7 +19314,7 @@ msgstr "未決定のサービスを無効にする"
 msgid "Disable vanished services"
 msgstr "消失したサービスを無効にする"
 
-#: ../cmk/gui/backup.py:515 ../cmk/gui/wato/pages/rulesets.py:1288
+#: ../cmk/gui/backup.py:515 ../cmk/gui/wato/pages/rulesets.py:1285
 #: ../cmk/gui/watolib/users.py:277 ../cmk/gui/plugins/wato/bi_config.py:1605
 #: ../cmk/gui/plugins/wato/check_parameters/hp_hh3c_ext_states.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:58
@@ -20795,13 +20802,13 @@ msgid "Docker Disk Usage Count"
 msgstr "Dockerディスク使用数"
 
 #: ../cmk/gui/plugins/views/builtin.py:4300
-#: ../cmk/gui/plugins/views/inventory.py:1158
-#: ../cmk/gui/plugins/views/inventory.py:1159
+#: ../cmk/gui/plugins/views/inventory.py:1203
+#: ../cmk/gui/plugins/views/inventory.py:1204
 msgid "Docker containers"
 msgstr "Dockerコンテナ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1152
-#: ../cmk/gui/plugins/views/inventory.py:1153
+#: ../cmk/gui/plugins/views/inventory.py:1197
+#: ../cmk/gui/plugins/views/inventory.py:1198
 msgid "Docker images"
 msgstr "Dockerイメージ"
 
@@ -20868,7 +20875,7 @@ msgstr "ドキュメントの断片化"
 msgid "Does not ends with \"%s\"."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:2208
+#: ../cmk/gui/wato/pages/rulesets.py:2205
 msgid "Does not match any service"
 msgstr "どのサービスとも一致しません"
 
@@ -21495,7 +21502,7 @@ msgstr ""
 "用し、一致の最初の正規表現一致グループに<tt>\\1</tt>、2番目に<tt>\\2</tt>とい"
 "うように使用できます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:850
+#: ../cmk/gui/wato/pages/rulesets.py:847
 msgid ""
 "Each parameter is defined by the first matching rule where that parameter is "
 "set (checked)."
@@ -21773,7 +21780,7 @@ msgstr "ルール %s を編集します"
 msgid "Edit rule pack %s"
 msgstr "ルールパック %sを編集する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1409
+#: ../cmk/gui/wato/pages/rulesets.py:1406
 #, python-format
 msgid "Edit rule: %s"
 msgstr "ルールの編集:%s"
@@ -21883,7 +21890,7 @@ msgid "Edit this report"
 msgstr "このレポートを編集する"
 
 #: ../cmk/gui/wato/pages/pattern_editor.py:286
-#: ../cmk/gui/wato/pages/rulesets.py:933 ../cmk/gui/wato/mkeventd.py:1875
+#: ../cmk/gui/wato/pages/rulesets.py:930 ../cmk/gui/wato/mkeventd.py:1875
 #: ../cmk/gui/plugins/wato/bi_config.py:832
 msgid "Edit this rule"
 msgstr "このルールを編集する"
@@ -21943,7 +21950,7 @@ msgstr "編集されたホストタググループ%s(%s)"
 msgid "Edited properties of folder %s"
 msgstr "フォルダ%sの編集されたプロパティ"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1583
+#: ../cmk/gui/wato/pages/rulesets.py:1580
 #, python-format
 msgid "Edited rule in ruleset \"%s\" in folder \"%s\""
 msgstr "ルールセット内 \"%s\" フォルダー内 \"%s\"で編集されたルール"
@@ -23870,7 +23877,7 @@ msgstr "IPアドレスの明示的なリスト"
 msgid "Explicit Queue Names"
 msgstr "明示的なキュー名"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1658
+#: ../cmk/gui/wato/pages/rulesets.py:1655
 msgid "Explicit conditions"
 msgstr "明示的な条件"
 
@@ -23878,8 +23885,8 @@ msgstr "明示的な条件"
 msgid "Explicit email addresses"
 msgstr "明示的なメールアドレス"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1757
-#: ../cmk/gui/wato/pages/rulesets.py:1913
+#: ../cmk/gui/wato/pages/rulesets.py:1754
+#: ../cmk/gui/wato/pages/rulesets.py:1910
 msgid "Explicit hosts"
 msgstr "明示的なホスト"
 
@@ -23975,7 +23982,7 @@ msgid ""
 "Export file to create, containing <tt>&lt;HOST&gt;</tt> for the hostname"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:1447
+#: ../cmk/gui/wato/pages/rulesets.py:1444
 msgid "Export for API"
 msgstr "API用にエクスポート"
 
@@ -24371,7 +24378,7 @@ msgstr "パフォーマンスデータ文字列の解析に失敗しました: %
 msgid "Failed to parse state file \"%s\": %s"
 msgstr ""
 
-#: ../cmk/gui/watolib/rulesets.py:750
+#: ../cmk/gui/watolib/rulesets.py:770
 #, python-format
 msgid ""
 "Failed to process rule #%d of ruleset \"%s\" in folder \"%s\". The value of "
@@ -24408,7 +24415,7 @@ msgstr "値のレンダリングに失敗しました:"
 msgid "Failed to render value: %r"
 msgstr "値のレンダリングに失敗しました: %r"
 
-#: ../cmk/gui/watolib/rulesets.py:1004
+#: ../cmk/gui/watolib/rulesets.py:1024
 #, python-format
 msgid "Failed to search rule of ruleset '%s' in folder '%s' (%r): %s"
 msgstr "ルールセット '%s' ルの検索に失敗しましたフォルダ内 '%s' (%r): %s"
@@ -24564,7 +24571,7 @@ msgstr ""
 msgid "Falling"
 msgstr "落下"
 
-#: ../cmk/gui/plugins/views/inventory.py:1213
+#: ../cmk/gui/plugins/views/inventory.py:1258
 msgid "Fan"
 msgstr "ファン"
 
@@ -24584,7 +24591,7 @@ msgid "Fan speed of hardware devices (in percent)"
 msgstr "ハードウェアデバイスのファン速度(パーセント)"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:254
-#: ../cmk/gui/plugins/views/inventory.py:1214
+#: ../cmk/gui/plugins/views/inventory.py:1259
 msgid "Fans"
 msgstr "ファン"
 
@@ -25319,9 +25326,9 @@ msgstr "フォルダツリー"
 #: ../cmk/gui/wato/pages/predefined_conditions.py:142
 #: ../cmk/gui/wato/pages/folders.py:128 ../cmk/gui/wato/pages/folders.py:131
 #: ../cmk/gui/wato/pages/folders.py:894 ../cmk/gui/wato/pages/folders.py:1104
-#: ../cmk/gui/wato/pages/rulesets.py:1305
-#: ../cmk/gui/wato/pages/rulesets.py:1754
-#: ../cmk/gui/wato/pages/rulesets.py:1884
+#: ../cmk/gui/wato/pages/rulesets.py:1302
+#: ../cmk/gui/wato/pages/rulesets.py:1751
+#: ../cmk/gui/wato/pages/rulesets.py:1881
 #: ../cmk/gui/wato/pages/notifications.py:327
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2222
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2315
@@ -25953,7 +25960,7 @@ msgid ""
 "Found no group object for synchronization. Please check your filter settings."
 msgstr ""
 
-#: ../cmk/gui/inventory.py:447
+#: ../cmk/gui/inventory.py:456
 msgid "Found no inventory data for this host."
 msgstr "このホストのインベントリデータが見つかりませんでした。"
 
@@ -26215,7 +26222,7 @@ msgstr "完全な統計"
 msgid "Fullfilled Prerequisite"
 msgstr "満たされた前提条件"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1194
+#: ../cmk/gui/wato/pages/rulesets.py:1191
 msgid "Fulltext search"
 msgstr "フルテキスト検索"
 
@@ -26273,7 +26280,7 @@ msgstr "文字化けした自動化応答: <pre>%s</pre>"
 msgid "Gateway"
 msgstr "ゲートウェイ"
 
-#: ../cmk/gui/plugins/views/inventory.py:532
+#: ../cmk/gui/plugins/views/inventory.py:554
 msgid "Gateway route"
 msgstr "ゲートウェイルート"
 
@@ -26777,7 +26784,7 @@ msgstr ""
 "---\n"
 "\n"
 
-#: ../cmk/gui/wato/pages/groups.py:253 ../cmk/gui/wato/pages/rulesets.py:1334
+#: ../cmk/gui/wato/pages/groups.py:253 ../cmk/gui/wato/pages/rulesets.py:1331
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:981
 #: ../cmk/gui/plugins/views/bi.py:363
 #: ../cmk/gui/plugins/views/availability.py:1361
@@ -27104,11 +27111,11 @@ msgid ""
 "(such as passwords for plugins)."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1201
+#: ../cmk/gui/plugins/views/inventory.py:1246
 msgid "HW container"
 msgstr "HWコンテナ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1202
+#: ../cmk/gui/plugins/views/inventory.py:1247
 msgid "HW containers"
 msgstr "HWコンテナ"
 
@@ -27271,7 +27278,7 @@ msgstr "ハードドライブの修正不可能なエラー"
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: ../cmk/gui/plugins/views/inventory.py:313
+#: ../cmk/gui/plugins/views/inventory.py:326
 msgid "Hardware & Software Tree"
 msgstr "ハードウェアとソフトウェアツリー"
 
@@ -27400,7 +27407,7 @@ msgstr "ハートビートツールがないか、インストールされてい
 msgid "Height"
 msgstr "高さ"
 
-#: ../cmk/gui/wato/pages/tags.py:449 ../cmk/gui/wato/pages/rulesets.py:1240
+#: ../cmk/gui/wato/pages/tags.py:449 ../cmk/gui/wato/pages/rulesets.py:1237
 #: ../cmk/gui/page_menu.py:318
 msgid "Help"
 msgstr "ヘルプ"
@@ -27799,7 +27806,7 @@ msgstr ""
 "ここでは、Symantec Anti Virusの検疫キュー、タスク、および更新を監視するための"
 "プラグインを展開できます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1919
+#: ../cmk/gui/wato/pages/rulesets.py:1916
 msgid ""
 "Here you can enter a list of explicit host names that the rule should or "
 "should not apply to. Leave this option disabled if you want the rule to "
@@ -27878,7 +27885,7 @@ msgstr ""
 "CheckmkサイトへのHTTPS接続を確認するためにエージェントアップデーターによって"
 "使用されます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:305
+#: ../cmk/gui/wato/pages/rulesets.py:302
 msgid ""
 "Here you can see a list of all deprecated rulesets (which are not used by "
 "Check_MK anymore). If you have defined some rules here, you might have to "
@@ -28460,8 +28467,8 @@ msgstr "水平方向の間隔"
 #: ../cmk/gui/wato/pages/hosts.py:64 ../cmk/gui/wato/pages/hosts.py:69
 #: ../cmk/gui/wato/pages/host_rename.py:397
 #: ../cmk/gui/wato/pages/host_rename.py:401
-#: ../cmk/gui/wato/pages/rulesets.py:1088
-#: ../cmk/gui/wato/pages/rulesets.py:2073
+#: ../cmk/gui/wato/pages/rulesets.py:1085
+#: ../cmk/gui/wato/pages/rulesets.py:2070
 #: ../cmk/gui/wato/pages/services.py:1320
 #: ../cmk/gui/wato/pages/notifications.py:328
 #: ../cmk/gui/wato/pages/notifications.py:718 ../cmk/gui/availability.py:1557
@@ -28485,7 +28492,7 @@ msgstr "水平方向の間隔"
 msgid "Host"
 msgstr "ホスト"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1087
+#: ../cmk/gui/wato/pages/rulesets.py:1084
 #, python-format
 msgid "Host %s"
 msgstr "ホスト %s"
@@ -28780,7 +28787,7 @@ msgstr "ホストカスタムフィールドID"
 msgid "Host customer"
 msgstr "ホスト顧客"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2064
+#: ../cmk/gui/wato/pages/rulesets.py:2061
 #, python-format
 msgid "Host does not have tag <b>%s</b>"
 msgstr "ホストにタグ<b>%s</b>がありません"
@@ -28835,7 +28842,7 @@ msgstr "ホストがメンバーであるホストグループ"
 msgid "Host has software package"
 msgstr "ホストにはソフトウェアパッケージがあります"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2065
+#: ../cmk/gui/wato/pages/rulesets.py:2062
 #, python-format
 msgid "Host has tag <b>%s</b>"
 msgstr "ホストにはタグ<b>%s</b>があります"
@@ -28909,8 +28916,8 @@ msgstr "ホストが古くなっています"
 msgid "Host label"
 msgstr "ホストラベル"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1756
-#: ../cmk/gui/wato/pages/rulesets.py:1892 ../cmk/gui/wato/pages/services.py:589
+#: ../cmk/gui/wato/pages/rulesets.py:1753
+#: ../cmk/gui/wato/pages/rulesets.py:1889 ../cmk/gui/wato/pages/services.py:589
 #: ../cmk/gui/wato/pages/services.py:608 ../cmk/gui/wato/pages/services.py:1313
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3919
 #: ../cmk/gui/plugins/sidebar/search.py:1198
@@ -28936,7 +28943,7 @@ msgstr "ホストログファイル"
 msgid "Host lookup element"
 msgstr "ホストルックアップエレメント"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1276
+#: ../cmk/gui/wato/pages/rulesets.py:1273
 msgid "Host match list"
 msgstr "ホストマッチリスト"
 
@@ -28953,7 +28960,7 @@ msgstr "ホストのメモリ使用量"
 msgid "Host monitoring rules"
 msgstr "ホスト監視ルール"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2132
+#: ../cmk/gui/wato/pages/rulesets.py:2129
 #: ../cmk/gui/plugins/wato/datasource_programs.py:84
 #: ../cmk/gui/plugins/wato/datasource_programs.py:664
 #: ../cmk/gui/plugins/metrics/valuespecs.py:77
@@ -29043,7 +29050,7 @@ msgstr "NagStaMonのホストの問題"
 msgid "Host properties"
 msgstr "ホストのプロパティ"
 
-#: ../cmk/gui/wato/pages/rulesets.py:499
+#: ../cmk/gui/wato/pages/rulesets.py:496
 #, python-format
 msgid "Host properties of: %s"
 msgstr "ホストプロパティ: %s"
@@ -29119,8 +29126,8 @@ msgstr "ホストステータス"
 msgid "Host tag:"
 msgstr "ホストタグ:"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1755
-#: ../cmk/gui/wato/pages/rulesets.py:1905
+#: ../cmk/gui/wato/pages/rulesets.py:1752
+#: ../cmk/gui/wato/pages/rulesets.py:1902
 #: ../cmk/gui/watolib/host_attributes.py:117
 #: ../cmk/gui/plugins/views/painters.py:4854
 msgid "Host tags"
@@ -29180,12 +29187,12 @@ msgstr "ホスト:"
 msgid "Host: %s"
 msgstr "ホスト: %s"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2061
+#: ../cmk/gui/wato/pages/rulesets.py:2058
 #, python-format
 msgid "Host: %s is <b>%s</b>"
 msgstr "ホスト:%sは<b>%s </ b>"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2060
+#: ../cmk/gui/wato/pages/rulesets.py:2057
 #, python-format
 msgid "Host: %s is <b>not</b> <b>%s</b>"
 msgstr "ホスト: %s は<b>%s</b><b>ではありません</b>"
@@ -29423,7 +29430,7 @@ msgstr "特定のサービスの問題があるホスト"
 msgid "Hosts in downtime"
 msgstr "ダウンタイム中のホスト"
 
-#: ../cmk/gui/wato/pages/rulesets.py:491
+#: ../cmk/gui/wato/pages/rulesets.py:488
 #, python-format
 msgid "Hosts in folder: %s"
 msgstr "フォルダ内のホスト:%s"
@@ -29709,12 +29716,12 @@ msgid "IBM MQ (Linux)"
 msgstr "IBM MQ (Linux)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_channels.py:74
-#: ../cmk/gui/plugins/views/inventory.py:1280
+#: ../cmk/gui/plugins/views/inventory.py:1325
 msgid "IBM MQ Channels"
 msgstr "IBM MQチャネル"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_managers.py:84
-#: ../cmk/gui/plugins/views/inventory.py:1278
+#: ../cmk/gui/plugins/views/inventory.py:1323
 msgid "IBM MQ Managers"
 msgstr "IBM MQ Managers"
 
@@ -29723,7 +29730,7 @@ msgid "IBM MQ Plugin"
 msgstr "IBM MQ プラグイン"
 
 #: ../cmk/gui/plugins/wato/check_parameters/ibm_mq_queues.py:150
-#: ../cmk/gui/plugins/views/inventory.py:1282
+#: ../cmk/gui/plugins/views/inventory.py:1327
 msgid "IBM MQ Queues"
 msgstr "IBM MQキュー"
 
@@ -30065,7 +30072,7 @@ msgstr ""
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2366
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4211
-#: ../cmk/gui/plugins/views/inventory.py:522
+#: ../cmk/gui/plugins/views/inventory.py:544
 #: ../cmk/gui/plugins/visuals/filters.py:352 ../cmk/utils/tags.py:695
 msgid "IPv4"
 msgstr "IPv4"
@@ -30103,7 +30110,7 @@ msgstr "IPv4/IPv6デュアルスタック"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:2367
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:4212
-#: ../cmk/gui/plugins/views/inventory.py:524
+#: ../cmk/gui/plugins/views/inventory.py:546
 #: ../cmk/gui/plugins/visuals/filters.py:353 ../cmk/utils/tags.py:701
 msgid "IPv6"
 msgstr "IPv6"
@@ -32519,7 +32526,7 @@ msgstr "データソースごとの個々の状態"
 msgid "Individual topic"
 msgstr "個別のトピック"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1296
+#: ../cmk/gui/wato/pages/rulesets.py:1293
 msgid "Ineffective"
 msgstr "効果がない"
 
@@ -33358,7 +33365,7 @@ msgstr "無効なパラメータ%r:%s"
 msgid "Invalid pass phrase"
 msgstr "無効なパスフレーズ"
 
-#: ../cmk/gui/plugins/views/inventory.py:2026
+#: ../cmk/gui/plugins/views/inventory.py:2075
 #, python-format
 msgid "Invalid path in inventory tree: '%s' >> %s"
 msgstr "インベントリツリーのパスが無効です: '%s' >> %s"
@@ -33408,7 +33415,7 @@ msgid ""
 "Invalid role ID. Only the characters a-z, A-Z, 0-9, _ and - are allowed."
 msgstr "無効なロールID文字 a-z AZ 0-9 _ および - のみが許可されます"
 
-#: ../cmk/gui/watolib/rulesets.py:808
+#: ../cmk/gui/watolib/rulesets.py:828
 #, python-format
 msgid "Invalid rule <tt>%s</tt>"
 msgstr "無効なルール <tt>%s</tt>"
@@ -33574,15 +33581,15 @@ msgstr "インベントライズドチェック"
 
 #: ../cmk/gui/pagetypes.py:1851
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:31
-#: ../cmk/gui/plugins/views/inventory.py:204
-#: ../cmk/gui/plugins/views/inventory.py:234
-#: ../cmk/gui/plugins/views/inventory.py:854
-#: ../cmk/gui/plugins/views/inventory.py:910
-#: ../cmk/gui/plugins/views/inventory.py:1008
+#: ../cmk/gui/plugins/views/inventory.py:217
+#: ../cmk/gui/plugins/views/inventory.py:247
+#: ../cmk/gui/plugins/views/inventory.py:878
+#: ../cmk/gui/plugins/views/inventory.py:939
+#: ../cmk/gui/plugins/views/inventory.py:1047
 msgid "Inventory"
 msgstr "在庫"
 
-#: ../cmk/gui/plugins/views/inventory.py:1521
+#: ../cmk/gui/plugins/views/inventory.py:1566
 msgid "Inventory Date/Time"
 msgstr "インベントリ Date/Time"
 
@@ -33594,15 +33601,15 @@ msgstr "インベントリ履歴"
 msgid "Inventory Historys"
 msgstr "インベントリー履歴"
 
-#: ../cmk/gui/plugins/views/inventory.py:204
+#: ../cmk/gui/plugins/views/inventory.py:217
 msgid "Inventory Tree"
 msgstr "インベントリツリー"
 
-#: ../cmk/gui/plugins/views/inventory.py:1545
+#: ../cmk/gui/plugins/views/inventory.py:1590
 msgid "Inventory changes"
 msgstr "インベントリーの変更"
 
-#: ../cmk/gui/plugins/views/inventory.py:1634
+#: ../cmk/gui/plugins/views/inventory.py:1679
 msgid "Inventory history of host"
 msgstr "ホストのインベントリ履歴"
 
@@ -33610,11 +33617,11 @@ msgstr "ホストのインベントリ履歴"
 msgid "Inventory of Linux kernel configuration (sysctl)"
 msgstr "Linuxカーネル構成のインベントリ (sysctl)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1312
+#: ../cmk/gui/plugins/views/inventory.py:1357
 msgid "Inventory of host"
 msgstr "ホストのインベントリ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1495
+#: ../cmk/gui/plugins/views/inventory.py:1540
 msgid "Inventory: History"
 msgstr "インベントリ:履歴"
 
@@ -33794,7 +33801,7 @@ msgstr "それはまだ使用されています"
 msgid "It is still in use by at least 1 rule in ruleset:"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:1985
+#: ../cmk/gui/wato/pages/rulesets.py:1982
 msgid "It's not allowed to use a leading \"!\" here."
 msgstr "先頭の[!]は使用できません。ここに。"
 
@@ -33815,7 +33822,7 @@ msgstr ""
 "ラスターを明示的に指定できます。"
 
 #: ../cmk/gui/wato/pages/object_parameters.py:237
-#: ../cmk/gui/wato/pages/rulesets.py:2201
+#: ../cmk/gui/wato/pages/rulesets.py:2198
 #: ../cmk/gui/plugins/wato/check_parameters/generic_string.py:38
 #: ../cmk/gui/plugins/wato/check_parameters/generic_rate.py:47
 #: ../cmk/gui/plugins/wato/check_parameters/generic_number.py:47
@@ -33830,7 +33837,7 @@ msgstr "アイテム(サービスの説明で使用)"
 msgid "Item appearance"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:1281
+#: ../cmk/gui/wato/pages/rulesets.py:1278
 msgid "Item match list"
 msgstr "アイテムマッチリスト"
 
@@ -34170,11 +34177,11 @@ msgstr "カーネル設定(sysctl)"
 msgid "Kernel Version"
 msgstr "カーネルバージョン"
 
-#: ../cmk/gui/plugins/views/inventory.py:1288
+#: ../cmk/gui/plugins/views/inventory.py:1333
 msgid "Kernel configuration (sysctl)"
 msgstr "カーネル設定(sysctl)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1289
+#: ../cmk/gui/plugins/views/inventory.py:1334
 msgid "Kernel configurations (sysctl)"
 msgstr "カーネル構成(sysctl)"
 
@@ -36264,7 +36271,7 @@ msgstr "ダウンロードしたファイルを配置するローカルパス(�
 msgid "Local port number"
 msgstr "ローカルポート番号"
 
-#: ../cmk/gui/plugins/views/inventory.py:531
+#: ../cmk/gui/plugins/views/inventory.py:553
 msgid "Local route"
 msgstr "ローカルルート"
 
@@ -37082,8 +37089,8 @@ msgstr "Macアドレス"
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_cpu_memory.py:79
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:83
 #: ../cmk/gui/plugins/wato/check_parameters/utils.py:88
-#: ../cmk/gui/plugins/views/inventory.py:173
-#: ../cmk/gui/plugins/views/inventory.py:177
+#: ../cmk/gui/plugins/views/inventory.py:179
+#: ../cmk/gui/plugins/views/inventory.py:183
 msgid "MB"
 msgstr "MB"
 
@@ -37134,7 +37141,7 @@ msgstr "メッセージ"
 msgid "MGRs epoch levels and average"
 msgstr "MGRのエポックレベルと平均"
 
-#: ../cmk/gui/plugins/views/inventory.py:181
+#: ../cmk/gui/plugins/views/inventory.py:187
 msgid "MHz"
 msgstr "MHz"
 
@@ -37360,7 +37367,7 @@ msgstr "MTRの宛先"
 msgid "MTree name"
 msgstr "MTree名"
 
-#: ../cmk/gui/wato/pages/rulesets.py:912
+#: ../cmk/gui/wato/pages/rulesets.py:909
 msgid "Ma."
 msgstr "Ma."
 
@@ -37690,7 +37697,7 @@ msgstr "バルクウォークを使用した管理ボードSNMP(SNMP v2cを適�
 msgid "Management board config"
 msgstr "管理ボードの構成"
 
-#: ../cmk/gui/plugins/views/inventory.py:1277
+#: ../cmk/gui/plugins/views/inventory.py:1322
 msgid "Manager"
 msgstr "マネージャー"
 
@@ -38178,7 +38185,7 @@ msgstr "マッチタイプ"
 msgid "Matched line"
 msgstr "一致した行"
 
-#: ../cmk/gui/wato/pages/rulesets.py:844
+#: ../cmk/gui/wato/pages/rulesets.py:841
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:384
 msgid "Matching"
 msgstr "マッチング"
@@ -39757,7 +39764,7 @@ msgid "Modify: Check VM Status (off: keep default)"
 msgstr "変更: VMステータスの確認(オフ: デフォルトのまま)"
 
 #: ../cmk/gui/plugins/wato/check_parameters/memory_percentage_used_multiitem.py:48
-#: ../cmk/gui/plugins/views/inventory.py:1225
+#: ../cmk/gui/plugins/views/inventory.py:1270
 msgid "Module"
 msgstr "モジュール"
 
@@ -39776,7 +39783,7 @@ msgid "Module name or empty"
 msgstr "モジュール名または空欄"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:298
-#: ../cmk/gui/plugins/views/inventory.py:1226
+#: ../cmk/gui/plugins/views/inventory.py:1271
 msgid "Modules"
 msgstr "モジュール"
 
@@ -40300,7 +40307,7 @@ msgstr "から移動しました"
 msgid "Moved host from \"%s\" to \"%s\""
 msgstr "ホストを \"%s\" から \"%s\"に移動しました"
 
-#: ../cmk/gui/watolib/rulesets.py:669
+#: ../cmk/gui/watolib/rulesets.py:688
 #, python-format
 msgid ""
 "Moved rule %s from position #%d to #%d in ruleset \"%s\" in folder \"%s\""
@@ -40561,7 +40568,7 @@ msgstr ""
 #: ../cmk/gui/wato/pages/custom_attributes.py:230
 #: ../cmk/gui/wato/pages/custom_attributes.py:505
 #: ../cmk/gui/wato/pages/icons.py:160 ../cmk/gui/wato/pages/timeperiods.py:311
-#: ../cmk/gui/wato/pages/rulesets.py:1230 ../cmk/gui/wato/pages/roles.py:217
+#: ../cmk/gui/wato/pages/rulesets.py:1227 ../cmk/gui/wato/pages/roles.py:217
 #: ../cmk/gui/wato/user_profile.py:560 ../cmk/gui/crash_reporting.py:342
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:290
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:354
@@ -40970,7 +40977,7 @@ msgstr "ネガティブマッチ(セットからマッチングサービスを�
 msgid "Negotiate SSL"
 msgstr "SSLをネゴシエートする"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2022
+#: ../cmk/gui/wato/pages/rulesets.py:2019
 msgid "Neither"
 msgstr "どちらでもない"
 
@@ -41117,7 +41124,7 @@ msgstr "ネットワークアドレス:"
 msgid "Network filesystem - overall status and usage (e.g. NFS)"
 msgstr "ネットワークファイルシステム-全体的なステータスと使用状況(例:NFS)"
 
-#: ../cmk/gui/plugins/views/inventory.py:1145
+#: ../cmk/gui/plugins/views/inventory.py:1190
 msgid "Network interface"
 msgstr "ネットワークインターフェース"
 
@@ -41129,7 +41136,7 @@ msgstr "ネットワークインターフェイスとスイッチポートの検
 msgid "Network interface groups"
 msgstr "ネットワークインターフェイスグループ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1146
+#: ../cmk/gui/plugins/views/inventory.py:1191
 msgid "Network interfaces"
 msgstr "ネットワークインターフェース"
 
@@ -41182,8 +41189,8 @@ msgid "Networking"
 msgstr "ネットワーキング"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:988
-#: ../cmk/gui/plugins/views/inventory.py:1283
-#: ../cmk/gui/plugins/views/inventory.py:1284
+#: ../cmk/gui/plugins/views/inventory.py:1328
+#: ../cmk/gui/plugins/views/inventory.py:1329
 msgid "Networking Tunnels"
 msgstr "ネットワークトンネル"
 
@@ -41228,6 +41235,7 @@ msgstr "ピギーバックデータは絶対に使用しないでください"
 #: ../cmk/gui/plugins/wato/notifications.py:950
 #: ../cmk/gui/plugins/wato/notifications.py:992
 #: ../cmk/gui/plugins/wato/notifications.py:1027
+#: ../cmk/gui/plugins/views/inventory.py:1637
 #: ../cmk/gui/plugins/visuals/filters.py:2340
 msgid "New"
 msgstr "新しい"
@@ -41288,6 +41296,12 @@ msgstr "新しいカスタムグラフ..."
 msgid "New element"
 msgstr "新しい要素"
 
+#: ../cmk/gui/plugins/views/inventory.py:1634
+#, fuzzy
+#| msgid "new entries"
+msgid "New entries"
+msgstr "新しいエントリ"
+
 #: ../cmk/gui/mkeventd.py:109
 msgid "New event created"
 msgstr "新しいイベントが作成されました"
@@ -41325,7 +41339,7 @@ msgstr "新しいリスト"
 msgid "New name"
 msgstr "新しい名前"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2304
+#: ../cmk/gui/wato/pages/rulesets.py:2301
 #, python-format
 msgid "New rule: %s"
 msgstr "新しいルール: %s"
@@ -41411,7 +41425,7 @@ msgstr "軽快なIOレベル"
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:87
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:96
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:105
-#: ../cmk/gui/plugins/views/inventory.py:559
+#: ../cmk/gui/plugins/views/inventory.py:581
 #: ../cmk/gui/plugins/views/availability.py:1088
 msgid "No"
 msgstr "No"
@@ -41827,13 +41841,13 @@ msgstr "そのようなホストはありません"
 msgid "No such host(s): %s"
 msgstr "そのようなホストはありません:%s"
 
-#: ../cmk/gui/inventory.py:508
+#: ../cmk/gui/inventory.py:519
 #, python-format
 msgid ""
 "No such inventory tree of host %s. You may also have no access to this host."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:2015
+#: ../cmk/gui/plugins/views/inventory.py:2064
 msgid "No such inventory tree."
 msgstr "そのようなインベントリツリーはありません。"
 
@@ -42003,7 +42017,7 @@ msgstr "非ASCII文字は、属性 \"%s\" では使用することはできま�
 msgid "Non-Multicast"
 msgstr "非マルチキャスト"
 
-#: ../cmk/gui/wato/pages/rulesets.py:317
+#: ../cmk/gui/wato/pages/rulesets.py:314
 msgid "Non-empty rulesets"
 msgstr "空でないルールセット"
 
@@ -42901,7 +42915,7 @@ msgstr "クライアント数"
 msgid "Number of clients connected to a Device."
 msgstr "デバイスに接続されているクライアントの数。"
 
-#: ../cmk/gui/plugins/views/utils.py:369
+#: ../cmk/gui/plugins/views/utils.py:370
 msgid "Number of columns"
 msgstr "列の数"
 
@@ -44357,7 +44371,7 @@ msgstr "この集約を開く"
 msgid "Open this site's local web user interface"
 msgstr "このサイトのローカルWebユーザーインターフェイスを開きます"
 
-#: ../cmk/gui/plugins/views/inventory.py:1821
+#: ../cmk/gui/plugins/views/inventory.py:1869
 msgid "Open this table for filtering / sorting"
 msgstr ""
 
@@ -44606,8 +44620,8 @@ msgstr "Oracle Logswitches"
 msgid "Oracle Long Active Sessions"
 msgstr "Oracleの長期アクティブセッション"
 
-#: ../cmk/gui/plugins/views/inventory.py:1268
-#: ../cmk/gui/plugins/views/inventory.py:1269
+#: ../cmk/gui/plugins/views/inventory.py:1313
+#: ../cmk/gui/plugins/views/inventory.py:1314
 msgid "Oracle PGA performance"
 msgstr "Oracle PGAのパフォーマンス"
 
@@ -44631,8 +44645,8 @@ msgstr "Oracleリカバリエリア"
 msgid "Oracle Recovery Status"
 msgstr "Oracleリカバリステータス"
 
-#: ../cmk/gui/plugins/views/inventory.py:1262
-#: ../cmk/gui/plugins/views/inventory.py:1263
+#: ../cmk/gui/plugins/views/inventory.py:1307
+#: ../cmk/gui/plugins/views/inventory.py:1308
 msgid "Oracle SGA performance"
 msgstr "OracleS GAのパフォーマンス"
 
@@ -44652,19 +44666,19 @@ msgstr "Oracleテーブルスペース"
 msgid "Oracle Undo Retention"
 msgstr "Oracle Undo Retention"
 
-#: ../cmk/gui/plugins/views/inventory.py:1250
+#: ../cmk/gui/plugins/views/inventory.py:1295
 msgid "Oracle dataguard statistic"
 msgstr "Oracle dataguard統計"
 
-#: ../cmk/gui/plugins/views/inventory.py:1251
+#: ../cmk/gui/plugins/views/inventory.py:1296
 msgid "Oracle dataguard statistics"
 msgstr "Oracle dataguardの統計"
 
-#: ../cmk/gui/plugins/views/inventory.py:1238
+#: ../cmk/gui/plugins/views/inventory.py:1283
 msgid "Oracle instance"
 msgstr "Oracleインスタンス"
 
-#: ../cmk/gui/plugins/views/inventory.py:1239
+#: ../cmk/gui/plugins/views/inventory.py:1284
 msgid "Oracle instances"
 msgstr "Oracleインスタンス"
 
@@ -44672,27 +44686,27 @@ msgstr "Oracleインスタンス"
 msgid "Oracle performance discovery"
 msgstr "Oracleのパフォーマンスの検出"
 
-#: ../cmk/gui/plugins/views/inventory.py:1244
+#: ../cmk/gui/plugins/views/inventory.py:1289
 msgid "Oracle recovery area"
 msgstr "Oracleリカバリ領域"
 
-#: ../cmk/gui/plugins/views/inventory.py:1245
+#: ../cmk/gui/plugins/views/inventory.py:1290
 msgid "Oracle recovery areas"
 msgstr "Oracleリカバリ領域"
 
-#: ../cmk/gui/plugins/views/inventory.py:1274
+#: ../cmk/gui/plugins/views/inventory.py:1319
 msgid "Oracle system parameter"
 msgstr "Oracleシステムパラメータ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1275
+#: ../cmk/gui/plugins/views/inventory.py:1320
 msgid "Oracle system parameters"
 msgstr "Oracleシステムパラメータ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1256
+#: ../cmk/gui/plugins/views/inventory.py:1301
 msgid "Oracle tablespace"
 msgstr "Oracleテーブルスペース"
 
-#: ../cmk/gui/plugins/views/inventory.py:1257
+#: ../cmk/gui/plugins/views/inventory.py:1302
 msgid "Oracle tablespaces"
 msgstr "Oracleテーブルスペース"
 
@@ -44769,11 +44783,11 @@ msgid "Other components"
 msgstr "その他のコンポーネント"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:122
-#: ../cmk/gui/plugins/views/inventory.py:1166
+#: ../cmk/gui/plugins/views/inventory.py:1211
 msgid "Other entities"
 msgstr "その他のエンティティ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1165
+#: ../cmk/gui/plugins/views/inventory.py:1210
 msgid "Other entity"
 msgstr "その他のエンティティ"
 
@@ -45527,7 +45541,7 @@ msgstr "ページ"
 msgid "Pages per second"
 msgstr "1秒あたりのページ数"
 
-#: ../cmk/gui/plugins/views/utils.py:2137
+#: ../cmk/gui/plugins/views/utils.py:2138
 #, python-format
 msgid "Painter %r returned invalid result: %r"
 msgstr "ペインター%rが無効な結果を返しました:%r"
@@ -45579,7 +45593,7 @@ msgstr "パラメータルールセット"
 #: ../cmk/gui/wato/pages/object_parameters.py:176
 #: ../cmk/gui/wato/pages/object_parameters.py:202
 #: ../cmk/gui/wato/pages/object_parameters.py:212
-#: ../cmk/gui/wato/pages/rulesets.py:769 ../cmk/gui/sidebar.py:731
+#: ../cmk/gui/wato/pages/rulesets.py:766 ../cmk/gui/sidebar.py:731
 #: ../cmk/gui/watolib/sites.py:391 ../cmk/gui/watolib/rulespecs.py:941
 #: ../cmk/gui/crash_reporting.py:587 ../cmk/gui/crash_reporting.py:589
 #: ../cmk/gui/cee/reporting.py:1007
@@ -45861,7 +45875,7 @@ msgstr "<tt>MegaCLI.exe</tt>へのパス"
 msgid "Path to a CA certificate"
 msgstr "CA証明書へのパス"
 
-#: ../cmk/gui/inventory.py:283
+#: ../cmk/gui/inventory.py:292
 #, fuzzy
 msgid "Path to attributes or tables"
 msgstr "設定するホスト属性"
@@ -45901,7 +45915,7 @@ msgstr "パターン"
 msgid "Pattern (Regex)"
 msgstr "パターン(正規表現)"
 
-#: ../cmk/gui/wato/pages/rulesets.py:782
+#: ../cmk/gui/wato/pages/rulesets.py:779
 msgid "Pattern analyzer"
 msgstr "パターンアナライザー"
 
@@ -47146,8 +47160,8 @@ msgstr "有効な名前を入力してください"
 
 #: ../cmk/gui/plugins/visuals/filters.py:3151
 msgid ""
-"Please refer to the [cms_dashboards#host_problems|Checkmk user guide] for "
-"more details."
+"Please refer to the [dashboards#host_problems|Checkmk user guide] for more "
+"details."
 msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:181
@@ -47323,7 +47337,7 @@ msgstr "アプリケーション名を指定してください"
 msgid "Please specify at least one \"Piggyback creation option\""
 msgstr "\"ピギーバック作成オプション\"を1つ以上指定してください"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1876
+#: ../cmk/gui/wato/pages/rulesets.py:1873
 msgid "Please specify at least one condition or this rule will never match."
 msgstr ""
 "少なくとも1つの条件を指定してください。指定しないと、このルールは一致しませ"
@@ -47793,11 +47807,11 @@ msgstr "電源名"
 msgid "Power Usage"
 msgstr "電力使用量"
 
-#: ../cmk/gui/plugins/views/inventory.py:1208
+#: ../cmk/gui/plugins/views/inventory.py:1253
 msgid "Power supplies"
 msgstr "電源供給装置"
 
-#: ../cmk/gui/plugins/views/inventory.py:1207
+#: ../cmk/gui/plugins/views/inventory.py:1252
 msgid "Power supply"
 msgstr "電源"
 
@@ -47829,29 +47843,29 @@ msgstr "フロート値の精度"
 msgid "Precompiled"
 msgstr "プリコンパイル済み"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1666
-#: ../cmk/gui/wato/pages/rulesets.py:1675
+#: ../cmk/gui/wato/pages/rulesets.py:1663
+#: ../cmk/gui/wato/pages/rulesets.py:1672
 msgid "Predefined condition"
 msgstr "事前定義された条件"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1680
+#: ../cmk/gui/wato/pages/rulesets.py:1677
 #, python-format
 msgid "Predefined condition '%s' does not exist or using not permitted"
 msgstr "事前定義された条件 '%s' が存在しないか、使用が許可されていません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1079
+#: ../cmk/gui/wato/pages/rulesets.py:1076
 #, python-format
 msgid "Predefined condition: <a href=\"%s\">%s</a>"
 msgstr "事前定義された条件: <a href= \"%s\"> %s </a>"
 
 #: ../cmk/gui/wato/pages/predefined_conditions.py:94
 #: ../cmk/gui/wato/pages/predefined_conditions.py:97
-#: ../cmk/gui/wato/pages/rulesets.py:519 ../cmk/gui/wato/pages/rulesets.py:1659
+#: ../cmk/gui/wato/pages/rulesets.py:516 ../cmk/gui/wato/pages/rulesets.py:1656
 #: ../cmk/gui/plugins/wato/builtin_modules.py:225
 msgid "Predefined conditions"
 msgstr "事前定義された条件"
 
-#: ../cmk/gui/wato/pages/rulesets.py:342
+#: ../cmk/gui/wato/pages/rulesets.py:339
 msgid "Predefined searches"
 msgstr "事前定義された検索"
 
@@ -48733,7 +48747,7 @@ msgid "Query or SQL statement"
 msgstr "クエリまたはSQLステートメント"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:899
-#: ../cmk/gui/plugins/views/inventory.py:1281
+#: ../cmk/gui/plugins/views/inventory.py:1326
 msgid "Queue"
 msgstr "キュー"
 
@@ -48820,7 +48834,7 @@ msgstr "スキップするキュー"
 msgid "Queues to monitor"
 msgstr "監視するキュー"
 
-#: ../cmk/gui/wato/pages/rulesets.py:369
+#: ../cmk/gui/wato/pages/rulesets.py:366
 msgid "Quick search"
 msgstr "クイック検索"
 
@@ -49539,7 +49553,7 @@ msgstr "繰り返し"
 msgid "Recurring downtimes for %s"
 msgstr "%s の繰り返しのダウンタイム"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1313
+#: ../cmk/gui/wato/pages/rulesets.py:1310
 msgid "Recursion"
 msgstr "再帰"
 
@@ -49599,8 +49613,8 @@ msgstr "マジックファクターの基準サイズ"
 msgid "Referer"
 msgstr "リファラー"
 
-#: ../cmk/gui/wato/pages/folders.py:211 ../cmk/gui/wato/pages/rulesets.py:553
-#: ../cmk/gui/wato/pages/rulesets.py:1143
+#: ../cmk/gui/wato/pages/folders.py:211 ../cmk/gui/wato/pages/rulesets.py:550
+#: ../cmk/gui/wato/pages/rulesets.py:1140
 msgid "Refine search"
 msgstr "検索を絞り込む"
 
@@ -49616,7 +49630,7 @@ msgstr "すべてのサービス (tabula rasa)を更新し、新しいホスト�
 msgid "Refresh all services and host labels (tabula rasa)"
 msgstr "すべてのサービスとホストラベルを更新します(タブララサ)"
 
-#: ../cmk/gui/plugins/views/utils.py:355
+#: ../cmk/gui/plugins/views/utils.py:356
 msgid "Refresh interval"
 msgstr "更新間隔"
 
@@ -49811,8 +49825,8 @@ msgstr "拒否されたセッション"
 #: ../cmk/gui/wato/pages/folders.py:138 ../cmk/gui/wato/pages/audit_log.py:107
 #: ../cmk/gui/wato/pages/users.py:150 ../cmk/gui/wato/pages/diagnostics.py:116
 #: ../cmk/gui/wato/pages/check_catalog.py:470
-#: ../cmk/gui/wato/pages/rulesets.py:349 ../cmk/gui/wato/pages/rulesets.py:473
-#: ../cmk/gui/wato/pages/rulesets.py:741 ../cmk/gui/wato/pages/rulesets.py:1430
+#: ../cmk/gui/wato/pages/rulesets.py:346 ../cmk/gui/wato/pages/rulesets.py:470
+#: ../cmk/gui/wato/pages/rulesets.py:738 ../cmk/gui/wato/pages/rulesets.py:1427
 #: ../cmk/gui/wato/pages/download_agents.py:48
 #: ../cmk/gui/wato/pages/notifications.py:926
 #: ../cmk/gui/wato/pages/analyze_configuration.py:84
@@ -50119,7 +50133,7 @@ msgstr "このルールパックを拡張パッケージモジュールから削
 msgid "Remove vanished services"
 msgstr "消えたサービスを削除する"
 
-#: ../cmk/gui/plugins/views/inventory.py:1572
+#: ../cmk/gui/plugins/views/inventory.py:1617
 msgid "Removed"
 msgstr "削除されました"
 
@@ -50138,7 +50152,7 @@ msgstr "補助タグ %s (%s)を削除しました"
 msgid "Removed disabled extension package %s"
 msgstr "無効状態の拡張パッケージ%sを削除しました"
 
-#: ../cmk/gui/plugins/views/inventory.py:1569
+#: ../cmk/gui/plugins/views/inventory.py:1614
 msgid "Removed entries"
 msgstr "削除されたエントリ"
 
@@ -50499,7 +50513,7 @@ msgstr "ホストのレポート"
 msgid "Report of Host Performance Graphs"
 msgstr "ホストパフォーマンスグラフのレポート"
 
-#: ../cmk/gui/plugins/views/inventory.py:207
+#: ../cmk/gui/plugins/views/inventory.py:220
 msgid "Report options"
 msgstr "レポートオプション"
 
@@ -50676,9 +50690,9 @@ msgid "Reserved space"
 msgstr "予約スペース"
 
 #: ../cmk/gui/wato/pages/audit_log.py:428
-#: ../cmk/gui/wato/pages/rulesets.py:1156 ../cmk/gui/werks.py:264
+#: ../cmk/gui/wato/pages/rulesets.py:1153 ../cmk/gui/werks.py:264
 #: ../cmk/gui/page_menu.py:751 ../cmk/gui/plugins/views/availability.py:183
-#: ../cmk/gui/plugins/views/utils.py:284 ../cmk/gui/visuals.py:1649
+#: ../cmk/gui/plugins/views/utils.py:285 ../cmk/gui/visuals.py:1649
 msgid "Reset"
 msgstr "リセット"
 
@@ -51193,7 +51207,7 @@ msgid "Ruckus Spot Unique MAC addresses"
 msgstr "Ruckus Spotの一意のMACアドレス"
 
 #: ../cmk/gui/wato/pages/object_parameters.py:284
-#: ../cmk/gui/wato/pages/rulesets.py:1412 ../cmk/gui/wato/mkeventd.py:2180
+#: ../cmk/gui/wato/pages/rulesets.py:1409 ../cmk/gui/wato/mkeventd.py:2180
 #: ../cmk/gui/plugins/wato/bi_config.py:982
 #: ../cmk/gui/plugins/views/mkeventd.py:633
 msgid "Rule"
@@ -51213,7 +51227,7 @@ msgstr "フォルダ%sのルール%dが影響を受けます"
 msgid "Rule Evaluations"
 msgstr "ルールの評価"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1740 ../cmk/gui/wato/mkeventd.py:343
+#: ../cmk/gui/wato/pages/rulesets.py:1737 ../cmk/gui/wato/mkeventd.py:343
 #: ../cmk/gui/plugins/wato/bi_config.py:1120
 #: ../cmk/gui/plugins/wato/bi_config.py:1124
 msgid "Rule ID"
@@ -51227,7 +51241,7 @@ msgstr "ルールID:"
 msgid "Rule IDs"
 msgstr "ルールID"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1734
+#: ../cmk/gui/wato/pages/rulesets.py:1731
 #: ../cmk/gui/wato/pages/notifications.py:1256
 #: ../cmk/gui/wato/pages/notifications.py:1274 ../cmk/gui/wato/mkeventd.py:978
 #: ../cmk/gui/wato/mkeventd.py:1005 ../cmk/gui/plugins/wato/bi_config.py:1260
@@ -51306,7 +51320,7 @@ msgstr "ルールパッケージ%s"
 msgid "Rule packs"
 msgstr "ルールパック"
 
-#: ../cmk/gui/wato/pages/rulesets.py:529
+#: ../cmk/gui/wato/pages/rulesets.py:526
 #: ../cmk/gui/plugins/wato/builtin_modules.py:190
 msgid "Rule search"
 msgstr "ルール検索"
@@ -51342,8 +51356,8 @@ msgstr "ルールベースの通知がアクティブ化されます"
 
 #: ../cmk/gui/wato/pages/groups.py:107 ../cmk/gui/wato/pages/hosts.py:421
 #: ../cmk/gui/wato/pages/object_parameters.py:404
-#: ../cmk/gui/wato/pages/folders.py:398 ../cmk/gui/wato/pages/rulesets.py:331
-#: ../cmk/gui/wato/pages/rulesets.py:1205
+#: ../cmk/gui/wato/pages/folders.py:398 ../cmk/gui/wato/pages/rulesets.py:328
+#: ../cmk/gui/wato/pages/rulesets.py:1202
 #: ../cmk/gui/wato/pages/notifications.py:970 ../cmk/gui/wato/mkeventd.py:1616
 #: ../cmk/gui/wato/mkeventd.py:1693 ../cmk/gui/wato/mkeventd.py:1847
 #: ../cmk/gui/wato/mkeventd.py:2987 ../cmk/gui/views.py:2938
@@ -51371,11 +51385,11 @@ msgstr "アラート時にスクリプトを自動実行するためのルール
 msgid "Rules for the notification of contacts about host and service problems"
 msgstr "ホストとサービスの問題に関する連絡先への通知のルール"
 
-#: ../cmk/gui/wato/pages/rulesets.py:877
+#: ../cmk/gui/wato/pages/rulesets.py:874
 msgid "Rules in folder"
 msgstr "フォルダ内のルール"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1221
+#: ../cmk/gui/wato/pages/rulesets.py:1218
 msgid "Rules matching pattern"
 msgstr "パターンマッチングパターン"
 
@@ -51425,7 +51439,7 @@ msgstr ""
 msgid "Ruleset"
 msgstr "ルールセット"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1197
+#: ../cmk/gui/wato/pages/rulesets.py:1194
 msgid "Rulesets"
 msgstr "ルールセット"
 
@@ -52378,13 +52392,13 @@ msgid "Scripts to integrate Nagios plugis"
 msgstr "Nagiosplugisを統合するためのスクリプト"
 
 #: ../cmk/gui/wato/pages/search.py:46 ../cmk/gui/wato/pages/folders.py:205
-#: ../cmk/gui/wato/pages/rulesets.py:555 ../cmk/gui/wato/pages/rulesets.py:1147
-#: ../cmk/gui/wato/pages/rulesets.py:1151 ../cmk/gui/page_menu.py:728
+#: ../cmk/gui/wato/pages/rulesets.py:552 ../cmk/gui/wato/pages/rulesets.py:1144
+#: ../cmk/gui/wato/pages/rulesets.py:1148 ../cmk/gui/page_menu.py:728
 #: ../cmk/gui/plugins/sidebar/search.py:684
 msgid "Search"
 msgstr "探す"
 
-#: ../cmk/gui/plugins/views/inventory.py:1085
+#: ../cmk/gui/plugins/views/inventory.py:1130
 #, python-format
 msgid "Search %s"
 msgstr "%s を検索"
@@ -52420,19 +52434,19 @@ msgstr "検索が終了しました:このフィルターの結果のみを表�
 msgid "Search for check plugins"
 msgstr "チェックプラグインを検索する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1248
+#: ../cmk/gui/wato/pages/rulesets.py:1245
 msgid "Search for deprecated rulesets"
 msgstr "非推奨のルールセットを検索する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1290
+#: ../cmk/gui/wato/pages/rulesets.py:1287
 msgid "Search for disabled rules"
 msgstr "無効なルールを検索する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1300
+#: ../cmk/gui/wato/pages/rulesets.py:1297
 msgid "Search for effective rules"
 msgstr "効果的なルールを探す"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1291
+#: ../cmk/gui/wato/pages/rulesets.py:1288
 msgid "Search for enabled rules"
 msgstr "有効なルールを検索する"
 
@@ -52441,7 +52455,7 @@ msgstr "有効なルールを検索する"
 msgid "Search for hosts below %s"
 msgstr "%s 未満のホストを検索"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1299
+#: ../cmk/gui/wato/pages/rulesets.py:1296
 msgid "Search for ineffective rules (not matching any host or service)"
 msgstr "効果のないルールを検索する(ホストまたはサービスと一致しない)"
 
@@ -52464,15 +52478,15 @@ msgstr ""
 msgid "Search for menu entries, settings, hosts and rulesets."
 msgstr "メニューエントリ、設定、ホスト、およびルールセットを検索します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1249
+#: ../cmk/gui/wato/pages/rulesets.py:1246
 msgid "Search for not deprecated rulesets"
 msgstr "非推奨ではないルールセットを検索する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1257
+#: ../cmk/gui/wato/pages/rulesets.py:1254
 msgid "Search for rulesets that don't have rules configured"
 msgstr "ルールが構成されていないルールセットを検索する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1256
+#: ../cmk/gui/wato/pages/rulesets.py:1253
 msgid "Search for rulesets that have rules configured"
 msgstr "ルールが設定されているルールセットを検索する"
 
@@ -52496,7 +52510,7 @@ msgstr "モニタリングで検索"
 msgid "Search in Setup"
 msgstr "セットアップで検索"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1316
+#: ../cmk/gui/wato/pages/rulesets.py:1313
 msgid "Search in this folder"
 msgstr "このフォルダで検索"
 
@@ -52539,27 +52553,27 @@ msgstr "検索結果のプレビュー"
 msgid "Search results for folder %s"
 msgstr "フォルダ %s の検索結果"
 
-#: ../cmk/gui/wato/pages/rulesets.py:320
+#: ../cmk/gui/wato/pages/rulesets.py:317
 msgid "Search rules"
 msgstr "検索ルール"
 
-#: ../cmk/gui/wato/pages/rulesets.py:303
+#: ../cmk/gui/wato/pages/rulesets.py:300
 msgid "Search rules: Deprecated Rulesets"
 msgstr "検索ルール:非推奨のルールセット"
 
-#: ../cmk/gui/wato/pages/rulesets.py:310
+#: ../cmk/gui/wato/pages/rulesets.py:307
 msgid "Search rules: Rulesets with ineffective rules"
 msgstr "検索ルール:無効なルールを持つルールセット"
 
-#: ../cmk/gui/wato/pages/rulesets.py:316
+#: ../cmk/gui/wato/pages/rulesets.py:313
 msgid "Search rules: Used rulesets"
 msgstr "検索ルール: 使用されるルールセット"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1192
+#: ../cmk/gui/wato/pages/rulesets.py:1189
 msgid "Search rulesets"
 msgstr "ルールセットを検索する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1144
+#: ../cmk/gui/wato/pages/rulesets.py:1141
 msgid "Search rulesets and rules"
 msgstr "ルールセットとルールを検索する"
 
@@ -52961,7 +52975,7 @@ msgid "Selected sections will not be executed by the agent."
 msgstr "選択したセクションはエージェントによって実行されません。"
 
 #: ../cmk/gui/wato/pages/parentscan.py:401
-#: ../cmk/gui/wato/pages/rulesets.py:1309
+#: ../cmk/gui/wato/pages/rulesets.py:1306
 #: ../cmk/gui/watolib/bulk_discovery.py:90 ../cmk/gui/page_menu.py:383
 msgid "Selection"
 msgstr "選択"
@@ -53097,7 +53111,7 @@ msgid "Sends Timed-Out"
 msgstr "タイムアウトを送信"
 
 #: ../cmk/gui/plugins/wato/check_parameters/switch_contact.py:36
-#: ../cmk/gui/plugins/views/inventory.py:1219
+#: ../cmk/gui/plugins/views/inventory.py:1264
 msgid "Sensor"
 msgstr "センサー"
 
@@ -53139,7 +53153,7 @@ msgid "Sensor threshold"
 msgstr "センサーのしきい値"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:276
-#: ../cmk/gui/plugins/views/inventory.py:1220
+#: ../cmk/gui/plugins/views/inventory.py:1265
 msgid "Sensors"
 msgstr "センサー"
 
@@ -53228,7 +53242,7 @@ msgstr "サーバーのパフォーマンス"
 msgid "Server timezone"
 msgstr "サーバーのタイムゾーン"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2076 ../cmk/gui/wato/pages/services.py:840
+#: ../cmk/gui/wato/pages/rulesets.py:2073 ../cmk/gui/wato/pages/services.py:840
 #: ../cmk/gui/wato/pages/notifications.py:719 ../cmk/gui/availability.py:1562
 #: ../cmk/gui/watolib/rulespecs.py:474 ../cmk/gui/watolib/rulespecs.py:1010
 #: ../cmk/gui/cee/plugins/reporting/availability.py:50
@@ -53605,8 +53619,8 @@ msgstr "サービスがフラッピングしている"
 msgid "Service is stale"
 msgstr "サービスが古くなっている"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1759
-#: ../cmk/gui/wato/pages/rulesets.py:1898
+#: ../cmk/gui/wato/pages/rulesets.py:1756
+#: ../cmk/gui/wato/pages/rulesets.py:1895
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:3852
 #: ../cmk/gui/plugins/sidebar/search.py:1224
 #: ../cmk/gui/plugins/views/sorters.py:247
@@ -53636,7 +53650,7 @@ msgid "Service monitoring rules"
 msgstr "サービス監視ルール"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:512
-#: ../cmk/gui/wato/pages/rulesets.py:2196
+#: ../cmk/gui/wato/pages/rulesets.py:2193
 #: ../cmk/gui/plugins/wato/datasource_programs.py:891
 #: ../cmk/gui/plugins/wato/active_checks.py:1018
 #: ../cmk/gui/plugins/wato/check_parameters/solaris_services.py:49
@@ -53842,7 +53856,7 @@ msgid "Servicelevel"
 msgstr "サービスレベル"
 
 #: ../cmk/gui/wato/pages/object_parameters.py:93
-#: ../cmk/gui/wato/pages/rulesets.py:760 ../cmk/gui/wato/pages/rulesets.py:1828
+#: ../cmk/gui/wato/pages/rulesets.py:757 ../cmk/gui/wato/pages/rulesets.py:1825
 #: ../cmk/gui/wato/pages/services.py:1309 ../cmk/gui/views.py:1374
 #: ../cmk/gui/cee/plugins/wato/cmc.py:843
 #: ../cmk/gui/cee/plugins/wato/license_usage.py:614
@@ -54504,8 +54518,8 @@ msgstr ""
 #: ../cmk/gui/wato/pages/ldap.py:107 ../cmk/gui/wato/pages/folders.py:141
 #: ../cmk/gui/wato/pages/audit_log.py:110 ../cmk/gui/wato/pages/users.py:153
 #: ../cmk/gui/wato/pages/diagnostics.py:119
-#: ../cmk/gui/wato/pages/rulesets.py:352 ../cmk/gui/wato/pages/rulesets.py:476
-#: ../cmk/gui/wato/pages/rulesets.py:744 ../cmk/gui/wato/pages/rulesets.py:1433
+#: ../cmk/gui/wato/pages/rulesets.py:349 ../cmk/gui/wato/pages/rulesets.py:473
+#: ../cmk/gui/wato/pages/rulesets.py:741 ../cmk/gui/wato/pages/rulesets.py:1430
 #: ../cmk/gui/wato/pages/download_agents.py:51
 #: ../cmk/gui/wato/pages/notifications.py:929 ../cmk/gui/wato/mkeventd.py:1313
 #: ../cmk/gui/wato/mkeventd.py:1701 ../cmk/gui/wato/mkeventd.py:2057
@@ -54873,7 +54887,7 @@ msgstr "シングルの情報を表示する"
 msgid "Show inline help"
 msgstr "インラインヘルプを表示"
 
-#: ../cmk/gui/plugins/views/inventory.py:301
+#: ../cmk/gui/plugins/views/inventory.py:314
 msgid "Show internal tree paths"
 msgstr "内部ツリーパスを表示する"
 
@@ -55860,11 +55874,11 @@ msgstr ""
 msgid "Software"
 msgstr "ソフトウェア"
 
-#: ../cmk/gui/plugins/views/inventory.py:1139
+#: ../cmk/gui/plugins/views/inventory.py:1184
 msgid "Software package"
 msgstr "ソフトウェアパッケージ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1140
+#: ../cmk/gui/plugins/views/inventory.py:1185
 msgid "Software packages"
 msgstr "ソフトウェアパッケージ"
 
@@ -56206,7 +56220,7 @@ msgstr "ごめんなさい。このコマンドは実装されていません。
 msgid "Sort"
 msgstr "ソート"
 
-#: ../cmk/gui/table.py:565 ../cmk/gui/plugins/views/utils.py:1961
+#: ../cmk/gui/table.py:565 ../cmk/gui/plugins/views/utils.py:1962
 #, python-format
 msgid "Sort by %s"
 msgstr "%sで並べ替え"
@@ -56432,7 +56446,7 @@ msgstr ""
 "表現のリストを指定します。注:このオプションが使用されている場合、ホスト通知が"
 "このルールに一致することはありません。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1945
+#: ../cmk/gui/wato/pages/rulesets.py:1942
 msgid ""
 "Specify a list of service patterns this rule shall apply to. The patterns "
 "must match the <b>beginning</b> of the service in question. Adding a <tt>$</"
@@ -56948,7 +56962,7 @@ msgstr "Sprocレイテンシ"
 msgid "Sqlnet Send timeout"
 msgstr "Sqlnet送信タイムアウト"
 
-#: ../cmk/gui/plugins/views/inventory.py:1231
+#: ../cmk/gui/plugins/views/inventory.py:1276
 msgid "Stack"
 msgstr "スタック"
 
@@ -56961,7 +56975,7 @@ msgid "Stacked Area"
 msgstr "スタックエリア"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:326
-#: ../cmk/gui/plugins/views/inventory.py:1232
+#: ../cmk/gui/plugins/views/inventory.py:1277
 msgid "Stacks"
 msgstr "スタック"
 
@@ -58490,7 +58504,7 @@ msgstr "ホスト通知の対象"
 msgid "Subject for service notifications"
 msgstr "サービス通知の対象"
 
-#: ../cmk/gui/wato/pages/search.py:50 ../cmk/gui/plugins/views/utils.py:283
+#: ../cmk/gui/wato/pages/search.py:50 ../cmk/gui/plugins/views/utils.py:284
 msgid "Submit"
 msgstr "サブミット"
 
@@ -58841,7 +58855,7 @@ msgstr "接点状態の切り替え"
 msgid "Switch number"
 msgstr "スイッチ番号"
 
-#: ../cmk/gui/plugins/views/inventory.py:1408
+#: ../cmk/gui/plugins/views/inventory.py:1453
 msgid "Switch port statistics"
 msgstr "スイッチポートの統計"
 
@@ -61064,7 +61078,7 @@ msgstr "コメントにセミコロンを含めることはできません"
 msgid "The comment which is automatically sent with an adhoc downtime"
 msgstr ""
 
-#: ../cmk/gui/plugins/views/inventory.py:1313
+#: ../cmk/gui/plugins/views/inventory.py:1358
 msgid "The complete hardware- and software inventory of a host"
 msgstr "ホストの完全なハードウェアおよびソフトウェアインベントリ"
 
@@ -61140,7 +61154,7 @@ msgstr ""
 "設定されたパスワードが削除されたか、このパスワードの使用が許可されていませ"
 "ん。別のものを選択してください。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1682
+#: ../cmk/gui/wato/pages/rulesets.py:1679
 msgid ""
 "The configured predefined condition has either be removed or you are not "
 "permitted to use it. Please choose another one."
@@ -61635,7 +61649,7 @@ msgstr ""
 msgid "The first line in the file contains titles."
 msgstr "ファイルの最初の行にはタイトルが含まれています。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:846
+#: ../cmk/gui/wato/pages/rulesets.py:843
 msgid "The first matching rule defines the parameter."
 msgstr "最初の一致ルールはパラメーターを定義します"
 
@@ -61690,7 +61704,7 @@ msgid ""
 "The following macros will be substituted by value from the actual event:"
 msgstr "次のマクロは、実際のイベントの値に置き換えられます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:312
+#: ../cmk/gui/wato/pages/rulesets.py:309
 msgid ""
 "The following rulesets contain rules that do not match to any of the "
 "existing hosts."
@@ -61848,7 +61862,7 @@ msgstr ""
 "が構成の経過時間よりも長くなるまで、そのメトリックファイルはディスク上で変更"
 "されません。"
 
-#: ../cmk/gui/plugins/views/inventory.py:1635
+#: ../cmk/gui/plugins/views/inventory.py:1680
 msgid "The history for changes in hardware- and software inventory of a host"
 msgstr "ホストのハードウェアおよびソフトウェアインベントリの変更の履歴"
 
@@ -62287,7 +62301,7 @@ msgstr "ロゴがアップロードされました。"
 msgid "The mail subject is used as syslog appliaction"
 msgstr "メールの件名はsyslogアプリケーションとして使用されます"
 
-#: ../cmk/gui/wato/pages/rulesets.py:435
+#: ../cmk/gui/wato/pages/rulesets.py:432
 msgid "The mandatory group name is missing"
 msgstr "必須のグループ名がありません"
 
@@ -63313,7 +63327,7 @@ msgstr ""
 msgid "The rule conditions do not match."
 msgstr "ルールの条件が一致しません。"
 
-#: ../cmk/gui/watolib/rulesets.py:973
+#: ../cmk/gui/watolib/rulesets.py:993
 msgid "The rule does not match"
 msgstr "ルールが一致しません"
 
@@ -63332,7 +63346,7 @@ msgid ""
 "possible."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:1885
+#: ../cmk/gui/wato/pages/rulesets.py:1882
 #: ../cmk/gui/plugins/wato/bi_valuespecs.py:331
 msgid "The rule is only applied to hosts directly in or below this folder."
 msgstr ""
@@ -63342,7 +63356,7 @@ msgstr ""
 msgid "The rule pack you are trying to edit does not exist."
 msgstr "編集しようとしているルールパックが存在しません。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1906
+#: ../cmk/gui/wato/pages/rulesets.py:1903
 msgid ""
 "The rule will only be applied to hosts fulfilling all of the host tag "
 "conditions listed here, even if they appear in the list of explicit host "
@@ -63400,7 +63414,7 @@ msgstr ""
 "この規則は、指定された正規表現がメッセージテキストと一致する場合にのみ適用さ"
 "れます(中置検索)。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:664 ../cmk/gui/wato/pages/rulesets.py:1353
+#: ../cmk/gui/wato/pages/rulesets.py:661 ../cmk/gui/wato/pages/rulesets.py:1350
 #, python-format
 msgid "The ruleset \"%s\" does not exist."
 msgstr "ルールセット \"%s\" は存在しません。"
@@ -64161,7 +64175,7 @@ msgid ""
 "system memory."
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:1049
+#: ../cmk/gui/wato/pages/rulesets.py:1046
 msgid "The value of this rule is not valid. "
 msgstr "このルールの値は無効です。 "
 
@@ -64248,7 +64262,7 @@ msgstr "この集計パックには構成済みのルールはありません"
 msgid "There are no elements defined for this selection"
 msgstr "この選択にはエレメントが定義されていません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1684 ../cmk/gui/valuespec.py:2358
+#: ../cmk/gui/wato/pages/rulesets.py:1681 ../cmk/gui/valuespec.py:2358
 #: ../cmk/gui/valuespec.py:5076
 msgid "There are no elements defined for this selection yet."
 msgstr "この選択にはまだ要素が定義されていません。"
@@ -64257,15 +64271,15 @@ msgstr "この選択にはまだ要素が定義されていません。"
 msgid "There are no elements for selection."
 msgstr "選択する要素はありません。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:271
+#: ../cmk/gui/wato/pages/rulesets.py:268
 msgid "There are no rules defined in this folder."
 msgstr "このフォルダにはルールが定義されていません。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:862
+#: ../cmk/gui/wato/pages/rulesets.py:859
 msgid "There are no rules defined in this set."
 msgstr "このセットで定義されているルールはありません。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:269
+#: ../cmk/gui/wato/pages/rulesets.py:266
 msgid "There are no rulesets or rules matching your search."
 msgstr "検索に一致するルールセットやルールはありません。"
 
@@ -66624,7 +66638,7 @@ msgstr ""
 msgid "This role does not exist."
 msgstr "この役割は存在しません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1422
+#: ../cmk/gui/wato/pages/rulesets.py:1419
 msgid "This rule"
 msgstr "このルール"
 
@@ -66983,7 +66997,7 @@ msgstr ""
 msgid "This rule defines upper limits for the number of logins on a system."
 msgstr "このルールは、システムへのログイン数の上限を定義します。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2120
+#: ../cmk/gui/wato/pages/rulesets.py:2117
 msgid ""
 "This rule does <b>never</b> apply due to an empty list of explicit hosts!"
 msgstr ""
@@ -66993,7 +67007,7 @@ msgstr ""
 msgid "This rule does a cancelling match."
 msgstr "このルールはキャンセルマッチを行います。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:966
+#: ../cmk/gui/wato/pages/rulesets.py:963
 #: ../cmk/gui/wato/pages/notifications.py:245
 #, python-format
 msgid "This rule does not match: %s"
@@ -67040,7 +67054,7 @@ msgstr ""
 "このルールは、Windowsプリンターキューで現在待ち時間している印刷ジョブの数に適"
 "用されます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:918
+#: ../cmk/gui/wato/pages/rulesets.py:915
 #: ../cmk/gui/wato/pages/notifications.py:263 ../cmk/gui/wato/mkeventd.py:1883
 #: ../cmk/gui/cee/plugins/wato/alert_handling.py:245
 #: ../cmk/gui/plugins/wato/bi_config.py:864
@@ -67053,7 +67067,7 @@ msgstr "このルールは現在無効になっており、適用されません
 msgid "This rule is deprecated. Please use \"%s\" instead."
 msgstr "このルールは非推奨です。代わりに\"%s\"を使用してください。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:961
+#: ../cmk/gui/wato/pages/rulesets.py:958
 msgid "This rule is disabled"
 msgstr "このルールは無効になっています"
 
@@ -67077,16 +67091,16 @@ msgstr ""
 msgid "This rule matches"
 msgstr "このルールは一致します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:975
+#: ../cmk/gui/wato/pages/rulesets.py:972
 msgid "This rule matches and defines new parameters."
 msgstr "このルールは、新しいパラメーターに一致し、定義します。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:986
+#: ../cmk/gui/wato/pages/rulesets.py:983
 #, python-format
 msgid "This rule matches for the host '%s'"
 msgstr "このルールはホスト '%s'に一致します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:978
+#: ../cmk/gui/wato/pages/rulesets.py:975
 msgid ""
 "This rule matches, but all of its parameters are overridden by previous "
 "rules."
@@ -67094,11 +67108,11 @@ msgstr ""
 "このルールは一致しますが、そのすべてのパラメーターは以前のルールによってオー"
 "バーライドされます"
 
-#: ../cmk/gui/wato/pages/rulesets.py:973
+#: ../cmk/gui/wato/pages/rulesets.py:970
 msgid "This rule matches, but does not define any parameters."
 msgstr "このルールは一致しますが、パラメーターを定義しません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:984
+#: ../cmk/gui/wato/pages/rulesets.py:981
 msgid "This rule matches, but is overridden by a previous rule."
 msgstr "このルールは一致しますが、前のルールによって上書きされます。"
 
@@ -67106,7 +67120,7 @@ msgstr "このルールは一致しますが、前のルールによって上書
 msgid "This rule matches, but is overruled by a previous match."
 msgstr "このルールは一致しますが、前の一致によって無効になります。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:981
+#: ../cmk/gui/wato/pages/rulesets.py:978
 msgid ""
 "This rule matches, but some of its parameters are overridden by previous "
 "rules."
@@ -67133,7 +67147,7 @@ msgstr "このルールパックが変更されました元々はMKP %s を介�
 msgid "This rule pack is provided via the MKP %s."
 msgstr "このルールパックは、MKP%sを介して提供されます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1714
+#: ../cmk/gui/wato/pages/rulesets.py:1711
 msgid "This rule representation can be used for Web API calls."
 msgstr "このルール表現は、Web API呼び出しに使用できます。"
 
@@ -69057,7 +69071,7 @@ msgstr "Tinkerforge"
 #: ../cmk/gui/wato/pages/tags.py:388 ../cmk/gui/wato/pages/tags.py:443
 #: ../cmk/gui/wato/pages/tags.py:798 ../cmk/gui/wato/pages/password_store.py:94
 #: ../cmk/gui/wato/pages/check_catalog.py:492
-#: ../cmk/gui/wato/pages/rulesets.py:1235
+#: ../cmk/gui/wato/pages/rulesets.py:1232
 #: ../cmk/gui/wato/pages/analyze_configuration.py:193
 #: ../cmk/gui/wato/mkeventd.py:309 ../cmk/gui/wato/mkeventd.py:316
 #: ../cmk/gui/wato/mkeventd.py:1609 ../cmk/gui/wato/mkeventd.py:3429
@@ -70640,7 +70654,7 @@ msgstr "ユーザーIDのウムラウト(非推奨)"
 msgid "Un"
 msgstr "Un"
 
-#: ../cmk/gui/wato/pages/rulesets.py:693
+#: ../cmk/gui/wato/pages/rulesets.py:690
 msgid "Unable to analyze matching, because \"service\" parameter is missing"
 msgstr "\"サービス\"パラメータがないため、一致を分析できません"
 
@@ -70743,7 +70757,7 @@ msgstr ""
 msgid "Unable to parse provided data: %s"
 msgstr "提供されたデータを解析できません: %s"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1697
+#: ../cmk/gui/wato/pages/rulesets.py:1694
 #, python-format
 msgid ""
 "Unable to read current conditions of this rule. Falling back to default "
@@ -70758,7 +70772,7 @@ msgstr ""
 "因である可能性があります。たとえば、ルールがタググループまたは存在しないタグ"
 "を参照している場合などです。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1623
+#: ../cmk/gui/wato/pages/rulesets.py:1620
 #, python-format
 msgid ""
 "Unable to read current options of this rule. Falling back to default values. "
@@ -71072,11 +71086,11 @@ msgid "Unknown date"
 msgstr "日付不明"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:144
-#: ../cmk/gui/plugins/views/inventory.py:1172
+#: ../cmk/gui/plugins/views/inventory.py:1217
 msgid "Unknown entities"
 msgstr "不明なエンティティ"
 
-#: ../cmk/gui/plugins/views/inventory.py:1171
+#: ../cmk/gui/plugins/views/inventory.py:1216
 msgid "Unknown entity"
 msgstr "不明なエンティティ"
 
@@ -71085,7 +71099,7 @@ msgstr "不明なエンティティ"
 msgid "Unknown group: %s"
 msgstr "不明なグループ: %s"
 
-#: ../cmk/gui/wato/pages/rulesets.py:857
+#: ../cmk/gui/wato/pages/rulesets.py:854
 #, python-format
 msgid "Unknown match type: %s"
 msgstr "不明な一致タイプ:%s"
@@ -71125,12 +71139,12 @@ msgstr "不明なタググループ \"%s\""
 msgid "Unknown tag group %s"
 msgstr "不明なタググループ %s"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2068
+#: ../cmk/gui/wato/pages/rulesets.py:2065
 #, python-format
 msgid "Unknown tag: Host has <b>not</b> the tag <tt>%s</tt>"
 msgstr "不明なタグ:ホストには <b>タグ<tt>%s </tt>が<b>ありません</b>"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2070
+#: ../cmk/gui/wato/pages/rulesets.py:2067
 #, python-format
 msgid "Unknown tag: Host has the tag <tt>%s</tt>"
 msgstr "不明なタグ:ホストのタグは<tt>%s </tt>です"
@@ -72514,7 +72528,7 @@ msgstr "別々のフェッチャーとチェッカーを使用する"
 msgid "Use settings and page layout from"
 msgstr "設定とページレイアウトを使用する"
 
-#: ../cmk/gui/plugins/views/inventory.py:211
+#: ../cmk/gui/plugins/views/inventory.py:224
 msgid "Use short title in reports header"
 msgstr "レポートヘッダーに短いタイトルを使用する"
 
@@ -72668,7 +72682,7 @@ msgstr "Checkmkエージェントのステータスを使用する"
 msgid "Use the status of the service..."
 msgstr "サービスのステータスを使用します..."
 
-#: ../cmk/gui/wato/pages/rulesets.py:1893
+#: ../cmk/gui/wato/pages/rulesets.py:1890
 #: ../cmk/gui/plugins/wato/utils/__init__.py:2240
 msgid "Use this condition to select hosts based on the configured host labels."
 msgstr ""
@@ -72680,7 +72694,7 @@ msgid ""
 msgstr ""
 "この条件を使用して、構成されたサービスラベルに基づいてホストを選択します。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1900
+#: ../cmk/gui/wato/pages/rulesets.py:1897
 msgid ""
 "Use this condition to select services based on the configured service labels."
 msgstr ""
@@ -72690,7 +72704,7 @@ msgstr ""
 msgid "Use this custom start URL"
 msgstr "このカスタム開始URLを使用する"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1222
+#: ../cmk/gui/wato/pages/rulesets.py:1219
 msgid ""
 "Use this field to search the description, comment, host and service "
 "conditions including the text representation of the configured values."
@@ -72961,7 +72975,7 @@ msgstr ""
 "存在する場合は独自のレベルを使用し、存在しない場合はデバイスのレベルを使用し"
 "ます"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1254
+#: ../cmk/gui/wato/pages/rulesets.py:1251
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:957
 msgid "Used"
 msgstr "使用済み"
@@ -73021,7 +73035,7 @@ msgstr "使用済みファイルシステムスペース"
 msgid "Used filesystem space %"
 msgstr "使用済みファイルシステムスペース %"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1285
+#: ../cmk/gui/wato/pages/rulesets.py:1282
 msgid "Used host tags"
 msgstr "使用されたホストタグ"
 
@@ -73350,7 +73364,7 @@ msgstr "cifs共有を使用しているユーザー"
 msgid "Users' notification rule"
 msgstr "ユーザーの通知ルール"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1324
+#: ../cmk/gui/wato/pages/rulesets.py:1321
 msgid "Using predefined condition"
 msgstr "事前定義された条件の使用"
 
@@ -73654,9 +73668,9 @@ msgstr "欠測データの有効性"
 msgid "Validity of outdated data"
 msgstr "古いデータの有効性"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1038
-#: ../cmk/gui/wato/pages/rulesets.py:1271
-#: ../cmk/gui/wato/pages/rulesets.py:1611 ../cmk/gui/wato/mkeventd.py:393
+#: ../cmk/gui/wato/pages/rulesets.py:1035
+#: ../cmk/gui/wato/pages/rulesets.py:1268
+#: ../cmk/gui/wato/pages/rulesets.py:1608 ../cmk/gui/wato/mkeventd.py:393
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1461
 #: ../cmk/gui/cee/plugins/wato/cmc.py:1526
 #: ../cmk/gui/cee/plugins/reporting/simple_elements.py:192
@@ -73981,7 +73995,7 @@ msgstr "バーチャルホスト名"
 msgid "Vhosts"
 msgstr "Vhosts"
 
-#: ../cmk/gui/inventory.py:286
+#: ../cmk/gui/inventory.py:295
 msgid ""
 "Via <tt>Display options > Show internal tree paths</tt> on the HW/SW "
 "Inventory page of a host you can make the internal tree paths visible which "
@@ -74186,7 +74200,7 @@ msgstr "Vlan"
 msgid "VoIP"
 msgstr "VoIP"
 
-#: ../cmk/gui/plugins/views/inventory.py:185
+#: ../cmk/gui/plugins/views/inventory.py:191
 msgid "Volt"
 msgstr "ボルト"
 
@@ -77660,7 +77674,7 @@ msgstr "年"
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:86
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:95
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:104
-#: ../cmk/gui/plugins/views/inventory.py:559
+#: ../cmk/gui/plugins/views/inventory.py:581
 #: ../cmk/gui/plugins/views/availability.py:1088
 msgid "Yes"
 msgstr "はい"
@@ -77716,7 +77730,7 @@ msgstr ""
 "ID <b>%s</b>のアクションがありません。これは、一部のルールで引き続き使用され"
 "ています。"
 
-#: ../cmk/gui/inventory.py:515
+#: ../cmk/gui/inventory.py:526
 #, python-format
 msgid "You are not allowed to access the host %s."
 msgstr ""
@@ -77808,7 +77822,7 @@ msgstr ""
 msgid "You are not logged into the remote site."
 msgstr "リモートサイトにログインしていません。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:634 ../cmk/gui/wato/pages/rulesets.py:1348
+#: ../cmk/gui/wato/pages/rulesets.py:631 ../cmk/gui/wato/pages/rulesets.py:1345
 msgid "You are not permitted to access this ruleset."
 msgstr "このルールセットにアクセスすることは許可されていません。"
 
@@ -77839,8 +77853,8 @@ msgstr ""
 "行しようとしています。Check_MKは、プリフォークモジュールでのみ機能します。"
 "Check_MKが機能するように、MPMモジュールを変更してください。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:816 ../cmk/gui/wato/pages/rulesets.py:1386
-#: ../cmk/gui/wato/pages/rulesets.py:1396
+#: ../cmk/gui/wato/pages/rulesets.py:813 ../cmk/gui/wato/pages/rulesets.py:1383
+#: ../cmk/gui/wato/pages/rulesets.py:1393
 msgid "You are trying to edit a rule which does not exist anymore."
 msgstr "存在しないルールを編集しようとしています"
 
@@ -78011,7 +78025,7 @@ msgstr ""
 "のプログラムはいつでも手動で実行できます(<tt> -v </tt>オプションを追加して、"
 "実行されたアクションの詳細を確認してください)。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1685
+#: ../cmk/gui/wato/pages/rulesets.py:1682
 #, python-format
 msgid "You can create predefined conditions <a href=\"%s\">here</a>."
 msgstr "<a href = \"%s\">ここ</a>で事前定義された条件を作成できます。"
@@ -78076,7 +78090,7 @@ msgstr ""
 "きます。画面の右側で試してみたい接続オプションを設定し、[テスト]ボタンを押す"
 "だけです。結果はここに表示されます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1654
+#: ../cmk/gui/wato/pages/rulesets.py:1651
 msgid ""
 "You can either specify individual conditions for this rule, or use a set of "
 "predefined conditions, which may be handy if you have to configure the same "
@@ -78155,7 +78169,7 @@ msgstr ""
 "プラグインが特定のバージョンまたは最小バージョンで実行されていることを確認で"
 "きます。"
 
-#: ../cmk/gui/wato/pages/rulesets.py:1955
+#: ../cmk/gui/wato/pages/rulesets.py:1952
 msgid ""
 "You can make the rule apply only to certain services of the specified hosts. "
 "Do this by specifying explicit <b>items</b> to match here. <b>Hint:</b> make "
@@ -79201,7 +79215,7 @@ msgstr ""
 "少なくとも1つのCAを入力する必要があります。それ以外の場合、SSL接続を確立でき"
 "ません。"
 
-#: ../cmk/gui/inventory.py:442
+#: ../cmk/gui/inventory.py:451
 msgid "You need to provide a \"host\"."
 msgstr "\"ホスト\"を提供する必要があります。"
 
@@ -79611,7 +79625,7 @@ msgstr "スイッチ間リンクのサービスの説明に\"ISL\"を追加"
 msgid "add ISL"
 msgstr "ISLを追加"
 
-#: ../cmk/gui/plugins/views/utils.py:1359
+#: ../cmk/gui/plugins/views/utils.py:1360
 #: ../cmk/gui/plugins/visuals/utils.py:380
 msgid "ago"
 msgstr "前"
@@ -79676,7 +79690,7 @@ msgstr ""
 msgid "allow users to deactivate this notification"
 msgstr "ユーザーがこの通知を非アクティブ化できるようにする"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2086
+#: ../cmk/gui/wato/pages/rulesets.py:2083
 msgid "and"
 msgstr "そして"
 
@@ -79740,12 +79754,12 @@ msgstr "バー"
 msgid "beginning from notification number"
 msgstr "通知番号から"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2236
+#: ../cmk/gui/wato/pages/rulesets.py:2233
 msgid "begins not with "
 msgstr "で始まらない "
 
-#: ../cmk/gui/wato/pages/rulesets.py:2220
-#: ../cmk/gui/wato/pages/rulesets.py:2238
+#: ../cmk/gui/wato/pages/rulesets.py:2217
+#: ../cmk/gui/wato/pages/rulesets.py:2235
 msgid "begins with "
 msgstr "で始まる "
 
@@ -79838,14 +79852,6 @@ msgstr "カートリッジ仕様"
 #: ../cmk/gui/plugins/views/mkeventd.py:1147
 msgid "change the state"
 msgstr "状態を変更します"
-
-#: ../cmk/gui/plugins/views/inventory.py:1612
-msgid "changed"
-msgstr "変更された"
-
-#: ../cmk/gui/plugins/views/inventory.py:1609
-msgid "changed entries"
-msgstr "変更されたエントリ"
 
 #: ../cmk/gui/wato/pages/check_catalog.py:290
 msgid "check plugins"
@@ -80165,7 +80171,7 @@ msgstr "日"
 #: ../cmk/gui/plugins/wato/check_parameters/livestatus_status.py:72
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:47
 #: ../cmk/gui/plugins/wato/check_parameters/sles_license.py:48
-#: ../cmk/gui/plugins/views/inventory.py:594
+#: ../cmk/gui/plugins/views/inventory.py:616
 #: ../cmk/gui/plugins/visuals/utils.py:359
 msgid "days"
 msgstr "日"
@@ -80307,11 +80313,11 @@ msgstr "このレポートを作成しないでください"
 msgid "do not regard as scheduled downtime"
 msgstr "スケジュールされたダウンタイムとは見なさない"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2218
+#: ../cmk/gui/wato/pages/rulesets.py:2215
 msgid "does not begin with "
 msgstr "で始まらない "
 
-#: ../cmk/gui/wato/pages/rulesets.py:2176
+#: ../cmk/gui/wato/pages/rulesets.py:2173
 msgid "does not match regex"
 msgstr "正規表現と一致しません"
 
@@ -80573,7 +80579,7 @@ msgstr "予測トレンドのみ"
 msgid "fourth week"
 msgstr "4週目"
 
-#: ../cmk/gui/plugins/views/inventory.py:498
+#: ../cmk/gui/plugins/views/inventory.py:520
 #: ../cmk/gui/plugins/visuals/inventory.py:253
 msgid "free"
 msgstr "自由"
@@ -80847,11 +80853,11 @@ msgstr "...日で"
 msgid "in notif. p."
 msgstr ""
 
-#: ../cmk/gui/plugins/views/utils.py:1357
+#: ../cmk/gui/plugins/views/utils.py:1358
 msgid "in the future!"
 msgstr "将来は！"
 
-#: ../cmk/gui/plugins/views/utils.py:1355
+#: ../cmk/gui/plugins/views/utils.py:1356
 msgid "in the past!"
 msgstr "過去には!"
 
@@ -80918,7 +80924,7 @@ msgstr "無効なエントリ%s:%s <br>\n"
 msgid "invalid:"
 msgstr "無効:"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2144
+#: ../cmk/gui/wato/pages/rulesets.py:2141
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2384
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1909
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1966
@@ -80926,34 +80932,34 @@ msgstr "無効:"
 msgid "is"
 msgstr "です"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2178
-#: ../cmk/gui/wato/pages/rulesets.py:2238
+#: ../cmk/gui/wato/pages/rulesets.py:2175
+#: ../cmk/gui/wato/pages/rulesets.py:2235
 msgid "is "
 msgstr "です "
 
-#: ../cmk/gui/plugins/views/inventory.py:504
+#: ../cmk/gui/plugins/views/inventory.py:526
 msgid "is clustered"
 msgstr "クラスター化されています"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2176
+#: ../cmk/gui/wato/pages/rulesets.py:2173
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1910
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1967
 msgid "is not"
 msgstr "ではありません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2236
+#: ../cmk/gui/wato/pages/rulesets.py:2233
 msgid "is not "
 msgstr "ではありません "
 
-#: ../cmk/gui/plugins/views/inventory.py:504
+#: ../cmk/gui/plugins/views/inventory.py:526
 msgid "is not clustered"
 msgstr "クラスター化されていません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2144
+#: ../cmk/gui/wato/pages/rulesets.py:2141
 msgid "is not one of"
 msgstr "の1つではありません"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2141
+#: ../cmk/gui/wato/pages/rulesets.py:2138
 msgid "is not one of regex"
 msgstr "正規表現の1つではありません"
 
@@ -81101,11 +81107,11 @@ msgstr "マスター"
 msgid "master / standalone"
 msgstr ""
 
-#: ../cmk/gui/wato/pages/rulesets.py:2141
+#: ../cmk/gui/wato/pages/rulesets.py:2138
 msgid "matches one of regex"
 msgstr "正規表現の1つと一致します"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2178
+#: ../cmk/gui/wato/pages/rulesets.py:2175
 msgid "matches regex"
 msgstr "正規表現に一致"
 
@@ -81306,14 +81312,6 @@ msgstr "該当なし"
 msgid "negate"
 msgstr "否定する"
 
-#: ../cmk/gui/plugins/views/inventory.py:1592
-msgid "new"
-msgstr "新着"
-
-#: ../cmk/gui/plugins/views/inventory.py:1589
-msgid "new entries"
-msgstr "新しいエントリ"
-
 #: ../cmk/gui/wato/pages/host_rename.py:343
 msgid "new host name"
 msgstr "新しいホスト名"
@@ -81327,7 +81325,7 @@ msgstr "新しいホスト名"
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:44
 #: ../cmk/gui/plugins/views/painters.py:1575
 #: ../cmk/gui/plugins/views/painters.py:4109
-#: ../cmk/gui/plugins/views/utils.py:1378
+#: ../cmk/gui/plugins/views/utils.py:1379
 #: ../cmk/gui/plugins/visuals/utils.py:327 ../cmk/gui/visuals.py:612
 #: ../cmk/gui/visuals.py:613
 msgid "no"
@@ -81397,7 +81395,7 @@ msgstr "のどれも"
 msgid "normal connection"
 msgstr "通常の接続"
 
-#: ../cmk/gui/wato/pages/rulesets.py:2105
+#: ../cmk/gui/wato/pages/rulesets.py:2102
 msgid "not"
 msgstr "ではない"
 
@@ -81488,7 +81486,7 @@ msgstr "不特定のサービスの"
 #: ../cmk/gui/views.py:1441 ../cmk/gui/htmllib/__init__.py:1640
 #: ../cmk/gui/valuespec.py:2279
 #: ../cmk/gui/plugins/sidebar/master_control.py:138
-#: ../cmk/gui/plugins/views/utils.py:353
+#: ../cmk/gui/plugins/views/utils.py:354
 msgid "off"
 msgstr "オフ"
 
@@ -82122,7 +82120,7 @@ msgstr "2週目"
 msgid "seconds"
 msgstr "秒"
 
-#: ../cmk/gui/valuespec.py:361 ../cmk/gui/plugins/views/inventory.py:188
+#: ../cmk/gui/valuespec.py:361 ../cmk/gui/plugins/views/inventory.py:194
 msgid "secs"
 msgstr "秒"
 
@@ -82402,7 +82400,7 @@ msgstr "ポートへ:"
 msgid "to:"
 msgstr "に:"
 
-#: ../cmk/gui/valuespec.py:3549 ../cmk/gui/plugins/views/inventory.py:591
+#: ../cmk/gui/valuespec.py:3549 ../cmk/gui/plugins/views/inventory.py:613
 msgid "today"
 msgstr "今日"
 
@@ -82429,7 +82427,7 @@ msgstr "2つのレベル"
 #: ../cmk/gui/plugins/wato/check_parameters/azure.py:290
 #: ../cmk/gui/plugins/wato/check_parameters/keepalived.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/brocade_fcport.py:217
-#: ../cmk/gui/plugins/views/inventory.py:491 ../cmk/utils/defines.py:127
+#: ../cmk/gui/plugins/views/inventory.py:513 ../cmk/utils/defines.py:127
 msgid "unknown"
 msgstr "不明"
 
@@ -82485,7 +82483,7 @@ msgstr "ポート名を使用する"
 
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_datafiles.py:76
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_transactionlogs.py:56
-#: ../cmk/gui/plugins/views/inventory.py:498
+#: ../cmk/gui/plugins/views/inventory.py:520
 #: ../cmk/gui/plugins/visuals/inventory.py:253
 msgid "used"
 msgstr "中古"
@@ -82745,13 +82743,13 @@ msgstr "年"
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_ip_sla.py:104
 #: ../cmk/gui/plugins/wato/check_parameters/sshd_config.py:41
 #: ../cmk/gui/plugins/views/painters.py:1574
-#: ../cmk/gui/plugins/views/utils.py:1378
+#: ../cmk/gui/plugins/views/utils.py:1379
 #: ../cmk/gui/plugins/visuals/utils.py:327 ../cmk/gui/visuals.py:612
 #: ../cmk/gui/visuals.py:613
 msgid "yes"
 msgstr "はい"
 
-#: ../cmk/gui/valuespec.py:3585 ../cmk/gui/plugins/views/inventory.py:593
+#: ../cmk/gui/valuespec.py:3585 ../cmk/gui/plugins/views/inventory.py:615
 msgid "yesterday"
 msgstr "昨日"
 
@@ -82762,6 +82760,12 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:114
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. All Rights Reserved."
+
+#~ msgid "changed"
+#~ msgstr "変更された"
+
+#~ msgid "new"
+#~ msgstr "新着"
 
 #~ msgid "Unsupported context type '%s'"
 #~ msgstr "サポートされていないコンテキストタイプ '%s'"
