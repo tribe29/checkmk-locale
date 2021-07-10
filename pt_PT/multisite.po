@@ -1408,7 +1408,7 @@ msgstr "300.000 Serviços"
 msgid "32bit packaged binary"
 msgstr "32bit binário embalado"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1469
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1410
 msgid "389 Directory Server"
 msgstr "389 Servidor de Diretório"
 
@@ -2448,7 +2448,7 @@ msgstr ""
 "Listar esses hosts nesta regra obriga-os a usar a verificação de interface "
 "com contadores de 32 bits em seu lugar."
 
-#: ../cmk/gui/dashboard.py:1567
+#: ../cmk/gui/dashboard.py:1572
 msgid ""
 "A dashboard can have an optional context. It can for example be restricted "
 "to display only information of a single host or for a set of services "
@@ -3895,7 +3895,7 @@ msgstr "Ativo (arquivos)"
 msgid "Active Connections"
 msgstr "Conexões Ativas"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1467
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1408
 msgid "Active Directory"
 msgstr "Active Directory"
 
@@ -4052,7 +4052,7 @@ msgstr "Atualizações do log de atividades"
 msgid "Actual traffic"
 msgstr "Tráfego real"
 
-#: ../cmk/gui/wato/pages/groups.py:90 ../cmk/gui/dashboard.py:820
+#: ../cmk/gui/wato/pages/groups.py:90 ../cmk/gui/dashboard.py:825
 msgid "Add"
 msgstr "Adicione"
 
@@ -4265,7 +4265,7 @@ msgstr "Adicionar detalhes manualmente"
 msgid "Add diskstate rule"
 msgstr "Adicionar a regra do estado de disco"
 
-#: ../cmk/gui/valuespec.py:2003 ../cmk/gui/dashboard.py:1783
+#: ../cmk/gui/valuespec.py:2003 ../cmk/gui/dashboard.py:1788
 msgid "Add element"
 msgstr "Adicionar elemento"
 
@@ -4793,7 +4793,7 @@ msgstr "Adicionadas as %s \"%s\"."
 msgid "Added to stack"
 msgstr "Adicionado à pilha"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1248
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1189
 #, python-format
 msgid "Added: %s"
 msgstr "Adicionado: %s"
@@ -4918,7 +4918,7 @@ msgstr ""
 "Você também não precisa disto se você estiver rodando o software "
 "OpenHardwareMonitor normal."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2416
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2357
 msgid ""
 "Adds the user to contactgroups based on the group memberships in LDAP. This "
 "plugin adds the user only to existing contactgroups while the name of the "
@@ -5800,7 +5800,7 @@ msgstr "Algoritmo"
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:356
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:378
 #: ../cmk/gui/plugins/wato/builtin_attributes.py:83
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2197
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2138
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:941
 #: ../cmk/gui/plugins/views/painters.py:2486
 #: ../cmk/gui/plugins/views/painters.py:3607
@@ -5920,11 +5920,11 @@ msgstr "Todos os contactos do objecto notificado"
 msgid "All crit services of a certain hostgroup"
 msgstr "Todos os serviços críticos de um determinado grupo anfitrião"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:798
+#: ../cmk/gui/cme/plugins/views/managed.py:799
 msgid "All customers"
 msgstr "Todos os clientes"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:469
+#: ../cmk/gui/cme/plugins/views/managed.py:470
 msgid "All customers with host and service statistics"
 msgstr "Todos os clientes com estatísticas de alojamento e serviços"
 
@@ -7551,11 +7551,11 @@ msgstr ""
 "O atributo \"%s\" do usuário \"%s\" não pode ser alterado, porque está "
 "bloqueado pela conexão do usuário."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1399
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1340
 msgid "Attribute Sync Plugins"
 msgstr "Atribuir Plugins de Sincronização"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1787
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1728
 msgid "Attribute sync plugins"
 msgstr "Plugins de Sincronização de Atributos"
 
@@ -7563,7 +7563,7 @@ msgstr "Plugins de Sincronização de Atributos"
 msgid "Attribute to search"
 msgstr "Atributo à pesquisa"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2537
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2478
 msgid "Attribute to set"
 msgstr "Atributo a definir"
 
@@ -7638,7 +7638,7 @@ msgstr "Autenticação (predefinições)"
 msgid "Authentication (instance specific)"
 msgstr "Autenticação (específica da instância)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2254
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2195
 msgid "Authentication Expiration"
 msgstr "Validade da Autenticação"
 
@@ -7846,7 +7846,7 @@ msgstr "Criar automaticamente agentes de monitoramento"
 msgid "Automatically delete hosts without piggyback data"
 msgstr "Eliminação automática de hospedeiros sem dados piggyback"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1611
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1552
 msgid "Automatically discover LDAP server"
 msgstr "Descobrir automaticamente o servidor LDAP"
 
@@ -8909,15 +8909,15 @@ msgid "Binaries"
 msgstr "Binários"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1316
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1485
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1426
 msgid "Bind DN"
 msgstr "Bind DN"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1475
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1416
 msgid "Bind credentials"
 msgstr "Credenciais Bind"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1493
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1434
 msgid "Bind password"
 msgstr "Senha de encadernação"
 
@@ -10455,7 +10455,7 @@ msgstr "taxa de erros CRC"
 #: ../cmk/gui/plugins/visuals/filters.py:1060
 #: ../cmk/gui/plugins/visuals/filters.py:2651
 #: ../cmk/gui/plugins/visuals/filters.py:2917
-#: ../cmk/gui/cme/plugins/views/managed.py:269 ../cmk/utils/defines.py:38
+#: ../cmk/gui/cme/plugins/views/managed.py:270 ../cmk/utils/defines.py:38
 msgid "CRIT"
 msgstr "CRIT"
 
@@ -11224,7 +11224,7 @@ msgstr ""
 msgid "Changed"
 msgstr "Alterado"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1272
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1213
 #, python-format
 msgid "Changed %s from %s to %s"
 msgstr "Mudou a %s de %s para %s"
@@ -11851,7 +11851,7 @@ msgid "Checking of Datadog monitors"
 msgstr "Secção de ficheiros a monitorizar"
 
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:439
-#: ../cmk/gui/dashboard.py:889
+#: ../cmk/gui/dashboard.py:894
 msgid "Checkmk"
 msgstr "Checkmk"
 
@@ -12041,7 +12041,7 @@ msgstr "Versão Checkmk"
 msgid "Checkmk versions"
 msgstr "Versões Checkmk"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1715
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1656
 msgid ""
 "Checkmk was not not supporting special characters (like Umlauts) in User-"
 "IDs. To deal with LDAP users having umlauts in their User-IDs you had the "
@@ -13031,7 +13031,7 @@ msgstr "Com. buf. max/total"
 
 #: ../cmk/gui/cee/plugins/dashboard/combined_graph.py:27
 #: ../cmk/gui/cee/plugins/reporting/pnp_graphs.py:560
-#: ../cmk/gui/cee/plugins/metrics/graphs.py:1161 ../cmk/gui/dashboard.py:1146
+#: ../cmk/gui/cee/plugins/metrics/graphs.py:1161 ../cmk/gui/dashboard.py:1151
 msgid "Combined graph"
 msgstr "Gráfico combinado"
 
@@ -13645,7 +13645,7 @@ msgstr ""
 "Configurar as possíveis ações que podem ser realizadas quando uma regra é "
 "acionada e também manualmente por um usuário."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1618
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1559
 msgid ""
 "Configure the DNS domain name of your Active directory domain here, Check_MK "
 "will then query this domain for it's closest domain controller to "
@@ -13792,7 +13792,7 @@ msgstr ""
 "Configura o número de filtros disponíveis na visualização da topologia da "
 "rede."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2584
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2525
 msgid ""
 "Configures the roles of the user depending on its group memberships in LDAP."
 "<br><br>Please note: Additionally the user is assigned to the <a href=\"wato."
@@ -13909,7 +13909,7 @@ msgstr "Ligue directamente, sem o Livestatus Proxy"
 
 #: ../cmk/gui/wato/pages/sites.py:322
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:406
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1521
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1462
 msgid "Connect timeout"
 msgstr "Tempo limite de ligação"
 
@@ -13917,7 +13917,7 @@ msgstr "Tempo limite de ligação"
 msgid "Connect timeout to status socket of Event Console"
 msgstr "Conecte o timeout à tomada de status do Console de Eventos"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1630
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1571
 msgid "Connect to"
 msgstr "Ligue-se a"
 
@@ -13933,7 +13933,7 @@ msgstr "Conectar-se a locais remotos"
 msgid "Connect to site url"
 msgstr "Conectar ao site url"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1512
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1453
 msgid ""
 "Connect to the LDAP server with a SSL encrypted connection. The <a href="
 "\"wato.py?mode=edit_configvar&site=&varname=trusted_certificate_authorities"
@@ -14282,7 +14282,7 @@ msgstr "Os grupos de contacto em regra têm precedência"
 msgid "Contact information"
 msgstr "Informações de contato"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2412
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2353
 msgid "Contactgroup Membership"
 msgstr "Participação em grupos de contato"
 
@@ -14410,7 +14410,7 @@ msgstr "Chaves de contexto"
 
 #: ../cmk/gui/views.py:1264 ../cmk/gui/cee/reporting.py:1329
 #: ../cmk/gui/cee/reporting.py:1589 ../cmk/gui/visuals.py:709
-#: ../cmk/gui/dashboard.py:1762
+#: ../cmk/gui/dashboard.py:1767
 msgid "Continue"
 msgstr "Continuar"
 
@@ -14471,7 +14471,7 @@ msgstr "Converter hostnames para minúsculas"
 msgid "Convert hostnames to upper case"
 msgstr "Converter hostnames em maiúsculas"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1708
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1649
 msgid "Convert imported User-IDs to lower case during synchronization."
 msgstr ""
 "Converter os User-IDs importados para minúsculas durante a sincronização."
@@ -14511,11 +14511,11 @@ msgstr "Copia uma vista para um elemento do painel de instrumentos"
 msgid "Copy Rules From Master"
 msgstr "Copiar Regras do Mestre"
 
-#: ../cmk/gui/dashboard.py:1674
+#: ../cmk/gui/dashboard.py:1679
 msgid "Copy existing view"
 msgstr "Copiar visão existente"
 
-#: ../cmk/gui/dashboard.py:1096
+#: ../cmk/gui/dashboard.py:1101
 msgid "Copy of existing view"
 msgstr "Cópia da visão existente"
 
@@ -15222,7 +15222,7 @@ msgstr "Criar os seguintes grupos de interface"
 msgid "Create topic"
 msgstr "Criar tópico"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1729
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1670
 msgid "Create users only on login"
 msgstr "Criar usuários somente no login"
 
@@ -16893,7 +16893,7 @@ msgstr "Links de rodapé personalizados"
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:34
 #: ../cmk/gui/cee/plugins/dashboard/custom_graph.py:90
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:190
-#: ../cmk/gui/dashboard.py:1137
+#: ../cmk/gui/dashboard.py:1142
 msgid "Custom graph"
 msgstr "Gráfico personalizado"
 
@@ -17050,15 +17050,15 @@ msgstr "Cheque personalizado"
 #: ../cmk/gui/cme/plugins/wato/managed.py:471
 #: ../cmk/gui/cme/plugins/wato/managed.py:478
 #: ../cmk/gui/cme/plugins/wato/managed.py:756
-#: ../cmk/gui/cme/plugins/views/managed.py:75
-#: ../cmk/gui/cme/plugins/views/managed.py:131
-#: ../cmk/gui/cme/plugins/views/managed.py:171
+#: ../cmk/gui/cme/plugins/views/managed.py:76
+#: ../cmk/gui/cme/plugins/views/managed.py:132
+#: ../cmk/gui/cme/plugins/views/managed.py:172
 #: ../cmk/gui/cme/plugins/visuals/managed.py:54
 msgid "Customer"
 msgstr "Cliente"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:168
-#: ../cmk/gui/cme/plugins/views/managed.py:189
+#: ../cmk/gui/cme/plugins/views/managed.py:169
+#: ../cmk/gui/cme/plugins/views/managed.py:190
 msgid "Customer ID"
 msgstr "Identificação do cliente"
 
@@ -17066,8 +17066,8 @@ msgstr "Identificação do cliente"
 msgid "Customer Macros"
 msgstr "Macros de Cliente"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:128
-#: ../cmk/gui/cme/plugins/views/managed.py:149
+#: ../cmk/gui/cme/plugins/views/managed.py:129
+#: ../cmk/gui/cme/plugins/views/managed.py:150
 msgid "Customer name"
 msgstr "Nome do cliente"
 
@@ -17075,43 +17075,43 @@ msgstr "Nome do cliente"
 msgid "Customer name missing"
 msgstr "Falta o nome do cliente"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:326
+#: ../cmk/gui/cme/plugins/views/managed.py:327
 msgid "Customer number of hosts"
 msgstr "Número de clientes anfitriões"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:366
+#: ../cmk/gui/cme/plugins/views/managed.py:367
 msgid "Customer number of hosts in state DOWN"
 msgstr "Número de clientes no estado DOWN"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:406
+#: ../cmk/gui/cme/plugins/views/managed.py:407
 msgid "Customer number of hosts in state PENDING"
 msgstr "Número de clientes no estado PENDENTE"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:386
+#: ../cmk/gui/cme/plugins/views/managed.py:387
 msgid "Customer number of hosts in state UNREACH"
 msgstr "Número de clientes anfitriões no estado UNREACH"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:346
+#: ../cmk/gui/cme/plugins/views/managed.py:347
 msgid "Customer number of hosts in state UP"
 msgstr "Número de clientes no estado UP"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:206
+#: ../cmk/gui/cme/plugins/views/managed.py:207
 msgid "Customer number of services"
 msgstr "Número de serviços do cliente"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:266
+#: ../cmk/gui/cme/plugins/views/managed.py:267
 msgid "Customer number of services in state CRIT"
 msgstr "Número de clientes de serviços no CRIT estadual"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:226
+#: ../cmk/gui/cme/plugins/views/managed.py:227
 msgid "Customer number of services in state OK"
 msgstr "Número de clientes de serviços no estado OK"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:306
+#: ../cmk/gui/cme/plugins/views/managed.py:307
 msgid "Customer number of services in state PENDING"
 msgstr "Número de clientes de serviços no estado PENDENTE"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:246
+#: ../cmk/gui/cme/plugins/views/managed.py:247
 msgid "Customer number of services in state WARN"
 msgstr "Número de clientes de serviços no estado WARN"
 
@@ -17139,7 +17139,7 @@ msgstr "Layout do relatório específico do cliente"
 #: ../cmk/gui/cme/plugins/wato/managed.py:192
 #: ../cmk/gui/cme/plugins/wato/managed.py:832
 #: ../cmk/gui/cme/plugins/sidebar/managed.py:35
-#: ../cmk/gui/cme/plugins/views/managed.py:495
+#: ../cmk/gui/cme/plugins/views/managed.py:496
 #: ../cmk/gui/cme/plugins/visuals/managed.py:58
 msgid "Customers"
 msgstr "Clientes"
@@ -17159,7 +17159,7 @@ msgstr ""
 "usará o layout especificado aqui como o layout para esse cliente."
 
 #: ../cmk/gui/pagetypes.py:1330 ../cmk/gui/cme/plugins/wato/managed.py:743
-#: ../cmk/gui/dashboard.py:855
+#: ../cmk/gui/dashboard.py:860
 msgid "Customize"
 msgstr "Personalizar"
 
@@ -17168,7 +17168,7 @@ msgstr "Personalizar"
 msgid "Customize %s and use them"
 msgstr "Personalizar %s e usá-las"
 
-#: ../cmk/gui/dashboard.py:858
+#: ../cmk/gui/dashboard.py:863
 msgid "Customize Dashboards"
 msgstr "Personalizar Painel de Controle"
 
@@ -17176,7 +17176,7 @@ msgstr "Personalizar Painel de Controle"
 msgid "Customize GUI design"
 msgstr "Personalizar o design da GUI"
 
-#: ../cmk/gui/dashboard.py:915
+#: ../cmk/gui/dashboard.py:920
 msgid "Customize builtin dashboard"
 msgstr "Personalizar o painel de instrumentos"
 
@@ -17438,7 +17438,7 @@ msgstr "Resolução DNS"
 msgid "DNS Server"
 msgstr "Servidor DNS"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1616
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1557
 msgid "DNS domain name to discover LDAP servers of"
 msgstr "Nome de domínio DNS para descobrir servidores LDAP de"
 
@@ -17505,7 +17505,7 @@ msgstr "respostas bem-sucedidas do DNS"
 #: ../cmk/gui/plugins/views/availability.py:626
 #: ../cmk/gui/plugins/visuals/filters.py:793
 #: ../cmk/gui/plugins/visuals/filters.py:1005
-#: ../cmk/gui/cme/plugins/views/managed.py:369 ../cmk/utils/defines.py:50
+#: ../cmk/gui/cme/plugins/views/managed.py:370 ../cmk/utils/defines.py:50
 #: ../cmk/utils/defines.py:57
 msgid "DOWN"
 msgstr "PARA BAIXO"
@@ -17571,11 +17571,11 @@ msgstr "Visualização diária paginada"
 msgid "Dangerous"
 msgstr "Perigoso"
 
-#: ../cmk/gui/dashboard.py:799
+#: ../cmk/gui/dashboard.py:804
 msgid "Dashboard"
 msgstr "Painel de instrumentos"
 
-#: ../cmk/gui/dashboard.py:1598
+#: ../cmk/gui/dashboard.py:1603
 msgid "Dashboard Properties"
 msgstr "Propriedades do Painel de Controle"
 
@@ -17584,8 +17584,8 @@ msgid "Dashboard element"
 msgstr "Elemento de tablier"
 
 #: ../cmk/gui/pagetypes.py:1351 ../cmk/gui/pagetypes.py:1919
-#: ../cmk/gui/plugins/sidebar/dashboards.py:31 ../cmk/gui/dashboard.py:255
-#: ../cmk/gui/dashboard.py:826
+#: ../cmk/gui/plugins/sidebar/dashboards.py:31 ../cmk/gui/dashboard.py:256
+#: ../cmk/gui/dashboard.py:831
 msgid "Dashboards"
 msgstr "Painéis de instrumentos"
 
@@ -17602,7 +17602,7 @@ msgstr ""
 "estar acessível. Se você quiser definir um novo nome de tópico você pode "
 "fazer isso aqui <a href='%s'>here</a>."
 
-#: ../cmk/gui/dashboard.py:619
+#: ../cmk/gui/dashboard.py:624
 #, python-format
 msgid ""
 "Dashlet type %s could not be found. Please remove it from your dashboard "
@@ -18206,11 +18206,11 @@ msgstr "Cor do tema predefinida"
 msgid "Default time range"
 msgstr "Intervalo de tempo predefinido"
 
-#: ../cmk/gui/config.py:863
+#: ../cmk/gui/config.py:859
 msgid "Default to show less"
 msgstr "Padrão para mostrar menos"
 
-#: ../cmk/gui/config.py:864
+#: ../cmk/gui/config.py:860
 msgid "Default to show more"
 msgstr "Padrão para mostrar mais"
 
@@ -19704,7 +19704,7 @@ msgstr ""
 msgid "Directory to save the backup to"
 msgstr "Diretório para salvar o backup para"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1462
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1403
 msgid "Directory type"
 msgstr "Tipo de diretório"
 
@@ -20283,7 +20283,7 @@ msgstr ""
 msgid "Display average"
 msgstr "Exibir média"
 
-#: ../cmk/gui/dashboard.py:1604
+#: ../cmk/gui/dashboard.py:1609
 msgid "Display dashboard title"
 msgstr "Mostrar título do painel de instrumentos"
 
@@ -20539,7 +20539,7 @@ msgstr "Pacote de extensão dissolvido %s"
 msgid "Distinguish times in and out of notification period"
 msgstr "Distinguir tempos dentro e fora do período de notificação"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2706
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2647
 msgid ""
 "Distinguished Names of the LDAP groups to add users this role. e. g. "
 "<tt>CN=cmk-users,OU=groups,DC=example,DC=com</tt><br> This group must be "
@@ -22165,7 +22165,7 @@ msgstr ""
 #: ../cmk/gui/plugins/sidebar/nagvis_maps.py:121
 #: ../cmk/gui/plugins/sidebar/views.py:54
 #: ../cmk/gui/plugins/sidebar/bookmarks.py:272 ../cmk/gui/visuals.py:605
-#: ../cmk/gui/dashboard.py:802
+#: ../cmk/gui/dashboard.py:807
 msgid "Edit"
 msgstr "Editar"
 
@@ -22188,7 +22188,7 @@ msgstr "Editar Agregação"
 msgid "Edit BI Pack %s"
 msgstr "Editar BI Pack %s"
 
-#: ../cmk/gui/dashboard.py:1505
+#: ../cmk/gui/dashboard.py:1510
 msgid "Edit Dashboards"
 msgstr "Editar Painel de Controle"
 
@@ -22281,11 +22281,11 @@ msgstr "Editar gráfico personalizado"
 msgid "Edit customer %s"
 msgstr "Editar %s de clientes"
 
-#: ../cmk/gui/dashboard.py:1521
+#: ../cmk/gui/dashboard.py:1526
 msgid "Edit dashboard"
 msgstr "Editar painel de instrumentos"
 
-#: ../cmk/gui/sidebar.py:714 ../cmk/gui/dashboard.py:1818
+#: ../cmk/gui/sidebar.py:714 ../cmk/gui/dashboard.py:1823
 msgid "Edit element"
 msgstr "Elemento de edição"
 
@@ -22722,7 +22722,7 @@ msgstr "Tensão eléctrica em % do valor normal"
 msgid "Electrical voltage"
 msgstr "Tensão eléctrica"
 
-#: ../cmk/gui/dashboard.py:1925
+#: ../cmk/gui/dashboard.py:1930
 msgid "Element"
 msgstr "Elemento"
 
@@ -22759,7 +22759,7 @@ msgstr "Endereço de e-mail"
 #: ../cmk/gui/wato/pages/users.py:808
 #: ../cmk/gui/plugins/wato/notifications.py:83
 #: ../cmk/gui/plugins/wato/notifications.py:107
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2140
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2081
 msgid "Email address"
 msgstr "Endereço de e-mail"
 
@@ -22781,7 +22781,7 @@ msgstr "Relatório enviado por e-mail para %s."
 msgid "Emails containing %s per Second"
 msgstr "E-mails contendo %s por segundo"
 
-#: ../cmk/gui/dashboard.py:1649
+#: ../cmk/gui/dashboard.py:1654
 msgid "Embed existing view"
 msgstr "Incorporar vista existente"
 
@@ -23235,7 +23235,7 @@ msgstr "Criptografar dados usando TLS"
 msgid "Encrypt the backup using the key:"
 msgstr "Criptografar o backup usando a chave:"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1517
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1458
 msgid "Encrypt the network connection using SSL."
 msgstr "Criptografar a conexão de rede usando SSL."
 
@@ -23345,11 +23345,11 @@ msgstr "Aplicar a versão Python 3"
 msgid "Enforce change"
 msgstr "Forçar a mudança"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1710
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1651
 msgid "Enforce lower case User-IDs."
 msgstr "Aplicar os IDs de usuário em minúsculas."
 
-#: ../cmk/gui/config.py:865
+#: ../cmk/gui/config.py:861
 msgid "Enforce show more"
 msgstr "Força de execução mostra mais"
 
@@ -23392,7 +23392,7 @@ msgstr "Digite o endereço"
 msgid "Enter group"
 msgstr "Entrar no grupo"
 
-#: ../cmk/gui/dashboard.py:925
+#: ../cmk/gui/dashboard.py:930
 msgid "Enter layout mode"
 msgstr "Entrar no modo de layout"
 
@@ -23470,7 +23470,7 @@ msgstr "Configurações da Fonte de Alimentação Enterasys"
 msgid "Enterasys Switch: Temperature"
 msgstr "Enterasys Switch: Temperatura"
 
-#: ../cmk/gui/dashboard.py:1057
+#: ../cmk/gui/dashboard.py:1062
 msgid "Enterprise feature"
 msgstr "Característica da empresa"
 
@@ -25163,7 +25163,7 @@ msgstr "Falha: %s"
 msgid "Failing collectors"
 msgstr "Colectores defeituosos"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1595
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1536
 msgid "Failover Servers"
 msgstr "Servidores Failover"
 
@@ -25635,8 +25635,8 @@ msgstr "Utilização de sistemas de arquivo"
 #: ../cmk/gui/node_visualization.py:196 ../cmk/gui/node_visualization.py:199
 #: ../cmk/gui/werks.py:227 ../cmk/gui/werks.py:230 ../cmk/gui/views.py:934
 #: ../cmk/gui/views.py:942 ../cmk/gui/page_menu.py:740
-#: ../cmk/gui/plugins/wato/bi_config.py:654 ../cmk/gui/dashboard.py:1018
-#: ../cmk/gui/dashboard.py:1021
+#: ../cmk/gui/plugins/wato/bi_config.py:654 ../cmk/gui/dashboard.py:1023
+#: ../cmk/gui/dashboard.py:1026
 msgid "Filter"
 msgstr "Filtro"
 
@@ -25662,7 +25662,7 @@ msgstr "Anfitrião do filtro"
 msgid "Filter aggregations"
 msgstr "Filtrar agregações"
 
-#: ../cmk/gui/dashboard.py:677
+#: ../cmk/gui/dashboard.py:682
 msgid "Filter context missing"
 msgstr "Falta o contexto do filtro"
 
@@ -25698,7 +25698,7 @@ msgstr ""
 "Filtro para todas as agregações que se baseiam nas informações de status "
 "daquele hospedeiro. Combinação exacta (sem expressão regular)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1681
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1622
 msgid "Filter group (see help)"
 msgstr "Grupo de filtros (ver ajuda)"
 
@@ -26614,7 +26614,7 @@ msgstr ""
 msgid "Found all %d groups."
 msgstr "Encontrei todos os grupos %d."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:523
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:522
 #, python-format
 msgid ""
 "Found duplicate LDAP connection suffix. The LDAP connections %s and %s both "
@@ -26950,7 +26950,7 @@ msgstr "Taxa de execução GC"
 msgid "GET/POST variables of this page"
 msgstr "Variáveis GET/POST desta página"
 
-#: ../cmk/gui/config.py:871
+#: ../cmk/gui/config.py:867
 msgid "GUI"
 msgstr "GUI"
 
@@ -27027,7 +27027,7 @@ msgstr "Permissões gerais"
 #: ../cmk/gui/pagetypes.py:148 ../cmk/gui/pagetypes.py:517
 #: ../cmk/gui/pagetypes.py:1256
 #: ../cmk/gui/plugins/wato/utils/simple_modes.py:362
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1395 ../cmk/gui/visuals.py:849
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1336 ../cmk/gui/visuals.py:849
 msgid "General Properties"
 msgstr "Propriedades Gerais"
 
@@ -27145,7 +27145,7 @@ msgstr ""
 "Dê níveis de utilização da FPGA em porcentagem. O intervalo possível é de 0% "
 "a 100%."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1744
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1685
 msgid ""
 "Give a base distinguished name here, e. g. <tt>OU=groups,DC=example,DC=com</"
 "tt><br> All groups used must be located below this one."
@@ -27154,7 +27154,7 @@ msgstr ""
 "DC=com</tt><br> Todos os grupos utilizados devem estar localizados abaixo "
 "deste."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1643
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1584
 msgid ""
 "Give a base distinguished name here, e. g. <tt>OU=users,DC=example,DC=com</"
 "tt><br> All user accounts to synchronize must be located below this one."
@@ -27326,7 +27326,7 @@ msgstr ""
 msgid "Graph rendering options"
 msgstr "Opções de renderização gráfica"
 
-#: ../cmk/gui/dashboard.py:203
+#: ../cmk/gui/dashboard.py:204
 #, python-format
 msgid ""
 "Graph specification '%s' is insuficient for Dashboard. Please save your "
@@ -27384,7 +27384,7 @@ msgid "Graphic Cards"
 msgstr "Cartões Gráficos"
 
 #: ../cmk/gui/cee/plugins/metrics/graphs.py:386 ../cmk/gui/pagetypes.py:1970
-#: ../cmk/gui/dashboard.py:874
+#: ../cmk/gui/dashboard.py:879
 msgid "Graphs"
 msgstr "Gráficos"
 
@@ -27512,7 +27512,7 @@ msgstr "Grupo Base-DN"
 msgid "Group Werks by"
 msgstr "Grupo Werks por"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1742
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1683
 msgid "Group base DN"
 msgstr "DN base do grupo"
 
@@ -27557,11 +27557,11 @@ msgstr "Grupo não existente ou não membro"
 msgid "Group path"
 msgstr "Caminho de grupo"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2531
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2472
 msgid "Group<nobr> </nobr>CN"
 msgstr "Grupo<nobr> </nobr>CN"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2691
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2632
 msgid "Group<nobr> </nobr>DN"
 msgstr "Grupo<nobr> </nobr>DN"
 
@@ -27587,7 +27587,7 @@ msgid "Grouping of services in table views"
 msgstr "Agrupamento de serviços em vistas de tabela"
 
 #: ../cmk/gui/plugins/wato/bi_config.py:1965
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1398
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1339
 #: ../cmk/gui/plugins/views/painters.py:1350
 #: ../cmk/gui/plugins/views/painters.py:2988
 msgid "Groups"
@@ -27601,11 +27601,11 @@ msgstr "Grupos em cluster"
 msgid "Groups on single host"
 msgstr "Grupos em um único anfitrião"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2466
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2407
 msgid "Groups to custom user attributes"
 msgstr "Grupos para atributos personalizados do usuário"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2543
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2484
 msgid "Groups to synchronize"
 msgstr "Grupos para sincronizar"
 
@@ -27877,8 +27877,8 @@ msgstr ""
 "Manuseie alertas se a actual tentativa de verificação tiver, no máximo, este "
 "número. A primeira tentativa tem sempre o número 1."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2110
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2720
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2051
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2661
 msgid "Handle nested group memberships (Active Directory only at the moment)"
 msgstr ""
 "Tratar de membros de grupos aninhados (Active Directory somente no momento)"
@@ -28992,7 +28992,7 @@ msgstr ""
 "Nota: estas configurações só serão salvas e usadas se o usuário for membro "
 "de um grupo de contatos."
 
-#: ../cmk/gui/dashboard.py:1623
+#: ../cmk/gui/dashboard.py:1628
 msgid ""
 "Here, you can configure additional properties of the dashboard. This is "
 "completely optional and only needed to create more advanced dashboards. For "
@@ -29606,8 +29606,8 @@ msgstr "Atributos personalizados do anfitrião"
 msgid "Host custom field ID"
 msgstr "ID de campo personalizado do host"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:72
-#: ../cmk/gui/cme/plugins/views/managed.py:105
+#: ../cmk/gui/cme/plugins/views/managed.py:73
+#: ../cmk/gui/cme/plugins/views/managed.py:106
 msgid "Host customer"
 msgstr "Cliente anfitrião"
 
@@ -30165,7 +30165,7 @@ msgstr "Nomes de anfitriões a resolver"
 #: ../cmk/gui/plugins/views/bi.py:431 ../cmk/gui/plugins/views/bi.py:451
 #: ../cmk/gui/plugins/views/painters.py:3331
 #: ../cmk/gui/plugins/visuals/infos.py:28
-#: ../cmk/gui/cme/plugins/views/managed.py:329
+#: ../cmk/gui/cme/plugins/views/managed.py:330
 msgid "Hosts"
 msgstr "Anfitriões"
 
@@ -30674,8 +30674,8 @@ msgstr "pacotes do ICMP"
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1094
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1194
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:1901
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1435
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1446
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1376
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1387
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:535
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:550
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:574
@@ -33935,7 +33935,7 @@ msgstr "Instâncias a monitorizar"
 msgid "Instantaneous CPU load"
 msgstr "Carga instantânea da CPU"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1731
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1672
 msgid ""
 "Instead of creating the user accounts during the regular sync, create the "
 "user on the first login."
@@ -34837,7 +34837,7 @@ msgstr ""
 "atingido. Isto torna possível informar os usuários sobre um evento "
 "programado, mas suprimir a notificação após o evento ter acontecido."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1789
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1730
 msgid ""
 "It is possible to fetch several attributes of users, like Email or full "
 "names, from the LDAP directory. This is done by plugins which can "
@@ -35224,7 +35224,7 @@ msgstr ""
 msgid "Keep service level from message (if available)"
 msgstr "Manter o nível de serviço da mensagem (se disponível)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1721
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1662
 msgid "Keep special characters"
 msgstr "Manter caracteres especiais"
 
@@ -35373,7 +35373,7 @@ msgid "LAST_ACK"
 msgstr "LAST_ACK"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:222
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:233
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:232
 msgid "LDAP"
 msgstr "LDAP"
 
@@ -35382,16 +35382,16 @@ msgstr "LDAP"
 msgid "LDAP & Active Directory"
 msgstr "LDAP & Active Directory"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:229
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:228
 msgid "LDAP (Active Directory, OpenLDAP)"
 msgstr "LDAP (Active Directory, OpenLDAP)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1391
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1396
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1332
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1337
 msgid "LDAP Connection"
 msgstr "Ligação LDAP"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1587
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1528
 msgid "LDAP Server"
 msgstr "Servidor LDAP"
 
@@ -35399,22 +35399,22 @@ msgstr "Servidor LDAP"
 msgid "LDAP Version"
 msgstr "Versão LDAP"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1244
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1185
 #, python-format
 msgid "LDAP [%s]: Created user %s"
 msgstr "LDAP [%s]: Utilizador criado %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1276
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1217
 #, python-format
 msgid "LDAP [%s]: Modified user %s (%s)"
 msgstr "LDAP [%s]: Utilizador modificado %s (%s)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1190
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1131
 #, python-format
 msgid "LDAP [%s]: Removed user %s"
 msgstr "LDAP [%s]: Removido %s do usuário"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2328
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2269
 msgid "LDAP attribute to be used as indicator"
 msgstr "Atributo LDAP a ser utilizado como indicador"
 
@@ -35422,10 +35422,10 @@ msgstr "Atributo LDAP a ser utilizado como indicador"
 msgid "LDAP attribute to search, The default is <tt>(objectclass=*)</tt>."
 msgstr "Atributo LDAP para pesquisa, O padrão é <tt>(objectclass=**)</tt>."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2009
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2170
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2222
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2385
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1950
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2111
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2163
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2326
 msgid "LDAP attribute to sync"
 msgstr "Atributo LDAP para sincronização"
 
@@ -35433,7 +35433,7 @@ msgstr "Atributo LDAP para sincronização"
 msgid "LDAP base, e.g. ou=Development, o=tribe29 GmbH, c=de"
 msgstr "Base LDAP, por exemplo ou=Development, o=tribe29 GmbH, c=de"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:345
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:344
 #, python-format
 msgid ""
 "LDAP connection failed:\n"
@@ -35442,7 +35442,7 @@ msgstr ""
 "A ligação LDAP falhou:\n"
 "%s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1556
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1497
 msgid "LDAP connection suffix"
 msgstr "sufixo de conexão LDAP"
 
@@ -35450,7 +35450,7 @@ msgstr "sufixo de conexão LDAP"
 msgid "LDAP connections"
 msgstr "conexões LDAP"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1539
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1480
 msgid ""
 "LDAP searches can be performed in paginated mode, for example to improve the "
 "performance. This enables pagination and configures the size of the pages."
@@ -35459,7 +35459,7 @@ msgstr ""
 "melhorar o desempenho. Isto permite a paginação e configura o tamanho das "
 "páginas."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1529
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1470
 msgid "LDAP version"
 msgstr "versão LDAP"
 
@@ -35806,7 +35806,7 @@ msgstr ""
 "knowledge-base/victorops-restendpoint-integration/\" target=\"_blank\">here</"
 "a>>br />Esta URL também pode ser coletada na Loja de Senhas da Checkmk."
 
-#: ../cmk/gui/dashboard.py:924
+#: ../cmk/gui/dashboard.py:929
 msgid "Leave layout mode"
 msgstr "Sair do modo de layout"
 
@@ -36897,7 +36897,7 @@ msgstr "Link restabelece-se"
 msgid "Link to dashboard"
 msgstr "Ligação ao tablier"
 
-#: ../cmk/gui/dashboard.py:1090
+#: ../cmk/gui/dashboard.py:1095
 msgid "Link to existing view"
 msgstr "Ligação à vista existente"
 
@@ -37405,7 +37405,7 @@ msgstr "Rota local"
 msgid "Local server status"
 msgstr "Estado do servidor local"
 
-#: ../cmk/gui/config.py:637
+#: ../cmk/gui/config.py:633
 #, python-format
 msgid "Local site %s"
 msgstr "Site local %s"
@@ -38005,7 +38005,7 @@ msgstr "Níveis de temperatura mais baixos"
 msgid "Lower age levels for expire date"
 msgstr "Níveis de idade mais baixos para a data de expiração"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1707
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1648
 msgid "Lower case User-IDs"
 msgstr "IDs de usuário em minúsculas"
 
@@ -38626,7 +38626,7 @@ msgstr "Correios em fila de correio de saída/correspondência"
 msgid "Mails received rate"
 msgstr "Taxa de recepção de correio"
 
-#: ../cmk/gui/cme/plugins/dashboard/managed.py:250
+#: ../cmk/gui/cme/plugins/dashboard/managed.py:251
 msgid "Main Overview"
 msgstr "Visão Geral Principal"
 
@@ -38894,7 +38894,7 @@ msgstr "Executar manualmente esta %s"
 msgid "Manually set to %s by %s"
 msgstr "Definido manualmente para %s por %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1582
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1523
 msgid "Manually specify list of LDAP servers"
 msgstr "Especificar manualmente a lista de servidores LDAP"
 
@@ -40060,7 +40060,7 @@ msgstr "Monitoramento MegaRAID (Windows)"
 msgid "Meinberg Lantime State"
 msgstr "Meinberg Lantime State"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1775
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1716
 msgid "Member attribute"
 msgstr "Atributo de membro"
 
@@ -40419,7 +40419,7 @@ msgstr ""
 "e filtragem só estão disponíveis com as Edições Checkmk Enterprise"
 
 #: ../cmk/gui/cee/plugins/metrics/customgraphs.py:209
-#: ../cmk/gui/plugins/views/painters.py:567 ../cmk/gui/dashboard.py:879
+#: ../cmk/gui/plugins/views/painters.py:567 ../cmk/gui/dashboard.py:884
 msgid "Metrics"
 msgstr "Métricas"
 
@@ -42174,8 +42174,8 @@ msgstr "Negociar SSL"
 msgid "Neither"
 msgstr "Nem"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2116
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2726
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2057
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2667
 msgid "Nested group memberships are resolved"
 msgstr "Os membros de grupos aninhados são resolvidos"
 
@@ -42552,7 +42552,7 @@ msgstr "Novo tema"
 msgid "New tuning"
 msgstr "Nova afinação"
 
-#: ../cmk/gui/dashboard.py:1084
+#: ../cmk/gui/dashboard.py:1089
 msgid "New view"
 msgstr "Nova visão"
 
@@ -43936,7 +43936,7 @@ msgstr "Nr."
 msgid "Nr. of items"
 msgstr "N.º de itens"
 
-#: ../cmk/gui/dashboard.py:895
+#: ../cmk/gui/dashboard.py:900
 msgid "Ntop"
 msgstr "Ntop"
 
@@ -44812,7 +44812,7 @@ msgstr "OFFLINE"
 #: ../cmk/gui/plugins/visuals/filters.py:1752
 #: ../cmk/gui/plugins/visuals/filters.py:2649
 #: ../cmk/gui/plugins/visuals/filters.py:2915
-#: ../cmk/gui/cme/plugins/views/managed.py:229 ../cmk/utils/defines.py:22
+#: ../cmk/gui/cme/plugins/views/managed.py:230 ../cmk/utils/defines.py:22
 #: ../cmk/utils/defines.py:36
 msgid "OK"
 msgstr "OK"
@@ -45227,8 +45227,8 @@ msgstr ""
 "para o ramo 1.4.0 ou 1.5.0p7 para o ramo 1.5.0, é altamente recomendável "
 "desativar o formato de mensagem insegura nas configurações globais."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2111
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2721
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2052
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2662
 msgid ""
 "Once you enable this option, this plugin will not only handle direct group "
 "memberships, instead it will also dig into nested groups and treat the "
@@ -45658,7 +45658,7 @@ msgstr "OpenHardwareMonitor (sem cabeça)"
 msgid "OpenHardwareMonitor S.M.A.R.T."
 msgstr "OpenHardwareMonitor S.M.A.R.T."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1468
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1409
 msgid "OpenLDAP"
 msgstr "OpenLDAP"
 
@@ -46037,13 +46037,13 @@ msgstr ""
 "vazio, caso contrário"
 
 #: ../cmk/gui/pagetypes.py:1847 ../cmk/gui/valuespec.py:3462
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1400
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1341
 #: ../cmk/gui/plugins/metrics/checkmk.py:277
-#: ../cmk/gui/cme/plugins/views/managed.py:496 ../cmk/gui/dashboard.py:900
+#: ../cmk/gui/cme/plugins/views/managed.py:497 ../cmk/gui/dashboard.py:905
 msgid "Other"
 msgstr "Outros"
 
-#: ../cmk/gui/dashboard.py:851
+#: ../cmk/gui/dashboard.py:856
 msgid "Other Dashboards"
 msgstr "Outros Dashboards"
 
@@ -46407,7 +46407,7 @@ msgstr "Excesso de inscritos"
 #: ../cmk/gui/wato/pages/roles.py:120 ../cmk/gui/mobile.py:134
 #: ../cmk/gui/pagetypes.py:1778 ../cmk/gui/plugins/dashboard/utils.py:956
 #: ../cmk/gui/plugins/sidebar/tactical_overview.py:55
-#: ../cmk/gui/cme/plugins/dashboard/managed.py:251
+#: ../cmk/gui/cme/plugins/dashboard/managed.py:252
 msgid "Overview"
 msgstr "Visão geral"
 
@@ -46495,8 +46495,8 @@ msgstr "PDisk EID:Dispositivo de Slot-Dispositivo"
 #: ../cmk/gui/plugins/visuals/filters.py:1007
 #: ../cmk/gui/plugins/visuals/filters.py:1061
 #: ../cmk/gui/plugins/visuals/filters.py:2653
-#: ../cmk/gui/cme/plugins/views/managed.py:309
-#: ../cmk/gui/cme/plugins/views/managed.py:409 ../cmk/utils/defines.py:35
+#: ../cmk/gui/cme/plugins/views/managed.py:310
+#: ../cmk/gui/cme/plugins/views/managed.py:410 ../cmk/utils/defines.py:35
 msgid "PEND"
 msgstr "PEND"
 
@@ -46782,7 +46782,7 @@ msgid "Page not found"
 msgstr "Página não encontrada"
 
 #: ../cmk/gui/cee/reporting.py:828
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1537
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1478
 msgid "Page size"
 msgstr "Tamanho de página"
 
@@ -46811,7 +46811,7 @@ msgstr "Pagefile instalado"
 msgid "Pagefile warning at"
 msgstr "Aviso de pagefile em"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2358
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2299
 msgid "Pager"
 msgstr "Pager"
 
@@ -47575,7 +47575,7 @@ msgstr "Percentagem de profundidade da fila"
 msgid "Percentage of queue length"
 msgstr "Porcentagem do comprimento da fila"
 
-#: ../cmk/gui/dashboard.py:1259
+#: ../cmk/gui/dashboard.py:1264
 msgid "Percentage of service problems"
 msgstr "Percentagem de problemas de serviço"
 
@@ -47779,7 +47779,7 @@ msgid "Performance data settings"
 msgstr "Configurações dos dados de desempenho"
 
 #: ../cmk/gui/plugins/dashboard/graph.py:191
-#: ../cmk/gui/plugins/views/icons/builtin.py:380 ../cmk/gui/dashboard.py:1131
+#: ../cmk/gui/plugins/views/icons/builtin.py:380 ../cmk/gui/dashboard.py:1136
 msgid "Performance graph"
 msgstr "Gráfico de desempenho"
 
@@ -48957,7 +48957,7 @@ msgstr "Níveis específicos de políticas (apenas Clustermode)"
 msgid "Pool name"
 msgstr "Nome da piscina"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2201
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2142
 msgid ""
 "Populates the alias attribute of the WATO user by synchronizing an attribute "
 "from the LDAP user account. By default the LDAP attribute <tt>cn</tt> is "
@@ -49546,7 +49546,7 @@ msgstr "O problema é reconhecido, mas é configurado para ser periódico."
 msgid "Problem notifications"
 msgstr "Notificações de problemas"
 
-#: ../cmk/gui/dashboard.py:745
+#: ../cmk/gui/dashboard.py:750
 #, python-format
 msgid ""
 "Problem while rendering dashboard element %d of type %s: %s. Have a look at "
@@ -49805,8 +49805,8 @@ msgstr "Mudança proeminente"
 #: ../cmk/gui/cee/plugins/dashboard/alert_statistics.py:209
 #: ../cmk/gui/forms.py:67 ../cmk/gui/forms.py:70 ../cmk/gui/valuespec.py:4861
 #: ../cmk/gui/plugins/dashboard/graph.py:305
-#: ../cmk/gui/plugins/dashboard/utils.py:664 ../cmk/gui/dashboard.py:942
-#: ../cmk/gui/dashboard.py:1849
+#: ../cmk/gui/plugins/dashboard/utils.py:664 ../cmk/gui/dashboard.py:947
+#: ../cmk/gui/dashboard.py:1854
 msgid "Properties"
 msgstr "Imóveis"
 
@@ -51253,7 +51253,7 @@ msgstr "Sessões rejeitadas"
 msgid "Related"
 msgstr "Relacionado"
 
-#: ../cmk/gui/dashboard.py:847
+#: ../cmk/gui/dashboard.py:852
 msgid "Related Dashboards"
 msgstr "Dashboards relacionados"
 
@@ -51593,7 +51593,7 @@ msgstr "Removido o %s \"%s\"."
 msgid "Removed unpackaged extension file %s: %s"
 msgstr "Removido ficheiro de extensão não embalado %s: %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1250
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1191
 #, python-format
 msgid "Removed: %s"
 msgstr "Removido: %s"
@@ -51767,7 +51767,7 @@ msgstr ""
 "reservados <tt>\\1</tt>, <tt>\\2</tt>, etc. para inserir o primeiro, segundo "
 "etc. grupo de correspondência."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1722
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1663
 msgid "Replace umlauts like \"&uuml;\" with \"ue\""
 msgstr "Substitua umlauts como \"&uuml;\" por \"ue\"."
 
@@ -52047,7 +52047,7 @@ msgstr "Pedidos por segundo"
 msgid "Require a comment"
 msgstr "Exija um comentário"
 
-#: ../cmk/gui/dashboard.py:1613
+#: ../cmk/gui/dashboard.py:1618
 msgid "Required context filters"
 msgstr "Filtros de contexto requeridos"
 
@@ -52203,7 +52203,7 @@ msgstr "O objeto de resposta tem tipo de dado errado"
 msgid "Response size"
 msgstr "Tamanho da resposta"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1547
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1488
 msgid "Response timeout"
 msgstr "Tempo limite de resposta"
 
@@ -52542,7 +52542,7 @@ msgstr "Papel"
 #: ../cmk/gui/wato/pages/roles.py:117
 #: ../cmk/gui/plugins/wato/check_parameters/drbd.py:35
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_roles.py:43
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2579
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2520
 #: ../cmk/gui/plugins/metrics/kubernets.py:132
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:585
 msgid "Roles"
@@ -53766,7 +53766,7 @@ msgstr "Nome do trabalho do agendador"
 msgid "Scheduling report in background failed: %s"
 msgstr "Relatório de programação em segundo plano falhou: %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1651
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1592
 msgid ""
 "Scope to be used in LDAP searches. In most cases <i>Search whole subtree "
 "below the base DN</i> is the best choice. It searches for matching objects "
@@ -53776,7 +53776,7 @@ msgstr ""
 "a sub-árvore abaixo do DN</i> base é a melhor escolha. Ele procura por "
 "objetos correspondentes recursivamente."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1751
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1692
 msgid ""
 "Scope to be used in group related LDAP searches. In most cases <i>Search "
 "whole subtree below the base DN</i> is the best choice. It searches for "
@@ -53839,8 +53839,8 @@ msgstr "Pesquisa"
 msgid "Search %s"
 msgstr "Pesquisar %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1657
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1758
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1598
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1699
 msgid "Search all entries one level below the base DN"
 msgstr "Pesquisar todas as entradas um nível abaixo do DN base"
 
@@ -53855,8 +53855,8 @@ msgstr ""
 "parciais"
 
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:486
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1663
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1764
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1604
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1705
 msgid "Search filter"
 msgstr "Filtro de busca"
 
@@ -53980,8 +53980,8 @@ msgstr "Índice de pesquisa construído com sucesso"
 msgid "Search index successfully updated"
 msgstr "Índice de pesquisa actualizado com sucesso"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1656
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1757
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1597
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1698
 msgid "Search only the entry at the base DN"
 msgstr "Pesquisar apenas a entrada no DN base"
 
@@ -54027,8 +54027,8 @@ msgstr "Conjuntos de regras de pesquisa"
 msgid "Search rulesets and rules"
 msgstr "Conjuntos de regras e regras de pesquisa"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1649
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1750
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1590
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1691
 msgid "Search scope"
 msgstr "Âmbito da pesquisa"
 
@@ -54040,12 +54040,12 @@ msgstr "Cadeia de pesquisa"
 msgid "Search time graphs"
 msgstr "Gráficos de tempo de busca"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1655
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1756
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1596
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1697
 msgid "Search whole subtree below the base DN"
 msgstr "Pesquisar toda a sub-árvore abaixo do DN base"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2696
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2637
 msgid "Search<nobr> </nobr>in"
 msgstr "Pesquisa<nobr> </nobr>in"
 
@@ -54116,8 +54116,8 @@ msgstr "Dispositivo Secundário"
 #: ../cmk/gui/cee/plugins/wato/influxdb.py:408
 #: ../cmk/gui/plugins/wato/datasource_programs.py:1861
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:262
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1523
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1548
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1464
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1489
 msgid "Seconds"
 msgstr "Segundos"
 
@@ -54356,7 +54356,7 @@ msgstr "Selecione o som"
 msgid "Select specific object type"
 msgstr "Selecione o tipo de objeto específico"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1530
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1471
 msgid ""
 "Select the LDAP version the LDAP server is serving. Most modern servers use "
 "LDAP version 3."
@@ -54412,7 +54412,7 @@ msgstr ""
 "para as notificações do host!<br>Note: Você só pode combinar nos tipos de "
 "eventos <a href=\"%s\">criados pelo núcleo</a>."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1463
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1404
 msgid ""
 "Select the software the LDAP directory is based on. Depending on the "
 "selection e.g. the attribute names used in LDAP queries will be altered."
@@ -54429,7 +54429,7 @@ msgstr "Selecione o tipo de elemento de conteúdo"
 msgid "Select the type of fixed page element"
 msgstr "Selecione o tipo de elemento fixo da página"
 
-#: ../cmk/gui/dashboard.py:1746
+#: ../cmk/gui/dashboard.py:1751
 msgid "Select view"
 msgstr "Seleccionar vista"
 
@@ -55351,7 +55351,7 @@ msgstr "Nível de serviço"
 #: ../cmk/gui/plugins/views/painters.py:2886
 #: ../cmk/gui/plugins/views/painters.py:3635
 #: ../cmk/gui/plugins/visuals/infos.py:55
-#: ../cmk/gui/cme/plugins/views/managed.py:209
+#: ../cmk/gui/cme/plugins/views/managed.py:210
 msgid "Services"
 msgstr "Serviços"
 
@@ -55538,7 +55538,7 @@ msgstr "Definir níveis absolutos"
 msgid "Set an individual idle timeout"
 msgstr "Definir um timeout individual de ociosidade"
 
-#: ../cmk/gui/dashboard.py:809
+#: ../cmk/gui/dashboard.py:814
 msgid "Set as start URL"
 msgstr "Definir como URL inicial"
 
@@ -55782,7 +55782,7 @@ msgstr "Defina os números de acordo com 0 se você quiser desativar o alerta."
 msgid "Set the bucket of the InfluxDB server."
 msgstr "Use o status do serviço..."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1476
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1417
 msgid ""
 "Set the credentials to be used to connect to the LDAP server. The used "
 "account must not be allowed to do any changes in the directory the whole "
@@ -55801,7 +55801,7 @@ msgstr ""
 msgid "Set the height"
 msgstr "Ajuste a altura"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1589
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1530
 msgid ""
 "Set the host address of the LDAP server. Might be an IP address or "
 "resolvable hostname."
@@ -55936,7 +55936,7 @@ msgstr ""
 "volumes podem exceder o tamanho máximo para anexos ou o plugin pode ter um "
 "timeout para que uma notificação de falha seja produzida."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2470
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2411
 msgid ""
 "Sets custom user attributes based on the group memberships in LDAP. This "
 "plugin can be used to set custom user attributes to specified values for all "
@@ -56554,7 +56554,7 @@ msgstr "Mostrar hospedeiros e serviços obsoletos"
 msgid "Show summary for not {cls._get_working_state().upper()} states"
 msgstr "Resumo das notificações do anfitrião"
 
-#: ../cmk/gui/dashboard.py:1615
+#: ../cmk/gui/dashboard.py:1620
 msgid ""
 "Show the dialog that can be used to update the dashboard context on initial "
 "dashboard rendering and enforce the user to provide the context filters that "
@@ -56587,7 +56587,7 @@ msgstr "Mostrar o intervalo de tempo do gráfico no topo do gráfico"
 msgid "Show the graph vertical axis"
 msgstr "Mostrar o eixo vertical do gráfico"
 
-#: ../cmk/gui/dashboard.py:1605
+#: ../cmk/gui/dashboard.py:1610
 msgid "Show the header of the dashboard with the configured title."
 msgstr ""
 "Mostrar o cabeçalho do painel de instrumentos com o título configurado."
@@ -58257,7 +58257,7 @@ msgstr ""
 "Especifique o caminho de destino no formato <tt>Path/To/Folder</tt>, por "
 "exemplo<tt>INBOX/Processed_Mails</tt>."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1487
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1428
 msgid ""
 "Specify the distinguished name to be used to bind to the LDAP directory, e. "
 "g. <tt>CN=ldap,OU=users,DC=example,DC=com</tt>"
@@ -58265,7 +58265,7 @@ msgstr ""
 "Especifique o nome distinto a ser usado para se ligar ao diretório LDAP, por "
 "exemplo <tt>CN=ldap,OU=users,DC=example,DC=com</tt>"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2545
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2486
 msgid ""
 "Specify the groups to control the value of a given user attribute. If a user "
 "is not a member of a group, the attribute will be left at it's default "
@@ -58357,7 +58357,7 @@ msgstr "Especifique o nome do VM, por exemplo, z4065012."
 msgid "Specify the name of the destination host, i.e. <tt>checkmk.com</tt>"
 msgstr "Especifique o nome do host de destino, ou seja, <tt>checkmk.com</tt>"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1494
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1435
 msgid "Specify the password to be used to bind to the LDAP directory."
 msgstr "Especifique a senha a ser usada para se ligar ao diretório LDAP."
 
@@ -58840,7 +58840,7 @@ msgstr "Despesas gerais de arranque em piscina partilhada"
 #: ../cmk/gui/plugins/views/painters.py:3264
 #: ../cmk/gui/plugins/views/painters.py:4708
 #: ../cmk/gui/gui_background_job.py:401 ../cmk/gui/gui_background_job.py:502
-#: ../cmk/gui/dashboard.py:884
+#: ../cmk/gui/dashboard.py:889
 msgid "State"
 msgstr "Estado"
 
@@ -60547,13 +60547,13 @@ msgstr "Symantec Anti-Vírus (Linux)"
 msgid "Symantec Brightmail Queues"
 msgstr "Filas do Symantec Brightmail"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2120
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2061
 msgid "Sync group memberships from other connections"
 msgstr "Sincronizar membros de grupos de outras conexões"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:644
 #: ../cmk/gui/cee/plugins/wato/example_dcd_connector.py:35
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1799
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1740
 msgid "Sync interval"
 msgstr "Intervalo de sincronização"
 
@@ -60611,7 +60611,7 @@ msgstr "Usuários sincronizados"
 msgid "Synchronized with master (my site id is %s.)"
 msgstr "Sincronizado com o master (o meu id do site é %s.)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2144
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2085
 msgid "Synchronizes the email of the LDAP user account into Checkmk."
 msgstr "Sincroniza o e-mail da conta de usuário do LDAP com o Checkmk."
 
@@ -60883,7 +60883,7 @@ msgid "TCP packets"
 msgstr "pacotes TCP"
 
 #: ../cmk/gui/watolib/sites.py:573
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1501
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1442
 msgid "TCP port"
 msgstr "porta TCP"
 
@@ -61520,7 +61520,7 @@ msgid "That many times the message must occur until an event is created"
 msgstr ""
 "Que muitas vezes a mensagem deve ocorrer até que um evento seja criado."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2302
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2243
 #, python-format
 msgid ""
 "The \"Authentication Expiration\" attribute (%s) could not be fetched from "
@@ -61893,7 +61893,7 @@ msgid ""
 msgstr ""
 "A identificação da agregação deve ser um texto único. Será como um ID único."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1437
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1378
 msgid ""
 "The ID of the connection must be a unique text. It will be used as an "
 "internal key when objects refer to the connection."
@@ -62009,26 +62009,26 @@ msgstr ""
 "cardíaco for recebido durante este período de tempo, o plugin simplesmente "
 "pára. Ele começa novamente, na próxima vez que o check_mk_agent for acionado."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2223
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2164
 msgid "The LDAP attribute containing the alias of the user."
 msgstr "O atributo LDAP que contém o pseudónimo do utilizador."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2171
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2112
 msgid "The LDAP attribute containing the mail address of the user."
 msgstr "O atributo LDAP que contém o endereço de correio do usuário."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2386
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2327
 msgid "The LDAP attribute containing the pager number of the user."
 msgstr "O atributo LDAP que contém o número do pager do usuário."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2011
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1952
 msgid ""
 "The LDAP attribute whose contents shall be synced into this custom attribute."
 msgstr ""
 "O atributo LDAP, cujo conteúdo deve ser sincronizado com este atributo "
 "personalizado."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1558
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1499
 msgid ""
 "The LDAP connection suffix can be used to distinguish equal named objects "
 "(name conflicts), for example user accounts, from different LDAP connections."
@@ -62576,7 +62576,7 @@ msgstr "O atributo não existe."
 msgid "The attribute is added to this section in the edit dialog."
 msgstr "O atributo é adicionado a esta seção no diálogo de edição."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1700
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1641
 msgid ""
 "The attribute used to identify the individual users. It must have unique "
 "values to make an user identifyable by the value of this attribute."
@@ -62585,7 +62585,7 @@ msgstr ""
 "valores únicos para que um usuário possa ser identificado pelo valor deste "
 "atributo."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1776
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1717
 msgid "The attribute used to identify users group memberships."
 msgstr "O atributo utilizado para identificar os membros do grupo de usuários."
 
@@ -62916,7 +62916,7 @@ msgstr ""
 "A configuração foi alterada durante a ativação. Terminando esta ativação "
 "para garantir a integridade da configuração. Por favor, tente novamente."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1849
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1790
 msgid "The configured DN does not match the group base DN."
 msgstr "O DN configurado não corresponde ao DN base do grupo."
 
@@ -62934,7 +62934,7 @@ msgstr ""
 "resultado do SLA computado está disponível na visualização fornecida pelos "
 "pintores do SLA"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:797
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:796
 #, python-format
 msgid ""
 "The configured User-ID attribute \"%s\" does not exist for the user \"%s\""
@@ -62949,7 +62949,7 @@ msgstr "O gráfico personalizado configurado não existe."
 msgid "The configured element does not exist."
 msgstr "O elemento configurado não existe."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:835
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:834
 #, python-format
 msgid ""
 "The configured ldap user filter group could not be found. Please check <a "
@@ -63153,7 +63153,7 @@ msgstr ""
 msgid "The customer ID %s does not exist."
 msgstr "A identificação do cliente %s não existe."
 
-#: ../cmk/gui/dashboard.py:1395
+#: ../cmk/gui/dashboard.py:1400
 msgid "The dashboard element does not exist."
 msgstr "O elemento do painel de instrumentos não existe."
 
@@ -63280,7 +63280,7 @@ msgstr ""
 "IO. Por favor note que dependendo das aplicações a serem executadas, isto "
 "pode ou não ser totalmente normal."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:322
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:321
 msgid ""
 "The distinguished name of the container object, which holds the user objects "
 "to be authenticated, is not configured. Please fix this in the <a href="
@@ -63308,12 +63308,12 @@ msgstr ""
 "dispositivo secundário não-nmp. Aqui você pode fazer configurações para o "
 "monitoramento do dispositivo proxied."
 
-#: ../cmk/gui/dashboard.py:1460
+#: ../cmk/gui/dashboard.py:1465
 msgid "The element can not be found on the dashboard."
 msgstr "O elemento não pode ser encontrado no painel de instrumentos."
 
-#: ../cmk/gui/dashboard.py:1823 ../cmk/gui/dashboard.py:1964
-#: ../cmk/gui/dashboard.py:1996 ../cmk/gui/dashboard.py:2033
+#: ../cmk/gui/dashboard.py:1828 ../cmk/gui/dashboard.py:1969
+#: ../cmk/gui/dashboard.py:2001 ../cmk/gui/dashboard.py:2038
 msgid "The element does not exist."
 msgstr "O elemento não existe."
 
@@ -63604,12 +63604,12 @@ msgstr "Os pais dos anfitriões encontrados"
 msgid "The function %s is not in the snapshotted functions."
 msgstr "A função %s não se encontra nas funções fotografadas."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:620
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:619
 #, python-format
 msgid "The given base object \"%s\" does not exist in LDAP (%s))"
 msgstr "O determinado objeto básico \"%s\" não existe no LDAP (%s))"
 
-#: ../cmk/gui/dashboard.py:1689
+#: ../cmk/gui/dashboard.py:1694
 msgid "The given datasource is not supported"
 msgstr "A fonte de dados fornecida não é suportada"
 
@@ -63630,7 +63630,7 @@ msgstr ""
 msgid "The given host does not exist."
 msgstr "O hospedeiro dado não existe."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:624
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:623
 #, python-format
 msgid "The given ldap filter \"%s\" is invalid (%s)"
 msgstr "O dado filtro ldap \"%s\" é inválido (%s)"
@@ -63922,7 +63922,7 @@ msgstr "O identificador do sensor."
 msgid "The identifier of the thermal sensor."
 msgstr "O identificador do sensor térmico."
 
-#: ../cmk/gui/visuals.py:1001 ../cmk/gui/dashboard.py:1810
+#: ../cmk/gui/visuals.py:1001 ../cmk/gui/dashboard.py:1815
 #, python-format
 msgid "The info %s does not exist."
 msgstr "A informação %s não existe."
@@ -64485,8 +64485,8 @@ msgid "The name of the cluster resource as shown in the service description."
 msgstr ""
 "O nome do recurso de cluster, conforme mostrado na descrição do serviço."
 
-#: ../cmk/gui/dashboard.py:1442 ../cmk/gui/dashboard.py:1952
-#: ../cmk/gui/dashboard.py:1984
+#: ../cmk/gui/dashboard.py:1447 ../cmk/gui/dashboard.py:1957
+#: ../cmk/gui/dashboard.py:1989
 msgid "The name of the dashboard is missing."
 msgstr "Falta o nome do tablier."
 
@@ -65205,14 +65205,14 @@ msgstr "As %s solicitadas não existem"
 msgid "The requested connection does not exist."
 msgstr "A conexão solicitada não existe."
 
-#: ../cmk/gui/dashboard.py:1390 ../cmk/gui/dashboard.py:1449
-#: ../cmk/gui/dashboard.py:1777 ../cmk/gui/dashboard.py:1959
-#: ../cmk/gui/dashboard.py:1991 ../cmk/gui/dashboard.py:2028
+#: ../cmk/gui/dashboard.py:1395 ../cmk/gui/dashboard.py:1454
+#: ../cmk/gui/dashboard.py:1782 ../cmk/gui/dashboard.py:1964
+#: ../cmk/gui/dashboard.py:1996 ../cmk/gui/dashboard.py:2033
 msgid "The requested dashboard does not exist."
 msgstr "O painel de instrumentos solicitado não existe."
 
-#: ../cmk/gui/plugins/dashboard/utils.py:608 ../cmk/gui/dashboard.py:1463
-#: ../cmk/gui/dashboard.py:1788
+#: ../cmk/gui/plugins/dashboard/utils.py:608 ../cmk/gui/dashboard.py:1468
+#: ../cmk/gui/dashboard.py:1793
 msgid "The requested element type does not exist."
 msgstr "O tipo de elemento solicitado não existe."
 
@@ -65262,7 +65262,7 @@ msgstr "O usuário solicitado não existe"
 msgid "The resource tag"
 msgstr "A etiqueta de recurso"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:628
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:627
 msgid ""
 "The response reached a size limit. This could be due to a sizelimit "
 "configuration on the LDAP server.<br />Throwing away the incomplete results. "
@@ -66815,10 +66815,13 @@ msgstr ""
 "\">service</a> rules."
 
 #: ../cmk/gui/htmllib/__init__.py:972
-#, python-format
+#, fuzzy, python-format
+#| msgid ""
+#| "These texts may be localized depending on the users' language. You can "
+#| "configure the localizations %s."
 msgid ""
 "These texts may be localized depending on the users' language. You can "
-"configure the localizations %s."
+"configure the localizations <a href='%s'>in the global settings</a>."
 msgstr ""
 "Estes textos podem ser localizados dependendo do idioma do usuário. Você "
 "pode configurar as localizações %s."
@@ -66891,7 +66894,7 @@ msgstr "Esta identificação já é usada por outro trabalho de backup."
 msgid "This ID is already used by another backup target."
 msgstr "Esta identificação já é usada por outro alvo de backup."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1819
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1760
 msgid ""
 "This ID is already used by another connection. Please choose another one."
 msgstr ""
@@ -67386,7 +67389,7 @@ msgstr ""
 "serviços <i>new</i>. Os RRDs existentes não podem ser alterados."
 
 #: ../cmk/gui/wato/pages/sites.py:1386
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2063
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2004
 msgid "This connection"
 msgstr "Esta ligação"
 
@@ -67672,7 +67675,7 @@ msgstr ""
 msgid "This is a regular expression for matching the event's comment."
 msgstr "Esta é uma expressão regular para combinar com o comentário do evento."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2122
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2063
 msgid ""
 "This is a special feature for environments where user accounts are located "
 "in one LDAP directory and groups objects having them as members are located "
@@ -67764,10 +67767,6 @@ msgstr ""
 "nome da aplicação <tt>foobar</tt>, isso resultaria no URL usado para entrar "
 "em contato com a API REST: <tt>/controller/rest/applications/foobar/metric-"
 "data</tt>"
-
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1042
-msgid "This is the default LDAP connection."
-msgstr "Esta é a conexão LDAP padrão."
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/config_vars.py:163
 msgid ""
@@ -68171,7 +68170,7 @@ msgstr ""
 "que nem todos os dados de todos os sites foram mostrados. Outras pessoas - "
 "no entanto - acham essas mensagens perturbadoras. "
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1801
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1742
 msgid ""
 "This option defines the interval of the LDAP synchronization. This setting "
 "is only used by sites which have the <a href=\"wato.py?mode=sites"
@@ -68617,7 +68616,7 @@ msgstr ""
 "controladores RAID LSI usando o utilitário StorCLI. O StorCLI deve ser "
 "instalado no sistema alvo para que este plugin funcione."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2258
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2199
 msgid ""
 "This plugin fetches all information which are needed to check whether or not "
 "an already authenticated user should be deauthenticated, e.g. because the "
@@ -68717,7 +68716,7 @@ msgstr ""
 "baixá-lo gratuitamente de <a href='http://gnuwin32.sourceforge.net/packages/"
 "dmidecode.htm'>here</a>. "
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2363
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2304
 msgid ""
 "This plugin synchronizes a field of the users LDAP account to the pager "
 "attribute of the WATO user accounts, which is then forwarded to the "
@@ -70577,12 +70576,12 @@ msgstr ""
 msgid "This stored report does not exist."
 msgstr "Este relatório armazenado não existe."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1861
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1802
 #, python-format
 msgid "This suffix is already used by connection %s.Please choose another one."
 msgstr "Este sufixo já é usado por conexão %s. Por favor escolha outro."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1926
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1867
 msgid "This synchronization plugin has no parameters."
 msgstr "Este plugin de sincronização não tem parâmetros."
 
@@ -70674,7 +70673,7 @@ msgstr ""
 "Check_MK em uma base por-hospedeiro. Se o agente não responder dentro desse "
 "tempo, ele é considerado inalcançável."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1502
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1443
 msgid ""
 "This variable allows to specify the TCP port to be used to connect to the "
 "LDAP server. "
@@ -71432,7 +71431,7 @@ msgstr "Tempo esgotado"
 msgid "Timeout after last agent contact"
 msgstr "Tempo esgotado após o último contacto do agente"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1549
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1490
 msgid "Timeout for LDAP query responses."
 msgstr "Tempo limite para respostas de consulta LDAP."
 
@@ -71483,7 +71482,7 @@ msgstr "Tempo limite para a execução de manipuladores de alerta"
 msgid "Timeout for the initial connection to InfluxDB in seconds."
 msgstr "Tempo limite para a conexão inicial com o servidor LDAP em segundos."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1522
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1463
 msgid "Timeout for the initial connection to the LDAP server in seconds."
 msgstr "Tempo limite para a conexão inicial com o servidor LDAP em segundos."
 
@@ -72850,7 +72849,7 @@ msgstr "carimbo da hora UNIX"
 #: ../cmk/gui/plugins/views/painters.py:4814
 #: ../cmk/gui/plugins/visuals/filters.py:933
 #: ../cmk/gui/plugins/visuals/filters.py:2652
-#: ../cmk/gui/cme/plugins/views/managed.py:289 ../cmk/utils/defines.py:39
+#: ../cmk/gui/cme/plugins/views/managed.py:290 ../cmk/utils/defines.py:39
 msgid "UNKN"
 msgstr "UNKN"
 
@@ -72893,7 +72892,7 @@ msgstr "UNKNOWN Serviços do anfitrião"
 msgid "UNKNOWN services"
 msgstr "serviços UNKNOWN"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:389
+#: ../cmk/gui/cme/plugins/views/managed.py:390
 msgid "UNR."
 msgstr "UNR."
 
@@ -72922,7 +72921,7 @@ msgstr "UNREACHABLE"
 #: ../cmk/gui/plugins/wato/utils/__init__.py:1170
 #: ../cmk/gui/plugins/views/availability.py:621
 #: ../cmk/gui/plugins/visuals/filters.py:1004
-#: ../cmk/gui/cme/plugins/views/managed.py:349 ../cmk/utils/defines.py:49
+#: ../cmk/gui/cme/plugins/views/managed.py:350 ../cmk/utils/defines.py:49
 #: ../cmk/utils/defines.py:57
 msgid "UP"
 msgstr "UP"
@@ -73174,7 +73173,7 @@ msgstr "UTF-8"
 msgid "UUID and mountpoint"
 msgstr "UUID e ponto de montagem"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1714
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1655
 msgid "Umlauts in User-IDs (deprecated)"
 msgstr "Umlauts em User-IDs (depreciado)"
 
@@ -73197,12 +73196,12 @@ msgstr ""
 "Incapaz de aplicar uma nova configuração de hosttag. As seguintes tags ainda "
 "estão em uso, mas não mencionadas na configuração atualizada: %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:445
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:444
 #, python-format
 msgid "Unable to authenticate with LDAP (%s)"
 msgstr "Incapaz de autenticar com LDAP (%s)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:431
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:430
 msgid ""
 "Unable to connect to LDAP server with the configured bind credentials. "
 "Please fix this in the <a href=\"wato.py?mode=ldap_config\">LDAP connection "
@@ -73261,7 +73260,7 @@ msgstr ""
 "esteja usando CMC como seu núcleo em todos os seus sites. Neste caso, este "
 "snapin é inútil."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1137
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1078
 msgid "Unable to match connection"
 msgstr "Incapaz de igualar a conexão"
 
@@ -73331,7 +73330,7 @@ msgstr ""
 "filtros na visualização da fonte ou adicione as variáveis de solicitação "
 "HTTP ausentes à sua solicitação"
 
-#: ../cmk/gui/dashboard.py:680
+#: ../cmk/gui/dashboard.py:685
 #, python-format
 msgid ""
 "Unable to render this element, because we miss some required context "
@@ -73371,12 +73370,12 @@ msgstr ""
 msgid "Unable to show logfile: <b>%s</b>"
 msgstr "Incapaz de mostrar o ficheiro de registo: <b>%s</b>"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:656
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:655
 #, python-format
 msgid "Unable to successfully perform the LDAP search (%s)"
 msgstr "Incapaz de realizar com sucesso a pesquisa LDAP (%s)"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:650
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:649
 #, python-format
 msgid ""
 "Unable to successfully perform the LDAP search (Base: %s, Scope: %s, Filter: "
@@ -73385,7 +73384,7 @@ msgstr ""
 "Incapaz de realizar com sucesso a pesquisa LDAP (Base: %s, Escopo: %s, "
 "Filtro: %s, Colunas: %s): %s"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1004
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1003
 #, python-format
 msgid ""
 "Unable to synchronize nested groups (Found no common base DN for user base "
@@ -74749,7 +74748,7 @@ msgid "Use Piggyback"
 msgstr "Use o Piggyback"
 
 #: ../cmk/gui/plugins/wato/active_checks.py:1341
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1510
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1451
 msgid "Use SSL"
 msgstr "Usar SSL"
 
@@ -75780,7 +75779,7 @@ msgstr "Nome do usuário"
 msgid "User and password"
 msgstr "Usuário e senha"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1641
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1582
 msgid "User base DN"
 msgstr "DN base de utilizadores"
 
@@ -75827,7 +75826,7 @@ msgstr "Notificações do usuário"
 msgid "User password"
 msgstr "Senha do usuário"
 
-#: ../cmk/gui/dashboard.py:806
+#: ../cmk/gui/dashboard.py:811
 msgid "User profile"
 msgstr "Perfil do usuário"
 
@@ -75871,7 +75870,7 @@ msgstr "Usuário para executar manipulador como"
 msgid "User who performed action"
 msgstr "Usuário que executou a ação"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1699
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1640
 msgid "User-ID attribute"
 msgstr "Atributo User-ID"
 
@@ -75943,7 +75942,7 @@ msgstr "Nome de usuário:"
 #: ../cmk/gui/notify.py:168 ../cmk/gui/plugins/wato/builtin_modules.py:542
 #: ../cmk/gui/plugins/wato/check_parameters/sap_dialog.py:36
 #: ../cmk/gui/plugins/wato/check_parameters/sap_dialog.py:37
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1397
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1338
 msgid "Users"
 msgstr "Usuários"
 
@@ -75991,7 +75990,7 @@ msgstr ""
 "quando você configura uma comunidade aqui, isto irá sobrepor a comunidade "
 "definida pelas regras."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1665
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1606
 msgid ""
 "Using this option you can define an optional LDAP filter which is used "
 "during LDAP searches. It can be used to only handle a subset of the users "
@@ -76014,7 +76013,7 @@ msgstr ""
 "(memberof:1.2.840.113556.1.4.1941:=CN=cmk-users,OU=groups,DC=example,"
 "DC=com))</tt><br>"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1765
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1706
 msgid ""
 "Using this option you can define an optional LDAP filter which is used "
 "during group related LDAP searches. It can be used to only handle a subset "
@@ -76026,7 +76025,7 @@ msgstr ""
 "lidar com um subconjunto dos grupos abaixo da base DN.<br>>br>e.g. "
 "<tt>(objectclass=group)</tt>"
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1683
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1624
 msgid ""
 "Using this option you can define the DN of a group object which is used to "
 "filter the users. Only members of this group will then be synchronized. This "
@@ -76643,7 +76642,7 @@ msgstr "VictorOPS REST Endpoint"
 #: ../cmk/gui/plugins/wato/bi_config.py:651
 #: ../cmk/gui/plugins/dashboard/view.py:76
 #: ../cmk/gui/plugins/dashboard/view.py:91
-#: ../cmk/gui/plugins/metrics/html_render.py:837 ../cmk/gui/dashboard.py:1758
+#: ../cmk/gui/plugins/metrics/html_render.py:837 ../cmk/gui/dashboard.py:1763
 msgid "View"
 msgstr "Ver"
 
@@ -76675,7 +76674,7 @@ msgstr "Ver alterações"
 msgid "View layout"
 msgstr "Ver layout"
 
-#: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1712
+#: ../cmk/gui/plugins/dashboard/view.py:137 ../cmk/gui/dashboard.py:1717
 msgid "View name"
 msgstr "Ver nome"
 
@@ -76689,7 +76688,7 @@ msgstr "Veja os parâmetros baseados em regras deste host"
 
 #: ../cmk/gui/views.py:294 ../cmk/gui/pagetypes.py:1344
 #: ../cmk/gui/pagetypes.py:1911 ../cmk/gui/plugins/sidebar/views.py:41
-#: ../cmk/gui/dashboard.py:869
+#: ../cmk/gui/dashboard.py:874
 msgid "Views"
 msgstr "Vistas"
 
@@ -76938,7 +76937,7 @@ msgstr "WA"
 #: ../cmk/gui/plugins/visuals/filters.py:1059
 #: ../cmk/gui/plugins/visuals/filters.py:2650
 #: ../cmk/gui/plugins/visuals/filters.py:2916
-#: ../cmk/gui/cme/plugins/views/managed.py:249 ../cmk/utils/defines.py:37
+#: ../cmk/gui/cme/plugins/views/managed.py:250 ../cmk/utils/defines.py:37
 msgid "WARN"
 msgstr "ADVERTÊNCIA"
 
@@ -79160,7 +79159,7 @@ msgstr ""
 "redúltera tudo de forma agradável. Embora isto seja um pouco mais lento para "
 "grandes conjuntos de regras, torna a depuração e edição manual mais simples."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1597
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1538
 msgid ""
 "When the connection to the first server fails with connect specific errors "
 "like timeouts or some other network related problems, the connect mechanism "
@@ -79264,7 +79263,7 @@ msgstr ""
 "mensagens mais antigas das mensagens spooled atualmente são jogadas fora até "
 "que as mensagens esquerdas tenham a metade do tamanho máximo."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:2329
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:2270
 msgid ""
 "When the value of this attribute changes for a user account, all current "
 "authenticated sessions of the user are invalidated and the user must login "
@@ -80598,9 +80597,9 @@ msgstr "Não é permitido eliminar esta %s."
 msgid "You are not allowed to edit %s."
 msgstr "Você não está autorizado a editar %s."
 
-#: ../cmk/gui/dashboard.py:518 ../cmk/gui/dashboard.py:1769
-#: ../cmk/gui/dashboard.py:1948 ../cmk/gui/dashboard.py:1980
-#: ../cmk/gui/dashboard.py:2020
+#: ../cmk/gui/dashboard.py:523 ../cmk/gui/dashboard.py:1774
+#: ../cmk/gui/dashboard.py:1953 ../cmk/gui/dashboard.py:1985
+#: ../cmk/gui/dashboard.py:2025
 msgid "You are not allowed to edit dashboards."
 msgstr "Você não está autorizado a editar painéis de controle."
 
@@ -82167,7 +82166,7 @@ msgstr ""
 "especial para o dispositivo PLC separado por um espaço com a identificação "
 "do valor que também está configurado no agente especial."
 
-#: ../cmk/gui/plugins/userdb/ldap_connector.py:1842
+#: ../cmk/gui/plugins/userdb/ldap_connector.py:1783
 msgid ""
 "You need to configure the group base DN to be able to use the roles "
 "synchronization plugin."
@@ -83111,7 +83110,7 @@ msgstr "nome do anfitrião atual"
 msgid "custom"
 msgstr "personalizado"
 
-#: ../cmk/gui/cme/plugins/views/managed.py:286
+#: ../cmk/gui/cme/plugins/views/managed.py:287
 msgid "customer number of services in state UNKNOWN"
 msgstr "número de clientes de serviços no estado UNKNOWN"
 
@@ -83148,11 +83147,11 @@ msgstr "dBmV"
 msgid "daily"
 msgstr "diariamente"
 
-#: ../cmk/gui/dashboard.py:121
+#: ../cmk/gui/dashboard.py:122
 msgid "dashboard"
 msgstr "painel de instrumentos"
 
-#: ../cmk/gui/dashboard.py:125 ../cmk/gui/dashboard.py:282
+#: ../cmk/gui/dashboard.py:126 ../cmk/gui/dashboard.py:283
 msgid "dashboards"
 msgstr "painéis de bordo"
 
@@ -85779,6 +85778,9 @@ msgstr "z/OS"
 #: ../cmk/gui/werks.py:113
 msgid "© 2020 tribe29 GmbH. All Rights Reserved."
 msgstr "© 2020 tribe29 GmbH. Todos os direitos reservados."
+
+#~ msgid "This is the default LDAP connection."
+#~ msgstr "Esta é a conexão LDAP padrão."
 
 #~ msgid "Message Age"
 #~ msgstr "Idade da Mensagem"
