@@ -249,7 +249,7 @@ msgstr ""
 msgid "\"%s\" is not a valid python encoding."
 msgstr "%s n'est pas un nombre entier valide pour Python"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:303
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:307
 #, python-format
 msgid ""
 "\"%s\" is not allowed inside the regular expression group %s. Bounding "
@@ -561,12 +561,12 @@ msgstr ""
 msgid "%d locked sites"
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:185
+#: ../cmk/gui/plugins/wato/ac_tests.py:186
 #, python-format
 msgid "%d of %d connections used"
 msgstr "%d de %d connexions utilisées"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:631
+#: ../cmk/gui/plugins/wato/ac_tests.py:632
 #, python-format
 msgid ""
 "%d of %d the configured maximum of processes are started. This is a usage of "
@@ -904,13 +904,13 @@ msgstr "%s : Impossible d'analyser la page de manuel : %s"
 msgid "%s: Download agent output"
 msgstr "%s : Télécharger la sortie de l'agent"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:265
+#: ../cmk/gui/plugins/wato/ac_tests.py:266
 #, python-format
 msgid "%s: Not using SSL. Consider enabling it in the connection settings."
 msgstr ""
 "%s : N'utilise pas SSL. Pensez à l'activer dans les paramètres de connexion."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:261
+#: ../cmk/gui/plugins/wato/ac_tests.py:262
 #, python-format
 msgid "%s: Uses SSL"
 msgstr "%s : Utilise SSL"
@@ -1309,8 +1309,8 @@ msgstr "10+ changements"
 msgid "10.0 - 20.0 ms"
 msgstr "10,0 - 20,0 ms"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:54
-#, python-format
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:57
+#, no-python-format
 msgid "100% is all cores at full load"
 msgstr "100% correspond à tous les cœurs à pleine charge"
 
@@ -1861,7 +1861,7 @@ msgstr "<li>Impossible de supprimer les hôtes dans le dossier %s : %s</li>."
 msgid "<li>Cannot move hosts from folder %s: %s</li>"
 msgstr "<li>Impossible de déplacer les hôtes du dossier %s : %s</li>."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:201
+#: ../cmk/gui/plugins/wato/ac_tests.py:202
 msgid ""
 "<p>By default each Checkmk site has it's own temporary filesystem (a "
 "ramdisk) mounted to <tt>[SITE]/tmp</tt>. In case the mount is not possible "
@@ -1876,7 +1876,7 @@ msgstr ""
 "d'utiliser Checkmk de cette manière car cela peut réduire les performances "
 "globales de Checkmk.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:310
+#: ../cmk/gui/plugins/wato/ac_tests.py:311
 msgid ""
 "<p>Having a large number of users configured in Checkmk may decrease the "
 "performance of the Web GUI.</p><p>It may be possible that you are using the "
@@ -1932,7 +1932,7 @@ msgstr ""
 "être définie. Sinon, un avertissement peut s'afficher si le fichier de la "
 "journée en cours n'est pas encore présent.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:904
+#: ../cmk/gui/plugins/wato/ac_tests.py:908
 msgid ""
 "<p>In distributed WATO setups it is possible to synchronize the extensions "
 "(MKPs and files in <tt>~/local/</tt>) to the slave sites. These files are "
@@ -1948,7 +1948,7 @@ msgstr ""
 "synchronisation MKP, soit vérifier si vous avez besoin ou non de toutes les "
 "extensions.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:279
+#: ../cmk/gui/plugins/wato/ac_tests.py:280
 msgid ""
 "<p>In distributed setups Livestatus is used to transport the status "
 "information gathered in one site to the central site. Since Checkmk 1.6 it "
@@ -1971,8 +1971,8 @@ msgstr ""
 "SSL. Jetez un œil à <a href=\"werk.py?werk=7017\">werk #7017</a> pour plus "
 "d'informations.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:147
-#, python-format
+#: ../cmk/gui/plugins/wato/ac_tests.py:148
+#, no-python-format
 msgid ""
 "<p>Livestatus is used by several components, for example the GUI, to gather "
 "information about the monitored objects from the monitoring core. It is very "
@@ -1994,7 +1994,7 @@ msgstr ""
 "parallèles ou suivez les clients pour vérifier si vous pouvez ou non réduire "
 "l'utilisation d'une manière ou d'une autre.</p> <p>."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:767
+#: ../cmk/gui/plugins/wato/ac_tests.py:770
 #, python-format
 msgid ""
 "<p>The Checkmk Microcore uses Checkmk checker processes to execute the "
@@ -2033,7 +2033,7 @@ msgstr ""
 "du Microcore, ce qui peut provoquer des pics de charge lorsqu'on a beaucoup "
 "de processus d'aide Checkmk configurés.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:706
+#: ../cmk/gui/plugins/wato/ac_tests.py:708
 #, fuzzy, python-format
 msgid ""
 "<p>The Checkmk Microcore uses Checkmk fetcher processes to obtain data about "
@@ -2070,7 +2070,7 @@ msgstr ""
 "provoquer des pics de charge lorsqu'on a beaucoup de processus d'aide "
 "Checkmk configurés.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:645
+#: ../cmk/gui/plugins/wato/ac_tests.py:647
 #, python-format
 msgid ""
 "<p>The Checkmk Microcore uses Checkmk helper processes to execute the "
@@ -2109,7 +2109,7 @@ msgstr ""
 "qui peut provoquer des pics de charge lorsque l'on a beaucoup de processus "
 "d'aide Checkmk configurés.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:854
+#: ../cmk/gui/plugins/wato/ac_tests.py:858
 #, python-format
 msgid ""
 "<p>The Checkmk Microcore uses generic check helper processes to execute the "
@@ -2137,7 +2137,7 @@ msgstr ""
 "<a href=\"wato.py?mode=edit_configvar&varname=cmc_check_helpers\">nombre "
 "d'aides de vérification</a></li></ul></p>."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:525
+#: ../cmk/gui/plugins/wato/ac_tests.py:526
 msgid ""
 "<p>The apache has a number maximum processes it can start in case of high "
 "load situations. These apache processes may use a decent amount of memory, "
@@ -2166,7 +2166,7 @@ msgstr ""
 "automatiquement en OK, car il ne peut pas estimer exactement la mémoire "
 "requise par les processus apache.</p>"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:456
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:460
 #, python-format
 msgid ""
 "<p>The control group information is currently only specified by the linux "
@@ -2184,7 +2184,7 @@ msgstr ""
 "conteneur docker en spécifiant l'expression \"%s\" (sans les guillemets), et "
 "en sélectionnant \"%s\".</p>"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:332
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:336
 #, fuzzy
 #| msgid ""
 #| "<p>The process name may contain one or more occurances of <tt>%s</tt>. If "
@@ -2270,7 +2270,7 @@ msgstr ""
 "Ces expressions seront remplacées par le premier, le deuxième, ... groupe "
 "correspondant, ce qui vous permet de réorganiser les choses.</p> <p>."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:417
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:421
 msgid ""
 "<p>The user specification is a user name (string). The inventory will then "
 "trigger only if that user matches the user the process is running as. The "
@@ -2337,7 +2337,7 @@ msgstr ""
 "<p>Vous avez été déconnecté. Veuillez recharger la page pour vous "
 "réauthentifier.</p>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:398
+#: ../cmk/gui/plugins/wato/ac_tests.py:399
 msgid ""
 "<p>You should have a backup configured for being able to restore your "
 "monitoring environment in case of a data loss.<br>In case you a using a "
@@ -4287,7 +4287,7 @@ msgstr "Ajouter du contenu"
 msgid "Add context information to title"
 msgstr "Ajouter des informations contextuelles au titre"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:232
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:236
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:137
 msgid "Add custom icon or action"
 msgstr "Ajouter une icône ou une action personnalisée"
@@ -5739,7 +5739,7 @@ msgstr "Gestionnaire d'alerte"
 msgid "Alert handler Stopped"
 msgstr "Le gestionnaire d'alerte s'est arrêté"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:839
+#: ../cmk/gui/plugins/wato/ac_tests.py:842
 msgid "Alert handler are configured to handle all check execution."
 msgstr ""
 "Les gestionnaires d'alertes sont configurés pour gérer l'exécution de tous "
@@ -5774,7 +5774,7 @@ msgstr "Règle de traitement des alertes"
 msgid "Alert handler with parameters"
 msgstr "Gestionnaire d'alerte avec paramètres"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:825
+#: ../cmk/gui/plugins/wato/ac_tests.py:828
 msgid "Alert handler: Don't handle all check executions"
 msgstr ""
 "Gestionnaire d'alertes : Ne pas gérer toutes les exécutions de contrôle"
@@ -5792,7 +5792,7 @@ msgstr "Gestionnaires d'alertes"
 msgid "Alert handlers to deploy"
 msgstr "Gestionnaires d'alerte à déployer"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:841
+#: ../cmk/gui/plugins/wato/ac_tests.py:844
 msgid "Alert handlers will handle state changes."
 msgstr "Les gestionnaires d'alertes gèrent les changements d'état."
 
@@ -6974,7 +6974,7 @@ msgstr ""
 "livestatus, configuration du démon Event, autorisation Multiste, mode NSCA, "
 "mode système de fichiers TMP."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:521
+#: ../cmk/gui/plugins/wato/ac_tests.py:522
 msgid "Apache number of processes"
 msgstr "Nombre de processus Apache"
 
@@ -6982,7 +6982,7 @@ msgstr "Nombre de processus Apache"
 msgid "Apache process tuning"
 msgstr "Optimisation des processus Apache"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:603
+#: ../cmk/gui/plugins/wato/ac_tests.py:604
 msgid "Apache process usage"
 msgstr "Utilisation des processus Apache"
 
@@ -8362,7 +8362,7 @@ msgstr "Valeurs moyennes du niveau inférieur"
 msgid "Averaged values upper level"
 msgstr "Valeurs moyennes au niveau supérieur"
 
-#: ../cmk/gui/plugins/wato/check_parameters/memory.py:104
+#: ../cmk/gui/plugins/wato/check_parameters/memory.py:105
 #: ../cmk/gui/plugins/wato/check_parameters/pfsense_counter.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/diskstat.py:143
 #: ../cmk/gui/plugins/wato/check_parameters/fc_port.py:97
@@ -8673,7 +8673,7 @@ msgstr "Cartes-mères"
 msgid "Backup conditions"
 msgstr "Conditions de sauvegarde"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:394
+#: ../cmk/gui/plugins/wato/ac_tests.py:395
 msgid "Backup configured"
 msgstr "Sauvegarde configurée"
 
@@ -9193,7 +9193,7 @@ msgstr "Découverte des ports Brocade"
 msgid "Broken"
 msgstr "Cassé"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:945
+#: ../cmk/gui/plugins/wato/ac_tests.py:949
 msgid "Broken GUI extensions"
 msgstr "Extensions de l'interface graphique cassées"
 
@@ -9542,7 +9542,7 @@ msgstr ""
 "d'alerte, ils seront automatiquement appliqués à la valeur moyenne. Cela "
 "permet de masquer les pics courts."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:120
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:124
 msgid ""
 "By activating averaging, Check_MK will compute the average of the total CPU "
 "utilization over a given interval. If you have defined alerting levels then "
@@ -9631,7 +9631,7 @@ msgstr ""
 "tt> sur votre système cible. Actuellement, seul Linux est supporté, mais AIX "
 "et Windows suivront."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:110
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:114
 msgid ""
 "By activating this options you can set levels on the total CPU utilization "
 "of all included processes."
@@ -9946,7 +9946,7 @@ msgstr ""
 "désactivez cette option. Attention, vous pourriez ouvrir la voie à plusieurs "
 "attaques par injection."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:455
+#: ../cmk/gui/plugins/wato/ac_tests.py:456
 msgid ""
 "By default, for security reasons, the GUI does not interpret any HTML code "
 "received from external sources, like service output or log messages. But "
@@ -10271,7 +10271,7 @@ msgstr "CPU Arch"
 msgid "CPU Architecture"
 msgstr "Architecture du CPU"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:119
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:123
 msgid "CPU Averaging"
 msgstr "Moyenne du CPU"
 
@@ -10357,11 +10357,11 @@ msgstr "Pourcentage d'utilisation du CPU"
 msgid "CPU request"
 msgstr "Demande de l'UC"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:60
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:64
 msgid "CPU rescale maximum load"
 msgstr "Charge maximale du CPU"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:72
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:76
 msgid "CPU rescale maximum load is Unspecified."
 msgstr "La charge maximale de la remise à l'échelle du CPU est non spécifiée."
 
@@ -10461,7 +10461,7 @@ msgstr "Utilisation du CPU pour les appareils"
 msgid "CPU utilization for simple devices"
 msgstr "Utilisation du CPU pour les dispositifs simples"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:61
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:65
 msgid ""
 "CPU utilization is delivered by the Operating System as a per CPU core "
 "basis. Thus each core contributes with a 100% at full utilization, producing "
@@ -11093,7 +11093,7 @@ msgstr ""
 "Impossible de soumettre le rapport d'utilisation des licences au serveur de "
 "licences Checkmk '%s'."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1117
+#: ../cmk/gui/plugins/wato/ac_tests.py:1121
 msgid "Cannot test. Unable to determine the number of CPUs on target system."
 msgstr ""
 "Impossible de tester. Impossible de déterminer le nombre de CPUs sur le "
@@ -11681,7 +11681,7 @@ msgstr ""
 "supprimé s'il n'a pas été créé par cette vérification active."
 
 #: ../cmk/gui/cee/plugins/sidebar/cmc.py:79
-#: ../cmk/gui/plugins/wato/ac_tests.py:850
+#: ../cmk/gui/plugins/wato/ac_tests.py:853
 msgid "Check helper usage"
 msgstr "Vérifier l'utilisation des aides"
 
@@ -12070,11 +12070,11 @@ msgstr "Aides de contrôle Checkmk"
 msgid "Checkmk check latency"
 msgstr "Latence de vérification de Checkmk"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1099
+#: ../cmk/gui/plugins/wato/ac_tests.py:1103
 msgid "Checkmk checker count"
 msgstr "Contrôleur de comptage Checkmk"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:763
+#: ../cmk/gui/plugins/wato/ac_tests.py:765
 msgid "Checkmk checker usage"
 msgstr "Utilisation du vérificateur Checkmk"
 
@@ -12091,7 +12091,7 @@ msgstr "Exception Checkmk : %s"
 msgid "Checkmk fetcher latency"
 msgstr "Latence du récupérateur de Checkmk"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:702
+#: ../cmk/gui/plugins/wato/ac_tests.py:704
 msgid "Checkmk fetcher usage"
 msgstr "Utilisation de Checkmk fetcher"
 
@@ -12114,7 +12114,7 @@ msgstr ""
 "backend SNMP pour ces hôtes.Inline SNMP utilise des liaisons PySNMP pour "
 "effectuer des appels SNMP."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:641
+#: ../cmk/gui/plugins/wato/ac_tests.py:642
 #: ../cmk/gui/plugins/metrics/checkmk.py:92
 #: ../cmk/gui/plugins/metrics/checkmk.py:382
 msgid "Checkmk helper usage"
@@ -13168,7 +13168,7 @@ msgstr ""
 "Liste blanche/blacklist combinée pour les nouveaux services et les services "
 "disparus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:323
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:327
 msgid ""
 "Combining \"%s\" and \"%1\" style replacements in the sevice description is "
 "not allowed."
@@ -13204,7 +13204,7 @@ msgstr "Ligne de commande"
 msgid "Command line to execute"
 msgstr "Ligne de commande à exécuter"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:363
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:367
 msgid "Command line:"
 msgstr "Ligne de commande :"
 
@@ -13931,7 +13931,7 @@ msgstr ""
 "href=\"wato.py?mode=edit_configvar&varname=default_user_profile&site=&folder="
 "\">Rôles par défaut</a>. Désactivez-les si vous ne les souhaitez pas."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1122
+#: ../cmk/gui/plugins/wato/ac_tests.py:1126
 #, python-format
 msgid ""
 "Configuring more checkers than the number of available CPUs (%d) have a "
@@ -14559,7 +14559,7 @@ msgstr "Continuer la recherche"
 msgid "Control encryption of data sent from agents to Checkmk."
 msgstr "Contrôlez le cryptage des données envoyées par les agents à Checkmk."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:435
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:439
 msgid "Control group:"
 msgstr "Groupe de contrôle :"
 
@@ -15640,9 +15640,9 @@ msgstr ""
 msgid "Critical Level for time since last self test"
 msgstr "Niveau critique pour le temps écoulé depuis le dernier autotest"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:101
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:192
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:758
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:105
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:196
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:762
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:58
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:29
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:38
@@ -15682,13 +15682,13 @@ msgstr "Zone critique"
 #: ../cmk/gui/plugins/wato/check_parameters/jvm_uptime.py:48
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_prime_wifi_access_points_params.py:29
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info_persistence.py:36
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:114
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:136
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:146
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:156
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:164
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:172
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:179
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:118
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:140
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:150
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:160
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:168
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:176
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:183
 #: ../cmk/gui/plugins/wato/check_parameters/memory.py:62
 #: ../cmk/gui/plugins/wato/check_parameters/winperf_ts_sessions.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/winperf_ts_sessions.py:43
@@ -16437,8 +16437,8 @@ msgstr "Critique à l'utilisation de"
 #: ../cmk/gui/availability.py:280
 #: ../cmk/gui/plugins/wato/datasource_programs.py:932
 #: ../cmk/gui/plugins/wato/active_checks.py:685
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:86
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:743
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:90
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:747
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:67
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:33
 #: ../cmk/gui/plugins/wato/check_parameters/voltage.py:40
@@ -18303,7 +18303,7 @@ msgid "Default configuration"
 msgstr "Configuration par défaut"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_sap_hana.py:46
-#: ../cmk/gui/plugins/wato/ac_tests.py:367
+#: ../cmk/gui/plugins/wato/ac_tests.py:368
 msgid "Default credentials"
 msgstr "Informations d'identification par défaut"
 
@@ -18337,8 +18337,8 @@ msgstr "Style de ligne par défaut"
 msgid "Default metric color"
 msgstr "Couleur métrique par défaut"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:594
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:793
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:598
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:797
 msgid "Default parameters for detected services"
 msgstr "Paramètres par défaut pour les services détectés"
 
@@ -19919,7 +19919,7 @@ msgstr "Blocs de disque sales"
 
 #: ../cmk/gui/backup.py:733 ../cmk/gui/wato/mkeventd.py:324
 #: ../cmk/gui/wato/mkeventd.py:3435
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:214
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:218
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:91
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:102
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:163
@@ -20218,7 +20218,7 @@ msgstr "Étiquettes découvertes"
 msgid "Discovered no service yet."
 msgstr "Il n'y a pas encore de service."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:468
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:472
 msgid "Discovered process name"
 msgstr "Nom du processus découvert"
 
@@ -23221,11 +23221,11 @@ msgstr "Activer de nouvelles notifications basées sur des règles"
 msgid "Enable notification logging"
 msgstr "Activer l'enregistrement des notifications"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:200
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:204
 msgid "Enable per-process details"
 msgstr "Activer les détails par processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:199
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:203
 msgid "Enable per-process details in long-output"
 msgstr "Activer les détails par processus dans les sorties longues"
 
@@ -23476,7 +23476,7 @@ msgstr "Crypter la communication SMTP en utilisant TLS"
 msgid "Encrypt TCP Livestatus connections"
 msgstr "Cryptage des connexions TCP Livestatus"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:425
+#: ../cmk/gui/plugins/wato/ac_tests.py:426
 msgid "Encrypt backups"
 msgstr "Crypter les sauvegardes"
 
@@ -23883,16 +23883,16 @@ msgstr "Escalade des temps d'arrêt en fonction de l'état WARN agrégé."
 msgid "Escape HTML"
 msgstr "Échapper au HTML"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:209
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:213
 msgid "Escape HTML codes in host output"
 msgstr "Échapper les codes HTML dans la sortie de l'hôte"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:210
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:211
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:214
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:215
 msgid "Escape HTML codes in service output"
 msgstr "Échapper les codes HTML dans la sortie du service"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:451
+#: ../cmk/gui/plugins/wato/ac_tests.py:452
 msgid "Escape HTML globally enabled"
 msgstr "Escape HTML activé globalement"
 
@@ -23907,7 +23907,7 @@ msgid "Escape HTML in service output (Dangerous to deactivate - read help)"
 msgstr ""
 "Escape HTML dans la sortie du service (dangereux à désactiver - lire l'aide)"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:481
+#: ../cmk/gui/plugins/wato/ac_tests.py:482
 #, python-format
 msgid "Escaping is <a href=\"%s\">enabled globally</a>"
 msgstr "L'échappement est <a href=\"%s\">activé globalement</a>."
@@ -24268,7 +24268,7 @@ msgstr "Tout"
 msgid "Exact RWVDMS name or regex"
 msgstr "Nom exact de RWVDMS ou regex"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:434
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:438
 msgid "Exact content of the operating system control group info"
 msgstr ""
 "Contenu exact de l'information du groupe de contrôle du système "
@@ -24282,15 +24282,15 @@ msgstr "Correspondance exacte"
 msgid "Exact mount point name or regex"
 msgstr "Nom exact du point de montage ou regex"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:397
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:401
 msgid "Exact name of the operating system user"
 msgstr "Nom exact de l'utilisateur du système d'exploitation"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:681
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:685
 msgid "Exact name of the process path"
 msgstr "Nom exact du chemin du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:356
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:360
 #, fuzzy
 #| msgid "Exact name of the process without argments"
 msgid "Exact name of the process without arguments"
@@ -24301,7 +24301,7 @@ msgstr "Nom exact du processus sans argents"
 msgid "Exact name of the task"
 msgstr "Nom exact de la tâche"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:647
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:651
 msgid "Exact name of the textual description"
 msgstr "Nom exact de la description textuelle"
 
@@ -24480,7 +24480,7 @@ msgstr "Script Python exécutable"
 msgid "Executable format (Linux)"
 msgstr "Format de l'exécutable (Linux)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:357
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:361
 msgid "Executable:"
 msgstr "Exécutable :"
 
@@ -25222,7 +25222,7 @@ msgstr "Impossible de déterminer la règle d'origine de %s / %s"
 msgid "Failed to discover %s: %s"
 msgstr "Échec de la découverte de %s : %s"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:570
+#: ../cmk/gui/plugins/wato/ac_tests.py:571
 msgid "Failed to estimate the apache process size"
 msgstr "Échec de l'estimation de la taille du processus apache"
 
@@ -25319,7 +25319,7 @@ msgstr ""
 msgid "Failed to process your MIB file (%s): %s"
 msgstr "Échec du traitement de votre fichier MIB (%s) : %s"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:562
+#: ../cmk/gui/plugins/wato/ac_tests.py:563
 msgid "Failed to read the apache process ID"
 msgstr "Échec de la lecture de l'ID du processus apache"
 
@@ -26199,11 +26199,11 @@ msgstr "Flex. Durée"
 msgid "Flexible Custom Notifications"
 msgstr "Notifications personnalisées flexibles"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1008
+#: ../cmk/gui/plugins/wato/ac_tests.py:1012
 msgid "Flexible and plain email notifications"
 msgstr "Des notifications par courriel souples et simples"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1012
+#: ../cmk/gui/plugins/wato/ac_tests.py:1016
 msgid ""
 "Flexible and plain email notifications are considered deprecated in version "
 "1.5.0 and  will be removed in Checkmk version 1.6.0. Please consider to "
@@ -26882,11 +26882,11 @@ msgstr ""
 "Trouvé '%s' pour la deuxième fois dans l'arbre '%s'. Chaque élément ne peut "
 "être choisi qu'une seule fois."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:385
+#: ../cmk/gui/plugins/wato/ac_tests.py:386
 msgid "Found <tt>omdadmin</tt> using custom password."
 msgstr "Trouvé <tt>omdadmin</tt> utilisant un mot de passe personnalisé."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:382
+#: ../cmk/gui/plugins/wato/ac_tests.py:383
 msgid ""
 "Found <tt>omdadmin</tt> with default password. It is highly recommended to "
 "change this password."
@@ -27544,7 +27544,7 @@ msgstr "Je n'ai reçu aucune donnée d'aucun site"
 msgid "Got no data from this site"
 msgstr "Je n'ai obtenu aucune donnée de ce site"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:572
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:576
 msgid "Grab user from found processess"
 msgstr "Récupérer l'utilisateur dans les processus trouvés"
 
@@ -27985,7 +27985,7 @@ msgstr "HPE StoreOnce via l'API REST 4.x"
 msgid "HR: Used memory via SNMP"
 msgstr "HR : Mémoire utilisée via SNMP"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:216
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:220
 msgid "HTML output"
 msgstr "Sortie HTML"
 
@@ -28142,7 +28142,7 @@ msgstr "Connexions semi-fermées"
 msgid "Half opened connections"
 msgstr "Connexions semi-ouvertes"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:183
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:187
 msgid "Handle Count (Windows only)"
 msgstr "Nombre de poignées (Windows uniquement)"
 
@@ -28730,7 +28730,7 @@ msgstr ""
 "regexp-query.html \"target=\"_blank\">ici</a>. Si vous voulez accélérer "
 "votre recherche, utilisez les indices définis."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:131
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:135
 msgid ""
 "Here you can define levels on the CPU utilization of single processes. For "
 "performance reasons CPU Averaging will not be applied to to the levels of "
@@ -29000,8 +29000,8 @@ msgstr ""
 "choix n'est disponible, vous devez d'abord configurer un <a href=\"%s\">%s</"
 "a>."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:596
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:795
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:600
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:799
 msgid ""
 "Here you can select default parameters that are being set for detected "
 "services. Note: the preferred way for setting parameters is to use the rule "
@@ -29065,7 +29065,7 @@ msgstr ""
 "le SID et le nom du tablespace, séparés par un point, par exemple <b>pengt."
 "TEMP</b>."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:589
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:593
 msgid ""
 "Here you can set host labels that automatically get created when discovering "
 "the services."
@@ -29746,7 +29746,7 @@ msgstr "IP de l'hôte"
 msgid "Host IPv4 address"
 msgstr "Adresse IPv4 de l'hôte"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:587
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:591
 msgid "Host Label"
 msgstr "Étiquette de l'hôte"
 
@@ -31513,7 +31513,7 @@ msgstr ""
 "services non surveillés, elle les ajoutera/supprimera automatiquement si "
 "nécessaire."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:201
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:205
 #, python-format
 msgid ""
 "If active, the long output of this service will contain a list of all the "
@@ -31649,7 +31649,7 @@ msgid "If no port is given, a default value of 443 will be used."
 msgstr ""
 "Si aucun port n'est indiqué, une valeur par défaut de 443 sera utilisée."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:224
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:228
 msgid ""
 "If non-zero, the the list of all the matching processes and their details in "
 "the long-output will include up to the first N arguments of each processes. "
@@ -32023,7 +32023,7 @@ msgstr ""
 "distribué, vous devez effectuer l'analyse directement sur les sites distants "
 "- à moins que vous n'utilisiez un spooling central."
 
-#: ../cmk/gui/plugins/wato/check_parameters/memory.py:105
+#: ../cmk/gui/plugins/wato/check_parameters/memory.py:106
 msgid ""
 "If this parameter is set, all measured values will be averaged over the "
 "specified time interval before levels are being applied. Per default, "
@@ -33406,7 +33406,7 @@ msgstr ""
 "passante ICMP requise. C'est pourquoi nous utilisons plusieurs sockets en "
 "parallèle."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:829
+#: ../cmk/gui/plugins/wato/ac_tests.py:832
 msgid ""
 "In general it will result in a significantly increased load when alert "
 "handlers are configured to handle all check executions. It is highly "
@@ -33655,7 +33655,7 @@ msgstr ""
 msgid "In this pack"
 msgstr "Dans ce pack"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:370
+#: ../cmk/gui/plugins/wato/ac_tests.py:371
 msgid ""
 "In versions prior to version 1.4.0 the first administrative user of the site "
 "was named <tt>omdadmin</tt> with the standard password <tt>omd</tt>. This "
@@ -33732,11 +33732,11 @@ msgstr "Inclure les piscines vides dans le suivi"
 msgid "Include full path"
 msgstr "Inclure le chemin complet"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:223
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:227
 msgid "Include per-process arguments (security risk!)"
 msgstr "Inclure des arguments par processus (risque de sécurité !)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:222
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:226
 msgid "Include process arguments in long-output"
 msgstr "Inclure les arguments du processus dans les sorties longues"
 
@@ -34551,8 +34551,8 @@ msgstr "Intervalle :"
 msgid "Invalid %s address: %s"
 msgstr "Adresse %s non valide : %s"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:727
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:772
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:731
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:776
 msgid "Invalid (Not loaded)"
 msgstr "Invalide (non chargé)"
 
@@ -35080,8 +35080,8 @@ msgid "Inventory: History"
 msgstr "Inventaire : Histoire"
 
 #: ../cmk/gui/wato/mkeventd.py:899
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:461
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:462
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:465
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:466
 msgid "Invert matching"
 msgstr "Inverser la correspondance"
 
@@ -35606,12 +35606,12 @@ msgstr ""
 "Garder les hôtes pendant que la source de ferroutage envoie des données de "
 "ferroutage seulement pour les autres hôtes pour"
 
-#: ../cmk/gui/plugins/wato/check_parameters/memory.py:92
-#, python-format
+#: ../cmk/gui/plugins/wato/check_parameters/memory.py:93
+#, no-python-format
 msgid ""
-"Keep in mind that if you have 1GB RAM and 1GB Swap you need to specify "
-"120% or 1200MB to get an alert if there is only 20% free RAM available. The "
-"free memory levels do not work with the fortigate check, because it does not "
+"Keep in mind that if you have 1GB RAM and 1GB Swap you need to specify 120% "
+"or 1200MB to get an alert if there is only 20% free RAM available. The free "
+"memory levels do not work with the fortigate check, because it does not "
 "provide total memory data."
 msgstr ""
 "Gardez à l'esprit que si vous avez 1 Go de RAM et 1 Go de Swap, vous devez "
@@ -36640,8 +36640,8 @@ msgstr "Niveaux pour les connexions passthrough"
 msgid "Levels for power state count"
 msgstr "Niveaux pour le comptage de l'état de puissance"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:79
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:736
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:83
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:740
 msgid "Levels for process count"
 msgstr "Niveaux pour le comptage des processus"
 
@@ -36865,7 +36865,7 @@ msgstr "Niveaux de dossiers à créer"
 msgid "Levels on %s single-request consumption"
 msgstr "Niveaux de consommation à la demande unique de %s"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:130
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:134
 msgid "Levels on CPU utilization of a single process"
 msgstr "Niveaux d'utilisation du CPU d'un seul processus"
 
@@ -36974,7 +36974,7 @@ msgstr ""
 msgid "Levels on time offset"
 msgstr "Niveaux sur le décalage horaire"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:109
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:113
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:111
 msgid "Levels on total CPU utilization"
 msgstr "Niveaux d'utilisation totale du CPU"
@@ -37588,7 +37588,7 @@ msgstr "Demandes de livestatus par connexion"
 msgid "Livestatus connects"
 msgstr "Livestatus se connecte"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:275
+#: ../cmk/gui/plugins/wato/ac_tests.py:276
 msgid "Livestatus encryption"
 msgstr "Cryptage du statut de vie"
 
@@ -37605,11 +37605,11 @@ msgstr "Erreur de livestatus"
 msgid "Livestatus is available locally"
 msgstr "Livestatus est disponible localement"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:294
+#: ../cmk/gui/plugins/wato/ac_tests.py:295
 msgid "Livestatus network traffic is encrypted"
 msgstr "Le trafic réseau de Livestatus est crypté"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:298
+#: ../cmk/gui/plugins/wato/ac_tests.py:299
 msgid "Livestatus network traffic is unencrypted"
 msgstr "Le trafic réseau de Livestatus n'est pas crypté."
 
@@ -37694,7 +37694,7 @@ msgid "Load of Citrix Server"
 msgstr "Charge du serveur Citrix"
 
 #: ../cmk/gui/cee/plugins/wato/mkpmanager.py:281
-#: ../cmk/gui/plugins/wato/ac_tests.py:962
+#: ../cmk/gui/plugins/wato/ac_tests.py:966
 #, python-format
 msgid "Loading \"%s\" failed: %s"
 msgstr "Le chargement de \"%s\" a échoué : %s"
@@ -39074,7 +39074,7 @@ msgstr "Répertoire principal"
 msgid "Main folder"
 msgstr "Dossier principal"
 
-#: ../cmk/gui/plugins/wato/check_parameters/memory.py:124
+#: ../cmk/gui/plugins/wato/check_parameters/memory.py:125
 #: ../cmk/gui/plugins/wato/check_mk_configuration.py:2250
 msgid "Main memory usage (UNIX / Other Devices)"
 msgstr "Utilisation de la mémoire principale (UNIX / autres dispositifs)"
@@ -39458,7 +39458,7 @@ msgstr "Cartographie des états opérationnels"
 msgid "Map power states"
 msgstr "Cartographie des états de puissance"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:776
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:780
 msgid "Map process states"
 msgstr "Cartographier les états du processus"
 
@@ -39561,7 +39561,7 @@ msgstr ""
 "États d'administration de la correspondance (SNMP avec compteurs 64 bits "
 "uniquement)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:451
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:455
 msgid "Match all control groups"
 msgstr "Faire correspondre tous les groupes de contrôle"
 
@@ -39573,8 +39573,8 @@ msgstr "Correspond à toutes les interfaces"
 msgid "Match all nodes"
 msgstr "Correspond à tous les nœuds"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:383
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:719
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:387
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:723
 msgid "Match all processes"
 msgstr "Faire correspondre tous les processus"
 
@@ -39583,7 +39583,7 @@ msgstr "Faire correspondre tous les processus"
 msgid "Match all tasks"
 msgstr "Répondre à toutes les tâches"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:413
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:417
 msgid "Match all users"
 msgstr "Faire correspondre tous les utilisateurs"
 
@@ -39677,7 +39677,7 @@ msgstr "Faire correspondre les états des ports"
 msgid "Match port types"
 msgstr "Faire correspondre les types de port"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:717
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:721
 msgid "Match process path"
 msgstr "Faire correspondre le chemin du processus"
 
@@ -39726,7 +39726,7 @@ msgstr "Correspondance avec l'installation syslog"
 msgid "Match syslog priority"
 msgstr "Priorité syslog"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:715
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:719
 msgid "Match textual description"
 msgstr "Correspondre à la description textuelle"
 
@@ -40055,7 +40055,7 @@ msgstr "Âge maximum de la dernière sauvegarde du timemachine"
 msgid "Maximum age of passwords"
 msgstr "Âge maximal des mots de passe"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:151
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:155
 msgid "Maximum allowed age"
 msgstr "Âge maximal autorisé"
 
@@ -40992,7 +40992,7 @@ msgstr "Durée de vie minimale des pages"
 msgid "Minimum Required Checkmk version"
 msgstr "Version minimale requise Checkmk"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:141
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:145
 msgid "Minimum allowed age"
 msgstr "Âge minimum autorisé"
 
@@ -42064,7 +42064,7 @@ msgstr "Esclave MySQL"
 msgid "MySQL database sizes"
 msgstr "Taille des bases de données MySQL"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:55
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:59
 msgid "N * 100% as each core contributes with 100% at full load"
 msgstr "N * 100% car chaque noyau contribue à 100% à pleine charge"
 
@@ -42357,7 +42357,7 @@ msgstr "Nom du gestionnaire ou de l'instance"
 msgid "Name of node"
 msgstr "Nom du nœud"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:395
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:399
 msgid "Name of operating system user"
 msgstr "Nom de l'utilisateur du système d'exploitation"
 
@@ -43156,7 +43156,7 @@ msgstr "Pas d'authentification, pas de vie privée"
 msgid "No baked agent for this host available"
 msgstr "Aucun agent de cuisson n'est disponible pour cet hôte"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:959
+#: ../cmk/gui/plugins/wato/ac_tests.py:963
 msgid "No broken extensions were found."
 msgstr "Aucune extension cassée n'a été trouvée."
 
@@ -43174,7 +43174,7 @@ msgstr ""
 msgid "No commands are possible in this view"
 msgstr "Aucune commande n'est possible dans cette vue"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:999
+#: ../cmk/gui/plugins/wato/ac_tests.py:1003
 msgid "No configured rules are affected"
 msgstr "Aucune règle configurée n'est affectée"
 
@@ -43446,7 +43446,7 @@ msgstr "Aucune ligne sélectionnée pour laquelle effectuer des actions."
 msgid "No rules found."
 msgstr "Aucune règle trouvée."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1077
+#: ../cmk/gui/plugins/wato/ac_tests.py:1081
 msgid ""
 "No ruleset <b>State in case of restricted address missmatch</b> is configured"
 msgstr ""
@@ -44005,8 +44005,8 @@ msgstr "Dispositifs ne répondant pas"
 msgid "Not restricted to showing a specific object."
 msgstr "Ne se limite pas à montrer un objet spécifique."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:726
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:771
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:730
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:775
 msgid "Not runnable (Loaded but waiting for event)"
 msgstr "Non exécutable (Chargé mais en attente d'un événement)"
 
@@ -44480,7 +44480,7 @@ msgstr ""
 msgid "Number of Active Sessions"
 msgstr "Nombre de sessions actives"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1126
+#: ../cmk/gui/plugins/wato/ac_tests.py:1130
 msgid "Number of Checkmk checkers is less than number of CPUs"
 msgstr "Le nombre de vérificateurs Checkmk est inférieur au nombre de CPU."
 
@@ -45189,7 +45189,7 @@ msgstr "Nombre de licences de bureau à distance utilisées"
 msgid "Number of used states of OpenBSD PF engine"
 msgstr "Nombre d'états utilisés du moteur PF d'OpenBSD"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:307
+#: ../cmk/gui/plugins/wato/ac_tests.py:308
 msgid "Number of users"
 msgstr "Nombre d'utilisateurs"
 
@@ -46186,7 +46186,7 @@ msgstr "Ressources du système d'exploitation"
 msgid "Operating speed"
 msgstr "Vitesse de fonctionnement"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:430
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:434
 msgid "Operating system control group information"
 msgstr "Informations sur le groupe de contrôle du système d'exploitation"
 
@@ -48561,11 +48561,11 @@ msgstr "Volume physique Total des partitions"
 msgid "Physical disks"
 msgstr "Disques physiques"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:169
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:173
 msgid "Physical memory usage"
 msgstr "Utilisation de la mémoire physique"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:176
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:180
 msgid "Physical memory usage, in percentage of total RAM"
 msgstr "Utilisation de la mémoire physique, en pourcentage de la RAM totale"
 
@@ -48745,7 +48745,7 @@ msgid "Please check the metrics you want to combine by an operation"
 msgstr ""
 "Veuillez vérifier les métriques que vous voulez combiner par une opération"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:428
+#: ../cmk/gui/plugins/wato/ac_tests.py:429
 msgid ""
 "Please check whether or not your backups are stored securely. In case you "
 "are storing your backup on a storage system the storage may already be "
@@ -48805,7 +48805,7 @@ msgstr "Veuillez confirmer la suppression de \"%s\"%s."
 msgid "Please confirm the deletion of \"%s\"."
 msgstr "Veuillez confirmer la suppression de \"%s\"."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:472
+#: ../cmk/gui/plugins/wato/ac_tests.py:473
 #, python-format
 msgid ""
 "Please consider configuring the host or service rulesets <a href=\"%s"
@@ -48961,8 +48961,8 @@ msgstr ""
 "cette règle n'est pas suffisant. Cela est dû à la nature des règles "
 "d'inventaire."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:80
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:737
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:84
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:741
 msgid ""
 "Please note that if you specify and also if you modify levels here, the "
 "change is activated only during an inventory.Saving this rule is not enough. "
@@ -48985,7 +48985,7 @@ msgstr ""
 "modifié sur votre système et peut différer de nos définitions. Dans ce cas, "
 "utilisez l'option ci-dessous."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:348
+#: ../cmk/gui/plugins/wato/ac_tests.py:349
 msgid ""
 "Please note that you have to set <tt>RequestHeader set X-Forwarded-Proto "
 "\"https\"</tt> in your system apache configuration to tell the Checkmk GUI "
@@ -49325,8 +49325,8 @@ msgstr ""
 "de soulignement, le point et le trait d'union pour la description de votre "
 "service."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:498
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:843
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:502
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:847
 msgid ""
 "Please use only a-z, A-Z, 0-9, space, underscore, dot, hyphen and slash for "
 "your service description"
@@ -50125,27 +50125,27 @@ msgstr "ID du processus"
 msgid "Process ID of the origin process"
 msgstr "ID du processus d'origine"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:713
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:717
 msgid "Process Match textual description or path of process"
 msgstr ""
 "Processus Correspond à la description textuelle ou au chemin du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:353
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:357
 msgid "Process Matching"
 msgstr "Correspondance des processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:329
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:494
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:839
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:333
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:498
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:843
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:690
 msgid "Process Name"
 msgstr "Nom du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:644
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:648
 msgid "Process Name Matching"
 msgstr "Correspondance des noms de processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:678
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:682
 msgid "Process Path Matching"
 msgstr "Correspondance des chemins de processus"
 
@@ -50153,7 +50153,7 @@ msgstr "Correspondance des chemins de processus"
 msgid "Process Runtime"
 msgstr "Durée d'exécution du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:722
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:726
 msgid "Process Status Matching"
 msgstr "Correspondance d'état des processus"
 
@@ -50165,11 +50165,11 @@ msgstr "Traiter au maximum"
 msgid "Process creations"
 msgstr "Créations de processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:559
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:563
 msgid "Process discovery"
 msgstr "Découverte du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:783
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:787
 msgid "Process discovery (only SNMP)"
 msgstr "Découverte des processus (uniquement SNMP)"
 
@@ -51687,12 +51687,12 @@ msgstr "Expression régulière pour le début du nom de l'hôte"
 msgid "Regular expression match"
 msgstr "Correspondance d'une expression régulière"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:367
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:371
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:107
 msgid "Regular expression matching command line"
 msgstr "Expression régulière correspondant à la ligne de commande"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:442
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:446
 msgid "Regular expression matching control group info"
 msgstr ""
 "Correspondance par expression régulière des informations sur les groupes de "
@@ -51706,15 +51706,15 @@ msgstr "Tâches de mise en correspondance des expressions régulières"
 msgid "Regular expression matching the path"
 msgstr "Expression régulière correspondant au chemin"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:692
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:696
 msgid "Regular expression matching the process path"
 msgstr "Expression régulière correspondant au chemin du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:658
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:662
 msgid "Regular expression matching the textual description"
 msgstr "Expression régulière correspondant à la description textuelle"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:404
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:408
 msgid "Regular expression matching username"
 msgstr "Expression régulière correspondant au nom d'utilisateur"
 
@@ -52927,7 +52927,7 @@ msgstr ""
 msgid "Restrict to notification number"
 msgstr "Restreindre au numéro de notification"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1053
+#: ../cmk/gui/plugins/wato/ac_tests.py:1057
 msgid "Restricted address missmatch"
 msgstr "Mauvaise correspondance d'adresse restreinte"
 
@@ -53225,7 +53225,7 @@ msgstr "Règle"
 msgid "Rule %d in %s"
 msgstr "Règle %d dans %s"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:996
+#: ../cmk/gui/plugins/wato/ac_tests.py:1000
 #, python-format
 msgid "Rule %d in Folder %s is affected"
 msgstr "La règle %d du dossier %s est affectée."
@@ -53357,7 +53357,7 @@ msgstr "Règle-ID"
 msgid "Rule:"
 msgstr "Règle :"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1023
+#: ../cmk/gui/plugins/wato/ac_tests.py:1027
 msgid "Rulebased notifications are activated"
 msgstr "Les notifications basées sur des règles sont activées"
 
@@ -53545,14 +53545,14 @@ msgstr "Fonctionnement synchrone"
 msgid "Run tests"
 msgstr "Exécuter des tests"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:725
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:770
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:729
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:774
 msgid "Runnable (Waiting for resource)"
 msgstr "Exécutable (en attente de ressources)"
 
 #: ../cmk/gui/cee/plugins/wato/dcd.py:390
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:724
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:769
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:728
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:773
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:48
 #: ../cmk/gui/plugins/wato/check_parameters/websphere_mq_manager.py:33
 #: ../cmk/gui/plugins/views/builtin_inventory_plugins.py:520
@@ -54803,11 +54803,11 @@ msgstr "Sections à envoyer"
 msgid "Secure Agent Updater"
 msgstr "Secure Agent Updater"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:338
+#: ../cmk/gui/plugins/wato/ac_tests.py:339
 msgid "Secure GUI (HTTP)"
 msgstr "Interface graphique sécurisée (HTTP)"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:241
+#: ../cmk/gui/plugins/wato/ac_tests.py:242
 msgid "Secure LDAP"
 msgstr "LDAP sécurisé"
 
@@ -56267,7 +56267,7 @@ msgid "Set lower and upper levels for numerical sensors"
 msgstr ""
 "Définir des niveaux inférieurs et supérieurs pour les capteurs numériques"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:142
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:146
 msgid ""
 "Set lower levels on the age of the process (not the consumed CPU time, but "
 "the real time)."
@@ -56534,7 +56534,7 @@ msgstr ""
 "Définir les niveaux supérieurs de sessions actives par rapport au nombre "
 "maximal de sessions. Cette option est facultative."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:152
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:156
 msgid ""
 "Set upper levels on the age of the process (not the consumed CPU time, but "
 "the real time)."
@@ -57547,7 +57547,7 @@ msgstr "Mode simulation"
 msgid "Simultanous activation of changes"
 msgstr "Activation simultanée des changements"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:949
+#: ../cmk/gui/plugins/wato/ac_tests.py:953
 msgid ""
 "Since 1.6.0i1 broken GUI extensions don't block the whole GUI initialization "
 "anymore. Instead of this, the errors are logged in <tt>var/log/web.log</tt>. "
@@ -57706,7 +57706,7 @@ msgstr "Validité du certificat de site"
 msgid "Site connection"
 msgstr "Connexion au site"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1037
+#: ../cmk/gui/plugins/wato/ac_tests.py:1041
 msgid "Site connectivity"
 msgstr "Connectivité du site"
 
@@ -57737,11 +57737,11 @@ msgstr "Le site est absent"
 msgid "Site is not running"
 msgstr "Le site ne fonctionne pas"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:356
+#: ../cmk/gui/plugins/wato/ac_tests.py:357
 msgid "Site is using HTTPS"
 msgstr "Le site utilise HTTPS"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:358
+#: ../cmk/gui/plugins/wato/ac_tests.py:359
 msgid "Site is using plain HTTP. Consider enabling HTTPS."
 msgstr "Le site utilise le protocole HTTP simple. Envisagez d'activer HTTPS."
 
@@ -57850,7 +57850,7 @@ msgstr "Taille de la file d'attente active du courrier"
 msgid "Size of deferred mail queue"
 msgstr "Taille de la file d'attente du courrier différé"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:901
+#: ../cmk/gui/plugins/wato/ac_tests.py:905
 msgid "Size of extensions"
 msgstr "Taille des extensions"
 
@@ -59207,7 +59207,7 @@ msgstr ""
 msgid "Specify which port types should not be discovered"
 msgstr "Spécifier les types de port qui ne doivent pas être découverts"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:575
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:579
 #, python-format
 msgid ""
 "Specifying \"grab user\" makes the created check expect the process to run "
@@ -59512,8 +59512,8 @@ msgstr "Démarrage de l'activation (Sites : %s)"
 msgid "Starting from period number"
 msgstr "A partir du numéro de période"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:70
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:73
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:74
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:77
 msgid ""
 "Starting from version 1.6.0 this value must be configured. Read Werk #6646 "
 "for further information."
@@ -59602,13 +59602,13 @@ msgstr "Intervalle de rétention de l'État"
 msgid "State and Count of Processes"
 msgstr "État et nombre de processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:487
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:521
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:491
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:525
 msgid "State and count of processes"
 msgstr "État et nombre de processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:832
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:862
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:836
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:866
 msgid "State and count of processes (only SNMP)"
 msgstr "État et nombre de processus (uniquement SNMP)"
 
@@ -62122,7 +62122,7 @@ msgstr "Désactiver temporairement cette connexion"
 msgid "Temporarily frozen"
 msgstr "Temporairement gelé"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:198
+#: ../cmk/gui/plugins/wato/ac_tests.py:199
 msgid "Temporary filesystem mounted"
 msgstr "Système de fichiers temporaire monté"
 
@@ -62195,7 +62195,7 @@ msgstr ""
 "Texte du troisième groupe de correspondance de la correspondance "
 "d'expression (et ainsi de suite...)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:215
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:219
 msgid "Text output"
 msgstr "Sortie de texte"
 
@@ -62440,7 +62440,7 @@ msgstr ""
 msgid "The Checkmk Micro Core"
 msgstr "Le micro noyau Checkmk"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1103
+#: ../cmk/gui/plugins/wato/ac_tests.py:1107
 msgid ""
 "The Checkmk Microcore uses Checkmk checker processes to process the results "
 "from the Checkmk fetchers. Since the checker processes are not IO bound, "
@@ -62498,12 +62498,12 @@ msgstr ""
 "que si le super serveur est compatible avec un ensemble de règles de "
 "restriction d'IP éventuellement configuré. Voir le jeu de règles \"%s\"."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:971
+#: ../cmk/gui/plugins/wato/ac_tests.py:975
 msgid "The Checkmk agent is queried via the ESX datasource program"
 msgstr ""
 "L'agent Checkmk est interrogé via le programme de la source de données ESX."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:974
+#: ../cmk/gui/plugins/wato/ac_tests.py:978
 msgid ""
 "The Checkmk agent is queried via the datasource program for ESX systems. "
 "This is option will be deleted in a future release. Please configure the "
@@ -63131,7 +63131,7 @@ msgstr ""
 "L'action de cet événement est toujours retardée dans l'espoir d'une "
 "annulation de l'événement."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:891
+#: ../cmk/gui/plugins/wato/ac_tests.py:895
 #, python-format
 msgid "The active check services have an average check latency of %.3fs."
 msgstr ""
@@ -63255,7 +63255,7 @@ msgstr ""
 "Les titres des agrégations ne sont pas uniques. \"%s\" est créé par "
 "l'agrégation <b>%s</b> et <b>%s</b>."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:606
+#: ../cmk/gui/plugins/wato/ac_tests.py:607
 msgid ""
 "The apache has a number maximum processes it can start in case of high load "
 "situations. The usage of these processes should not be too high in normal "
@@ -63270,7 +63270,7 @@ msgstr ""
 "longtemps un processus libre, ce qui entraînerait une interface graphique "
 "lente."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:550
+#: ../cmk/gui/plugins/wato/ac_tests.py:551
 #, python-format
 msgid ""
 "The apache may start up to %d processes while the current average process "
@@ -63576,7 +63576,7 @@ msgstr ""
 "La case à cocher permettant de définir les temps d'arrêt des hôtes ne "
 "fonctionne pas lors de la suppression des temps d'arrêt."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:815
+#: ../cmk/gui/plugins/wato/ac_tests.py:818
 msgid ""
 "The checker usage is below 50%, you may decrease the number of checkers to "
 "reduce the memory consumption."
@@ -63872,7 +63872,7 @@ msgid ""
 "'CONNECTED'. The default state is OK."
 msgstr ""
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:684
+#: ../cmk/gui/plugins/wato/ac_tests.py:686
 #, python-format
 msgid ""
 "The current Checkmk helper usage is %.2f%%. The Checkmk services have an "
@@ -63881,12 +63881,12 @@ msgstr ""
 "L'utilisation actuelle de l'aide Checkmk est de %.2f%%. Les services Checkmk "
 "ont une latence de vérification moyenne de %.3fs."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:884
+#: ../cmk/gui/plugins/wato/ac_tests.py:888
 #, python-format
 msgid "The current check helper usage is %.2f%%"
 msgstr "L'utilisation actuelle de l'aide de vérification est de %.2f%%."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:806
+#: ../cmk/gui/plugins/wato/ac_tests.py:809
 #, python-format
 msgid ""
 "The current checker usage is %.2f%%, The checks have an average check "
@@ -63904,7 +63904,7 @@ msgstr ""
 "messages dans la file d'attente, y compris les messages engagés et les "
 "messages non engagés."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:744
+#: ../cmk/gui/plugins/wato/ac_tests.py:746
 #, python-format
 msgid ""
 "The current fetcher usage is %.2f%%. The checks have an average check "
@@ -63913,7 +63913,7 @@ msgstr ""
 "L'utilisation actuelle des récupérateurs est de %.2f%%. La latence moyenne "
 "des vérifications est de %.3fs."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:184
+#: ../cmk/gui/plugins/wato/ac_tests.py:185
 #, python-format
 msgid "The current livestatus usage is %.2f%%"
 msgstr "L'utilisation actuelle de l'état civil est de %.2f%%."
@@ -64216,7 +64216,7 @@ msgstr ""
 "L'expression \"%s\" utilise une fonction de consolidation différente de "
 "celle du graphique (%s). Ceci n'est pas autorisé."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:753
+#: ../cmk/gui/plugins/wato/ac_tests.py:755
 msgid ""
 "The fetcher usage is below 50%, you may decrease the number of fetchers to "
 "reduce the memory consumption."
@@ -64486,7 +64486,7 @@ msgstr ""
 "soit en les supprimant, soit en les déplaçant dans un sous-dossier. Par "
 "défaut, rien n'est nettoyé."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:692
+#: ../cmk/gui/plugins/wato/ac_tests.py:694
 msgid ""
 "The helper usage is below 50%, you may decrease the number of Checkmk "
 "helpers to reduce the memory consumption."
@@ -64771,7 +64771,7 @@ msgstr ""
 "Le nom de l'élément. Sa signification dépend de l'appareil mandaté : - "
 "Wagner OxyReduct : Nom de la pièce/zone de protection"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:440
+#: ../cmk/gui/plugins/wato/ac_tests.py:441
 #, python-format
 msgid "The job \"%s\" is encrypted"
 msgstr "Le travail \"%s\" est crypté."
@@ -65499,7 +65499,7 @@ msgstr ""
 msgid "The number of elements in the tuple must be exactly %d."
 msgstr "Le nombre d'éléments dans le tuple doit être exactement %d."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:184
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:188
 msgid ""
 "The number of object handles in the processes object table. This includes "
 "open handles to threads, files and other resources like registry keys."
@@ -66717,11 +66717,11 @@ msgstr ""
 "Le secret d'équipe de votre équipe SIGNL4. C'est la dernière partie de l'URL "
 "de votre webhook : https://connect.signl4.com/webhook/<team_secret>"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:212
+#: ../cmk/gui/plugins/wato/ac_tests.py:213
 msgid "The temporary filesystem is mounted"
 msgstr "Le système de fichiers temporaire est monté"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:215
+#: ../cmk/gui/plugins/wato/ac_tests.py:216
 msgid ""
 "The temporary filesystem is not mounted. Your installation may work with "
 "degraded performance."
@@ -67271,7 +67271,7 @@ msgstr ""
 msgid "There is no WATO snapshot to be restored."
 msgstr "Il n'y a pas d'instantané WATO à restaurer."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:416
+#: ../cmk/gui/plugins/wato/ac_tests.py:417
 msgid "There is no backup job configured"
 msgstr "Il n'y a pas de tâche de sauvegarde configurée"
 
@@ -67284,7 +67284,7 @@ msgstr "Il n'y a pas de modèle de graphique avec l'id '%s'."
 msgid "There is no manpage for this check."
 msgstr "Il n'y a pas de page de manuel pour cette vérification."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:442
+#: ../cmk/gui/plugins/wato/ac_tests.py:443
 #, python-format
 msgid "There job \"%s\" is not encrypted"
 msgstr "Le travail \"%s\" n'est pas crypté."
@@ -68130,12 +68130,12 @@ msgstr ""
 "de base de données ORACLE au cours des 60 dernières minutes. Vous pouvez "
 "définir des niveaux pour les limites supérieure et inférieure."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1040
+#: ../cmk/gui/plugins/wato/ac_tests.py:1044
 msgid "This check returns CRIT if the connection to the remote site failed."
 msgstr ""
 "Cette vérification renvoie CRIT si la connexion au site distant a échoué."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:1057
+#: ../cmk/gui/plugins/wato/ac_tests.py:1061
 msgid ""
 "This check returns CRIT if the parameter <b>State in case of restricted "
 "address missmatch</b> in the ruleset <b>Status of the Checkmk services</b> "
@@ -68859,8 +68859,8 @@ msgstr ""
 "Ce nom doit correspondre au nom de la section définie dans la configuration "
 "de mk_filestats."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:495
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:840
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:499
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:844
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:156
 msgid "This name will be used in the description of the service"
 msgstr "Ce nom sera utilisé dans la description du service."
@@ -69666,7 +69666,7 @@ msgstr "Ce problème a été reconnu"
 msgid "This problem has been acknowledged."
 msgstr "Ce problème a été reconnu."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:368
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:372
 msgid ""
 "This regex must match the <i>beginning</i> of the complete command line of "
 "the process including arguments.<br>When using groups, matches will be "
@@ -69696,7 +69696,7 @@ msgstr ""
 "Cette expression rationnelle doit correspondre au <i>début</i> de la ligne "
 "de commande complète de la tâche, y compris les arguments."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:443
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:447
 msgid ""
 "This regex must match the <i>beginning</i> of the complete control group "
 "information"
@@ -69712,7 +69712,7 @@ msgstr ""
 "Cette regex doit correspondre au <i>début</i> du chemin complet du nœud tel "
 "que rapporté par l'agent."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:693
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:697
 msgid ""
 "This regex must match the <i>beginning</i> of the complete path of the "
 "process including arguments.<br>When using groups, matches will be "
@@ -69733,7 +69733,7 @@ msgstr ""
 "utiliser un délimiteur comme '$' ou '\\b' autour du groupe, par exemple (py."
 "*)$<br>Lors de la vérification manuelle, les groupes sont agrégés."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:659
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:663
 msgid ""
 "This regex must match the <i>beginning</i> of the complete textual "
 "description of the process including arguments.<br>When using groups, "
@@ -69755,7 +69755,7 @@ msgstr ""
 "groupe, par exemple (py.*)$<br>Lors de la vérification manuelle, les groupes "
 "sont agrégés."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:405
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:409
 msgid "This regex must match the <i>beginning</i> of the complete username"
 msgstr ""
 "Cette expression rationnelle doit correspondre au <i>début</i> du nom "
@@ -70932,7 +70932,7 @@ msgstr ""
 "et d'évaluation de MTR (Matt's traceroute) pour la perte de paquets, l'aller-"
 "retour moyen et l'écart type."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:820
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:824
 msgid ""
 "This ruleset defines criteria for SNMP processes base upon the HOST "
 "Resources MIB."
@@ -70940,7 +70940,7 @@ msgstr ""
 "Ce jeu de règles définit des critères pour les processus SNMP basés sur la "
 "MIB HOST Resources."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:784
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:788
 msgid ""
 "This ruleset defines criteria for automatically creating checks for running "
 "SNMP processes based upon the HOST Resource MIB and what is running when the "
@@ -70954,7 +70954,7 @@ msgstr ""
 "description textuelle, soit le chemin du processus dans les critères de "
 "correspondance."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:560
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:564
 msgid ""
 "This ruleset defines criteria for automatically creating checks for running "
 "processes based upon what is running when the service discovery is done. "
@@ -74732,7 +74732,7 @@ msgstr "Mémoire non récupérable"
 msgid "Unregistered"
 msgstr "Non enregistré"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:69
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:73
 msgid "Unspecified."
 msgstr "Non spécifié."
 
@@ -76943,7 +76943,7 @@ msgstr "Utilisateur ayant effectué l'action"
 msgid "User-ID attribute"
 msgstr "Attribut User-ID"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:397
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:401
 msgid "User:"
 msgstr "Utilisateur :"
 
@@ -77846,7 +77846,7 @@ msgstr "Statut des outils invités de la machine virtuelle (par exemple ESX)"
 msgid "Virtual machine (for example ESX) heartbeat status"
 msgstr "État du battement de cœur de la machine virtuelle (par exemple ESX)"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:161
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:165
 #: ../cmk/gui/plugins/wato/check_parameters/mongodb_mem.py:51
 msgid "Virtual memory usage"
 msgstr "Utilisation de la mémoire virtuelle"
@@ -78361,9 +78361,9 @@ msgstr ""
 msgid "Warning Level for time since last self test"
 msgstr "Niveau d'alerte pour le temps écoulé depuis le dernier autotest"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:96
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:188
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:753
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:100
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:192
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:757
 #: ../cmk/gui/plugins/wato/check_parameters/domino_tasks.py:53
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/k8s_resources.py:37
@@ -78402,13 +78402,13 @@ msgstr "Zone d'alerte"
 #: ../cmk/gui/plugins/wato/check_parameters/jvm_uptime.py:47
 #: ../cmk/gui/plugins/wato/check_parameters/cisco_prime_wifi_access_points_params.py:28
 #: ../cmk/gui/plugins/wato/check_parameters/redis_info_persistence.py:35
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:113
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:135
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:145
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:155
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:163
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:171
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:178
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:117
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:139
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:149
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:159
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:167
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:175
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:182
 #: ../cmk/gui/plugins/wato/check_parameters/memory.py:61
 #: ../cmk/gui/plugins/wato/check_parameters/winperf_ts_sessions.py:31
 #: ../cmk/gui/plugins/wato/check_parameters/winperf_ts_sessions.py:42
@@ -79153,8 +79153,8 @@ msgstr "Avertissement lors de l'utilisation de"
 #: ../cmk/gui/availability.py:278
 #: ../cmk/gui/plugins/wato/datasource_programs.py:931
 #: ../cmk/gui/plugins/wato/active_checks.py:684
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:91
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:748
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:95
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:752
 #: ../cmk/gui/plugins/wato/check_parameters/rabbitmq_nodes_filedesc.py:66
 #: ../cmk/gui/plugins/wato/check_parameters/mssql_counters_page_life_expectancy.py:32
 #: ../cmk/gui/plugins/wato/check_parameters/voltage.py:39
@@ -80603,7 +80603,7 @@ msgstr ""
 "fonctionnalité peut être activée ici. Il y a de fortes chances que vous "
 "n'ayez jamais besoin de cette fonctionnalité..."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:342
+#: ../cmk/gui/plugins/wato/ac_tests.py:343
 msgid ""
 "When using the regular HTTP protocol all data transfered between the Checkmk "
 "and the clients using the GUI is sent over the network in plain text "
@@ -80618,7 +80618,7 @@ msgstr ""
 "Checkmk et d'autres informations sensibles. Il est fortement recommandé "
 "d'activer le protocole SSL pour sécuriser les données transportées."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:244
+#: ../cmk/gui/plugins/wato/ac_tests.py:245
 msgid ""
 "When using the regular LDAP protocol all data transfered between the Checkmk "
 "and LDAP servers is sent over the network in plain text (unencrypted). This "
@@ -81914,7 +81914,7 @@ msgstr ""
 "Vous pouvez attribuer des icônes ou des actions aux services pour "
 "l'interface graphique d'état."
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:233
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:237
 #: ../cmk/gui/plugins/wato/check_parameters/services.py:138
 msgid ""
 "You can assign icons or actions to the found services in the status GUI."
@@ -82984,12 +82984,12 @@ msgstr "Vous avez %d agents cuits contenant le plugin de mise à jour."
 msgid "You have %d rules for deploying the update plugin"
 msgstr "Vous avez %d règles pour déployer le plugin de mise à jour"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:325
+#: ../cmk/gui/plugins/wato/ac_tests.py:326
 #, python-format
 msgid "You have %d users configured"
 msgstr "Vous avez %d utilisateurs configurés"
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:328
+#: ../cmk/gui/plugins/wato/ac_tests.py:329
 #, python-format
 msgid ""
 "You have %d users configured. Please review the number of users you have "
@@ -82998,7 +82998,7 @@ msgstr ""
 "Vous avez %d utilisateurs configurés. Veuillez vérifier le nombre "
 "d'utilisateurs que vous avez configurés dans Checkmk."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:189
+#: ../cmk/gui/plugins/wato/ac_tests.py:190
 #, python-format
 msgid "You have a connection overflow rate of %.2f/s"
 msgstr "Vous avez un taux de débordement de la connexion de %.2f/s"
@@ -83011,7 +83011,7 @@ msgstr ""
 "Vous avez configuré une règle de mise à jour de l'agent qui permet "
 "l'utilisation du texte brut HTTP. Envisagez d'activer HTTPS."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:414
+#: ../cmk/gui/plugins/wato/ac_tests.py:415
 #, python-format
 msgid "You have configured %d backup jobs"
 msgstr "Vous avez configuré %d tâches de sauvegarde"
@@ -83564,7 +83564,7 @@ msgstr ""
 msgid "Your end date is before your start date."
 msgstr "Votre date de fin est antérieure à votre date de début."
 
-#: ../cmk/gui/plugins/wato/ac_tests.py:931
+#: ../cmk/gui/plugins/wato/ac_tests.py:935
 #, python-format
 msgid "Your extensions have a size of %s."
 msgstr "Vos extensions ont une taille de %s."
@@ -84856,8 +84856,8 @@ msgstr "groupes"
 msgid "h"
 msgstr "h"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:189
 #: ../cmk/gui/plugins/wato/check_parameters/ps.py:193
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:197
 msgid "handles"
 msgstr "poignées"
 
@@ -85382,8 +85382,8 @@ msgstr "minute"
 
 #: ../cmk/gui/valuespec.py:389 ../cmk/gui/plugins/wato/active_checks.py:1657
 #: ../cmk/gui/plugins/wato/active_checks.py:1929
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:124
-#: ../cmk/gui/plugins/wato/check_parameters/memory.py:108
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:128
+#: ../cmk/gui/plugins/wato/check_parameters/memory.py:109
 #: ../cmk/gui/plugins/wato/check_parameters/pfsense_counter.py:33
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:64
 #: ../cmk/gui/plugins/wato/check_parameters/cpu_utilization.py:79
@@ -86060,14 +86060,14 @@ msgstr "l'appel de procédure est utilisé"
 msgid "process performance data"
 msgstr "données sur la performance du processus"
 
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:87
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:92
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:97
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:102
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:744
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:749
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:754
-#: ../cmk/gui/plugins/wato/check_parameters/ps.py:759
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:91
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:96
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:101
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:106
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:748
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:753
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:758
+#: ../cmk/gui/plugins/wato/check_parameters/ps.py:763
 #: ../cmk/gui/plugins/wato/check_parameters/vms_procs.py:24
 #: ../cmk/gui/plugins/wato/check_parameters/vms_procs.py:25
 msgid "processes"
