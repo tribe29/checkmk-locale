@@ -1976,7 +1976,7 @@ msgstr ""
 "não reduzir o uso de alguma forma.</p>"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:770
-#, python-format
+#, no-python-format
 msgid ""
 "<p>The Checkmk Microcore uses Checkmk checker processes to execute the "
 "Checkmk and Checkmk Discovery services of the hosts monitored with Checkmk. "
@@ -2052,7 +2052,7 @@ msgstr ""
 "muitos processos Checkmk helper configurados.</p>"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:647
-#, python-format
+#, no-python-format
 msgid ""
 "<p>The Checkmk Microcore uses Checkmk helper processes to execute the "
 "Checkmk and Checkmk Discovery services of the hosts monitored with Checkmk. "
@@ -2090,7 +2090,7 @@ msgstr ""
 "carga quando se tem muitos processos de helper Checkmk configurados.</p>"
 
 #: ../cmk/gui/plugins/wato/ac_tests.py:858
-#, python-format
+#, no-python-format
 msgid ""
 "<p>The Checkmk Microcore uses generic check helper processes to execute the "
 "active check based services (e.g. check_http, check_...). There should "
@@ -2107,10 +2107,10 @@ msgstr ""
 "<p>O Checkmk Microcore utiliza processos genéricos de helper de cheques para "
 "executar os serviços baseados em cheques activos (por exemplo, check_http, "
 "check_http...). Deve haver sempre processos de helper suficientes para lidar "
-"com as cheques configuradas.</p><p>No caso do helper pool ser "
-"100% utilizado, as cheques não serão executadas a tempo, a latência das "
-"cheques irá crescer e os estados não estão actualizados.</p><p>Possíveis "
-"ações:<ul><li>Cheque se você pode ou não diminuir o tempo de execução das "
+"com as cheques configuradas.</p><p>No caso do helper pool ser 100% "
+"utilizado, as cheques não serão executadas a tempo, a latência das cheques "
+"irá crescer e os estados não estão actualizados.</p><p>Possíveis ações:"
+"<ul><li>Cheque se você pode ou não diminuir o tempo de execução das "
 "checagens</li><li>Cheque quais checagens / plugins são <a href=\"view.py?"
 "view_name=service_check_durations\">consumindo mais tempo de processo de "
 "helper</a>></li><li>Increase the <a href=\"wato.py?"
