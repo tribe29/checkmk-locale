@@ -884,7 +884,7 @@ msgstr "%s 書き込み %s"
 msgid "%s: %s"
 msgstr "%s: %s"
 
-#: ../cmk/utils/man_pages.py:459
+#: ../cmk/utils/man_pages.py:460
 #, python-format
 msgid "%s: Cannot parse man page: %s"
 msgstr "%s: マニュアルページを解析できません: %s"
@@ -6813,6 +6813,12 @@ msgstr "アプリケーションロードバランサー証明書"
 msgid "Application Load balancers"
 msgstr "アプリケーションロードバランサー"
 
+#: ../cmk/gui/plugins/wato/check_parameters/iis_app_pool_state.py:48
+#, fuzzy
+#| msgid "Application name"
+msgid "Application Pool name"
+msgstr "アプリケーション名"
+
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2820
 msgid "Application and Network Load Balancing (ELBv2)"
 msgstr "アプリケーションとネットワークの負荷分散(ELBv2)"
@@ -8280,8 +8286,8 @@ msgstr "BMCキー"
 msgid "BOUND"
 msgstr "バウンド"
 
-#: ../cmk/gui/plugins/wato/background_job.py:146 ../cmk/utils/man_pages.py:402
-#: ../cmk/utils/man_pages.py:421
+#: ../cmk/gui/plugins/wato/background_job.py:146 ../cmk/utils/man_pages.py:403
+#: ../cmk/utils/man_pages.py:422
 msgid "Back"
 msgstr "バック"
 
@@ -18599,6 +18605,12 @@ msgstr "JAR署名用のプラグインをデプロイします"
 msgid "Deploy plugin for MS Exchange database latency"
 msgstr "MS Exchangeデータベースの遅延用のプラグインをデプロイする"
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:22
+#, fuzzy
+#| msgid "Deploy plugin for NFS IO Stats"
+msgid "Deploy plugin for MS IIS Application Pool States"
+msgstr "NFS IO Statsのプラグインをデプロイします"
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_nfsiostat.py:23
 msgid "Deploy plugin for NFS IO Stats"
 msgstr "NFS IO Statsのプラグインをデプロイします"
@@ -20294,6 +20306,12 @@ msgstr "JAR署名用のプラグインをデプロイしないでください"
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/msexch_database.py:23
 msgid "Do not deploy plugin for MS Exchange database latency"
 msgstr "MS Exchangeデータベース遅延用のプラグインを展開しないでください"
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:23
+#, fuzzy
+#| msgid "Do not deploy plugin for NFS IO Stats"
+msgid "Do not deploy plugin for MS IIS Application Pool States"
+msgstr "NFS IO Statsのプラグインをデプロイしないでください"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:36
 msgid "Do not deploy plugin for MS Office 365"
@@ -22865,7 +22883,7 @@ msgstr "エンジンIDs(SNMPv3にのみ必要)"
 msgid "English"
 msgstr "English"
 
-#: ../cmk/utils/man_pages.py:402
+#: ../cmk/utils/man_pages.py:403
 msgid "Enter"
 msgstr "入る"
 
@@ -30041,6 +30059,12 @@ msgstr "IDLE"
 msgid "IGNORE"
 msgstr "無視する"
 
+#: ../cmk/gui/plugins/wato/check_parameters/iis_app_pool_state.py:50
+#, fuzzy
+#| msgid "Replication States"
+msgid "IIS Application Pool State Settings"
+msgstr "レプリケーションの状態"
+
 #: ../cmk/gui/plugins/wato/active_checks.py:211
 msgid "IMAP"
 msgstr "IMAP"
@@ -33481,7 +33505,7 @@ msgstr "無効なキー: %s"
 msgid "Invalid login credentials."
 msgstr "ログイン資格情報が無効です。"
 
-#: ../cmk/utils/man_pages.py:324
+#: ../cmk/utils/man_pages.py:325
 msgid "Invalid man page: Failed to get the title"
 msgstr "無効なマニュアルページ: タイトルの取得に失敗しました"
 
@@ -37377,6 +37401,10 @@ msgstr "MS Exchangeカウンター(さまざまな)"
 msgid "MS Exchange message queues discovery"
 msgstr "MS Exchangeメッセージキューの検出"
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:19
+msgid "MS IIS Application Pool State (Windows)"
+msgstr ""
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:24
 msgid "MS Office 365 (Windows)"
 msgstr "MS Office 365 (Windows)"
@@ -37803,7 +37831,7 @@ msgstr "ビューをユーザーで並べ替え可能にする"
 msgid "Makes the icon appear in the column instead of the dropdown menu."
 msgstr "ドロップダウンメニューの代わりにアイコンを列に表示します。"
 
-#: ../cmk/utils/man_pages.py:401 ../cmk/utils/man_pages.py:420
+#: ../cmk/utils/man_pages.py:402 ../cmk/utils/man_pages.py:421
 msgid "Man Page Browser"
 msgstr "マンページブラウザー"
 
@@ -49054,7 +49082,7 @@ msgstr "静止"
 msgid "Quiet cache"
 msgstr "クワイエットキャッシュ"
 
-#: ../cmk/utils/man_pages.py:402
+#: ../cmk/utils/man_pages.py:403
 msgid "Quit"
 msgstr "終了する"
 
@@ -54944,7 +54972,7 @@ msgstr "このホストのハードウェア/ソフトウェアインベント�
 msgid "Show MK Livestatus error messages"
 msgstr "MK Livestatusエラーメッセージを表示する"
 
-#: ../cmk/utils/man_pages.py:421
+#: ../cmk/utils/man_pages.py:422
 msgid "Show Manpage"
 msgstr "マンページを表示"
 
@@ -66708,6 +66736,14 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/msexch_database.py:20
 msgid "This plugin monitors MS Exchange database latency on Window hosts."
+msgstr ""
+"このプラグインは、WindowホストでのMS Exchangeデータベースの待ち時間時間を監視"
+"します。"
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:20
+#, fuzzy
+#| msgid "This plugin monitors MS Exchange database latency on Window hosts."
+msgid "This plugin monitors MS IIS Application Pool States on Windows hosts."
 msgstr ""
 "このプラグインは、WindowホストでのMS Exchangeデータベースの待ち時間時間を監視"
 "します。"

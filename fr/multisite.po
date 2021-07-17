@@ -894,7 +894,7 @@ msgstr "%s écrire %s"
 msgid "%s: %s"
 msgstr "%s : %s"
 
-#: ../cmk/utils/man_pages.py:459
+#: ../cmk/utils/man_pages.py:460
 #, python-format
 msgid "%s: Cannot parse man page: %s"
 msgstr "%s : Impossible d'analyser la page de manuel : %s"
@@ -7072,6 +7072,12 @@ msgstr "Certificats d'équilibreur de charge d'application"
 msgid "Application Load balancers"
 msgstr "Équilibreurs de charge d'applications"
 
+#: ../cmk/gui/plugins/wato/check_parameters/iis_app_pool_state.py:48
+#, fuzzy
+#| msgid "Application name"
+msgid "Application Pool name"
+msgstr "Nom de l'application"
+
 #: ../cmk/gui/plugins/wato/datasource_programs.py:2820
 msgid "Application and Network Load Balancing (ELBv2)"
 msgstr "Équilibrage de la charge des applications et des réseaux (ELBv2)"
@@ -8581,8 +8587,8 @@ msgstr "Clé BMC"
 msgid "BOUND"
 msgstr "BOUND"
 
-#: ../cmk/gui/plugins/wato/background_job.py:146 ../cmk/utils/man_pages.py:402
-#: ../cmk/utils/man_pages.py:421
+#: ../cmk/gui/plugins/wato/background_job.py:146 ../cmk/utils/man_pages.py:403
+#: ../cmk/utils/man_pages.py:422
 msgid "Back"
 msgstr "Dos"
 
@@ -19257,6 +19263,12 @@ msgstr "Déployer le plugin pour les signatures JAR"
 msgid "Deploy plugin for MS Exchange database latency"
 msgstr "Déployer un plugin pour la latence des bases de données MS Exchange"
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:22
+#, fuzzy
+#| msgid "Deploy plugin for NFS IO Stats"
+msgid "Deploy plugin for MS IIS Application Pool States"
+msgstr "Déployer le plugin pour NFS IO Stats"
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_nfsiostat.py:23
 msgid "Deploy plugin for NFS IO Stats"
 msgstr "Déployer le plugin pour NFS IO Stats"
@@ -21003,6 +21015,12 @@ msgstr "Ne pas déployer le plugin pour les signatures JAR"
 msgid "Do not deploy plugin for MS Exchange database latency"
 msgstr ""
 "Ne pas déployer le plugin pour la latence de la base de données MS Exchange"
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:23
+#, fuzzy
+#| msgid "Do not deploy plugin for NFS IO Stats"
+msgid "Do not deploy plugin for MS IIS Application Pool States"
+msgstr "Ne pas déployer le plugin pour NFS IO Stats"
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:36
 msgid "Do not deploy plugin for MS Office 365"
@@ -23629,7 +23647,7 @@ msgstr "IDs de moteur (seulement nécessaire pour SNMPv3)"
 msgid "English"
 msgstr "Anglais"
 
-#: ../cmk/utils/man_pages.py:402
+#: ../cmk/utils/man_pages.py:403
 msgid "Enter"
 msgstr "Entrez"
 
@@ -31071,6 +31089,12 @@ msgstr "IDLE"
 msgid "IGNORE"
 msgstr "IGNORE"
 
+#: ../cmk/gui/plugins/wato/check_parameters/iis_app_pool_state.py:50
+#, fuzzy
+#| msgid "Replication States"
+msgid "IIS Application Pool State Settings"
+msgstr "États de réplication"
+
 #: ../cmk/gui/plugins/wato/active_checks.py:211
 msgid "IMAP"
 msgstr "IMAP"
@@ -34784,7 +34808,7 @@ msgstr "Clé(s) invalide(s) : %s"
 msgid "Invalid login credentials."
 msgstr "Identifiants de connexion non valides."
 
-#: ../cmk/utils/man_pages.py:324
+#: ../cmk/utils/man_pages.py:325
 msgid "Invalid man page: Failed to get the title"
 msgstr "Page de manuel invalide : Impossible de récupérer le titre"
 
@@ -38776,6 +38800,10 @@ msgstr "Compteurs MS Exchange (divers)"
 msgid "MS Exchange message queues discovery"
 msgstr "Découverte des files d'attente de messages MS Exchange"
 
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:19
+msgid "MS IIS Application Pool State (Windows)"
+msgstr ""
+
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/mk_msoffice.py:24
 msgid "MS Office 365 (Windows)"
 msgstr "MS Office 365 (Windows)"
@@ -39220,7 +39248,7 @@ msgstr "Rendre la vue triable par utilisateur"
 msgid "Makes the icon appear in the column instead of the dropdown menu."
 msgstr "Fait apparaître l'icône dans la colonne au lieu du menu déroulant."
 
-#: ../cmk/utils/man_pages.py:401 ../cmk/utils/man_pages.py:420
+#: ../cmk/utils/man_pages.py:402 ../cmk/utils/man_pages.py:421
 msgid "Man Page Browser"
 msgstr "Navigateur de la page de l'homme"
 
@@ -50794,7 +50822,7 @@ msgstr "Quiescing"
 msgid "Quiet cache"
 msgstr "Cachette silencieuse"
 
-#: ../cmk/utils/man_pages.py:402
+#: ../cmk/utils/man_pages.py:403
 msgid "Quit"
 msgstr "Arrêtez"
 
@@ -56864,7 +56892,7 @@ msgstr "Afficher l'inventaire du matériel/logiciel de cet hôte"
 msgid "Show MK Livestatus error messages"
 msgstr "Afficher les messages d'erreur de MK Livestatus"
 
-#: ../cmk/utils/man_pages.py:421
+#: ../cmk/utils/man_pages.py:422
 msgid "Show Manpage"
 msgstr "Afficher la page d'accueil"
 
@@ -69541,6 +69569,14 @@ msgstr ""
 
 #: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/msexch_database.py:20
 msgid "This plugin monitors MS Exchange database latency on Window hosts."
+msgstr ""
+"Ce plugin surveille la latence des bases de données MS Exchange sur les "
+"hôtes Windows."
+
+#: ../cmk/gui/cee/plugins/wato/agent_bakery/rulespecs/iis_app_pool_state.py:20
+#, fuzzy
+#| msgid "This plugin monitors MS Exchange database latency on Window hosts."
+msgid "This plugin monitors MS IIS Application Pool States on Windows hosts."
 msgstr ""
 "Ce plugin surveille la latence des bases de données MS Exchange sur les "
 "hôtes Windows."
